@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Kaldirimdaki Arac]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir aracin kaldirimi, ~y~engelledigi~w~. ihbar edildi. Surucu ile konusmayi deneyin.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba. Burada bekleyemezsiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Hareket etmeyecegim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Hareket etmeniz gerekli-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Orada kal. Ne oldu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Bir sey yok. Bir sorun mu var?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Burasi bir kaldirim. Hareket etmelisiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Birini bekliyorum, her an burada olabilir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Bu bir rica degildi. Burasi bir kaldirim, insanlar kullaniyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Gidip baska bir yere park edecegim oyleyse.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba, kaldirima park etmissiniz, bunun farkinda misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Evet, ama sadece bir arkadasimi bekliyorum. Kalabilir miyim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Korkarim ki hayir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Peki, baska nereye gidebilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Park alani veya benzeri bir yere, buralarda bolca var.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Anladim, uzgunum. Bir daha olmayacak.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Paketlenmis Esrar Torbalari]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba, neden buraya park ettiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Bir seyin teslimatini yapiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Neyi teslim ediyorsunuz? Bir teslimat soforune benzemiyorsunuz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Uh, yapmam gereken bir sey.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Yani, buraya park etmissiniz ve bir sey teslim etmeyi mi bekliyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Dinle, bunu ailem icin teslim etmem gerekiyor. Lutfen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

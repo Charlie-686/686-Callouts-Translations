@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Dezorientowana Osoba]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Operatorzy kamer~w~ mają ~y~obawy~w~ co do pewnej osoby, sprawdź ją.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[wydaje się być pod wpływem alkoholu]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Cześć, czy wszystko w porządku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Cześć! Czy moglibyśmy na chwilę porozmawiać?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany: ~w~Neooooooooo, ale nie chcę.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana: ~w~Neooooooooo, ale nie chcę.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Myślę, że byłoby najlepiej, gdybyśmy mogli; czy masz jakieś dane?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany: ~w~Hmmm...nie dziękuję...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana: ~w~Hmmm...nie dziękuję...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ BLALALALALA! CZAS IŚĆ DO DOMU! DO WIDZENIA OFICERZE!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ BLALALALALA! CZAS IŚĆ DO DOMU! DO WIDZENIA OFICERZE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Cześć, dzięki Bogu, że jesteś!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Cześć, dzięki Bogu, że jesteś!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~ Cześć, co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Zgubiłem się, nie jestem stąd. Nie wiem, jak wrócić do domu.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Zgubiłam się, nie jestem stąd. Nie wiem, jak wrócić do domu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ O rety, czy jest ktoś, kto mógłby po ciebie przyjechać?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ O tak, jest! Pozwól, że teraz do nich napiszę.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ O tak, jest! Pozwól, że teraz do nich napiszę.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~ Doskonale. Jeśli nie mogą przyjechać, zobaczymy, czy możemy znaleźć jakieś alternatywne rozwiązania.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+</CALLOUT>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co się dzieje?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Nic...właśnie byłem na świetnej imprezie.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Nic...właśnie byłam na świetnej imprezie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem, a ty po prostu tak tu chodzisz?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Tak, uwielbiam być na zewnątrz.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Tak, uwielbiam być na zewnątrz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Czy mogę prosić o twoje imię?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Dobrze..moje imię to Ben Dover.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Dobrze..moje imię to Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Skończ z żartami, chcę twoje prawdziwe imię.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Pozwól, że spróbuję sobie przypomnieć...myślę, że to {0}.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Pozwól, że spróbuję sobie przypomnieć...myślę, że to {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Cześć, czy wszystko w porządku?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Tak, tak jest.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Tak, tak jest.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem, mieliśmy tylko zgłoszenia o dezorientowanej osobie w okolicy.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Jestem w pełni sprawny, ale byłbym wdzięczny, gdybyś mnie zostawił w spokoju.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Jestem w pełni sprawna, ale byłabym wdzięczna, gdybyś mnie zostawił w spokoju.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Jestem w pełni sprawny, ale byłbym wdzięczny, gdybyś mnie zostawiła w spokoju.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Jestem w pełni sprawna, ale byłabym wdzięczna, gdybyś mnie zostawiła w spokoju.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Jeśli nalegasz, miłego dnia.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

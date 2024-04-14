@@ -1,0 +1,55 @@
+<GENERAL>
+	<UPDATECHECKER>
+		<LOADED><![CDATA[加载完毕，~g~版本无问题~w~，请准备执行任务。]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~您现在正使用旧版本。]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~加载完毕，但请尽快升《686 Callouts》！]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~检测到测试版本。]]></BETAVERSION>
+		<BETAVERSION><![CDATA[感谢您的合作以及反馈！( >д<)]]></BETAVERSION>
+		<FAILED><![CDATA[~r~版本升级检测失败！]]></FAILED>
+		<FAILED><![CDATA[~y~加载完毕，但无法检测任何版本升级要求。]]></FAILED>
+	</UPDATECHECKER>
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[《686 Callouts》少了东西！~y~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[《CalloutInterfaceAPI》]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[《686 Callouts》文件夹]]></_686CALLOUTSFOLDER>R>
+		<AUDIOFILES><![CDATA[音频文件]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[翻译资料文件夹]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[总任务情报]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[执行任务次数]]></CALLS>
+		<FIGHTS><![CDATA[任务中市民打架次数]]></FIGHTS>
+		<PURSUITS><![CDATA[追寻任务次数]]></PURSUITS>
+		<ARRESTS><![CDATA[控制嫌疑犯次数]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[执行任务中嫌疑犯死亡次数]]></SUSPECTDEATHS>
+	</STATISTICS>
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~表现与行为分析报告~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[嫌疑犯看似~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[受害者看似~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~系统崩溃预防]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~您游戏有可能出了问题，~w~ 请联络技术支援部。]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~检测距离]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[很抱歉，检测到的距离太小，无法加载任务。]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[出问题了！怪这死游戏吧！！]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~游戏把我们的零件给删了！很抱歉，但我们无法阻止这问题，不过应该不会常见。]]></INVALIDPED>
+		<DISPATCH><![CDATA[指挥中心]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[对话已结束。请按照您认为合适的方式处理目前的情况。]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[如想开始对话，请按~y~{0}~w~键。]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[任务执行完时，可随时按~y~{0}~w~键，向指挥中心报告执行完毕。]]></ENDREMINDER>
+		<INFORMATION><![CDATA[情报]]></INFORMATION>
+		<CODE4><![CDATA[~g~报告指挥中心，任务执行完毕，~w~ 我现在可以接受下个任务了。]]></CODE4>
+		<PURSUITUPDATE><![CDATA[追寻嫌疑犯情报]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has ~y~{1}~w~ citation(s) in the past.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[believes the suspect is ~y~male~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[believes the suspect is ~y~female~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has been stopped ~y~{1}~w~ time(s) in the past.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[does ~y~not have details~w~ on the suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+	    <CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[EMERGENCY CALL]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Location: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

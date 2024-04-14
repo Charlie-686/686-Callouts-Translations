@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Дезориентированный индивидуум]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Операторы камер~w~ выразили ~y~обеспокоенность~w~ на счёт человека, проверьте его.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[имеет сильный запах перегара]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый: ~w~Блеееггггхххх *блюет*]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая: ~w~Блеееггггхххх *блюет*]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Привет, все в порядке?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Приве-e-eт! Мы можем просто поговорить?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый: ~w~Неееееаагх, я не хочу.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая: ~w~Неееееаагх, я не хочу.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Я думаю, будет к лучшему, если мы все же поговорим, у тебя есть какие-нибудь документы?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый: ~w~Хммм...нет спасиииб...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая: ~w~Хммм...нет спасиииб...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ БЛАЛАЛАЛАЛА! ПРОЩАЙТЕ, ОФИЦЕР!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ БЛАЛАЛАЛАЛА! ПРОЩАЙТЕ, ОФИЦЕР!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0> 
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Здравствуйте, слава богу, вы здесь!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Здравствуйте, слава богу, вы здесь!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~ Здравствуйте, в чем дело?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я заблудился и я не отсюда, понимаете. Я не знаю как добраться домой.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймая:~w~ Я заблудилась и я не отсюда, понимаете. Я не знаю как добраться домой.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ О боже, есть ли кто-нибудь, кто мог бы заехать за вами?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ О да, есть! Сейчас я им напишу.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ О да, есть! Сейчас я им напишу.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~ Прекрасно. Если они не смогут приехать, посмотрим, сможем ли мы договориться об альтернативах]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Что происходит?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ничегооо особенногоо...просто была отличная вереринкааа.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ничегооо особенногоо...просто была отличная вереринкааа.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Ясно, а ты значит просто бродишь вокруг да около?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Да, я люблююю гулять по улице.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Да, я люблююю гулять по улице.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Могу я узнать ваше имя, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ладно... моё имя Яспер Моглот]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ладно... моё имя Головач Лена]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Хватит шуток, мне нужно твое настоящее имя.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Дай-ка я попробую вспомнить...Я думаю, {0}.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Дай-ка я попробую вспомнить...Я думаю, {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Здравствуйте, все в порядке?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Да, да, все хорошо.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Да, да, все хорошо.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Понятно, нам просто поступили сообщения о дезориентированном индивидууме в этих окрестностях.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Окей, а разве это преступление?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Окей, а разве это преступление?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Нет, мы просто хотели убедиться, что с вами все в порядке.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я в полном порядке, но я был бы признателен, если вы оставите меня в покое.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я в полном порядке, но я была бы признательна, если вы оставите меня в покое.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Если вы настаиваете, хорошего вам дня.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

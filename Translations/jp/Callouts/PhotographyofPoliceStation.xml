@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[警察署の撮影]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[警察署を撮影してる人がいるため、理由を聞いてみてください。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~こんにちは。ここで何をしているのですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~何も、何もありません。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~カメラを下げてお話ししてほしいのですが…]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~どうしましたか？なぜここに来たのですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~違法なことはしていません。放っておいてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~私は何が起こっているのかを把握するためにお話ししたいだけです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~私はただ、完全に合法なことをしようとしているだけです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~あなたとお話がしたいだけなんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~ここは公共の場ですよ。私の撮影を邪魔をしないでください。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~こんにちは。警察署の写真を撮ってる理由をお尋ねしてもいいですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~私のSNSに上げようと思ってました。大丈夫ですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~法的には問題ありませんが、長い間行っているのは少々奇妙に思えます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~分かりました。今終わったので、移動します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ありがとうございます。助かります。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[電話番号を受け取り、初期調査が開始しました。ありがとうございます。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~こんにちは。警察署の写真を撮っているのは何ですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~本当に知りたいのですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~はい、教えてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~私が馬鹿げたことを言ってるのは分かってますが、Jeffという人にメールが送られて、撮影を頼まれました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~ああ、今思うと、それはちょっと怪しいことだったなと思います。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~私と同じことを考えてると思います。ちなみに、彼の電話番号を教えていただけますか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~あなたは今家に帰った方がいいと思います。そして誰と話しているのかを考えてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~はい、分かりました。ご迷惑をおかけして申し訳ありません。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~こんにちは。警察署の撮影をしているのはなぜですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~こんにちは！私は警察とその仕事の大ファンなんです！この警察署の写真を撮りたいのですが、いいですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~なるほど、これは何かの趣味なんですか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~ その通り！私は警察官になりたかったのですが、警察署の反対側にいることから分かる通り、計画通りにはいきませんでした。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~それは興味深いですね、私は何をしているのかを確認したくて声をかけました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~時間を取らせてしまって申し訳ありませんが、とにかく撮影は終えましたし、自分ではなかなか良く撮れたと思っています。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~全く問題ありません、素晴らしい一日をお過ごしください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手: ~w~それじゃあ、そろそろ行きますね。将来、またどこかですれ違うことがあるかもしれませんね。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

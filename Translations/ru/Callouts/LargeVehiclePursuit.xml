@@ -1,0 +1,10 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Преследование крупного транспорта]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Крупный автомобиль был ~y~украден~w~. Задержите ~r~подозреваемого~w~ не подвергая людей опасности.]]></FURTHERINFORMATION>
+     	<NOTIFICATION><![CDATA[Преследуйте ~r~подозреваемого~w~.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
