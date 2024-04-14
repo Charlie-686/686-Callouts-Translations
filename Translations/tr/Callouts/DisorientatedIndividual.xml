@@ -1,114 +1,51 @@
-
 <CALLOUT>
-<GENERAL>
-<CALLOUTMESSAGE>
-<![CDATA[ Yonunu Kaybetmis Birey ]]>
-</CALLOUTMESSAGE>
-<FURTHERINFORMATION>
-<![CDATA[ ~p~Kamera Operatorleri~w~, bir kisi hakkinda endiselerini bildirdi. Onu kontrol et. ]]>
-</FURTHERINFORMATION>
-</GENERAL>
-<OUTCOME0>
-<NOTIFICATION>
-<![CDATA[ Alkol kokusu geliyor. ]]>
-</NOTIFICATION>
-<DIALOGUES>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli: ~w~Spuuuaaa, bloooghhhhh ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen: ~w~Merhaba, her sey yolunda mi? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen: ~w~Merhaba! Sadece kisa bir konusma yapabilir miyiz lutfen? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli: ~w~Neeeooo, ama istemiyorum. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen: ~w~Eğer mumkunse konusmak daha iyi olurdu; uzerinde herhangi bir sey var mi? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli: ~w~Hmm...hayir tesekkurler... ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ BILALALALALA! ZAMAN GELDI, HAYDI GULE GULE POLIS! ]]>
-</DIALOGUE>
-</DIALOGUES>
-</OUTCOME0>
-<OUTCOME1>
-<DIALOGUES>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Merhaba, Tanri'ya sukurler olsun ki buradasiniz! ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen ~w~ Merhaba, ne oldu? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Kayboldum, ben buranin yerlisi degilim. Nasil eve donecegimi bilmiyorum. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Oh hayir, seni alacak kimse yok mu? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Oh evet, var! Simdi onlara mesaj atayim. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen ~w~ Mukemmel. Eger gelemeyeceklerse alternatif bir yol izleyebiliriz. ]]>
-</DIALOGUE>
-</DIALOGUES>
-</OUTCOME1>
-<OUTCOME2>
-<DIALOGUES>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Ne oluyor? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Hicbir sey...sadece harika bir partiye katildim. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Anladim, ve simdi etrafta mi dolasiyorsun? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Evet, disarida olmayi seviyorum. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Adini ogrenebilir miyim lutfen? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Peki..adim.. Ben Dover. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Sakaları birak, gercek adini istiyorum. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Hatirlamaya calisayim...sanirim {0} olmali. ]]>
-</DIALOGUE>
-</DIALOGUES>
-</OUTCOME2>
-<OUTCOME3>
-<DIALOGUES>
-<DIALOGUE>
-<![CDATA[ ~b~Sen: ~w~Merhaba, her sey yolunda mi? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Evet, her sey yolunda. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Anladım, bize bir kisinin yolunu kaybettigine dair ihbar geldi. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Tamam, bu bir suc mu? ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Hayir, sadece sizin iyi olup olmadiginizi ogrenmek istedik. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~r~Supheli:~w~ Ben tamamen iyiyim, ama beni tek basima birakirsaniz sevinirim. ]]>
-</DIALOGUE>
-<DIALOGUE>
-<![CDATA[ ~b~Sen:~w~ Peki oyleyse. Iyi gunler dilerim. ]]>
-</DIALOGUE>
-</DIALOGUES>
-</OUTCOME3>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Yonunu Kaybetmis Birey ]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Kamera Operatorleri~w~, bir kisi hakkinda endiselerini bildirdi. Onu kontrol et. ]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[ Alkol kokusu geliyor. ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Supheli: ~w~Spuuuaaa, bloooghhhhh ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen: ~w~Merhaba, her sey yolunda mi? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen: ~w~Merhaba! Sadece kisa bir konusma yapabilir miyiz lutfen? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli: ~w~Neeeooo, ama istemiyorum. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen: ~w~Eğer mumkunse konusmak daha iyi olurdu; uzerinde herhangi bir sey var mi? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli: ~w~Hmm...hayir tesekkurler... ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ BILALALALALA! ZAMAN GELDI, HAYDI GULE GULE POLIS! ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Merhaba, Tanri'ya sukurler olsun ki buradasiniz! ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen ~w~ Merhaba, ne oldu? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Kayboldum, ben buranin yerlisi degilim. Nasil eve donecegimi bilmiyorum. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Oh hayir, seni alacak kimse yok mu? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Oh evet, var! Simdi onlara mesaj atayim. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen ~w~ Mukemmel. Eger gelemeyeceklerse alternatif bir yol izleyebiliriz. ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Ne oluyor? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Hicbir sey...sadece harika bir partiye katildim. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Anladim, ve simdi etrafta mi dolasiyorsun? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Evet, disarida olmayi seviyorum. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Adini ogrenebilir miyim lutfen? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Peki..adim.. Ben Dover. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Sakaları birak, gercek adini istiyorum. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Hatirlamaya calisayim...sanirim {0} olmali. ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen: ~w~Merhaba, her sey yolunda mi? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Evet, her sey yolunda. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Anladım, bize bir kisinin yolunu kaybettigine dair ihbar geldi. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Tamam, bu bir suc mu? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Hayir, sadece sizin iyi olup olmadiginizi ogrenmek istedik. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Ben tamamen iyiyim, ama beni tek basima birakirsaniz sevinirim. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Peki oyleyse. Iyi gunler dilerim. ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
 </CALLOUT>
