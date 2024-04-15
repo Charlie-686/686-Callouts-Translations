@@ -1,0 +1,17 @@
+<PEDDESCRIPTIONS>
+	<PREFIX TARGET = "M"><![CDATA[Podejrzany ma na sobie ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[Podejrzana ma na sobie ~y~]]></PREFIX>
+	<PREFIX TARGET = "M"><![CDATA[Podejrzany ma na sobie ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[Podejrzana ma na sobie ~y~]]></PREFIX>
+	<PREFIX TARGET = "M"><![CDATA[Podejrzany to ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[Podejrzana to ~y~]]></PREFIX>
+	<DESCRIPTION PREFIX = "0" ><![CDATA[garnitur~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[niebieską koszulkę~w~ i jest biegaczem.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[niebieską koszulę w kratkę~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[skórzaną kurtkę~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[pracownik~w~, ma na sobie ~y~białą koszulkę~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[szelki~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[niebieską koszulę~w~ z ~y~niebieskimi szortami~w~. Podejrzany pracownik poczty.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[dużą czerwoną koszulę i czapkę~w~ z ~y~granatowymi spodniami~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[jasnoniebieski blezer i dżinsową spódnicę~w~ z ~y~czerwoną koszulką pod spodem~w~.]]></DESCRIPTION>
+</PEDDESCRIPTIONS>
