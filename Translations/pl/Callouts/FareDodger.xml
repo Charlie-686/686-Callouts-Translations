@@ -2,7 +2,7 @@
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Osoba unikająca opłat]]></CALLOUTMESSAGE>
 		<FURTHERINFORMATION><![CDATA[~p~Personel stacji~w~ potrzebuje twojej pomocy; musisz zatrzymać osobę, która mogła ~y~nie zapłacić za bilet kolejowy.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Rozmawiaj z podejrzanym ~y~oszustem.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Porozmawiaj z podejrzanym ~y~oszustem.]]></NOTIFICATION>
 		<OTHER><![CDATA[~g~Ważny bilet]]></OTHER>
 		<OTHER><![CDATA[~r~Fałszywy bilet]]></OTHER>
 	</GENERAL>
@@ -13,8 +13,10 @@
 			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Przepraszam, czy mogłabyś tu zaczekać chwilę?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Niech będzie szybko, muszę zdążyć na pociąg.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Niech będzie szybko, muszę zdążyć na pociąg.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty: ~w~Rozmawiałem z kontrolerem biletów, i powiedział mi, że przeskoczyłeś bariery?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Rozmawiałam z kontrolerem biletów, i powiedział mi, że przeskoczyłaś bariery?]]></DIALOGUE>
+			<DIALOGUE PLAYER= "M" TARGET = "M"><![CDATA[~b~Ty: ~w~Rozmawiałem z kontrolerem biletów, i powiedział mi, że przeskoczyłeś bariery]]></DIALOGUE>
+			<DIALOGUE PLAYER= "M" TARGET = "F"><![CDATA[~b~Ty: ~w~Rozmawiałem z kontrolerem biletów, i powiedział mi, że przeskoczyłaś bariery]]></DIALOGUE>
+			<DIALOGUE PLAYER= "F" TARGET = "M"><![CDATA[~b~Ty: ~w~Rozmawiałam z kontrolerem biletów, i powiedział mi, że przeskoczyłeś bariery]]></DIALOGUE>
+			<DIALOGUE PLAYER= "F" TARGET = "F"><![CDATA[~b~Ty: ~w~Rozmawiałam z kontrolerem biletów, i powiedział mi, że przeskoczyłaś bariery]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Pfff. To naprawdę nie jest wielka sprawa. Nie mam przy sobie drobnych, czy możesz to przemilczeć?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Pfff. To naprawdę nie jest wielka sprawa. Nie mam przy sobie drobnych, czy możesz to przemilczeć?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~To jest przestępstwo korzystać z pociągu bez płacenia za bilet, wypiszę ci mandat.]]></DIALOGUE>
@@ -26,13 +28,18 @@
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
-		<OTHER><![CDATA[Zauważyłem bilet, który ktoś ma; wygląda niezwykle, mam przeczucie, że może być fałszywy. Niestety, stają się coraz bardziej powszechne.]]></OTHER>
+		<OTHER><![CDATA[Zauważyłem bilet, który ktoś ma; wygląda niezwykle, mam przeczucie, że może być fałszywy. Niestety, stają się one coraz bardziej powszechne.]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty: ~w~Cześć, czy mógłbyś tu na mnie zaczekać?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Cześć, czy mogłabyś tu na mnie zaczekać?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~No cóż, mam bilet, to dzięki niemu przeszedłem.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~No cóż, mam bilet, to dzięki niemu przeszłam.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Rozumiem, czy mogę na niego spojrzeć?]]></DIALOGUE>
@@ -45,8 +52,10 @@
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Szczerze mówiąc, zrób coś pożytecznego ze swoim życiem na razie. Daj mi ten mandat, a potem odchodzę.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Szczerze mówiąc, zrób coś pożytecznego ze swoim życiem na razie. Daj mi ten mandat, a potem odchodzę.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Proszę.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Bardzo ci dziękuję za to. Zrujnowałeś mi dzień.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Bardzo ci dziękuję za to. Zrujnowałeś mi dzień.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Bardzo ci dziękuję za to. Zrujnowałeś mi dzień.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Bardzo ci dziękuję za to. Zrujnowałeś mi dzień.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Bardzo ci dziękuję za to. Zrujnowałaś mi dzień.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Bardzo ci dziękuję za to. Zrujnowałaś mi dzień.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
@@ -54,11 +63,13 @@
 		<DIALOGUES>
 			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty: ~w~Cześć, czy mógłbyś tu na mnie zaczekać?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Cześć, czy mogłabyś tu na mnie zaczekać?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Poproszono mnie, abym sprawdził, czy masz przy sobie bilet.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Nie wiem, czy mam?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Nie wiem, czy mam?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Nie wiem, czy mam]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Nie wiem, czy mam]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~To nie jest żart, potrzebuję szczerej odpowiedzi.]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Do diabła! Łap przestępców, a nie ludzi, którzy chcą pojechać pociągiem.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Do diabła! Łap przestępców, a nie ludzi, którzy chcą pojechać pociągiem.]]></DIALOGUE>
@@ -72,11 +83,15 @@
 		<OTHER><![CDATA[Rzucając okiem na bilet, który ktoś używał, zauważyłem, że wygląda nieprawidłowo. Myślę, że jest fałszywy.]]></OTHER>
 		<OTHER><![CDATA[~r~Fałszywe bilety]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty: ~w~Przepraszam, muszę z tobą porozmawiać.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Przepraszam, muszę z tobą porozmawiać.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Przepraszam, muszę z tobą porozmawiać.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~No cóż, mam bilet, to dzięki niemu przeszedłem.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~No cóż, mam bilet, to dzięki niemu przeszłam.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Rozumiem, czy mogę na niego spojrzeć?]]></DIALOGUE>
@@ -108,9 +123,14 @@
 		<DIALOGUES>
 			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty: ~w~Cześć, czy mógłbyś tu na mnie zaczekać?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty: ~w~Cześć, czy mogłabyś tu na mnie zaczekać?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, panie policjancie, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Oczywiście, pani policjantko, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałem wezwany przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłeś przez bramki?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~b~Ty: ~w~Zostałam wezwana przez personel stacji kolejowej, zastanawiali się, jak przeszedłaś przez bramki?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany: ~w~Jak wszyscy inni, z moim biletem kolejowym.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana: ~w~Jak wszyscy inni, z moim biletem kolejowym.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Czy mogę na niego spojrzeć?]]></DIALOGUE>
