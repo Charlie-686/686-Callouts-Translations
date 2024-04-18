@@ -36,8 +36,8 @@
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Proszę, przepraszam! Nie chciałem...]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Proszę, przepraszam! Nie chciałam...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ To w porządku, możemy to omówić później. Pamiętaj tylko, aby przestrzegać moich instrukcji.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Nigdy nie będę miał jej przy sobie, nie chcę tego w moim rekordzie...]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Nigdy nie będę miała jej przy sobie, nie chcę tego w moim rekordzie...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Nigdy nie będę miał jej przy sobie, nie chcę tego w mojej karkotece...]]></DIALOGUE> 
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Nigdy nie będę miała jej przy sobie, nie chcę tego w mojej karkotece...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ To w porządku, nie jesteśmy tutaj, aby cię skrzywdzić. Po prostu podnieś ręce.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
