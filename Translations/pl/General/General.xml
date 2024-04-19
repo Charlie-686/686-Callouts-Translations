@@ -25,22 +25,22 @@
 		<SUSPECTDEATHS><![CDATA[Śmierci podejrzanych]]></SUSPECTDEATHS>
 	</STATISTICS>
 	<NOTIFICATIONS>
-		<BEHAVIOURALANALYSIS><![CDATA[~b~Analiza zachowań~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Analiza zachowania~w~]]></BEHAVIOURALANALYSIS>
 		<BEHAVIOURALANALYSIS TARGET="M"><![CDATA[Podejrzany wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
 		<BEHAVIOURALANALYSIS TARGET="F"><![CDATA[Podejrzana wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
 		<BEHAVIOURALANALYSIS><![CDATA[Ofiara wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
 		<CRASHPREVENTION><![CDATA[~r~Zapobieganie awariom]]></CRASHPREVENTION>
-		<CRASHPREVENTION><![CDATA[~o~Może być problem.~w~ Skontaktuj się z pomocą techniczną.]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Może występować problem.~w~ Proszę skontaktować się z pomocą techniczną.]]></CRASHPREVENTION>
 		<DISTANCECHECK><![CDATA[~r~Sprawdzenie odległości]]></DISTANCECHECK>
 		<DISTANCECHECK><![CDATA[Przykro mi, byłeś zbyt blisko, aby to wezwanie mogło się rozpocząć.]]></DISTANCECHECK>
 		<INVALIDPED><![CDATA[Winny jest GTAV!]]></INVALIDPED>
 		<INVALIDPED><![CDATA[~o~GTAV usunął jednego z naszych pieszego! Nie mogliśmy zrobić nic innego, jak tylko zapobiec awarii, ale to nie powinno się zdarzać często.]]></INVALIDPED>
-		<DISPATCH><![CDATA[Centrum]]></DISPATCH>
-		<DIALOGUEOVER><![CDATA[Dialog zakończony. Postępuj z sytuacją, jak uważasz za stosowne.]]></DIALOGUEOVER>
+		<DISPATCH><![CDATA[Centrala]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialog zakończony. Zrób to co uważasz za stosowne.]]></DIALOGUEOVER>
 		<BEGINSPEAKING><![CDATA[Naciśnij ~y~{0}~w~, aby zacząć mówić.]]></BEGINSPEAKING>
 		<ENDREMINDER><![CDATA[Naciśnij ~y~{0}~w~ w dowolnym momencie, aby zakończyć wezwanie.]]></ENDREMINDER>
 		<INFORMATION><![CDATA[Informacje]]></INFORMATION>
-		<CODE4><![CDATA[~g~Kod 4.~w~ Pokaż, że jestem dostępny do rozmów.]]></CODE4>
+		<CODE4><![CDATA[~g~Kod 4.~w~ Jestem dostępny na wezwania.]]></CODE4>
         <PURSUITUPDATE><![CDATA[Aktualizacja pościgu]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~.]]></PURSUITUPDATE>
@@ -50,7 +50,7 @@
 		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest {0}.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~, który został zatrzymany ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~, która została zatrzymana ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
-		<PURSUITUPDATE><![CDATA[does ~y~not have details~w~ on the suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<PURSUITUPDATE><![CDATA[nie ma ~y~szczegółów~w~ na temat podejrzanego.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
 
 	</NOTIFICATIONS>
 </GENERAL> 

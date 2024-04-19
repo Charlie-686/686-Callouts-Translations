@@ -3,14 +3,14 @@
 		<CALLOUTMESSAGE><![CDATA[Porwanie w toku]]></CALLOUTMESSAGE>
 		<FURTHERINFORMATION><![CDATA[Podobno ktoś został ~y~porwany w taksówce. ~y~Przeprowadź kontrolę drogową.~w~]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[~p~Wyszukiwanie w bazie danych...]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~g~Sprawdzenia są czyste. Nie ma powodów do obaw.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Nic nie znaleziono w bazie danych. Nie ma powodów do obaw.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~Podejrzany jest poszukiwany. Powód do obaw.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Po zajęciu się podejrzanym, naciśnij ~y~{0}~w~, aby pomóc ofierze.]]></NOTIFICATION>
-		<OTHER><![CDATA[~r~Krwawe kajdanki na kabelki]]></OTHER>
+		<OTHER><![CDATA[~r~Krwawe kajdanki]]></OTHER>
 		<OTHER><![CDATA[~r~Krwawe rękawiczki]]></OTHER>
 		<OTHER><![CDATA[~y~Taśma klejąca]]></OTHER>
-		<OTHER><![CDATA[~r~Przepaska na oczy]]></OTHER>
-		<OTHER><![CDATA[~r~Kajdanki na kabelki~w~, ~r~Nóż~w~, ~o~Kominiarka]]></OTHER>
+		<OTHER><![CDATA[~r~Opaska na oczy]]></OTHER>
+		<OTHER><![CDATA[~r~Kajdanki ~w~, ~r~Nóż~w~, ~o~Kominiarka]]></OTHER>
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
@@ -43,12 +43,13 @@
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem, pozwól, że szybko porozmawiam z pasażerem.]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Cześć, policjancie, czego potrzebujesz?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Cześć, policjancie, czego potrzebujesz?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Właśnie otrzymaliśmy zgłoszenia o porwaniu, chciałem tylko sprawdzić, czy wszystko jest w porządku?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Ty:~w~ Właśnie otrzymaliśmy zgłoszenia o porwaniu, chciałem tylko sprawdzić, czy wszystko jest w porządku?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Ty:~w~ Właśnie otrzymaliśmy zgłoszenia o porwaniu, chciałam tylko sprawdzić, czy wszystko jest w porządku?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Absolutnie! Właśnie byłem na zakupach i są one w bagażniku.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Absolutnie! Właśnie byłam na zakupach i są one w bagażniku.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dziękuję. Przeprowadzę tylko kilka sprawdzeń, a potem pozwolę ci kontynuować podróż.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Oczywiście, nie ma pośpiechu.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Oczywiście, nie ma pośpiechu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dziękuję. Przeprowadzę tylko kontrolę, a potem pozwolę ci kontynuować podróż.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Oczywiście, nie śpiesz się.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Oczywiście, nie śpiesz się.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Wszystko jest w porządku, możesz jechać dalej!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
@@ -71,7 +72,7 @@
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrze, i nie ma nic, co chciałbyś mi powiedzieć?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Po prostu wracam do domu, to wszystko.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Po prostu wracam do domu, to wszystko.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Świetnie, wszystko wydaje się być w porządku. Przeprowadzę kilka sprawdzeń, a potem możemy kontynuować.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Świetnie, wszystko wydaje się być w porządku. Przeprowadzę kontrolę, a potem możemy kontynuować.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<EXTRA>
@@ -79,9 +80,12 @@
 	<OTHER><![CDATA[Szedłem do domu, a ta osoba w kominiarce złapała mnie i poczułem broń na mojej głowie. Zmusili mnie do wejścia do taksówki.]]></OTHER>
 	<OTHER><![CDATA[Ten taksówkarz poprosił mnie o wskazanie drogi, pochyliłem się do jego samochodu, żeby z nim porozmawiać, a on mnie wciągnął. Ale nie jestem ranny.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Dziękuję bardzo, panie policjancie! Myślałem... myślałem, że to koniec.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Dziękuję bardzo, panie policjancie! Myślałam... myślałam, że to koniec.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Jestem zadowolony, że cię znaleźliśmy. Chcę cię bezpiecznie odwieźć do domu, ale czy możesz mi powiedzieć, co się stało?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~y~Pasażer:~w~ Dziękuję bardzo, panie policjancie! Myślałem... myślałem, że to koniec.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Dziękuję bardzo, panie policjancie! Myślałam... myślałam, że to koniec.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~y~Pasażer:~w~ Dziękuję bardzo, pani policjantko! Myślałem... myślałem, że to koniec.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~y~Pasażerka:~w~ Dziękuję bardzo, pani policjantko! Myślałam... myślałam, że to koniec.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Ty:~w~ Jestem zadowolony, że cię znaleźliśmy. Chcę cię bezpiecznie odwieźć do domu, ale czy możesz mi powiedzieć, co się stało?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Ty:~w~ Jestem zadowolona, że cię znaleźliśmy. Chcę cię bezpiecznie odwieźć do domu, ale czy możesz mi powiedzieć, co się stało?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Pasażer:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem. Dziękuję za podzielenie się tymi szczegółami.]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasażer:~w~ Nie mogę uwierzyć, że to się stało...]]></DIALOGUE>

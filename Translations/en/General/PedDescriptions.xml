@@ -2,14 +2,13 @@
 	<PREFIX><![CDATA[Suspect is wearing a ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
 	<PREFIX><![CDATA[Suspect is wearing ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
 	<PREFIX><![CDATA[Suspect is a ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
-	<DESCRIPTION PREFIX = "0" ><![CDATA[suit~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[blue T-shirt~w~ and is a runner.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[blue chequered shirt~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[leather coat~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "2"><![CDATA[worker~w~, wearing a ~y~white T-shirt~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "1"><![CDATA[suspenders~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[blue shirt~w~ with ~y~blue shorts~w~. Suspected postal worker.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[large red shirt and cap~w~ with ~y~navy trousers~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[light blue blazer and denim skirt~w~ with a ~y~red shirt underneath~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0" ><![CDATA[suit~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blue T-shirt~w~ and is a runner.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blue chequered shirt~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[leather coat~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[worker~w~, wearing a ~y~white T-shirt~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[suspenders~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blue shirt~w~ with ~y~blue shorts~w~. Suspected postal worker.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[large red shirt and cap~w~ with ~y~navy trousers~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[light blue blazer and denim skirt~w~ with a ~y~red shirt underneath~w~.]]></DESCRIPTION> // FEMALE ped. 
 </PEDDESCRIPTIONS>
-<!-- <![CDATA[]]> -->
