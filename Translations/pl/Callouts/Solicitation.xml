@@ -1,0 +1,76 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Prostytucja]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Zgłoszono podejrzaną ~y~prostytutkę~w~, udaj się na miejsce ~y~czekając na dalsze instrukcje~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Zbliżasz się do miejsca zdarzenia. Zaparkuj tak, abyś ~y~nie został zauważony~w~ przez podejrzanego.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Nawiąż kontakt z podejrzanym.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jesteś ~r~zbyt blisko podejrzanego~w~. Odsuń się dalej, aby uniknąć zauważenia.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Zwróciłeś uwagę podejrzanego.~n~~w~Z tego powodu ~y~nie mogliśmy zebrać dowodów~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Podejrzany nawiązał kontakt z pojazdem. ~y~Porozmawiaj z nim i przeprowadź śledztwo.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pojazd nie jest powiązany z ~y~podejrzanym.~w~ Kontynuuj działania, jak uważasz za stosowne.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Sprzęt do narkotyków, Biała substancja w proszku]]></OTHER>
+		<OTHER><![CDATA[~y~Paczka prezerwatyw]]></OTHER>
+		<OTHER><![CDATA[~y~Lubrykant~w~,~r~ Biała substancja w proszku]]></OTHER>
+		<OTHER><![CDATA[~r~Rolki gotówki, Scyzoryk]]></OTHER>
+		<OTHER><![CDATA[~r~Rolki gotówki]]></OTHER>
+		<OTHER><![CDATA[~y~Stringi]]></OTHER>
+		<OTHER><![CDATA[~r~Nieodpowiednie obrazy]]></OTHER> //do poprawki
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Krwawy Nóż]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Przechodzień:~w~ Tu! Tu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Przechodzień:~w~ Proszę, ocal ją! Proszę!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Przechodzień:~w~ Po prostu szedłem na spacer i natknąłem się na tę biedną kobietę.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Przechodzień:~w~ Po prostu szłam na spacer i natknęłam się na tę biedną kobietę.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Czy widziałeś co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Czy widziałaś co się stało?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Przechodzień: ~w~Niestety nie, chciałbym być tu wcześniej. Może wtedy by jeszcze żyła...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Przypomnij mi - co robiłeś, kiedy ją znalazłeś?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Przypomnij mi - co robiłaś, kiedy ją znalazłaś?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Przechodzień:~w~ Po prostu spacerowałem, mieszkam lokalnie.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Ty:~w~ Jak jestem pewien, że zrozumiesz, muszę przeprowadzić kilka kontroli - jeśli mógłbyś tu zostać, byłoby wspaniale.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Ty:~w~ Jak jestem pewna, że zrozumiesz, muszę przeprowadzić kilka kontroli - jeśli mógłbyś tu zostać, byłoby wspaniale.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty ~w~ Panie, chciałbym zamienić słowo z Panem.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty ~w~ Pani, chciałabym zamienić słowo z Panią.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podejrzany:~w~ Oficerze, w czym mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Otrzymaliśmy zgłoszenia o werbowaniu w tej okolicy. Czy wiesz coś na ten temat?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podejrzany:~w~ O Boże! To nie ja, oficerze, pomyliłeś osoby.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty ~w~ Dzisiaj jest dość chłodno, a Pan ma na sobie bardzo mało ubrań.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty ~w~ Dzisiaj jest dość chłodno, a Pani ma na sobie bardzo mało ubrań.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Oficerze, obawiam się, że to nie jest przestępstwo. Właśnie idę na imprezę, która już się zaczęła.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Oficerze, obawiam się, że to nie jest przestępstwo. Właśnie idę na imprezę, która już się zaczęła.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Według naszych raportów, wydawało się, że bezcelowo tu krążysz.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Jestem tylko trochę zgubiony, to wszystko. Czy mogę już iść?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Jestem tylko trochę zgubiona, to wszystko. Czy mogę już iść?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Oboje z was - zostaniecie tutaj ze mną. Muszę z wami szybko porozmawiać.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ W czym mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ W czym mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Otrzymaliśmy zgłoszenia o werbowaniu w tej okolicy, czy wiesz coś na ten temat?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Tak! Ta kobieta podszedła do mojego samochodu, oferując swoje 'usługi'...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Czy to prawda, panie?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Czy to prawda, pani?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Jestem tutaj tylko po to, aby prowadzić interesy. Uważaj mnie za przedsiębiorcę.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Jestem tutaj tylko po to, aby prowadzić interesy. Uważaj mnie za przedsiębiorczynię.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ To jest niechciane i obrzydliwe - nie chcę mieć prostytutki w pobliżu! Aresztuj ją, oficerze!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zachowajmy spokój, teraz się tym zajmę.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Let's keep things calm here, I'm going to deal with this now.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Podejrzany ~y~wsiadł do pojazdu~w~.~n~~r~Dokonaj kontroli drogowej tak szybko, jak to możliwe i rozpocznij śledztwo.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
+
