@@ -1,0 +1,39 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[地下鉄の妨害]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[傍観者は~y~2人の変質者~s~による~y~妨害行為~s~で助けを求めています。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~地下鉄の入口に向かい~w~、騒動を起こしている~y~2人の変質者~w~を探してください。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~被害者:~w~ お巡りさん、助けてください。変なやつに付きまとわれているんです!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~容疑者: ~w~これは警告射撃だ! 下がれ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者: ~w~うがあああぁ! 放せ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+	<NOTIFICATION><![CDATA[aggravated]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[容疑者の詳細を調べています。待機してください。]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[容疑者それぞれの情報は~g~問題なし~s~でした。心配は不要です。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[~y~Y~w~を押して、話をするために静かな場所へ対象を移動させます。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~成功しました~w~。対象は現在追従状態です。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~容疑者~w~の場所へ戻り、話をしてください。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ もうおしまいだ。私を逮捕してください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ 分かっただろ、お巡りさん。あいつがどんなやつか。私達は悪くない。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
