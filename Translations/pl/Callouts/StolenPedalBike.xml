@@ -1,0 +1,68 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Skradziony rower]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Zauważono ~y~skradziony rower~w~, zatrzymaj kierowcę.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Cześć. Czy mogę zadać ci kilka pytań?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Cześć. Czy mogę zadać ci kilka pytań?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Pewnie, mów. Ale uważaj na ten ruch za tobą. Uważaj!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Pewnie, mów. Ale uważaj na ten ruch za tobą. Uważaj!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Cześć. Czy możemy porozmawiać o tym rowerze?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Cześć. Czy możemy porozmawiać o tym rowerze?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Co z nim?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Co z nim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Został zgłoszony jako skradziony, dzisiaj w rzeczywistości.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Och, haha. Przepraszam, to ja zgłosiłem! Myślałem, że go zgubiłem, ale znalazłem!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Och, haha. Przepraszam, to ja zgłosiłam! Myślałam, że go zgubiłam, ale znalazłam!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem, więc ten rower jest zarejestrowany na ciebie?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Tak, absolutnie. Przeprowadź wszystkie potrzebne kontrole.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Tak, absolutnie. Przeprowadź wszystkie potrzebne kontrole.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[niepokojący]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Cześć. Rozmawiam z tobą z powodu tego roweru.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Cześć. Rozmawiam z tobą z powodu tego roweru.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Próbuję gdzieś dotrzeć. Opona nie jest na pewno płaska. Co jest nie tak?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Próbuję gdzieś dotrzeć. Opona nie jest na pewno płaska. Co jest nie tak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Wczoraj został zgłoszony jako skradziony.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Och. Ehh, to jest dziwne.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Och. Ehh, to jest dziwne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nie wiedziałbyś dlaczego, prawda?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Ehh...tak! Całkowicie zapomniałem, że zgłosiłem go jako skradziony.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Ehh...tak! Całkowicie zapomniałam, że zgłosiłam go jako skradziony.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Ty:~w~ Cześć. Czy moglibyśmy porozmawiać o tym rowerze?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Cześć. Czy moglibyśmy porozmawiać o tym rowerze?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Dobrze.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Dobrze.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ W naszych rejestrach niedawno zgłoszono go jako skradziony.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ ...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Przepraszam, co powiedziałeś?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Nie skomentuję tej sprawy.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Nie skomentuję tej sprawy.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ ARRRRGGGHH! NIE TY!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ ARRRRGGGHH! NIE TY!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

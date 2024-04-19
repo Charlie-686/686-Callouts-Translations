@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Polis Merkezi Fotografi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir kisi ~y~polis merkezinin fotografini cekiyor~w~, gidip sebebini ogren.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Selam, burada neler oluyor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Hic.. hic bir sey.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Kamerayi kapat, konusmamiz gerek-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Ne oldu? seni buraya hangi ruzgar atti?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Yasa disi bir sey yapmiyorum, beni rahat birak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Sadece neler oldugunu anlamak icin konusmaya calisiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Ve ben de bir seyler yapmaya calisiyorum. Tamamiyle legal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Sadece seninle konusmak istiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Kamu uzerinde fotograf cekme hakkimi elimden almaya calismayin.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba, sakincasi yoksa neden polis merkezinin fotografini cekiyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Sosyal medya hesabim icin icerik uretiyorum. Yasal mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Evet yasal. Ancak bunu daha fazla uzatamdan hizlica yapin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Anladim, simdi isim bitti. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Harika, tesekkurler.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Telefon numarasi alindi ve ilk arastirmalar basladi. Tesekkurler.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba, polis merkezini cekerek ne yapiyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Gercekten bilmek ister misin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Evet, lutfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Bunu soyleyerek ne kadar aptalca gozuktugumu biliyorum ama Jeff isimli birisi mesaj atarak bunu istedi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Geriye donup baktigimda biraz yarim yamalak bir seydi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Sanirim ayni seyi dusunuyoruz, bana Jeff isimli kisinin numarasini verir misin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Simdi eve gitmelisin ve bir dahakine kimlerle konustuguna dikkat etmelisin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Evet, anladim. Uzgunum.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Merhaba, polis merkezini neden cekiyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Merhaba memur! Yaptiginiz isin hayraniyim ve acil durum hizmetlerini begeniyorum. Az once istasyonun fotograflarini cektim, sorun olur mu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Anladim, bunu hobi maksadi ile yapiyorsunuz dogru mu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Kesinlikle! hep bir polis memuru olmak istedim, ama isler yolunda gitmedi ve olamadim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Uzucu, umarım bir gun olabilirsin. Sadece gelip ne yaptigina ve ne sebeple olduguna bakmak istedim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Vaktinizi aldigim icin uzgunum, zaten cekimleri bitirdim. Gayet iyi cekimler oldu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sen:~w~ Sorun degil problem yok, iyi gunler diliyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Supheli:~w~ Neyse simdi gidiyorum, belki ileride bir gun yolumuz kesisir.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
