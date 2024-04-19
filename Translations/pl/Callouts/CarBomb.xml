@@ -1,0 +1,40 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bomba w samochodzie]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby spróbować ~y~rozbroić bombę.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Samochód ~r~może eksplodować w każdej chwili~w~.~n~Albo ~y~zabezpiecz obszar wokół samochodu~w~, albo ~y~zakończ pościg~w~ jak najszybciej.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sukces.~w~~n~Bomba została rozbrojona. Kontynuuj według własnego uznania.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Niepowodzenie.~w~~n~Bomba nie została rozbrojona. ~y~Ewakuuj natychmiast otaczający obszar~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły ~r~bombę w samochodzie.~n~~w~Udaj się na miejsce ~y~niezwłocznie.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Osoba podejrzana ~y~ucieka~w~ swoim pojeździe, który jest uzbrojony ~y~w bombę.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Samochód ~r~może eksplodować w każdej chwili~w~.~n~Albo ~y~zabezpiecz obszar wokół samochodu~w~, albo ~y~zakończ pościg~w~ jak najszybciej.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Detonator bomby]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły psychicznie niestabilną osobę z ~r~bombą w samochodzie.~n~~w~Udaj się na miejsce ~y~niezwłocznie.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Detonator bomby~w~, ~y~Przewody]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszu!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszko!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszu!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszko!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Funkcjonariuszu... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Funkcjonariuszko... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Funkcjonariuszu... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Funkcjonariuszko... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły ~r~bombę w samochodzie.~n~~w~Udaj się na miejsce ~y~niezwłocznie.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bomba w samochodzie ~y~została zdetonowana.~n~~w~Zgłoszone ofiary: ~r~{0} osoba(y).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Przewody~w~,~r~Materiały wybuchowe]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły ~r~porzuconą bombę w samochodzie.~w~~n~Udaj się na miejsce ~y~niezwłocznie i ~y~rozbrój bombę.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Kluczyki do samochodu~w~, ~r~Bomba]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
