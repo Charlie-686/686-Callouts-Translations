@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[デモ活動]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~r~デモが発生~w~して、道路が封鎖されています。本部からの追加の情報を待機して下さい。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[デモ活動が~r~暴力に発展~s~しています。~n~~y~早急に対応してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[デモが終了するまで、~y~監視~w~してください。スムーズに進行できるようにしてください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[デモは~g~エスカレートすることなく~w~、終わりを迎えようとしています。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[デモは続いています。~o~首謀者~w~に話を聞いて下さい。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[デモが終了し、~g~現場から去っています。~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~傍観者:~w~ お巡りさん、これは馬鹿げている! 交通の妨げです!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~傍観者:~w~ 道路を封鎖しているんですよ! 危険です! 移動させてください!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~傍観者:~w~ お巡りさん、あいつらを移動させてくださいと言ったんです!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~傍観者:~w~ デモ隊が窒息する可能性があります!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~お巡りさん、あなたもデモに参加するかい?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~何についてのデモですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~この国は気候変動で破壊されている! 政府は今すぐに行動すべきだ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~すみませんが、移動する必要があります。道路を封鎖してデモを行うならば、まず許可が必要です。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~何でだ? 正当な理由を持って講義しているんだぞ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~このデモは認可されていません。もちろん、道路を塞ぐことも。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~分かりましたよ... おいみんな、移動するぞー。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ありがとうございます。安全に通行できるように、片付けを忘れないでください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~ええ、デモは終わりです。さあ行こう。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~見ろ、我々のデモを応援してくれる人たちが来たぞ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~なぜデモを行っているのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~食料の値段が高騰しているからだ! このままだと餓死してしまうぞ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~このデモはここでは行えません。不特定多数の人間を危険に晒す可能性があります。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~興味ないね! これは大義名分ですよ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~これは違法なデモです。移動してください!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~首謀者: ~w~お巡りさん、動かないと言っただろう! 迷惑なんか知るか!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
