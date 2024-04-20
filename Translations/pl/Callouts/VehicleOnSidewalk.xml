@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Pojazd Na Chodniku]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Pojazd został zgłoszony na chodniku, ~y~blokując go~w~. Spróbuj porozmawiać z kierowcą.]]></FURTHERINFORMATION>
+		<CALLOUTMESSAGE><![CDATA[Pojazd na chodniku]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Zgłoszono pojazd zaparkowany na chodniku ~y~blokując go~w~. Spróbuj porozmawiać z kierowcą.]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME>
 	</OUTCOME>
