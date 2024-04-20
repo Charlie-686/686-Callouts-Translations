@@ -49,8 +49,7 @@
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 少しお話をしたいのですが、エンジンを止めて頂けますか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~運転手:~w~ 何かありましたか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 誘拐事件があったと通報がありました。後ろの方はどちらに向かわれるのですか?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~運転手:~w~ 彼の家までですよ。それがタクシー運転手です。]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~運転手:~w~ 彼女の家までですよ。それがタクシー運転手です。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ お客さんの家までですよ。それがタクシー運転手です。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ お客さんの方に伺いたいことがあるのですが、よろしいですか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~運転手:~w~ 良いですが、その間にも運賃は上がりますよ。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、運転手の方にどちらに向かうようお願いしましたか?]]></DIALOGUE>
