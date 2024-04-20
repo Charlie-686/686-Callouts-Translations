@@ -8,7 +8,7 @@
 	</GENERAL>
 	<OUTCOME0>
 		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły ~r~bombę w samochodzie.~n~~w~Udaj się na miejsce ~y~niezwłocznie.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Osoba podejrzana ~y~ucieka~w~ swoim pojeździe, który jest uzbrojony ~y~w bombę.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Osoba podejrzana ~y~ucieka~w~w swoim pojeździe, który jest uzbrojony ~y~w bombę.~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Samochód ~r~może eksplodować w każdej chwili~w~.~n~Albo ~y~zabezpiecz obszar wokół samochodu~w~, albo ~y~zakończ pościg~w~ jak najszybciej.]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~Detonator bomby]]></OTHER>
 	</OUTCOME0>
@@ -16,14 +16,14 @@
 		<FURTHERINFORMATION><![CDATA[Służby wywiadowcze zgłosiły psychicznie niestabilną osobę z ~r~bombą w samochodzie.~n~~w~Udaj się na miejsce ~y~niezwłocznie.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Detonator bomby~w~, ~y~Przewody]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszu!]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszko!]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszu!]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować, funkcjonariuszko!]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Funkcjonariuszu... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Funkcjonariuszko... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Funkcjonariuszu... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Funkcjonariuszko... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować!]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować!]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~r~Podejrzana:~w~ Poddaję się! Możesz mnie aresztować!]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~r~Podejrzany:~w~ Poddaję się! Możesz mnie aresztować!]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~r~Podejrzany:~w~ Oficerze... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~r~Podejrzana:~w~ Pani oficer... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~r~Podejrzana:~w~ Oficerze... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~r~Podejrzany:~w~ Pani oficer... Przykro mi, że musiało to tak się skończyć...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
