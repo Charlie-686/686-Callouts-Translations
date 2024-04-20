@@ -33,25 +33,28 @@
 		<CRASHPREVENTION><![CDATA[~o~Może występować problem.~w~ Proszę skontaktować się z pomocą techniczną.]]></CRASHPREVENTION>
 		<DISTANCECHECK><![CDATA[~r~Sprawdzenie odległości]]></DISTANCECHECK>
 		<DISTANCECHECK><![CDATA[Przykro mi, byłeś zbyt blisko, aby to wezwanie mogło się rozpocząć.]]></DISTANCECHECK>
-		<INVALIDPED><![CDATA[Winny jest GTAV!]]></INVALIDPED>
-		<INVALIDPED><![CDATA[~o~GTAV usunął jednego z naszych pieszego! Nie mogliśmy zrobić nic innego, jak tylko zapobiec awarii, ale to nie powinno się zdarzać często.]]></INVALIDPED>
+		<INVALIDPED><![CDATA[Winne jest GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV usunęło jednego z naszych pieszych! Nie mogliśmy zrobić nic innego, jak tylko zapobiec awarii, to nie powinno zdarzać się często.]]></INVALIDPED>
 		<DISPATCH><![CDATA[Centrala]]></DISPATCH>
 		<DIALOGUEOVER><![CDATA[Dialog zakończony. Zrób to co uważasz za stosowne.]]></DIALOGUEOVER>
 		<BEGINSPEAKING><![CDATA[Naciśnij ~y~{0}~w~, aby zacząć mówić.]]></BEGINSPEAKING>
 		<ENDREMINDER><![CDATA[Naciśnij ~y~{0}~w~ w dowolnym momencie, aby zakończyć wezwanie.]]></ENDREMINDER>
 		<INFORMATION><![CDATA[Informacje]]></INFORMATION>
-		<CODE4><![CDATA[~g~Kod 4.~w~ Jestem dostępny na wezwania.]]></CODE4>
-        <PURSUITUPDATE><![CDATA[Aktualizacja pościgu]]></PURSUITUPDATE>
-		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~.]]></PURSUITUPDATE>
-		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~.]]></PURSUITUPDATE>
-		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~, który ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
-		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~, która ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
+		<CODE4 PLAYER="M"><![CDATA[~g~Kod 4.~w~ Jestem dostępny na wezwania.]]></CODE4>
+		<CODE4 PLAYER="F"><![CDATA[~g~Kod 4.~w~ Jestem dostępna na wezwania.]]></CODE4>
+       		<PURSUITUPDATE><![CDATA[Aktualizacja pościgu]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany to ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana to ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany to ~y~{0}~w~, który ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana to ~y~{0}~w~, która ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest {0}.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest {0}.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~, który został zatrzymany ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
 		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~, która została zatrzymana ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
 		<PURSUITUPDATE><![CDATA[nie ma ~y~szczegółów~w~ na temat podejrzanego.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
-
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[CENTRALA]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[WEZWANIE ALARMOWE]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Lokalizacja: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
 	</NOTIFICATIONS>
 </GENERAL> 
 
