@@ -22,7 +22,7 @@
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
-		<NOTIFICATION><![CDATA[anxious]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[心配している]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、自転車について、いくつか伺ってもいいですか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~容疑者:~w~ 行く用事があるんだけど、パンクしてませんよ。何ですか?]]></DIALOGUE>
