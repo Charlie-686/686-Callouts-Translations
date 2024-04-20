@@ -5,7 +5,7 @@
 		<NOTIFICATION><![CDATA[~p~データベースを検索中...]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~g~問題なし。心配事項はありません。]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~対象は手配中です。警戒してください。]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[容疑者を対処する際に、~y~{0}~w~を押して被害者を救出します。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[被疑者を対処する際に、~y~{0}~w~を押して被害者を救出します。]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~血がついた結束バンド]]></OTHER>
 		<OTHER><![CDATA[~r~血がついた軍手]]></OTHER>
 		<OTHER><![CDATA[~y~強粘着テープ]]></OTHER>

@@ -32,10 +32,10 @@
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
-		<NOTIFICATION><![CDATA[~r~容疑者~w~を捜索して下さい。GPSは~y~定期的に更新~w~されます。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~被疑者~w~を捜索して下さい。GPSは~y~定期的に更新~w~されます。]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~y~被害者:~w~ お巡りさん助けて! ひったくりに遭いました!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~あなた:~w~ 容疑者について何か特徴などはありますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 被疑者について何か特徴などはありますか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~被害者:~w~ 特に何も... ですが盗まれた{0}にはGPSが付いています。もしかしたら役に立つかもしれません!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 素晴らしい。この情報を本部に共有してすぐに捜索を開始します。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~被害者:~w~ はい、犯人が捕まることを願っています。捕まえたら連絡してくださいね。]]></DIALOGUE>

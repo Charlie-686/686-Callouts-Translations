@@ -8,43 +8,43 @@
 	<OUTCOME1>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、いくつか聞きたいことがあるのですが。]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ もちろん、ただ車の流れに気をつけてくださいね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ もちろん、ただ車の流れに気をつけてくださいね。]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、その自転車についていくつかお話したいのですが。]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ これがどうかしたんですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ これがどうかしたんですか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ それは盗難されたものです。実際、今日盗難届が提出されました。]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ ああ、ごめんなさい。盗難届を出したのは私です。失くしただけでした!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ああ、ごめんなさい。盗難届を出したのは私です。失くしただけでした!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、この自転車はあなたのものとして登録されていますか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ もちろん。確かめてもらってもいいですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ もちろん。確かめてもらってもいいですよ。]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[心配している]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、自転車について、いくつか伺ってもいいですか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ 行く用事があるんだけど、パンクしてませんよ。何ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 行く用事があるんだけど、パンクしてませんよ。何ですか?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 昨日、その自転車に盗難届が出ました。]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ うーん。変だなぁ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ うーん。変だなぁ。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ なぜか分からないんですか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ ええと、あ! 盗難届を出したことをすっかり忘れていました!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ええと、あ! 盗難届を出したことをすっかり忘れていました!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<OUTCOME4>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、この自転車について、いくつかお伺いしてもいいですか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ はい。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ はい。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 我々の情報によると、その自転車は最近盗難されたと報告されているのですが。]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ すみません? どうしましたか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ 黙秘権を行使します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 黙秘権を行使します。]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>
 	<OUTCOME5>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~容疑者:~w~ ああああああああああ! お前じゃねぇ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ああああああああああ! お前じゃねぇ!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME5>
 </CALLOUT>
