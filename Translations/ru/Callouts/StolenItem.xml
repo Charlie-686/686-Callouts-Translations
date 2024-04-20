@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Украденный предмет]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Произошла ~y~кража~w~; поговорите с ~y~жертвой~w~ и продолжайте расследование.]]></FURTHERINFORMATION>
+		<CALLOUTMESSAGE><![CDATA[Украденная вещь]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Произошла ~y~кража~w~; поговорите с ~y~жертвой~w~ и проведите расследование.]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Считается, что подозреваемый это ~y~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[пешком~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[в транспортном средстве~w~.]]></NOTIFICATION>
@@ -14,40 +14,38 @@
 	<OUTCOME0>
 	</OUTCOME0>
 	<OUTCOME1>
-		<NOTIFICATION><![CDATA[потрясенный]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[потрясенна]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Что вам надо?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Что вам надо?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы: ~w~Нам сообщили о краже, и нам нужно будет тебя обыскать.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Ага, щас! У вас нет никаких доказательств, и я не буду отвечать ни на один из ваших вопросов!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Ага, щас! У вас нет никаких доказательств, и я не буду отвечать ни на один из ваших вопросов!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Я здесь, чтобы обеспечить соблюдение закона. Наш трекер показывает, что {0} находится здесь и следит за вами.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Ложь! В любом случае, технологии в наши дни всегда ошибаются!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Ложь! В любом случае, технологии в наши дни всегда ошибаются!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Что вам надо?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Что вам надо?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Нам сообщили о краже, и мне нужно будет вас обыскать.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ага, щас! У вас ноль доказательств, и я не стану отвечать ни на какие ваши вопросы!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ага, щас! У вас ноль доказательств, и я не стану отвечать ни на какие ваши вопросы!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Я здесь, чтобы обеспечить соблюдение закона. Трекер показывает, что {0} находится здесь и при вас.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ложь! Технологии в наше время всегда ошибаются!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ложь! Технологии в наше время всегда ошибаются!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Что вам надо?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Что вам надо?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы: ~w~Мы полагаем, что у вас есть {0}, мне нужно вас обыскать.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Вы поймали меня, я сдаюсь.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Вы поймали меня, я сдаюсь.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Хорошо, подними руки вверх, и я тебя задержу.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Что вам надо?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Что вам надо?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Мы полагаем, что при вас находиться {0}, мне нужно вас обыскать.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Вы поймали меня, я сдаюсь.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Вы поймали меня, я сдаюсь.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Вы:~w~ Хорошо, подними руки вверх, чтобы я вас задержал.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Вы:~w~ Хорошо, подними руки вверх, чтобы я вас задержала.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
-		<NOTIFICATION><![CDATA[Найдите ~r~подозреваемого~w~. ~y~Область поиска будет периодически ~w~обновляться.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Найдите ~r~подозреваемого~w~. ~y~Область поиска будет обновляться ~w~переодически.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Жертва:~w~ Офицер, помогите, меня ограбили!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Жертва:~w~ Офицер, помогите, меня ограбили!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Можете ли вы рассказать мне что-нибудь о подозреваемом?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Жертва:~w~ Думаю нет, но у моего {0} есть GPS-трекер, который на этот раз может пригодиться. ]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Жертва:~w~ Думаю нет, но у моего {0} есть GPS-трекер, который на этот раз может пригодиться. ]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Замечательно, можно я отправлю это диспетчеру? Он меня подключит, чтобы я мог его отследить.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Жертва: ~w~Да. Я надеюсь, что вы сможете его вернуть, это важно.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Жертва: ~w~Да. Я надеюсь, что вы сможете его вернуть, это важно.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Конечно, мы свяжемся. Сейчас попробую найти.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Жертва:~w~ Офицер, помогите, меня ограбили!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Можете рассказать мне что-нибудь о подозреваемом?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Жертва:~w~ Не совсем, но у моего {0} есть GPS-трекер, который в кои-то веки полезен. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Замечательно, давайте я отправлю это диспетчеру который меня соединит меня с трекером, чтобы я мог его отследить.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Жертва: ~w~Да. Я надеюсь, что вы сможете его вернуть, это важно.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Конечно, мы будем на связи. Я постараюсь сейчас его найти.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

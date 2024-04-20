@@ -1,42 +1,45 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Сообщение о наступлении с оружием ]]></CALLOUTMESSAGE>
-		<NOTIFICATION><![CDATA[~r~Подозреваемый движется!~w~~n~Отправляйтесь в обновленное местоположение.]]></NOTIFICATION>
+		<CALLOUTMESSAGE><![CDATA[Сообщаяется о ношении оружия]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Подозреваемый движется!~w~~n~Направляйтесь к последнему местоположению.]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
 	<OUTCOME1>
-	<NOTIFICATION><![CDATA[обеспокоенный]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[на взводе]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Оставайся там, и держи руки подальше от карманов.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ В чем дело? Я ничего не сделал. Ничего!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ В чем дело? Я ничего не сделала. Ничего!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты подчинился мне, хорошо?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Что происходит? Что вы пытаетесь сделать?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Что происходит? Что вы пытаетесь сделать?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты поднял руки вверх для меня.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ НЕТ! ОТОЙДИ! СЕЙЧАС!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ НЕТ! ОТОЙДИ! СЕЙЧАС!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Стой на месте и высунь руки из карманов.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ В чем дело? Я ничего не сделал. Ничего!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ В чем дело? Я ничего не сделала. Ничего!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты слушался мне, хорошо?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты слушалась меня, хорошо?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Что происходит? Что вы пытаетесь сделать?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Что происходит? Что вы пытаетесь сделать?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты поднял руки вверх.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Вы:~w~ Мне нужно, чтобы ты подняла руки вверх.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ НЕТ! ОТВАЛИ! СЕЙЧАС ЖЕ!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ НЕТ! ОТВАЛИ! СЕЙЧАС ЖЕ!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 	</OUTCOME2>
 	<OUTCOME3>
-		<NOTIFICATION><![CDATA[Арестуйте подозреваемого и поступайте так, как считаете нужным.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Арестуйте подозреваемого и разберитесь с ситуацией так, как считаете нужным.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Остановись здесь для меня и держи свои руки так, чтобы я мог их видеть.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ В чем дело?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ В чем дело?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Вы:~w~ Оставайся на месте и держи свои руки так, чтобы я их видел.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Вы:~w~ Оставайся на месте и держи свои руки так, чтобы я их видела.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ В чем дело?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ В чем дело?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Вы:~w~ Я знаю, что у тебя есть при себе оружие.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Ой нет..ой...нет...]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Ой нет..ой...нет...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ох нет...ох...нет...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ох нет...ох...нет...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Вы:~w~ В чем дело?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Пожалуйста, извини! Я не хотел...]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Пожалуйста, извини! Я не хотел...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, мы можем обсудить это позже. Просто не забывай следовать моим инструкциям.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваймый:~w~ Я не буду носить это с собой НИКОГДА. Я не хочу, чтобы это попало в мое личное дело...]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваймый:~w~ Я не буду носить это с собой НИКОГДА. Я не хочу, чтобы это попало в мое личное дело...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, мы здесь не для того, чтобы причинить вам вред. Просто поднимите руки.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Пожалуйста, извините! Я не хотел...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Пожалуйста, извините! Я не хотела...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, мы можем обсудить это позже. Простой следуй моим инструкциям.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я не буду носить его с собой НИКОГДА. Я не хочу, чтобы это попало в мое личное дело...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я не буду носить его с собой НИКОГДА. Я не хочу, чтобы это попало в мое личное дело...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, мы здесь не для того, чтобы навредить тебе. Просто подними руки вверх.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 </CALLOUT>
