@@ -1,0 +1,76 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[誘拐事件が発生]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[ある人が~y~タクシーで誘拐された~s~と報告がありました。~y~職務質問をしてください。~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~データベースを検索中...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~問題なし。心配事項はありません。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~対象は手配中です。警戒してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[容疑者を対処する際に、~y~{0}~w~を押して被害者を救出します。]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~血がついた結束バンド]]></OTHER>
+		<OTHER><![CDATA[~r~血がついた軍手]]></OTHER>
+		<OTHER><![CDATA[~y~強粘着テープ]]></OTHER>
+		<OTHER><![CDATA[~r~目隠し]]></OTHER>
+		<OTHER><![CDATA[~r~結束バンド~w~、~r~ナイフ~w~、~o~防寒用帽子]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ た、助けてくれーーー!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[挑発してきた。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ すみません、同乗者の方にお話を伺えますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ 何でだい。話なら私がしましょう。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 同乗者の方と話すことが重要なんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ 分かった分かった。何が起きているのか教えてくれ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ この付近で誘拐事件があったと通報がありました。少し車内を確認したいのですが。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ そうか... じゃあお目当ての人はここだよ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ お前もここでおしまいだ!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~買い物帰りだった。]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、今どちらへ向かわれていますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ お客さんのお宅まで。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、同乗者の方とお話できますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ お巡りさん、何の用ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 誘拐事件があったと通報がありました。少し確認したいことがあるのですがよろしいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ いえいえ、私は今買い物帰りですよ。買ったものもトランクの中にあります。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ ありがとうございます。いくつか確認した後、出発していただいて結構です。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ ええ、急がなくていいですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 問題ないようです。お騒がせしました!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[我々の注意を背けようとしている。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 少しお話をしたいのですが、エンジンを止めて頂けますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ 何かありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 誘拐事件があったと通報がありました。後ろの方はどちらに向かわれるのですか?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~運転手:~w~ 彼の家までですよ。それがタクシー運転手です。]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~運転手:~w~ 彼女の家までですよ。それがタクシー運転手です。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ お客さんの方に伺いたいことがあるのですが、よろしいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~運転手:~w~ 良いですが、その間にも運賃は上がりますよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、運転手の方にどちらに向かうようお願いしましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ 家の住所をお伝えしました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 分かりました。特にほかに問題はありませんか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ 帰路についている、ただそれだけだよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ よかった。何も問題はないようですね。少し確認した後、再び帰路について頂いて構いませんよ。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[本物のタクシーだと思ったのですが、乗ったときに変だと思ったんです。すると路地裏に連れて行かれて銃を突きつけられました。携帯を取られ、黙るよう指示されました。]]></OTHER>
+	<OTHER><![CDATA[家まで歩いて帰っていたら、目出し帽を被った人たちに頭に銃を突きつけられた気がします。そして無理やりこの車に乗せられました。]]></OTHER>
+	<OTHER><![CDATA[運転手に行き先を聞かれ、話そうとしたら車に無理やり乗せられました。私に怪我はありませんでした。]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ お巡りさん、ありがとうございます! もう... 私は終わりだと覚悟していました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 無事に見つけられて安心しました。今度こそ無事に家までお送りしたいのですが、何が起きたのか教えて頂けますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、詳しい情報を教えていただきありがとうございます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~同乗者:~w~ まだ何が起きたのか信じられません...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
