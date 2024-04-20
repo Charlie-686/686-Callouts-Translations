@@ -19,7 +19,7 @@
 			<DIALOGUE TARGET = "F"><![CDATA[~b~Ty:~w~ Cześć. Czy możemy porozmawiać o tym rowerze?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Co z nim?]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Co z nim?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Został zgłoszony jako skradziony, dzisiaj w rzeczywistości.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dzisiaj został zgłoszony jako skradziony.]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Och, haha. Przepraszam, to ja zgłosiłem! Myślałem, że go zgubiłem, ale znalazłem!]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Och, haha. Przepraszam, to ja zgłosiłam! Myślałam, że go zgubiłam, ale znalazłam!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumiem, więc ten rower jest zarejestrowany na ciebie?]]></DIALOGUE>
