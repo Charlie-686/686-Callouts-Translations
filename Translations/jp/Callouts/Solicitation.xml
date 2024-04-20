@@ -1,0 +1,63 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[売春婦]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~売春婦~w~らしき人物が居ると通報がありました。現場に向かい、~y~さらなる指示を待ってください~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[通報場所に近づいています。対象に~y~気付かれないように~w~近づいてください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Establish contact with the suspect.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~容疑者に近づきすぎています~w~。気付かれる前に遠くに離れてください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~容疑者に気付かれました。~s~~n~そのため、~y~証拠を集めることが不可能~w~になりました。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[容疑者が一台の車両と接触しました。~y~対象について調査~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[この車両は~y~容疑者~w~とは関係がありません。必要に応じて続行してください。]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~薬品器具、白色の粉]]></OTHER>
+		<OTHER><![CDATA[~y~コンドームの袋]]></OTHER>
+		<OTHER><![CDATA[~y~ローション~w~、 ~r~白色の粉]]></OTHER>
+		<OTHER><![CDATA[~r~お札の筒, 飛び出しナイフ]]></OTHER>
+		<OTHER><![CDATA[~r~お札の筒]]></OTHER>
+		<OTHER><![CDATA[~y~Tバッグ]]></OTHER>
+		<OTHER><![CDATA[~r~みだらな写真]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~血がついたナイフ]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~傍観者:~w~ ここです! ここです!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~傍観者:~w~ 彼女を助けてください! お願い!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 何が起きたのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~傍観者:~w~ 歩いていたら、貧しそうな女性に遭遇したんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 何が起きたのか分かりますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~傍観者:~w~ よく思い出せません。もっと早くここに来ていればよかった。もしかしたら助かったかもしれない...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 思い出してください。彼女を見つけた時、何をしていましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~傍観者:~w~ 歩いていただけだよ... この近くに住んでるんだ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ ご理解いただけると思いますが、いくつか確認することがあります。しばらくお待ち下さい。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 奥さん、少しお話してもいいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ はい、何でしょう。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ この付近に売春婦が居ると通報がありました。何かご存じないですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ ち、違いますよ... 人違いじゃないですか...?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 今日はとても寒いのに、すごく薄着ですね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ お巡りさん、違いますよ。犯罪ではありません。今からパーティーに行くところなんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 報告によると、かなり長い間このあたりを歩き回っていたようですが?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ ...ちょっと迷子に。それだけですよ。もう行ってもいいですか?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 失礼します。お話してもいいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ 何かありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ この付近で売春婦が居ると通報がありました。何かご存じないですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ ええ! この女性は、私の車に乗って「サービス」を提供するそうで...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 本当ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~容疑者:~w~ ビジネスとしてやっているんですよ。起業家だと思ってください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ お巡りさん、こいつを逮捕してください! 近くに売春婦が居るだけで嫌だ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 冷静に対処します。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~y~容疑者~w~が車に乗り込みました。~n~~r~できるだけ早く職務質問を行い、調査してください。~w~]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
