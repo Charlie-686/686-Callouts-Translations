@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[攻撃的な武器の報告]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~被疑者は移動中!~w~~n~位置情報を更新しました!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[苦しんでいる。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 止まれ、ポケットに手を入れるな!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 何のことだ!? 私は何もしていない、何も!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 指示に従ってください。良いですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 何ですか? 何をするつもりですか!?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 手を上げてください!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 嫌だ! 下がれ! 今すぐ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[被疑者を逮捕し、状況を対処してください。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 止まってください。そして、見えるように手を上げてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 何ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ あなたが武器を所持していることは分かっています。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ え... あ、えっと...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ どうしましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ お願い、ごめんなさい! そんなつもりは無かったんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 大丈夫、このことについては後で話しましょう。指示に従ってください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 二度と持たないから... 逮捕歴を残したくないんだ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 大丈夫。あなたに危害を与えるためにここに居るわけではありません。指示に従ってください。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

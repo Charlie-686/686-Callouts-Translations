@@ -1,0 +1,15 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[被疑者は~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[被疑者は~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[被疑者は~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[スーツ~w~を着ています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[青のTシャツ~w~を着た、ランナーです。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[青のチェック柄のシャツ~w~を着ています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[革のコート~w~を着ています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[サラリーマン~w~で、~y~白のTシャツ~w~を着ています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[吊りズボン~w~を履いています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[青のシャツ~w~を着て、~y~青の靴~w~を履いています。郵便局員です。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[大きな赤いシャツと帽子~w~を身に着け、~y~紺色のズボン~w~を履いています。]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[水色のブレザーとデニムスカート~w~を身に着け、その下に~y~赤いシャツ~w~を着ています。]]></DESCRIPTION>
+</PEDDESCRIPTIONS>
+<!-- <![CDATA[]]> -->
