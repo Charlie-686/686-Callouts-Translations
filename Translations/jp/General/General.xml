@@ -46,7 +46,7 @@
 		<BEGINSPEAKING><![CDATA[~y~{0}~w~を押して会話を開始します。]]></BEGINSPEAKING>
 		<ENDREMINDER><![CDATA[~y~{0}~w~を押してコールアウトを終了します。]]></ENDREMINDER>
 		<INFORMATION><![CDATA[インフォメーション]]></INFORMATION>
-		<CODE4><![CDATA[~g~Code 4~w~。パトロールに復帰します。]]></CODE4>
+		<CODE4><![CDATA[~g~事案解決~w~。パトロールに復帰してください。]]></CODE4>
 		<PURSUITUPDATE><![CDATA[追跡情報]]></PURSUITUPDATE>
 		<PURSUITUPDATE><![CDATA[は被疑者の名前が~y~{0}~w~だと特定しました。]]></PURSUITUPDATE>
 		<PURSUITUPDATE><![CDATA[は被疑者の名前が~y~{0}~w~だと特定しました。過去に~y~{1}~w~回逮捕歴があります。]]></PURSUITUPDATE>
