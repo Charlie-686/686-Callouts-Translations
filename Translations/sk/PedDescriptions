@@ -1,0 +1,15 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Podozrivý má na sebe ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Podozrivý má na sebe ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Podozrivý je ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[suit~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modré tričko~w~ a je bežec.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modrá kockovaná košeľa~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[kožený kabát~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[pracovník~w~ v ~y~bielom tričku~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[podväzky~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modrá košeľa~w~ s ~y~modrými šortkami~w~. Podozrivý pracovník pošty.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[veľká červená košeľa a čiapka~w~ s ~y~navy nohavicami~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[svetlomodrý blejzer a džínsová sukňa~w~ s ~y~červenou košeľou pod~w~.]]></DESCRIPTION>
+</PEDDESCRIPTIONS>
+<!-- <![CDATA[]]> -->
