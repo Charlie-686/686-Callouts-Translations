@@ -1,0 +1,67 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Photographie d'une station de police]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Une personne est entrain de ~y~prendre des photos de la station~w~, parlez avec elle pour savoir pourquoi.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour. Qu'est-ce qu'il se passe ici?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Rien. Rien du tout.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Baissez cette caméra, J'aimerai parler avec-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Qu'est-ce qui se passe? Qu'est-ce qui vous a ammené ici?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je ne fais rien d'illégal,S'il vous plaît, laissez moi tranquille.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ J'essaie juste de lancer une conversation pour comprendre ce qu'il se passe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Et j'essaie juste de faire des trucs qui sont parfaitement légaux.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ J'aimerai juste parler avec vous.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ N'essayez pas d'enfreindre mon droit à l'image en propriété publique.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour, Puis-je vous demander pourquoi vous prenez des photos de la station?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ C'était pour les réseaux sociaux, C'est légal hein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ C'est légal, oui, juste assez étrange de le faire aussi longtemps.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je comprend, j'ai terminé donc je m'en vais à présent.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ A la prochaine, merci.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Le numéro de téléphone a été reçu, et l'investigation initale a commencé. Merci.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Salut, qu'est-ce que vous faites à prendre des photos de la station?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Vous voulez vraiment savoir?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Oui s'il vous plaît, Allez-y.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je réalise à quel point je sonne stupide à dire ça, mais quelqu'un du nom de Jeff m'a envoyé un texto disant de le faire.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Ouais, avec du recul, c'était un peu quelque chose de louche à faire.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Je pense qu'on est tout les deux sur la même page. Pouvez-vous me donner son numéro?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Je pense que vous devriez aller chez vous maintenant, et possiblement pensez avec qui vous parlez.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect:~w~ Oui, Je comprend. Désolé du dérangement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect:~w~ Oui, Je comprend. Désolée du dérangement.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Salut, qu'est-ce que vous faites à prendre des photos de la station?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Suspect:~w~ Salut Officier! Je suis un grand fan des services d'urgences et le travail qu'ils font. J'ai juste pris quelques photos de votre station, ce n'est pas grave hein?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Suspect:~w~ Salut Officier! Je suis une grande fan des services d'urgences et le travail qu'ils font. J'ai juste pris quelques photos de votre station, ce n'est pas grave hein?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Suspect:~w~ Salut Officière! Je suis une grande fan des services d'urgences et le travail qu'ils font. J'ai juste pris quelques photos de votre station, ce n'est pas grave hein?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Suspect:~w~ Salut Officière! Je suis un grand fan des services d'urgences et le travail qu'ils font. J'ai juste pris quelques photos de votre station, ce n'est pas grave hein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Je vois, donc c'est comme une sorte d'hobby si j'ai bien compris?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect:~w~ Exactement! J'ai voulu être un officier de police, mais le fait de vivre de l'autre côté de la station ne s'est pas passé comme prévu, comme vous pouvez le voir.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect:~w~ Exactement! J'ai voulu être une officière de police, mais le fait de vivre de l'autre côté de la station ne s'est pas passé comme prévu, comme vous pouvez le voir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ C'est intéressant à entendre, je voulais juste vérifier ce qu'il se passait.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je ne peux que m'excuser d'avoir fait perdre votre temps, mais de toute façon, j'ai fini de prendre les photos. Elles sont très belles si je peux me le permettre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Aucun problème, J'espère que vous passerez une magnifique journée.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Bon, J'y vais alors. Peut-être qu'on se recroisera un de ces jours.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
