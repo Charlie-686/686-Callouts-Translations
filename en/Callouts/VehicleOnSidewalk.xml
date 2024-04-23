@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vehicle On Sidewalk]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A vehicle was reported on a sidewalk, ~y~blocking it~w~. Try to speak with the driver.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. I'm afraid you can't idle here.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm not moving.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'm going to need you to-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Stay there for me. What's up?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well, nothing much. Is something wrong?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ This is a sidewalk. You need to move.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm waiting for someone, they'll be here any minute now.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It wasn't a request. This is a sidewalk, people are using it.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'll go park somewhere else.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. You are parked on a sidewalk, did you know that?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yes, but I am just waiting for a friend. Can I stay?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'm afraid not.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well where else can I go?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ A parking place or similar, there are plenty around here.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Understood. Sorry, won't happen again.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Packaged cannabis bags]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. Why are you parked here?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm delivering something.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Delivering what? You don't look like a delivery driver if you don't mind me saying.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh, something that I need to do.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ So, you are parked here, waiting to deliver something?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Look, I need to deliver this, for my family. Please.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

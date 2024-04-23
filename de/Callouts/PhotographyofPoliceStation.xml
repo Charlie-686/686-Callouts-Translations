@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fotografie des Polizeireviers]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Eine Person fotografiert das Revier. Sprechen Sie mit dieser, um herauszufinden, warum.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Was passiert hier?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Nichts. Absolut nichts.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Legen Sie die Kamera weg, ich würde gerne mit Ihnen sprechen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Was ist los? Warum sind Sie hier?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich mache nichts Illegales, bitte lassen Sie mich in Ruhe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich versuche nur, ein Gespräch zu führen, um herauszufinden, was los ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Und ich versuche nur, Dinge zu tun, die völlig legal sind.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich möchte nur mit Ihnen sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Versuchen Sie nicht, meine Fotografie-Rechte auf öffentlichem Grund zu verletzen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag, darf ich fragen, warum Sie Fotos vom Revier machen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Es war für meinen Social-Media-Kanal, ist das okay?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es ist legal, ja, aber etwas seltsam, das so lange zu tun.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich verstehe, ich bin fertig und gehe jetzt weiter.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Danke, vielen Dank.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Telefonnummer wurde erhalten, und die ersten Ermittlungen haben begonnen. Vielen Dank.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag, was machen Sie mit den geschossenen Fotos vom Revier?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Möchten Sie das wirklich wissen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ja bitte, erzählen Sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Mir ist klar, wie dumm ich klinge, wenn ich das sage, aber jemand namens Jeff hat mir eine SMS geschickt und mich gebeten, das zu tun.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, im Nachhinein war das ziemlich unklug.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich glaube, wir denken beide dasselbe. Können Sie mir seine Nummer geben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich denke, Sie sollten jetzt nach Hause gehen und vielleicht darüber nachdenken, mit wem Sie sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, ich verstehe. Entschuldigung für die Unannehmlichkeiten.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag, was machen Sie mit den geschossenen Fotos vom Revier?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Guten Tag, Herr Polizist! Ich bin ein großer Fan von Rettungsdiensten und der Arbeit, die sie leisten. Ich habe gerade ein paar Fotos von Ihrer Station gemacht, ist das in Ordnung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich verstehe, das ist also so etwas wie ein Hobby, wenn ich das richtig verstehe?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Genau! Ich wollte Polizist werden, aber wie Sie sehen können, hat das nicht geklappt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist interessant zu hören. Ich wollte nur nachsehen, was los ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Es tut mir leid, dass ich Ihre Zeit verschwendet habe, aber ich bin sowieso fertig. Sie sehen ziemlich gut aus, wenn ich das so sagen darf.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Überhaupt kein Problem, ich hoffe, Sie haben einen wundervollen restlichen Tag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Nun, dann mache ich mich mal auf den Weg. Vielleicht kreuzen sich unsere Wege irgendwann in der Zukunft.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

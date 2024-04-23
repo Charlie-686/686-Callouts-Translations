@@ -1,0 +1,55 @@
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[人行道上停着车辆]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[有位市民举报说人行道上正停着一辆车，~y~人行道被车辆挡住了~w~，请与司机沟通了解情况。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我:~w~ 先生您好，很抱歉但您不能在这里停车。]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我:~w~ 小姐您好，很抱歉但您不能在这里停车。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 那有咋啦，我就不动。]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我:~w~ 先生请您配合，我需要您现在立即-]]>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我:~w~ 小姐请您配合，我需要您现在立即-]]>
+</DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我·:~w~ 先生您好，您在这有什么事吗。?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我·:~w~ 小姐您好，您在这有什么事吗。?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 没啥，难道我不能呆在这吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我:~w~ 这是个人行街道，您不能在这里停车。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 我在这里等人呢，应该很快就来啦。]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我:~w~ 先生这街道有市民使用，您不能停在这，请您立马开车离开。]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我:~w~ 女士这街道有市民使用，您不能停在这，请您立马开车离开。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 好的，我现在就去找别的地方停车，很抱歉。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我:~w~ 先生您好，您是否知道您正停在人行街道上呢？]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我:~w~ 小姐您好，您是否知道您正停在人行街道上呢？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 知道啊，但我现在等人呢，不能在这里等吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我:~w~ 正是。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 那我该去哪等呢？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我:~w~ 去找个停车场，这里附近应该有吧。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 好的谢谢，我保证以后不会再犯了。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~装有大麻的袋子]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~我:~w~ 先生您好，您为何会停在这里呢？]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~我:~w~ 小姐您好，您为何会停在这里呢？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 我在这送货呢。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我:~w~ 您看起来穿的也不像是送货员，您在送啥呢？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~司机:~w~ 啊。。。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我:~w~ 所以您把车停在这里，究竟是要送什么东西呢？]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~司机:~w~ 警察先生您看，我为了我家庭的安危必须把这货送出，拜托您就别多问吧。]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~司机:~w~ 警察小姐您看，我为了我家庭的安危必须把这货送出，拜托您就别多问吧。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

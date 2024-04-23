@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[物品被盗]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[一场~y~盗窃案~w~刚发生了，请立即前往与~y~受害者~w~了解案件情况，开始您的调查。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[目前怀疑嫌疑犯是~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[正徒步。~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[在一辆车里。]]></NOTIFICATION>
+		<OTHER><![CDATA[手机]]></OTHER>
+		<OTHER><![CDATA[电脑]]></OTHER>
+		<OTHER><![CDATA[钱包]]></OTHER>
+		<OTHER><![CDATA[钥匙]]></OTHER>
+		<OTHER><![CDATA[相机]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[动摇了。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~你要干嘛？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~我们接到通知有一场盗窃案发生了，您目前符合嫌疑犯的容貌所以我们必须搜查您，请与我们配合。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~搜你的头！你的证据呢？没证据就像无赖我，要我配合？没门！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~请您配合，我来这是执行法律的。案件中有一件物品安装了追踪器，目前显示是在您身上。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌疑犯~w~一派胡言！现在的科技都是错的！哪能乱相信它呀！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~你想要干什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~我怀疑您身上有一件与一场盗窃案有关的{0}，因此需要搜查您，请配合。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~好吧，您找到我了，我自首吧。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~好的，请您现在举起手来，我现在要拘留您。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[请您立即寻找~r~嫌疑犯~w~。搜索区会偶尔~y~连续更新~w~。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者：~w~警官帮忙啊！我被盗窃了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~放心我是来帮您的，您是否能描述嫌疑犯的容貌呢？ Can you tell me anything about the suspect?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者：~w~抱歉我没能看好他的容貌，不过我的{0}应该有个追踪器，难得一次终于用的上了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：那太好了，让我把案件资料发给指挥中心，看看他们是否能找到这物品的下落。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者：~w~但愿如此吧，这物品对我说真的很重要。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~我：~w~当然，我们会与您保持联络，如果找到您的物品我们会通知您的。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

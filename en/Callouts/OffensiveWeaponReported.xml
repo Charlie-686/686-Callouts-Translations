@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Offensive Weapon Reported]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~The suspect is moving!~w~~n~Make your way to the updated location.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[distressed]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Stay there, and keep your hands out of your pockets.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What's wrong? I haven't done anything. Anything!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I need you to comply with me, okay?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What's going on? What are you trying to do?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I need you to put your hands in the air for me.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ NO! BACKOFF! NOW!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Arrest the suspect and deal with the situation as you see fit.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Stay there for me, and keep your hands where I can see them.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What's wrong?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I know you have a weapon on you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh no..oh...no...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ What's wrong?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Please, I'm sorry! I didn't mean to...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It's okay, we can discuss this later. Just remember to follow my instructions.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I won't have it on me EVER, I don't want this on my record...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It's okay, we aren't here to harm you. Just put your hands up.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

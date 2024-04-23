@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[歩道上の車両]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~歩道を塞ぐ~w~車両があると通報がありました。運転手に話を聞いてみてください。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは。ここは駐車禁止ですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ 私は動きませんよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ しかし、駐禁である以上、動かないと駄目ですよ。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 運転手さん、なにかありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ 特に何もありませんが、何か問題ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ ここは歩道ですよ。車両のご移動をお願いします。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ 待ち合わせをここでしているんです。あと数分で友達が来るので、ここで待っていてもいいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 申し訳ありませんが、ここは歩道です。ご移動をお願いします。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ じゃあ他の場所に停めるよ。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、ここは歩道ですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ そうだよ。友達を待っているんだけど、問題無いよね?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 駄目ですよ、ここに駐車しては。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ じゃあどこに行けばいいんですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 駐車場や他に駐車する場所は周りにたくさんありますよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ 分かりました。同じことが無いようにします。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~麻薬が詰まったカバン]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、なぜここに駐車しているのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ ある物を配達しているんだ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 配達? あまり配達員には見えませんが、何を配達しているんですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ えっと、とにかく届けなきゃいけないんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ つまり、何かを配達するためにここに駐車しているのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~相手:~w~ 見て、これを配達しなきゃいけないんだ。頼むよ。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

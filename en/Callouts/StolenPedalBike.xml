@@ -1,0 +1,53 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Stolen Pedal Bike]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~y~stolen bike has been spotted~w~, pull over the rider.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. Is it okay if I ask you a few questions?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Sure, go on. But watch that traffic behind you. Watch out!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. Can we have a conversation about that bike?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What about it?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It has been reported stolen, today infact.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh, haha. Sorry, I reported it! I thought I'd lost it, but I found it!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I see, so this bike is registered to you?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yep, absolutely. Run all the checks you need.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[anxious]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. The reason I'm speaking to you is because of that bike.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm trying to get somewhere. The tire isn't flat or anthing. What's wrong?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Yesterday it was reported stolen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh. Uhh, that is odd.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You wouldn't know why would you?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh...yes! I completely forgot I had reported it stolen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. Could we have a little chat about that bike?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Okay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ On our records it has recently been reported stolen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Sorry, what was that?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm not commenting on the matter.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ ARRRRGGGHH! NOT YOU!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

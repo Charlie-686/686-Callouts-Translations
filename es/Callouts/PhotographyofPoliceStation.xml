@@ -1,0 +1,76 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fotografía de una Comisaría de Policía]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Una persona está ~y~tomando fotos de la comisaría~w~, habla con ellos para descubrir por qué.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Buenas, ¿qué está pasando aquí?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Nada. Nada en absoluto.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Nada. Nada en absoluto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Baja la cámara, Me gustaría hablar con-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿Qué pasa? ¿Qué te trae por aquí?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ No estoy haciendo nada ilegal, déjame estar por favor.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ No estoy haciendo nada ilegal, déjame estar por favor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Sólo estoy tratando de entablar una conversación para entender lo que está pasando.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Y yo solo estoy intentando hacer cosas, las cuales son perfectamente legales.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Y yo solo estoy intentando hacer cosas, las cuales son perfectamente legales.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Solo me gustaría hablar contigo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ No intentes infringir mis derechos de fotografía en propiedad pública.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ No intentes infringir mis derechos de fotografía en propiedad pública.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hola, ¿puedo preguntarte por qué estás haciendo fotos de la comisaría?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Era para mi canal de redes sociales, ¿está eso bien?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Era para mi canal de redes sociales, ¿está eso bien?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Es ilegal, sí, es bastante raro hacer eso durante tanto tiempo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Entiendo, ya he terminado, así que me moveré.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Entiendo, ya he terminado, así que me moveré.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Perfecto, gracias.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Se recibió el número de teléfono y se iniciaron las investigaciones iniciales. Gracias.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hola, ¿que haces tomando fotos de la comisaría?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿De verdad quieres saberlo?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿De verdad quieres saberlo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Si por favor, adelante.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Me doy cuenta de lo estúpido que parezco diciendo esto, pero alguien, llamado Jeff, me mandó un mensaje de texto pidiéndo que lo hiciera.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Me doy cuenta de lo estúpido que parezco diciendo esto, pero alguien, llamado Jeff, me mandó un mensaje de texto pidiéndo que lo hiciera.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Sí, en retrospectiva fue un poco sospechoso hacerlo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Sí, en retrospectiva fue un poco sospechoso hacerlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Yo creo que ambos estamos pensando lo mismo. ¿Puedes darme su número?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Yo creo que deberías irte a casa ahora y, posiblemente, pensar con quién estás hablando.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Sí, lo entiendo. Perdón por las molestias.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Sí, lo entiendo. Perdón por las molestias.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hola, ¿qué haces tomando fotos de la comisaría?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Hola agente! Soy un gran fan de los servicios de emergencia, y el trabajo que hacen. Acabo de hacer algunas fotos de vuestra comisaría, ¿está bien?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Hola agente! Soy una gran fan de los servicios de emergencia, y el trabajo que hacen. Acabo de hacer algunas fotos de vuestra comisaría, ¿está bien?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo, así que esto es como una especie de hobby, ¿si no me equivoco?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Exactamente! Yo quería ser un agente de policía, pero al estar en el otro lado de la comisaría puedes ver que no salió según lo planeado.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Exactamente! Yo quería ser una agente de policía, pero al estar en el otro lado de la comisaría puedes ver que no salió según lo planeado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Eso es algo interesante de escuchar, solo quería verificar que hacías para entender que está pasando.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Solo puedo disculparme por hacerte perder el tiempo, pero de todos modos ya terminé mis tomas, se ven bastante bien si lo digo yo mismo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Solo puedo disculparme por hacerte perder el tiempo, pero de todos modos ya terminé mis tomas, se ven bastante bien si lo digo yo misma.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ No hay problema en absoluto, espero que tenga un excelente resto del día.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Bueno, me voy entonces. A lo mejor nos cruzaremos en algún momento del futuro.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechoso:~w~ Bueno, me voy entonces. A lo mejor nos cruzaremos en algún momento del futuro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

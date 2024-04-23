@@ -1,0 +1,47 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Objet volé]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vol~w~ a eu lieu; parlez à la ~y~victime~w~ et procédez aux investigations.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[C'est possible que le suspect soit ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[à pied~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[dans un véhicule~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Un téléphone portable]]></OTHER>
+		<OTHER><![CDATA[Un ordinateur portable]]></OTHER>
+		<OTHER><![CDATA[Un portefeuille]]></OTHER>
+		<OTHER><![CDATA[Une clé de maison]]></OTHER>
+		<OTHER><![CDATA[Une caméra]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[tremblant]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Qu'est-ce que vous voulez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Nous avions été informé d'un vol, et nous allons avoir besoin de vous fouiller.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Comme si! Vous n'avez aucune preuve et je ne répondrai à aucunes de vos questions!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Je suis là pour appliquer la loi. Nos traqueurs indiquent {0} ici et sur vous.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Mensonges! De toute manière, La technologie a toujours faux de nos jours!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Qu'est-ce que vous voulez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Nous pensons que que vous avez {0} sur vous, Je vais avoir besoin de vous fouiller.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Vous m'avez eu, je me rend.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ D'accord, mettez vos mains en évidence et je vous arrête.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Localisez le ~r~suspect~w~. La ~y~zone de recherche sera mise à jour ~w~périodiquement.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE PLAYER "M"><![CDATA[~y~Victime:~w~ Officier, aidez-moi, J'ai été volé!]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~y~Victime:~w~ Officière, aidez-moi, J'ai été volé!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Pouvez-vous me dire quoi que ce soit à propos du suspect?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victime:~w~ Pas vraiment, mais ce qu'il a volé à un traqueur GPS, ça devrait être utile pour une fois.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Parfait, Laissez moi envoyer ça au dispatch qu'il me donne les coordonnées comme ça je peux le traquer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victime: ~w~Oui, J'espère que vous allez pouvoir le récupérer, c'est important.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Bien sur, Nous restons en contact. Je vais essayer de le localiser maintenant.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

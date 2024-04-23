@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Stolen Item]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~y~theft~w~ has taken place; speak to the ~y~victim~w~ and proceed with investigations.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[It is believed the suspect is ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[on foot~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[in a vehicle~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Mobile Phone]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Wallet]]></OTHER>
+		<OTHER><![CDATA[House Key]]></OTHER>
+		<OTHER><![CDATA[Camera]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[shaken]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What do you want?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~We've been made aware of a theft, and we are going to need to search you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ As if! You have zero evidence and I won't answer any of your questions!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'm here to enforce the law. Our tracker indicates a {0} is here and on you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Lies! Technology is always wrong nowadays anyway!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ What do you want?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~We believe you've got a {0} on you, I'll need to search you please.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ You've got me, I hand myself in.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Okay, put your hands up and I'm going to detain you.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Locate the ~r~suspect~w~. The ~y~search area will be updating ~w~periodically.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Officer, help, I've been robbed!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Can you tell me anything about the suspect?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Not really, but my {0} has a GPS tracker, that should be useful for once. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Amazing, let me send this over to dispatch who will get me hooked up so I can track it down.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim: ~w~Yes, I hope you will be able to retrieve it, it's important.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Of course, we'll get in touch. I'll try to locate it now.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

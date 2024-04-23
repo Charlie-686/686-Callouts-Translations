@@ -1,0 +1,63 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Načteno perfektně~w~, čas na patrolu!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Jsi na staré verzi!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Načteno, ale prosím, aktualizuj si 686 Callouts jakmile to bude možné.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Beta Build detekován.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Děkuji za tvé testování & zpětnou vazbu. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Kontrola aktualizací se nezdařila!]]></FAILED>
+		<FAILED><![CDATA[~y~Načteno, ale kontrola aktualizací se nezdařila.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[V 686 Callouts chybí soubory!~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Folder]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Audio Folder]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Audio Files]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Translations Folder]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Kariérní statistiky]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Hlášení]]></CALLS>
+		<FIGHTS><![CDATA[Rvačky]]></FIGHTS>
+		<PURSUITS><![CDATA[Naháněčky]]></PURSUITS>
+		<ARRESTS><![CDATA[Zatčení]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Smrti podezřelých]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Analýza chování~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[Zdá se, že podezřelý~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Zdá se, že oběť~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Prevence crashe]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Možná se vyskytl problém.~w~ Kontaktuj, prosím, podporu.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Kontrola vzdálenosti]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Promiň, ale jsi moc blízko pro to, aby toto hlášení začalo.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Obviňuj GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV smazalo jednu z našich postav! Nemohli jsme udělat nic jiného než předejít crashi, ale toto by se často stávat nemělo.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Dispečink]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialog skončil. Vyřeš situaci jak uznáš za vhodné.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Stisknutím ~y~{0}~w~ začneš mluvit.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Kdykoliv stiskni ~y~{0}~w~ pro ukončení aktuálního hlášení.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Informace]]></INFORMATION>
+		<CODE4><![CDATA[~g~Kód 4.~w~ Ukaž mě k dispozici pro hlášení.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Aktualizace k nahánění]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[se domnívá, že podezřelý je ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[se domnívá, že podezřelý je ~y~{0}~w~, který již v minulosti obdržel ~y~{1}krát~w~ citaci.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[se domnívá, že podezřelý je ~y~muž~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[se domnívá, že podezřelá je ~y~žena~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[se domnívá, že podezřelý je ~y~{0}~w~, který již v minulosti byl zastaven ~y~{1}krát~w~.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[~y~nemá žádné detaily~w~ o podezřelém.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPEČINK]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ŤÍSŇOVÉ VOLÁNÍ]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Hlášení: ~b~{0}~n~~w~Lokace: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

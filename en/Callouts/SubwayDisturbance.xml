@@ -1,0 +1,40 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Subway Disturbance]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A bystander is requesting help for a suspected ~y~disturbance~w~ involving ~y~2 individuals~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Locate the subway entrance~w~ and attempt to find the ~y~2 individuals~w~ who have caused a disturbance.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Victim:~w~ Help me Officer, I'm being chased by a madman!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ This is a warning shot, stay back!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ ARGHHHH! TAKE THIS!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+	<NOTIFICATION><![CDATA[aggravated]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[We're checking their details. Standby.]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[Their respective identification checks have come back as ~g~all clear~w~. No cause for concern.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Press ~y~Y~w~ to move the ped to a quiet place to speak.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Success~w~. The ped is now following you.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Go back to speak to the ~r~suspect~w~.]]></NOTIFICATION>
+	    <DIALOGUES>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+		</DIALOGUES>	 
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ My work is done. Arrest me.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ You saw how they came at me officer! That was not my fault.]]></DIALOGUE>
+		</DIALOGUES>
+		
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
