@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[napad w zaułku]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0}. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0}. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[skradzione dobra]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0} i ofiara jest ~r~podobno na celowniku~w~. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0} i zgłoszono dwóch rabusiów. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby ~g~odzyskać~w~ skradzione dobra.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Odzyskano skradziony ~y~{0}~w~ jako ~g~dowód~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Torba]]></OTHER>
+		<OTHER><![CDATA[Torba na zakupy]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Paczka]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
