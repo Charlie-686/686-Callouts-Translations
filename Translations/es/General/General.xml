@@ -1,0 +1,60 @@
+<GENERAL>
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Cargado perfectamente~w~, ¡hora de patrullar!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~¡Estás en una versión antigua!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Cargado, pero por favor actualiza 686 Callouts cuando puedas.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Versión beta detectada.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Gracias por tu testing y feedback. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~¡No se pudo buscar actualizaciones!]]></FAILED>
+		<FAILED><![CDATA[~y~Cargado, pero no pudimos buscar actualizaciones.]]></FAILED>
+	</UPDATECHECKER>
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[¡Faltan archivos de 686 Callouts!~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Carpeta de 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Carpeta de audio]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Archivos de audio]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Carpeta de traducciones]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Historial profesional]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Llamadas]]></CALLS>
+		<FIGHTS><![CDATA[Peleas]]></FIGHTS>
+		<PURSUITS><![CDATA[Persecuciones]]></PURSUITS>
+		<ARRESTS><![CDATA[Arrestos]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Muertes de sospechosos]]></SUSPECTDEATHS>
+	</STATISTICS>
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Análisis de comportamiento~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[El sospechoso parece~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[La victima parece~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Prevención de Crasheo]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Puede haber un problema.~w~ Por favor contacta con el soporte.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Comprobación de distancia]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Perdón, tú estabas demasiado cerca para que esa llamada comience.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[¡Culpa a GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV eliminó uno de nuestros peds! No había nada que podíamos hacer que prevenir un crasheo, pero esto no debería de pasar a menudo.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Central]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialogo acabado. Afronta la situación como mejor te parezca.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Pulsa ~y~{0}~w~ para empezar a hablar.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Pulsa ~y~{0}~w~ en cualquier momento para finalizar la llamada.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Información]]></INFORMATION>
+		<CODE4><![CDATA[~g~Código 4.~w~ Muestrame disponible para llamadas.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Actualización de Persecución]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "M"><![CDATA[cree que el sospechoso es ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[cree que la sospechosa es ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "M"><![CDATA[cree que el sospechoso es ~y~{0}~w~ quien tiene ~y~{1}~w~ multa(s) en el pasado.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[cree que la sospechosa es ~y~{0}~w~ quien tiene ~y~{1}~w~ multa(s) en el pasado.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "M"><![CDATA[cree que el sospechoso es ~y~male~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[cree que la sospechosa es ~y~female~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "M"><![CDATA[cree que el sospechoso es ~y~{0}~w~ quien ha sido parado ~y~{1}~w~ vez/veces en el pasado.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[cree que la sospechosa es ~y~{0}~w~ quien ha sido parada ~y~{1}~w~ vez/veces en el pasado.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "M"><![CDATA[~y~no tiene detalles~w~ sobre el sospechoso.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[~y~no tiene detalles~w~ sobre la sospechosa.]]></PURSUITUPDATE>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[CENTRAL]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[LLAMADA DE EMERGENCIA]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Llamada: ~b~{0}~n~~w~Localización: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

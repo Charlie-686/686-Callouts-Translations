@@ -1,0 +1,69 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Dezorientovaný jedinec]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Operátoři kamer~w~ vyvolali ~y~obavy~w~ ohledně osoby, zkontrolujte ji.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[má silný zápach alkoholu]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý: ~w~Šplaaaa, bleeeeeeeeeee]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá: ~w~Šplaaaa, bleeeeeeeeeee]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý: ~w~Šplaaaa, bleeeeeeeeeee]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá: ~w~Šplaaaa, bleeeeeeeeeee]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Zdravím, je vše v pořádku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Haló, můžeme prosím mít jenom rychlou konverzaci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý: ~w~Nneeeeeeeee, ale jáá nechci.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá: ~w~Nneeeeeeeee, ale jáá nechci.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Myslím, že by bylo nejlepší, kdybychom mohli; Máte u sebe nějaké doklady?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý: ~w~Hmmm...ne díkyyy...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá: ~w~Hmmm...ne díkyyy...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ BLALALALALA! ČAS JÍT NASHLEE STRÁŽNÍKU!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ BLALALALALA! ČAS JÍT NASHLEE STRÁŽNÍKU!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ BLALALALALA! ČAS JÍT NASHLEE STRÁŽNICE!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ BLALALALALA! ČAS JÍT NASHLEE STRÁŽNICE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zdravím, díky bohu, že tu jste!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zdravím, díky bohu, že tu jste!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, co se děje?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ztratil jsem se, nejsem tady z okolí. Nevím jak se dostat domů.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ztratila jsem se, nejsem tady z okolí. Nevím jak se dostat domů.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Ah bože, máte někoho kdo by vás mohl vyzvednout?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ó ano, mám! Hned jim napíšu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ó ano, mám! Hned jim napíšu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Perfektní. Pokud nemůžou přijet tak vymyslíme nějaké alternativní řešení.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co se děje?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nicc...jenom jsem měl dobrou pártyyy.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nicc...jenom jsem měla dobrou pártyyy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To vidím. A to se tu jen tak potulujete?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jooo, milujuuu být venku.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jooo, milujuuu být venku.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Můžu dostat vaše jméno prosím?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Oukej..jmenuju se Shu Lin.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Oukej..jmenuju se Shu Lin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Přestaňte vtípkovat, chci vaše skutečné jméno.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zkusím si vzpomenout...Myslím si, že to je {0}.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zkusím si vzpomenout...Myslím si, že to je {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Zdravíčko, je vše v pořádku?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ano, ano je.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ano, ano je.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Chápu, jenom jsme měli nahlášení o dezorientovaném jedinci v této oblasti.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Oukej, a to je trestný čin?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Oukej, a to je trestný čin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Ne, jen jsme se chtěli ujistit, že jste v pořádku.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jsem úplně v pohodě, ale ocenil bych kdyby jste mě nechali být.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jsem úplně v pohodě, ale ocenil bych kdyby jste mě nechali být.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Pokud na tom trváte, mějte hezký zbytek den.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

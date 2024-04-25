@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Individuo Desorientado]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Operadores de camara~w~ han ~y~expresado preocupación~w~ por una persona, vaya a ver como está.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[teniendo un fuerte olor a alcohol]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hola, está todo bien?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hola! ¿Podemos tener una conversación rápida por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Nooooooooo, pero no quiero tenerla.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Nooooooooo, pero no quiero tenerla.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Creo que sería mejor si la tuviéramos; ¿tienes más detalles sobre ti?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Hmmm...no graciasss...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Hmmm...no graciasss...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ BLALALALALA! HORA DE IRMEE ADIOSS AGENTE!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ BLALALALALA! HORA DE IRMEE ADIOSS AGENTE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Hola, ¡Gracias a dios que estás aquí!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Hola, ¡Gracias a dios que estás aquí!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú ~w~ Hola, ¿Cuál es el asunto?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Me he perdido, no soy de la zona como ves. No se como llegar a casa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Me he perdido, no soy de la zona como ves. No se como llegar a casa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Dios mío, ¿hay alguien que pueda recogerte?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Oh si, ¡los hay! Déjame que les mande un mensaje ahora.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Oh si, ¡los hay! Déjame que les mande un mensaje ahora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú ~w~ Perfecto. Si ellos no pueden venir veré si podemos elaborar algunos planes alternativos.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿Qué pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Nadaa...acabo de tener una buena fiestaaa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Nadaa...acabo de tener una buena fiestaaa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo, ¿y simplemente estás deambulando?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Siii, me encantaaa estar afuera.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Siii, me encantaaa estar afuera.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿Puedo tener tu nombre por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Vale..mi nombre es Ben Dover.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Vale..mi nombre es Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Fuera de bromas, quiero tu nombre real.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Déjame intentar recordar...creo que es {0}.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Déjame intentar recordar...creo que es {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas, ¿está todo bien?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Sí, si lo está.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Sí, si lo está.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo, acabamos de tener reportes sobre un individuo desorientado en el area.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Vale, ¿y es eso un delito?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Vale, ¿y es eso un delito?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ No, sólo queríamos establecer que estás bien.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Estoy perfectamente bien, pero apreciaría si me dejaras solo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Estoy perfectamente bien, pero apreciaría si me dejaras sola.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Si tú insistes, ten un buen día.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

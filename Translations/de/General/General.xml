@@ -1,0 +1,56 @@
+<GENERAL>
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Perfekt geladen~w~, Zeit, um auf Streife zu gehen!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Sie verwenden eine alte Version!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Geladen, aber bitte aktualisieren Sie 686 Callouts, wenn möglich.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Beta-Version erkannt.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Vielen Dank für Ihr Testen & Feedback. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Fehler beim Überprüfen von Updates!]]></FAILED>
+		<FAILED><![CDATA[~y~Geladen, jedoch konnte nicht auf Updates geprüft werden.]]></FAILED>
+	</UPDATECHECKER>
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts fehlen Dateien!~y~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Ordner]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Audio Ordner]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Audio Dateien]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Translations Ordner]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Karrierestatistiken]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Anrufe]]></CALLS>
+		<FIGHTS><![CDATA[Kämpfe]]></FIGHTS>
+		<PURSUITS><![CDATA[Verfolgungen]]></PURSUITS>
+		<ARRESTS><![CDATA[Festnahmen]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Tode Verdächtige]]></SUSPECTDEATHS>
+	</STATISTICS>
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Verhaltensanalyse~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Verdächtiger scheint~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Opfer scheint~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Crash Verhinderung]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Es könnte ein Problem geben.~w~ Bitte kontaktieren Sie den Support.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Entfernungsprüfung]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Entschuldigung, Sie waren zu nah am Einsatzort, um ihn zu starten.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Schiebs auf GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV hat einen unserer Peds gelöscht! Wir konnten nichts tun, außer einen Absturz zu verhindern, aber das sollte nicht öfter passieren.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Zentrale]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialogue vorbei. Handeln Sie je nach Situation.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Drücken Sie ~y~{0}~w~, um zu sprechen.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Drücken Sie ~y~{0}~w~ jederzeit, um den Einsatz zu beenden.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Information]]></INFORMATION>
+		<CODE4><![CDATA[~g~Code 4.~w~ Ich bin wieder für Einsatze verfügbar.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Verfolgung Update]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has ~y~{1}~w~ citation(s) in the past.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[believes the suspect is ~y~male~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[believes the suspect is ~y~female~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has been stopped ~y~{1}~w~ time(s) in the past.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[does ~y~not have details~w~ on the suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[EMERGENCY CALL]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Location: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

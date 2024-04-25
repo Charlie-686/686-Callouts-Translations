@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[不審者情報]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~監視カメラ~w~に~y~不審な~w~人物が映りました。確認してください。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[強いアルコールの影響で酔っている。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~不審者: ~w~ゲェ、ウイップ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~すみません、お話を伺えますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~もしもし? 聞こえてますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者: ~w~うう... もう、けっこう...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ご自身の身分を証明できるものはありますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者: ~w~だからぁ... 要らないって... んっ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者: ~w~吐き気がしてきた。お別れの時間だね巡査さん...]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ こんにちは、ああ来てくれてよかった!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、どうかなさいましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ このあたりのことは詳しくなくいので、迷子になってしまいました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ そうだったんですね。どなたかお知り合いの方に迎えに来てもらうのはどうでしょう。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ そうだ、それだ! 連絡してみます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ よかった、もし来れないのであれば公共交通機関などで帰るなどしましょう。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 何をしているのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ 別に... 楽しいパーティーの帰りさ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、そしてここで道草を食っていると?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ ああ、外の空気はおいしいね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ お名前を伺ってもいいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ ああ、「野々村竜太郎」と言います]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 冗談はやめてください、本当の名前は何ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ 思い出すから待ってくれ... 確か、{0} だったかな...?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、問題はありませんか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ ああ、ええ何も。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、ところで、ちょうどこの付近で不審者情報がありまして。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ へえ... 犯罪者が居るってこと?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ いえ、まだ犯罪者かどうかは分かりません。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~不審者:~w~ 別に悪いことしてるわけじゃないんだから、一人にしてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ あなたが良いのであれば。良い一日を。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

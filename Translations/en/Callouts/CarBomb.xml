@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Car Bomb]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to attempt to ~y~disarm the bomb.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The vehicle ~r~may explode at any time~w~.~n~Either ~y~keep civilians out of vehicle's path~w~, or ~y~end the pursuit~w~ as quickly as possible.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Successful.~w~~n~The bomb has been disarmed. Continue as you see fit.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Unsuccessful.~w~~n~The bomb was not disarmed. ~y~Evacuate the surrounding area~w~ immediately.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Intelligence has reported a ~r~car bomb.~n~~w~Respond to the scene ~y~urgently.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Suspect is ~y~fleeing~w~ in their vehicle, and is armed ~y~with a bomb.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The vehicle ~r~may explode at any time~w~.~n~Either ~y~keep civilians out of vehicle's path~w~, or ~y~end the pursuit~w~ as quickly as possible.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Bomb Detonator]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Intelligence has reported a mentally unstable person with a ~r~car bomb.~n~~w~Respond to the scene ~y~urgently.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Bomb Detonator~w~, ~y~Wiring]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I surrender! You can arrest me officer!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer...I'm sorry it had to end this way...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Intelligence has reported a ~r~car bomb.~n~~w~Respond to the scene ~y~urgently.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[The car bomb ~y~has been detonated.~n~~w~Reported casulties: ~r~{0} person(s).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Wiring~w~,~r~Explosives]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Intelligence has reported an ~r~abandoned car bomb.~w~~n~Respond to the scene ~y~urgently, and ~y~defuse the bomb.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Car keys~w~, ~r~Bomb]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
