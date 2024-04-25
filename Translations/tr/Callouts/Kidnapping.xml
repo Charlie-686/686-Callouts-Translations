@@ -1,0 +1,75 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Kaçırılma İlerlemekte]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir bireyin iddia edilen olarak ~y~takside kaçırıldığı. ~y~Trafik durdurması yapın.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Veritabanı kontrol ediliyor...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Kontroller temiz. Endişe verici bir durum yok.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Şüpheli aranıyor. Endişe kaynağı.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Şüpheliyle ilgilendikten sonra, kurbanın yardımına gitmek için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Kanlı Bağlar]]></OTHER>
+		<OTHER><![CDATA[~r~Kanlı Eldivenler]]></OTHER>
+		<OTHER><![CDATA[~y~Sıkı Bant]]></OTHER>
+		<OTHER><![CDATA[~r~Göz Bandı]]></OTHER>
+		<OTHER><![CDATA[~r~Bağcıklar~w~, ~r~Bıçak~w~, ~o~Balaklava]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ YARDIM EDEEEEEEEN!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[provoked]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Dinle, yolcunuzla konuşmam gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Bence öyle değil. Arabamdan çıktım, benimle konuşabilirsiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Çok önemli, bana onlarla konuşmama izin vermelisiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tamam tamam, sadece ne olduğunu söyle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bir kişinin kaçırıldığına dair raporlar aldık. Bazı kontroller yapıyoruz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ İyi, doğru kişiyi yakaladınız!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Burada işimiz bitti!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Alışveriş]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba, şu anda nereye gidiyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Sadece bu yolcuyu evine götürüyorum]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Yolcuyu hızlıca görmek istiyorum, izin verir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Hey memur, neye ihtiyacınız var?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Sadece bir kaçırılma ihbarı aldık, sizin iyi olduğunuzu kontrol etmek istiyorum?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Kesinlikle! Sadece alışverişe çıkmıştım ve arabanın bagajında duruyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Teşekkür ederim. Birkaç kontrol yapacağım, sonra yolunuza devam edebilirsiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Tabii ki, acelemiz yok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Her şey açıklandı, gitmekte özgürsünüz!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Size dikkat çekmeye çalışıyor]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Sadece bir kelime etmek istiyorum, lütfen motoru kapatın.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Burada neler oluyor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bir potansiyel kaçırılma ihbarı aldık. Bu yüzden nereye gittiğinizi merak ediyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Bu kişiyi nereye gitmesi gerekiyorsa götürüyorum. Bir taksi şoförünün yapması gereken bu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Yolcuyu görmem lazım, sorun olur mu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tamam, ama taksi ücreti artıyor şu anda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba, bu şoföre nereye gitmesini istediniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Sadece eve gitmeye çalışıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tamam, ve bana söylemek istediğiniz bir şey yok mu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Sadece eve gidiyorum, başka bir şey değil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Harika, her şey yolunda görünüyor. Bazı kontrolleri yapayım ve ondan sonra devam edebiliriz.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[Gerçek bir taksi sandım...ama içine bindiğim anda bir şeylerin ters olduğunu fark ettim. Bir ara sokağa döndük, bana silah doğrulttular, telefonumu aldılar ve sessiz kalmamı söylediler.]]></OTHER>
+	<OTHER><![CDATA[Evime doğru yürüyordum, ve bu balaklava takan biri beni yakaladı, ve kafamda bir silah hissettim. Beni taksiye zorladılar.]]></OTHER>
+	<OTHER><![CDATA[Bu taksi şoförü bana yön sordu, arabanın içine eğildim onunla konuşmak için, ve beni içeri çektiler. Ama zarar görmüyorum.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Çok teşekkür ederim Memur! Sanırım...sanırım sonum geldiğini düşünmüştüm.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Sizi bulduğumuz için rahatladım. Sizi güvenli bir şekilde eve götürmek istiyorum, ama başınıza ne geldiğini anlatabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Anlıyorum. Bu detayları paylaştığınız için teşekkür ederim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Yolcu:~w~ Bunu yaşadığıma inanamıyorum...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,56 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Автомобиль на тротуаре]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Сообщается, что автомобиль находиться на тротуаре, ~y~блокируя его~w~. Попытайтесь поговорить с водителем.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Добрый день. Я боюсь вы не можете оставаться здесь.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Но я не двигаюсь.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Но я не двигаюсь.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Мне нужно чтобы вы-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Оставайся на месте. Что-то случилось?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ну, ничего особенного. Что-то не так?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ну, ничего особенного. Что-то не так?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Это тротуар. Тебе нужно убраться отсюда.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я жду кое-кого, они будут тут с минуты на минуту.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я жду кое-кого, они будут тут с минуты на минуту.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Это была не просьба. Это тротуар, люди тут ходят.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я перепаркуюсь где-нибудь в другом месте.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я перепаркуюсь где-нибудь в другом месте.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Добрый день. Вы припарковались на тротуаре, вы это знаете?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Да, но Я просто жду друга. Можно мне остаться?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Да, но Я просто жду друга. Можно мне остаться?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ К сожалению нет.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Но где ещё мне остановиться?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Но где ещё мне остановиться?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Парковки или нечто похожее, таких мест полно поблизости.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ясно. Извините, больше не повторится.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ясно. Извините, больше не повторится.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Упакованные пакеты с каннабисом;]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Здравствуйте. Зачем вы припарковались здесь?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я доставляю кое-что.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я доставляю кое-что.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Доставляете что? Вы не похожи на курьера если честно.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[ ~r~Подозреваемый:~w~ Ам, кое-что, что мне надо доставить.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[ ~r~Подозреваемая:~w~ Ам, кое-что, что мне надо доставить.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Значит, вы припарковались здесь в ожидании доставить что-то?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Послушайте, мне нужно доставить это моей семье. Пожалуйста.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Послушайте, мне нужно доставить это моей семье. Пожалуйста.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

@@ -1,0 +1,33 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Araç Bombası]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ tuşuna basarak ~y~imha etmeyi deneyin.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Araç ~r~her an patlayabilir~w~.~n~Aynı zamanda ~y~sivilleri araçtan uzaklaştırmalısınız~w~, veya ~y~kovalamacayı~w~ hızlıca bitirmeye çalışın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Başarılı!.~w~~n~Bomba imha edildi. Devam etmek istediğiniz şekilde devam edin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Başarısız!.~w~~n~Bomba imha edilemedi. ~y~Alanı~w~ derhal boşaltın!.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[İstihbarat raporlarına göre bir ~r~Araç Bombası İhbarı.~n~~w~Olay yerine müdahale edin. ~y~Tamam.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Şüpheli ~y~kaçıyor~w~, ve üzerinde ~y~bomba mevcut.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Araç ~r~her an patlayabilir~w~.~n~Aynı şekilde ~y~sivilleri araçtan uzak tutun~w~, veya ~y~kovalamacayı bitirin~w~ hızlı davranın.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Bomba Patlatıcı]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[İstihbarat, aklı dengesi olmayan birinin ~r~araç bombası taşıdığını bildirdi.~n~~w~bölgeye hemen yönelin. ~y~Hızlı hareket edin.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Bomb Detonator~w~, ~y~Kablo]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Teslim oluyorum! beni tutuklayabilirsin memur!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Memur... böyle bittiği için üzgünüm.]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[İstihbarat bir ~r~araç bombası raporladı.~n~~w~bölgeye hemen yönelin ~y~hızlı davranın.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Araç bombası ~y~patlatıldı!.~n~~w~Bildirilen ölü sayısı: ~r~{0} kişi(ler).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Kablolar~w~,~r~Patlamalar]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[İstihbarat, ~r~terkedilmiş bir araç bombası~w~ rapor etti. ~n~~w~Acilen olay yerine gidin, ve ~y~bombayı imha edin.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Araç Anahtarı~w~, ~r~Bomba]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

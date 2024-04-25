@@ -1,0 +1,67 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protest]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Trwa ~r~protest~w~, który blokuje drogę. Proszę czekać na dalsze instrukcje od centrali.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Protest teraz ~r~przerodził się w przemoc.~n~~y~Odpowiedz pilnie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Nadzoruj protest~w~ do momentu jego zakończenia. Upewnij się, że przebiega bez problemów.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protest odbył się ~g~bez eskalacji~w~ i teraz się kończy.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protest trwa. Skontaktuj się z ~o~liderem protestu.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protestujący obecnie ~g~opuszczają miejsce~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Przechodzień:~w~ To jest absurd! Musimy ruszyć ruchem!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Przechodzień:~w~ Blokują drogę! Przesuń ich! To jest niebezpieczne.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Przechodzień:~w~ Powiedziałem ci, żebyś ich przesunął!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Przechodzień:~w~ Protestujący, którzy blokują drogę, mogą się tym udławić!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany: ~w~Oficerze, czy dołączysz do naszej sprawy?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana: ~w~Oficerze, czy dołączysz do naszej sprawy?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany: ~w~Pani oficer, czy dołączysz do naszej sprawy?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana: ~w~Pani oficer, czy dołączysz do naszej sprawy?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty: ~w~O co chodzi w tym proteście?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty: ~w~O co chodzi w tym proteście?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Wierzymy, że zmiana klimatu niszczy nasz kraj - a nasz rząd musi działać teraz!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Wierzymy, że zmiana klimatu niszczy nasz kraj - a nasz rząd musi działać teraz!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty: ~w~Przykro mi, musisz się przemieścić. Jeśli protestujesz, blokując drogę, musisz najpierw uzyskać zezwolenie.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty: ~w~Przykro mi, musisz się przemieścić. Jeśli protestujesz, blokując drogę, musisz najpierw uzyskać zezwolenie.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Ale dlaczego? Protestujemy dla dobrej sprawy!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Ale dlaczego? Protestujemy dla dobrej sprawy!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty: ~w~Ten protest nie został autoryzowany. Nie możesz po prostu blokować drogi.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty: ~w~Ten protest nie został autoryzowany. Nie możesz po prostu blokować drogi.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Mówiłem o tym innym...ale nie słuchali. Powiem im, że musimy iść.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Mówiłam o tym innym...ale nie słuchali. Powiem im, że musimy iść.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty: ~w~Dzięki. Proszę, zbierz swoje rzeczy, aby ruch mógł być wznowiony.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty: ~w~Dzięki. Proszę, zbierz swoje rzeczy, aby ruch mógł być wznowiony.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Dobrze chłopaki, protest jest odwołany. Chodźmy teraz.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Dobrze dziewczyny, protest jest odwołany. Chodźmy teraz.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Patrzcie kto przyszedł wesprzeć nasz protest!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Patrzcie kto przyszedł wesprzeć nasz protest!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Dlaczego protestujecie?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Ceny żywności są astronomiczne i mamy tego dość! Będziemy głodować!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Ceny żywności są astronomiczne i mamy tego dość! Będziemy głodować!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Ten protest nie może mieć tutaj miejsca, narażasz na ryzyko bezpieczeństwo publiczne.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Nie jesteśmy zainteresowani przemieszczeniem, oficerze. To jest ważna sprawa!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Nie jesteśmy zainteresowani przemieszczeniem, oficerze. To jest ważna sprawa!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Nie jesteśmy zainteresowani przemieszczeniem, pani oficer. To jest ważna sprawa!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Nie jesteśmy zainteresowani przemieszczeniem, pani oficer. To jest ważna sprawa!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Musisz się przemieścić, protestujesz tutaj nielegalnie.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Oficerze, nie ruszamy się! Zajmij się kimś innym.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Oficerze, nie ruszamy się! Zajmij się kimś innym.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podejrzany:~w~ Pani oficer, nie ruszamy się! Zajmij się kimś innym.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podejrzana:~w~ Pani oficer, nie ruszamy się! Zajmij się kimś innym.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

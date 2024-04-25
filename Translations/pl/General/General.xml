@@ -1,0 +1,61 @@
+<GENERAL>
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Załadowano bez problemów~w~, czas na patrol!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Używasz starej wersji!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Załadowano, ale proszę zaktualizować 686 Callouts kiedy to możliwe.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Wykryto wersję beta.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Dziękujemy za testowanie i opinie. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Nie udało się sprawdzić aktualizacji!]]></FAILED>
+		<FAILED><![CDATA[~y~Załadowano, ale nie udało się sprawdzić aktualizacji.]]></FAILED>
+	</UPDATECHECKER>
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[Brakuje plików 686 Callouts!~y~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Folder 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Folder Audio]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Pliki Audio]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Folder Tłumaczeń]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Statystyki kariery]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Wezwania]]></CALLS>
+		<FIGHTS><![CDATA[Walki]]></FIGHTS>
+		<PURSUITS><![CDATA[Pościgi]]></PURSUITS>
+		<ARRESTS><![CDATA[Aresztowania]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Śmierci podejrzanych]]></SUSPECTDEATHS>
+	</STATISTICS>
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Analiza zachowania~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS TARGET="M"><![CDATA[Podejrzany wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS TARGET="F"><![CDATA[Podejrzana wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Ofiara wydaje się~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Zapobieganie awariom]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Może występować problem.~w~ Proszę skontaktować się z pomocą techniczną.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Sprawdzenie odległości]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Przykro mi, byłeś zbyt blisko, aby to wezwanie mogło się rozpocząć.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Winne jest GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV usunęło jednego z naszych pieszych! Nie mogliśmy zrobić nic innego, jak tylko zapobiec awarii, to nie powinno zdarzać się często.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Centrala]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialog zakończony. Zrób to co uważasz za stosowne.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Naciśnij ~y~{0}~w~, aby zacząć mówić.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Naciśnij ~y~{0}~w~ w dowolnym momencie, aby zakończyć wezwanie.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Informacje]]></INFORMATION>
+		<CODE4 PLAYER="M"><![CDATA[~g~Kod 4.~w~ Jestem dostępny na wezwania.]]></CODE4>
+		<CODE4 PLAYER="F"><![CDATA[~g~Kod 4.~w~ Jestem dostępna na wezwania.]]></CODE4>
+       		<PURSUITUPDATE><![CDATA[Aktualizacja pościgu]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany to ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana to ~y~{0}~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany to ~y~{0}~w~, który ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana to ~y~{0}~w~, która ma ~y~{1}~w~ mandat(y) w przeszłości.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest {0}.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest {0}.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="M"><![CDATA[uważa, że podejrzany jest ~y~{0}~w~, który został zatrzymany ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET="F"><![CDATA[uważa, że podejrzana jest ~y~{0}~w~, która została zatrzymana ~y~{1}~w~ raz(y) w przeszłości.]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[nie ma ~y~szczegółów~w~ na temat podejrzanego.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[CENTRALA]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[WEZWANIE ALARMOWE]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Lokalizacja: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

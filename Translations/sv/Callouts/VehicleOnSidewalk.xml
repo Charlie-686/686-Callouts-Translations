@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fordon på Gångbana]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ett fordon har rapporterats in att ~y~stå i vägen~w~ på trottoaren. Försök att få kontakt med föraren.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjena. Du kan tyvärr inte stå på tomgång här.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag kommer inte flytta mig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Skulle du kunna stänga av-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Stanna där tack. Hur är läget?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Tja, helt okej. Är det något som har hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det här är en gångbana. Du behöver flytta på dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag väntar på någon, de kommer när som helst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det var ingen uppmaning. Det här är en gångbana, folk använder den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Okej, jag parkerar någon annanstans.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjenare. Du står på en gångbana, visste du det?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ja, men jag väntar bara på en vän. Kan jag stå kvar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det kan du tyvärr inte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vart annars kan jag stå?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ En parkeringsplats eller liknande, det finns flera i området.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Uppfattat. Sorry, det kommer inte hända igen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Förpackade cannabispåsar]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjenare. Varför står du parkerad här?]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag levererar saker.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Du:~w~ Levererar vad? Du ser inte ut som någon som arbetar med leveranser?]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~r~Misstänkte:~w~ Uh, det är något jag måste leverera.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Du:~w~ Så, du står parkerad här, och väntar på att leverera någonting?]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~r~Misstänkte:~w~ Kolla, Jag måste leverera det här, för min familjs skull. Snälla.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

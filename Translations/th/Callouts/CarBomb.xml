@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[คาร์บอม ]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[กด ~y~{0}~w~เพื่อลอง~y~ปลดชะนวนระเบิด~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[รถคันนี้ ~r~อาจจะระเบิดตอนไหนก็ได้~w~.~n~ให้ ~y~จัดการคนออกจากเส้นทางรถ~w~, หรือ ~y~จบการไล่ล่า~w~ให้เร็วที่สุด ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~สำเร็จ ~w~~n~ระเบิดถูกปลดชนวนแล้ว  จัดการต่อตามที่เห็นควร ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~ไม่สำเร็จ ~w~~n~ระเบิดยังทำงานอยู่ ~y~อพยพออกจากพื้นที่โดยรอบ ~w~ในทันที ]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[มีรายงานเรื่อง ~r~คาร์บอม~n~~w~ไปที่จุดเกิดเหตุ ~y~ในทันที ]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[ผู้ต้องสงสัย ~y~กำลังหลบหนี~w~ ในรถที่ถูกติด ~y~ระเบิดไว้~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[รถคันนี้ ~r~อาจจะระเบิดตอนไหนก็ได้~w~.~n~ให้ ~y~จัดการคนออกจากเส้นทางรถ~w~, หรือ ~y~จบการไล่ล่า~w~ให้เร็วที่สุด ]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~ที่จุดระเบิด ]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[มีรายงานว่ามีคนสมองไม่ปกติกับ~r~คาร์บอม~n~~w~ไปที่จุดเกิดเหตุ ~y~ในทันที ]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~ที่จุดระเบิด ~w~, ~y~สายไฟ ]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมยอมแล้ว ! มาจับผมได้เลย ! ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันยอมแล้ว ! มาจับฉันได้เลย ! ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมขอโทษที่มันต้องเป็นแบบนี้... ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันขอโทษที่มันต้องเป็นแบบนี้... ]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[มีรายงานเรื่อง ~r~คาร์บอม~n~~w~ไปที่จุดเกิดเหตุ ~y~ในทันที ]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[คาร์บอม ~y~ถูกจุดชนวนแล้ว~n~~w~รายงานผู้เสียชีวิต : ~r~{0} คน ]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~สายไฟ~w~,~r~วัตถุระเบิด ]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[มีรายงานว่ามี ~r~คาร์บอมถูกทิ้งไว้~w~~n~ไปที่จุดเกิดเหตุ ~y~ในทันที , และ~y~กู้ระเบิด~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~กุญแจรถ~w~, ~r~ระเบิด ]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

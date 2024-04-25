@@ -1,0 +1,55 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[ของที่ถูกขโมย ]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~มีการโจรกรรมเกิดขึ้น~w~สอบถามกับ ~y~ผู้เสียหาย~w~และดำเนินการสอบสวน ]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ ~y~{0} ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[เดินเท้า~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[อยู่ในยานพาหนะ~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[โทรศัพท์มือถือ ]]></OTHER>
+		<OTHER><![CDATA[แล็ปท็อป ]]></OTHER>
+		<OTHER><![CDATA[กระเป๋าเงิน ]]></OTHER>
+		<OTHER><![CDATA[กุญแจบ้าน ]]></OTHER>
+		<OTHER><![CDATA[กล้อง ]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[ไม่สบายใจ ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ ต้องการอะไร ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ : ~w~เราได้รับแจ้งเรื่องการโจรกรรม  และเราต้องขอค้นตัวคุณ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ คุณไม่มีหลักฐานและผมจะไม่ตอบคำถามคุณ! ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ คุณไม่มีหลักฐานและฉันจะไม่ตอบคำถามคุณ! ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ผมมาที่นี่เพื่อบังคับใช้กฎหมาย เครื่องติดตามของเราระบุว่า ~r~{0} ~w~อยู่ที่นี่และอยู่กับคุณ  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ฉันมาที่นี่เพื่อบังคับใช้กฎหมาย  เครื่องติดตามของเราระบุว่า ~r~{0} ~w~อยู่ที่นี่และอยู่กับคุณ  ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ โกหก! เทคโนโลยีมันไม่เคยถูกหรอก! ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ต้องการอะไร ?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ เราเชื่อว่าคุณมี ~r~{0}~w~อยู่กับคุณ ผมต้องขอค้นตัวคุณ  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ เราเชื่อว่าคุณมี ~r~{0}~w~อยู่กับคุณ ฉันต้องขอค้นตัวคุณ  ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมเข้าใจแล้ว ผมจะมอบตัวเอง ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันเข้าใจแล้ว ฉันจะมอบตัวเอง ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ โอเค ยกมือขื้นไว้และผมจะไปคุมตัวคุณ  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ โอเค ยกมือขื้นไว้และฉันจะไปคุมตัวคุณ ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[ระบุตำแหน่ง ~r~ผู้ต้องสงสัย ~y~พื้นที่ค้นหาจะได้รับการอัปเดต~w~เป็นระยะๆ ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~ผู้เสียหาย :~w~ คุณตำรวจ ช่วยด้วย  ผมโดนปล้น! ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~ผู้เสียหาย :~w~ คุณตำรวจ ช่วยด้วย  ฉันโดนปล้น! ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ คุณช่วยบอกอะไรที่เกี่ยวกับผู้ต้องสงสัยได้มั้ย ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~ผู้เสียหาย :~w~ ไม่เชิง แต่~g~{0}~w~ของผมมีระบบติดตาม นั่นน่าจะใช้ได้ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~ผู้เสียหาย :~w~ ไม่เชิง แต่~g~{0}~w~ของฉันมีระบบติดตาม นั่นน่าจะใช้ได้ ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ดีเลย ให้ผมส่งสิ่งนี้ไปให้ศูนย์ควบคุมเพื่อที่ผมจะได้ติดตามมันได้  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ดีเลย ให้ฉันส่งสิ่งนี้ไปให้ศูนย์ควบคุมเพื่อที่ฉันจะได้ติดตามมันได้ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~ผู้เสียหาย :~w~ ใช่ ผมหวังว่าคุณจะสามารถเอามันกลับมาได้ มันเป็นของสำคัญ! ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~ผู้เสียหาย :~w~ ใช่ ฉันหวังว่าคุณจะสามารถเอามันกลับมาได้ มันเป็นของสำคัญ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ แน่นอน  เราจะพยายามค้นหา และจะติดต่อคุณกลับ ]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
