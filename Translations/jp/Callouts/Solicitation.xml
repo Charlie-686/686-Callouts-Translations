@@ -19,14 +19,14 @@
 	<OUTCOME0>
 		<OTHER><![CDATA[~r~血がついたナイフ]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~y~傍観者:~w~ ここです! ここです!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~傍観者:~w~ 彼女を助けてください! お願い!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ ここです! ここです!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ 彼女を助けてください! お願い!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 何が起きたのですか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~傍観者:~w~ 歩いていたら、貧しそうな女性に遭遇したんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ 歩いていたら、貧しそうな女性に遭遇したんです。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 何が起きたのか分かりますか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~傍観者:~w~ よく思い出せません。もっと早くここに来ていればよかった。もしかしたら助かったかもしれない...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ よく思い出せません。もっと早くここに来ていればよかった。もしかしたら助かったかもしれない...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ 思い出してください。彼女を見つけた時、何をしていましたか?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~傍観者:~w~ 歩いていただけだよ... この近くに住んでるんだ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ 歩いていただけだよ... この近くに住んでるんだ。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた:~w~ ご理解いただけると思いますが、いくつか確認することがあります。しばらくお待ち下さい。]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
