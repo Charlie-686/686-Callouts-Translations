@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protesto]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir ~r~protesto gerçekleşiyor~w~ ve yolu kapatıyorlar. Lütfen daha fazla talimatı Merkezden bekleyin.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Protesto şu anda ~r~şiddete dönüştü.~n~~y~Acil tepki verin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Protestoyu denetleyin~w~, sona erene kadar devam ettiğinden emin olun.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protesto ~g~şiddetsiz bir şekilde gerçekleşti~w~ ve şimdi sona eriyor.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protesto devam ediyor. Lütfen ~o~lider protestocuyla iletişime geçin.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~İzleyici:~w~ Memur, bu saçma! Trafik akmasına ihtiyacımız var!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~İzleyici:~w~ Yolu kapatıyorlar! Onları hareket ettirin! Güvensiz.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~İzleyici:~w~ Memur, onları yoldan kaldırmamı söyledim!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~İzleyici:~w~ Yolu kapatan protestocular bu işte boğulabilir!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Memur, siz de mi desteklemeye geldiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu protesto ne hakkında?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~İklim değişikliğinin ülkemizi mahvettiğine inanıyoruz - ve hükümetimizin şimdi harekete geçmesi gerekiyor!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Üzgünüm, taşınmalısınız. Eğer bir yol kapatılarak protesto ediyorsanız, önce yetki almalısınız.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Ama neden? İyi bir amaç için protesto ediyoruz!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu protesto yetkilendirilmedi. Sadece yolu kapatamazsınız.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Diğerlerine bunu söyledim...ama onlar dinlemediler. Onlara gitmemiz gerektiğini söyleyeceğim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Teşekkürler. Lütfen eşyalarınızı toplayın, trafik devam edebilsin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tamam adamlar, protesto iptal. Şimdi gidelim.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Protestomuzu desteklemeye kim geldiğine bak!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Neden protesto ediyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Gıda fiyatları gökyüzüne çıktı ve biz bıktık! Aç kalacağız!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu protesto burada gerçekleşemez, halkın güvenliğini tehlikeye atıyorsunuz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Memur, yer değiştirmek istemiyoruz. Bu haklı bir sebep!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Sizi yerinizden kaldırmam gerekiyor, burada yasal olmayan bir şekilde protesto ediyorsunuz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Memur, yerimizden kıpırdatmayacağız! Başka birini rahatsız edin.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

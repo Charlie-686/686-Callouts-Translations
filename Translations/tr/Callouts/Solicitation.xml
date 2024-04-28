@@ -1,0 +1,63 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tacizat]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Şüpheli bir ~y~fahişe~w~ ihbar edildi, sahnede ~y~daha fazla talimat~w~ bekleyin.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sahneye yaklaşıyorsunuz. Şüphelinin sizi ~y~fark etmemesi~w~ için park edin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Şüpheliyle ~y~iletişim kurun.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Şüpheliye ~r~çok yakınsınız~w~. Farkedilmemek için daha uzaklaşın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Şüpheliyi ~r~uyardınız.~n~~w~Bu nedenle, ~y~kanıt toplayamadık~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Şüpheli araçla temas kurdu. ~y~Onunla konuşun ve araştırın.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Araç ~y~şüpheliyle ilişkilendirilmemektedir.~w~ Kendi takdirinize göre devam edin.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Uyuşturucu eşyalar, Beyaz tozlu madde]]></OTHER>
+		<OTHER><![CDATA[~y~Kondom paketi]]></OTHER>
+		<OTHER><![CDATA[~y~Kayganlaştırıcı~w~,~r~ Beyaz tozlu madde]]></OTHER>
+		<OTHER><![CDATA[~r~Paralar, Çakı]]></OTHER>
+		<OTHER><![CDATA[~r~Paralar]]></OTHER>
+		<OTHER><![CDATA[~y~Dantel]]></OTHER>
+		<OTHER><![CDATA[~r~Açıklayıcı görüntüler]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Kanlı Bıçak]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Burada! Burada!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Lütfen onu kurtarın! Lütfen!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Ne oldu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Sadece bir yürüyüş yapıyordum ve bu zavallı kadınla karşılaştım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Ne olduğunu gördün mü?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici: ~w~Ne yazık ki, hayır, daha erken burada olabilirdim. Belki hala hayatta olurdu...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Ve hatırlatır mısınız - onu bulduğunuzda ne yapıyordunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Sadece yürüyordum, burada yaşıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Eminim anlayış göstereceğinizi anlarım, bazı kontroller yapmam gerekiyor - burada kalabilirseniz, harika olur.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bayan, sizinle konuşmam gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Memur, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bu bölgede fahişelik raporları aldık. Bunu hakkında bir şey bilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Allahım! Ben değilim memur, yanlış kişisiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bugün oldukça soğuk ve az kıyafetiniz var.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Memur, korkarım ki bu bir suç değil. Ben sadece başlamış bir partiye gidiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Raporlarımıza göre, oldukça amaçsızca dolaşıyormuşsunuz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Sadece biraz kaybolmuşum, o kadar. Şimdi gidebilir miyim?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Her ikisi de - benimle burada kalın. Hızlı bir sohbet etmem gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bu bölgede tacizat raporları alındı, bununla ilgili bir şey bilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Evet! Bu kadın arabama yaklaştı, 'hizmetlerini' teklif etti...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bu doğru mu, bayan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Sadece iş yapmaya geldim buraya. Beni bir girişimci olarak düşünün.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ İstenmeyen ve iğrenç - yanımda bir fahişe istemiyorum! Onu tutuklayın memur!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Burada sakin olalım, şimdi bununla ilgileniyorum.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~y~Şüpheli~w~, araca girdi.~n~~r~Mümkün olan en kısa sürede bir trafik kontrolü yapın ve ardından araştırmaya devam edin~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Çalıntı Pedal Bisikleti]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir ~y~çalıntı bisiklet~w~ tespit edildi, sürücüyü durdurun.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. Birkaç soru sormamda sakınca var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tabii, devam edin. Ama arkanızdaki trafiği izleyin. Dikkat edin!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. O bisiklet hakkında bir konuşma yapabilir miyiz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Onunla ilgili ne?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bugün çalındığı bildirildi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Oh, haha. Özür dilerim, ben rapor ettim! Kaybettiğimi düşündüm ama buldum!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Anladım, yani bu bisiklet size kayıtlı mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Evet, kesinlikle. İhtiyacınız olan tüm kontrolü yapın.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[endişeli]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. Size konuşma sebebimiz o bisikletle ilgili.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Bir yere gitmeye çalışıyorum. Lastik patlamadı ya da başka bir şey değil. Ne var?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Dün çalındığı rapor edildi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Oh. Uhh, bu tuhaf.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Nedenini bilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Uh...evet! Çalıntı olduğunu tamamen unutmuştum.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. O bisiklet hakkında biraz konuşabilir miyiz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tamam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Kayıtlarımıza göre son zamanlarda çalındığı bildirildi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Özür dilerim, bunu tekrarlayabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Bu konuda yorum yapmayacağım.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ ARRRRGGGHH! SEN DEĞİL!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

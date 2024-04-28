@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Çalınan Eşya]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir ~y~hırsızlık~w~ gerçekleşti; ~y~mağdura~w~ konuşun ve soruşturmalara devam edin.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Şüphelinin ~y~olduğuna inanılıyor~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[yaya olarak~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[araba ile~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Cep Telefonu]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Cüzdan]]></OTHER>
+		<OTHER><![CDATA[Evin Anahtarı]]></OTHER>
+		<OTHER><![CDATA[Fotoğraf Makinesi]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[tedirgin edilmiş]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Ne istiyorsun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir hırsızlık olayından haberdar olduk ve seni aramamız gerekecek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ İmkansız! Sizin hiçbir kanıtınız yok ve hiçbir sorunuza cevap vermeyeceğim!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Kanunu uygulamak için buradayım. Takipçimiz bir {0} burada olduğunu gösteriyor ve sende.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Yalanlar! Teknoloji artık her zaman yanlış!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Ne istiyorsun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Senin üzerinde bir {0} olduğuna inanıyoruz, seni aramam gerekecek lütfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Beni yakaladınız, kendimi teslim ediyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tamam, ellerini kaldır ve seni gözaltına alacağım.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~r~Şüpheliyi~w~ bulun. ~y~Arama alanı periyodik olarak güncellenecek~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Memur, yardım edin, soyuldum!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Şüpheli hakkında bir şey söyleyebilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Pek değil, ama {0} GPS takipçisine sahip, bu bir kez yararlı olacak. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Harika, bunu takip edebilmem için beni bağlayacak olan görevliye gönderiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Evet, umarım onu kurtarabilirsiniz, önemli.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tabii ki, iletişime geçeceğiz. Şimdi onu bulmaya çalışacağım.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

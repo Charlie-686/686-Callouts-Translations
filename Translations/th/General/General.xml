@@ -1,0 +1,63 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~โหลดเรียบร้อย~w~, ได้เวลาออกตรวจ !]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~คุณอยู่ในแบบเก่า !]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~โหลดได้ , แต่ควรอัพเดท  686 Callouts ในทันทีที่เป็นไปได้ .]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~ตรวจพบ รุ่นเบต้า.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[ขอบคุณสำหรับการทดสอบ & คำแนะนำ. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~ล้วเหลว ในการตรวจสอบอัพเดท!]]></FAILED>
+		<FAILED><![CDATA[~y~โหลด , แต่ไม่สามารถตรวจสอบอัพเดท .]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts มีไฟล์ที่หายไป !~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI หายไป ]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Folder หายไป ]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Audio Folder หายไป ]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Audio Files หายไป ]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Translations Folder หายไป ]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[สถิติของงาน ]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[เหตุ ]]></CALLS>
+		<FIGHTS><![CDATA[การต่อสู้ ]]></FIGHTS>
+		<PURSUITS><![CDATA[การไล่ล่า ]]></PURSUITS>
+		<ARRESTS><![CDATA[การจับกุม ]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[ผู้ต้องสงสัยเสียชีวิต ]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~การวิเคราะห์พฤติกรรม~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[ผู้ต้องสงสัยปรากฏ~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[เหยื่อปรากฏ~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~เกิดการแครช]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~นี่อาจจะเป็นปัญหาบางอย่าง.~w~ โปรตติดต่อ ทีมช่วยเหลือ .]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~เช็กระยะ ]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[ขออภัย , คุณอยู่ใกล้เกินที่จะเรื่ม Callout.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[โทษ  GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV ลบตัวละครของพวกเรา ! ไม่มีอะไรที่พวกเราทำได้ ,สิ่งนี่จะไม่เกิดขึ้นบ่อยๆ .]]></INVALIDPED>
+		<DISPATCH><![CDATA[ศูนย์]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[บทสนทนาจบแล้ว. จัดการกับเหตุการตามที่เห็นสมควร .]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[กด  ~y~{0}~w~ เพื่อเริ่มพูดคุย .]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[กด  ~y~{0}~w~ ตอนไหนก็ได้ เพื่อจบเหตุ .]]></ENDREMINDER>
+		<INFORMATION><![CDATA[ข้อมูล ]]></INFORMATION>
+		<CODE4><![CDATA[~g~โค้ด  4.~w~ พร้อมสำหรับรับเหตุ .]]></CODE4>
+		<PURSUITUPDATE><![CDATA[อัพเดท การไล่ล่า]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ  ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ  ~y~{0}~w~ ที่ได้รับ ~y~{1}~w~ ใบสั่งก่อนหน้า .]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ ~y~ผู้ชาย~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ ~y~ผู้หญิง~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[เชื่อว่าผู้ต้องสงสัยคือ ~y~{0}~w~ ที่เคยได้รับการตรวจ ~y~{1}~w~ ครั้ง ก่อนหน้า .]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[ยัง ~y~ ไม่มีข้อมูล ~w~ สำหรับผู้ต้องสงสัย .]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ศูนย์ ]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[สายด่วน ]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[เหตุ : ~b~{0}~n~~w~ สถานที่ : ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

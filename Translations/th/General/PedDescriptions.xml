@@ -1,0 +1,15 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[ผู้ต้องสงสัยสวมใส่ ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[ผู้ต้องสงสัยสวมใส่ ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[ผู้ต้องสงสัยคือ  ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[สูท ~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[เสื้อยืดสีน้ำเงิน t~w~ และกำลังวิ่ง .]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[เสื้อลายสก๊อต สีน้ำเงิน~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[เสื้อคลุมหนัง ~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[คนงาน~w~,สวมใส่  ~y~ เสื้อยืดสีขาว ~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[สายรั้งกางเกง ~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[เสื้อน้ำเงิน ~w~ กับ  ~y~กางเกงขาสั้นสีน้ำเงิน ~w~. เป็นผู้ทำเงินไปรษณีย์ .]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[เสื้อสีแดงตัวใหญ่ และใส่หมวก~w~ และ  ~y~ขายาวลายพราง ~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[สูทสีฟ้า  และกระโปรงยีนส์~w~ กับ ~y~เสื้อด้านในสีแกดง ~w~.]]></DESCRIPTION>
+</PEDDESCRIPTIONS>
+<!-- <![CDATA[]]> -->

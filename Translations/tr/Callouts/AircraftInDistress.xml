@@ -1,0 +1,103 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Uçakta Tehlike]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~, birkaç dakika boyunca bir ~y~bekleme modelinde~w~ kalacak ve ardından ~y~inişe teşebbüs edecek~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bir uçak ~r~acil iniş~w~ yapmak üzere ~y~{0}~w~'a doğru ilerliyor. Belirlenen iniş alanına gidin ve daha fazla talimat bekleyin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uçak ~o~iniş yapmak için yetkilendirildi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Uçak güvenli bir şekilde indi~w~ ve ~y~{0}~w~'da. Olay yerindeki pilotla konuşun ve durumu araştırın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uçak indi. Her şeyin yolunda olduğunu doğrulamak için ~y~pilotla konuşun~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uçağı ~r~oluşturamadık~w~. Lütfen çağrıyı tekrar deneyin veya destekle iletişime geçin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Uçak~w~ radar konumlandırmasında ~y~irtibatı kaybettik~w~. ~o~Uçağı~w~ ~y~görsel olarak~w~ tespit etmeye çalışın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Uçak~w~ radar konumlandırmasında ~g~irtibatı yeniden sağladık~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uçak ~r~düştü~w~. Sizi kazanın olduğu yere yönlendirirken lütfen bekleyin. Bulunduğunuz yerde devam edin.]]></NOTIFICATION>
+		<OTHER><![CDATA[Los Santos Uluslararası Havaalanı]]></OTHER>
+		<OTHER><![CDATA[Sandy Shores Havaalanı]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~, ~y~motor sorunları~w~ yaşıyor. İniş alanına gidin ve uçağın inişine hazırlanın.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Teşekkür ederim Memur! İniş nasıldı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Arızalı bir motora sahip biri için fena değil!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Pekala, her şeyin yolunda olduğunu kontrol etmek için geldiğiniz için teşekkür ederim. Bir şeye ihtiyacınız var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Hiç yok, sadece bir şeyler ters giderse burada olmak istedik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Mekanikçime motoru kontrol ettirmem gerek. Birkaç dakika daha havada kalsaydım güvenli bir şekilde yere inebilir miydim bilmiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bugün iyi iş çıkardınız. Uçağınıza bakmanıza izin vereceğim, güvenli kalın.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Teşekkürler Memur. Kendinize dikkat edin ve rahatsızlık için özür dilerim!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~'ta bir yolcu ~r~hayatını kaybetti~w~. Durumu ~y~şüpheli~w~ olup olmadığını belirlemek için pilotla konuşun.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Merhaba Kaptan. Havada ne oldu bana anlatabilir misin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Tabii ki... Bir arkadaşımla uçuşa çıkmıştım ve havada bayıldılar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tam olarak ne demek istiyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Havada yoğunluk nedeniyle uçuşa odaklanıyordum, arkamı döndüm ve tepki vermediler. Sonra buraya acil bir şekilde indim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Arkadaşınızın size söylediği herhangi bir sağlık sorunu var mıydı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Dürüst olmak gerekirse, hiç konuşmadık. Sadece sağlıklı olacaklarını varsaydım...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu artık bir suç sahnesi olduğundan soruşturma yapmam gerekecek. Bu sorun değil mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Evet tabii ki Memur, tam işbirliği yaparım.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Kloroform Bez]]></OTHER> // Pilot yolcuyu öldürdüyse, pilot üzerine ekeceğimiz şüpheli öğeler!
+		<OTHER><![CDATA[~r~Boğulma İzleri]]></OTHER>
+		<OTHER><![CDATA[~y~Yastık]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~o~Uçak~w~, her an ~y~patlama~w~ tehlikesi altında. Pilotla konuşun ve tahliyeye başlayın!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Uçak~w~ patladı. İhtiyacınıza göre devam edin.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Uçağı terk edin ve beni takip edin! Hızlıca!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~, ~y~motor sorunları~w~ yaşıyor ve acil iniş yapmak zorunda. ~n~İniş pistinin ~r~kapalı olduğu~w~ bildiriliyor. Uçak inmeden önce pisti temizleyin!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Uçak ~o~iniş yapmadan önce aracı hareket ettirin ve ardından ~y~pilotla konuşun~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~O biraz kritikti. Pisti zamanında temizlediğiniz için teşekkürler.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Hiç problem değil. Sadece aracı yolunuzdan çıkarabildiğimize sevindik. Uçak nasıl dayanıyor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Daha kötü olabilirdi, motor sorunları bize zor anlar yaşattı. Ama güvenli bir şekilde indik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Koşullar göz önüne alındığında harika bir iş çıkardınız.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Teşekkürler, sanırım bu işin bir parçası.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~ Kesinlikle. Sizin güvende olduğunuzu bilmek bizim için iyi. Herhangi bir yardıma ihtiyacınız var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Hayır, baş ederiz. Yer ekipleri yolda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Peki o zaman. Bir şeye ihtiyacınız olursa bize haber verin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Tamam, tekrar yardımlarınız için teşekkür ederim, Memur.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~, içinde ~y~şüpheli bir yolcu~w~ olduğu için acil iniş bildiriyor. İnişten sonra uçağı ele geçirin.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Son 24 saat içinde kaçan~w~ herhangi bir mahkum var mı diye kontrol ediliyor. Bekleyin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~'in son 24 saat içinde hapishaneden kaçtığını doğrulayabiliriz. Şüpheli hala serbest.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Uçağı~w~ aramak için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Merhaba, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Uçarken uçakta bazı hareketler duydum. Ve bir hayvan gibi ses çıkarıyordu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Uçağınızı son zamanlarda gözetimsiz mi bıraktınız?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Evet, bir hangarım olmadığı için birkaç gün dışarıda bıraktım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Ne olabileceğini düşünüyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Evet Memur, uçağımda bir gizli yolcu olduğuna dair şüphelerim var. Kontrol etmek istemedim, ama eğer uçağımı arayabilirseniz sevinirim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Hemen bir şeyler kontrol edeyim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Şimdi uçağınızı arayacağım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Hareket etmeyin! Burada ne yapmaya çalışıyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gizli Yolcu: ~w~Oh, e-eh... Sadece bir yere gitmeye çalışıyordum. Bak, yanlış kişisiniz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bırakın, düşündüğünüz kadar gizli değilsiniz. Kim olduğunuzu biliyoruz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gizli Yolcu: ~w~Yemin ederim Memur, hiçbir zarar vermek istemedim. Sadece bir çıkış yolu bulmam gerekiyordu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir çıkış yolu mu? İşler karışık olduğunda bile yasaları çiğnemek mazeret olamaz. Benimle gel.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[~o~Uçak~w~, uçuş sırasında meydana gelen ~y~kırık pencere~w~ nedeniyle acil iniş yapıyor. İniş alanına gidin ve uçağın inişine hazırlanın.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Memur, burada olmanıza teşekkür ederim. Bu çok iyi bir inişti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Sorun değil Kaptan. Camınızla ilgili bir aramız oldu. İyimisiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Evet, sadece biraz sarsıldım. Uçuş sırasında hiç pencere kırılmamıştı.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Yine de iyi bir iş çıkardınız. Nasıl sakin kaldınız?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Yılların eğitimi, sanırım. Tüm odaklanma ve güvenli iniş yapma meselesiydi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~İyi bir iş yaptınız. Acil servisler hazırda bekliyordu, şansımızı denemedikleri için sevindik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ben de. Yardımlarınız için teşekkür ederim, takdir ediyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Her zaman buradayız Kaptan. Kendinize dikkat edin, başka bir şeye ihtiyacınız var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Hayır, bir şeye ihtiyacımız yok. Tekrar teşekkürler, Memur.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

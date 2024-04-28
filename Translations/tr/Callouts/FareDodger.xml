@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Akbil Kaçakçısı]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~İstasyon personeli~w~, yardımınıza ihtiyaç duyuyor; tren ücretini ödemeyi ~y~başaramamış~w~ birini tutmanızı istiyor.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Şüpheli ~y~akbil kaçakçısıyla konuşun.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Geçerli bileti var]]></OTHER>
+		<OTHER><![CDATA[~r~Sahte bilet]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Yakındaki bir istasyon, oradaki turnikelerden atladıklarını söyledi. Etkileyici, ama suç teşkil ediyor.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Affedersiniz, orada bir dakika bekleyebilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Hızlı ol, yetişmem gereken bir trenim var.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir bilet kontrol memuruyla konuştum ve bana turnikelerden atladığınızı söylediler.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Pfff. Gerçekten önemli değil. Üzerimde bozuk para yok, bu durumu görmezden gelebilir misin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tren ücreti ödemeden treni kullanmak suçtur, size bir ceza yazacağım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Peki, hemen yap.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~İşte. Artık treni kullanabilirsiniz çünkü bir ceza ödeyeceksiniz, ama bir dahaki sefere herkes gibi ücretinizi ödeyin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Bu ceza pahalı, inanmıyorum. Neyse ki sadece bir bilet almalıydım.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Birinin bir biletinin olduğunu fark ettim; garip görünüyor, muhtemelen sahte bir tane olduğuna dair bir his var. Ne yazık ki giderek daha yaygın hale geliyorlar.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Merhaba, orada benim için kalabilir misiniz lütfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Tabii ki memur, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tren istasyonu personeli bizi aradı, geçiş kapılarından nasıl geçtiğinizi merak ediyorlardı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Eh, bir biletim var, işte böyle geçtim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Anladım, bir göz atabilir miyim lütfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Eh, tabii. Ama neden ihtiyacınız olduğunu anlamıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bilekte burada tarihin bir hafta önce dolduğu yazıyor, bunun sebebi ne olabilir?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Kesinlikle değil, gerçekten hiçbir fikrim yok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Benimle aptal oynamayın, kasıtlı olarak eski bir bilet kullandınız. Size bir ceza kesiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Gerçekten, hayatınızda bir şeyler yapın artık. Bana bileti verin, sonra ayrılıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~İşte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Çok teşekkür ederim bunun için. Günümü mahvettiniz.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Başka bir istasyondaki meslektaşım telsizle bildirdi. Görünüşe göre yanlarında bir bilet olmayabilir, ancak ne yazık ki meslektaşım kameraları izlememiş.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Merhaba, orada benim için kalabilir misiniz lütfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Tabii ki memur, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir biletinizin olup olmadığını kontrol etmem istendi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Bilmiyorum, olabilir mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu şaka değil, lütfen dürüst bir cevap verin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Ah, Allah aşkına! Suçluları yakalayın, trenle gitmek isteyen insanları değil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir kez daha soracağım, üzerinizde bir bilet var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Yapacak daha iyi bir işiniz yok mu? Allah aşkına, beni sıkıntıya sokmayın. Zaten tren kısa süre içinde geliyor.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Şüpheli ~r~sahte bilet satıcısıyla konuşun.]]></NOTIFICATION>
+		<OTHER><![CDATA[Birinin kullandığı bir biletin yanından geçtim, doğru görünmüyordu. Sahte olduğunu düşünüyorum.]]></OTHER>
+		<OTHER><![CDATA[~r~Sahte biletler]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Affedersiniz, sizinle konuşmamız gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Tabii ki memur, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tren istasyonu personeli bizi aradı, geçiş kapılarından nasıl geçtiğinizi merak ediyorlardı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Eh, bir biletim var, işte böyle geçtim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bir göz atabilir miyim lütfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Tabii, işte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bu sahte bir bilet, yan tarafındaki işaretlerden anlaşılıyor. Neden bunu kullanıyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~İstasyon girişinde biri bunu satıyordu, normal bir bilete göre en az yarım fiyatıydı.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Anladım, yani bunu daha ucuz bir fiyata ondan aldınız mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Evet aldım. İşte kimliğim, bir suçlu değilim, söz veriyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Teşekkür ederim. Bahsettiğiniz kişiyi bulabileceğimi görebilirim.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bekle bir dakika. Bir konuşmamız gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Başka bir gün, başka bir memur işime karışıyor. Ne var?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Şüpheli bir şekilde sahte biletler sattığınıza inandığımızdan şüpheleniyoruz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Sizi gözaltına alacağım, orada kalın lütfen.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Ellerim havada!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Birinin telsizden duyduğuma göre, bir bilet kullanmadılar.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Merhaba, orada benim için kalabilir misiniz lütfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Tabii ki memur, size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tren istasyonu personeli bizi aradı, geçiş kapılarından nasıl geçtiğinizi merak ediyorlardı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Herkes gibi, tren biletimle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Buna bir göz atabilir miyim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Eh, tabii. Ama neden ihtiyacınız olduğunu anlamıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Her şeyin yolunda olduğu gibi görünüyor, iyi yolculuklar dilerim!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru:~w~ Sizi burada görmek güzel memur, bu kadar çabuk varmanız için teşekkür ederiz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tabii ki, lütfen durumu biraz açabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Anladım. En azından iyi değil. Şu anda nerede olabilirler?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru: ~w~Henüz trenler gelmedi, bu yüzden muhtemelen platformda olacaklar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Yardımınız için teşekkür ederim, hemen onlara gidiyorum.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru:~w~ Bu kadar basit bir şey için aradığınız için özür dilerim, takdir ediyoruz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tabii ki, lütfen durumu biraz açabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Peki, gördüğümüz gibi, elimizde bir akbil kaçakçısı var. Nerede olabilirler?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İstasyon Memuru: ~w~Düşüneyim. Sadece platformda olmalılar, başka bir yerde olamazlar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Anladım, o zaman önce oraya bakacağım!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

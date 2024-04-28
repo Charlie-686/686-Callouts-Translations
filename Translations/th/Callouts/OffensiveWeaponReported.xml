@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[รายงานเกี่ยบกับอาวุธร้ายแรง ]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~ผู้ต้องสงสัยกำลังเคลื่อนไหว !! ~w~~n~ไปที่ตำแหน่งล่าสุด ]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[สถานการณ์ลำบากใจ ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ หยุดตรงนั้น และเอามือของคุณออกมาจากกระเป๋า ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ ทำไม? กูยังไม่ได้ทำอะไรเลย !]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ผมต้องการให้คุณทำตามที่ผมบอก โอเคมั้ย?  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ฉันต้องการให้คุณทำตามที่ฉันบอก โอเคมั้ย? ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ เกิดอะไรขึ้น? แกจะทำอะไร ?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ผมต้องการให้คุณยกมือขื้นไว้  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ฉันต้องการให้คุณยกมือขื้นไว้ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ ไม่! ถอยไปเดี๋ยวนี้ !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[จับกุมผู้ต้องสงสัย และจัดการสถานการณ์ตามเหมาะสม ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ หยุดอยู่ตรงนั้น และโชว์มือให้ผมมองเห็น  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ หยุดอยู่ตรงนั้น และโชว์มือให้ฉันมองเห็น ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ เกิดอะไรขึ้น ?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ผมรู้ว่าคุณมีอาวุธอยู่  ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ฉันรู้ว่าคุณมีอาวุธอยู่ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ โอไม่ ..โอ้...ไม่... ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ เป็นอะไรไป ?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ได้โปรด ผมขอโทษ ! ผมไม่ได้ตั้งใจจะ... ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ได้โปรด ฉันขอโทษ ! ฉันไม่ได้ตั้งใจจะ...! ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ ไม่เป็นไร เรามาคุยกันทีหลังได้ แค่ทำตามคำแนะนำของผม ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ ไม่เป็นไร เรามาคุยกันทีหลังได้ แค่ทำตามคำแนะนำของฉัน ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมไม่มีอาวุธ  ผมไม่อยากให้สิ่งนี้อยู่ในบันทึกของฉัน... ]]></DIALOGUE>
+                        <DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันไม่มีอาวุธ  ฉันไม่อยากให้สิ่งนี้อยู่ในบันทึกของฉัน... ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ นั่นโอเค , เราจะไม่ได้จะทำร้ายคุณ  แค่ยกมือขึ้นไว้ ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

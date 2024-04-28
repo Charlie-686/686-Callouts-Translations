@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Alleyway Robbery]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[A ~y~suspected robbery~w~ is occuring around {0}. Investigate the scene.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[A ~y~suspected robbery~w~ is occuring around {0}. Investigate the scene.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Stolen Goods]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[A ~y~suspected robbery~w~ is occuring around {0} and the victim is ~r~reportedly at gunpoint~w~. Investigate the scene.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[A ~y~suspected robbery~w~ is occuring around {0} with two robbers reported. Investigate the scene.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to ~g~recover~w~ the stolen goods.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Recovered a stolen ~y~{0}~w~ as ~g~evidence~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Bag]]></OTHER>
+		<OTHER><![CDATA[Shopping Bag]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Parcel]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -40,15 +40,15 @@
 		<INFORMATION><![CDATA[情报]]></INFORMATION>
 		<CODE4><![CDATA[~g~报告指挥中心，任务执行完毕，~w~ 我现在可以接受下个任务了。]]></CODE4>
 		<PURSUITUPDATE><![CDATA[追寻嫌疑犯情报]]></PURSUITUPDATE>
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has ~y~{1}~w~ citation(s) in the past.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
-		<PURSUITUPDATE TARGET = "M"><![CDATA[believes the suspect is ~y~male~w~.]]></PURSUITUPDATE> 
-		<PURSUITUPDATE TARGET = "F"><![CDATA[believes the suspect is ~y~female~w~.]]></PURSUITUPDATE> 
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has been stopped ~y~{1}~w~ time(s) in the past.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
-		<PURSUITUPDATE><![CDATA[does ~y~not have details~w~ on the suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
-	    <CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[EMERGENCY CALL]]></CALLOUTDISPLAYEDNOTIFICATION>
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Location: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<PURSUITUPDATE><![CDATA[怀疑目前的嫌疑犯是~y~{0}~w~。]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[怀疑嫌疑犯是~y~{0}~w~，他目前有~y~{1}~w~个罚单。]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[相信嫌疑犯是~y~男的~w~。]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[相信嫌疑犯是~y~女的~w~。]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[怀疑嫌疑犯是~y~{0}~w~，他目前已经被交通部检查过~y~{1}~w~次了。]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[目前没有嫌疑犯的~y~详细资料~w~。]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+	    <CALLOUTDISPLAYEDNOTIFICATION><![CDATA[指挥中心]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[接到110电话]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[报案资料：~b~{0}~n~~w~报案地点：~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
 	</NOTIFICATIONS>
 </GENERAL> 
 

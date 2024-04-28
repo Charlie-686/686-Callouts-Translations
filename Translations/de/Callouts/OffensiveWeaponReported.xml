@@ -1,0 +1,35 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Schusswaffe gemeldet]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Der Verdächtige bewegt sich!~w~~n~Begeben Sie sich zur neuen Position.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[verängstigt]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Bleiben Sie dort und lassen Ihre Hände aus den Taschen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was ist los? Ich habe nichts gemacht. Nichts!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich brauche Ihre Kooperation, okay?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was passiert hier? Was versuchen Sie zu tun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Nehmen Sie Ihre Hände nach oben!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ NEIN! HALTEN SIE ABSTAND! JETZT!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Verhaften Sie den Verdächtigen und handeln Sie entsprechend der Situation.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Bleiben Sie wo Sie sind für mich und halten Sie Ihre Hände sichtbar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich weiß, dass Sie eine Waffe bei sich tragen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Oh nein... oh... nein...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Bitte, es tut mir leid! Ich wollte das nicht...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es ist okay, wir können das später besprechen. Folgen Sie einfach meinen Anweisungen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich wollte sie NIE bei mir haben, ich will das nicht in meiner Akte...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es ist okay, wir sind nicht hier, um Ihnen zu schaden. Heben Sie einfach Ihre Hände.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

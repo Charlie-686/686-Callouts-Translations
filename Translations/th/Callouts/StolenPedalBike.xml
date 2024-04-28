@@ -1,0 +1,59 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[จักรยานถูกขโมย ]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~พบเห็นจักรยานที่ถูกขโมย~w~, หยุดรถคนขับ ]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ สวัสดีครับ  ผมขอถามอะไรคุณหน่อยได้มั้ย ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ สวัสดีค่ะ  ฉันขอถามอะไรคุณหน่อยได้มั้ย ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ ได้สิ,  แต่ดูรถที่อยู่ข้างหลังคุณด้วย , ระวัง !!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ สวัสดี ขอคุยเกี่ยวกับเรื่องจักรยานคันนั้นได้มั้ย ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ มีอะไรล่ะ ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ มีรายงานว่ามันถูกขโมยวันนี้ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ โอ้ ขอโทษที , ผมเป็นคนรายงานไปเอง ! ผมคิดว่ามันหาย แต่ตอนนี้ผมเจอแล้ว !]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ โอ้ ขอโทษที , ฉันเป็นคนรายงานไปเอง ! ฉันคิดว่ามันหาย แต่ตอนนี้ฉันเจอแล้ว !]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ อืมม , ก็คือจักรยานคันนี้จดทะเบียนเป็นของคุณใช่มั้ย ?  ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ แน่นอน , ลองตรวจสอบตามที่คุณต้องการเลย ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[กระวนกระวาย ]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE PLAYER = "M" ><![CDATA[~b~คุณ :~w~ เป็นไงบ้าง ที่ผมมาคุยกับคุณ เพราะจักรยานคันนั้น ]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" ><![CDATA[~b~คุณ :~w~ เป็นไงบ้าง ที่ฉันมาคุยกับคุณ เพราะจักรยานคันนั้น  ]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมกำลังจะไปข้างนอก  ยางมันก็ไม่แบนหรือเกิดอะไรขึ้นนี่ มีอะไรหรอ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันกำลังจะไปข้างนอก  ยางมันก็ไม่แบนหรือเกิดอะไรขึ้นนี่ มีอะไรหรอ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ มีรายงานว่ามันถูกขโมยเมื่อวาน ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ โอ้ เอ่อ , นั่นแปลกดีนะ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ คุณไม่รู้เลยหรอ ?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ เอ่อ...ใช่! ผมลืมว่าผมรายงานว่ามันถูกขโมยไว้ ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ เอ่อ...ใช่! ฉันลืมว่าเคยรายงานว่ามันถูกขโมยไว้ ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ สวัสดี  เรามาคุยกันเกี่ยวกับจักรยานคันนั้นหน่อย ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ โอเค ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ ในบันทึกของเรา มีรายงานว่ามันถูกขโมยเมื่อเร็วๆ นี้ ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ ... (เงียบ) ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~คุณ :~w~ ขอโทษที , คุณว่าอะไรนะ ?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ผมไม่มีอะไรจะพูด ]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~ผู้ต้องสงสัย :~w~ ฉันไม่มีอะไรจะพูด ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~ผู้ต้องสงสัย :~w~ อ๊ากกก ! ไม่ใช่คุณ ! ]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
