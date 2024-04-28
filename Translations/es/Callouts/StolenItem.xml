@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Objeto Robado]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Se ha producido un ~y~robo~w~; habla con la ~y~victima~w~ y procede con las investigaciones.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Se cree que el sospechoso está ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[a pie~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[en un vehículo~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Teléfono Móvil]]></OTHER>
+		<OTHER><![CDATA[Portátil]]></OTHER>
+		<OTHER><![CDATA[Cartera]]></OTHER>
+		<OTHER><![CDATA[Llave de casa]]></OTHER>
+		<OTHER><![CDATA[Camara]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[agitado]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué quieres?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué quieres?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Nos han avisado de un robo, y tendremos que registrarte.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Como si! ¡No tienes pruebas y no voy a responder a ninguna de tus preguntas!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Como si! ¡No tienes pruebas y no voy a responder a ninguna de tus preguntas!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Estoy aquí para hacer cumplir la ley. Nuestro localizador indica que un/a {0} está aquí y sobre tí.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Mentiras! ¡De todas formas la tecnología está siempre equivocada hoy en día!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Mentiras! ¡De todas formas la tecnología está siempre equivocada hoy en día!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué quieres?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué quieres?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Creemos que tienes un/a {0} sobre tí, necesitaré registrarte por favor.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Me has pillado, me entrego.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Me has pillado, me entrego.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Vale, pon tus manos arriba y voy a detenerte.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Localiza al ~r~sospechoso~w~. El ~y~área de búsqueda se irá actualizando ~w~periodicamente.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Agente, ayuda, ¡me han robado!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿me puedes contar algo sobre el sospechoso o sospechosa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ No precisamente, pero mi {0} tiene un rastreador GPS, eso debe de ser útil por una vez. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Maravilloso, déjame mandar eso a control, ellos me conectarán para que pueda rastrearlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima: ~w~Sí, espero que puedas recuperarlo, es importante.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Por supuesto, estaremos en contacto. Intentaré localizarlo ahora.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

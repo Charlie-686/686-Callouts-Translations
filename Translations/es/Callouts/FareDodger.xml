@@ -1,0 +1,139 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evasión de Tarifa]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[El ~p~personal de la estación~w~ requiere tu asistencia; necesitan que detengas a alguien que quizá ~y~no haya pagado el billete de tren.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Habla con el presunto ~y~evasor de tarifas.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Billete válido]]></OTHER>
+		<OTHER><![CDATA[~r~Billete falso]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Una estación cercana me dijo que se habían saltado el control de acceso allí. Impresionante, pero es un delito penal.]]></OTHER>
+		<DIALOGUES>	
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Perdona, ¿podrías esperarte allí por un minuto?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Hazlo rápido, tengo que tomar un tren.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Hazlo rápido, tengo que tomar un tren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~He hablado con un agente de intervención de billetes, ¿y me ha dicho que tú te saltaste el control de acceso?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Pfff. Realmente no es gran cosa. no tengo cambio de sobra encima, ¿puedes dejarlo pasar?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Pfff. Realmente no es gran cosa. no tengo cambio de sobra encima, ¿puedes dejarlo pasar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Es un delito utilizar el tren sin pagar el billete, te pondré una multa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Bueno, ponte con ello entonces.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Bueno, ponte con ello entonces.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Aquí está. Puedes usar el tren ahora ya que pagarás una multa, pero la próxima vez paga tu billete como los demás.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Esta multa es cara, no me lo creo. Bueno, supongo que debería haber comprado un billete.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Esta multa es cara, no me lo creo. Bueno, supongo que debería haber comprado un billete.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[He notado un billete que alguien tiene; Parece inusual, tengo la sensación de que puede ser falso. Es lamentable que se hayan vuelto cada vez más comunes.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas, ¿podrías quedarte ahí por mí, por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Nos ha llamado el personal de la estación de tren, se preguntaban como conseguiste pasar por las puertas de acceso.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Bueno, tengo un billete, así es como pasé.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Bueno, tengo un billete, así es como pasé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Ya veo, ¿puedo echarle un vistazo por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Uh, claro. Aunque no veo por qué necesitarías hacerlo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Uh, claro. Aunque no veo por qué necesitarías hacerlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Aquí dice que el billete expiró hace una semana, ¿sabes por qué es eso?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~!No puede ser! ¿En serio? No tengo ni idea de como ha podido pasar.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~!No puede ser! ¿En serio? No tengo ni idea de como ha podido pasar.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Tú: ~w~No te hagas el tonto conmigo, ha utilizado deliberadamente un billete viejo. Te voy a poner una multa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Tú: ~w~No te hagas la tonta conmigo, ha utilizado deliberadamente un billete viejo. Te voy a poner una multa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Honestamente, haz algo útil con tu vida por una vez. Dame el billete, después me iré.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Honestamente, haz algo útil con tu vida por una vez. Dame el billete, después me iré.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Aquí está.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Muchas gracias por esto. Has arruinado mi día.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Muchas gracias por esto. Has arruinado mi día.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Mi colega en otra estación llamó por radio. Aparentemente es posible que no tengan un billete, sin embargo mi colega desafortunadamente no estaba mirando las cámaras.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas, ¿podrías quedarte ahí por mí por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Me pidieron que verificara si tienes un billete contigo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~No lo sé, ¿lo tengo?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~No lo sé, ¿lo tengo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Esto no es una broma, necesitaré una respuesta honesta por favor.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~¡Oh por dios! Atrapa criminales, no gente que quiera coger un tren.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~¡Oh por dios! Atrapa criminales, no gente que quiera coger un tren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Lo preguntaré una vez más, ¿tienes un billete?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~No tienes nada mejor que hacer, ¿verdad? Déjame subir al maldito tren. Llega pronto de todos modos.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~No tienes nada mejor que hacer, ¿verdad? Déjame subir al maldito tren. Llega pronto de todos modos.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Habla con el presunto ~r~vendedor de billetes fraudulento.]]></NOTIFICATION>
+		<OTHER><![CDATA[Eché un vistazo a un billete que alguien estaba usando, no me pareció real. Creo que es falso.]]></OTHER>
+		<OTHER><![CDATA[~r~Billetes falsos]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Perdona, necesito tener una conversación contigo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Nos ha llamado el personal de la estación de tren, se preguntaban como conseguiste pasar por las puertas de acceso.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Bueno, tengo un billete, así es como pasé.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Bueno, tengo un billete, así es como pasé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Ya veo, ¿puedo echarle un vistazo por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Por supuesto, aquí está.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Por supuesto, aquí está.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Esto es un billete falso, puedes notarlo por las marcas del lado. ¿Por qué lo estás usando?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Alguien lo estaba vendiendo en la entrada de la estación, debió costar por lo menos la mitad de un billete normal.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Alguien lo estaba vendiendo en la entrada de la estación, debió costar por lo menos la mitad de un billete normal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Ya veo, ¿así que se lo compraste a ese precio más barato?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Lo hice, sí. Mira, Aquí está mi documento de identificación. No soy un criminal, lo prometo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Lo hice, sí. Mira, Aquí está mi documento de identificación. No soy una criminal, lo prometo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Gracias. Veré si puedo encontrar a esta persona que has mencionado.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Espera un momento. Tenemos que hablar.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "M"><![CDATA[~r~Sospechoso: ~w~Otro día, otro agente metiéndose en mi negocio. ¿Que pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "M"><![CDATA[~r~Sospechosa: ~w~Otro día, otro agente metiéndose en mi negocio. ¿Que pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "F"><![CDATA[~r~Sospechoso: ~w~Otro día, otra agente metiéndose en mi negocio. ¿Que pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "F"><![CDATA[~r~Sospechosa: ~w~Otro día, otra agente metiéndose en mi negocio. ¿Que pasa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Tenemos sospechas para creer que has estado vendiendo billetes fraudulentos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Voy a proceder a detenerte, quédese ahí por mí.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ !Mis manos están arriba!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ !Mis manos están arriba!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Al parecer, una persona, según he oído por radio, no utilizó billete.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas, ¿puedes quedarte ahí por mí por favor?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Por supuesto agente, ¿como puedo ser de tu ayuda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Nos ha llamado el personal de la estación de tren, se preguntaban como conseguiste pasar por las puertas de acceso.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Como todo el mundo, con mi billete de tren.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~Como todo el mundo, con mi billete de tren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Te importa si le hecho un vistazo?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~Uh, claro. Aunque no veo por qué necesitarías hacerlo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechosa: ~w~Uh, claro. Aunque no veo por qué necesitarías hacerlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Parece que todo está bien, ¡ten un buen resto de tu viaje!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Agente de la estación:~w~ Me alegro de verte agente, gracias por llegar tan pronto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Eso está absolutamente bien, ¿me podrías dar algunos detalles sobre la situación por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente de la estación:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo. Mal asunto, por decir lo menos. ¿Donde podrían estar ahora?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente de la estación: ~w~No han habido trenes todavía, así que probablemente estén sobre la plataforma.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Gracias por toda tu ayuda, ahora me dirigiré hacia allí.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Agente de la estación:~w~ Disculpe por llamar por algo tan insignificante, agradezco su comprensión.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Eso está absolutamente bien, ¿me podrías dar algunos detalles sobre la situación por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente de la estación:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Vale, parece que tenemos un evasor de tarifas en nuestras manos. ¿Dónde podrían estar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente de la estación: ~w~Déjame pensar. Deberían de estar en la plataforma, ese es el único sitio donde podrían estar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Entendido, bueno, ¡voy a mirar allí primero!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

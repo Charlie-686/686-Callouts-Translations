@@ -1,0 +1,18 @@
+<PEDDESCRIPTIONS>
+	<PREFIX TARGET = "M"><![CDATA[El sospechoso lleva un/a ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[La sospechosa lleva un/a ~y~]]></PREFIX>
+	<PREFIX TARGET = "M"><![CDATA[El sospechoso está llevando ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[La sospechosa está llevando ~y~]]></PREFIX>
+	<PREFIX TARGET = "M"><![CDATA[El sospechoso es un ~y~]]></PREFIX>
+	<PREFIX TARGET = "F"><![CDATA[La sospechosa es una ~y~]]></PREFIX>
+	<DESCRIPTION PREFIX = "0" ><![CDATA[traje~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[camiseta azul~w~ y es un corredor.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[camisa de cuadros azul~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[abrigo de cuero~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[trabajador/a~w~, llevando una ~y~camiseta blanca~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[tirantes~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[camisa azul~w~ con ~y~pantalones cortos azules~w~. Se sospecha que es cartero.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[camisa larga roja y una gorra~w~ con ~y~pantalones azul marino~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[blazer azul claro and falda vaquera~w~ con una ~y~camisa negra debajo~w~.]]></DESCRIPTION>
+</PEDDESCRIPTIONS>
+<!-- <![CDATA[]]> -->
