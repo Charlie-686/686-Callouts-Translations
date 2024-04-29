@@ -1,0 +1,92 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Secuestro en Progreso]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un individuo ha sido supuestamente ~y~secuestrado en un taxi. ~y~Realiza una parada de tráfico.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Buscando en la base de datos...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Comprobación limpia. No hay motivos de preocupación.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~El sospechoso está buscado. Motivo para preocuparse.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Una vez que hayas tratado con el sospechoso, pulsa ~y~{0}~w~ para ayudar a la víctima.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Bridas con Sange]]></OTHER>
+		<OTHER><![CDATA[~r~Guantes con Sangre]]></OTHER>
+		<OTHER><![CDATA[~y~Cinta Adhesiva]]></OTHER>
+		<OTHER><![CDATA[~r~Venda para los Ojos]]></OTHER>
+		<OTHER><![CDATA[~r~Bridas~w~, ~r~Cuchillo~w~, ~o~Pasamontañas]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ AHHH AYUDAAAAAA!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ AHHH AYUDAAAAAA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[provocado]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Escúchame. Necesito tener una charla con tu pasajero.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ No lo creo. Salí de mi coche, puedes hablarme a mí.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ No lo creo. Salí de mi coche, puedes hablarme a mí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Es muy importante que tú me dejes hablar con ellos.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Vale vale, solo díme que está pasando.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Vale vale, solo díme que está pasando.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Tenemos reportes de un individuo siendo secuestrado. Estamos haciendo algunas comprobaciones.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Bueno, ¡tienes a la persona correcta!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Bueno, ¡tienes a la persona correcta!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡¡¡Hemos terminado aquí!!!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡¡¡Hemos terminado aquí!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Comestibles]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Buenas, ¿a donde te diriges actualmente?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Solo llevo a este pasajero a su casa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Solo llevo a este pasajero a su casa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo, déjame hablar un momento con el pasajero.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ Hola agente, ¿que necesita?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ Hola agente, ¿que necesita?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Acabamos de recibir reportes de un secuestro, solo necesito saber si estás bien.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ Absolutamente! Acabo de salir de compras y están en el maletero.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ Absolutamente! Acabo de salir de compras y están en el maletero.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Gracias. Solo haré unas pocas comprobaciones, y después dejaré que sigas en tu camino.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ Por supuesto, no hay prisa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ Por supuesto, no hay prisa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Todo está en orden, ¡puede irse!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[intentando tratar de llamar tu atención]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Solo necesito tener unas palabras, apaga el motor por favor.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué está pasando aquí?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué está pasando aquí?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hemos recibido reportes de un posible secuestro. Así que me pregunto a donde se dirige.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Llevando a esta persona a donde necesita estar. Eso es lo que hace un taxista.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Llevando a esta persona a donde necesita estar. Eso es lo que hace un taxista.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Nescesito hablar con el pasajero, ¿está eso bien?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Vale, pero el impuesto del taxi está subiendo mientras hablamos.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Vale, pero el impuesto del taxi está subiendo mientras hablamos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hola, ¿dónde le has preguntado a este conductor que te lleve?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ Solo estoy tomando un viaje a casa.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ Solo estoy tomando un viaje a casa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Vale, ¿y no hay nada que quieras contarme?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ Solo en camino a mi casa, eso es todo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ Solo en camino a mi casa, eso es todo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Genial, todo se ve correcto. Déjeme hacer unas comprobaciones, y luego podremos continuar.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[Creí que era un taxi real...pero tan pronto como entré, noté que algo estaba mal. Entramos en un callejón, me apuntó con un arma, agarró mi teléfono, y me dijo que me quedara en silencio.]]></OTHER>
+	<OTHER><![CDATA[Estaba andando a casa, y esta persona con un pasamontañas me agarró, y sentí un arma en mi cabeza. Me forzó a entrar al taxi.]]></OTHER>
+	<OTHER><![CDATA[Este taxista me preguntó por direcciones, me incliné hacia su vehículo para hablar con el conductor, y me arrastró hacia dentro. Aunque no estoy herido.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ ¡Muchas gracias Agente! Pensaba...Yo pensaba que este era el fin.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ ¡Muchas gracias Agente! Pensaba...Yo pensaba que este era el fin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Me alivia que te hayamos encontrado. Quiero llevarte a salvo a casa, ¿pero puedes contarme que ha pasado?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Entiendo. Gracias por compartir esos detalles.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Pasajero:~w~ No puedo creer que eso haya pasado...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Pasajera:~w~ No puedo creer que eso haya pasado...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

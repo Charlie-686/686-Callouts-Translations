@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Arma Ofensiva Reportada]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~El sospechoso se está moviendo!~w~~n~Diríjase a la ubicación actualizada.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[afligido]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Quédese ahí, y mantén tus manos fuera de los bolsillos.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué pasa? No he hecho nada. ¡Nada!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué pasa? No he hecho nada. ¡Nada!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Necesito que cooperes conmigo, ¿vale?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué está pasando? ¿Qué estás intentando hacer?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué está pasando? ¿Qué estás intentando hacer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Necesito que pongas tus manos en el aire.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡NO! ¡RETROCEDE! ¡AHORA!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡NO! ¡RETROCEDE! ¡AHORA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Arresta al sospechoso y encárgate de la situación como la veas conveniente.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Quédese ahí, y mantén tus manos donde pueda verlas.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué pasa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Sé que tienes un arma sobre tí.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Oh no..oh...no...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Oh no..oh...no...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿Qué pasa?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Por favor, ¡lo siento! No quería hacerlo...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Por favor, ¡lo siento! No quería hacerlo...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Está bien, podemos discutir esto más tarde. Sólo recuerda seguir mis instrucciones.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ No la tendré más sobre mí NUNCA, no quiero esto en mi historial...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ No la tendré más sobre mí NUNCA, no quiero esto en mi historial...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Está bien, no estamos aquí para hacerte daño. Sólo pon tus manos arriba.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

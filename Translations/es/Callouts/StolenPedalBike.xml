@@ -1,0 +1,64 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bicicleta Robada]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Una ~y~bicicleta robada se ha detectado~w~, para al ciclista.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Buenas. ¿Está bien si te pregunto unas preguntas?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Claro, hazlo. Pero cuidado con el tráfico de atrás. ¡Cuidado!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Claro, hazlo. Pero cuidado con el tráfico de atrás. ¡Cuidado!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Buenas. ¿Podemos tener una conversación sobre esa bicicleta?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¿Qué pasa con eso?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¿Qué pasa con eso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Se ha reportado como robada, hoy de hecho.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Oh, jaja. Perdón, ¡yo la he reportado! Creía que la perdí, ¡Pero la he encontrado!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Oh, jaja. Perdón, ¡yo la he reportado! Creía que la perdí, ¡Pero la he encontrado!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ya veo, ¿así que esta bicicleta esta registrada a tí?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Sí, absolutamente. Haz todas las comprobaciones que necesites.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Sí, absolutamente. Haz todas las comprobaciones que necesites.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[ansioso]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Buenas. La razón por la que te hablo es por esa bicicleta.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Estoy tratando de llegar a algún lado. La rueda no está desinflada ni nada. ¿Qué está mal?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Estoy tratando de llegar a algún lado. La rueda no está desinflada ni nada. ¿Qué está mal?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ayer fue reportada como robada.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Oh. Uhh, eso es extraño.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Oh. Uhh, eso es extraño.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ No lo sabrías, ¿por qué lo harías?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Uh...sí! He olvidado completamente que la había reportado como robada.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Uh...sí! He olvidado completamente que la había reportado como robada.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Buenas. ¿Podríamos tener una pequeña charla sobre esa bicicleta?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Vale.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Vale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Según nuestro registro se ha reportado recientemente como robada.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Perdón, ¿qué fue eso?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ No voy a comentar sobre el asunto.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ No voy a comentar sobre el asunto.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ARRRRGGGHH! NO TÚ!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ARRRRGGGHH! NO TÚ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
