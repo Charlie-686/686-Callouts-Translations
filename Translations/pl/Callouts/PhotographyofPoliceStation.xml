@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Fotografia posterunku policji]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Osoba ~y~robi zdjęcia posterunkowi~w~, porozmawiaj z nią, aby dowiedzieć się dlaczego.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Osoba ~y~robi zdjęcia posterunku~w~, porozmawiaj z nią, aby dowiedzieć się dlaczego.]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
@@ -34,8 +34,8 @@
 			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ To było dla mojego kanału w mediach społecznościowych, czy to w porządku?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ To było dla mojego kanału w mediach społecznościowych, czy to w porządku?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Tak, to jest legalne, tylko trochę dziwne, że robisz to tak długo.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Rozumiem, skończyłem, więc już sobie pójdę.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Rozumiem, skończyłam, więc już sobie pójdę.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Rozumiem, właśnie skończyłem, więc już sobie pójdę.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Rozumiem, właśnie skończyłam, więc już sobie pójdę.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Dziękuję.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
@@ -69,7 +69,7 @@
 			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ To ciekawe, chciałam tylko sprawdzić, co się dzieje.]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Mogę tylko przeprosić za marnowanie twojego czasu, ale skończyłem już robić zdjęcia, wyglądają całkiem dobrze, jeśli mogę tak powiedzieć.]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Mogę tylko przeprosić za marnowanie twojego czasu, ale skończyłam już robić zdjęcia, wyglądają całkiem dobrze, jeśli mogę tak powiedzieć.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ To wcale nie jest problem, mam nadzieję, że reszta twojego dnia będzie wspaniała.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To wcale nie jest problem. Mam nadzieję, że reszta twojego dnia będzie wspaniała.]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ No to idę. Może kiedyś się jeszcze spotkamy.]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ No to idę. Może kiedyś się jeszcze spotkamy.]]></DIALOGUE>
 		</DIALOGUES>
