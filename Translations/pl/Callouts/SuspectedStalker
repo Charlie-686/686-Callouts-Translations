@@ -1,0 +1,69 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Podejrzany prześladowca]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Zaniepokojony obywatel~w~ wierzy, że jest śledzony, ~y~zapewnij mu bezpieczeństwo!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Tak, jestem prześladowcą. Więzienie nie było dla mnie i nie zamierzam tam wracać!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Tak, jestem prześladowcą. Więzienie nie było dla mnie i nie zamierzam tam wracać!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Zdjęcia ofiary]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Zejdź mi z oczu!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Zejdź mi z oczu!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty ~w~Spokojnie, otrzymaliśmy informacje, że wcześniej kogoś prześladowałeś.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~b~Ty ~w~Spokojnie, otrzymaliśmy informacje, że wcześniej kogoś prześladowałaś.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Spadaj, nic nie zrobiłem! To tylko słowo przeciwko słowu!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Spadaj, nic nie zrobiłam! To tylko słowo przeciwko słowu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Odmawiasz rozmowy?]]></DIALOGUE>
+      <DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Tak, TAK! Nie rozmawiam ze świniami, ja je jem.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Tak, TAK! Nie rozmawiam ze świniami, ja je jem.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Z kartoteki wynika, że prawdopodobieństwo bycia prześladowcą przez osobę podejrzaną jest niewielkie. Dokończ rozmowę, a następnie ~y~udaj się z powrotem do ofiary.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~r~Podejrzany:~w~ Witam oficerze, jak mogę pomóc?]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~r~Podejrzana:~w~ Witam oficerze, jak mogę pomóc?]]></DIALOGUE>
+      <DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~r~Podejrzany:~w~ Witam pani oficer, jak mogę pomóc?]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~r~Podejrzana:~w~ Witam pani oficer, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty ~w~Otrzymaliśmy informacje, że prześladujesz pewną osobę, czy to prawda?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Mój Boże nie! Niezupełnie. Musiała zajść jakaś pomyłka. Jestem aktualnie na zakupach, może po prostu chodziliśmy w te same miejsca? Zdecydowanie nie pasuję do opisu.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Mój Boże nie! Niezupełnie. Musiała zajść jakaś pomyłka. Jestem aktualnie na zakupach, może po prostu chodziliśmy w te same miejsca? Zdecydowanie nie pasuję do opisu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nie otrzymaliśmy żadnego, skontaktuję się z centralą w celu wyjaśnienia sytuacji.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Oczywiście, moje zakupy mogą chwilę poczekać.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Oczywiście, moje zakupy mogą chwilę poczekać.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ W porządku, możesz iść. Wygląda na to, że zaszło nieporozumienie. Miłego dnia.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Dobrze cię znowu widzieć, udało ci się coś ustalić?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Udało nam się porozmawiać, ale wygląda na to, że nikt cię nie prześladował.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Bardzo przepraszam, teraz to ma sens. Widocznie niepotrzebnie zostaliście wezwani.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ W porządku, lepiej dmuchać na zimne. Następnym razem po prostu daj znać, że nie masz pewności.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Dobrze, przepraszam za to niepotrzebne zamieszanie.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Udało nam się zlokalizować podejrzanego. ~y~Dokończ rozmowę~w~, a następnie udaj się tam niezwłocznie.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze, dobrze, że tutaj jesteś! Jestem śledzony!]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze, dobrze, że tutaj jesteś! Jestem śledzona!]]></DIALOGUE>
+      <DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~y~Ofiara:~w~ Pani oficer, dobrze, że tutaj jesteś! Jestem śledzony!]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~y~Ofiara:~w~ Pani oficer, dobrze, że tutaj jesteś! Jestem śledzona!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Już dobrze. Możesz wyjaśnić co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara:~w~ Byłem śledzony...ale niestety nie pamiętam żadnych szczegółów.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~y~Ofiara:~w~ Byłam śledzona...ale niestety nie pamiętam żadnych szczegółów.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ W porządku, to normalne, że nie pamięta się szczegółów w takich momentach. Poproszę operatorów kamer o sprawdzenie nagrań z okolicy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara: ~w~Byliśmy na ~y~{0}~w~ chwilę temu, około 15 minut. Proszę wspomnij o tym.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dziękuję, zaraz się tym zajmę.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nagrania właśnie są sprawdzane, przypomniały ci się może jakieś szczegóły? Im więcej, tym lepiej.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Nie, nie mam pojęcia dlaczego ktoś miałby mnie śledzieć przez około 2 godziny.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nie przejmuj się, wyjaśnimy to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Udało nam się zlokalizować podejrzanego, pojadę to sprawdzić. Zajmij się swoimi sprawami, albo pójdź do domu. Będziemy w kontakcie.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
