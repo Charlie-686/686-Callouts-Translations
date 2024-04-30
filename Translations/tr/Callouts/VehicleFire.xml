@@ -1,0 +1,61 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Araç Yangını]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Bu çağrıyı kabul etmek için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~İhbarcı çağrıyı sonlandırdı~w~. ~g~GPS~w~'inizi olay yerine yönlendirdik. Oraya git.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~r~Çalıntı bir araç~w~ alevler içinde görüldü. Derhal olay yerine gidin.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[Olay yeri temizlendikten sonra, GPS'inizi aracın sahibinin evine ayarlamak için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Yakılan aracın sahibine ~y~{0}~w~'ı bilgilendirin.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Araç yangını söndürüldü. Kayıtlı sahibe doğru ilerliyoruz.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. Size kötü haberlerimiz olduğunu korkarım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Oh hayır! Ne oldu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Ne yazık ki bugün öğlen saatlerinde bir araç yangınına katıldık. Sizi aracın kayıtlı sahibi olarak izledik, sanırım yakın zamanda çalıntı olarak rapor ettiniz değil mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Evet... İnanamıyorum. Şok içindeyim. Yani çalındı ve ardından ateşe verildi mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Tam olarak. İşte şimdi yapmanız gerekenlerle ilgili bazı bilgiler. Umarım bu çok gereksinim duyduğunuz açıklamayı sağlar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Çok teşekkür ederim. Bardağın yarısı dolu bakış açısına bakarak, sigortam bunu karşılayacak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ İyi duydum. İyi günler dilerim, ve daha fazla ayrıntı ile iletişimde olacağız.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. Size bir haber iletme amacıyla buradayım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Bu aracım ile ilgili haber mi? Ve arkanda olmadığına göre, tahmin edebilirim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Korkarım ki öyle. Bugün öğlen saatlerinde bir araç alev alır şekilde görüldü, maalesef size bu sizin aracınızın olduğunu bildirmek zorundayım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Bu şok edici. Nasıl oldu bu iş?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Şu anda bunu bilmiyoruz, ancak büyük ihtimalle kasti bir olaydır. İşte burada bazı ayrıntılar ve şimdi almanız gereken adımlar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Pekala teşekkürler. Sigortam patlayacak gibi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Umarım onlar anlar, ve bir kez daha özür dilerim. Sizinle iletişimde olacağız.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Özür dilerim? Merhaba, sadece sizinle konuşmam gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Oh, ne oluyor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Araç hakkında. Bugün öğlen saatlerinde, bir araç yangını çağrısına katıldık. Sizi geri kayıtlı sahip olarak izledik ve size haber vermek istedik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Gerçekten mi? Emin misiniz aracımın olduğundan? İnanamıyorum! Ben çalındı zannetmiştim, kavrulmuş olduğunu değil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Şu anda neden olduğunu bilmiyoruz, ancak soruşturuyoruz. Ancak, şimdi okumanız gereken bazı evraklar var. İşte onlar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Teşekkür ederim. Her şey çok hızlı oldu. Kimse yaralanmadı umarım, özellikle kasıtlıysa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Gerçekten, hoşça vakit geçirin. Ve eğer başka sorularınız varsa, çekinmeden iletişime geçin.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Merhaba. Size nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İhbarcı:~w~ Dinle, çok fazla zamanım yok, ancak sana söylemem gereken bir şey var.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Üzgünüm, sen kimsin?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İhbarcı:~w~ Bana sorular sorma. Bir aracın yakılacağını, hemen şimdi. Oraya gitmeni istiyorum!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Nerede? Ve bana bunu neden söylüyorsun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İhbarcı:~w~ Konumu cep telefonuna gönderdim. Birileri tanıdığım bir hata yaptı.. Yanlış kişiye intikam almaya çalışıyorlar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ "Onlar" diye bahsettiğin kim? Ve neden birinin aracını yakıyorlar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İhbarcı:~w~ Hatalar... hata yaptılar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Sakin olalım. Biraz bağlam gerekiyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İhbarcı:~w~ Çok fazla söyledim... lanet...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

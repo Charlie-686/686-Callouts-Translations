@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[การปล้นในตรอก ]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~w~ผู้ต้องสงสัยกำลังทำการโจรกรรมเกิดขึ้นรอบๆ  ~y~{0} ~w~ตรวจสอบสถานที่เกิดเหตุ ]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~w~ผู้ต้องสงสัยกำลังทำการโจรกรรมเกิดขึ้นรอบๆ  ~y~{0} ~w~ตรวจสอบสถานที่เกิดเหตุ  ]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[ของโจร ]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[~w~ผู้ต้องสงสัยกำลังทำการโจรกรรมเกิดขึ้นรอบๆ  ~y~{0} ~g~มีรายงานว่าเหยื่อ ~r~ถูกปืนจี้ ~w~ตรวจสอบสถานที่เกิดเหตุ ]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[ผู้ต้องสงสัยกำลังทำการโจรกรรมเกิดขึ้นรอบๆ  ~y~{0} ~w~รายงานว่ามีผู้ร้ายสองคน ตรวจสอบสถานที่เกิดเหตุ ]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[กด  ~y~{0}~w~เพื่อ ~g~เก็บกู้~w~ของที่ถูกขโมย ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[เก็บกู้ของที่ถุกขโมย ~y~{0}~w~ เพื่อ ~g~เป็นหลักฐาน ]]></NOTIFICATION>
+		<OTHER><![CDATA[กระเป๋า ]]></OTHER>
+		<OTHER><![CDATA[กระเป๋าช้อปปิ้ง ]]></OTHER>
+		<OTHER><![CDATA[พิซซ่า ]]></OTHER>
+		<OTHER><![CDATA[แลปท็อป ]]></OTHER>
+		<OTHER><![CDATA[พัสดุ ]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
