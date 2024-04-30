@@ -1,0 +1,105 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Awantura w metrze]]></CALLOUTMESSAGE>
+    <FURTHERINFORMATION><![CDATA[Świadek wzywa pomoc w sprawie podejrzanej ~y~awantury~w~, w którą są zaangażowane ~y~2 osoby~w~.]]></FURTHERINFORMATION>
+    <NOTIFICATION><![CDATA[~p~Zlokalizuj wejście do metra~w~ i przystąp do poszukiwań ~y~2 osób~w~, które wszczęły awanturę.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Ofiara:~w~ Pomocy! Goni mnie szaleniec!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ To był strzał ostrzegawczy! Odsuń się!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ To był strzał ostrzegawczy! Odsuń się!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ ARGHHHH! A masz!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ ARGHHHH! A masz!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[poirytowany]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sprawdzamy ich dane. Oczekuj.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Informacje na ich temat wydają się ~g~w porządku~w~. Nie ma potrzeby do dalszych obaw.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Uspokójcie się w tej chwili!]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~r~Podejrzana: ~w~Oficerze! Nawet nie wiesz jaki on jest fałszywy!]]></DIALOGUE>
+      <DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~r~Podejrzany: ~w~Oficerze! Nawet nie wiesz jaka ona jest fałszywa!]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~r~Podejrzana: ~w~Pani oficer! Nawet nie wiesz jaki on jest fałszywy!]]></DIALOGUE>
+      <DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~r~Podejrzany: ~w~Pani oficer! Nawet nie wiesz jaka ona jest fałszywa!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Spokojnie... po prostu porozmawiajmy... bez zbędnych krzyków.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Nie masz pojęcia jakie PIEKŁO przeszedłem żyjąc z tą osobą.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzany: ~w~Nie masz pojęcia jakie PIEKŁO przeszłam żyjąc z tą osobą.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Proszę, spróbujcie się uspokoić.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Dobra, DOBRA! Uspokójmy się.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Dobra, DOBRA! Uspokójmy się.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~W czym tkwi problem?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Ta przeklęta osoba pojawiła się w moim życiu i zrujnowała je.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Ta przeklęta osoba pojawiła się w moim życiu i zrujnowała je.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Wcale NIE!]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Wcale NIE!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Martwi mnie wasze zachowanie. Mogę wam zaufać, że w końcu ochłoniecie?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Pfff. Okej, może faktycznie za bardzo się unoszę.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Pfff. Okej, może faktycznie za bardzo się unoszę.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~To moja wina, nie powinienem powodować zamieszania z powodu tej pindy.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~To moja wina, nie powinnam powodować zamieszania z powodu tego dupka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Mogę jeszcze prosić o wasze dowody tożsamości?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Możecie iść. Dziękuję za współpracę, którą w końcu udało nam się osiągnąć.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~Y~w~, aby przejść i porozmawiać w spokojnym miejscu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sukces~w~. Ped podąża za tobą.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wróć i porozmawiaj z ~r~podejrzanym~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Hej, podróżujecie razem?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Tak, podróżujemy. Co potrzeba?]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Tak, podróżujemy. Co potrzeba?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Dostaliśmy informacje o możliwej awanturze. Muszę sprawdzić kilka rzeczy.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Niepotrzebnie, ale niech będzie.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Niepotrzebnie, ale niech będzie.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty: ~w~Niech pan podejdzie ze mną. Musimy porozmawiać na osobności.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty: ~w~Niech pani podejdzie ze mną. Musimy porozmawiać na osobności.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Dziękuję. Możesz mi powiedzieć czy wszystko jest w porządku?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Ofiara: ~w~Mój partner zmusił mnie, żebym z nim poszła! Nie wiem co on chce zrobić, proszę pomóż mi zanim będzie za późno.]]></DIALOGUE>
+      <DIALOGUE TARGET="M"><![CDATA[~y~Ofiara: ~w~Moja partnerka zmusiła mnie, żebym z nią poszedł! Nie wiem co ono chce zrobić, proszę pomóż mi zanim będzie za późno.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty: ~w~Czy jest jeszcze coś o czym powinienem wiedzieć?]]></DIALOGUE>
+      <DIALOGUE PLAYER="F"><![CDATA[~b~Ty: ~w~Czy jest jeszcze coś o czym powinnam wiedzieć?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Ofiara: ~w~Może mieć ze sobą broń, bądź ostrożny.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F"><![CDATA[~y~Ofiara: ~w~Może mieć ze sobą broń, bądź ostrożna.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty: ~w~Dziękuje, że poczekałeś. Czy masz przy sobie coś nielegalnego?]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~b~Ty: ~w~Dziękuje, że poczekałaś. Czy masz przy sobie coś nielegalnego?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~r~Podejrzany: ~w~Nic z tych rzeczy oficerze.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F"><![CDATA[~r~Podejrzany: ~w~Nic z tych rzeczy pani oficer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Na pewno?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany: ~w~Jak to mówią, uczciwość jest najlepszym rozwiązaniem.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana: ~w~Jak to mówią, uczciwość jest najlepszym rozwiązaniem.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~b~Ty: ~w~Doprawdy. Jesteś zatrzymany, trzymaj ręce wysoko, żebym je widział.]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~b~Ty: ~w~Doprawdy. Jesteś zatrzymana, trzymaj ręce wysoko, żebym je widział.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~b~Ty: ~w~Doprawdy. Jesteś zatrzymany, trzymaj ręce wysoko, żebym je widziała.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~b~Ty: ~w~Doprawdy. Jesteś zatrzymana, trzymaj ręce wysoko, żebym je widziała.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara:~w~ Skończyłem tutaj. Aresztuj mnie.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~y~Ofiara:~w~ Skończyłam tutaj. Aresztuj mnie.]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~r~Podejrzany:~w~ Widziałeś co się tutaj wydarzyło oficerze! To nie moja wina.]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~r~Podejrzana:~w~ Widziałeś co się tutaj wydarzyło oficerze! To nie moja wina.]]></DIALOGUE>
+      <DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~r~Podejrzany:~w~ Widziałaś co się tutaj wydarzyło pani oficer! To nie moja wina.]]></DIALOGUE>
+      <DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~r~Podejrzana:~w~ Widziałaś co się tutaj wydarzyło pani oficer! To nie moja wina.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Świadek:~w~ Oficerze, dziękuje za przybicie! Pozwól, że powiem co wiem.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F"><![CDATA[~y~Świadek:~w~ Pani oficer, dziękuje za przybicie! Pozwól, że powiem co wiem.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Świadek:~w~ Zajmowałem się swoimi sprawami, kiedy przeszły obok mnie 2 osoby. Ostro się ze sobą sprzeczali! Wyglądało to, jakby zaraz coś się miało wydarzyć.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~y~Świadek:~w~ Zajmowałam się swoimi sprawami, kiedy przeszły obok mnie 2 osoby. Ostro się ze sobą sprzeczali! Wyglądało to, jakby zaraz coś się miało wydarzyć.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dokąd poszli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Świadek:~w~ Nie mam pewności, ale wydaję mi się, że weszli do metra.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Brzmi jak miejsce, odkąd powinienem zacząć. Dziękuje!]]></DIALOGUE>
+      <DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Brzmi jak miejsce, odkąd powinnam zacząć. Dziękuje!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Świadek:~w~ Nie ma problemu!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
