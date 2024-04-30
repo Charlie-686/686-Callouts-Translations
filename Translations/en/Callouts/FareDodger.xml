@@ -9,14 +9,14 @@
 	<OUTCOME0>
 		<OTHER><![CDATA[A nearby station told me they've jumped the barriers there. Impressive, but a criminal offence.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Excuse me, could you wait there for a minute?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Make it quick, I have a train to catch.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I've spoken with a ticket enforcement officer, and they've told me you jumped the barriers?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Pfff. It really isn't a big deal. I don't have any spare change on me, can you just let is slide?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~It's an offence to use the train without paying a fare, I'll be writing you up a ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Well get on with it then.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Here it is. You can use the train now as you'll pay a fine, but next time pay your fare like everybody else.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~This fine is expensive, I don't believe it. Well, I guess I should've just bought a ticket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Excuse me, could you wait there for a minute?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Make it quick, I have a train to catch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I've spoken with a ticket enforcement officer, and they've told me you jumped the barriers?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Pfff. It really isn't a big deal. I don't have any spare change on me, can you just let is slide?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It's an offence to use the train without paying a fare, I'll be writing you up a ticket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well get on with it then.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Here it is. You can use the train now as you'll pay a fine, but next time pay your fare like everybody else.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ This fine is expensive, I don't believe it. Well, I guess I should've just bought a ticket.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
