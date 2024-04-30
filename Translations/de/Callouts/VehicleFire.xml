@@ -1,0 +1,60 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fahrzeugbrand]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um diesen Anruf anzunehmen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~y~Informant hat den Anruf beendet~w~. Wir haben Ihr ~g~GPS~w~ zur Position geleitet. Fahren Sie dorthin.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Ein ~r~gestohlenes Fahrzeug~w~ wurde ~o~in Brand gesteckt~w~ gesichtet. Begeben Sie sich sofort zum Einsatzort.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[Nachdem der Tatort geräumt wurde, drücken Sie ~y~{0}~w~, um Ihr Navi auf das Zuhause des Besitzers einzustellen.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Informieren Sie den ~p~Besitzer~w~ des ~y~{0}~w~, der in der Nähe wohnt.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Fahrzeugbrand gelöscht. Auf dem Weg zum registrierten Eigentümer.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Es tut mir leid, aber ich habe schlechte Nachrichten für Sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Oh nein! Was ist passiert?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Leider ist heute Morgen Ihr Fahrzeug abgebrannt. Wir haben Sie als den registrierten Besitzer des Fahrzeugs ermittelt, das Sie kürzlich als gestohlen gemeldet haben, richtig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Ja... ich kann es nicht glauben. Ich bin geschockt. Es wurde gestohlen und dann angezündet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Genau. Hier habe ich einige Informationen für Sie, was Sie jetzt tun sollten. Hoffentlich klärt das einige Dinge auf.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Vielen Dank. Ich denke, meine Versicherung sollte das abdecken.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut zu hören. Ich wünsche Ihnen einen schönen Tag und wir werden uns mit weiteren Details bei Ihnen melden.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Ich habe Neuigkeiten für Sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Es handelt sich um Neuigkeiten zu meinem Fahrzeug, oder? Und basierend darauf, dass es nicht hinter Ihnen steht, kann ich es erraten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist leider richtig. Heute Morgen wurde ein Fahrzeug in Brand gesetzt, und leider war es Ihr Fahrzeug.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Das ist schockierend. Wie ist das passiert?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Zu diesem Zeitpunkt wissen wir es nicht, aber es deutet auf Fremdeinwirkung hin. Hier sind einige Details und Schritte, die Sie jetzt unternehmen sollten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Nun, danke. Meine Versicherungsbeitrag wird durch die Decke gehen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hoffentlich haben sie Verständnis, und nochmals Entschuldigung. Wir werden uns melden.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Entschuldigung? Guten Tag, ich muss kurz mit Ihnen sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Oh, was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es geht um Ihr Fahrzeug. Heute Morgen haben wir einen Anruf wegen eines Fahrzeugsbrandes erhalten. Wir haben Sie als den registrierten Besitzer zurückverfolgt und wollten Sie informieren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Wirklich? Sind Sie sicher, dass es mein Fahrzeug war? Ich glaube es nicht! Ich dachte, es wurde gestohlen, nicht verbrannt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir kennen die Ursache zum jetzigen Zeitpunkt noch nicht, aber wir ermitteln. Hier sind einige Papiere, die Sie lesen sollten, was als nächstes zu tun ist. Hier sind sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Danke. Das ist alles so schnell passiert. Ich hoffe, niemand wurde verletzt, besonders wenn es absichtlich war.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ In der Tat, trotzdem noch einen schönen Tag. Und wenn Sie weitere Fragen haben, melden Sie sich gern bei uns.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Wie kann ich Ihnen helfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informant:~w~ Hören Sie, ich habe nicht viel Zeit, aber ich muss Ihnen etwas sagen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Entschuldigung, wer sind Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informant:~w~ Stellen Sie keine Fragen. Ein Fahrzeug wird jetzt angezündet. SIe müssen sofort dorthin!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wohin? Und warum sagen Sie mir das?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informant:~w~ Ich habe die Position an Ihr Handy gesendet. Jemand, den ich kenne, hat einen Fehler gemacht... sie versuchen, sich an der falschen Person zu rächen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wer ist diese Person, von der Sie sprechen? Und warum setzen sie das Fahrzeug von jemandem in Brand?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informant:~w~ Fehler... sie haben einen Fehler gemacht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Lassen Sie uns das langsam angehen. Ich brauche etwas Kontext.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informant:~w~ Ich habe zu viel gesagt... Mist....]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

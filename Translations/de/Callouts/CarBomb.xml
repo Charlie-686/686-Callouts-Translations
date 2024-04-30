@@ -7,26 +7,26 @@
 		<NOTIFICATION><![CDATA[~r~Fehlgeschlagen.~w~~n~Die Bombe wurde nicht entschärft. ~y~Evakuieren Sie sofort den umliegenden Bereich.~w~]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME0>
-		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatz.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Der Verdächtige ~y~flieht~w~ in seinem Fahrzeug und ist ~y~mit einer Bombe bewaffnet.~w~]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatzort.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Der Verdächtige ~y~flieht~w~ in seinem Fahrzeug und hat ~y~Sprengstoff.~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Das Fahrzeug ~r~kann jederzeit explodieren~w~. ~n~Entweder ~y~halten Sie Zivilisten vom Fahrzeug fern~w~ oder ~y~beenden Sie die Verfolgung~w~ so schnell wie möglich.]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~Bomben-Zünder]]></OTHER>
 	</OUTCOME0>
 	<OUTCOME1>
-		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine geistig instabile Person mit einer ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatz.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine geistig instabile Person mit einer ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatzort.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Bomben-Zünder~w~, ~y~Verkabelung]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich ergebe mich! Sie können mich festnehmen, Herr Polizist!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Herr Polizist... es tut mir leid, dass es so enden musste...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich ergebe mich! Sie können mich festnehmen!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ ... Es tut mir leid, dass es so enden musste...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
-		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatz.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben eine ~r~Auto-Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatzort.]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Die Auto-Bombe ~y~wurde gezündet.~n~~w~Gemeldete Opfer: ~r~{0} Person(en).]]></NOTIFICATION>
 	    <OTHER><![CDATA[~y~Verkabelung~w~, ~r~Explosivstoffe]]></OTHER>
 	</OUTCOME2>
 	<OUTCOME3>
-		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben ein ~r~verlassenes Auto mit einer Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatz und ~y~entschärfen Sie die Bombe.~w~]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Die Geheimdienste haben ein ~r~verlassenes Auto mit einer Bombe~w~ gemeldet.~n~~w~Fahren Sie ~y~zügig~w~ zum Einsatzort und ~y~entschärfen Sie die Bombe.~w~]]></FURTHERINFORMATION>
 	    <OTHER><![CDATA[~y~Autoschlüssel~w~, ~r~Bombe]]></OTHER>	
 	</OUTCOME3>
 </CALLOUT>

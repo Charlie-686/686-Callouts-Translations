@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Gestohlener Gegenstand]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~Diebstahl~w~ hat stattgefunden, sprechen Sie mit dem ~y~Opfer~w~ und führen Sie Untersuchungen durch.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Es wird vermutet, dass der Verdächtige~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[zu Fuß unterwegs ist~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[sich in einem Fahrzeug~w~ befindet.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Handy]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Brieftasche]]></OTHER>
+		<OTHER><![CDATA[Hausschlüssel]]></OTHER>
+		<OTHER><![CDATA[Kamera]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[erschüttert]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was wollen Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir sind über einen Diebstahl informiert worden, und wir müssen Sie durchsuchen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Als ob! Sie haben keinerlei Beweise, und ich werde keine Ihrer Fragen beantworten!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich bin hier, um das Gesetz durchzusetzen. Unser Tracker zeigt an, dass sich ein(e) {0} bei Ihnen befindet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Lügen! Die Technologie ist heutzutage sowieso immer falsch!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was wollen Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir glauben, dass Sie ein(e) {0} bei sich haben. Ich muss Sie einmal durchsuchen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Sie haben mich erwischt, ich stelle mich selbst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Okay, Hände hoch, ich werde Sie festnehmen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Lokalisieren Sie den ~r~Verdächtigen~w~. Das ~y~Suchgebiet wird sich ~w~regelmäßig aktualisieren.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Helfen Sie mir, ich wurde ausgeraubt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Können Sie mir etwas über den Verdächtigen sagen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Nicht wirklich, aber mein {0} hat einen GPS-Tracker, der diesmal nützlich sein sollte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Fantastisch, lassen Sie mich dies an die Leitstelle weiterleiten, die mich dann verbindet, damit ich es orten kann.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Ja, ich hoffe, Sie können es wiederbeschaffen, es ist wichtig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Natürlich, wir bleiben in Kontakt. Ich werde versuchen, es jetzt zu lokalisieren.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

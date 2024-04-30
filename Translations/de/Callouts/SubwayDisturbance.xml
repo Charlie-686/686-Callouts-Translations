@@ -1,0 +1,86 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[U-Bahn-Störung]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein Passant bittet um Hilfe wegen einer vermuteten ~y~Störung~w~, an der ~y~2 Personen~w~ beteiligt sind.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Suchen Sie den Eingang zur U-Bahn~w~ und versuchen Sie, die ~y~2 Personen~w~, die die Störung verursacht haben, zu finden.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Opfer:~w~ Helfen Sie mir, ich werde von einem Verrückten verfolgt!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Das war ein Warnschuss, bleiben Sie zurück!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ ARGHHHH! NIMM DAS!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[verschlimmert]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wir überprüfen ihre Infos. Bitte warten Sie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ihr Name ist ~g~sauber~w~. Kein Grund zur Sorge.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Beruhigen Sie sich beide! Lassen Sie uns eine Pause machen.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Verdächtiger 1: ~w~Sie wissen gar nicht, was ein Bastard er ist!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Verdächtiger 1: ~w~Sie wissen gar nicht, was eine Hure sie ist!]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Okay...aber lass uns einfach normal reden...uns nicht anschreien.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 2: ~w~Du weißt nicht, durch was für eine HÖLLE ich mit dieser Person hier gegangen bin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Bitte, lasst uns versuchen, ruhig zu bleiben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 2: ~w~In Ordnung, IN ORDNUNG! Dann beruhigen wir uns.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Was ist das Problem hier?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 1: ~w~Diese verdammte Person ist in mein Leben getreten und hat es ruiniert.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 2: ~w~EINEN SCHEIß HAB ICH!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich bin etwas besorgt über euer beider Verhalten, beruhigt euch beide erstmal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 1: ~w~Pfff. Okay, vielleicht habe ich etwas übertrieben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger 2: ~w~Mein Fehler, ich wollte keine Störung wegen dieses Arschlochs verursachen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Kann ich bitte eure Ausweise sehen? Ich möchte sie nur schnell überprüfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ihr könnt gehen. Danke für die Kooperation am Ende, und seid in Zukunft vorsichtiger.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~Y~w~, um die Person an einen ruhigen Ort zu bringen, um zu sprechen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Erfolg~w~. Die Person folgt Ihnen jetzt.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Gehen Sie zurück, um mit dem ~r~Verdächtigen~w~ zu sprechen.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hey Leute, reist ihr zusammen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Ja, das tun wir. Was wollen Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir haben eine Meldung über einen möglichen Vorfall. Ich muss ein paar Dinge überprüfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Das scheint mir unnötig zu sein, aber okay.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Sie: ~w~Die Dame, bitte kommen Sie mit mir. Ich muss mit Ihnen allein sprechen.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Sie: ~w~Der Herr, bitte kommen Sie mit mir. Ich muss mit Ihnen allein sprechen.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Danke. Können Sie mir bitte sagen, ob alles in Ordnung ist?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Mein Partner zwingt mich, ihm zu folgen! Ich weiß nicht wohin, bitte helfen Sie, bevor es zu spät ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Gibt es noch etwas, was ich wissen sollte?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Er könnte eine Waffe bei sich haben, seien Sie vorsichtig.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Opfer: ~w~Sie könnte eine Waffe bei sich haben, seien Sie vorsichtig.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Opfer: ~w~Er könnte eine Waffe bei sich haben, seien Sie vorsichtig.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Danke fürs Warten. Haben Sie etwas bei sich, das Sie nicht haben sollten?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Nein, ich hab nichts dergleichen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sind Sie sicher?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Wie es so schön heißt, Ehrlichkeit währt am längsten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~In Ordnung. Sie werde Ihnen Handschellen anlegen, halten Sie Ihre Hände dort, wo ich sie sehen kann.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Meine Arbeit ist getan. Verhaften Sie mich.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Sie haben gesehen, wie sie auf mich zugekommen ist! Das war nicht meine Schuld.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Zeuge:~w~ Vielen Dank für Ihre Zeit! Lassen Sie mich Ihnen erzählen, was ich weiß.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Zeuge:~w~ Ich habe meine eigenen Angelegenheiten im Auge behalten, und diese 2 Personen sind vorbeigekommen. Sie stritten sich wirklich heftig! Es sah so aus, als ob einer von ihnen gleich ausrasten würde.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ In welche Richtung sind sie gegangen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Zeuge:~w~ Ich bin mir nicht sicher, aber ich glaube, sie sind in die U-Bahn-Station gegangen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das klingt nach dem richtigen Ort, um anzufangen. Vielen Dank!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Zeuge:~w~ Gern geschehen!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
