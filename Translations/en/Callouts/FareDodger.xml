@@ -2,9 +2,9 @@
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Fare Dodger]]></CALLOUTMESSAGE>
 		<FURTHERINFORMATION><![CDATA[~p~Station staff~w~ require your assistance; they need you to apprehend someone who may've ~y~failed to pay the train fare.~w~]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Speak to the suspected ~y~fare dodger.]]></NOTIFICATION>
-		<OTHER><![CDATA[~g~Valid ticket]]></OTHER>
-		<OTHER><![CDATA[~r~Fake ticket]]></OTHER>
+		<NOTIFICATION><![CDATA[Speak to the suspected ~y~fare dodger.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Valid ticket~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Fake ticket~w~]]></OTHER>
 	</GENERAL>
 	<OUTCOME0>
 		<OTHER><![CDATA[A nearby station told me they've jumped the barriers there. Impressive, but a criminal offence.]]></OTHER>
@@ -22,55 +22,55 @@
 	<OUTCOME1>
 		<OTHER><![CDATA[I noticed a ticket someone has; it looks unusual, I've got a feeling it may be a fake one. It is unfortunate that they've become increasingly common.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Well, I have a ticket, that's how I got through.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I see, could I take a look at it please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~It says here the ticket expired a week ago, do you know why that is?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~No way, really! I have no idea how that could be.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Don't play dumb with me, you've delibrately used an old ticket. I'm issuing you a fine.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Honestly, do something useful with your life for once. Give me the ticket, then I'm leaving.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Here it is.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Thank you so much for this. You ruined my day.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well, I have a ticket, that's how I got through.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I see, could I take a look at it please?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It says here the ticket expired a week ago, do you know why that is?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ No way, really! I have no idea how that could be.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Don't play dumb with me, you've delibrately used an old ticket. I'm issuing you a fine.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Honestly, do something useful with your life for once. Give me the ticket, then I'm leaving.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Here it is.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Thank you so much for this. You ruined my day.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<OTHER><![CDATA[My colleague at another station radioed in. Apparently they may not have a ticket on them, however my colleague wasn't watching the camera's unfortunately.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I've been asked to check if you have a ticket on you.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~I don't know, do I?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~This isn't a joke, I'll need an honest answer please.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Oh for Christ's sake! Catch criminals, not people who want to go on a train.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I'll ask once again, do you have a ticket on you?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~You have nothing better to do, do you? Let me get on the godforsaken train. It arrives soon anyway.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I've been asked to check if you have a ticket on you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I don't know, do I?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ This isn't a joke, I'll need an honest answer please.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh for Christ's sake! Catch criminals, not people who want to go on a train.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'll ask once again, do you have a ticket on you?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ You have nothing better to do, do you? Let me get on the godforsaken train. It arrives soon anyway.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
-		<NOTIFICATION><![CDATA[Speak to the suspected ~r~fraudulent ticket seller.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Speak to the suspected ~r~fraudulent ticket seller.~w~]]></NOTIFICATION>
 		<OTHER><![CDATA[I glanced at a ticket someone was using, it didn't look right. I think it is fake.]]></OTHER>
-		<OTHER><![CDATA[~r~Fake tickets]]></OTHER>
+		<OTHER><![CDATA[~r~Fake tickets~w~]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Excuse me, I need to have a conversation with you.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Well, I have a ticket, that's how I got through.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I see, could I take a look at it please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Of course, here it is.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~That's a fake ticket, you can tell by the markings on the side. Why are you using it?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~At the entrance of the station someone was selling it, it must've been at least half the cost of a regular ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I see, so you bought it off him at this cheaper price?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~I did yes. Look, here's my ID. I'm not a criminal, I promise.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Thank you. I'll see if I can find this person you mentioned.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Excuse me, I need to have a conversation with you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well, I have a ticket, that's how I got through.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I see, could I take a look at it please?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course, here it is.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ That's a fake ticket, you can tell by the markings on the side. Why are you using it?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ At the entrance of the station someone was selling it, it must've been at least half the cost of a regular ticket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I see, so you bought it off him at this cheaper price?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I did yes. Look, here's my ID. I'm not a criminal, I promise.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thank you. I'll see if I can find this person you mentioned.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Hold up for a minute. We need to have a word.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Another day, another officer up in my business. What?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~We've got suspicion to believe you've been selling fraudulent tickets.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~I'm going to detain you, stay there for me.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hold up for a minute. We need to have a word.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Another day, another officer up in my business. What?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We've got suspicion to believe you've been selling fraudulent tickets.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'm going to detain you, stay there for me.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ My hands are up!]]></DIALOGUE>
@@ -79,13 +79,13 @@
 	<OUTCOME4>
 		<OTHER><![CDATA[A person apparently, I've heard over the radio, didn't use a ticket.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You: ~w~Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Like everyone else, with my train ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Mind if I take a look at it?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You: ~w~Seems like everything is okay, have a good rest of your journey!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Like everyone else, with my train ticket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Mind if I take a look at it?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Seems like everything is okay, have a good rest of your journey!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>
 	<EXTRA>
@@ -94,7 +94,7 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ That's absolutely fine, could you provide some details on the situation please?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Station Officer:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ I see. Not good to say the least. Where would they be now?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer: ~w~There haven't been any trains yet, so they'll probably be on the platform.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Station Officer:~w~ There haven't been any trains yet, so they'll probably be on the platform.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Thank you for all your help, I'll get to them now.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
@@ -104,7 +104,7 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ That's absolutely fine, could you provide some details on the situation please?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Station Officer:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Right, looks like we have a fare dodger on our hands. Where might they be?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer: ~w~Let me think. They must be on the platform, that's the only place they could be.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Station Officer:~w~ Let me think. They must be on the platform, that's the only place they could be.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Got it, well, I will check there first!]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
