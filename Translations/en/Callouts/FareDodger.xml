@@ -1,111 +1,141 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Fare Dodger]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[~p~Station staff~w~ require your assistance; they need you to apprehend someone who may've ~y~failed to pay the train fare.~w~]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Speak to the suspected ~y~fare dodger.~w~]]></NOTIFICATION>
-		<OTHER><![CDATA[~g~Valid ticket~w~]]></OTHER>
-		<OTHER><![CDATA[~r~Fake ticket~w~]]></OTHER>
+		<CALLOUTMESSAGE><![CDATA[Безбилетник]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Работникам станции~w~ нужна ваша помощь. Им нужно, чтобы вы задержали человека, который, возможно, ~y~не заплатил за проезд на поезде.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Поговорите с подозреваемым, ~y~который уклоняется от оплаты проезда.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Действительный билет~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Поддельный билет~w~]]></OTHER>
 	</GENERAL>
 	<OUTCOME0>
-		<OTHER><![CDATA[A nearby station told me they've jumped the barriers there. Impressive, but a criminal offence.]]></OTHER>
+		<OTHER><![CDATA[Из соседней станции мне сказали, что он(а) перепрыгнул(а) там барьеры. Впечатляет конечно, но это все же уголовное преступление.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Excuse me, could you wait there for a minute?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Make it quick, I have a train to catch.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I've spoken with a ticket enforcement officer, and they've told me you jumped the barriers?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Pfff. It really isn't a big deal. I don't have any spare change on me, can you just let is slide?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ It's an offence to use the train without paying a fare, I'll be writing you up a ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well get on with it then.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Here it is. You can use the train now as you'll pay a fine, but next time pay your fare like everybody else.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ This fine is expensive, I don't believe it. Well, I guess I should've just bought a ticket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Простите, не могли бы вы подождать здесь минутку?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Давайте быстрее, мне нужно успеть на поезд.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Давайте быстрее, мне нужно успеть на поезд.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~b~Вы:~w~ Я разговаривал с дежурным по станции, и он сказал мне, что ты перепрыгнул через барьеры. Это так?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~b~Вы:~w~ Я разговаривал с дежурным по станции, и он сказал мне, что ты перепрыгнула через барьеры. Это так?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~b~Вы:~w~ Я разговаривала с дежурным по станции, и он сказал мне, что ты перепрыгнул через барьеры. Это так?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~b~Вы:~w~ Я разговаривала с дежурным по станции, и он сказал мне, что ты перепрыгнула через барьеры. Это так?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Пффф. Это не так уж и страшно. У меня просто нет при себе мелочи, не могли бы вы просто закрыть на это глаза?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Пффф. Это не так уж и страшно. У меня просто нет при себе мелочи, не могли бы вы просто закрыть на это глаза?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Это преступление пользоваться поездом, не заплатив за проезд, я выпишу вам штраф.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ну, тогда приступайте.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ну, тогда приступайте.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Вот он. Сейчас вы можете воспользоваться поездом, так как заплатите штраф. Но в следующий раз заплатите за проезд, как все остальные.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Этот штраф огромен, я в это не верю. Ну, думаю, мне следовало просто купить билет.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Этот штраф огромен, я в это не верю. Ну, думаю, мне следовало просто купить билет.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
-		<OTHER><![CDATA[I noticed a ticket someone has; it looks unusual, I've got a feeling it may be a fake one. It is unfortunate that they've become increasingly common.]]></OTHER>
+		<OTHER><![CDATA[Я заметил у кого-то билет; он выглядел необычно, у меня предчувствие, что это подделка. К сожалению, они становятся все более обыденными.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well, I have a ticket, that's how I got through.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I see, could I take a look at it please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ It says here the ticket expired a week ago, do you know why that is?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ No way, really! I have no idea how that could be.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Don't play dumb with me, you've delibrately used an old ticket. I'm issuing you a fine.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Honestly, do something useful with your life for once. Give me the ticket, then I'm leaving.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Here it is.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Thank you so much for this. You ruined my day.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы: ~w~Здравствуйте, не могли бы вы остановиться ради меня, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Конечно офицер. Чем я могу быть полезен?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Конечно офицер. Чем я могу быть полезна?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Нас вызвали сотрудники этой станции, они интересовались, как вы прошли через ворота?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ну, у меня есть билет, просто взял и прошел.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ну, у меня есть билет, просто взяла и прошла.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Понятно, можно мне взглянуть на него, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ А-а, конечно. Хотя я не понимаю, зачем вам это.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ А-а, конечно. Хотя я не понимаю, зачем вам это.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Здесь написано, что срок действия билета истек неделю назад, не знаете, почему так?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Не может быть, честно! Я понятия не имею как это могло случиться.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Не может быть, честно! Я понятия не имею как это могло случиться.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Вы:~w~ Не прикидывайся дурачком, ты намеренно использовал старый билет. Я выписываю тебе штраф.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Вы:~w~ Не прикидывайся дурой, ты намеренно использовала старый билет. Я выписываю тебе штраф.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Честно говоря, сделайте что-нибудь полезное в своей жизни, хоть раз. Дайте мне билет и я уйду.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Честно говоря, сделайте что-нибудь полезное в своей жизни, хоть раз. Дайте мне билет и я уйду.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Вот, держи.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Спасибо за это большое. Ты испортил мне день!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Спасибо за это большое. Ты испортил мне день!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Спасибо за это большое. Ты испортила мне день!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Спасибо за это большое. Ты испортила мне день!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
-		<OTHER><![CDATA[My colleague at another station radioed in. Apparently they may not have a ticket on them, however my colleague wasn't watching the camera's unfortunately.]]></OTHER>
+		<OTHER><![CDATA[Мой коллега с другой станции, связался со мной по рации. По всей видимости, у человека не было с собой билета, однако мой коллега не следил за камерами, к сожалению.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I've been asked to check if you have a ticket on you.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I don't know, do I?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ This isn't a joke, I'll need an honest answer please.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh for Christ's sake! Catch criminals, not people who want to go on a train.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I'll ask once again, do you have a ticket on you?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ You have nothing better to do, do you? Let me get on the godforsaken train. It arrives soon anyway.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Здравствуйте, не могли бы вы остановиться ради меня, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Конечно офицер. Чем я могу вам помочь?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Конечно офицер. Чем я могу вам помочь?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Меня попросили проверить, есть ли у вас билет.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я не знаю, а есть ли?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я не знаю, а есть ли?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Это не шутка. Мне нужен честный ответ, пожалуйста.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ох да ради всего святого! Ловите преступников, а не людей которые хотят попопасть на поезд.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ох да ради всего святого! Ловите преступников, а не людей которые хотят попопасть на поезд.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Я спрошу ещё раз, у вас есть при себе билет?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Вам делать больше нечего, не так ли? Позвольте мне уже сесть в этот богом забытый поезд. Все равно он скоро придет.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Вам делать больше нечего, не так ли? Позвольте мне уже сесть в этот богом забытый поезд. Все равно он скоро придет.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
-		<NOTIFICATION><![CDATA[Speak to the suspected ~r~fraudulent ticket seller.~w~]]></NOTIFICATION>
-		<OTHER><![CDATA[I glanced at a ticket someone was using, it didn't look right. I think it is fake.]]></OTHER>
-		<OTHER><![CDATA[~r~Fake tickets~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Поговорите с ~r~продавцом фальшивых билетов.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Я взглянул на билет, который кто-то использовал, он выглядел как-то странно. Я думаю, что это подделка.]]></OTHER>
+		<OTHER><![CDATA[~r~Поддельные билеты~w~]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Excuse me, I need to have a conversation with you.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Well, I have a ticket, that's how I got through.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I see, could I take a look at it please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course, here it is.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ That's a fake ticket, you can tell by the markings on the side. Why are you using it?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ At the entrance of the station someone was selling it, it must've been at least half the cost of a regular ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I see, so you bought it off him at this cheaper price?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I did yes. Look, here's my ID. I'm not a criminal, I promise.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Thank you. I'll see if I can find this person you mentioned.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Извините, мне нужно с вами поговорить.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Конечно офицер. Чем я могу быть вам полезен?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Конечно офицер. Чем я могу быть вам полезена?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Нас вызвали сотрудники этой станции, они интересовались, как вы прошли через ворота?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ну, у меня есть билет, просто взял и прошел.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ну, у меня есть билет, просто взяла и прошла.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Понятно, могу я взглянуть на него, пожалуйста?]]></DIALOGUE> 
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Конечно, вот он.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Конечно, вот он.]]></DIALOGUE> 
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Это поддельный билет, это видно по маркировке на боковой стороне. Почему вы им пользуетесь?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ У входа на станцию кто-то их продавал. Если я не ошибаюсь, в половину дешевле обычного билета.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ У входа на станцию кто-то их продавал. Если я не ошибаюсь, в половину дешевле обычного билета.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Понятно, значит, вы купили его у него по такой дешевой цене?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Да, купил. Послушайте, Вот моя ID-карта. Я не преступник, честное слово!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Да, купила. Послушайте, Вот моя ID-карта. Я не преступница, честное слово!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Спасибо. Я посмотрю, смогу ли я найти того человека, о котором вы рассказали.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Hold up for a minute. We need to have a word.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Another day, another officer up in my business. What?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ We've got suspicion to believe you've been selling fraudulent tickets.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I'm going to detain you, stay there for me.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Постой минутку. Нам нужно поговорить.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Еще один день, еще один офицер, влезший в мое дело. Чего тебе?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Еще один день, еще один офицер, влезший в мое дело. Чего тебе?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ У нас есть основания полагать, что вы продали поддельные билеты.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Я собираюсь задержать вас, оставайтесь здесь.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ My hands are up!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Мои руки подняты!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Мои руки подняты!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<OUTCOME4>
-		<OTHER><![CDATA[A person apparently, I've heard over the radio, didn't use a ticket.]]></OTHER>
+		<OTHER><![CDATA[Человек, как я услышал по радио, не воспользовался билетом.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You:~w~ Hi there, could you stay there for me please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course officer, how can I be of your assistance?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ We were called by the train station staff, they were wondering how you got through the gates?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Like everyone else, with my train ticket.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Mind if I take a look at it?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Uh, sure. I don't see why you should need to though.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Seems like everything is okay, have a good rest of your journey!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Здравствуйте, не могли бы вы остановиться ради меня, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Конечно офицер. Чем я могу вам помочь?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Конечно офицер. Чем я могу вам помочь?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Нас вызвали сотрудники станци. Они интересовались, как вы прошли через ворота?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Как и все остальные. С помощью своего белета.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Как и все остальные. С помощью своего белета.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Не возражаете, если я взгляну на него?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ А-а, конечно. Хотя я не понимаю, зачем вам это.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ А-а, конечно. Хотя я не понимаю, зачем вам это.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Вроде все в порядке. Счастливого путешествия!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ Good to see you officer, thank you for arriving so promptly.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ That's absolutely fine, could you provide some details on the situation please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ I see. Not good to say the least. Where would they be now?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ There haven't been any trains yet, so they'll probably be on the platform.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Thank you for all your help, I'll get to them now.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ Рад вас видеть, офицер. Спасибо, что приехали так быстро.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, не могли бы вы рассказать о ситуации подробнее, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Понятно. Нехорошо, мягко говоря. Где этот человек может быть сейчас?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ Поездов еще не было. Так что, вероятно, он(а) будет на платформе.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Спасибо за вашу помощь. Сейчас я им займусь.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ Apologies for the call over something so petty, it's appreciated.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ That's absolutely fine, could you provide some details on the situation please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Right, looks like we have a fare dodger on our hands. Where might they be?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Station Officer:~w~ Let me think. They must be on the platform, that's the only place they could be.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ Got it, well, I will check there first!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ Извините, что позвонил из-за такой мелочи, но это важно.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Все в порядке, не могли бы вы рассказать о ситуации подробнее, пожалуйста?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Да, похоже, у нас безбилетник. Где этот человек может сейчас быть?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Охранник станции:~w~ Дайте подумать. Должно быть на платформе, это единственное место, где он(а) может быть.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Ясно, что ж, там я и проверю для начала!]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>
