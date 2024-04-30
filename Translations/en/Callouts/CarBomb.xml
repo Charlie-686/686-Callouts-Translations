@@ -22,7 +22,7 @@
 	</OUTCOME1>
 	<OUTCOME2>
 		<FURTHERINFORMATION><![CDATA[Intelligence has reported a ~r~car bomb.~n~~w~Respond to the scene ~y~urgently.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[The car bomb ~y~has been detonated.~n~~w~Reported casulties: ~r~{0} person(s).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The car bomb ~y~has been detonated.~n~~w~Reported casualties: ~r~{0} person(s).]]></NOTIFICATION>
 	    <OTHER><![CDATA[~y~Wiring~w~,~r~Explosives]]></OTHER>
 	</OUTCOME2>
 	<OUTCOME3>
