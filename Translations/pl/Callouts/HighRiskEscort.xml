@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Transport o wysokim ryzyku]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~Więzień~w~ wymaga ~y~eskorty~w~ do ~y~{0}~w~. Wsparcie czeka na twoje przybycie.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informacje o eskorcie:~w~~n~ Będziesz transportować ~y~{0}~w~, który {1}.]]></FURTHERINFORMATION> // 0: ich imię 1: ich tło
+		<OTHER> <![CDATA[Komisariat Policji Mission Row]]></OTHER>
+		<OTHER> <![CDATA[Więzienie Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[prowadzi ~r~zorganizowaną grupę przestępczą~w~ z udziałem skorumpowanych policjantów]]></OTHER> // Więzień jest zawsze mężczyzną.
+		<OTHER><![CDATA[jest notorycznym ~y~bossem mafii~w~, który obecnie oczekuje na proces, z ryzykiem bycia celem konkurencyjnego gangu]]></OTHER>
+		<OTHER><![CDATA[jest byłym policjantem, który stał się ~y~skorumpowanym informatorem~w~, z powiązaniami ze światem przestępczym]]></OTHER>
+		<OTHER><![CDATA[jest ~y~handlarzem narkotykowym~w~ związanym z największą operacją narkotykową w regionie]]></OTHER>
+		<OTHER><![CDATA[jest ~y~cyberprzestępcą~w~, który obecnie odbywa wyrok w więzieniu]]></OTHER>
+		<OTHER><![CDATA[kontroluje ~y~nielegalny handel bronią~w~ i został niedawno aresztowany]]></OTHER>
+		<OTHER><![CDATA[jest ~y~terrorystą~w~. Istnieje ryzyko, że inni spróbują go uwolnić]]></OTHER>
+		<OTHER><![CDATA[stworzył ~y~gwałtowny gang uliczny~w~, stawiając czoła odwetowi ze strony konkurencyjnej załogi]]></OTHER>
+		<OTHER><![CDATA[był częścią ~y~notorycznego pierścienia przemytu narkotyków~w~, niedawno rozbitego przez władze]]></OTHER>
+		<OTHER><![CDATA[ustawił ~y~globalny schemat prania brudnych pieniędzy~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Gdy będziesz gotowy, ~y~prowadź konwój~w~ i podążaj ~r~zaplanowaną trasą~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zgłaszamy widok ~y~podejrzanego pojazdu~w~, który teraz podąża za naszą eskortą. Proszę czekać.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Przed nami jest ~r~blokada drogowa~w~! Chronić konwój za wszelką cenę.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Podejrzany pojazd~w~ jest w pobliżu. Sprawdź swój radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Więzień~w~ został ~r~zabity~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nowy cel:~w~~n~ Pozostań przy życiu, przywróć porządek i pokonaj pozostałych wrogów!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Poziom zagrożenia eskorty:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~NISKI]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~ŚREDNI]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~WYSOKI]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Kierowca~w~ furgonetki więziennej ~r~zginął~w~! Będziesz musiał ~y~prowadzić pojazd~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorta ~r~nie powiodła się~w~. ~y~Więzień~w~ został ~r~zabity~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorta ~g~powiodła się~w~. ~y~Więzień~w~ został ~g~utrzymany przy życiu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Czy ~b~eskorta utknęła~w~? Naciśnij ~y~{0}~w~ w dowolnym momencie, aby ją zresetować.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
