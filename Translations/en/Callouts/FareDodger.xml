@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Fare Dodger]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[~p~Station staff~w~ require your assistance; they need you to apprehend someone who may've ~y~failed to pay the train fare.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[~p~Station staff~w~ require your assistance; they need you to apprehend someone who may've ~y~failed to pay the train fare.~w~]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Speak to the suspected ~y~fare dodger.]]></NOTIFICATION>
 		<OTHER><![CDATA[~g~Valid ticket]]></OTHER>
 		<OTHER><![CDATA[~r~Fake ticket]]></OTHER>
