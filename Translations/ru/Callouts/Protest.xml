@@ -3,7 +3,7 @@
 		<CALLOUTMESSAGE><![CDATA[Протест]]></CALLOUTMESSAGE>
 		<FURTHERINFORMATION><![CDATA[~r~Происходит протест~w~ перекрывающий дорогу. Пожалуйста, дождитесь дальнейших указаний от Диспетчера.]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Протест ~r~перерос в насилие.~n~~y~Реагируйте незамедлительно.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~Следите за протестом~w~ до его завершения. Убедитесь, чтобы все прошло гладко.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Наблюдайте за протестом~w~ до его завершения. Убедитесь, чтобы все прошло гладко.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Протест прошел ~g~без проишествий~w~, и сейчас заканчивается.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Протест продолжается. Пожалуйста, свяжитесь с ~o~лидером протестующих~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[В настоящее время протестующие  ~g~покидают место происшествия~w~.]]></NOTIFICATION>
