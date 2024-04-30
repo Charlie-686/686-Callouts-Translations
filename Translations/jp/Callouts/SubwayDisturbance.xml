@@ -21,7 +21,7 @@
 	<NOTIFICATION><![CDATA[被疑者それぞれの情報は~g~問題なし~s~でした。心配は不要です。]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~あなた: ~w~ふたりとも落ち着いて! ここで一息つこう!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~被疑者1: ~w~お前は<PronounHeShe>がどれくらいろくでなしか知らないだろ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者1: ~w~お前はあいつがどれくらいろくでなしか知らないだろ!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた: ~w~ええ... 落ち着いて話をしましょう。攻撃的に叫ぶのは良いことではありません。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~被疑者2: ~w~お前は私がここでこいつと過ごした地獄の日々を知らないだろうね。]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~あなた: ~w~お願いですから、落ち着いてください。]]></DIALOGUE>
