@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Attempted Break-in]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A homeowner has called to report an ~y~attempted break-in~w~ at their property. The suspect has reportedly fled the scene.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Press ~y~{0}~w~ to recover evidence.]]></OTHER>
+		<OTHER><![CDATA[Successfully recovered ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[an ID card]]></OTHER>
+		<OTHER><![CDATA[a wallet]]></OTHER>
+		<OTHER><![CDATA[a pair of scissors]]></OTHER>
+		<OTHER><![CDATA[a necklace]]></OTHER>
+		<OTHER><![CDATA[a shoe]]></OTHER>
+		<OTHER><![CDATA[a crowbar]]></OTHER>
+		<OTHER><![CDATA[a mobile phone]]></OTHER>
+		<OTHER><![CDATA[~y~Search~w~ the nearby area for evidence & clues of a break-in. Once completed, ~y~return to the home owner~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Lockpick]]></OTHER>
+		<OTHER><![CDATA[~r~Gloves]]></OTHER>
+		<OTHER><![CDATA[~y~Mask]]></OTHER>
+		<OTHER><![CDATA[~y~Balaclava]]></OTHER>
+		<OTHER><![CDATA[~r~Pocket Knife]]></OTHER>
+		<OTHER><![CDATA[~r~Pry bar]]></OTHER>
+		<OTHER><![CDATA[~y~Binoculars]]></OTHER>
+		<OTHER><![CDATA[~r~Gag]]></OTHER>
+		<NOTIFICATION><![CDATA[Use the ~y~photograph~w~ and the ~y~search area~w~ to apprehend the ~r~suspect~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[This is the ~y~photograph~w~ of the ~r~suspect~w~.~n~Press ~y~Y~w~ to see this notification again~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[There was ~r~no evidence~w~ here.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[I've found ~y~{0}~w~ associated with ~r~{1}~w~. Requesting urgent details on this person.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[Checking all nearby sightings of ~r~{0}~w~. Standby.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You collected ~y~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You collected ~g~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Once you ~y~apprehend~w~ the ~r~suspect~w~, continue as you see fit.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[The ~r~suspect~w~ is fleeing!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[The ~r~suspect~w~ is ~y~surrendering~w~. Arrest them and investigate.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Help me Officer! Help me!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ I'm here sir. You're safe now. Can you tell me what happened?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ I'm here m'am. You're safe now. Can you tell me what happened?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Somebody tried breaking in...I could hear them and immediately ran and locked myself in my room.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I understand. Did you see them at all?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ I didn't, but I heard lots of movement outside the house until you arrived. I don't know what they were doing!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thank you. Let me have a look around the property to see if I can find anything.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ I've searched the nearby area but unfortunately I haven't found any evidence that could link to a suspect.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ That's a shame..so what now?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We'll have some detectives come round later to conduct further enquiries.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Unfortunately, these initial enquiries have drawn a blank. There's nothing more I can do now.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ I've searched the nearby area and found evidence linking to a suspect. I'm going to leave to find them now.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ That's great, good luck officer!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Please, officer! I heard someone outside, I'm terrified!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Stay calm, sir. I'm here now. Can you describe what you heard?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Don't worry, ma'am. You're safe now. Can you tell me what happened?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ I heard banging on the windows, but I didn't dare to look.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright. Did you notice anything unusual before this happened?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ No, it was quiet until then. Please, find whoever did this.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I'll do my best. Let me check the area for any signs of the intruder.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ I've searched the surroundings, but I haven't found any clues leading to the suspect.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Oh no, what now?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We'll need to wait for the detectives to take over the investigation.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Unfortunately, there's not much more I can do at the moment.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Good news! I found evidence nearby that might lead us to the culprit. I'll pursue the lead immediately.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ That's a relief, officer! Thank you and be careful out there.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
