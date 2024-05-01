@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Suspected Stalker]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[A ~p~concerned citizen~w~ believes they are being followed, ~y~ensure their safety!]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[A ~p~concerned citizen~w~ believes they are being followed, ~y~ensure their safety~w~!]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
@@ -19,7 +19,7 @@
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
-		<NOTIFICATION><![CDATA[They are unlikely to be the stalker; they've got a clear record. Finish speaking then ~y~head back to the victim.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[They are unlikely to be the stalker; they've got a clear record. Finish speaking then ~y~head back to the victim~w~.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Hello Officer, how can I help you today?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You ~w~We've had reports from an individual that you were stalking them, is that true?]]></DIALOGUE>
