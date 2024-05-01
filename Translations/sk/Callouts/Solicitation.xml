@@ -1,0 +1,64 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Solicitation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bolo nahlásené podozrenie na prostitútku, zamierte na miesto činu až po ďalšie pokyny.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Blížite sa k scéne. Zaparkujte tak, aby si vás podozrivý nevšimol.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Nadviažte kontakt s podozrivým.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ste ~r~príliš blízko k podozrivému~w~. Presuňte sa ďalej, aby ste si vás nevšimli.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Upozornili ste podozrivého.~n~~w~Z tohto dôvodu sme nedokázali zhromaždiť dôkaz~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Podozrivý sa dostal do kontaktu s vozidlom. ~y~Porozprávajte sa s nimi a preskúmajte.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo nie je pridružené k ~y~podozrivému.~w~ Pokračujte, ako uznáte za vhodné.~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Pomôcky na drogy, Biela prášková látka]]></OTHER>
+		<OTHER><![CDATA[~y~Balenie kondómov]]></OTHER>
+		<OTHER><![CDATA[~y~Lube~w~,~r~ Biela prášková látka]]></OTHER>
+		<OTHER><![CDATA[~r~Roly peňazí, Switchblade]]></OTHER>
+		<OTHER><![CDATA[~r~Roly peňazí]]></OTHER>
+		<OTHER><![CDATA[~y~Tangá]]></OTHER>
+		<OTHER><![CDATA[~r~Explicitné obrázky]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Krvavý nôž]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Priamo tu! Priamo tu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Prosím, zachráňte ju! Prosím!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Bol som práve na prechádzke a stretol som túto úbohú ženu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Videli ste, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci: ~w~Bohužiaľ nie, prial by som si, aby som tu mohol byť skôr. Možno by ešte žila...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ A pripomeň mi - čo si robil, keď si ju našiel?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Len tak chodím, žijem lokálne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Ako som si istý, že chápete, potrebujem vykonať nejaké kontroly - ak by ste tu mohli zostať, bolo by to skvelé.
+]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy ~w~ Pani, potrebujem sa s vami porozprávať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Dôstojník, s čím vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Máme správy o prostitúcia v tejto oblasti. Vedeli by ste o tom niečo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Ó Bože! Nie ja, dôstojník, máte nesprávnu osobu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy ~w~ Dnes je dosť chladno a máte na sebe veľmi málo oblečenia.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Dôstojník, obávam sa, že to nie je trestný čin. Práve odchádzam na párty, ktorá sa už začala.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Podľa našich správ ste sa dosť bezcieľne čudovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Len som trochu stratený, to je všetko. Môžem už ísť?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Obaja - zostaňte tu pre mňa. Potrebujem sa rýchlo porozprávať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ S čím Vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Máme správy o prostitúcii v tejto oblasti, vedeli by ste niečo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Áno! Táto žena prišla k môjmu autu a ponúka svoje 'služby'...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Je to pravda, madam?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Som tu len preto, aby som podnikal. Považujte ma za podnikateľa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Je to nechcené a hnusné – nechcem mať pri sebe prostitútku! Zatknite jej dôstojníka!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Upokojme sa, teraz to budem riešiť.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Podozrivý vošiel do vozidla. Čo najskôr zastavte premávku a odtiaľ to preskúmajte.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
