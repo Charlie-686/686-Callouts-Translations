@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fare Dodger]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Personál stanice~w~ vyžadovať vašu pomoc; potrebujú, aby ste zadržali niekoho, kto môže mať ~y~nezaplatil cestovné vo vlaku.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Porozprávajte sa s ~y~podozrivým.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Platný lístok]]></OTHER>
+		<OTHER><![CDATA[~r~Falošný lístok]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Neďaleká stanica mi povedala, že tam preskočili zábrany. Pôsobivé, ale je to zločin.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Prepáčte, mohli by ste tam chvíľu počkať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Rýchlo, musím stihnúť vlak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Hovoril som s úradníkom na vymáhanie lístkov a povedali mi, že ste preskočili zábrany?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Pfff. Naozaj to nie je veľký problém. Nemám pri sebe žiadne náhradné drobné, môžeš to nechať skĺznuť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Používanie vlaku bez zaplatenia cestovného je priestupkom. Budem ti musieť napísať lístok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Tak sa do toho pustite.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~wTu to je. Teraz môžete použiť vlak, pretože budete platiť pokutu, ale nabudúce budete musieť zaplatiť cestovné ako všetci ostatní.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Táto pokuta je drahá, neverím tomu. No, asi som si mal kúpiť lístok.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Všimol som si, že niekto má lístok, ktorý vyzerá nezvyčajne. Mám pocit, že to môže byť falošný. Je smutné, že sú čoraz bežnejšie.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Dobrý deň, mohli by ste tam pre mňa zostať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, dôstojník, ako vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Zavolali nás zamestnanci vlakovej stanice, zaujímalo ich, ako ste sa dostali cez brány?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~No mám lístok, tak som prešiel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Vidím, mohol by som sa na to pozrieť, prosím?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme. Neviem, prečo by ste to potrebovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Je tu napísané, že platnosť lístka vypršala pred týždňom, viete prečo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~V žiadnom prípade, naozaj! Netuším, ako by to mohlo byť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Nehraj sa na hlúpeho, úmyselne si použil starý lístok. Dávam ti pokutu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Úprimne, urobte raz niečo užitočné vo svojom živote. Dajte mi lístok, potom idem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Tu to je.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Za to vám veľmi pekne ďakujem. Zničil si mi deň.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Ozval sa môj kolega z inej stanice. Zrejme na sebe nemajú lístok. Bohužiaľ nesledovali kamery.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Dobrý deň, mohli by ste tam pre mňa zostať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, dôstojník, ako vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Požiadali ma, aby som skontroloval, či máte pri sebe lístok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Neviem, či nejaký mám, však?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Toto nie je vtip, potrebujem úprimnú odpoveď.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Ach pre Krista! Chyťte zločincov, nie ľudí, ktorí chcú ísť na vlak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Ešte raz sa spýtam, máš na sebe lístok?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Nemáš nič lepšie na práci, však? Dovoľte mi nastúpiť do bohom zabudnutého vlaku. Aj tak to príde skoro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Porozprávajte sa s podozrivým ~r~predajca lístkov]]></NOTIFICATION>
+		<OTHER><![CDATA[Pozrel som sa na lístok, ktorý niekto používal, nevyzeralo to dobre. Myslím, že je to falošné.]]></OTHER>
+		<OTHER><![CDATA[~r~Falošné vstupenky]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Prepáčte, potrebujem sa s vami porozprávať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, dôstojník, ako vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Zavolali nás zamestnanci vlakovej stanice, zaujímalo ich, ako ste sa dostali cez brány?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Neviem, či nejaký mám, však?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Vidím, mohol by som sa na to pozrieť, prosím?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, tu to je.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~To je falošný lístok, spoznáte to podľa označenia na boku. Prečo to používaš?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Pri vchode do stanice ho niekto predával, muselo to byť aspoň polovicu ceny bežného lístka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Chápem, takže si to od neho kúpil za túto lacnejšiu cenu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Urobil som áno. Pozri, tu je moje ID. Nie som zločinec, sľubujem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Ďakujem. Uvidím, či nájdem túto osobu, ktorú ste spomínali.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Počkaj chvíľu. Chcel by som sa s tebou porozprávať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Ďalší deň, ďalší dôstojník v mojej osobnej záležitosti. Čo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Máme podozrenie, že sa domnievame, že predávate podvodné lístky.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Idem ťa zadržať. Prosím, zostaň tam, kde si.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Moje ruky sú hore!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Vraj niekto, ako som počul v rádiu, nevyužil svoj lístok.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Prepáčte, potrebujem sa s vami porozprávať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, dôstojník, ako vám môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~WZavolali nás zamestnanci vlakovej stanice, zaujímalo ich, ako ste sa dostali cez brány?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Ako každý iný, s lístkom na vlak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Vidím, mohol by som sa na to pozrieť, prosím?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Samozrejme, tu to je.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy: ~w~Všetko sa zdá byť v poriadku, užite si výlet!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník:~w~ Rád vás vidím, dôstojník, ďakujem, že ste prišli tak rýchlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ To je úplne v poriadku, mohli by ste poskytnúť nejaké podrobnosti o situácii?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ Vidím. Nie je to prinajmenšom dobré. Kde by boli teraz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník: ~w~Zatiaľ žiadne vlaky nešli, takže pravdepodobne budú na nástupišti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ Ďakujem za tvoju pomoc. Teraz sa ich pokúsim nájsť.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník:~w~ Ospravedlňujem sa za telefonát kvôli niečomu takému malichernému, cením si to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ To je úplne v poriadku, mohli by ste poskytnúť nejaké podrobnosti o situácii?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ Vyzerá to, že máme v rukách vyhýbanie sa cestovnému, kde budú?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Staničný dôstojník: ~w~Nechaj ma porozmýšľať. Musia byť na plošine, to je jediné miesto, kde môžu byť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~vy:~w~ Rozumiem, najprv to tam skontrolujem!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
