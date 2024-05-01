@@ -22,7 +22,7 @@
 		<NOTIFICATION><![CDATA[They are unlikely to be the stalker; they've got a clear record. Finish speaking then ~y~head back to the victim~w~.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Hello Officer, how can I help you today?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You ~w~We've had reports from an individual that you were stalking them, is that true?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We've had reports from an individual that you were stalking them, is that true?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ My goodness, no! Not at all. There must be a mistake or a mixup. I'm just doing some shopping, maybe we were headed the same way? I definetly wouldn't match the description.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ We weren't provided with one, let me contact dispatch to clarify the situation.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Of course, my shopping can wait don't worry.]]></DIALOGUE>
@@ -44,7 +44,7 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ We are here now. Can you give me an explanation on what's happened?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Victim:~w~ I've been followed...but my mind has blanked of what they looked like.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ That's okay, it is normal to forget things in the moment. I'll have camera operators review the footage from the area.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Victim: ~w~We were here, on ~y~{0}~w~ some time ago, maybe 15 minutes ago. Please mention that.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ We were here, on ~y~{0}~w~ some time ago, maybe 15 minutes ago. Please mention that.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Thank you, I'll forward that on now.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ They are checking the footage now, are there any more details? The more the better.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Victim:~w~ No, I am clueless as to why they've been following me for the past 2 hours.]]></DIALOGUE>
@@ -54,4 +54,3 @@
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>
-<!-- <![CDATA[]]> -->
