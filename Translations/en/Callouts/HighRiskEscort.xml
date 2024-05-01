@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[High Risk Escort]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[A ~y~prisoner~w~ is requiring an ~y~escort~w~ to ~y~{0}~w~. Your backup officers are waiting for your arrival.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Escort Information:~w~~n~ You will be transporting ~y~{0}~w~ who {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[Mission Row Police Station]]></OTHER>
+		<OTHER><![CDATA[Bolingbroke Penitentiary]]></OTHER>
+		<OTHER><![CDATA[leads an~r~ organised crime group~w~ involving corrupt police officers]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[is a notorious ~y~mob boss~w~ currently awaiting trial, with a risk of being targeted by a rival gang]]></OTHER>
+		<OTHER><![CDATA[is a former police officer turned ~y~corrupt informant~w~, with connections to the criminal world]]></OTHER>
+		<OTHER><![CDATA[is a ~y~drug lord~w~ connected to the largest narcotics operation in the region]]></OTHER>
+		<OTHER><![CDATA[is a ~y~cybercriminal~w~, currently serving a prison sentence]]></OTHER>
+		<OTHER><![CDATA[controls ~y~illegal arms dealings~w~ and was arrested recently]]></OTHER>
+		<OTHER><![CDATA[is a ~y~terrorist~w~. There is a risk that others will try to rescue them]]></OTHER>
+		<OTHER><![CDATA[created a ~y~violent street gang~w~, facing retaliation from a rival crew]]></OTHER>
+		<OTHER><![CDATA[was part of a ~y~notorious drug smuggling ring~w~, recently broken up by the authorities]]></OTHER>
+		<OTHER><![CDATA[has setup a ~y~global money laundering scheme~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[When you are ready, ~y~lead the convoy~w~ and follow the ~r~planned route~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[We're reporting a visual on a ~y~suspicious vehicle~w~ that is now following our escort. Standby.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[There is a ~r~roadblock~w~ up ahead! Protect the convoy at all costs.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~y~suspicious vehicle~w~ is nearby. Check your radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~y~prisoner~w~ has been ~r~killed~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~New Objective:~w~~n~ Stay alive, restore order, and defeat the remaining enemies!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Escort Danger Level:~w~~n~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~LOW]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MEDIUM]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~HIGH]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~y~driver~w~ of the prison van has ~r~died~w~! You will need to ~y~drive the vehicle~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escort ~r~failed~w~. The ~y~prisoner~w~ was ~r~killed~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escort ~g~succeeded~w~. The ~y~prisoner~w~ was ~g~kept alive~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Is the ~b~escort stuck~w~? Press ~y~{0}~w~ at anytime to reset it.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
