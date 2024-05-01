@@ -24,7 +24,7 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ What's happened?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Bystander:~w~ I was just on a walk, and I encountered this poor woman.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Did you see what happened?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Bystander: ~w~Unfortunately not, I wish I could've been here earlier. Maybe she would still be alive...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bystander:~w~ Unfortunately not, I wish I could've been here earlier. Maybe she would still be alive...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ And remind me - what were you doing when you found her?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Bystander:~w~ Just walking, I live locally.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ As I am sure you'll understand, I need to complete some checks - if you could stay here, that would be great.]]></DIALOGUE>
@@ -32,11 +32,11 @@
 	</OUTCOME0>
 	<OUTCOME1>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~You ~w~ M'am, I am going to need a word with you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ M'am, I am going to need a word with you.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer, what can I help you with?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ We've had reports of solicitiation in this area. Would you know anything about that?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh god! Not me officer, you've got the wrong person.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You ~w~ It's quite chilly today and you have very little clothes on.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~ It's quite chilly today and you have very little clothes on.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer, I'm afraid that's not a crime. I am just heading off to a party, which has already started.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ According to our reports, you've been wondering around rather aimlessly.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm just a little lost, that's all. Can I get going now?]]></DIALOGUE>
