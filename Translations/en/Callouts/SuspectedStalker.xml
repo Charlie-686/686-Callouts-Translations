@@ -5,14 +5,14 @@
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yes I'm a stalker, but prison wasn't for me and I ain't going back! ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yes I'm a stalker, but prison wasn't for me and I ain't going back!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
-		<OTHER><![CDATA[~r~Photos of the victim]]></OTHER>
+		<OTHER><![CDATA[~r~Photos of the victim~w~]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Get out of my face!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You ~w~Let's keep calm here, we've had reports that you were stalking someone earlier.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Let's keep calm here, we've had reports that you were stalking someone earlier.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Piss off, I haven't done shit it is just one word against another!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ You are refusing to talk to us?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yes, YES! I don't talk to pigs, I eat them.]]></DIALOGUE>
