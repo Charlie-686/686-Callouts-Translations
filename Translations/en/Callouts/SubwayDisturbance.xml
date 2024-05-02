@@ -21,7 +21,8 @@
 		<NOTIFICATION><![CDATA[Their respective identification checks have come back as ~g~all clear~w~. No cause for concern.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~You:~w~ Both of you, calm down! Let's take a breather here.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect 1:~w~ Officer! You don't know how much of a bastard <PronounHeShe> is!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect 1:~w~ Officer! You don't know how much of a bastard she is!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect 1:~w~ Officer! You don't know how much of a bastard he is!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Okay... but let's just stand and chat...not aggressively shout at one another.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect 2:~w~ You don't know the HELL I have lived through with this person right here.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Please, let's try to calm things down.]]></DIALOGUE>
