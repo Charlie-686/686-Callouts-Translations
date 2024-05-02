@@ -1,16 +1,16 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[napad w zaułku]]></CALLOUTMESSAGE>
+		<CALLOUTMESSAGE><![CDATA[Napaść w zaułku]]></CALLOUTMESSAGE>
 	</GENERAL>
 	<OUTCOME0>
 		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0}. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
 	</OUTCOME0>
 	<OUTCOME1>
 		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0}. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
-		<OTHER><![CDATA[skradzione dobra]]></OTHER>
+		<OTHER><![CDATA[Skradzione dobra]]></OTHER>
 	</OUTCOME1>
 	<OUTCOME2>
-		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0} i ofiara jest ~r~podobno na celowniku~w~. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0} i ofiara jest ~r~na celowniku~w~. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>
 	</OUTCOME2>
 	<OUTCOME3>
 		<FURTHERINFORMATION><![CDATA[Podejrzany ~y~napad~w~ ma miejsce w okolicy {0} i zgłoszono dwóch rabusiów. Zbadaj miejsce zdarzenia.]]></FURTHERINFORMATION>

@@ -1,0 +1,72 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sollicitation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Une personne suspecté de ~y~prositution~w~ a été signalé, rendez-vous sur la scène en ~y~attendant des instructions supplémentaires~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Vous approchez de la scène. Garez-vous pour ~y~ne pas vous faire repérer~w~ par le suspect.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Etablissez le contact avec le suspect.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous êtes ~r~trop proche du suspect~w~. Eloignez-vous pour éviter d'être repéré.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~r~alerté le suspect.~n~~w~A cause de ça, vous avez été ~y~incapable de rassembler des preuves~w~..]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le suspect a prit contact avec le véhicule. ~y~Parlez avec lui et enquêtez.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le véhicule n'est pas affilié avec le ~y~suspect.~w~ Continuez comme bon vous semble.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Accessoires de drogues, poudre blanche]]></OTHER>
+		<OTHER><![CDATA[~y~Paquet de préservatifs]]></OTHER>
+		<OTHER><![CDATA[~y~Lubrifiant~w~,~r~ poudre blanche]]></OTHER>
+		<OTHER><![CDATA[~r~Rouleaux d'argent, Couteau pliable]]></OTHER>
+		<OTHER><![CDATA[~r~Rouleaux d'argent]]></OTHER>
+		<OTHER><![CDATA[~y~String]]></OTHER>
+		<OTHER><![CDATA[~r~Images explicites]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Couteau ensanglanté]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET "M"><![CDATA[~y~Spectateur:~w~ Par ici! Par ici!]]></DIALOGUE>
+			<DIALOGUE TARGET "F"><![CDATA[~y~Spectatrice:~w~ Par ici! Par ici!]]></DIALOGUE>
+			<DIALOGUE TARGET "M"><![CDATA[~y~Spectateur:~w~ S'il vous plaît, sauvez-la! S'il vous plaît!]]></DIALOGUE>
+			<DIALOGUE TARGET "F"><![CDATA[~y~Spectatrice:~w~ S'il vous plaît, sauvez-la! S'il vous plaît!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Que s'est-il passé?]]></DIALOGUE>
+			<DIALOGUE TARGET "M"><![CDATA[~y~Spectateur:~w~ J'étais juste entrain de me promener et j'ai rencontré cette pauvre femme.]]></DIALOGUE>
+			<DIALOGUE TARGET "F"><![CDATA[~y~Spectatrice:~w~ J'étais juste entrain de me promener et j'ai rencontré cette pauvre femme.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Avez-vous vu ce qu'il s'est passé?]]></DIALOGUE>
+			<DIALOGUE TARGET "M"><![CDATA[~y~Spectateur: ~w~Malheureusement non, j'espère avoir été là plus tôt. Peut-être qu'elle aurait été encore en vie...]]></DIALOGUE>
+			<DIALOGUE TARGET "F"><![CDATA[~y~Spectatrice: ~w~Malheureusement non, j'espère avoir été là plus tôt. Peut-être qu'elle aurait été encore en vie...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Et rappelez-moi. Que faisiez-vous quand vous l'avez trouvé?]]></DIALOGUE>
+			<DIALOGUE TARGET "M"><![CDATA[~y~Spectateur:~w~ Me promener, je vis proche d'ici.]]></DIALOGUE>
+			<DIALOGUE TARGET "F"><![CDATA[~y~Spectatrice:~w~ Me promener, je vis proche d'ici.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Comme je suis sur que vous allez comprendre, j'ai besoin de faire quelques vérifications. Si vous pouvez rester ici, ce serait super.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi ~w~ Madame, je vais avoir besoin de vous parler un moment.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Officier, je peux vous aider?]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ Officière, je peux vous aider?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ On nous a signalé de la sollicitation dans cette zone. Vous savez quelque chose à propos de ça?]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Oh mon Dieu! Pas moi officier, vous avez la mauvaise personne.]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ Oh mon Dieu! Pas moi officière, vous avez la mauvaise personne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi ~w~ Il fait assez froid aujourd'hui et vous avez très peu de vêtements sur vous.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Officier, je crains bien que ce ne soit pas un crime. Je suis juste en chemin pour une fête, qui à d'ailleurs déjà commencée.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Officière, je crains bien que ce ne soit pas un crime. Je suis juste en chemin pour une fête, qui à d'ailleurs déjà commencée.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ D'après nos rapports, vous marchiez un peu partout sans but précis.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je suis juste un peu perdue, c'est tout. Je peux y aller maintenant?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Vous deux, restez-ici pour moi. J'ai besoin de vous parler vite fait.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je peux vous aider?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ On nous a signalé de la sollicitation dans cette zone. Vous savez quelque chose à propos de ça?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victime:~w~ Oui! Cette femme est venue à ma voiture et m'a proposé ses "services"...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Est-ce que c'est vrai madame?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je fais juste mon travail. Considérez-moi comme une entrepreneuse.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~y~Victime:~w~ C'est indésirable et dégoûtant, je ne veux pas d'une prostituée proche de moi! Arrêtez-la officier!]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~y~Victime:~w~ C'est indésirable et dégoûtant, je ne veux pas d'une prostituée proche de moi! Arrêtez-la officière!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi:~w~ Restons calme d'accord, je vais m'en occuper à présent.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Le ~y~suspect~w~ est entré dans le véhicule.~n~~r~Performez une arrestation dés que possible et enquêter ensuite~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

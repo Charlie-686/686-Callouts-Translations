@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[汽车炸弹]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[请按~y~{0}~w~尝试~y~解除炸弹。~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[车辆~r~有可能随时爆炸~w~。~n~要么~y~确保市民远离车辆~w~，要么抓紧时间~y~把车辆以及司机控制~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~炸弹已被拆除~w~，~n~请按照您认为合适的方式继续处理案件。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~炸弹无法拆除。~w~，~n~~y~请立即疏散附近的人群~w~。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[情报部收到报告现场有辆~r~汽车炸弹。~n~~w~马上前往现场支援。~y~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[嫌疑犯车辆正在~y~逃离~w~现场，车里安装了~y~汽车炸弹。~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[车辆有可能~r~随时爆炸。~w~~n~要么~y~远离人群~w~，要么~y~尽快把车辆控制。~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~起爆器]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[情报部收到报告有位情绪不稳者正在开一辆~r~有安装炸弹的汽车。~n~~w~马上前往现场支援。~y~]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~起爆器~w~，~y~电线]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~我投降！想抓就抓我把！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌疑犯：~w~抱歉。。。只能这样结束。。。一切了。。。]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[情报部收到报告现场有辆~r~汽车炸弹。~n~~w~马上前往现场支援。~y~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[炸弹已被解除。~n~~w~总伤亡数：~r~{0}。]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~电线~w~,~r~炸药]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[情报部收到报告现场有辆~r~被抛弃的车辆里装了炸弹。~w~~n~马上前往现场调查~y~并~y~解除炸弹。~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~车钥匙~w~，~r~炸弹]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

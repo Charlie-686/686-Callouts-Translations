@@ -1,0 +1,81 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[侵入未遂]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[住人から、自分の家の敷地内に~y~侵入しようとした~w~人がいると通報がありました。被疑者は現場から逃走したようです。]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[~y~{0}~w~を押して証拠を回収します。]]></OTHER>
+		<OTHER><![CDATA[~g~{0}~w~の回収に成功しました。]]></OTHER>
+		<OTHER><![CDATA[身分証明書]]></OTHER>
+		<OTHER><![CDATA[財布]]></OTHER>
+		<OTHER><![CDATA[ハサミ]]></OTHER>
+		<OTHER><![CDATA[ネックレス]]></OTHER>
+		<OTHER><![CDATA[片方の靴]]></OTHER>
+		<OTHER><![CDATA[バール]]></OTHER>
+		<OTHER><![CDATA[携帯電話]]></OTHER>
+		<OTHER><![CDATA[この付近で、侵入しようとした痕跡や手がかりを~y~捜索~w~してください。完了したら、~y~住人のもとへ戻ってください~w~。]]></OTHER>
+		<OTHER><![CDATA[~r~ピッキング用品]]></OTHER>
+		<OTHER><![CDATA[~r~軍手]]></OTHER>
+		<OTHER><![CDATA[~y~マスク]]></OTHER>
+		<OTHER><![CDATA[~y~目出し帽]]></OTHER>
+		<OTHER><![CDATA[~r~ポケットナイフ]]></OTHER>
+		<OTHER><![CDATA[~r~こじ開け用バール]]></OTHER>
+		<OTHER><![CDATA[~y~双眼鏡]]></OTHER>
+		<OTHER><![CDATA[~r~さるぐつわ]]></OTHER>
+		<NOTIFICATION><![CDATA[~y~写真~w~を使用し、~y~付近を捜索~w~して~r~被疑者~w~を逮捕して下さい。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[これは~r~被疑者~s~の~y~写真~w~です。~n~~y~Y~w~を押してこの通知を再度表示します。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~証拠がありません~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~が~r~{1}~w~に関係があると判明しました。この人物について、詳細情報を求めています。]]></NOTIFICATION> // 0: an item. 1: the suspect's name.
+		<NOTIFICATION><![CDATA[~r~{0}~w~付近での目撃情報を確認しています。待機してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~{1}~w~個中、~y~{0}~w~個目の証拠を獲得しました。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~{1}~w~個中、~g~{0}~w~個目の証拠を獲得しました。]]></NOTIFICATION> // If all evidence was collected, we'll make the number green! :)
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~r~被疑者~s~を~y~逮捕~w~したら、必要な処理を行ってください。]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~被疑者~w~が逃走中!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~被疑者~w~が~y~降伏~w~しました。逮捕して、捜査してください。]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 助けてお巡りさん! 助けて!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ もう安全ですよ。何があったのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 誰かが敷地内に侵入しようとしていたんだ... 声が聞こえたのですぐ部屋の戸締まりをしたんです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 分かりました。少しでも被疑者を見ましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ いえ、ですが警察が到着するまでに物音がずっとしていました。何をしていたのかは分かりません!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、何か手がかりを探すために、敷地内を見せてください。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 付近を捜索しましたが、手がかりは見つかりませんでした...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 残念です... それで、今後は?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 後日、さらなる調査を行うために刑事が来ると思います。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 残念ながら初動捜査であまり情報が得られなかったため、今はもう何もすることができません。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 付近を捜索したところ、被疑者に精通する証拠を発見しました。これから被疑者を捜索しに行きます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 良いですね、頑張ってください!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ お巡りさん、外で物音がしたんです! 怖い!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 落ち着いて、何があったのか詳しく教えて下さい。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 窓を叩く音がしたのですが、見る勇気はありませんでした。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ なるほど、その前に何か異変はありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ いえ、それまでは静かでした。ぜひ犯人を見つけ出してください!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 全力を尽くします。侵入者の痕跡を探すために、付近を捜索させてください。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 付近を捜索しましたが、手がかりは見つかりませんでした...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 残念です... それで、今後は?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 後日、追加の捜査を行うために刑事が来ます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 残念ながら今はもう何もすることができません。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 付近を捜索したところ、被疑者に関係するであろう証拠を発見しました。これから被疑者を捜索しに行きます。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ それは良かった! お気をつけて!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

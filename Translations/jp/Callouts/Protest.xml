@@ -7,10 +7,10 @@
 		<NOTIFICATION><![CDATA[デモは~g~エスカレートすることなく~w~、終わりを迎えようとしています。]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[デモは続いています。~o~首謀者~w~に話を聞いて下さい。]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[デモが終了し、~g~現場から去っています。~w~]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~傍観者:~w~ お巡りさん、これは馬鹿げている! 交通の妨げです!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~傍観者:~w~ 道路を封鎖しているんですよ! 危険です! 移動させてください!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~傍観者:~w~ お巡りさん、あいつらを移動させてくださいと言ったんです!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~傍観者:~w~ デモ隊が窒息する可能性があります!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~目撃者:~w~ お巡りさん、これは馬鹿げている! 交通の妨げです!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~目撃者:~w~ 道路を封鎖しているんですよ! 危険です! 移動させてください!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~目撃者:~w~ お巡りさん、あいつらを移動させてくださいと言ったんです!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~目撃者:~w~ デモ隊が窒息する可能性があります!]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>

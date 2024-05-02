@@ -1,0 +1,25 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Raubüberfall]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~möglicher Raubüberfall~w~ ereignet sich in der Nähe von {0}. Untersuchen Sie den Tatort.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~möglicher Raubüberfall~w~ ereignet sich in der Nähe von {0}. Untersuchen Sie den Tatort.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Gestohlene Gegenstände]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~möglicher Raubüberfall~w~ ereignet sich in der Nähe von {0} und das Opfer wird ~r~angeblich mit einer Waffe bedroht~w~. Untersuchen Sie den Tatort.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~möglicher Raubüberfall~w~ ereignet sich in der Nähe von {0} mit zwei gemeldeten Tätern. Untersuchen Sie den Tatort.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um die gestohlenen Waren ~g~wiederzuerlangen~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ein ~y~{0}~w~, gestohlen, wurde als ~g~Beweismittel~w~ sichergestellt.]]></NOTIFICATION>
+		<OTHER><![CDATA[Tasche]]></OTHER>
+		<OTHER><![CDATA[Einkaufstüte]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Paket]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>

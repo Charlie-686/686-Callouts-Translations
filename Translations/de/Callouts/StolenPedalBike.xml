@@ -1,0 +1,50 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Gestohlenes Fahrrad]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~gestohlenes Fahrrad wurde gesichtet~w~. Halten Sie den Radfahrer an.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Darf ich Ihnen ein paar Fragen stellen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Natürlich, bitte. Aber achten Sie auf den Verkehr hinter Ihnen. Vorsicht!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Könnten wir über dieses Fahrrad sprechen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Worum geht es?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es wurde heute als gestohlen gemeldet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Oh, haha. Entschuldigung, das habe ich gemeldet! Ich dachte, ich hätte es verloren, aber ich habe es wieder gefunden!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Verstehe, also gehört dieses Fahrrad Ihnen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, absolut. Führen Sie alle Überprüfungen durch, die Sie benötigen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[besorgt]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Der Grund, warum ich mit Ihnen spreche, ist dieses Fahrrad.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich versuche, ne Runde zu drehen. Der Reifen ist nicht platt oder so. Was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es wurde gestern als gestohlen gemeldet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Oh. Ähh, das ist seltsam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie wüssten nicht zufällig, warum, oder?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Äh... ja! Ich habe völlig vergessen, dass ich es als gestohlen gemeldet habe.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Könnten wir uns kurz über dieses Fahrrad unterhalten?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Okay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Laut unseren Informationen wurde es kürzlich als gestohlen gemeldet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Entschuldigung, was war das?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich äußere mich nicht zu der Angelegenheit.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ ARRRRGGGHH! NICHT SIE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

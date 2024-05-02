@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Şüpheli Takipçi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir ~p~endişeli vatandaş~w~, ~y~güvenliklerini sağlayın!~w~ Takip edildiklerine inanıyor.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Evet, bir takipçiyim, ama hapishane bana göre değil ve geri dönmüyorum!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Mağdurun fotoğrafları]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Yüzüme bakma!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Burada sakin kalalım, daha önce birini takip ettiğiniz rapor edildiğini söyledik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Defol, hiçbir bok yapmadım, sadece bir söz diğerine karşı!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bizimle konuşmayı reddediyor musunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Evet, EVET! Domuzlarla konuşmam, onları yerim.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Muhtemelen takipçi değiller; temiz bir kayıtları var. Konuşmayı bitirin ve ~y~mağdura geri dönün.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Merhaba Memur, size bugün nasıl yardımcı olabilirim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bir kişiden sizin onu takip ettiğinizi bildiren raporlar aldık, bu doğru mu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Vay canına, hayır! Hiç değil. Bir hata veya karışıklık olmalı. Sadece alışveriş yapıyorum, belki aynı yöne gidiyorduk? Kesinlikle tanımlamaya uymam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Bize bir tanım verilmedi, durumu netleştirmek için merkezi arayayım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Tabii ki, alışverişim bekleyebilir, endişelenmeyin.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Serbestsiniz, muhtemelen bir hata oldu gibi görünüyor. Gününüzün geri kalanını keyifle geçirin.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Sizi tekrar görmek iyi, ne haber?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Onlarla konuştuk, ancak sizinizi takip ettikleri olası değil gibi görünüyor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Çok üzgünüm, bu mantıklı. Sizden önce sizi erken aradığımı düşünüyordum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Sorun değil, güvenli tarafta olmak iyidir. Bir dahaki sefere emin değilseniz bize bildirin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Evet, gereksiz tüm bu zahmet için özür dilerim.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Şüpheli bulundu. Konuşmayı ~y~bitirin~w~ ve hemen onlara doğru gidin.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Memur, Tanrı'ya şükürler olsun ki buradasınız! Takip ediliyorum!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Şimdi buradayız. Başınıza gelenleri anlatabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Takip ediliyorum... ama zihnim onların nasıl göründüğünü unuttu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Endişelenmeyin, anlık unutmak normaldir. Kamera operatörlerine bölgedeki görüntüleri incelettireceğim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Buradaydık, ~y~{0}~w~ yakınlarındaydık, belki 15 dakika önce. Lütfen bunu belirtin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Teşekkür ederim, bunu hemen ileteceğim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Şu anda görüntüleri kontrol ediyorlar, daha fazla detay var mı? Ne kadar çok bilgi, o kadar iyidir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Hayır, son 2 saat boyunca neden beni takip ettiklerini bilmiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Endişelenmeyin, bunu halledeceğiz.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Onları bulmayı başardık, bu yüzden şimdi oraya gideceğim. Gününüze devam edebilir ya da eve gidebilirsiniz, ancak biz sizinle iletişimde olacağız.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

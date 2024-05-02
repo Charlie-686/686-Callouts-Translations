@@ -21,7 +21,7 @@
 		<NOTIFICATION><![CDATA[A ~y~suspicious vehicle~w~ is nearby. Check your radar!]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[The ~y~prisoner~w~ has been ~r~killed~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~b~New Objective:~w~~n~ Stay alive, restore order, and defeat the remaining enemies!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~b~Escort Danger Level:~w~~n~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Escort Danger Level:~w~~n~{0}~W~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~g~LOW]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~o~MEDIUM]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~HIGH]]></NOTIFICATION>

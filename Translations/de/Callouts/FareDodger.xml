@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Schwarzfahrer]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Das Stationspersonal~w~ benötigt Ihre Unterstützung. Sie benötigen Ihre Hilfe, um jemanden festzunehmen, der möglicherweise die Zugfahrkarte ~y~nicht bezahlt hat.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sprechen Sie mit dem vermuteten ~y~Schwarzfahrer.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Gültige Fahrkarte]]></OTHER>
+		<OTHER><![CDATA[~r~Gefälschtes Ticket]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Eine nahegelegene Station hat mir mitgeteilt, dass sie dort die Sperren überwunden haben. Beeindruckend, aber eine kriminelle Handlung.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Entschuldigen Sie, könnten Sie dort eine Minute warten?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Machen Sie es schnell, ich muss einen Zug erwischen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich habe mit einem Fahrkartenkontrolleur gesprochen, und er hat mir gesagt, dass Sie die Sperren überwunden haben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Pfff. Das ist wirklich keine große Sache. Ich habe kein Kleingeld bei mir, können Sie das einfach durchgehen lassen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Es ist eine Straftat, den Zug ohne Fahrkarte zu benutzen. Ich werde Ihnen ein Bußgeld ausstellen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Na dann machen Sie schon.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hier ist es. Sie können den Zug jetzt benutzen, da Sie eine Strafe zahlen werden, aber das nächste Mal zahlen Sie bitte Ihre Fahrkarte wie alle anderen auch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Diese Strafe ist teuer, ich glaube es nicht. Nun ja, ich hätte wohl einfach eine Fahrkarte kaufen sollen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Ich habe bemerkt, dass jemand eine ungewöhnliche Fahrkarte hatte, ich habe das Gefühl, dass es sich um eine Fälschung handeln könnte. Es ist bedauerlich, dass das immer häufiger vorkommt.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hallo, haben Sie einen Augenblick?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Natürlich, wie kann ich Ihnen behilflich sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir wurden vom Bahnhofspersonal gerufen, sie fragten sich, wie Sie durch die Schranken gekommen sind?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Nun, ich habe eine Fahrkarte, so bin ich durchgekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Verstehe, kann ich sie mir bitte ansehen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Äh, sicher. Ich verstehe nur nicht, warum Sie das tun sollten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hier steht, dass die Fahrkarte vor einer Woche abgelaufen ist, wissen Sie, warum das so ist?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Keine Ahnung, wirklich! Ich weiß nicht, wie das sein kann.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Tun Sie nicht auf dumm, Sie haben absichtlich eine alte Fahrkarte benutzt. Ich stelle Ihnen ein Bußgeld aus.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Ehrlich, tun Sie doch einmal etwas Nützliches in Ihrem Leben. Geben Sie mir die Strafe, dann gehe ich.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hier, bitteschön.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Vielen Dank dafür. Sie haben mir den Tag ruiniert.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Mein Kollege an einer anderen Station hat per Funk gemeldet, dass Sie möglicherweise keine Fahrkarte bei sich haben, allerdings hat mein Kollege leider nicht auf die Kameras geachtet.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hallo, könnten Sie kurz stehen bleiben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Natürlich, wie kann ich Ihnen behilflich sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich wurde gebeten zu überprüfen, ob Sie eine Fahrkarte bei sich haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Keine Ahnung, habe ich eine?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Das ist kein Witz, ich benötige eine ehrliche Antwort bitte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Ach du lieber Himmel! Jagen Sie Kriminelle, nicht Leute, die Zug fahren wollen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Letzte Chance, haben Sie eine Fahrkarte bei sich?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Sie haben wirklich nichts Besseres zu tun, oder? Lassen Sie mich in den verdammten Zug einsteigen. Er kommt sowieso bald.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Sprechen Sie mit dem vermuteten ~r~betrügerischen Fahrkartenverkäufer.]]></NOTIFICATION>
+		<OTHER><![CDATA[Ich habe einen Blick auf eine Fahrkarte geworfen, die jemand benutzt hat, sie sah nicht richtig aus. Ich denke, sie ist gefälscht.]]></OTHER>
+		<OTHER><![CDATA[~r~Falsche Fahrkarten]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Entschuldigen Sie, ich muss mit Ihnen sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Natürlich, wie kann ich Ihnen behilflich sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir wurden vom Bahnhofspersonal gerufen, sie fragten sich, wie Sie durch die Schranken gekommen sind?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Nun, ich habe eine Fahrkarte, so bin ich durchgekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Verstehe, kann ich sie mir bitte ansehen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Natürlich, hier ist sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Das ist eine gefälschte Fahrkarte, man erkennt es an den Markierungen an der Seite. Warum benutzen Sie sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Am Eingang des Bahnhofs hat sie jemand verkauft, sie muss mindestens die Hälfte des Preises einer regulären Fahrkarte gekostet haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Verstehe, also haben Sie sie zu einem günstigeren Preis gekauft?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Ja, habe ich. Schauen Sie, hier ist mein Ausweis. Ich bin kein Krimineller, das verspreche ich.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Danke. Ich werde sehen, ob ich diese Person finden kann, von der Sie gesprochen haben.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Einen Moment. Wir müssen ein Gespräch führen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Ein weiterer Tag, ein weiterer Polizist, der sich in mein Geschäft einmischt. Was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir haben den Verdacht, dass Sie gefälschte Fahrkarten verkaufen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich werde Sie festnehmen, keine Bewegung.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Meine Hände sind oben!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Eine Person hat, ich habe es über Funk gehört, anscheinend keine Fahrkarte benutzt.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hallo, haben Sie einen Moment?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Natürlich, wie kann ich Ihnen behilflich sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Wir wurden vom Bahnhofspersonal gerufen, sie fragten sich, wie Sie durch die Schranken gekommen sind?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Wie alle anderen auch, mit meiner Zugfahrkarte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ist es in Ordnung, wenn ich sie mir anschaue?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger: ~w~Äh, sicher. Ich weiß aber nicht, warum Sie das tun sollten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Es scheint alles in Ordnung zu sein, eine gute restliche Reise!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ Schön, Sie so schnell hier zu sehen, vielen Dank dafür.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gerne, das ist mein Job, könnten Sie bitte einige Details zur Situation angeben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Verstehe. Das ist alles andere als gut. Wo könnten er sich jetzt befinden?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal: ~w~Es gab noch keine Züge, also wird er wahrscheinlich auf dem Bahnsteig sein.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Vielen Dank für Ihre Hilfe, ich werde jetzt zu ihm gehen.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ Entschuldigen Sie den Anruf wegen dieser Kleinigkeit, das weiß ich zu schätzen..]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist in Ordnung, könnten Sie bitte einige Details zur Situation angeben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Okay, hört sich nach Schwarzfahrer an. Wo könnte er sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal: ~w~Lassen Sie mich überlegen. Sie müssen auf dem Bahnsteig sein, das ist der einzige Ort, an dem er sein könnte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Verstanden, ich werde zuerst dort nachsehen!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

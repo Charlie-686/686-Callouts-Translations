@@ -1,0 +1,118 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Flugzeug in Not]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Das ~o~Flugzeug~w~ fliegt für einige Minuten im ~y~Kreis~w~, bevor es ~y~einen Landeversuch unternimmt~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ein Flugzeug führt eine ~r~Notlandung~w~ bei ~y~{0}~w~ durch. Begeben Sie sich zur ausgewiesenen Landezone und erwarten Sie weitere Anweisungen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das ~o~Flugzeug~w~ hat nun die Erlaubnis, eine ~r~Notlandung~w~ zu versuchen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Die Szene ist Code 4, da das ~g~Flugzeug~w~ bei ~y~{0}~w~ sicher gelandet ist.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sprechen Sie mit dem ~y~Piloten~w~ und untersuchen Sie die Situation.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das Flugzeug ist gelandet. ~y~Sprechen Sie mit dem Piloten~w~, um zu überprüfen, ob alles in Ordnung ist.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wir konnten das ~o~Flugzeug nicht spawnen~w~. Bitte starten Sie den Einsatz erneut oder wenden Sie sich an den Support.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wir haben ~y~den Kontakt zum ~o~Flugzeug~w~ verloren. Versuchen Sie, ~y~Sichtkontakt~w~ mit dem ~o~Flugzeug~w~ herzustellen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wir haben ~g~wieder Kontakt~w~ mit dem ~o~Flugzeug~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das ~o~Flugzeug~w~ ist ~r~abgestürzt~w~. Bitte warten Sie, während wir Sie zur Absturzstelle leiten. Sobald lokalisiert, fahren Sie wie gewohnt fort.]]></NOTIFICATION>
+		<OTHER><![CDATA[Internationaler Flughafen von Los Santos]]></OTHER>
+		<OTHER><![CDATA[Sandy Shores Flugplatz]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Ein ~o~Flugzeug~w~ hat ~y~Motorprobleme~w~. Begeben Sie sich zur Landezone und bereiten Sie sich auf die Landung des Flugzeugs vor.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke, Herr Polizist! Wie fanden Sie die Landung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Nicht schlecht für jemanden mit rauchendem Motor!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ich schätze, dass Sie gekommen sind, um sicherzustellen, dass alles in Ordnung ist. Benötigen Sie etwas?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Nein, wir wollten nur da sein, falls etwas schief geht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ich muss meinen Mechaniker den Motor überprüfen lassen. Hätte ich noch ein paar Minuten länger in der Luft bleiben müssen, weiß ich nicht, ob ich hätte sicher landen können.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sie haben heute gute Arbeit geleistet. Ich lasse Sie jetzt mit Ihrem Flugzeug allein, bleiben Sie sicher.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke. Passen Sie auf und entschuldigen Sie die Umstände!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Ein Passagier ist an Bord eines ~o~Flugzeugs~w~ ~r~verstorben~w~. Sprechen Sie mit dem Piloten, um zu klären, ob die Umstände ~y~verdächtig~w~ sind.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hallo Kapitän. Können Sie mir sagen, was in der Luft passiert ist?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Natürlich... Ich habe meinen Freund für einen Flug mitgenommen & er ist mitten in der Luft ohnmächtig geworden.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Was genau meinen Sie damit?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ich habe mich auf das Fliegen konzentriert, weil der Luftraum heute sehr voll war, und als ich mich umdrehte, reagierte er nicht mehr. Ich habe dann eine Notlandung hier gemacht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hat Ihr Freund Ihnen von gesundheitlichen Problemen erzählt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ehrlich gesagt, haben wir nie darüber gesprochen. Ich habe einfach angenommen, dass er fit genug zum Fliegen ist...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Dies ist jetzt ein Tatort, also muss ich ermitteln. Ist das in Ordnung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ja, natürlich, ich stehe Ihnen voll zur Verfügung.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Chloroformtuch]]></OTHER> //Wenn der Pilot den Passagier ermordet hat, sind dies die verdächtigen Gegenstände, die der Pilot hat!
+		<OTHER><![CDATA[~r~Strangulationsspuren]]></OTHER>
+		<OTHER><![CDATA[~y~Kissen]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Das ~o~Flugzeug~w~ kann jederzeit ~y~explodieren~w~. Sprechen Sie mit dem Piloten & leiten Sie eine Evakuierung ein!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das ~o~Flugzeug~w~ ist ~r~explodiert~w~. Fahren Sie wie gewohnt fort.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Verlassen Sie das Flugzeug und folgen Sie mir! Schnell!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Ein ~o~Flugzeug~w~ hat ~y~Motorprobleme~w~ und muss eine Notlandung durchführen. ~n~Berichten zufolge ist die ~r~Landebahn blockiert~w~. Räumen Sie sie vor der Landung des Flugzeugs!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bewegen Sie das Fahrzeug, bevor das ~o~Flugzeug~w~ zu landen versucht, und sprechen Sie dann mit dem Piloten~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Das war knapp. Danke, dass Sie die Landebahn rechtzeitig freigemacht haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Kein Problem. Wir sind froh, dass wir dieses Fahrzeug aus Ihrem Weg räumen konnten. Wie steht's um das Flugzeug?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Es hätte schlimmer kommen können, Motorprobleme haben uns hart getroffen. Wir haben es aber sicher runterbekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sie haben unter den Umständen eine großartige Arbeit geleistet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke, das gehört wohl zum Job.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Definitiv. Wir sind froh, dass Sie sicher sind. Benötigen Sie Unterstützung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Nein, wir kommen zurecht. Die Bodencrew ist unterwegs.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~In Ordnung. Wenn Sie etwas brauchen, rufen Sie uns bitte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Wird gemacht, danke nochmal für Ihre Hilfe.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Ein ~o~Flugzeug~w~ meldet einen Notfall wegen eines ~y~vermuteten blinden Passagiers~w~ an Bord. Untersuchen Sie das Flugzeug bei der Landung.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Überprüfung, ob ~y~Gefangene~w~ in den letzten 24 Stunden ~y~entkommen~w~ sind. Bitte warten.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wir können bestätigen, dass ~y~{0}~w~ in den letzten 24 Stunden aus dem Gefängnis entkommen ist. Der Verdächtige ist noch auf freiem Fuß.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um das ~o~Flugzeug~w~ zu durchsuchen.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Hallo, wie können wir helfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Während ich geflogen bin, habe ich ein Geräusch gehört. Es klang wie ein Tier.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Haben Sie Ihr Flugzeug in letzter Zeit unbeaufsichtigt gelassen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ja, ich habe keinen Hangar, also habe ich es ein paar Tage draußen gelassen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Was könnte es Ihrer Meinung nach sein?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Nun, ich habe den Verdacht, dass ich einen blinden Passagier an Bord habe. Ich wollte nicht nachsehen, aber wenn Sie mein Flugzeug durchsuchen könnten, wäre ich Ihnen dankbar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich muss das erst mit der Leitstelle klären.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Ich werde jetzt Ihr Flugzeug durchsuchen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Keine Bewegung! Was denken Sie, was Sie hier tun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~blinder Passagier: ~w~Oh, ähm... Ich wollte nur irgendwohin. Sehen Sie, Sie haben die falsche Person.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Verschonen Sie uns damit, Sie sind kein Unbekannter, wie Sie vielleicht denken. Wir wissen, wer Sie sind.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~blinder Passagier: ~w~Ich schwöre, ich hatte keine bösen Absichten. Ich brauchte einfach einen Ausweg.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Einen Ausweg? Nun, Sie haben sicherlich einen gefunden. Mit einem Haftbefehl im Nacken ist das der direkte Weg zurück in die Zelle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~blinder Passagier: ~w~Bitte, Sie müssen verstehen. Es ist kompliziert.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Kompliziert rechtfertigt nicht das Brechen des Gesetzes. Sie kommen mit mir.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Ein ~o~Flugzeug~w~ meldet einen Notfall wegen eines ~y~zerbrochenen Fensters~w~, das während des Fluges auftrat. Begeben Sie sich zur Landezone und bereiten Sie sich auf die Landung des Flugzeugs vor.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke, dass Sie hier sind. Das war eine heftige Landung.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Kein Problem, Kapitän. Wir haben den Anruf über Ihr Fenster bekommen. Geht es Ihnen gut?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ja, nur ein bisschen durchgeschüttelt. Ich habe noch nie erlebt, dass während des Fluges ein Fenster zerbricht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sie haben es aber gut gemeistert. Wie haben Sie es geschafft, so ruhig zu bleiben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Jahrelanges Training, denke ich. Es ging darum, den Fokus zu behalten und sicher runterzukommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sie haben eine großartige Arbeit geleistet. Wir hatten den Rettungsdienst in Bereitschaft, nur für den Fall. Zum Glück haben wir sie nicht gebraucht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Sie auch. Danke für Ihre Hilfe, ich schätze das wirklich.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Jederzeit, Kapitän. Dafür sind wir hier. Passen Sie auf sich auf, lassen Sie uns wissen, wenn Sie etwas brauchen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Ein ~o~Flugzeug~w~ führt eine Notlandung aufgrund von ~y~schlechten Wetterbedingungen~w~ durch. Begeben Sie sich zur Landezone und bereiten Sie sich auf die Landung des Flugzeugs vor.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Puh, das war eine heftige Landung.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Geht es Ihnen gut, Kapitän? Der Sturm kam aus dem Nichts.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ja. Das Wetterradar hat die Turbulenzen draußen nicht richtig dargestellt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Sie haben es gut geschafft, sicher runterzukommen. Wir waren besorgt um Sie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke sehr. Ich schätze Ihre Anwesenheit hier, um sicherzustellen, dass alles reibungslos verläuft. Es war ziemlich knapp für einen Moment.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Es freut uns, dass Sie sicher sind. Lassen Sie mich wissen, wenn Sie Hilfe benötigen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Danke nochmal. Ich werde mit der Flugverkehrskontrolle sprechen, sobald wir bereit sind zu gehen. Hoffentlich beruhigt sich das Wetter bald.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie: ~w~Die Daumen sind gedrückt. Passen Sie auf sich auf, Kapitän, und gute Arbeit.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

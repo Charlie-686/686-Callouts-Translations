@@ -1,0 +1,75 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Laufende Entführung ]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Eine Person wurde möglicherweise in einem Taxi ~y~entführt~w~. ~y~Führen Sie eine Verkehrskontrolle durch.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Datenbank wird durchsucht...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Überprüfungen sind negativ. Keine Anhaltspunkte für Bedenken.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Der Verdächtige ist mit Haftbefehl gesucht. Vorsichtig handeln.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nachdem Sie mit dem Verdächtigen fertig sind, drücken Sie ~y~{0}~w~, um dem Opfer zu helfen.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Blutige Kabelbinder]]></OTHER>
+		<OTHER><![CDATA[~r~Blutige Handschuhe]]></OTHER>
+		<OTHER><![CDATA[~y~Klebeband]]></OTHER>
+		<OTHER><![CDATA[~r~Augenbinde]]></OTHER>
+		<OTHER><![CDATA[~r~Kabelbinder~w~, ~r~Messer~w~, ~o~Sturmhaube]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ AHHH HILFEEEEEE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[provoziert]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hören Sie zu. Ich muss mit Ihrem Fahrgast sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Das denke ich nicht. Ich bin aus meinem Auto ausgestiegen, Sie können mit mir sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es ist sehr wichtig, dass Sie mich mit Ihm sprechen lassen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Okay, okay, sagen Sie mir einfach, was los ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir haben Berichte über eine Entführung erhalten. Wir führen einige Überprüfungen durch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Nun, Sie haben die richtige Person gefunden!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Wir sind hier fertig!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Einkäufe]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, wohin fahren Sie gerade?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich fahre diesen Kunden gerade nach Hause.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich sehe, lassen Sie mich kurz mit dem Fahrgast sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Hey, was brauchen Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es gab gerade Berichte über eine Entführung, ich möchte nur sicherstellen, dass es Ihnen gut geht?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Absolut! Ich war gerade einkaufen, die Sachen sind im Kofferraum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Vielen Dank. Ich werde kurz einige Überprüfungen durchführen, und dann lassen wir Sie weiterfahren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Natürlich, nur die Ruhe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Alles ist in Ordnung, Sie können weiterfahren!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[versucht, Ihre Aufmerksamkeit zu erregen]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich muss nur kurz mit Ihnen sprechen, bitte schalten Sie den Motor ab.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir haben Berichte über eine mögliche Entführung erhalten. Wohin fahren Sie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ich fahre diese Person dorthin, wo sie hinmuss. Das ist die Aufgabe eines Taxifahrers.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich muss mit dem Fahrgast sprechen, ist das in Ordnung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ In Ordnung, aber der Taxitarif steigt gerade, während wir sprechen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, wohin haben Sie diesen Fahrer gebeten, Sie zu bringen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Ich fahre nur nach Hause.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Okay, und gibt es nichts, das Sie mir sagen möchten?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Nur nach Hause, das ist alles.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, alles scheint in Ordnung zu sein. Ich werde einige Überprüfungen durchführen, dann können Sie weiterfahren.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[Ich dachte, es sei ein echtes Taxi... aber wie ich eingestiegen bin, habe ich gemerkt, dass etwas nicht stimmt. Wir sind in eine Gasse gefahren, sie haben eine Waffe auf mich gerichtet, mein Handy genommen und mir gesagt, ich solle schweigen.]]></OTHER>
+	<OTHER><![CDATA[Ich war auf dem Weg nach Hause, und diese Person mit einer Sturmhaube hat mich gepackt, und ich spürte eine Waffe an meinem Kopf. Sie haben mich ins Taxi gezwungen.]]></OTHER>
+	<OTHER><![CDATA[Dieser Taxifahrer hat mich nach dem Weg gefragt, ich habe mich zu ihrem Fenster gebeugt, um mit ihnen zu sprechen, und sie haben mich hineingezogen. Ich bin aber nicht verletzt.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Vielen Dank! Ich dachte... ich dachte, es sei das Ende.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich bin erleichtert, dass wir Sie gefunden haben. Ich möchte Sie sicher nach Hause bringen, aber können Sie mir sagen, was passiert ist?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich verstehe. Vielen Dank, dass Sie diese Details mit mir geteilt haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Fahrgast:~w~ Ich kann nicht glauben, dass das passiert ist...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

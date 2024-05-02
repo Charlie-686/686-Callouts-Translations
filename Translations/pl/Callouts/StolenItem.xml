@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Skradziony przedmiot]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[~y~Kradzież~w~nastąpiła w tym miejscu. Porozmawiaj z ~y~ofiarą~w~ i przeprowadź śledztwo.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[~y~Kradzież ~w~nastąpiła w tym miejscu. Porozmawiaj z ~y~ofiarą~w~ i przeprowadź śledztwo.]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Przypuszcza się, że podejrzany jest ~y~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[na piechotę~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[w pojeździe~w~.]]></NOTIFICATION>
@@ -14,30 +14,31 @@
 	<OUTCOME0>
 	</OUTCOME0>
 	<OUTCOME1>
-		<NOTIFICATION><![CDATA[zaniepokojony]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zaniepokojony]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Czego chcesz?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Czego chcesz?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Czego chcesz?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Czego chcesz?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Została zgłoszona kradzież, i będziemy musieli cię przeszukać.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Niby dlaczego! Nie masz żadnych dowodów i nie odpowiem na żadne z twoich pytań!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Niby dlaczego! Nie masz żadnych dowodów i nie odpowiem na żadne z twoich pytań!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Niby dlaczego! Nie masz żadnych dowodów i nie odpowiem na żadne z twoich pytań!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Niby dlaczego! Nie masz żadnych dowodów i nie odpowiem na żadne z twoich pytań!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Jestem tutaj, aby egzekwować prawo. Nasz lokalizator wskazuje, że {0} jest tutaj i to w twoim posiadaniu.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Kłamstwa! Technologia jest zawsze błędna w dzisiejszych czasach!]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Kłamstwa! Technologia jest zawsze błędna w dzisiejszych czasach!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Kłamstwa! Technologia jest zawsze błędna w dzisiejszych czasach!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Kłamstwa! Technologia jest zawsze błędna w dzisiejszych czasach!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Czego chcesz?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Czego chcesz?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Czego chcesz?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Czego chcesz?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty: ~w~Wierzymy, że masz przy sobie {0}, będę musiał cię przeszukać.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podejrzany:~w~ Złapaliście mnie, poddaję się.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podejrzana:~w~ Złapaliście mnie, poddaję się.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrze, podnieś ręce, jesteś zatrzymany.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Złapaliście mnie, poddaję się.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Złapaliście mnie, poddaję się.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Dobrze, podnieś ręce, jesteś zatrzymany.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Dobrze, podnieś ręce, jesteś zatrzymana.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
-		<NOTIFICATION><![CDATA[Zlokalizuj ~r~podejrzanego~w~. Obszar ~y~wyszukiwania będzie się aktualizować ~w~okresowo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zlokalizuj ~r~podejrzanego~w~. Obszar ~y~poszukiwania będzie się aktualizować ~w~okresowo.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE TARGET = "M" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze pomocy! Zostałem okradziony!]]></DIALOGUE>
 			<DIALOGUE TARGET = "F" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze pomocy! Zostałam okradziona!]]></DIALOGUE>
@@ -47,8 +48,8 @@
 			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Nie za bardzo, ale mój {0} ma lokalizator GPS, który powinien być w końcu przydatny. ]]></DIALOGUE>
 			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Świetnie! Pozwól, że prześlę to do centrali, która połączy mnie, abym mógł to namierzyć.]]></DIALOGUE>
 			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Świetnie! Pozwól, że prześlę to do centrali, która połączy mnie, abym mogła to namierzyć.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~y~Ofiara: ~w~Tak, mam nadzieję, że uda ci się to odzyskać, to jest ważne.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~y~Ofiara: ~w~Tak, mam nadzieję, że uda ci się to odzyskać, to jest ważne.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Ofiara: ~w~Tak, mam nadzieję, że uda ci się to odzyskać, to dla mnie ważne.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Ofiara: ~w~Tak, mam nadzieję, że uda ci się to odzyskać, to dla mnie ważne.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Oczywiście, skontaktujemy się. Spróbuję to teraz zlokalizować.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>

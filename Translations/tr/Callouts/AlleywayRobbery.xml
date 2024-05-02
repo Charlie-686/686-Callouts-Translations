@@ -1,0 +1,25 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sokak Arası Soygun]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Burada {0} ~y~şüpheli bir soygun~w~ gerçekleşiyor. Bölgeyi araştırın.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Burada {0} ~y~şüpheli bir soygun~w~ gerçekleşiyor. Bölgeyi araştırın.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Çalınan Eşyalar]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Burada ~y~şüpheli bir soygun~w~ gerçekleşiyor ve kurbanın ~r~iddia edildiğine göre silah tehdidi altında~w~ olduğu bildiriliyor. Sahneyi araştırın.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Burada ~y~şüpheli bir soygun~w~ gerçekleşiyor ve iki soyguncu bildiriliyor. Sahneyi araştırın.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Çalınan eşyaları ~g~geri almak~w~ için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Çalınan ~y~{0}~w~ eşyasını ~g~kanıt olarak~w~ toplandı.]]></NOTIFICATION>
+		<OTHER><![CDATA[Çanta]]></OTHER>
+		<OTHER><![CDATA[Alışveriş Çantası]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Paket]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>

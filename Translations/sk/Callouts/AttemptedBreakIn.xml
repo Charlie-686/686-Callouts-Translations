@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pokus o vlámanie]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Majiteľ domu zavolal, aby nahlásil aký pokus vlámania do ich pozemku. Podozrivý z miesta činu údajne ušiel.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Stlačením ~y~{0}~w~ obnovíte dôkazy.]]></OTHER>
+		<OTHER><![CDATA[Úspešne obnovené ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[občiansky preukaz]]></OTHER>
+		<OTHER><![CDATA[peňaženka]]></OTHER>
+		<OTHER><![CDATA[pár nožníc]]></OTHER>
+		<OTHER><![CDATA[náhrdelník]]></OTHER>
+		<OTHER><![CDATA[topánka]]></OTHER>
+		<OTHER><![CDATA[páčidlo]]></OTHER>
+		<OTHER><![CDATA[mobilný telefón]]></OTHER>
+		<OTHER><![CDATA[~y~Hľadajte~w~ v okolí, aby ste našli dôkazy a stopy po vlámaní. Po dokončení sa ~y~vráťte majiteľovi domu~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Lockpick]]></OTHER>
+		<OTHER><![CDATA[~r~Rukavice]]></OTHER>
+		<OTHER><![CDATA[~y~Maska]]></OTHER>
+		<OTHER><![CDATA[~y~Balaclava]]></OTHER>
+		<OTHER><![CDATA[~r~Vreckový nôž]]></OTHER>
+		<OTHER><![CDATA[~r~Štipca lišta]]></OTHER>
+		<OTHER><![CDATA[~y~Ďalekohľad]]></OTHER>
+		<OTHER><![CDATA[~r~Gag]]></OTHER>
+		<NOTIFICATION><![CDATA[Použite fotografiu a oblasť vyhľadávania na zadržanie ~podozrivého.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Toto je ~y~fotografia~w~ ~podozrivého~w~.~n~Stlačením ~y~Y~w~ zobrazíte toto oznámenie znova~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Neboli tu ~žiadne dôkazy~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Našiel som ~y~{0}~w~ spojené s ~r~{1}~w~. Žiadam o naliehavé podrobnosti o tejto osobe.]]></NOTIFICATION> // 0: an item. 1: the suspect's name.
+		<NOTIFICATION><![CDATA[Kontrolujem všetky pozorovania ~r~{0}~w~ v blízkosti.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zhromaždili ste ~y~{0}~w~/~g~{1}~w~ dôkazy.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zhromaždili ste ~y~{0}~w~/~g~{1}~w~ dôkazy.]]></NOTIFICATION> // If all evidence was collected, we'll make the number green! :)
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Keď ~~zachytíte~w~ ~podozrivého~w~, pokračujte, ako uznáte za vhodné.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[Podozrivý uteká!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Podozrivý sa vzdáva. Zatknite ich a vyšetrujte.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Pomôžte mi dôstojník! Pomôž mi!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Vy:~w~ Som tu, pane. Teraz ste v bezpečí. Môžete mi povedať, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Vy:~w~ Som tu madam. Teraz ste v bezpečí. Môžete mi povedať, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Niekto sa pokúsil vlámať... Počul som ich a okamžite som utekal a zamkol som sa vo svojej izbe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Rozumiem. Videl si ich vôbec?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Ja nie, ale počul som veľa pohybu pred domom, kým si neprišiel. Neviem, čo robili!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Ďakujem. Dovoľte mi poobzerať sa po nehnuteľnosti, či niečo nenájdem.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Prehľadal som okolie, ale bohužiaľ som nenašiel žiadne dôkazy, ktoré by mohli spájať podozrivého.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ To je škoda..a čo teraz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Neskôr sem prídu niektorí detektívi, aby vykonali ďalšie vyšetrovanie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Žiaľ, tieto prvotné vyšetrovanie zaniklo. Teraz už nemôžem nič urobiť.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Prehľadal som okolie a našiel som dôkazy spájajúce podozrivého. Teraz odídem, aby som ich našiel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ To je skvelé, veľa šťastia!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Pomôžte mi dôstojník! Pomôž mi!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Vy:~w~ SSom tu, pane. Teraz ste v bezpečí. Môžete mi povedať, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Vy:~w~ Som tu madam. Teraz ste v bezpečí. Môžete mi povedať, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Počul som búchanie na okná, no neodvážil som sa pozrieť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Dobre. Všimli ste si niečo neobvyklé predtým, ako sa to stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Nie, dovtedy bolo ticho. Prosím, nájdite toho, kto to urobil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Budem sa snažiť. Dovoľte mi, aby som skontroloval, či v oblasti nie sú nejaké známky votrelca.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Prehľadal som okolie, ale bohužiaľ som nenašiel žiadne dôkazy, ktoré by mohli spájať podozrivého.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ To je škoda..a čo teraz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Neskôr sem prídu niektorí detektívi, aby vykonali ďalšie vyšetrovanie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Žiaľ, tieto prvotné vyšetrovanie zaniklo. Teraz už nemôžem nič urobiť.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Gdobré správy! Neďaleko som našiel dôkazy, ktoré by nás mohli priviesť k vinníkovi. Okamžite pôjdem za vedením.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ To je úľava, dôstojník! Ďakujem a dávajte si tam pozor.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>T
+<!-- <![CDATA[]]> -->

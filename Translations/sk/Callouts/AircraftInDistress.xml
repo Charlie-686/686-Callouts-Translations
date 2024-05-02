@@ -1,0 +1,118 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Lietadlo v núdzi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Lietadlo~w~ zostane v ~y~pridržiavacom vzore~w~ niekoľko minút, kým sa ~~pokúsi pristáť.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Lietadlo sa chystá vykonať ~núdzové pristátie~w~ o ~y~{0}~w~. Zamierte na určenú pristávaciu plochu a čakajte na ďalšie pokyny.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Lietadlo ~w~je teraz oprávnené pokúsiť sa o ~r~núdzové pristátie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Scéna je kód 4, pretože ~g~lietadlo bezpečne pristálo~w~ v ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Porozprávajte sa s ~y~pilotom~w~ a preskúmajte situáciu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Lietadlo pristálo. ~y~Porozprávajte sa s pilotom~w~ a overte si, či je všetko v poriadku.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nepodarilo sa nám splodiť lietadlo. Skúste to znova alebo kontaktujte podporu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Na radare sme ~stratili kontakt~w~ s ~lietadlom~w~. Pokúste sa získať ~y~vizuál~w~ na ~lietadle~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Znova sme získali kontakt~w~ s radarovým umiestnením lietadla.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Lietadlo~w~ ~r~havarovalo~w~. Počkajte, kým vás nasmerujeme na miesto havárie. Po nájdení pokračujte podľa vlastného uváženia.]]></NOTIFICATION>
+		<OTHER><![CDATA[Medzinárodné letisko Los Santos]]></OTHER>
+		<OTHER><![CDATA[Letisko Sandy Shores]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Existuje ~lietadlo~w~, ktoré má ~problémy s motorom~w~. Zamierte na pristávaciu plochu a pripravte sa na pristátie lietadla.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ďakujem, dôstojník! Ako sa vám páčilo pristátie?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Nie je to zlé pre niekoho s dymiacim motorom!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Vážim si, že si sa prišiel uistiť, že je všetko v poriadku. Potrebujete niečo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ani nie, len sme tam chceli byť pre prípad, že by sa niečo pokazilo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Musím zavolať mechanika, aby sa pozrel na motor. Keby som bol vo vzduchu ešte niekoľko minút, neviem, či by som dokázal dostať lietadlo bezpečne na zem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dnes si odviedol dobrú prácu. Nechám ťa postarať sa o svoje lietadlo, zostaň v bezpečí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ďakujem dôstojník. Dávajte si pozor a ospravedlňujeme sa za nepríjemnosti!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Bol tam cestujúci, ktorý ~r~zomrel~w~ na palube ~o~lietadla~w~. Porozprávajte sa s pilotom, aby ste zistili, či sú okolnosti ~y~podozrivé~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dobrý deň, kapitán. Môžete mi povedať, čo sa stalo vo vzduchu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Samozrejme... bral som svojho priateľa na let a oni práve omdleli vo vzduchu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Čo tým presne myslíš?.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Sústredil som sa na lietanie, pretože vzdušný priestor bol dnes zaneprázdnený, otočil som sa a oni nereagovali. Potom som tu núdzovo pristál.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Má váš priateľ nejaké zdravotné ťažkosti, o ktorých vám povedali?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Húprimne, nikdy sme o tom nehovorili. Len som predpokladal, že budú dosť zdravé na to, aby mohli lietať...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Toto je teraz miesto činu, takže to musím vyšetriť. Je to v poriadku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Áno, samozrejme, dôstojník, plne spolupracujem.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Chloroformová handrička]]></OTHER> //If the pilot murdered the passenger, these are the suspicious items we will plant on the pilot!
+		<OTHER><![CDATA[~r~Značky zadusenia]]></OTHER>
+		<OTHER><![CDATA[~y~Vankúš]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~o~Lietadlo~w~ je vystavené riziku ~y~explodovania~w~. Porozprávajte sa s pilotom a pokračujte v evakuácii!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~Lietadlo~w~ ~r~explodovalo~w~. Pokračujte, ako uznáte za vhodné.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Vystúp z lietadla a nasleduj ma! Rýchlo!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Je tu ~o~lietadlo~w~, ktoré má ~y~problémy s motorom~w~ a potrebuje núdzovo pristáť. ~n~Správy hovoria, že ~r~pristávacia dráha je zablokovaná~w~. Vyčistite to skôr, ako lietadlo pristane!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Presuňte vozidlo skôr, ako sa lietadlo pokúsi pristáť, potom sa porozprávajte s pilotom.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~To bolo naozaj blízko. Ďakujeme za včasné vyčistenie pristávacej dráhy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Žiadny problém. Sme radi, že sme vám mohli dostať to vozidlo z cesty. Ako sa drží lietadlo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Mohlo to byť horšie, ťažko nás zasiahli problémy s motorom, podarilo sa však dostať dole bezpečne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Vzhľadom na okolnosti ste odviedli kus práce.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ďakujem, myslím, že to všetko patrí k práci.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Určite. Sme len radi, že ste v bezpečí. Potrebujete pomoc?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Nie, my to zvládneme. Máme pozemnú posádku na ceste.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dobre teda. Ak niečo potrebujete, ozvite sa nám.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Dobre. Ešte raz vám ďakujem za pomoc, dôstojník.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Je tu lietadlo, ktoré hlási núdzovú situáciu v dôsledku podozrivého čierneho pasažiera na palube. Zaistite lietadlo po pristátí.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Kontrola, či za posledných 24 hodín nejakí väzni neutiekli. Pohotovostný režim.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Môžeme potvrdiť, že ~y~{0}~w~ utiekol z väzenia za posledných 24 hodín. Podozrivý je stále na slobode.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Stlačením ~y~{0}~w~ vyhľadajte vnútro ~o~lietadla~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ahojte, ako vám môžeme pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Keď som letel, počul som v lietadle nejaké šúchanie. A znelo to ako zviera.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Nechali ste nedávno svoje lietadlo bez dozoru?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Áno, nemám vešiak, tak som ho na pár dní nechal na dráhe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Čo si myslíte, že by to mohlo byť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Dôstojník, mám podozrenie, že mám na palube čierneho pasažiera. Nechcel som to kontrolovať, ale ak môžete prehľadať moje lietadlo, ocenil by som to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dovoľte mi, aby som niečo skontroloval s Dispatch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Teraz prehľadám vaše lietadlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Nehýbte sa! Čo si myslíš, že tu robíš?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Väzeň: ~w~Ach... len som sa snažil niekam dostať. Pozri, máš nesprávneho človeka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Uložte si to, nie ste taký záludný, ako si myslíte. Vieme, kto ste.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Väzeň: ~w~Prisahám, dôstojník, nemyslel som to zle. Len som potreboval cestu von.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Cesta von? No určite ste jeden našli. Behať so zatykačom na hlave je cesta späť do buniek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Väzeň: ~w~Prosím, musíš to pochopiť. Je to komplikované.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~ Komplikované neospravedlňuje porušenie zákona. Ideš so mnou.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Existuje lietadlo, ktoré hlási núdzovú situáciu v dôsledku rozbitého okna, ku ktorému došlo počas letu. Zamierte na pristávaciu plochu a pripravte sa na pristátie lietadla.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Dôstojník, ďakujem, že ste tu. Bolo to poriadne pristátie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Žiadny problém, kapitán. Dostali sme hovor ohľadom vášho okna. Si v poriadku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Hej, len trochu otrasený. Nikdy sa nestalo, že by sa okno rozbilo ako pri tomto lete.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Zvládol si to však dobre. Ako sa vám podarilo zachovať pokoj?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Boli to roky tréningu, myslím. Bolo to všetko o tom, aby sme sa sústredili a dostali sme bezpečne dole.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Určite ste odviedli skvelú prácu. Pre každý prípad sme mali pohotovostnú službu. Sme radi, že sme ich nepotrebovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ja tiež. Ďakujem za pomoc, vážim si to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~wKedykoľvek, kapitán. Na to sme tu. Dajte si pozor, dajte nám vedieť, ak budete ešte niečo potrebovať.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Je tu ~o~lietadlo~w~, ktoré núdzovo pristáva z dôvodu ~y~zlých poveternostných podmienok~w~. Zamierte na pristávaciu plochu a pripravte sa na pristátie lietadla.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Fíha, to bolo poriadne pristátie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ste v poriadku, kapitán? Tá búrka prišla z ničoho nič.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Áno. Meteorologický radar nezodpovedal turbulenciám tam vonku.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Odviedli ste pozoruhodnú prácu, keď ste ju bezpečne priviedli dole. Báli sme sa o teba.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ďakujem dôstojník. Vážim si, že ste tu a zabezpečili, že všetko prebehlo hladko. Bol to dotyk a choď na chvíľu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Som rád, že si v bezpečí. Dajte mi vedieť, ak potrebujete s niečím pomôcť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Ešte raz ďakujem. Porozprávam sa s ATC, keď budeme pripravení na presun. Snáď sa počasie čoskoro umúdri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Držím palce. Opatruj sa kapitán a ešte raz dobrú prácu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

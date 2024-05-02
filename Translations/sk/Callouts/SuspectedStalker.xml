@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Podozrivý stalker]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Dotyčný občan sa domnieva, že sú sledovaní, zaistite ich bezpečnosť!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Áno, som stalker, ale väzenie nebolo pre mňa a už sa nevrátim!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Fotografie obete]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Zmizni mi z očí!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy ~w~Zachovajme pokoj, už skôr sme mali správy, že ste niekoho prenasledovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Nasrat, neurobil som svinstvo, je to len jedno slovo proti druhému!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Odmietaš sa s nami rozprávať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Áno áno! S prasatami sa nerozprávam, ja ich jem.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Je nepravdepodobné, že budú prenasledovateľom; majú jasný záznam. Dokončite rozprávanie a potom sa vráťte späť k obeti.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Dobrý deň, dôstojník, ako vám dnes môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy ~w~Máme správy od jednotlivca, že ste ich prenasledovali, je to pravda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Preboha, nie! Vôbec nie. Musí tam byť chyba alebo zámena. Len nakupujem, možno sme mali namierené rovnako? Rozhodne by som nezodpovedal popisu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~Nebol nám poskytnutý, dovoľte mi kontaktovať dispečing, aby sme situáciu objasnili.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Samozrejme, moje nákupy môžu počkať, nebojte sa.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Môžete ísť, zdá sa, že to bola s najväčšou pravdepodobnosťou chyba. Užite si zvyšok dňa.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Rád ťa opäť vidím, čo sa deje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Hovorili sme s nimi, ale je nepravdepodobné, že by vás prenasledovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Je mi to tak ľúto, dáva to zmysel. Rozmýšľal som, ako som ti mohol zavolať predčasne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ To je v poriadku, skôr na bezpečnej strane. Nabudúce nám dajte vedieť, ak si nie ste istí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Áno, ospravedlňujem sa za všetky zbytočné problémy.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Našli sme podozrivého. ~y~Dokončite rozprávanie~w~ a potom okamžite zamierte k nim.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Dôstojník, vďaka bohu, že ste tu! Som prenasledovaný!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~Teraz sme tu. Môžete mi vysvetliť, čo sa stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~Sledovali ma...ale moja myseľ sa vytratila z toho, ako vyzerali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~To je v poriadku, je normálne zabudnúť na veci v tejto chvíli. Dám kameramanom skontrolovať zábery z oblasti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť: ~w~Boli sme tu na ~y~{0}~w~ pred nejakým časom, možno pred 15 minútami. Spomeňte to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Ďakujem, teraz to pošlem ďalej.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Teraz kontrolujú zábery, sú nejaké ďalšie podrobnosti? Čím viac tým lepšie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Nie, neviem, prečo ma posledné 2 hodiny sledovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Nebojte sa, my to vyriešime.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Podarilo sa nám ich lokalizovať, tak sa tam teraz vyberiem. Môžete pokračovať vo svojom dni alebo ísť domov, ale my sa vám ozveme.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

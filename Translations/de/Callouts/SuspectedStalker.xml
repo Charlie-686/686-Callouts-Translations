@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Verdächtiger Stalker]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein ~p~besorgter Bürger~w~ glaubt, dass er verfolgt wird. ~y~Stellen Sie sicher, dass es ihm gut geht!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, ich bin ein Stalker, aber das Gefängnis war nichts für mich, und ich werde nicht zurückgehen!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Fotos des Opfers]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Verschwinden Sie aus meinem Blickfeld!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie ~w~Bleiben Sie ruhig, es gab Berichte, dass Sie jemanden früher verfolgt haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Verpiss dich, ich habe nichts gemacht, es ist nur ein Wort gegen das andere!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie weigern sich, mit uns zu sprechen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, JA! Ich rede nicht mit Schweinen, ich esse sie.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Es ist unwahrscheinlich, dass die Person der Stalker ist, er hat keine Auffälligkeiten. Beenden Sie das Gespräch und ~y~kehren Sie zum Opfer zurück.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Hallo, wie kann ich Ihnen heute helfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie ~w~Wir haben Berichte von einer Person erhalten, dass Sie sie verfolgt haben, ist das wahr?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Mein Gott, nein! Überhaupt nicht. Da muss ein Fehler oder eine Verwechslung vorliegen. Ich war nur einkaufen, vielleicht waren wir auf dem gleichen Weg? Ich würde definitiv nicht zur Beschreibung passen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Uns wurde keine geliefert, ich werde Kontakt mit der Leitstelle aufnehmen, um die Situation zu klären.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Natürlich, meine Einkäufe können warten, keine Sorge.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie können gehen, es scheint, als wäre es ein Missverständnis gewesen. Schönen Tag noch.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Schön, Sie wiederzusehen, was gibt es Neues?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir haben mit der Person gesprochen, aber es ist unwahrscheinlich, dass sie Sie verfolgt hat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Es tut mir so leid, das macht Sinn. Ich habe darüber nachgedacht, dass ich Sie möglicherweise vorschnell angerufen habe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist in Ordnung, lieber auf Nummer sicher gehen. Das nächste Mal lassen Sie es uns wissen, wenn Sie nicht sicher sind.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Ja, entschuldigen Sie den unnötigen Aufwand.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Wir haben den Verdächtigen gefunden. Beenden Sie das Gespräch und ~y~begeben Sie sich sofort zu ihm.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Gott sei Dank sind Sie hier! Ich werde verfolgt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir sind jetzt hier. Können Sie mir erklären, was passiert ist?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Ich werde verfolgt...aber ich habe vergessen, wie sie aussahen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist in Ordnung, es ist normal, Dinge in diesem Moment zu vergessen. Ich werde die Kamerabetreiber bitten, das Videomaterial aus der Gegend zu überprüfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer: ~w~Wir waren hier, bei ~y~{0}~w~ vor kurzem, vielleicht vor 15 Minuten. Bitte erwähnen Sie das.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Danke, ich werde das jetzt weiterleiten.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie überprüfen gerade das Videomaterial, gibt es noch weitere Details? Je mehr, desto besser.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Opfer:~w~ Nein, ich habe keine Ahnung, warum sie mich die letzten 2 Stunden verfolgt haben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Keine Sorge, wir werden das klären.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir haben sie gefunden, wir überprüfen das. Wir sind fertig, sie dürfen nach Hause gehen, aber wir bleiben in Kontakt.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

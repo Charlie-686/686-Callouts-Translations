@@ -1,0 +1,79 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Metroya Müdahale]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir izleyici, ~y~2 kişinin~w~ karıştığı ~y~şüpheli bir rahatsızlık~w~ için yardım istiyor.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Metro girişini bulun~w~ ve ~y~rahatsızlık çıkaran 2 kişiyi~w~ bulmaya çalışın.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Mağdur:~w~ Yardım edin Memur, bir deli tarafından kovalanıyorum!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Bu bir uyarı atışı, uzak dur!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ ARGHHHH! BUNU AL!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[şiddetlendi]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Detaylarını kontrol ediyoruz. Bekleyin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[İlgili kimlik kontrolleri ~g~tamamen temiz~w~ olarak geri döndü. Endişelenecek bir durum yok.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Her ikisi de sakinleşin! Burada bir mola verelim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 1: ~w~Memur! Ne kadar bir serseri olduğunu bilmiyorsun!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tamam...ama sadece durup konuşalım...birbirimize saldırmayalım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 2: ~w~Benimle bu kişiyle yaşadığım cehennemi bilmiyorsun.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Lütfen, işleri sakinleştirmeye çalışalım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 2: ~w~Tamam, TAMAM! Sakin olalım o zaman.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Burada ne sorun var?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 1: ~w~Bu lanet kişi hayatıma girdi ve mahvetti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 2: ~w~YAPMADIM!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Her ikisinin de davranışlarından biraz endişeliyim, her ikisinin de sakinleşeceğine güvenebilir miyim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 1: ~w~Pfff. Tamam, belki biraz abartıyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli 2: ~w~Benim hatam, o pislik yüzünden bir rahatsızlık çıkarmak istemedim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Kimliklerinizi alabilir miyim lütfen? Hızlıca geçirmek istiyorum.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Serbestsiniz. Sonunda işbirliği yaptığınız için teşekkürler, daha dikkatli olalım.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Bir sessiz yere gitmek için ~y~Y~w~ tuşuna basın.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Başarılı~w~. İzleyici şimdi sizi takip ediyor.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Şüpheliyle~w~ konuşmaya geri dönün.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Hey adamlar, birlikte mi seyahat ediyorsunuz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Evet ediyoruz. Ne istiyorsun?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Burada muhtemel bir rahatsızlık raporu aldık. Birkaç şey kontrol etmem gerekecek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Bu gereksiz gibi görünüyor, ama tabii.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Siz: ~w~Efendim, lütfen benimle gelin. Özel bir konuşmamız gerekiyor.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Siz: ~w~Hanımefendi, lütfen benimle gelin. Özel bir konuşmamız gerekiyor.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Teşekkürler. Lütfen her şeyin yolunda olduğunu söyleyebilir misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Partnerim beni takip etmeye zorluyor! Nereye, bilmiyorum, lütfen çok geç olmadan yardım edin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Bilmem gereken başka bir şey var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur: ~w~Üzerlerinde bir silah olabilir, dikkatli olun.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Beklemek için teşekkürler. Üzerinizde olmaması gereken bir şey var mı?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Üzerimde hiçbir şey yok memur.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Emin misiniz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli: ~w~Söz konusu olan şey, dürüstlük en iyisidir.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz: ~w~Tamam. Şu an gözaltına alınıyorsunuz, ellerinizi görebileceğim bir yerde tutun.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Görevim tamam. Beni tutukla.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Şüpheli:~w~ Nasıl saldırdıklarını gördünüz memur! Bu benim hatam değildi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Memur, varışınız için teşekkür ederim! Bildiğim her şeyi size anlatayım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Kendi işimle ilgileniyordum, ve bu 2 kişi yanımdan geçti. Gerçekten kötü tartışıyorlardı! Birinin patlamak üzere olduğu görünüyordu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Hangi yöne gittiler?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Tam olarak emin değilim, ama sanırım metro istasyonuna girdiler.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ O zaman başlamak için doğru yer gibi görünüyor. Teşekkür ederim!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~İzleyici:~w~ Rica ederim!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

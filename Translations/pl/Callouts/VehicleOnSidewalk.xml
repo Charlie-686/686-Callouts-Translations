@@ -3,60 +3,58 @@
 		<CALLOUTMESSAGE><![CDATA[Pojazd na chodniku]]></CALLOUTMESSAGE>
 		<FURTHERINFORMATION><![CDATA[Zgłoszono pojazd zaparkowany na chodniku ~y~blokując go~w~. Spróbuj porozmawiać z kierowcą.]]></FURTHERINFORMATION>
 	</GENERAL>
-	<OUTCOME>
-	</OUTCOME>
-	<OUTCOME>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Witaj. Obawiam się, że nie możesz tu parkować.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Nie zamierzam się ruszać.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Nie zamierzam się ruszać.]]></DIALOGUE>
-			<DIALOGUE PLAYER = "M" TARGET = "M" ><![CDATA[~b~Ty:~w~ Będę musiał Cię poprosić, abyś się ruszył.]]></DIALOGUE>
-			<DIALOGUE PLAYER = "M" TARGET = "F" ><![CDATA[~b~Ty:~w~ Będę musiał Cię poprosić, abyś się ruszyła.]]></DIALOGUE>
-			<DIALOGUE PLAYER = "F" TARGET = "M" ><![CDATA[~b~Ty:~w~ Będę musiała Cię poprosić, abyś się ruszył.]]></DIALOGUE>
-			<DIALOGUE PLAYER = "F" TARGET = "F" ><![CDATA[~b~Ty:~w~ Będę musiała Cię poprosić, abyś się ruszyła.]]></DIALOGUE>
+			<DIALOGUE TARGET="M" ><![CDATA[~r~Podejrzany:~w~ Nie zamierzam się ruszać.]]></DIALOGUE>
+			<DIALOGUE TARGET="F" ><![CDATA[~r~Podejrzana:~w~ Nie zamierzam się ruszać.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~b~Ty:~w~ Będę musiał Cię poprosić, abyś się ruszył.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~b~Ty:~w~ Będę musiał Cię poprosić, abyś się ruszyła.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~b~Ty:~w~ Będę musiała Cię poprosić, abyś się ruszył.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~b~Ty:~w~ Będę musiała Cię poprosić, abyś się ruszyła.]]></DIALOGUE>
 		</DIALOGUES>
-	</OUTCOME>
-	<OUTCOME>
+	</OUTCOME1>
+	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zostań tu na chwilę. Co się dzieje?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Cóż, nic specjalnego. Czy coś jest nie tak?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Cóż, nic specjalnego. Czy coś jest nie tak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Poczekaj chwilę. Co się dzieje?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Cóż, nic specjalnego. Czy coś jest nie tak?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Cóż, nic specjalnego. Czy coś jest nie tak?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ To jest chodnik. Musisz się stąd ruszyć.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Czekam na kogoś, zaraz tu będzie.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Czekam na kogoś, zaraz tu będzie.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Czekam na kogoś, zaraz tu będzie.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Czekam na kogoś, zaraz tu będzie.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ To nie była prośba. To jest chodnik, ludzie z niego korzystają.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Przeparkuję gdzie indziej.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Przeparkuję gdzie indziej.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Przeparkuję gdzie indziej.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Przeparkuję gdzie indziej.]]></DIALOGUE>
 		</DIALOGUES>
-	</OUTCOME>
-</CALLOUT>
-	<OUTCOME>
+	</OUTCOME2>
+	<OUTCOME3>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M" ><![CDATA[~b~Ty:~w~ Witaj. Zaparkowałeś na chodniku, zdajesz sobie z tego sprawę?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~b~Ty:~w~ Witaj. Zaparkowałaś na chodniku, zdajesz sobie z tego sprawę?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Tak, ale czekam tylko na przyjaciela. Czy mogę zostać?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Tak, ale czekam tylko na przyjaciela. Czy mogę zostać?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Witaj. Zaparkowałeś na chodniku, zdajesz sobie z tego sprawę?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Witaj. Zaparkowałaś na chodniku, zdajesz sobie z tego sprawę?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Tak, ale czekam tylko na przyjaciela. Czy mogę zostać?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Tak, ale czekam tylko na przyjaciela. Czy mogę zostać?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Obawiam się, że nie.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ No dobrze, ale gdzie indziej mogę pojechać?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ No dobrze, ale gdzie indziej mogę pojechać?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ No dobrze, ale gdzie indziej mogę pojechać?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ No dobrze, ale gdzie indziej mogę pojechać?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Na parking lub coś podobnego, jest ich tu dużo.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Rozumiem. Przepraszam, to się więcej nie powtórzy.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Rozumiem. Przepraszam, to się więcej nie powtórzy.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Rozumiem. Przepraszam, to się więcej nie powtórzy.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Rozumiem. Przepraszam, to się więcej nie powtórzy.]]></DIALOGUE>
 		</DIALOGUES>
-	</OUTCOME>
-</CALLOUT>
-	<OUTCOME>
+	</OUTCOME3>
+	<OUTCOME4>
 		<OTHER><![CDATA[~r~Pakowane torby z marihuaną]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Witaj. Dlaczego tu parkujesz?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Dostarczam coś.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Dostarczam coś.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Dostarczam coś.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Dostarczam coś.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Co dostarczasz? Nie wyglądasz na kuriera, jeśli mogę to powiedzieć.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Eh, coś, co muszę zrobić.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Eh, coś, co muszę zrobić.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Eh, coś, co muszę zrobić.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Eh, coś, co muszę zrobić.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Więc, parkujesz tu, czekając na dostarczenie czegoś?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" ><![CDATA[~r~Podejrzany:~w~ Słuchaj, muszę to dostarczyć, dla mojej rodziny. Proszę.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" ><![CDATA[~r~Podejrzana:~w~ Słuchaj, muszę to dostarczyć, dla mojej rodziny. Proszę.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Słuchaj, muszę to dostarczyć, dla mojej rodziny. Proszę.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Słuchaj, muszę to dostarczyć, dla mojej rodziny. Proszę.]]></DIALOGUE>
 		</DIALOGUES>
-	</OUTCOME>
+	</OUTCOME4>
 </CALLOUT>

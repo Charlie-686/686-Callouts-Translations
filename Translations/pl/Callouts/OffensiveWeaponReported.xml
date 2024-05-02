@@ -8,17 +8,15 @@
 	<OUTCOME1>
 	<NOTIFICATION><![CDATA[Zaniepokojony]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Zostań tam i trzymaj ręce z dala od kieszeni.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Zostań tam i trzymaj ręce z dala od kieszeni.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Co jest nie tak? Nic nie zrobiłem. Absolutnie nic!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Co jest nie tak? Nic nie zrobiłam. Absolutnie nic!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Potrzebuję, abyś mi się podporządkował, dobrze?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Co się dzieje? Co próbujesz zrobić?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Co się dzieje? Co próbujesz zrobić?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniósł dla mnie ręce.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniosła dla mnie ręce.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniósł dla mnie ręce.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniosła dla mnie ręce.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nie ruszaj się i trzymaj ręce z dala od kieszeni.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ O co chodzi? Nic nie zrobiłem. Absolutnie nic!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ O co chodzi? Nic nie zrobiłam. Absolutnie nic!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś mi się podporządkował, dobrze?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś mi się podporządkowała, dobrze?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ Co się dzieje? Co chcesz zrobić?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ Co się dzieje? Co chcesz zrobić?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniósł ręce.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Potrzebuję, abyś podniosła ręce.]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ NIE! ODEJDŹ! TERAZ!]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ NIE! ODEJDŹ! TERAZ!]]></DIALOGUE>
 		</DIALOGUES>
@@ -28,8 +26,7 @@
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[Aresztuj podejrzanego i postępuj według własnego uznania.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Zostań tam i trzymaj ręce w górze!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Zostań tam i trzymaj ręce w górze!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nie ruszaj się i trzymaj ręce w górze!]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~r~Podejrzany:~w~ O co chodzi!?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~r~Podejrzana:~w~ O co chodzi!?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Wiem, że masz przy sobie broń.]]></DIALOGUE>

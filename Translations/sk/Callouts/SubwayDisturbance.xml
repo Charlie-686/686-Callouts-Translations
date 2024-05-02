@@ -1,0 +1,80 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Subway Disturbance]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Okoloidúci žiada o pomoc pri podozrení na ~y~poruchu~w~ zahŕňajúcu ~y~2 jednotlivcov~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Nájdite vchod do metra~w~ a pokúste sa nájsť ~y~2 jednotlivcov~w~, ktorí spôsobili rozruch.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Obeť:~w~ Pomôžte mi, dôstojník, prenasleduje ma šialenec!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Toto je varovný výstrel, zostaňte späť!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ ARGHHHH! VEZMI TOTO!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[zhoršené]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Preverujeme ich detaily.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ich príslušné identifikačné kontroly sa vrátili ako ~g~všetko jasné~w~. Žiadny dôvod na obavy.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Obaja, upokojte sa! Poďme si tu vydýchnuť.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podozrivý jedinec 1: ~w~Dôstojník! Ani nevieš, aký je to bastard!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podozrivý jedinec 1: ~w~Dôstojník! Ani nevieš, aká je to bastarda!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dobre...ale poďme len stáť a rozprávať sa...nie agresívne na seba kričať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Nevieš, aké PEKLO som prežil s touto osobou práve tu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Prosím, skúsme veci upokojiť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Dobre dobre! Tak sa ukľudnime.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Aký je tu problém?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 1: ~w~Tento prekliaty človek vstúpil do môjho života a zničil ho.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Neurobil som!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Trochu ma znepokojuje vaše správanie oboch, môžem vám obom veriť, že vychladnete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 1: ~w~Pfff. Dobre, možno sa nechám uniesť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Môj zlý, nechcel som spôsobiť rozrušenie kvôli tej sprchovej taške.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Môžem dostať vaše ID, prosím? Chcem ich len rýchlo prejsť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Obaja môžete ísť. Buďme opatrnejší.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Stlačením ~y~Y~w~ presuniete ped na tiché miesto, kde môžete hovoriť.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Úspech~w~. Ped vás teraz sleduje.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vráťte sa a porozprávajte sa s ~r~podozrivým~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ahojte, cestujete spolu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Áno, sme. Čo chceš?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Máme tu hlásenie o možnom rušení. Budem musieť skontrolovať pár vecí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Zdá sa to zbytočné, ale isté.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Vy: ~w~Pane, prosím, poďte so mnou. Potrebujem s tebou hovoriť súkromne.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Vy: ~w~Pani, prosím poďte so mnou. Potrebujem s tebou hovoriť súkromne.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ďakujem. Môžete mi prosím povedať, či je všetko v poriadku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť: ~w~Môj partner ma núti, aby som ich nasledoval! Neviem kam, prosím pomôžte, kým nebude neskoro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Je ešte niečo, čo by som mal vedieť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obeť: ~w~Môžu mať pri sebe zbraň, buďte opatrní.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Ďakujem za čakanie. Chcem sa opýtať, či máte na sebe niečo, čo by ste nemali mať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Nemám so sebou nič.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Si si istý?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec: ~w~Ako sa hovorí, čestnosť je najlepšia politika.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy: ~w~Dobre. Ste zadržiavaný, držte ruky tam, kde ich vidím.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Obeť:~w~ Moja práca je hotová. Zatknite ma.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Videli ste, ako na mňa prišli, dôstojník! To nebola moja chyba.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Dôstojník, ďakujeme, že ste prišli! Poviem vám, čo viem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Staral som sa o svoje veci a títo dvaja ľudia prešli okolo. Strašne sa hádali! Vyzeralo to, akoby sa jeden z nich chystal odštartovať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Akou cestou išli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Nie som si istý, ale myslím, že vošli do stanice metra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ To znie ako miesto, kde začať. Ďakujem!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Okoloidúci:~w~ Nie je začo!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

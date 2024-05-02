@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vozidlo Na Chodníku]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Na chodníku bolo nahlásené vozidlo, ktoré ho ~y~blokovalo~w~. Skúste sa porozprávať s vodičom.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Ahoj. Obávam sa, že tu nemôžete zaháľať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Nehýbem sa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Budem ťa potrebovať-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Zostaň tam pre mňa. Čo sa deje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ No nič moc. Je niečo zle?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Toto je chodník. Treba sa hýbať.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Na niekoho čakám, každú chvíľu tu bude.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Nebola to žiadosť. Toto je chodník, ľudia ho využívajú.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Idem zaparkovať niekde inde.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Ahoj. Ste zaparkovaný na chodníku, vedeli ste to?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Áno, ale čakám len na priateľa. Môžem zostať?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Obávam sa, že nie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ No kam inam môžem ísť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Parkovisko alebo podobne, je ich tu veľa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Rozumel. Prepáč, už sa to nestane.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Balené kanabisové vrecká]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy:~w~Ahoj. Prečo tu parkujete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Niečo tu dávam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Doručenie čoho? Nevyzeráš ako vodič dodávky, ak ti nevadí, že to hovorím.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Uh, niečo, čo musím urobiť.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Takže tu parkujete a čakáte, že niečo doručíte?“]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Pozri, musím to doručiť pre moju rodinu. Prosím.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>
