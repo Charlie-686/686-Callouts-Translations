@@ -23,10 +23,10 @@
 		<NOTIFICATION><![CDATA[Use the ~y~photograph~w~ and the ~y~search area~w~ to apprehend the ~r~suspect~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[This is the ~y~photograph~w~ of the ~r~suspect~w~.~n~Press ~y~Y~w~ to see this notification again~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[There was ~r~no evidence~w~ here.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[I've found ~y~{0}~w~ associated with ~r~{1}~w~. Requesting urgent details on this person.]]></NOTIFICATION> // 0: an item. 1: the suspect's name.
+		<NOTIFICATION><![CDATA[I've found ~y~{0}~w~ associated with ~r~{1}~w~. Requesting urgent details on this person.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
 		<NOTIFICATION><![CDATA[Checking all nearby sightings of ~r~{0}~w~. Standby.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[You collected ~y~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[You collected ~g~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION> // If all evidence was collected, we'll make the number green! :)
+		<NOTIFICATION><![CDATA[You collected ~g~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
 	</GENERAL>
 	<OUTCOME0>
 		<NOTIFICATION><![CDATA[Once you ~y~apprehend~w~ the ~r~suspect~w~, continue as you see fit.]]></NOTIFICATION>
