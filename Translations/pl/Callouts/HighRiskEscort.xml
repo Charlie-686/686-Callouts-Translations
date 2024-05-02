@@ -6,9 +6,9 @@
 		<OTHER> <![CDATA[Komisariat Policji Mission Row]]></OTHER>
 		<OTHER> <![CDATA[Więzienie Bolingbroke]]></OTHER>
 		<OTHER><![CDATA[prowadzi ~r~zorganizowaną grupę przestępczą~w~ z udziałem skorumpowanych policjantów]]></OTHER> // Więzień jest zawsze mężczyzną.
-		<OTHER><![CDATA[jest notorycznym ~y~bossem mafii~w~, który obecnie oczekuje na proces, z ryzykiem bycia celem konkurencyjnego gangu]]></OTHER>
+		<OTHER><![CDATA[jest ~y~bossem mafii~w~, który obecnie oczekuje na proces, z ryzykiem bycia celem konkurencyjnego gangu]]></OTHER>
 		<OTHER><![CDATA[jest byłym policjantem, który stał się ~y~skorumpowanym informatorem~w~, z powiązaniami ze światem przestępczym]]></OTHER>
-		<OTHER><![CDATA[jest ~y~handlarzem narkotykowym~w~ związanym z największą operacją narkotykową w regionie]]></OTHER>
+		<OTHER><![CDATA[jest ~y~handlarzem narkotyków~w~ związanym z największą operacją narkotykową w regionie]]></OTHER>
 		<OTHER><![CDATA[jest ~y~cyberprzestępcą~w~, który obecnie odbywa wyrok w więzieniu]]></OTHER>
 		<OTHER><![CDATA[kontroluje ~y~nielegalny handel bronią~w~ i został niedawno aresztowany]]></OTHER>
 		<OTHER><![CDATA[jest ~y~terrorystą~w~. Istnieje ryzyko, że inni spróbują go uwolnić]]></OTHER>
@@ -25,7 +25,7 @@
 		<NOTIFICATION><![CDATA[~g~NISKI]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~o~ŚREDNI]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~WYSOKI]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~Kierowca~w~ furgonetki więziennej ~r~zginął~w~! Będziesz musiał ~y~prowadzić pojazd~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Kierowca~w~ furgonetki więziennej ~r~zginął~w~! Musisz ~y~poprowadzić pojazd~w~ osobiście.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Eskorta ~r~nie powiodła się~w~. ~y~Więzień~w~ został ~r~zabity~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Eskorta ~g~powiodła się~w~. ~y~Więzień~w~ został ~g~utrzymany przy życiu~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Czy ~b~eskorta utknęła~w~? Naciśnij ~y~{0}~w~ w dowolnym momencie, aby ją zresetować.]]></NOTIFICATION>
