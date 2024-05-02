@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[テロリストによる攻撃]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~{0}~s~でテロリストによる攻撃が発生しました。これ以上犠牲者を出さないために、~r~テロリスト~s~を制圧してください!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~不審な車両~w~が向かっています。警戒してください!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}人~w~の不審者がテロを企んでいることに警戒してください。]]></NOTIFICATION> //between 1-3
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

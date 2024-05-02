@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[危険な警護]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~{0}~w~への~y~囚人の移送~w~のために~y~警護~w~が必要です。応援を要請した警官があなたの到着を待っています。]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~警護情報:~w~~n~ 警護対象者の名前は~y~{0}~w~で、{1}]]></FURTHERINFORMATION> // 0: their name 1: their background
+		<OTHER> <![CDATA[ミッション・ロウ警察署]]></OTHER>
+		<OTHER> <![CDATA[ボーリングブローク刑務所]]></OTHER>
+		<OTHER><![CDATA[汚職警察官が関与している~r~犯罪組織~s~を率いています。]]></OTHER> // The prisoner is always male.
+		<OTHER><![CDATA[悪名高い~y~暴力団の組長~s~で、現在裁判期間中ですが、対立関係にある暴力団員に狙われています。]]></OTHER>
+		<OTHER><![CDATA[元警察官で、犯罪界とつながりのある~y~汚職情報屋~s~です。]]></OTHER>
+		<OTHER><![CDATA[この国最大の~y~麻薬王~s~です。]]></OTHER>
+		<OTHER><![CDATA[~y~サイバー犯罪者~s~で、現在服役中です。]]></OTHER>
+		<OTHER><![CDATA[~y~違法な武器取引~s~をしており、最近逮捕されました。]]></OTHER>
+		<OTHER><![CDATA[~y~テロリスト~s~でした。他の仲間が彼を助けようとするかもしれません。]]></OTHER>
+		<OTHER><![CDATA[~y~暴力的な暴走族~s~を率いており、ライバルの暴走族から報復を受ける可能性があります。]]></OTHER>
+		<OTHER><![CDATA[~y~悪名高い麻薬密輸組織~s~の一員でしたが、最近摘発されました。]]></OTHER>
+		<OTHER><![CDATA[~y~世界規模のマネーロンダリング計画~s~を企んでいました。]]></OTHER>
+		<NOTIFICATION><![CDATA[準備ができたら、~y~ルートに従って先導~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~不審車両~w~の接近を確認しました。待機してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[この先の道路に~r~障害物~w~を確認! 何としても警護対象を保護してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~不審車両~w~が近づいています。マップを確認して下さい!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~囚人~w~は~r~殺害~w~されました。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~新しい目標:~w~~n~ 生き残り、敵を一掃して、安全を確保してください!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~警護危険度:~w~~n~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~低]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~中]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~高]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[移送車両の~y~運転手~w~が~r~死亡~w~しました! ~y~移送車両を運転~w~する必要があります。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[警護に~r~失敗~w~しました。~y~囚人~w~は~r~殺害~w~されました。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[警護に~g~成功~w~しました。~y~囚人~w~は~g~生存~w~しました。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~警護に行き詰まっていますか~w~? ~y~{0}~w~を押して、いつでもリセットできます。]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
