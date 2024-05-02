@@ -38,9 +38,9 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ This is a crime scene now so I'll need to investigate. Is that okay?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Pilot:~w~ Yes of course Officer, you have my full cooperation.]]></DIALOGUE>
 		</DIALOGUES>
-		<OTHER><![CDATA[~r~Chloroform Cloth]]></OTHER> <!--If the pilot murdered the passenger, these are the suspicious items we will plant on the pilot!-->
-		<OTHER><![CDATA[~r~Suffocation Marks]]></OTHER>
-		<OTHER><![CDATA[~y~Pillow]]></OTHER>
+		<OTHER><![CDATA[~r~Chloroform Cloth~w~]]></OTHER> <!--If the pilot murdered the passenger, these are the suspicious items we will plant on the pilot!-->
+		<OTHER><![CDATA[~r~Suffocation Marks~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Pillow~w~]]></OTHER>
 	</OUTCOME1>
 	<OUTCOME2>
 		<NOTIFICATION><![CDATA[The ~o~aircraft~w~ is at risk of ~y~exploding anytime~w~. Speak with the pilot & proceed to evacuate!]]></NOTIFICATION>
