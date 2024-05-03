@@ -41,15 +41,15 @@
 		<INFORMATION><![CDATA[Information]]></INFORMATION>
 		<CODE4><![CDATA[~g~Code 4.~w~ Ich bin wieder für Einsatze verfügbar.]]></CODE4>
 		<PURSUITUPDATE><![CDATA[Verfolgung Update]]></PURSUITUPDATE>
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has ~y~{1}~w~ citation(s) in the past.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
-		<PURSUITUPDATE TARGET = "M"><![CDATA[believes the suspect is ~y~male~w~.]]></PURSUITUPDATE> 
-		<PURSUITUPDATE TARGET = "F"><![CDATA[believes the suspect is ~y~female~w~.]]></PURSUITUPDATE> 
-		<PURSUITUPDATE><![CDATA[believes the suspect is ~y~{0}~w~ who has been stopped ~y~{1}~w~ time(s) in the past.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
-		<PURSUITUPDATE><![CDATA[does ~y~not have details~w~ on the suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[EMERGENCY CALL]]></CALLOUTDISPLAYEDNOTIFICATION>
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Call: ~b~{0}~n~~w~Location: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<PURSUITUPDATE><![CDATA[vermutet, dass der Verdächtige ~y~{0}~w~ ist.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[vermutet, dass der Verdächtige ~y~{0}~w~ ist,  der bereits ~y~{1}~w~ Anzeige(n) erhalten hat.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[vermutet, der Verdächtige ist ~y~male~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[vermutet, der Verdächtige ist ~y~female~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[vermutet, dass der Verdächtige ~y~{0}~w~ ist, der bereits ~y~{1}~w~ Mal kontrolliert worden ist.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[hat ~y~keine Information~w~ über den Verdächtigen.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ZENTRALE]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[NOTRUF]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Einsatz: ~b~{0}~n~~w~Ort: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
 	</NOTIFICATIONS>
 </GENERAL> 
 
