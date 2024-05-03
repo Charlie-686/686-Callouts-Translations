@@ -1,0 +1,39 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Hochrisiko-Eskorte]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Ein ~y~Gefangener~w~ benötigt eine ~y~Eskorte~w~, um nach ~y~{0}~w~ gebracht zu werden. Die Kollegen warten auf Ihre Ankunft.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Eskortinformation:~w~~n~ Sie transportieren ~y~{0}~w~, der {1}.]]></FURTHERINFORMATION> // 0: Name des Gefangenen 1: Historie des Gefangenen
+		<OTHER> <![CDATA[Polizeirevier Mission Row]]></OTHER>
+		<OTHER> <![CDATA[Bolingbroke-Gefängnis]]></OTHER>
+		<OTHER><![CDATA[leitet ein ~r~organisiertes Verbrecherkartell~w~, einschließlich korrupter Polizisten]]></OTHER> // Der Gefangene ist immer männlich.
+		<OTHER><![CDATA[ist ein berüchtigter ~y~Mafia-Boss~w~, der derzeit auf seinen Prozess wartet und von einer rivalisierenden Gang bedroht wird]]></OTHER>
+		<OTHER><![CDATA[ist ein ehemaliger Polizist, der zum ~y~korrupten Informanten~w~ wurde und Verbindungen zur Unterwelt hat]]></OTHER>
+		<OTHER><![CDATA[ist ein ~y~Drogenbaron~w~, der mit dem größten Drogenhandel der Region verbunden ist]]></OTHER>
+		<OTHER><![CDATA[ist ein ~y~Cyberkrimineller~w~, der derzeit eine Gefängnisstrafe verbüßt]]></OTHER>
+		<OTHER><![CDATA[leitet ~y~illegale Waffenhandelsgeschäfte~w~ und wurde kürzlich verhaftet]]></OTHER>
+		<OTHER><![CDATA[ist ein ~y~Terrorist~w~. Es besteht die Gefahr, dass andere versuchen werden, ihn zu befreien]]></OTHER>
+		<OTHER><![CDATA[hat eine ~y~gewalttätige Straßengang~w~ gegründet und steht nun vor Racheaktionen einer rivalisierenden Gang]]></OTHER>
+		<OTHER><![CDATA[war Teil eines ~y~berüchtigten Drogenschmugglerrings~w~, der kürzlich von den Behörden zerschlagen wurde]]></OTHER>
+		<OTHER><![CDATA[hat ein ~y~globales Geldwäschesystem~w~ errichtet]]></OTHER>
+		<NOTIFICATION><![CDATA[Wenn Sie bereit sind, ~y~führen Sie den Konvoi an~w~ und folgen Sie der ~r~geplanten Route~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Meldung über Sichtung eines ~y~verdächtigen Fahrzeugs~w~, das jetzt unserem Geleitschutz folgt. Bitte warten Sie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vor uns ist eine ~r~Straßensperre~w~! Schützen Sie den Konvoi um jeden Preis.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ein ~y~verdächtiges Fahrzeug~w~ ist in der Nähe. Überprüfen Sie Ihr Radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~y~Gefangene~w~ wurde ~r~getötet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Neues Ziel:~w~~n~ Bleiben Sie am Leben, stellen Sie Ordnung wieder her und erledigen Sie die verbleibenden Feinde!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Eskortgefahrenstufe:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~NIEDRIG]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MITTEL]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~HOCH]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~y~Fahrer~w~ des Gefangenentransporters ist ~r~gestorben~w~! Sie müssen das Fahrzeug ~y~steuern~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorte ~r~fehlgeschlagen~w~. Der ~y~Gefangene~w~ wurde ~r~getötet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorte ~g~erfolgreich~w~. Der ~y~Gefangene~w~ wurde ~g~am Leben gehalten~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Steckt die ~b~Eskorte fest~w~? Drücken Sie ~y~{0}~w~, um sie jederzeit zurückzusetzen.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
+
+
+
+

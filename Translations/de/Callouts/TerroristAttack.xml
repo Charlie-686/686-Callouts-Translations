@@ -1,0 +1,10 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Terroranschlag]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein Terroranschlag ereignet sich in ~y~{0}~w~. Stoppen Sie die ~r~Terroristen~w~, um schlimmeres zu verhindern.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ein ~y~verdächtiges Fahrzeug~w~ nähert sich Ihrem Standort. Sichern Sie den Einsatzort!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Achtung es bewegen sich ~y~{0}~w~ verdächtige Person(en) in Richtung des Terroranschlags.]]></NOTIFICATION> //zwischen 1-3 Personen
+	</GENERAL>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
