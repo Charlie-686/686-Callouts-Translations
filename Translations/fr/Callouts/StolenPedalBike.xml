@@ -16,8 +16,8 @@
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour. Peut-on avoir une discussion à propos de ce vélo?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Qu'est-ce qu'il a?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Il a été signalé volé, aujourd'hui d'ailleurs.]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~r~Suspect:~w~ Oh, haha. Désolé, Je l'ai signalé! Je pensais l'avoir perdu, mais je l'ai retrouvé!]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~r~Suspect:~w~ Oh, haha. Désolée, Je l'ai signalé! Je pensais l'avoir perdu, mais je l'ai retrouvé!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect:~w~ Oh, haha. Désolé, Je l'ai signalé! Je pensais l'avoir perdu, mais je l'ai retrouvé!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect:~w~ Oh, haha. Désolée, Je l'ai signalé! Je pensais l'avoir perdu, mais je l'ai retrouvé!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Je vois, donc ce vélo est inscrit en votre nom?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yep, absolument. Faites toutes les vérifications que vous avez besoin.]]></DIALOGUE>
 		</DIALOGUES>
