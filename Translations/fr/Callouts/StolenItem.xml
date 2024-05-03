@@ -34,8 +34,8 @@
 	<EXTRA>
 		<NOTIFICATION><![CDATA[Localisez le ~r~suspect~w~. La ~y~zone de recherche sera mise à jour ~w~périodiquement.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE PLAYER "M"><![CDATA[~y~Victime:~w~ Officier, aidez-moi, J'ai été volé!]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~y~Victime:~w~ Officière, aidez-moi, J'ai été volé!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~y~Victime:~w~ Officier, aidez-moi, J'ai été volé!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~y~Victime:~w~ Officière, aidez-moi, J'ai été volé!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Pouvez-vous me dire quoi que ce soit à propos du suspect?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Victime:~w~ Pas vraiment, mais ce qu'il a volé à un traqueur GPS, ça devrait être utile pour une fois.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Parfait, Laissez moi envoyer ça au dispatch qu'il me donne les coordonnées comme ça je peux le traquer.]]></DIALOGUE>
