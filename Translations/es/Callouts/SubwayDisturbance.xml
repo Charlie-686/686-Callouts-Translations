@@ -1,0 +1,79 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Disturbios en el metro]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un transeúnte solicita ayuda por un presunto ~y~disturbio~w~ que involucra a ~y~2 personas.~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Localiza la entrada del metro~w~ e intenta encontrar a los ~y~2 individuos~w~ que han causado el disturbio..]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Víctima:~w~ Ayúdame oficial, ¡estoy siendo perseguido por un loco!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Este es un disparo de advertencia, ¡aléjate!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ARGHHHH! TOMA ESTO!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[agravado]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Estamos comprobando sus datos. Espere.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sus respectivos controles de identificación han resultado ~g~claros~w~. No hay motivo de preocupación.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¡Ambos, cálmense! Tomemos un respiro aquí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 1: ~w~¡Oficial! ¡No sabes lo bastardo que es <PronounHeShe>!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Está bien... pero quedémonos y charlemos... no gritémonos agresivamente el uno al otro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 2: ~w~No sabes el INFIERNO que he vivido con esta persona de aquí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Por favor, intentemos calmar las cosas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 2: ~w~¡Bien, BIEN! Calmémonos entonces.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Cuál es el problema aquí?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 1: ~w~Esta maldita persona entró en mi vida y la arruinó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 2: ~ w ~ ¡Yo no!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Estoy un poco preocupado por el comportamiento de ambos, ¿puedo confiar en que ambos se calmarán?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 1: ~w~Pfff. Vale, tal vez me estoy dejando llevar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso 2: ~w~Qué pena, no fue mi intención causar disturbios por ese imbécil.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Puedo darme tus identificaciones, por favor? Sólo quiero repasarlos rápidamente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Ambos son libres de irse. Gracias por cooperar al final y seamos más cuidadosos.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Presione ~y~Y~w~ para mover a la persona a un lugar tranquilo para hablar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Éxito~w~. La persona ahora te está siguiendo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vuelve a hablar con el ~r~sospechoso~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hola chicos, ¿viajan juntos?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~Sí. ¿Qué deseas?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hemos recibido un informe de un posible disturbio aquí. Necesitaré comprobar algunas cosas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Esto parece innecesario, pero hagalo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Tú: ~w~Señor, por favor venga conmigo. Necesito hablar con usted en privado.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Tú: ~w~Señora, por favor venga conmigo. Necesito hablar con usted en privado.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Gracias. ¿Puedes decirme si todo está bien??]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima: ~w~¡Mi pareja me obliga a seguirlos! No sé a dónde, por favor ayuda antes de que sea demasiado tarde.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Hay algo más que deba saber?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima: ~w~Puede que tengan un arma, ten cuidado.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Gracias por esperar. Necesito preguntarte si tienes algo encima que no deberías tener.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~ w ~ No tengo nada oficial.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~ w ~ ¿Estas seguro?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~Como dice el refrán, la honestidad es la mejor política.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Está bien. Estás detenido, mantén tus manos donde pueda verlas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Mi trabajo está hecho. Arrestame.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¡Viste cómo vinieron hacia mí, oficial! Eso no fue mi culpa.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Testigo:~w~ Oficial, ¡gracias por llegar! Déjame decirte lo que sé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Testigo:~w~ He estado ocupándome de mis asuntos y estas dos personas han pasado por mi lado. ¡Estaban discutiendo muy mal! Parecía que uno de ellos estaba a punto de pelear.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¿Hacia dónde se fueron?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Testigo:~w~ No estoy muy seguro, pero creo que entraron a la estación de metro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Perfecto, miraremos allí. ¡Gracias!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Testigo: ~ w ~ De nadab!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
