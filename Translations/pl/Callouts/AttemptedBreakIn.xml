@@ -64,7 +64,7 @@
 			<DIALOGUE PLAYER="M"><![CDATA[~y~Ofiara:~w~ To świetnie, powodzenia oficerze!]]></DIALOGUE>
 			<DIALOGUE PLAYER="F"><![CDATA[~y~Ofiara:~w~ To świetnie, powodzenia pani oficer!]]></DIALOGUE>
 		</DIALOGUES>
-	<EXTRA>
+	</EXTRA>
 	<EXTRA>
 		<DIALOGUES>
 			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze! Słyszałem kogoś na zewnątrz, jestem przerażony!]]></DIALOGUE>
