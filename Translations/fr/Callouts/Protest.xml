@@ -18,12 +18,12 @@
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Officier, vous allez rejoindre notre cause?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Officière, vous allez rejoindre notre cause?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~Officier, vous allez rejoindre notre cause?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~Officière, vous allez rejoindre notre cause?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation est à propos de quoi?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Nous croyons que le réchauffement climatique ruine notre pays et le gourvernement doit agir maintenant!]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~b~Toi: ~w~Je suis désolé, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~b~Toi: ~w~Je suis désolée, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Toi: ~w~Je suis désolé, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Toi: ~w~Je suis désolée, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Mais pourquoi? On manifeste pour la bonne cause!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation n'a pas été autorisé. Vous ne pouvez juste pas bloquer la route.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je leur ai dis au autre...Mais ils n'ont pas écouté. Je vais leur dire qu'on doit y aller.]]></DIALOGUE>
@@ -37,11 +37,11 @@
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Pourquoi vous manifestez?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Les prix de la nourriture sont en flèche et on en a marre! Nous allons mourir de faim!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation ne peut pas avoir lieu ici, vous mettez la vie publique en danger.]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officier. C'est pour la bonne cause!]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officière. C'est pour la bonne cause!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officier. C'est pour la bonne cause!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officière. C'est pour la bonne cause!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~J'ai besoin que vous bougez d'ici, vous manifestez de manière illégale.]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Officier, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ Officière, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect:~w~ Officier, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect:~w~ Officière, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<OUTCOME4>
