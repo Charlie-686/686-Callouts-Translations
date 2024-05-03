@@ -1,0 +1,52 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Manifestation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Une ~r~Manifestation se produit~w~ tout en bloquant la route. S'il vous plaît, attendez les instructions du Dispatch.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La manifestation a ~r~escaladé à la violence.~n~~y~Intervenez de toute urgence.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Surveillez la manifestation~w~ jusqu'à qu'elle soit finie. Faites en sorte que ça continue dans le calme.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La manifestation s'est produite ~g~sans s'aggraver~w~, et se termine à présent.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La manifestation continue. S'il vous plaît, faites contact avec le ~o~leader de la manifestation.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Les manifestants sont entrain ~g~de partir de la scène~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Personne:~w~ Officier, c'est ridicule! La circulation doit bouger!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Personne:~w~ Ils bloquent la route! Faites les bouger! C'est dangereux.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Personne:~w~ Officier, je vous ai dis de les dégager du chemin!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Personne:~w~ Les manifestants qui bloquent la route peuvent s'étouffer avec ça!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Officier, vous allez rejoindre notre cause?]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Officière, vous allez rejoindre notre cause?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation est à propos de quoi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Nous croyons que le réchauffement climatique ruine notre pays et le gourvernement doit agir maintenant!]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~b~Toi: ~w~Je suis désolé, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~b~Toi: ~w~Je suis désolée, vous devez bouger de là. Si vous manifestez en bloquant la route, vous avez d'abord besoin d'une autorisation.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Mais pourquoi? On manifeste pour la bonne cause!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation n'a pas été autorisé. Vous ne pouvez juste pas bloquer la route.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Je leur ai dis au autre...Mais ils n'ont pas écouté. Je vais leur dire qu'on doit y aller.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Merci. S'il vous plaît, prenez vos affaires pour que la circulation reprend.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Allez les gars, manif terminé. On y va maintenant.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Regardez qui est venu pour soutenir notre manifestation!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Pourquoi vous manifestez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Les prix de la nourriture sont en flèche et on en a marre! Nous allons mourir de faim!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~Cette manifestation ne peut pas avoir lieu ici, vous mettez la vie publique en danger.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officier. C'est pour la bonne cause!]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ On est pas intéressé à devoir bouger officière. C'est pour la bonne cause!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Toi: ~w~J'ai besoin que vous bougez d'ici, vous manifestez de manière illégale.]]></DIALOGUE>
+			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect:~w~ Officier, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
+			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect:~w~ Officière, nous ne bougerons pas! Dérangez quelqu'un d'autre.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
