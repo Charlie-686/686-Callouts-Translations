@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Yüksek Riskli Eskort]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Bir ~y~hükümlü~, ~y~{0}~w~'e eskorta ihtiyaç duyuyor. Yedek polis memurları varışınızı bekliyor.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Eskort Bilgisi:~w~~n~ ~y~{0}~w~'ı taşıyacaksınız ki {1}.]]></FURTHERINFORMATION> // 0: isimleri 1: arkaplanları
+		<OTHER> <![CDATA[Mission Row Polis Karakolu]]></OTHER>
+		<OTHER> <![CDATA[Bolingbroke Hapishanesi]]></OTHER>
+		<OTHER><![CDATA[Kurduğu bir ~r~organize suç grubunun~w~ lideri, yozlaşmış polis memurlarını içeriyor]]></OTHER> // Hükümlü her zaman erkektir.
+		<OTHER><![CDATA[Şu anda mahkemeye çıkacak olan ünlü bir ~y~mafya babası~w~, rakip bir çete tarafından hedeflenme riski]]></OTHER>
+		<OTHER><![CDATA[Eski bir polis memuru olan ve suç dünyasına bağlantıları olan ~y~yozlaşmış bir muhbir~w~]]></OTHER>
+		<OTHER><![CDATA[Bölgedeki en büyük uyuşturucu operasyonuna bağlı olan bir ~y~uçurum lordu~w~]]></OTHER>
+		<OTHER><![CDATA[Şu anda hapis cezası çeken bir ~y~siber suçlu~w~]]></OTHER>
+		<OTHER><![CDATA[Yasadışı silah ticaretini kontrol eden ve yakın zamanda tutuklanan bir ~y~suç baronu~w~]]></OTHER>
+		<OTHER><![CDATA[Bir ~y~terörist~w~. Başkalarının onu kurtarmaya çalışma riski var]]></OTHER>
+		<OTHER><![CDATA[Bir ~y~şiddet dolu sokak çetesi~w~ kurdu, rakip bir çeteden saldırıya maruz kalıyor]]></OTHER>
+		<OTHER><![CDATA[Bölgesel olarak tanınan bir uyuşturucu kaçakçılığı halkasının bir parçasıydı, yakın zamanda otoriteler tarafından dağıtıldı]]></OTHER>
+		<OTHER><![CDATA[Bir ~y~küresel para aklama düzeni~w~ kurdu]]></OTHER>
+		<NOTIFICATION><![CDATA[Hazır olduğunuzda, ~y~konvoyu~w~ yönlendirin ve ~r~planlanmış rotayı~w~ izleyin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Şüpheli bir aracın~w~ eskortumuzu takip ettiğini bildiriyoruz. Bekleyin.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Önümüzde bir ~r~yol engeli~w~ var! Konvoyu her durumda koruyun.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Yakınlarda bir ~y~şüpheli araç~w~ var. Radaronuzu kontrol edin!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Hükümlü~, ~r~ölü bulundu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Yeni Hedef:~w~~n~Hayatta kalın, düzeni yeniden sağlayın ve kalan düşmanları yenin!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Eskort Tehlike Seviyesi:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~DÜŞÜK]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~ORTA]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~YÜKSEK]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hapishane aracının ~y~sürücüsü~w~, ~r~ölü bulundu~w~! Araçı ~y~sürmeniz~w~ gerekecek.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskort ~r~başarısız~w~ oldu. ~y~Hükümlü~, ~r~ölü bulundu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskort ~g~başarılı~w~ oldu. ~y~Hükümlü~, ~g~hayatta kaldı~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Eskort sıkıştı~w~ mı? Herhangi bir zamanda sıfırlamak için ~y~{0}~w~ tuşuna basın.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

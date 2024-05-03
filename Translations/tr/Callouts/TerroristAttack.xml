@@ -1,0 +1,9 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Terörist Saldırısı]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir terörist saldırısı, ~y~{0}~w~'de gerçekleşiyor. ~r~Teröristleri~w~ kontrol altına alarak daha fazla can kaybını önleyin.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bir ~y~şüpheli araç~w~, konumunuza doğru ilerliyor. Sahneyi güvence altına alın!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Dikkat! ~y~{0}~w~ şüpheli kişi, Terörist Saldırı yerine doğru ilerliyor.]]></NOTIFICATION> // 1-3 arası
+	</GENERAL>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Girişimde Bulunan Hırsızlık]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bir ev sahibi, mülkünde ~y~girişimde bulunulan bir hırsızlık~w~ olduğunu bildirmek için aradı. Şüphelinin olay yerinden kaçtığı bildirildi.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Evidence toplamak için ~y~{0}~w~ tuşuna basın.]]></OTHER>
+		<OTHER><![CDATA[Başarıyla ~g~{0}~w~ toplandı.]]></OTHER>
+		<OTHER><![CDATA[Kimlik kartı]]></OTHER>
+		<OTHER><![CDATA[Cüzdan]]></OTHER>
+		<OTHER><![CDATA[Makas]]></OTHER>
+		<OTHER><![CDATA[Kolye]]></OTHER>
+		<OTHER><![CDATA[Ayakkabı]]></OTHER>
+		<OTHER><![CDATA[Cıvata çekici]]></OTHER>
+		<OTHER><![CDATA[Cep telefonu]]></OTHER>
+		<OTHER><![CDATA[Yakınlardaki alanda ~y~arama~w~ yapın, bir hırsızlık izi ve ipuçları arayın. Tamamlandıktan sonra, ~y~eve geri dönün~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Kilit açıcı]]></OTHER> 
+		<OTHER><![CDATA[~r~Eldiven]]></OTHER>
+		<OTHER><![CDATA[~y~Maske]]></OTHER>
+		<OTHER><![CDATA[~y~Balaclava]]></OTHER>
+		<OTHER><![CDATA[~r~Cep bıçağı]]></OTHER>
+		<OTHER><![CDATA[~r~Kaldıraç çubuğu]]></OTHER>
+		<OTHER><![CDATA[~y~Dürbün]]></OTHER>
+		<OTHER><![CDATA[~r~Ağzı Bağlama]]></OTHER>
+		<NOTIFICATION><![CDATA[~y~Fotoğrafı~w~ ve ~y~arama alanını~w~ kullanarak ~r~şüpheliyi~w~ yakalamak için.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bu ~y~şüphelinin~w~ ~y~fotoğrafı~w~.~n~Bu bildirimi tekrar görmek için ~y~Y~w~ tuşuna basın~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Burada ~r~hiçbir kanıt~w~ yoktu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bir ~r~{1}~w~ tarafından ilişkilendirilen ~y~{0}~w~ buldum. Bu kişi hakkında acil bilgi talep ediliyor.]]></NOTIFICATION> <!-- 0: bir öğe. 1: şüphelinin adı. -->
+		<NOTIFICATION><![CDATA[~r~{0}~w~ tüm yakındaki gözlemleri kontrol ediyor. Beklemede kal.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tespite yönelik ~y~{0}~w~/~g~{1}~w~ öğeleri topladınız.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tespite yönelik ~g~{0}~w~/~g~{1}~w~ öğeleri topladınız.]]></NOTIFICATION> <!-- Tüm kanıtlar toplandığında, sayıyı yeşil yapacağız! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Şüpheliyi~w~ yakaladıktan sonra, istediğiniz gibi devam edin.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Şüpheli~w~ kaçıyor!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~Şüpheli~w~ ~y~teslim oluyor~w~. Onu gözaltına alın ve araştırın.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Yardım etmemi, Memur! Yardım et!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Siz:~w~ Buradayım efendim. Şimdi güvendesiniz. Ne olduğunu anlatabilir misiniz?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Siz:~w~ Buradayım bayan. Şimdi güvendesiniz. Ne oldu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Birisi içeri girmeye çalıştı... Onları duyabiliyordum ve hemen koşup odama kilitledim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Anlıyorum. Onları hiç gördün mü?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Görmedim, ama evin dışında çok fazla hareket duydum, ta ki siz gelene kadar. Ne yaptıklarını bilmiyorum!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Teşekkür ederim. Evin etrafında biraz dolaşıp bir şey bulabilir miyim, göreyim.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Yakınlardaki alanı aradım ama maalesef bir şüpheliyi bağlayabilecek hiçbir kanıt bulamadım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Bu kötü bir şey.. peki şimdi ne olacak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Dedektiflerin daha fazla sorgulama yapması için biraz sonra gelmelerini bekleyeceğiz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Maalesef, bu ilk sorgulamalar bir sonuca ulaşmadı. Şu anda yapabileceğimiz başka bir şey yok.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ İyi haber! Yakınlarda şüpheliyi bulabileceğimizi işaret eden kanıtlar buldum. Hemen ipuçlarını takip edeceğim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Bu rahatlatıcı, memur! Teşekkür ederim ve dikkatli olun.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Lütfen, memur! Dışarıda birini duydum, dehşete düştüm!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Siz:~w~ Sakin olun, efendim. Buradayım şimdi. Ne duyduğunuzu tarif edebilir misiniz?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Siz:~w~ Endişelenme, bayan. Şimdi güvendesiniz. Ne oldu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Pencerelere vurulduğunu duydum, ama cesaret edemedim bakmaya.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Peki. Bunu olmadan önce herhangi bir şey fark ettiniz mi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Hayır, bu sessizdi. Lütfen, bunu yapanı bulun.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Elimden gelenin en iyisini yapacağım. Girginin izlerini bulmak için alana bir göz atayım.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Çevreyi aradım, ancak şüpheliyi işaret edecek herhangi bir ipucu bulamadım.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Oh hayır, şimdi ne olacak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Dedektiflerin soruşturmayı devralmasını beklememiz gerekecek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ Ne yazık ki, şu anda yapabileceğimiz çok fazla bir şey yok.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Siz:~w~ İyi haber! Yakınlarda şüpheliyi işaret eden kanıtlar buldum. Şimdi bu ipuçlarını takip edeceğim.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mağdur:~w~ Bu bir rahatlama, memur! Teşekkürler ve dikkatli olun.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
