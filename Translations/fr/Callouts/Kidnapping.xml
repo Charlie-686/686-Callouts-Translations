@@ -14,8 +14,8 @@
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ AHHH AIDEZ-MOI!]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagére:~w~ AHHH AIDEZ-MOI!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ AHHH AIDEZ-MOI!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagére:~w~ AHHH AIDEZ-MOI!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
@@ -36,16 +36,16 @@
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour, où est-ce que vous allez?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Conduire simplement cette personne à la maison.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Je vois, laissez moi avoir un mod avec elle.]]></DIALOGUE>
-			<DIALOGUE TARGET "M" PLAYER "M"><![CDATA[~y~Passager:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET "M" PLAYER "F"><![CDATA[~y~Passager:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "F"><![CDATA[~y~Passagère:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "M"><![CDATA[~y~Passagère:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "M"><![CDATA[~y~Passager:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "F"><![CDATA[~y~Passager:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER "F"><![CDATA[~y~Passagère:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER "M"><![CDATA[~y~Passagère:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ On vient de nous signaler un enlèvement, je veux juste vérifier que vous allez bien?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Merci. Je vais juste faire quelques vérifications et puis vous pourrez partir.]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ Bien sur, ça presse pas.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ Bien sur, ça presse pas.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ Bien sur, ça presse pas.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ Bien sur, ça presse pas.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Tout est bon, vous êtes libres de partir!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
@@ -59,11 +59,11 @@
 			<DIALOGUE><![CDATA[~b~Toi:~w~ J'ai besoin d'avoir un mot avec la personne, c'est d'accord?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ D'accord, mais le tarif du taxi monte pendant qu'on parle.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour, où avez-vous demander cette personne de vous emmener?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ Je me fais juste conduire à la maison.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ Je me fais juste conduire à la maison.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ Je me fais juste conduire à la maison.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ Je me fais juste conduire à la maison.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ D'accord, et il n'y a rien d'autre que vous voulez me dire?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ Juste en chemin pour la maison, c'est tout.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ Juste en chemin pour la maison, c'est tout.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ Juste en chemin pour la maison, c'est tout.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ Juste en chemin pour la maison, c'est tout.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Super, Tout à l'air d'aller. Laissez moi faire quelques vérifications et on pourra procéder à partir de là.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
@@ -72,17 +72,17 @@
 	<OTHER><![CDATA[J'étais en chemain pour la maison et cette personne portant une cagoule m'a attrapé et j'ai senti un flingue sur ma tête. Puis elle m'a forcé dans le taxi.]]></OTHER>
 	<OTHER><![CDATA[Ce chauffeur de taxi m'a demandé son chemin, j'ai approché de la vitre pour lui parler et elle m'a trainé dans la voiture. Je n'ai rien en tout cas.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE TARGET "M" PLAYER "M"><![CDATA[~y~Passager:~w~ Merci beaucoup officier! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "M"><![CDATA[~y~Passagère:~w~ Merci beaucoup officier! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
-			<DIALOGUE TARGET "M" PLAYER "F"><![CDATA[~y~Passager:~w~ Merci beaucoup officière! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "F"><![CDATA[~y~Passagère:~w~ Merci beaucoup officière! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~b~Toi:~w~ Je suis soulagé qu'on vous a trouvé. J'aimerai vous ramenner à la maison en sécurité, mais pouvez-vous me raconter ce qu'il s'est passé?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~b~Toi:~w~ Je suis soulagée qu'on vous a trouvé. J'aimerai vous ramenner à la maison en sécurité, mais pouvez-vous me raconter ce qu'il s'est passé?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "M"><![CDATA[~y~Passager:~w~ Merci beaucoup officier! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "M"><![CDATA[~y~Passagère:~w~ Merci beaucoup officier! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "F"><![CDATA[~y~Passager:~w~ Merci beaucoup officière! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "F"><![CDATA[~y~Passagère:~w~ Merci beaucoup officière! J'ai cru.. j'ai cru que c'était la fin.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Toi:~w~ Je suis soulagé qu'on vous a trouvé. J'aimerai vous ramenner à la maison en sécurité, mais pouvez-vous me raconter ce qu'il s'est passé?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Toi:~w~ Je suis soulagée qu'on vous a trouvé. J'aimerai vous ramenner à la maison en sécurité, mais pouvez-vous me raconter ce qu'il s'est passé?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Je comprend. Merci d'avoir partagé ces détails.]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Passager:~w~ J'y crois pas que ce soit arrivé...]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Passagère:~w~ J'y crois pas que ce soit arrivé...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ J'y crois pas que ce soit arrivé...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ J'y crois pas que ce soit arrivé...]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>
