@@ -23,11 +23,11 @@
 		<OTHER><![CDATA[J'ai remarqué quelqu'un avec un billet; il a l'air inhabituel, j'ai le sentiment que c'est peut-être un faux. C'est malheureux que ce soit devenu de plus en plus commun.]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Bonjour, pouvez-vous rester là pour moi s'il vous plaît?]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Le personnel de la station de train nous a appelé, ils se demandent comment vous avez passé les portes?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passé.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passée.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passé.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passée.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Je vois, puis-je le regarder s'il vous plaît?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Uh, ok. Je vois pas pourquoi vous avez besoin de faire ça.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~C'est écrit ici que le billet a expiré depuis une semaine, vous savez pourquoi?]]></DIALOGUE>
@@ -42,8 +42,8 @@
 		<OTHER><![CDATA[Un collègue m'a transmit par radio depuis une autre station. Apparemment elle n'a peut-être pas de billet sur elle, cependant mon collègue ne regardait pas les caméras à ce moment là malheureusement.]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Bonjour, pouvez-vous rester là pour moi s'il vous plaît?]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~On m'a demandé de vérifier si vous avez un billet sur vous.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Je sais pas, est-ce le cas?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Ce n'est pas marrant, Je vais avoir besoin d'une réponse honnête s'il vous plaît.]]></DIALOGUE>
@@ -58,18 +58,18 @@
 		<OTHER><![CDATA[~r~Faux billets]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Excusez-moi, j'ai besoin de discuter avec vous.]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Le personnel de la station de train nous a appelé, ils se demandent comment vous avez passé les portes?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passé.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passée.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passé.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect: ~w~Eh bien, j'ai ce billet, c'est comme ça que je suis passée.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Je vois, puis-je le regarder s'il vous plaît?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Bien sur, le voilà.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~C'est un faux billet, vous pouvez le voir avec le marquage sur le côté. Pourquoi vous l'utilisez?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Une personne en vendait à l'entrée de la station, ça devait être au moins la moitié du prix des billets de base.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Je vois, donc vous lui en avez acheté pour ce prix réduit?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~r~Suspect: ~w~Je l'ai fais oui. Regardez, voilà mon ID. Je ne suis pas un criminel, promis.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~r~Suspect: ~w~Je l'ai fais oui. Regardez, voilà mon ID. Je ne suis pas une criminelle, promis.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect: ~w~Je l'ai fais oui. Regardez, voilà mon ID. Je ne suis pas un criminel, promis.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect: ~w~Je l'ai fais oui. Regardez, voilà mon ID. Je ne suis pas une criminelle, promis.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Merci. Je vais voir si je peux trouver cette personne dont vous mentionniez.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
@@ -86,8 +86,8 @@
 		<OTHER><![CDATA[J'ai entendu par la radio que apparemment une personne n'a pas utilisé de billet.]]></OTHER>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Bonjour, pouvez-vous rester là pour moi s'il vous plaît?]]></DIALOGUE>
-			<DIALOGUE PLAYER "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
-			<DIALOGUE PLAYER "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~Bien sur officier, comment puis-je vous être utile?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~Bien sur officière, comment puis-je vous être utile?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Le personnel de la station de train nous a appelé, ils se demandent comment vous avez passé les portes?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect: ~w~Comme tout le monde, avec mon billet de train.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~Permettez-vous que j'y jette un oeil?]]></DIALOGUE>
@@ -97,29 +97,29 @@
 	</OUTCOME4>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE TARGET "M" PLAYER "M"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET "M" PLAYER "F"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "M"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET "F" PLAYER "F"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER "M"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER "F"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER "M"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER "F"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Ce n'ai vraiment rien, pouvez-vous me donner plus de détails sur la situation s'il vous plaît?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Agent de la station:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Agente de la station:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Je vois. C'est pas bon, c'est clair. Où est-ce qu'elle serait à présent?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Agent de la station: ~w~Il n'y a pas encore eu de trains, donc elle doit probablement être sur le quai.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Agente de la station: ~w~Il n'y a pas encore eu de trains, donc elle doit probablement être sur le quai.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station: ~w~Il n'y a pas encore eu de trains, donc elle doit probablement être sur le quai.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station: ~w~Il n'y a pas encore eu de trains, donc elle doit probablement être sur le quai.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Merci pour votre aide, je vais aller la voir maintenant.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Agent de la station:~w~ Mes excuses d'appeler pour quelque chose de si mesquin, c'est apprécié.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Agente de la station:~w~ Mes excuses d'appeler pour quelque chose de si mesquin, c'est apprécié.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station:~w~ Mes excuses d'appeler pour quelque chose de si mesquin, c'est apprécié.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station:~w~ Mes excuses d'appeler pour quelque chose de si mesquin, c'est apprécié.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Ce n'ai vraiment rien, pouvez-vous me donner plus de détails sur la situation s'il vous plaît?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Agent de la station:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Agente de la station:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Bien, on dirait bien qu'on a un fraudeur sous la main. Où est-ce qu'il peut être?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~y~Agent de la station: ~w~Laissez-moi réfléchir. Il doit être au quai, c'est le seul endroit qu'il peut être.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~y~Agente de la station: ~w~Laiss z-moi réfléchir. Il doit être au quai, c'est le seul endroit qu'il peut être.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station: ~w~Laissez-moi réfléchir. Il doit être au quai, c'est le seul endroit qu'il peut être.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station: ~w~Laiss z-moi réfléchir. Il doit être au quai, c'est le seul endroit qu'il peut être.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ C'est noté, bon, je vais vérifier là-bas en premier!]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
