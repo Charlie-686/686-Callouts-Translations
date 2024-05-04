@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Loupež V Uličce]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Ukradené Zboží]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}, na oběť je ~r~údajně namířena zbraň~w~. Prozkoumejte místo činu.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ s hlášenými dvěma lupiči okolo {0}. Prozkoumejte místo činu.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Stiskněte ~y~{0}~w~ pro ~g~získání zpět~w~ ukradného zboží.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Získejte zpět ukradený/ou ~y~{0}~w~ jako ~g~důkaz~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Tašku]]></OTHER>
+		<OTHER><![CDATA[Nákupní Tašku]]></OTHER>
+		<OTHER><![CDATA[Pizzu]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Balíček]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
