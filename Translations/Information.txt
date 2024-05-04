@@ -1,0 +1,27 @@
+Information updated as of 4th May 2024.
+
+### Looking to contribute to the translations?
+You can find GitHub repository here: https://github.com/Charlie-686/686-Callouts-Translations
+If you are interested in helping, please get in touch via https://discord.com/invite/GUHJT5x325
+
+## Which languages are supported?
+
+There are 14 languages with support. However, not all languages have been fully completed yet. You can still use them and it will just default to English where possible.
+
+Fully complete:
+- English
+- Japanese
+- Polish
+- Russian
+- Slovak
+- Turkish
+- German
+
+Partially complete:
+- Chinese
+- Czech
+- Spanish
+- French
+- Hungarian
+- Thai => you need a special font installed: https://el.gta5-mods.com/misc/font-thai-mods-gta-v
+- Swedish
