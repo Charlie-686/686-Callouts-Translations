@@ -8,7 +8,8 @@
 	</GENERAL>
 	<OUTCOME0>
 		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~vozidlo s bombou.~n~~w~Jedte na místo ~y~co nejrychleji.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Podezřelý ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
+		<NOTIFICATION> TARGET="M"><![CDATA[Podezřelý ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
+		<NOTIFICATION> TARGET="F"><![CDATA[Podezřelá ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~Rozbuška]]></OTHER>
 	</OUTCOME0>
@@ -16,8 +17,10 @@
 		<FURTHERINFORMATION><![CDATA[Rozvědka hlásila duševně nestabilní osobu ~r~s bombou ve vozidle.~n~~w~Urychleně! reagujte na ~y~místo činu.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Rozbuška~w~, ~y~Zapojena]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Podezřelý:~w~ Vzdávám se! Můžete mě zatknout důstojníku!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Podezřelý:~w~ Strážníku...je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vzdávám se! Můžete mě zatknout důstojníku!]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vzdávám se! Můžete mě zatknout důstojníku!]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Strážníku...je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Strážníku...je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
