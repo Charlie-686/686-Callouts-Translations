@@ -1,0 +1,35 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Automobilová bomba]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Stlačením ~y~{0}~w~ sa pokúsite ~y~odzbrojiť bombu.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo môže kedykoľvek explodovať. Buď udržať civilistov mimo dráhu vozidla~w~, alebo ukončiť prenasledovanie čo najrýchlejšie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Successful.~w~~n~Bomba bola odzbrojená. Pokračujte, ako uznáte za vhodné.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Unsuccessful.~w~~n~Bomba nebola odzbrojená. ~y~Okamžite evakuujte okolie~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Spravodajská služba ohlásila ~r~autobombu.~n~~w~Reagujte na miesto činu ~r~urgentne.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Podozrivý ~y~uteká~w~ v ich vozidle a je ozbrojen ~y~bombou.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo môže kedykoľvek explodovať. Buď udržať civilistov mimo dráhu vozidla~w~, alebo ukončiť prenasledovanie čo najrýchlejšie.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Zadržiavač bômb]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Rozviedka oznámila duševne labilnú osobu s bombou v aute.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Zadržiavač bômb~w~, ~y~Elektrické vedenie]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Vzdávam sa! Môžete ma zatknúť, dôstojník!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Dôstojník...je mi ľúto, že to muselo skončiť takto...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Spravodajská služba ohlásila ~r~autobombu.~n~~w~Reagujte na scénu ~r~urgentne.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Nálož v aute ~y~ bola odpálená.~n~~w~Hlásené obete: ~r~{0} osôb.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~r~Zadržiavač bômb~w~, ~y~Elektrické vedenie]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Spravodajská služba oznámila opustenú bombu v aute. Reagujte na scénu ~urgentne a ~y~zneškodnite bombu.~w~
+]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Kľúče od auta~w~, ~r~Bomba]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

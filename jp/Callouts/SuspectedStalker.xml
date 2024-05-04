@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[ストーカー被害]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~市民は非常に心配~w~しており、自分がストーカーされていると確信しています。~y~被害者の安全を確保してください!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ええ、私はストーカーですよ。だけど刑務所には行かないし、戻らないよ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~被害者の写真]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 離れろ! ついてくるな!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 落ち着いてください。以前、あなたが誰かをストーキングしたという通報がありました。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 腹が立つ、何もしていない。人違いだ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 何も話したくないのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ ああ、もちろん! 豚は話すものじゃなくて食うものだからね!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[被疑者がストーカーである可能性は低いです。完璧なアリバイが存在します。会話終了後に~y~被害者のところへ向かってください。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ こんにちはお巡りさん、今日はどうしたんですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ あなたがストーキング行為をしているという通報がありましたが、真実ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ いやいや、違うよ! 全く! なにかの手違いではありませんか? 買い物をするために、同じ方向に向かっていただけじゃないかな? 何か他に決定的な説明があるんですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 確かに、詳しい情報を確認するために本部に連絡します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ もちろん、私の買い物はいつでもできますから。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ どうやら手違いだったようです。お時間をとってしまい申し訳ありませんでした。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ また会いましたね。何か進展がありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 被疑者と話をしてきましたが、あの人がストーカーの可能性は低いです。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 確かにそのとおりです。なぜ早とちりして警察に電話してしまったのでしょうか。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ それは大丈夫です。安全を優先することは大事です。次回は警察署などにお越しいただいても対応します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ はい、不要な手間をかけてしまい申し訳ありませんでした。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[被疑者を発見しました。~y~会話を終了~s~して、被疑者と接触してください。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ お巡りさん、来てくれて助かった! 人がついてきているんです!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ もうダイジョブうですよ。何があったのか説明できますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ 確実に尾行されてた... けど怖くてあまり覚えていません...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 大丈夫、すぐ忘れてしまうのは普通のことです。監視カメラの映像を確認しますね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ ~y~{0}~w~に少し前に居たんです、多分15分くらい前に。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ ありがとうございます。情報を確認します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 現在監視カメラの映像を確認中ですが、他に何か情報はありますか? もう少しあると理想的です。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ いいえ... 何であの人達が2時間も追いかけてきたのか分かりません。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 心配しないでください。必ず逮捕します。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 被疑者の居場所を特定できました。お帰りになっても構いませんが、改めて連絡させていただきます。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

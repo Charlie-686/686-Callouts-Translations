@@ -1,0 +1,78 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[地下鉄の妨害]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[目撃者は~y~2人の変質者~s~による~y~妨害行為~s~で助けを求めています。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~地下鉄の入口に向かい~w~、騒動を起こしている~y~2人の変質者~w~を探してください。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~被害者:~w~ お巡りさん、助けてください。変なやつに付きまとわれているんです!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~これは警告射撃だ! 下がれ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~うがあああぁ! 放せ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+	<NOTIFICATION><![CDATA[悪化した。]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[被疑者の詳細を調べています。待機してください。]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[被疑者それぞれの情報は~g~問題なし~s~でした。心配は不要です。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ふたりとも落ち着いて! ここで一息つこう!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者1: ~w~お前はあいつがどれくらいろくでなしか知らないだろ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ええ... 落ち着いて話をしましょう。攻撃的に叫ぶのは良いことではありません。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者2: ~w~お前は私がここでこいつと過ごした地獄の日々を知らないだろうね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~お願いですから、落ち着いてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者2: ~w~大丈夫、大丈夫だ! なら落ち着いてみようか。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~一体何が問題なのですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者1: ~w~このクソ野郎が私の人生を台無しにした!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者2: ~w~してない!!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~落ち着いてください! ふたりともお互いに敬意をもって話してはどうですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者1: ~w~ははは。私は何か悪魔に取り憑かれていたのかもしれない。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者2: ~w~悪かったよ。あの汚い袋の件で騒ぎを起こすつもりは無かったんだ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~お二方の身分証明書を見せて頂けますか? 確認します。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~お帰りになっていただいて構いません。最後までご協力ありがとうございました。今後はお気をつけください。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[~y~Y~w~を押して、話をするために静かな場所へ対象を移動させます。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~成功しました~w~。対象は現在追従状態です。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~被疑者~w~の場所へ戻り、話をしてください。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~こんにちは、旅行ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~そうですよ。何かありましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ここで騒動があったと通報がありました。いくつか確認したいことがあるのですが、よろしいですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~必要ないように思うけど、良いですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~では、ついてきてください。二人で話しましょう。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~ありがとうございます。大丈夫ですか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者: ~w~あいつは私にむりやり従うように指示してきます! どこに行くのか分かりませんが、手遅れになる前に助けてください!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~他に何かありますか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~被害者: ~w~武器を持っているかもしれないです。気をつけてください。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~お待ちいただきありがとうございます。お伺いしますが、携帯してはいけないものをお持ちではありませんか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~何も?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~本当に?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者: ~w~ことわざにあるように、「正直は最上の策」ですよ。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた: ~w~そうですか、あなたを逮捕します。抵抗しないでください。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~被害者:~w~ もうおしまいだ。私を逮捕してください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~被疑者:~w~ 分かっただろ、お巡りさん。あいつがどんなやつか。私達は悪くない。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ 来てくれてありがとうございます。分かっていることをお伝えしますね。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ ここを通っていたら、本当に酷い口論をしている二人組が通ったんです。片方の人は今にももう一人を蹴りそうでした。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ どちらに向かいましたか?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ よく分かりませんが、地下鉄の駅に入った気がします。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 了解しました。情報提供に感謝します!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~目撃者:~w~ どういたしまして!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

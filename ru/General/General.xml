@@ -1,0 +1,57 @@
+<GENERAL>
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Загружено отлично~w~, пора в патруль!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Вы находитесь на старой версии!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Загружено, но пожалуйста, обновите 686 Callouts, по возможности.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Бета версия обнаружена.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Спасибо за тестирование и обратную связь. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Не удалось проверить наличие обновлений!]]></FAILED>
+		<FAILED><![CDATA[~y~Загружено, но мы не смогли проверить наличие обновлений.]]></FAILED>
+	</UPDATECHECKER>
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[В 686 Callouts отсутствуют файлы!~y~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Папка 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Папка Аудио]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Аудио файлы]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Папка с переводами]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Карьерная Статистика]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Вызовы]]></CALLS>
+		<FIGHTS><![CDATA[Драки]]></FIGHTS>
+		<PURSUITS><![CDATA[Погони]]></PURSUITS>
+		<ARRESTS><![CDATA[Аресты]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Смерти подозреваемых]]></SUSPECTDEATHS>
+	</STATISTICS>
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Анализ поведения~w~]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Подозреваемый похоже~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Жертва похоже~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Предотвращение Краша]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Возможно, возникла проблема.~w~ Пожалуйста, свяжитесь с командой поддержки.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Проверка расстояния]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Извините, вы были слишком близко, чтобы начать этот вызов.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Вини GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV удалила одного из наших "ped'ов!" Мы ничего не могли сделать кроме как предотвратить краш, но это не должно происходить часто.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Диспетчер]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Диалог окончен. Разберитесь с ситуацией так, как считаете нужным.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Нажмите ~y~{0}~w~ чтобы начать диалог.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Нажмите ~y~{0}~w~ в любое время, чтобы завершить вызов.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Информация]]></INFORMATION>
+		<CODE4><![CDATA[~g~Код 4.~w~ Отметьте, что я свободен для вызовов.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Обновление о погоне]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "M"><![CDATA[полагает, что подозреваемый ~y~{0}~w~.]]></PURSUITUPDATE> <!--Male Name-->
+		<PURSUITUPDATE TARGET = "F"><![CDATA[полагает, что подозреваемая ~y~{0}~w~.]]></PURSUITUPDATE> <!--Female Name-->
+		<PURSUITUPDATE TARGET = "M"><![CDATA[полагает, что подозреваемый ~y~{0}~w~ у которого ~y~{1}~w~ штраф(ов) в прошлом.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[полагает, что подозреваемая ~y~{0}~w~ у которой ~y~{1}~w~ штраф(ов) в прошлом.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "M"><![CDATA[полагает, что подозреваемый ~y~Мужчина~w~.]]></PURSUITUPDATE> <!--Male gender-->
+		<PURSUITUPDATE TARGET = "F"><![CDATA[полагает, что подозреваемая ~y~Женщина~w~.]]></PURSUITUPDATE> <!--Female gender-->
+		<PURSUITUPDATE TARGET = "M"><![CDATA[полагает, что подозреваемый ~y~{0}~w~, в прошлом был остановлен ~y~{1}~w~ раз(а).]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[полагает, что подозреваемая ~y~{0}~w~, в прошлом была остановлена ~y~{1}~w~ раз(а).]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[~y~не имеет подробностей~w~ о подозреваемом.]]></PURSUITUPDATE>
+	    <CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ДИСПЕТЧЕР]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ЭКСТРЕННЫЙ ВЫЗОВ]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Вызов: ~b~{0}~n~~w~Локация: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 

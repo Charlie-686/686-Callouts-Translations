@@ -1,0 +1,97 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Próba włamania]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Właściciel domu zgłosił ~y~próbę włamania~w~ do swojej nieruchomości. Podejrzany rzekomo uciekł z miejsca zdarzenia.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Naciśnij ~y~{0}~w~, aby zebrać dowody.]]></OTHER>
+		<OTHER><![CDATA[Pomyślnie odzyskano ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[dowód osobisty]]></OTHER>
+		<OTHER><![CDATA[portfel]]></OTHER>
+		<OTHER><![CDATA[nożyczki]]></OTHER>
+		<OTHER><![CDATA[naszyjnik]]></OTHER>
+		<OTHER><![CDATA[but]]></OTHER>
+		<OTHER><![CDATA[łom]]></OTHER>
+		<OTHER><![CDATA[telefon komórkowy]]></OTHER>
+		<OTHER><![CDATA[~y~Przeszukaj~w~ okolicę w poszukiwaniu dowodów i wskazówek dotyczących włamania. Po zakończeniu ~y~wróć do właściciela domu~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Wytrych]]></OTHER>
+		<OTHER><![CDATA[~r~Rękawice]]></OTHER>
+		<OTHER><![CDATA[~y~Maska]]></OTHER>
+		<OTHER><![CDATA[~y~Kominiarka]]></OTHER>
+		<OTHER><![CDATA[~r~Scyzoryk]]></OTHER>
+		<OTHER><![CDATA[~r~Łom]]></OTHER>
+		<OTHER><![CDATA[~y~Lornetka]]></OTHER>
+		<OTHER><![CDATA[~r~Knebel]]></OTHER>
+		<NOTIFICATION><![CDATA[Skorzystaj ze ~y~zdjęcia~w~ i ~y~obszaru poszukiwań~w~, aby schwytać ~r~podejrzanego~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[To jest ~y~zdjęcie~w~ ~r~podejrzanego~w~.~n~Naciśnij ~y~Y~w~, aby zobaczyć to powiadomienie ponownie~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nie znaleziono ~r~żadnych dowodów~w~ w tym miejscu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Znaleziono ~y~{0}~w~ związane z ~r~{1}~w~. Proszę o pilne szczegóły na temat tej osoby.]]></NOTIFICATION> // 0: przedmiot. 1: imię podejrzanego.
+		<NOTIFICATION><![CDATA[Sprawdzam wszystkie pobliskie miejsca, w których widziano ~r~{0}~w~. Proszę czekać.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zebrano ~y~{0}~w~/~g~{1}~w~ dowodów.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zebrano ~g~{0}~w~/~g~{1}~w~ dowodów.]]></NOTIFICATION> // Jeśli zebrano wszystkie dowody, liczba będzie zielona! :)
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Po ~y~zatrzymaniu~w~ ~r~podejrzanego~w~, kontynuuj jak uważasz za stosowne.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Podejrzany~w~ ucieka!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~Podejrzany~w~ ~y~poddaje się~w~. Aresztuj go i przeprowadź śledztwo.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Ofiara:~w~ Pomocy oficerze! Pomóż mi!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Ofiara:~w~ Pomocy pani oficer! Pomóż mi!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Spokojnie, jestem tutaj. Jesteś teraz bezpieczny. Czy możesz mi powiedzieć, co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Spokojnie, jestem tutaj. Jesteś teraz bezpieczna. Czy możesz mi powiedzieć, co się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara:~w~ Ktoś próbował się włamać... Usłyszałem ich i natychmiast pobiegłem i zamknąłem się w swoim pokoju.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Ofiara:~w~ Ktoś próbował się włamać... Usłyszałam ich i natychmiast pobiegłam i zamknęłam się w swoim pokoju.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Rozumiem. Czy widziałeś ich w ogóle?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Rozumiem. Czy widziałaś ich w ogóle?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara:~w~ Nie widziałem, ale słyszałem dużo ruchu na zewnątrz domu, aż przyjechałeś. Nie wiem, co robili!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Ofiara:~w~ Nie widziałam, ale słyszałam dużo ruchu na zewnątrz domu, aż przyjechałeś. Nie wiem, co robili!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dziękuję. Pozwól, że się tu rozejrzę i zobaczę, czy uda mi się coś znaleźć.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Przeszukałem okolicę, ale niestety nie znalazłem żadnych dowodów, które mogłyby doprowadzić mnie do podejrzanego.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Przeszukałam okolicę, ale niestety nie znalazłam żadnych dowodów, które mogłyby doprowadzić mnie do podejrzanego.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Szkoda... co teraz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Niedługo przyjadą detektywi, aby przeprowadzić dalsze dochodzenie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Niestety, te początkowe dochodzenia nie przyniosły żadnych wyników. Nie ma już nic więcej, co mogę teraz zrobić.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Przeszukałem okolicę i udało mi się znaleźć dowody, które doprowadzą mnie do podejrzanego. Postaram się teraz go znaleźć.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Przeszukałam okolicę i udało mi się znaleźć dowody, które doprowadzą mnie do podejrzanego. Postaram się teraz go znaleźć.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Ofiara:~w~ To świetnie, powodzenia oficerze!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Ofiara:~w~ To świetnie, powodzenia pani oficer!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze! Słyszałem kogoś na zewnątrz, jestem przerażony!]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="M"><![CDATA[~y~Ofiara:~w~ Oficerze! Słyszałem kogoś na zewnątrz, jestem przerażona!]]></DIALOGUE>
+			<DIALOGUE TARGET="M" PLAYER="F"><![CDATA[~y~Ofiara:~w~ Pani oficer! Słyszałem kogoś na zewnątrz, jestem przerażony!]]></DIALOGUE>
+			<DIALOGUE TARGET="F" PLAYER="F"><![CDATA[~y~Ofiara:~w~ Pani oficer! Słyszałem kogoś na zewnątrz, jestem przerażona!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Uspokój się. Jestem tutaj i nic ci nie grozi. Czy możesz opisać, co słyszałeś?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Uspokój się. Jestem tutaj i nic ci nie grozi. Czy możesz opisać, co słyszałaś?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara:~w~ Słyszałem stukanie w okna, ale nie odważyłem się spojrzeć.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Ofiara:~w~ Słyszałem stukanie w okna, ale nie odważyłam się spojrzeć.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Dobrze. Czy zauważyłeś coś niezwykłego przed tym zdarzeniem?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Dobrze. Czy zauważyłaś coś niezwykłego przed tym zdarzeniem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Nie, było cicho aż do tego momentu. Proszę, znajdź tego, kto to zrobił.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zrobię, co w mojej mocy. Pozwól mi sprawdzić teren w poszukiwaniu jakichkolwiek śladów intruza.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Przeszukałem okolicę, ale niestety nie znalazłem żadnych wskazówek prowadzących do podejrzanego.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Przeszukałam okolicę, ale niestety nie znalazłam żadnych wskazówek prowadzących do podejrzanego.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ O nie, co teraz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Będziemy musieli poczekać, aż detektywi przejmą śledztwo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Niestety, na razie nie mogę nic więcej zrobić.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Mam dobre wieści! Udało mi się znaleźć dowody, które mogą doprowadzić nas do sprawcy. Natychmiast podążę za wskazówką.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ To wspaniała wiadomość, oficerze! Dziękuję i bądź ostrożny.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ To wspaniała wiadomość, pani oficer! Dziękuję i bądź ostrożna.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

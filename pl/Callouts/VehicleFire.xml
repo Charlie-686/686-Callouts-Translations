@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Podpalony pojazd]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby zaakceptować zgłoszenie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Informator zakończył rozmowę~w~. Przesyłamy współrzędne na twój ~g~GPS~w~. Udaj się tam.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Zauważono ~r~skradziony pojazd~w~, który został ~o~podpalony~w~. Udaj się na miejsce niezwłocznie.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[Scena została zabezpieczona, naciśnij ~y~{0}~w~ aby wyznaczyć trasę w twoim GPS do domu właściciela.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Poinformuj ~p~właściciela~w~ ~y~{0}~w~, który mieszka nieopodal.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Pojazd został ugaszony. Udaj się do właściciela.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Witaj. Obawiam się, że przynoszę złe wieści.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ O nie! Co się stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Niestety jakiś czas temu mieliśmy zgłoszenie o podpalonym pojeździe. Dzięki tablicom rejestracyjnym na pojeździe, który również został zgłoszony jako kradziony, udało nam się odszukać właściciela.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara: ~w~Tak... Ja.. nie mogę w to uwierzyć. Jestem w szoku. Mój pojazd został skrawdziony i później podpalony?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Dokładnie. Mam dla ciebie kilka informacji co teraz powinieneś zrobić. Mam nadzieję, że się przydzadą.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Dokładnie. Mam dla ciebie kilka informacji co teraz powinnaś zrobić. Mam nadzieję, że się przydzadą.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Bardzo dziękuję. Patrząc na to optymistycznie, moje ubezpieczenie powinno to pokryć.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrze to słyszeć. Miłego dnia, będziemy w kontakcie.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Witaj. Mam wieści do przekazania.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ To informacje o moim pojeździe prawda? Patrząc na to, że nie ma go tutaj, domyślam się co się stało.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Niestety masz rację. Niedawno mieliśmy wezwanie o podpalonym pojeździe, przykro mi to mówić, ale należał do ciebie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara: ~w~Po prostu szok. Jak to się stało?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Niestety, ale na aktualnym etapie niestety sami nie wiemy. Tutaj są szczegóły i informacje co teraz powinieneś zrobić.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Niestety, ale na aktualnym etapie niestety sami nie wiemy. Tutaj są szczegóły i informacje co teraz powinnaś zrobić.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Cóż, dzięki. Moje ubezpieczenie pójdzie z dymem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Miejmy nadzieję, że zrozumieją i przepraszam raz jeszcze. Bedziemy w kontakcie.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Przepraszam? Hej, musimy porozmawiać.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Oh, o co chodzi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Chodzi o twój pojazd. Niedawno otrzymaliśmy zgłoszenie o pojeździe, który został podpalony. UdaŁo nam się ustalić właściciela i chcieliśmy cię poinformować.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Ofiara: ~w~Naprawdę? Jesteście pewni, że to był mój pojazd? Nie wierzę w to! Myślałem, że został skradziony, a nie spalony na popiół.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~y~Ofiara: ~w~Naprawdę? Jesteście pewni, że to był mój pojazd? Nie wierzę w to! Myślałam, że został skradziony, a nie spalony na popiół.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Na ten moment nie znamy przyczyny, ale rozpoczęliśmy śledztwo. Tutaj są dokumenty, które powinieneś przeczytać, żeby wiedzieć co robić dalej.]]></DIALOGUE>
+      <DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Na ten moment nie znamy przyczyny, ale rozpoczęliśmy śledztwo. Tutaj są dokumenty, które powinnaś przeczytać, żeby wiedzieć co robić dalej.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ofiara:~w~ Dziękuję. To wszystko stało się tak szybko, mam nadzieję, że nikt nie ucierpiał. Zwłaszcza, jeśli to było zamierzone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dokładnie, cóż... życzę miłego dnia. Jeśli będziesz mieć jakieś pytania, nie wahaj się skontaktować z nami.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Halo. Jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informator:~w~ Posłuchaj, nie mam za dużo czasu, ale jest coś o czym muszę ci powiedzieć.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Przepraszam, kto dzwoni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informator:~w~ Nie zadawaj pytań. W tym momencie jest podpalany pojazd. Musisz tam pojechać!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Gdzie? I czemu mi o tym mówisz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informator:~w~ Przesłałem lokalizację na twój telefon. Ktoś, kogo znam popełnił błąd... chce się zemścić na złej osobie.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Kim jest osoba, o której mówisz? I dlaczego chce podpalić czyiś pojazd?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informator:~w~ Błąd...popełnił błąd.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Poczekaj. Wyjaśnij mi o co chodzi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informator:~w~ I tak już zbyt wiele powiedziałem...cholera....]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

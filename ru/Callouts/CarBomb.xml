@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Бомба в машине]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Нажмите ~y~{0}~w~ чтобы попытаться ~y~обезвредить бомбу.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Транспорт ~r~может взорваться в любое время~w~.~n~Либо ~y~держите гражданских подальше от пути транспорта~w~, либо ~y~завершите погоню~w~ как можно скорее.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Успешно.~w~~n~Бомба была обезврежена. Продолжайте так, как считаете нужным.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Неуспешно.~w~~n~Бомба не была обезврежена. ~y~Эвакуируйте окружающую территорию~w~ немедленно.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Поступили данные о ~r~заминированной машине.~n~~w~Выезжайте на место происшествия ~y~незамедлительно.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Подозреваемый ~y~скрывается~w~ на своем автомобиле и вооружен ~y~бомбой.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Транспорт ~r~может взорваться в любое время~w~.~n~Либо ~y~держите гражданских подальше от пути транспорта~w~, либо ~y~завершите погоню~w~ как можно скорее.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Детонатор от бомбы]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Поступили сообщения о психически неуравновешенном человеке и ~r~заминированной машине.~n~~w~Выезжайте на место происшествия ~y~незамедлительно.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Детонатор от бомбы~w~, ~y~Провода]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Я сдаюсь! Вы можете арестовать меня офицер!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Я сдаюсь! Вы можете арестовать меня офицер!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Офицер... Мне жаль что это пришлось закончить именно так...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Офицер... Мне жаль что это пришлось закончить именно так...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Поступили данные о ~r~заминированной машине.~n~~w~Выезжайте на место происшествия ~y~незамедлительно.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Бомба в машине ~y~сдетонировала.~n~~w~Сообщается о потерях: ~r~{0} человек(а).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Провода~w~,~r~Взрывчатка]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Поступили данные о ~r~заброшенной заминированной машине.~w~~n~Выезжайте на место происшествия ~y~незамедлительно и ~y~разминируйте бомбу.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Ключи от машины~w~, ~r~Бомба]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
