@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protest]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~r~se está produciendo una protesta~w~ mientras bloquea la carretera. Espere instrucciones de Central.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La protesta se ha ~r~aumentó la violencia.~n~~y~Responda urgentemente.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Supervise la protesta~w~ hasta que termine. Asegúrese de que continúa sin dificultad.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La protesta tuvo lugar ~g~sin aumento~w~, y ahora está terminando.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La protesta está en curso. Póngase en contacto con el ~o~líder de la protesta.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Los manifestantes están ~g~abandonar la escena~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Observador:~w~ ¡Agente, esto es ridículo! ¡Necesitamos que el tráfico se mueva!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Observador:~w~ ¡Están bloqueando la carretera! ¡Muévanlos! No es seguro.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Observador:~w~ ¡Oficial, le dije que los quitara del camino!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Observador:~w~ Los manifestantes que bloqueen la carretera pueden acabar con esto.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~Agente, ¿se une a la causa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿A qué viene esta protesta?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~Creemos que el cambio climático está arruinando nuestro país, ¡y nuestro gobierno tiene que actuar ya!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Lo siento, tiene que moverse. Si protesta bloqueando una carretera, primero debe obtener autorización.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¿Pero por qué? Protestamos por una buena causa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Esta protesta no ha sido autorizada. No se puedes bloquear la carretera.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Les dije a los otros sobre esto... pero no escucharon. Les diré que tenemos que irnos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Thanks. Por favor, recoja sus cosas para que el tráfico pueda reanudarse.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Bien chicos, se acabó la protesta. Vámonos ya.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~¡Mira quién ha venido a apoyar nuestra protesta!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Para qué protestas?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso: ~w~¡Los precios de los alimentos están por las nubes y estamos hartos! ¡Nos vamos a morir de hambre!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Esta protesta no puede tener lugar aquí, estáis poniendo en peligro la seguridad ciudadana.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ No estamos interesados en mover agente. ¡Esta es una causa justa!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Necesito que te muevas, estás protestando aquí ilegalmente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¡Agente, no nos moveremos! Que se ocupe otro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

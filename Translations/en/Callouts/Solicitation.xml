@@ -47,9 +47,11 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ Both of you - stay here for me. I need to have a quick chat.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ What can I help you with?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ We've had reports of solicitation occuring in this area, would you know anything about?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Victim:~w~ Yes! This woman has come up to my car, offering her 'services'...]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~[m] Victim:~w~ Yes! This woman has come up to my car, offering her 'services'...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~[f] Victim:~w~ Yes! This woman has come up to my car, offering her 'services'...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Is this true, m'am?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm just here to do business. Consider me an entrepreneur.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~[m]Suspect:~w~ I'm just here to do business. Consider me an entrepreneur.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~[f]Suspect:~w~ I'm just here to do business. Consider me an entrepreneur.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Victim:~w~ It's unwanted and disgusting - I don't want a prostitue near me! Arrest her officer!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Let's keep things calm here, I'm going to deal with this now.]]></DIALOGUE>
 		</DIALOGUES>
