@@ -1,0 +1,54 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Ukradený předmět]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Došlo ke ~y~krádeži~w~ promluvte si s ~y~obětí~w~ a pokračujte ve vyšetřování.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Předpokládá se, že podezřelý je ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[pěšky~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[ve vozidle~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Mobilní telefon]]></OTHER>
+		<OTHER><![CDATA[Notebook]]></OTHER>
+		<OTHER><![CDATA[Peněženka]]></OTHER>
+		<OTHER><![CDATA[Klíče od domu]]></OTHER>
+		<OTHER><![CDATA[Fotoaparát]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[otřesený]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co chcete?]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co chcete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Byli jsme upozorněni na krádež. A budeme vás muset prohledat.]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jako co si to dovolujete! Nemáte žádné důkazy a já na žádné vaše otázky neodpovím!]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jako co si to dovolujete! Nemáte žádné důkazy a já na žádné vaše otázky neodpovím!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Jsem tady, abych prosadil zákon. Sledovač ukazuje, že {0} je tady u vás.]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Lži! Technologie je v dnešní době stejně špatná jako vždycky!]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Lži! Technologie je v dnešní době stejně špatná jako vždycky!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co potřebujete?]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co potřebujete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Domníváme se, že máte {0}, a díky tomu vás musím prohledat.]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Máš mě, za hloupího? Nevím kde se to tam vzalo.]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Máš mě, za hloupou? Nevím kde se to tam u mě vzalo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobře, dejte ruce nahoru a já vás zadržím za krádež.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Vyhledejte ~r~Podezřelého~w~ v ~y~dané hledané oblasti která se ~w~periodicky aktualizuje.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE> TARGET="M"><![CDATA[~y~Oběť:~w~ Strážníku, pomozte, byl jsem okraden!]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~y~Oběť:~w~ Strážníku, pomozte, byla jsem okradena!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Můžete mi říct něco o podezřelém?]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~y~Oběť:~w~ Vlastně ne, ale moje zařízení {0} má sledovač GPS, který by se měl pro jednou hodit.]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~y~Oběť:~w~ Vlastně ne, ale moje zařízení {0} má sledovač GPS, který by se měl pro jednou hodit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Úžasné, dovolte mi to poslat na centálu, kde mě stím propojí, abych to mohl vystopovat.]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~y~Oběť: ~w~Ano, doufám, že se vám to podaří získat, je to důležité.]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~y~Oběť: ~w~Ano, doufám, že se vám to podaří získat, je to důležité.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Samozřejmě se ozveme. Zkusíme to teď najít.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -8,8 +8,7 @@
 	</GENERAL>
 	<OUTCOME0>
 		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~vozidlo s bombou.~n~~w~Jedte na místo ~y~co nejrychleji.]]></FURTHERINFORMATION>
-		<NOTIFICATION> TARGET="M"><![CDATA[Podezřelý ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
-		<NOTIFICATION> TARGET="F"><![CDATA[Podezřelá ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Podezřelý ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~Rozbuška]]></OTHER>
 	</OUTCOME0>
