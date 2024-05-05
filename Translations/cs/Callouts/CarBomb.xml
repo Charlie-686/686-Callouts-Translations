@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vozidlo s nahlasenou bombou]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Stisknutím ~y~{0}~w~ se pokusíte ~y~zneskodnit aktivni bombu.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Uspěšně!~w~~n~Byla bomba zneskodnena. Pokračujte, dál podle vašeho uvážení.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Neúspěšně!~w~~n~Bomba vybuchla. ~y~Evakuujte okolí kolem vybuchu~w~ ihned!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~vozidlo s bombou.~n~~w~Jedte na místo ~y~co nejrychleji.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Podezřelý ~y~ujíždí~w~ v daném vozidle, co rozvědka nahlásila a vypadá to že je ozbrojen ~y~s bombou ve vozidle.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Rozbuška]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Rozvědka hlásila duševně nestabilní osobu ~r~s bombou ve vozidle.~n~~w~Urychleně! reagujte na ~y~místo činu.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Rozbuška~w~, ~y~Zapojena]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vzdávám se! Můžete mě zatknout důstojníku!]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vzdávám se! Můžete mě zatknout důstojníku!]]></DIALOGUE>
+			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Strážníku...je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
+			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Strážníku...je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~bombu ve vozidle~n~~w~Reagujte na místo ~y~urychleně!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bomba ve vozidle ~y~byla odpálena.~n~~w~Nahlášené oběti tragedie: ~r~{0} osob.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Zapojena~w~,~r~Vybušnina]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~opuštěné vozidlo s bombou.~w~~n~Jedte na místo ~y~co nejrychleji, a ~y~zneškodněte bombu.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Klíče od vozidla~w~, ~r~Bomba]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
