@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Şüpheli bir ~y~]]></PREFIX> // Gerektiğinde "TARGET = M/F" ekleyebilirsiniz.
+	<PREFIX><![CDATA[Şüpheli ~y~]]></PREFIX> // Gerektiğinde "TARGET = M/F" ekleyebilirsiniz.
+	<PREFIX><![CDATA[Şüpheli bir ~y~]]></PREFIX> // Gerektiğinde "TARGET = M/F" ekleyebilirsiniz.
+	<DESCRIPTION PREFIX="0"><![CDATA[takım elbise~w~.]]></DESCRIPTION> // ERKEK ped.
+	<DESCRIPTION PREFIX="0"><![CDATA[mavi tişört~w~ ve bir koşucu.]]></DESCRIPTION> // ERKEK ped.
+	<DESCRIPTION PREFIX="0"><![CDATA[mavi ekose gömlek~w~.]]></DESCRIPTION> // KADIN ped.
+	<DESCRIPTION PREFIX="0"><![CDATA{1}deri ceket~w~.]]></DESCRIPTION> // KADIN ped.
+	<DESCRIPTION PREFIX="2"><![CDATA{işçi~w~, ~y~beyaz bir tişört~w~ giyiyor.]]></DESCRIPTION> // ERKEK ped.
+	<DESCRIPTION PREFIX="1"><![CDATA{1}askı~w~.]]></DESCRIPTION> // KADIN ped.
+	<DESCRIPTION PREFIX="0"><![CDATA[mavi gömlek~w~ ile ~y~mavi şort~w~. Şüpheli postacı.]]></DESCRIPTION> // ERKEK ped.
+	<DESCRIPTION PREFIX="0"><![CDATA[büyük kırmızı gömlek ve şapka~w~ ile ~y~lacivert pantolon~w~.]]></DESCRIPTION> // ERKEK ped.
+	<DESCRIPTION PREFIX="0"><![CDATA{1}açık mavi ceket ve denim etek~w~ ile altında ~y~kırmızı bir gömlek~w~.]]></DESCRIPTION> // KADIN ped.
+</PEDDESCRIPTIONS>
