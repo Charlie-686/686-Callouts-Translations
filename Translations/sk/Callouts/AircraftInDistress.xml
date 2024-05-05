@@ -34,7 +34,7 @@
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Čo tým presne myslíš?.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Pilot: ~w~Sústredil som sa na lietanie, pretože vzdušný priestor bol dnes zaneprázdnený, otočil som sa a oni nereagovali. Potom som tu núdzovo pristál.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Má váš priateľ nejaké zdravotné ťažkosti, o ktorých vám povedali?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pilot: ~w~Húprimne, nikdy sme o tom nehovorili. Len som predpokladal, že budú dosť zdravé na to, aby mohli lietať...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Úprimne, nikdy sme o tom nehovorili. Len som predpokladal, že budú dosť zdravé na to, aby mohli lietať...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Toto je teraz miesto činu, takže to musím vyšetriť. Je to v poriadku?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Pilot: ~w~Áno, samozrejme, dôstojník, plne spolupracujem.]]></DIALOGUE>
 		</DIALOGUES>
@@ -66,7 +66,7 @@
 	</OUTCOME3>
 	<OUTCOME4>
 		<FURTHERINFORMATION><![CDATA[Je tu lietadlo, ktoré hlási núdzovú situáciu v dôsledku podozrivého čierneho pasažiera na palube. Zaistite lietadlo po pristátí.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Kontrola, či za posledných 24 hodín nejakí väzni neutiekli. Pohotovostný režim.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Skontrolujte, či za posledných 24 hodín nejakí väzni neutiekli. Pohotovostný režim.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Môžeme potvrdiť, že ~y~{0}~w~ utiekol z väzenia za posledných 24 hodín. Podozrivý je stále na slobode.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Stlačením ~y~{0}~w~ vyhľadajte vnútro ~o~lietadla~w~.]]></NOTIFICATION>
 		<DIALOGUES>
