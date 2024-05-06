@@ -22,9 +22,9 @@
 		<NOTIFICATION><![CDATA[~y~Vezeň~w~ byl ~r~zabit~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~b~Nový úkol:~w~~n~ Zůstaňte naživu, obnovte pořádek a porazte zbývající nepřátele!]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~b~Stupeň nebezpečí převozu:~w~~n~{0}~W~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~g~NÍZKÁ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~NÍZKÝ]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~o~STŘEDNÍ]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~r~VYSOKÁ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VYSOKÝ]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~y~Řidič~w~ vězeňské dodávky ~r~umřel~w~! Budete muset ~y~řídit vozidlo~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Převoz ~r~nebyl úspěšný~w~, protože ~y~vezeň~w~ při převozu ~r~umřel~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Převoz ~g~byl úspěšný~w~, protože ~y~vezeň~w~ při převozu ~g~přežil~w~.]]></NOTIFICATION>
