@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Nahlášená útočná zbraň]]></CALLOUTMESSAGE>
-		<NOTIFICATION><![CDATA[~r~Podezřelý se pohybuje!~w~~n~Udělejte si cestu do aktualizovaného umístění.]]></NOTIFICATION>
+		<CALLOUTMESSAGE><![CDATA[Nahlášená Útočná Zbraň]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Podezřelý se pohybuje!~w~~n~Dopravte se do aktualizovaného umístění.]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
@@ -9,14 +9,16 @@
 	<NOTIFICATION><![CDATA[utrápený]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Zůstaňte tam a mějte ruce z kapes ať na ně vidím!]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co je špatně? Nic jsem neudělal. NIC!]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co je špatně? Nic jsem neudělala. NIC!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Potřebuji, abys mi vyhověl, ano?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co se děje? Co se snažíte jako udělat?]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co se děje? Co se snažíte jako mě udělat?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Potřebuji, abys zvedl ruce do vzduchu, abych na ně krasně viděl a nedělal jste žádné prudké pohyby.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ NE! BĚŽ ZPÁTKY! HNED!]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ NE! BĚŽTE ODEMĚ! HNED!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co je špatně? Nic jsem neudělal. NIC!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co je špatně? Nic jsem neudělala. NIC!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Potřebuji, abyste mi vyhověl, ano?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Potřebuji, abyste mi vyhověla, ano?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co se děje? Co se jako snažíte udělat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co se děje? Co se jako snažíte udělat?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Potřebuji, abyste zvedl ruce do vzduchu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Potřebuji, abyste zvedla ruce do vzduchu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ NE! BĚŽTE ODE MĚ! HNED!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ NE! BĚŽTE ODE MĚ! HNED!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
@@ -24,19 +26,19 @@
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[Zatkněte podezřelého a řešte situaci, jak uznáte za vhodné.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zůstaňte tam kde jste a ať vidím na ruce.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Sakra! co se děje? Co je špatně?]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Sakra! co se děje? Co je špatně?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zůstaňte tam kde jste a mějte ruce tak, ať na ně vidím.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co se děje?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co se děje?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Vím, že máte u sebe zbraň.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ach ne..oh...ne...]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ach ne..oh...ne...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Co je špatně co se vám nezdá?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Prosím, omlouvám se! Nechtěl jsem...]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Prosím, omlouvám se! Nechtěla jsem...]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ach ne.. o... ne...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ach ne.. o... ne...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co je špatně?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Prosím, omlouvám se! Nechtěl jsem...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Prosím, omlouvám se! Nechtěla jsem...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ To je v pořádku, můžeme to probrat později. Jen nezapomeňte postupovat podle mých pokynů.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ NIKDY! to u sebe mít nebudu, nechci to mít na záznamech...]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ NIKDY! to u sebe mít nebudu, nechci to mít na záznamech...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ To je v pořádku, nejsem tu, abychom vám ublížil. Stačí dát ruce nahoru.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Už to u sebe mít NIKDY nebudu, nechci to mít na rejstříku...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Už to u sebe mít NIKDY nebudu, nechci to mít na rejstříku...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To je v pořádku, nejsem tu, abychom vám ublížili. Jen dejte ruce nahoru.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 </CALLOUT>
