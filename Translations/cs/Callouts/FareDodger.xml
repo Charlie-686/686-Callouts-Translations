@@ -1,0 +1,171 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Černý Pasažér]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Zaměstnanci stanice~w~ vyžadují vaší asistenci; potřebují, abyste zajistili někoho, kdo možná ~y~nezaplatil jízdenku na vlak.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Promluvte s podezřelým ~y~černým pasažérem.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Platná jízdenka~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Falešná jízdenka~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Blízká stanice mi řekla, že tam někdo přeskočil závory. Působivé, ale trestné.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Promiňte, mohl byste zde na minutku počkat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Promiňte, mohla byste zde na minutku počkat?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ale rychle, musím stihnout vlak.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ale rychle, musím stihnout vlak.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Mluvil jsem s revizorem, který mi řekl, že jste přeskočil bariéry?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Mluvil jsem s revizorem, který mi řekl, že jste přeskočila bariéry?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Pffft. To není velký problém. Nemám u sebe žádné drobné, nemůžete mi to dnes prominout?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Pffft. To není velký problém. Nemám u sebe žádné drobné, nemůžete mi to dnes prominout?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Bez placení jízdného je použití vlaku přestupek, sepíšu vám pokutu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Tak honem.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Tak honem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Tady to máte. Můžete nyní vlak použít vzhledem k tomu, že zaplatíte pokutu, ale příště zaplaťte jízdné jako každý jiný.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ To je ale drahá pokuta, tomu nemůžu uvěřit. No, asi jsem si měl koupit jízdenku.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ To je ale drahá pokuta, tomu nemůžu uvěřit. No, asi jsem si měla koupit jízdenku.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Všiml jsem si něčí jízdenky; vypadá divně, mám takový pocit, že to bude falešná. Je smůla, že se staly neustále častějšími.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Zdravím, mohl byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Zdravím, mohla byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Byli jsme zavoláni zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostal přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Byli jsme zavoláni zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostala přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, mám jízdenku, tak jsem to prošel.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, mám jízdenku, tak jsem to prošla.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Aha, mohl bych se na ni prosím podívat?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Aha, mohla bych se na ni prosím podívat?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Um, jasně. Nechápu ale proč byste musel.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Um, jasně. Nechápu ale proč byste musel.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Um, jasně. Nechápu ale proč byste musela.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Um, jasně. Nechápu ale proč byste musela.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Je tu napsáno, že jízdenka vypršela týden zpět, víte proč tomu tak je?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ To není možné, vážně! Nemám ponětí, proč tomu tak je.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ To není možné, vážně! Nemám ponětí, proč tomu tak je.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Nedělejte ze mě blbce, záměrně jste použil starý lístek. Uděluji vám pokutu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Nedělejte ze mě blbce, záměrně jste použila starý lístek. Uděluji vám pokutu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Upřímně, dělejte pro jednou něco užitečného se svým životem. Dejte mi tu pokutu, pak odcházím.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Upřímně, dělejte pro jednou něco užitečného se svým životem. Dejte mi tu pokutu, pak odcházím.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Tady to máte.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Fakt vám za tohle děkuji. Zkazil jste mi den.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Fakt vám za tohle děkuji. Zkazil jste mi den.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Fakt vám za tohle děkuji. Zkazila jste mi den.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Fakt vám za tohle děkuji. Zkazila jste mi den.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Můj kolega na jiné stanici se ozval přes rádio. Údajně u sebe nemá jízdenku, nicméně bohužel můj kolega nesledoval kamery.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Zdravím, mohl byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Zdravím, mohla byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Byl jsem požádán ať zkontroluji, jestli máte u sebe jízdenku.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Byla jsem požádána ať zkontroluji, jestli máte u sebe jízdenku.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nevím, mám ji?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nevím, mám ji?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Tohle není vtip, prosím o upřímnou odpověď.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ježiši kriste! Chytejte kriminálníky, ne lidi, co chtějí jít na vlak.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ježiši kriste! Chytejte kriminálníky, ne lidi, co chtějí jít na vlak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zeptám se ještě jednou, máte u sebe jízdenku?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nemáte nic lepšího na práci, že? Nechte mě nastoupit do toho zatraceného vlaku. Zachvíli stejně přijede.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nemáte nic lepšího na práci, že? Nechte mě nastoupit do toho zatraceného vlaku. Zachvíli stejně přijede.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Promluvte si z podezřelým ~r~prodavačem padělaných jízdenek.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Koukl jsem na jízdneku, kterou někdo používal. Nevypadala opravdově. Myslím si, že je falešná.]]></OTHER>
+		<OTHER><![CDATA[~r~Falešné jízdenky~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Promiňte, musím s vámi mluvit.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Byli jsme zavolání zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostal přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Byli jsme zavolání zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostala přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, mám jízdenku, tak jsem se dostal skrz.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, mám jízdenku, tak jsem se dostala skrz.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Aha, mohl bych se na ni prosím podívat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Aha, mohla bych se na ni prosím podívat?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jistě, tady ji máte.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jistě, tady ji máte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To je falešná jízdenka, poznáte to podle značení na boku. Proč ji používáte?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Někdo ji prodával u vstupu do stanice, musela být minimálně za polovinu ceny normální jízdenky.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Někdo ji prodával u vstupu do stanice, musela být minimálně za polovinu ceny normální jízdenky.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Aha, takže jste si ji od něj koupil za tuhle sníženou cenu?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Aha, takže jste si ji od něj koupila za tuhle sníženou cenu?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ano. Koukejte, tady je moje občanka. Nejsem zločinec, přísahám.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ano. Koukejte, tady je moje občanka. Nejsem zločinec, přísahám.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Děkuji. Pokusím se najít tohohle člověka co jste zmínil.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Děkuji. Pokusím se najít tohohle člověka co jste zmínila.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vyčkejte na minutku. Potřebuji s vámi mluvit.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Další den, další zvědavej strážník. Co chcete?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Další den, další zvědavej strážník. Co chcete?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Další den, další zvědavá strážnice. Co chcete?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Další den, další zvědavá strážnice. Co chcete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Máme podezření na to, že prodáváte paděláne jízdenky.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Omezím vás na svobodě, zůstaňte tak jak jste.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vzdávám se!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vzdávám se!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Někdo, jak jsem slyšel z rádia, zřejmě nepoužil lístek.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Zdravím, mohl byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Zdravím, mohla byste chvíli počkat?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážníku, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Určitě strážnice, jak vám můžu pomoci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Byli jsme zavoláni zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostal přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Byli jsme zavoláni zaměstnanci vlakové stanice. Zajímalo je, jak jste se dostala přes brány?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jako každý jiný, s moji jízdenkou.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jako každý jiný, s moji jízdenkou.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vadilo by, kdybych se na ni podíval?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Um, jistě. Ale nechápu proč bys to měl potřebovat.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Um, jistě. Ale nechápu proč bys to měl potřebovat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vypadá to, že je vše v pořádku, přeji hezký zbytek cesty!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ Rád vás vidím strážníku. Děkuji, že jste dorazili tak rychle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ Ráda vás vidím strážníku. Děkuji, že jste dorazili tak rychle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ Rád vás vidím strážnice. Děkuji, že jste dorazili tak rychle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ Ráda vás vidím strážnice. Děkuji, že jste dorazili tak rychle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ V pořádku, můžete prosím uvést nějaké detaily k situaci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Aha. To není vůbec přijemné. Kde zhruba teď jsou?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ Zatím nepřijely žádné vlaky, takže nejspíš budou na nástupišti.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ Zatím nepřijely žádné vlaky, takže nejspíš budou na nástupišti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Děkuji za vaši pomoc, půjdu hned za nimi.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Strážník Stanice:~w~ Omlouvám se za volání kvůli něčemu tak drobnému, vážím si toho.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ V pořádku, můžete prosím uvést nějaké detaily k situaci?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Jasně, vypadá to, že tu máme černého pasažéra. Kde by tak mohl být?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Strážník Stanice:~w~ Nechte mě popřemýšlet. Musí být na nástupišti, to je snad jediné místo, kde by mohl být.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Strážnice Stanice:~w~ Nechte mě popřemýšlet. Musí být na nástupišti, to je snad jediné místo, kde by mohl být.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobře, tam se tedy zajdu podívat jako první!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
