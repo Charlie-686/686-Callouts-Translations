@@ -8,6 +8,7 @@
 		<NOTIFICATION><![CDATA[~y~Victim:~w~ Help me Officer, I'm being chased by a madman!]]></NOTIFICATION>
 	</OUTCOME0>
 	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Development:~w~ A suspect has been reportedly ~y~knocked unconscious~w~ in the subway. Exercise extreme caution.]]></NOTIFICATION>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
