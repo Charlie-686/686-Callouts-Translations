@@ -8,6 +8,7 @@
 		<NOTIFICATION><![CDATA[~y~Жертва:~w~ Помогите мне, Офицер! За мной гонится сумасшедший!]]></NOTIFICATION>
 	</OUTCOME0>
 	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Development:~w~ Сообщается, что подозреваемый ~y~потерял сознание~w~ в метро. Будьте предельно осторожны.]]></NOTIFICATION>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
