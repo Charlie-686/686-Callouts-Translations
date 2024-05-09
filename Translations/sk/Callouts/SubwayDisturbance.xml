@@ -7,24 +7,25 @@
 	<OUTCOME0>
 		<NOTIFICATION><![CDATA[~y~Obeť:~w~ Pomôžte mi, dôstojník, prenasleduje ma šialenec!]]></NOTIFICATION>
 	</OUTCOME0>
-	<OUTCOME1>
+	<OUTCOME1>		
+		<NOTIFICATION><![CDATA[~r~Vývoj:~w~ Podozrivý údajne ~y~upadol do bezvedomia~w~ v metre. Postupujte extrémne opatrne.]]></NOTIFICATION>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ Toto je varovný výstrel, zostaňte späť!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ ARGHHHH! VEZMI TOTO!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý jedinec:~w~ ARGHHHH! TU MÁŠ!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[zhoršené]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Preverujeme ich detaily.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Ich príslušné identifikačné kontroly sa vrátili ako ~g~všetko jasné~w~. Žiadny dôvod na obavy.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ich príslušné identifikačné kontroly sa vrátili ako ~g~všetko v poriadku~w~. Žiadny dôvod na obavy.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Obaja, upokojte sa! Poďme si tu vydýchnuť.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F"><![CDATA[~r~Podozrivý jedinec 1: ~w~Dôstojník! Ani nevieš, aký je to bastard!]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Podozrivý jedinec 1: ~w~Dôstojník! Ani nevieš, aká je to bastarda!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Podozrivá 1: ~w~Dôstojník! Ani nevieš, aký je to bastard!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Podozrivý 1: ~w~Dôstojník! Ani nevieš, aká je to bastarda!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Dobre...ale poďme len stáť a rozprávať sa...nie agresívne na seba kričať.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Nevieš, aké PEKLO som prežil s touto osobou práve tu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podozrivý 2: ~w~Nevieš, aké PEKLO som prežil s touto osobou práve tu.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Prosím, skúsme veci upokojiť.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Podozrivý jedinec 2: ~w~Dobre dobre! Tak sa ukľudnime.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vy: ~w~Aký je tu problém?]]></DIALOGUE>
