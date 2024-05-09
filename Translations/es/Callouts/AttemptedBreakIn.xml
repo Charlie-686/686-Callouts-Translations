@@ -1,0 +1,84 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Intento de Robo]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[El propietario de una casa ha llamado para reportar un ~y~intento de robo~w~ en su propiedad. Supuestamente el sospechoso ha huido de la escena.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Pulsa ~y~{0}~w~ para recuperar evidencias.]]></OTHER>
+		<OTHER><![CDATA[Recuperado exitosamente ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[una tarjeta de identificación]]></OTHER>
+		<OTHER><![CDATA[una cartera]]></OTHER>
+		<OTHER><![CDATA[un par de tijeras]]></OTHER>
+		<OTHER><![CDATA[un collar]]></OTHER>
+		<OTHER><![CDATA[un zapato]]></OTHER>
+		<OTHER><![CDATA[una palanca]]></OTHER>
+		<OTHER><![CDATA[un teléfono móvil]]></OTHER>
+		<OTHER><![CDATA[~y~Registre~w~ el área cercana en busca de evidencia y pistas de un robo. Una vez completado, ~y~vuelve con el propietario de la casa~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Ganzúa]]></OTHER>
+		<OTHER><![CDATA[~r~Guantes]]></OTHER>
+		<OTHER><![CDATA[~y~Máscara]]></OTHER>
+		<OTHER><![CDATA[~y~Pasamontañas]]></OTHER>
+		<OTHER><![CDATA[~r~Navaja]]></OTHER>
+		<OTHER><![CDATA[~r~Palanqueta]]></OTHER>
+		<OTHER><![CDATA[~y~Binoculares]]></OTHER>
+		<OTHER><![CDATA[~r~Mordaza]]></OTHER>
+		<NOTIFICATION><![CDATA[Usa la ~y~fotografía~w~ y el ~y~área de búsqueda~w~ para detener al ~r~sospechoso~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Esta es la ~y~fotografía~w~ del ~r~sospechoso~w~.~n~Pulsa ~y~Y~w~ para ver esta notificación otra vez~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[No había ~r~evidencia~w~ aquí.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Encontré ~y~{0}~w~ asociado con ~r~{1}~w~. Solicitando detalles urgentes sobre esta persona.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Verificando todos los avistamientos cercanos de ~r~{0}~w~. Manténgase a la espera.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Has recolectado ~y~{0}~w~/~g~{1}~w~ elementos de evidencia.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Has recolectado ~g~{0}~w~/~g~{1}~w~ elementos de evidencia.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Una vez que ~y~arrestes~w~ al ~r~sospechoso~w~, continúa como lo veas conveniente.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[¡El ~r~sospechoso~w~ está huyendo!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[El ~r~sospechoso~w~ se está ~y~rindiendo~w~. Arréstalo e investiga.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ ¡Ayúdame Agente! ¡Ayúdame!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Tú:~w~ Estoy aquí señor. Estás a salvo ahora. ¿Puedes contarme que ha pasado?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Tú:~w~ Estoy aquí señora. Estás a salvo ahora. ¿Puedes contarme que ha pasado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Alguien intentó entrar... Lo escuché e inmediatamente corrí y me encerré en mi habitación.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Entiendo. ¿Le viste?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ No, pero escuché mucho movimiento fuera de casa hasta que tú llegaste. ¡No sé lo que estaba haciendo!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Gracias. Déjame echar un vistazo a la propiedad para ver si puedo encontrar algo.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ He registrado los alrededores pero desafortunadamente no he encontrado ninguna evidencia que pueda relacionarse con algún sospechoso.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Qué pena..¿y ahora qué?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Tendremos detectives que vendrán más tarde para realizar más investigaciones.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Desafortunadamente, estas investigaciones iniciales no han dado ningún resultado. No hay nada más que pueda hacer por ahora.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ He registrado los alrededores y encontré evidencia que vincula a un sospechoso. Voy a salir a buscarlos ahora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ ¡Eso es genial, buena suerte agente!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Víctima:~w~ ¡Por favor, agente! He escuchado a alguien fuera, estoy aterrorizado!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Víctima:~w~ ¡Por favor, agente! He escuchado a alguien fuera, estoy aterrorizada!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Tú:~w~ Mantenga la calma, señor. Ahora estoy aquí. ¿Puedes describir qué has escuchado?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Tú:~w~ No se preocupe, señora. Ahora estás a salvo. ¿Puedes contarme qué ha pasado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Escuché golpes en le ventana, pero no me atreví a mirar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ De acuerdo. ¿Notaste algo inusual antes de que esto sucediera?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ No, estaba tranquilo hasta entonces. Por favor, encuentra a quien haya hecho esto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Haré lo mejor que pueda. Déjame revisar el área en busca de cualquier señal del intruso.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ He registrado los alrededores pero desafortunadamente no he encontrado ninguna pista que conduzca al sospechoso.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ Oh no, ¿y ahora qué?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Tendremos que esperar a que los detectives se hagan cargo de la investigación.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Desafortunadamente, no hay mucho más que pueda hacer por ahora.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ ¡Buenas noticias! Encontré evidencia cerca que podría llevarnos al culpable. Seguiré la pista inmediatamente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Víctima:~w~ ¡Menos mal, agente! Gracias y ten cuidado por ahí.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

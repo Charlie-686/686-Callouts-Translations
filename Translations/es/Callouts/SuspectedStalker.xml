@@ -5,27 +5,34 @@
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Sospechoso: ~ w ~ Sí, soy un acosador, ¡pero la prisión no era para mí y no voy a volver!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso: ~w~ Sí, soy un acosador, ¡pero la prisión no era para mí y no voy a volver!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa: ~w~ Sí, soy un acosadora, ¡pero la prisión no era para mí y no voy a volver!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
 		<OTHER><![CDATA[~r~Fotos del víctima]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~¡Sal de mi cara!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~¡Sal de mi cara!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~¡Sal de mi cara!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Tú ~w~Mantengamos la calma, hemos recibido informes de que estabas acosando a alguien antes.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¡Vete a la mierda, no he hecho una mierda, es solo su palabra contra la mia!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Vete a la mierda, no he hecho una mierda, es solo su palabra contra la mia!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Vete a la mierda, no he hecho una mierda, es solo su palabra contra la mia!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Tu:~w~¿Te niegas a hablar con nosotros?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¡Sí, SÍ! No hablo con los cerdos, los como.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Sí, SÍ! No hablo con los cerdos, los como.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Sí, SÍ! No hablo con los cerdos, los como.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<NOTIFICATION><![CDATA[Es poco probable que sea el acosador; Tienen un historial limpio. Termina de hablar y luego ~y~ regresa con la víctima.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Hola oficial, ¿en qué puedo ayudarle hoy?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Hola oficial, ¿en qué puedo ayudarle hoy?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Hola oficial, ¿en qué puedo ayudarle hoy?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Tú ~w~Hemos recibido informes de un individuo de que los estabas acosando, ¿es cierto?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ ¡Dios mío, no! para nada. Debe haber un error o una confusión. Sólo estoy haciendo algunas compras, ¿tal vez íbamos en la misma dirección? Definitivamente no coincidiría con la descripción.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Dios mío, no! para nada. Debe haber un error o una confusión. Sólo estoy haciendo algunas compras, ¿tal vez íbamos en la misma dirección? Definitivamente no coincidiría con la descripción.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Dios mío, no! para nada. Debe haber un error o una confusión. Sólo estoy haciendo algunas compras, ¿tal vez íbamos en la misma dirección? Definitivamente no coincidiría con la descripción.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Tú:~w~ No nos proporcionaron una descripción, déjame comunicarme con la central para aclarar la situación.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Sospechoso:~w~ Por supuesto, mis compras pueden esperar, no te preocupes.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Por supuesto, mis compras pueden esperar, no te preocupes.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Por supuesto, mis compras pueden esperar, no te preocupes.]]></DIALOGUE>
 			<DIALOGUE/>
 			<DIALOGUE><![CDATA[~b~Tú:~w~ Estás listo, parece que lo más probable es que haya sido un error. Disfruta el resto de tu dia.]]></DIALOGUE>
 		</DIALOGUES>

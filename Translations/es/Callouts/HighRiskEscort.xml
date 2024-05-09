@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Escolta de Alto Riesgo]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Un ~y~recluso~w~ necesita una ~y~escolta~w~ a ~y~{0}~w~. Sus agentes de refuerzo están esperando a tu llegada.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Información de la Escolta:~w~~n~ Estarás transportando a ~y~{0}~w~ quien {1}.]]></FURTHERINFORMATION>
+		<OTHER> <![CDATA[Estación de Policía de Mission Row]]></OTHER>
+		<OTHER> <![CDATA[Penitenciaría de Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[diríge un~r~ grupo de crimen organizado~w~ que involucra a agentes de policía corruptos]]></OTHER>
+		<OTHER><![CDATA[es un ~y~jefe de la mafia~w~ notorio que actualmente está a la espera de juicio, con un riesgo de ser atacado por una pandilla rival]]></OTHER>
+		<OTHER><![CDATA[es una ex agente de policía convertido en ~y~informante corrupto~w~, con conexiones con el mundo criminal]]></OTHER>
+		<OTHER><![CDATA[es un ~y~capo de la droga~w~ conectado a la operación de narcóticos más grande de la región]]></OTHER>
+		<OTHER><![CDATA[es una ~y~ciberdelincuente~w~, actualmente cumpliendo una condena en prisión]]></OTHER>
+		<OTHER><![CDATA[controla el ~y~tráfico de armas ilegales~w~ y fue arrestado recientemente]]></OTHER>
+		<OTHER><![CDATA[es un ~y~terrorista~w~. Existe el riesgo de que otros intenten rescatarlo]]></OTHER>
+		<OTHER><![CDATA[creó una ~y~pandilla callejera violenta~w~, enfrentando represalias de un grupo rival]]></OTHER>
+		<OTHER><![CDATA[formaba parte de una ~y~red de tráfico de drogas notoria~w~, recientemente desarticulada por las autoridades]]></OTHER>
+		<OTHER><![CDATA[estableció un ~y~esquema global de lavado de dinero~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Cuando esté listo, ~y~lidere el convoy~w~ y siga la ~r~ruta planificada~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[[Estamos reportando visual de un ~y~vehículo sospechoso~w~ que ahora está siguiendo nuestra escolta. Permanezca a la espera.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[¡Hay un ~r~bloqueo de carretera~w~ delante! Protege el convoy a toda costa.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~y~vehículo sospechoso~w~ está cerca. ¡Revisa tu radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~y~recluso~w~ ha sido ~r~asesinado~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nuevo Objetivo:~w~~n~ Mantente con vida, restaura el orden, ¡y derrota a los enemigos restantes!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nivel de Peligro de Escolta:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~BAJO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MEDIO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~ALTO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~y~conductor~w~ del furgón de prisioneros ha ~r~muerto~w~! Necesitarás ~y~conducir el vehículo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escolta ~r~fallida~w~. El ~y~recluso~w~ fue ~r~asesinado~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escolta ~g~exitosa~w~. El ~y~recluso~w~ se mantuvo ~g~vivo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[¿Está la ~b~escolta atascada~w~? Pulsa ~y~{0}~w~ en cualquier momento para reiniciarla.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
