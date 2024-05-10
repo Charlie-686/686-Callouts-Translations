@@ -8,6 +8,7 @@
 		<NOTIFICATION><![CDATA[~y~被害者:~w~ お巡りさん、助けてください。変なやつに付きまとわれているんです!]]></NOTIFICATION>
 	</OUTCOME0>
 	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~状況報告:~w~ 被疑者が地下鉄内で~y~意識不明~w~になったと報告がありました。細心の注意を払ってください。]]></NOTIFICATION>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
