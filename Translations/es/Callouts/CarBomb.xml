@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bomba en un Coche]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Pulsa ~y~{0}~w~ para intentar ~y~desactivar la bomba.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El vehículo ~r~puede explotar en cualquier momento~w~.~n~O bien ~y~mantén a los civiles fuera del camino del vehículo~w~, o ~y~termina la persecución~w~ lo más rápido posible.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Exitoso.~w~~n~La bomba ha sido desactivada. Continúa según consideres adecuado.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Sin éxito.~w~~n~La bomba no fue desactivada. ~y~Evacua el área ~w~ inmediatamente.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Inteligencia ha informado sobre una ~r~bomba en un coche.~n~~w~Responde a la escena ~y~urgentemente.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[El sospechoso está ~y~huyendo~w~ en su vehículo, y está armado ~y~con una bomba.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El vehículo ~r~puede explotar en cualquier momento~w~.~n~O bien ~y~mantén a los civiles fuera del camino del vehículo~w~, o ~y~termina la persecución~w~ lo más rápido posible.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Desactivador de Bombas]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Inteligencia ha informado sobre una persona mentalmente inestable con una ~r~bomba de coche.~n~~w~Responde a la escena ~y~urgentemente.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[~r~Desactivador de Bombas~w~, ~y~Cableado]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ ¡Me rindo! ¡Puedes arrestarme agente!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ ¡Me rindo! ¡Puedes arrestarme agente!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Sospechoso:~w~ Agente... siento que haya terminado así...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Sospechosa:~w~ Agente... siento que haya terminado así...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Inteligencia ha informado sobre una ~r~bomba de un coche.~n~~w~Responde a la escena ~y~urgentemente.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La bomba de un coche ~y~ha sido detonada.~n~~w~Víctimas reportadas: ~r~{0} persona(s).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Cableado~w~,~r~Explosivos]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Inteligencia ha informado sobre una ~r~bomba de un coche abandonado.~w~~n~Responde a la escena ~y~urgentemente, y ~y~desactiva la bomba.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Llaves del coche~w~, ~r~Bomba]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
+
