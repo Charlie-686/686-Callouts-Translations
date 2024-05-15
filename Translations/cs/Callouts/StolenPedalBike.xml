@@ -1,61 +1,65 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Ukradené kolo]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Bylo spatřeno ~y~ukradené kolo~w~, zastavte ho.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Bylo spatřeno ~y~ukradené kolo~w~, zastavte jeho řidiče.]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
 	<OUTCOME1>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, Je vše vpořádku? Mám tady pro vás pár kratších otázek?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jasně, pokračujte. Ale sledujte ten provoz ať nás tu něco nesrazí!]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jasně, pokračujte. Ale sledujte ten provoz ať nás tu něco nesrazí!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den. Můžu se vás zeptat na pár kratších otázek?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jasně, pokračujte. Ale dávejte pozor na ten provoz za vámi. Pozor!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jasně, pokračujte. Ale dávejte pozor na ten provoz za vámi. Pozor!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, Můžeme si o tom kole promluvit?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co? proč, děje se sním něco?]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co? proč, děje se sním něco?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Bylo nahlášeno jako odcizené, dneska.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Oh, haha. Promiňte, nahlásil jsem to já! Myslel jsem, že jsem ho ztratil, ale našel jsem ho!]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Oh, haha. Promiňte, nahlásila jsem to já! Myslela jsem, že jsem ho ztratila, ale našela jsem ho!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, můžeme si o tomto kole promluvit?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co byste o něm chtěl vědět?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co byste o něm chtěl vědět?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co byste o něm chtěla vědět?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co byste o něm chtěla vědět?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Bylo nahlášeno jako odcizené, fakticky vzato dnes.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ O, haha. Promiňte, nahlásil jsem to já! Myslel jsem, že jsem ho ztratil, ale našel jsem ho!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ O, haha. Promiňte, nahlásila jsem to já! Myslela jsem, že jsem ho ztratila, ale našela jsem ho!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Chápu, takže toto kolo je registrované na vás?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jo, naprosto. Proveďte všechny potřebné kontroly.]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jo, naprosto. Proveďte všechny potřebné kontroly.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jo, naprosto. Proveďte si klidně všechny potřebné kontroly.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jo, naprosto. Proveďte si klidně všechny potřebné kontroly.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[úzkostný]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, Důvod, proč s tebou chci mluvit, je kvůli tomu kolu.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Snažím se někam dostat. Pneumatika není prázdná, ani nic rozbitého. Co je špatně?]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Snažím se někam dostat. Pneumatika není prázdná, ani nic rozbitého. Co je špatně?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Včera to bylo nahlášeno jako krádené.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ach. Uhh, to je zvláštní.]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ach. Uhh, to je zvláštní.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Nevěděl by jste proč?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ Uh...ano! Úplně jsem zapomněl, že jsem to nahlásil jako krádež.]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ Uh...ano! Úplně jsem zapomněla, že jsem to nahlásila jako krádež.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den. Důvod, proč s vámi chci mluvit, je kvůli tomu kolu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Snažím se někam dostat. Pneumatika není prázdná, ani nic není rozbité. Tak co je špatně?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Snažím se někam dostat. Pneumatika není prázdná, ani nic není rozbité. Tak co je špatně?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Včera bylo nahlášeno jako kradené.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ou. Um, to je zvláštní.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ou. Um, to je zvláštní.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Nevěděl byste proč?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Nevěděla byste proč?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Um...ano! Úplně jsem zapomněl, že jsem ho nahlásil jako kradené.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Um...ano! Úplně jsem zapomněla, že jsem ho nahlásila jako kradené.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>	
 	<OUTCOME4>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, Mohli bychom si trochu popovídat o tom kole?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, můžeme.]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, můžeme.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den. Mohli bychom si trochu popovídat o tom kole?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, můžeme.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, můžeme.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ V našich záznamech bylo nedávno hlášeno jako krádené.]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ ...]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ ...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Promiňte, co to bylo?]]></DIALOGUE>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ K této věci se vyjadřovat nebudu.]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelá:~w~ K této věci se vyjadřovat nebudu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ ...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ ...]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Promiňte, co jste říkal?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Promiňte, co jste říkala?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ K této věci se vyjadřovat nebudu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ K této věci se vyjadřovat nebudu.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>	
 	<OUTCOME5>
 		<DIALOGUES>
-			<DIALOGUE> TARGET="M"><![CDATA[~r~Podezřelý:~w~ ARRRRGGGHH! NÉ TY SVINĚ!]]></DIALOGUE>
-			<DIALOGUE> TARGET="F"><![CDATA[~r~Podezřelý:~w~ ARRRRGGGHH! NÉ TY SVINĚ!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ ARRGH! NÉ TY NE!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ ARRGH! NÉ TY NE!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME5>
 </CALLOUT>
