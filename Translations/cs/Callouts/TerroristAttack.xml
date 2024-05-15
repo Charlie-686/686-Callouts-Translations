@@ -1,9 +1,9 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Teroristický útok]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Teroristický útok probíhá na ~y~{0}~w~. Zadržte ~r~terroristy~w~ abyste zabránili dalším ztrátám na životech.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[~y~Podezřelé vozidlo~w~ je na cestě k vaší lokaci. Zabezpečte areál!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Budťe varování, že ~y~{0}~w~ podezřelý jedinec/ci jsou na cestě k teroristickému útoku.]]></NOTIFICATION> <!-- between 1-3 -->
+		<FURTHERINFORMATION><![CDATA[Teroristický útok probíhá na ~y~{0}~w~. Zadrzte ~r~terroristy~w~ abyste zabránili dalsím ztrátám na zivotech.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Podezrelé vozidlo~w~ je na ceste k vasí lokaci. Zabezpecte areál!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Budte varování, ze ~y~{0}~w~ podezrelý jedinec/ci jsou na ceste k teroristickému útoku.]]></NOTIFICATION> <!-- between 1-3 -->
 	</GENERAL>
 </CALLOUT>
 

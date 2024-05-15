@@ -1,16 +1,16 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Probíhající únos]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Osoba byla údajně ~y~unesena v taxíku. ~y~Zastavte podezřelého.~w~]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Osoba byla údajne ~y~unesena v taxíku. ~y~Zastavte podezrelého.~w~]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[~p~Vyhledávání v databázi...]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~g~Záznam čistý. Žádné důvody k obavám.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~r~Podezřelý je hledaný. Důvod k obavám.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Jakmile se vypořádáte s podezřelým, stiskněte ~y~{0}~w~ pro pomoc oběti.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Záznam cistý. zádné duvody k obavám.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Podezrelý je hledaný. Duvod k obavám.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jakmile se vyporádáte s podezrelým, stisknete ~y~{0}~w~ pro pomoc obeti.]]></NOTIFICATION>
 		<OTHER><![CDATA[~r~Stahovací pásky od krve]]></OTHER>
 		<OTHER><![CDATA[~r~Krvavé rukavice]]></OTHER>
 		<OTHER><![CDATA[~y~Lepící páska]]></OTHER>
-		<OTHER><![CDATA[~r~Páska přes oči]]></OTHER>
-		<OTHER><![CDATA[~r~Stahovací pásky~w~, ~r~Nůž~w~, ~o~Kukla]]></OTHER>
+		<OTHER><![CDATA[~r~Páska pres oci]]></OTHER>
+		<OTHER><![CDATA[~r~Stahovací pásky~w~, ~r~Nuz~w~, ~o~Kukla]]></OTHER>
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
@@ -20,65 +20,65 @@
 	<OUTCOME1>
 		<NOTIFICATION><![CDATA[vyprovokovaný]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Poslouchejte. Potřebuji si promluvit s vaším cestujícím.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nemyslím si. Vystoupil jsem z auta, můžete mluvit se mnou.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nemyslím si. Vystoupila jsem z auta, můžete mluvit se mnou.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Je pro mě důležité, abyste mě nechal s nimi mlvuit.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Dobře, dobře, jen mi řekněte, co se děje.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelý:~w~ Dobře, dobře, jen mi řekněte, co se děje.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlášení o únosu jedince. Provádíme nějaké kontroly.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, máte tu správnou osobu!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, máte tu správnou osobu!]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Tady jsme skončili!!!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelý:~w~ Tady jsme skončili!!!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Poslouchejte. Potrebuji si promluvit s vasím cestujícím.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Nemyslím si. Vystoupil jsem z auta, muzete mluvit se mnou.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Nemyslím si. Vystoupila jsem z auta, muzete mluvit se mnou.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Je pro me dulezité, abyste me nechal s nimi mlvuit.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Dobre, dobre, jen mi reknete, co se deje.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelý:~w~ Dobre, dobre, jen mi reknete, co se deje.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlásení o únosu jedince. Provádíme nejaké kontroly.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ No, máte tu správnou osobu!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ No, máte tu správnou osobu!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Tady jsme skoncili!!!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelý:~w~ Tady jsme skoncili!!!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<OTHER><![CDATA[~g~Potraviny]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, kam se právě chystáte?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Právě odvážím tohoto pasažéra domů]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Právě odvážím tohoto pasažéra domů]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, kam se práve chystáte?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Práve odvázím tohoto pasazéra domu]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Práve odvázím tohoto pasazéra domu]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Chápu. Dovolte mi si rychle promluvit s cestujícím.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M"><![CDATA[~y~Pasažér:~w~ Zdravím strážníku, co potřebujete?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F"><![CDATA[~y~Pasažér:~w~ Zdravím strážnice, co potřebujete?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Právě jsme dostali zprávy o únosu, jen chci zkontrolovat, zda jste v pořádku]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ Absolutně! Právě jsem byl na nákupu, který leží v kufru.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Děkuji. Provedu jen pár kontrol a pak vás nechám jet dál.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ Samozřejmě, žádný spěch.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Všechno je v pořádku, můžete jet!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Pasazér:~w~ Zdravím strázníku, co potrebujete?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Pasazér:~w~ Zdravím stráznice, co potrebujete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Práve jsme dostali zprávy o únosu, jen chci zkontrolovat, zda jste v porádku]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ Absolutne! Práve jsem byl na nákupu, který lezí v kufru.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dekuji. Provedu jen pár kontrol a pak vás nechám jet dál.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ Samozrejme, zádný spech.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vsechno je v porádku, muzete jet!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
-		<NOTIFICATION><![CDATA[že se snaží upoutat vaší pozornost]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[ze se snazí upoutat vasí pozornost]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Potřebuji si jen promluvit, vypněte motor, prosím.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Co se děje?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Co se děje?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlášení o možném únosu. Tak by mě jen zajímalo, kam máte namířeno.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vezu tuhle osobu tam, kam potřebuje. To dělá taxikář.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vezu tuhle osobu tam, kam potřebuje. To dělá taxikářka.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Potřebuji si promluvit s pasažérem, je to s vámi v pořádku?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Dobře, ale přitom co budete mluvit, tak bude jízdné stoupat.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Dobře, ale přitom co budete mluvit, tak bude jízdné stoupat.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, kam jste tohoto řidiče požádali, aby vás odvezl?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ Aby mě odvezl domů.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrá, a nechcete mi nic říct?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ Právě jsem na cestě domů, to je vše.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Skvěle, vše se zdá být v pořádku. Nechte mě provést nějaké kontroly a potom budeme moci pokračovat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Potrebuji si jen promluvit, vypnete motor, prosím.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Co se deje?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Co se deje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlásení o mozném únosu. Tak by me jen zajímalo, kam máte namíreno.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Vezu tuhle osobu tam, kam potrebuje. To delá taxikár.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Vezu tuhle osobu tam, kam potrebuje. To delá taxikárka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Potrebuji si promluvit s pasazérem, je to s vámi v porádku?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Dobre, ale pritom co budete mluvit, tak bude jízdné stoupat.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Dobre, ale pritom co budete mluvit, tak bude jízdné stoupat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrý den, kam jste tohoto ridice pozádali, aby vás odvezl?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ Aby me odvezl domu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobrá, a nechcete mi nic ríct?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ Práve jsem na ceste domu, to je vse.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Skvele, vse se zdá být v porádku. Nechte me provést nejaké kontroly a potom budeme moci pokracovat.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<EXTRA>
-	<OTHER><![CDATA[Myslel jsem, že je to skutečný taxík... ale jakmile jsem nastoupil, všiml jsem si, že něco není v pořádku. Jeli jsme uličkou, namířil na mě pistolí, vzal mi telefon a řekl, abych mlčel.]]></OTHER>
-	<OTHER><![CDATA[Šel jsem domů a tenhle člověk v kukle mě popadl a ucítil jsem u hlavy zbraň. Donutil mě nastoupit do taxíku.]]></OTHER>
-	<OTHER><![CDATA[Tento taxikář se mě zeptal na cestu, naklonil jsem se do jeho auta, abych s ním promluvil, a on mě vtáhl dovnitř. Nejsem ale zraněný.]]></OTHER>
+	<OTHER><![CDATA[Myslel jsem, ze je to skutecný taxík... ale jakmile jsem nastoupil, vsiml jsem si, ze neco není v porádku. Jeli jsme ulickou, namíril na me pistolí, vzal mi telefon a rekl, abych mlcel.]]></OTHER>
+	<OTHER><![CDATA[sel jsem domu a tenhle clovek v kukle me popadl a ucítil jsem u hlavy zbran. Donutil me nastoupit do taxíku.]]></OTHER>
+	<OTHER><![CDATA[Tento taxikár se me zeptal na cestu, naklonil jsem se do jeho auta, abych s ním promluvil, a on me vtáhl dovnitr. Nejsem ale zranený.]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M"><![CDATA[~y~Pasažér:~w~ Děkuji mnohokrát, pane strážníku!  Myslel jsem... myslel jsem, že je konec.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F"><![CDATA[~y~Pasažér:~w~ Děkuji mnohokrát, paní strážnice!  Myslel jsem... myslel jsem, že je konec.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Ulevilo se mi, že jsme vás našli. Chci vás dostat do bezpečí domova, ale můžete mi říct, co se stalo?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ {0}]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Chápu. Děkujeme za sdělení těchto podrobností.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Pasažér:~w~ Nemůžu uvěřit, že se tohle stalo....]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Pasazér:~w~ Dekuji mnohokrát, pane strázníku!  Myslel jsem... myslel jsem, ze je konec.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Pasazér:~w~ Dekuji mnohokrát, paní stráznice!  Myslel jsem... myslel jsem, ze je konec.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Ulevilo se mi, ze jsme vás nasli. Chci vás dostat do bezpecí domova, ale muzete mi ríct, co se stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Chápu. Dekujeme za sdelení techto podrobností.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pasazér:~w~ Nemuzu uverit, ze se tohle stalo....]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

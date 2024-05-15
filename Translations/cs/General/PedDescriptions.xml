@@ -1,18 +1,18 @@
 <PEDDESCRIPTIONS>
-	<PREFIX TARGET="M"><![CDATA[Podezřelý má na sobě ~y~]]></PREFIX>
-	<PREFIX TARGET="F"><![CDATA[Podezřelá má na sobě ~y~]]></PREFIX>
-	<PREFIX TARGET="M"><![CDATA[Podezřelý má na sobě ~y~]]></PREFIX>
-	<PREFIX TARGET="F"><![CDATA[Podezřelá má na sobě ~y~]]></PREFIX>
-	<PREFIX TARGET="M"><![CDATA[Podezřelý je ~y~]]></PREFIX>
-	<PREFIX TARGET="F"><![CDATA[Podezřelá je ~y~]]></PREFIX>
+	<PREFIX TARGET="M"><![CDATA[Podezrelý má na sobe ~y~]]></PREFIX>
+	<PREFIX TARGET="F"><![CDATA[Podezrelá má na sobe ~y~]]></PREFIX>
+	<PREFIX TARGET="M"><![CDATA[Podezrelý má na sobe ~y~]]></PREFIX>
+	<PREFIX TARGET="F"><![CDATA[Podezrelá má na sobe ~y~]]></PREFIX>
+	<PREFIX TARGET="M"><![CDATA[Podezrelý je ~y~]]></PREFIX>
+	<PREFIX TARGET="F"><![CDATA[Podezrelá je ~y~]]></PREFIX>
 	<DESCRIPTION PREFIX = "0" ><![CDATA[oblek~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[modré tričko~w~ a je běžec.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[modrou kostkovanou košili~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[kožený kabát~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "2"><![CDATA[pracovník~w~, který má na sobě ~y~bílé tričko~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "1"><![CDATA[kšandy~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[modré tričko~w~ s ~y~modrými kraťasy~w~. Zřejmě pracovník pošty.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[velké červené tričko a čepici~w~ společně s ~y~námořnickými kalhotami~w~.]]></DESCRIPTION>
-	<DESCRIPTION PREFIX = "0"><![CDATA[světle modré sako a džínovou sukni~w~ a vespod má ~y~červené tričko~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modré tricko~w~ a je bezec.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modrou kostkovanou kosili~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[kozený kabát~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "2"><![CDATA[pracovník~w~, který má na sobe ~y~bílé tricko~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "1"><![CDATA[ksandy~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[modré tricko~w~ s ~y~modrými kratasy~w~. Zrejme pracovník posty.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[velké cervené tricko a cepici~w~ spolecne s ~y~námornickými kalhotami~w~.]]></DESCRIPTION>
+	<DESCRIPTION PREFIX = "0"><![CDATA[svetle modré sako a dzínovou sukni~w~ a vespod má ~y~cervené tricko~w~.]]></DESCRIPTION>
 </PEDDESCRIPTIONS>
 <!-- <![CDATA[]]> -->
