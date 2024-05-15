@@ -25,7 +25,7 @@
 		<NOTIFICATION><![CDATA[anxious]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. The reason I'm speaking to you is because of that bike.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm trying to get somewhere. The tire isn't flat or anthing. What's wrong?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm trying to get somewhere. The tire isn't flat or anything. What's wrong?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Yesterday it was reported stolen.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh. Uhh, that is odd.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ You wouldn't know why would you?]]></DIALOGUE>
