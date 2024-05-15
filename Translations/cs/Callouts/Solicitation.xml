@@ -1,0 +1,73 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Obtežování]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Bylo nahlášeno podezření na ~y~prostitutku~w~, zamiřte na místo ~y~vyčkejte na další pokyny~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Blížíte se k místu. ~y~Zaparkujte tak~w~ aby si vás podezřelý nevšiml.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Navažte kontakt s podezřelým.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jste ~r~příliš blízko podezřelému~w~. Přesuňte se dále, aby si vás nevšiml.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Upozornili jste podezřelého.~n~~w~Z tohoto důvodu jsme ~y~nemohli shromáždit důkaz~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Podezřelý navázal kontakt s vozidlem. ~y~Promluvte si s ním a vyšetřujte situaci.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo není přidruženo k ~y~podezřelému.~w~ Pokračujte, jak uznáte za vhodné.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Drogové náčiní, Bílá prášková látka]]></OTHER>
+		<OTHER><![CDATA[~y~Balíček kondomů]]></OTHER>
+		<OTHER><![CDATA[~y~Lubrikant~w~,~r~ Bílá prášková látka]]></OTHER>
+		<OTHER><![CDATA[~r~Ruličky peněz, Vystřelovací nůž]]></OTHER>
+		<OTHER><![CDATA[~r~Ruličky peněz]]></OTHER>
+		<OTHER><![CDATA[~y~Kalhotky]]></OTHER>
+		<OTHER><![CDATA[~r~Nevhodný obrazek]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Krvavý nůž]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Přihlížející:~w~ Tady! Tady!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Přihlížející:~w~ Prosím zachraňte ji! Prosím]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co se stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Přihlížející:~w~ Zrovna jsem byl na procházce a potkal jsem tuhle ubohou ženu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Přihlížející:~w~ Zrovna jsem byla na procházce a potkala jsem tuhle ubohou ženu.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Viděl jste co se stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Viděla jste co se stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Přihlížející:~w~ Bohužel ne, přál bych si, abych tu mohl být dříve. Možná by ještě žila...]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Přihlížející:~w~ Bohužel ne, přála bych si, abych tu mohla být dříve. Možná by ještě žila...]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ A připomeňte mi - co jste zrovna dělal, když jste ji našel?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ A připomeňte mi - co jste zrovna dělala, když jste ji našela?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Přihlížející:~w~ Jen se procházím, bydlím tu nedaleko.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Jsem si jistý, že pochopíte, že musím provést nějaké kontroly - pokud byste zde mohl zůstat, bylo by to skvělé.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Jsem si jistý, že pochopíte, že musím provést nějaké kontroly - pokud byste zde mohla zůstat, bylo by to skvělé.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Madam, potřebuji si s vámi promluvit.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~r~Podezřelá:~w~ Strážníku, s čím vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~r~Podezřelá:~w~ Strážnice, s čím vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Máme zprávy o obtěžování v této oblasti. Věděla byste o tom něco?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~r~Podezřelá:~w~ Pane Bože! Já ne, strážníku, máte špatnou osobu.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~r~Podezřelá:~w~ Pane Bože! Já ne, strážnice, máte špatnou osobu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dnes je docela chladno a máte na sobě velmi málo oblečení.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~r~Podezřelá:~w~ Strážníku, obávám se, že to není zločin. Právě vyrážím na párty, která už začala.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~r~Podezřelá:~w~ Strážnice, obávám se, že to není zločin. Právě vyrážím na párty, která už začala.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Podle našich hlášení jste se spíše potulovala.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podezřelá:~w~ Jen jsem se trochu ztratila, to je vše. Můžu už jít?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Oba - zůstaňte tu. Potřebuji si rychle popovídat.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelá:~w~ S čím vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ S čím vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Máme hlášení o obtěžování v této oblasti, víte o něčem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Oběť:~w~ Ano! Tato žena přišla k mému autu a nabídla své 'služby'...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Je to pravda, madam?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podezřelá:~w~ Jsem tu jen proto, abych podnikala. Považujte mě za podnikatelku.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Oběť:~w~ Je to nežádoucí a hnusné - nechci mít ve své blízkosti prostitutku! Zatkněte ji strážníku!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Oběť:~w~ Je to nežádoucí a hnusné - nechci mít ve své blízkosti prostitutku! Zatkněte ji strážnice!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Pojďme se všichni uklidnit, teď to tady budu řešit já.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~y~Podezřelý~w~ nastoupil do vozidla.~n~~r~Co nejdříve zastavte vozidlo a prošetřete situaci~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
