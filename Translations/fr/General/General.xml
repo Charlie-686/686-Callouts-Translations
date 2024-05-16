@@ -12,7 +12,7 @@
 	
 	/// Notifications related to the Dependency check.
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[686 Callouts manque des fichiers!~]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[686 Callouts manque des fichiers!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[Dossier 686 Callouts]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Dossier audio]]></AUDIOFOLDER>
