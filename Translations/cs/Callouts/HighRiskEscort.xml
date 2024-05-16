@@ -1,33 +1,33 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Vysoce Rizikový Převoz]]></CALLOUTMESSAGE>
-		<NOTIFICATION><![CDATA[~y~Vezeň~w~ vyžaduje ~y~převoz~w~ do ~y~{0}~w~. Vaši záložníci čekají na váš příjezd.]]></NOTIFICATION>
-		<FURTHERINFORMATION><![CDATA[~b~Informace o převozu:~w~~n~ Budete přepravovat ~y~{0}~w~, který {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<CALLOUTMESSAGE><![CDATA[Vysoce Rizikový Prevoz]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~Vezen~w~ vyzaduje ~y~prevoz~w~ do ~y~{0}~w~. Vasi zálozníci cekají na vás príjezd.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informace o prevozu:~w~~n~ Budete prepravovat ~y~{0}~w~, který {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
 		<OTHER><![CDATA[Policejní Stanice Mission Row]]></OTHER>
-		<OTHER><![CDATA[Věznice Bolingbroke]]></OTHER>
-		<OTHER><![CDATA[vede~r~ organizovanou skupinu zločinců~w~ zahrnující zkorumpované policisty]]></OTHER> 	<!-- // The prisoner is always male. -->
-		<OTHER><![CDATA[je notoricky známý ~y~mafiánský boss~w~. V současné době čeká na soud s rizikem, že se stane cílem konkurenčního gangu]]></OTHER>
-		<OTHER><![CDATA[je bývalý policista, který se stal ~y~zkorumpovaným informátorem~w~, s napojením na kriminální svět]]></OTHER>
-		<OTHER><![CDATA[je ~y~drogový magnát~w~ napojený na největší operaci s narkotiky v regionu]]></OTHER>
-		<OTHER><![CDATA[je ~y~kyberzločinec~w~, v současné době je ve výkonu trestu odnětí svobody]]></OTHER>
-		<OTHER><![CDATA[spravuje ~y~nelegální obchody se zbraněmi~w~ a byl nedávno zatčen]]></OTHER>
-		<OTHER><![CDATA[je ~y~terorista~w~. Existuje riziko, že se ho ostatní pokusí zachránit]]></OTHER>
-		<OTHER><![CDATA[vytvořil ~y~násilný pouliční gang~w~, čelící odvetě ze strany soupeřícího kartelu]]></OTHER>
-		<OTHER><![CDATA[byl součástí ~y~proslulé skupiny pašeráků drog~w~, kterou nedávno rozbil úřady]]></OTHER>
-		<OTHER><![CDATA[vytvořil ~y~globální schéma praní špinavých peněz~w~]]></OTHER>
-		<NOTIFICATION><![CDATA[Až budete připraveni, ~y~tak veďte konvoj~w~ a jeďte po ~r~naplánované trase~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Hlásím ~y~podezřelé vozidlo~w~, které nyní sleduje náš konvoj.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Před námi je ~r~blokáda z vozidel~w~! Chraňte konvoj za každou cenu.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Nedaleko od nás se nachází ~y~podezřelé vozidlo~w~. Zkontrolujte svůj radar!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~Vezeň~w~ byl ~r~zabit~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~b~Nový úkol:~w~~n~ Zůstaňte naživu, obnovte pořádek a porazte zbývající nepřátele!]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~b~Stupeň nebezpečí převozu:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Veznice Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[vede~r~ organizovanou skupinu zlocincu~w~ zahrnující zkorumpované policisty]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[je notoricky známý ~y~mafiánský boss~w~. V soucasné dobe ceká na soud s rizikem, ze se stane cílem konkurencního gangu]]></OTHER>
+		<OTHER><![CDATA[je bývalý policista, který se stal ~y~zkorumpovaným informátorem~w~, s napojením na kriminální svet]]></OTHER>
+		<OTHER><![CDATA[je ~y~drogový magnát~w~ napojený na nejvetsí operaci s narkotiky v regionu]]></OTHER>
+		<OTHER><![CDATA[je ~y~kyberzlocinec~w~, v soucasné dobe je ve výkonu trestu odnetí svobody]]></OTHER>
+		<OTHER><![CDATA[spravuje ~y~nelegální obchody se zbranemi~w~ a byl nedávno zatcen]]></OTHER>
+		<OTHER><![CDATA[je ~y~terorista~w~. Existuje riziko, ze se ho ostatní pokusí zachránit]]></OTHER>
+		<OTHER><![CDATA[vytvoril ~y~násilný poulicní gang~w~, celící odvete ze strany souperícího kartelu]]></OTHER>
+		<OTHER><![CDATA[byl soucástí ~y~proslulé skupiny paseráku drog~w~, kterou nedávno rozbil úrady]]></OTHER>
+		<OTHER><![CDATA[vytvoril ~y~globální schéma praní spinavých penez~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Az budete pripraveni, ~y~tak vedte konvoj~w~ a jedte po ~r~naplánované trase~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hlásím ~y~podezrelé vozidlo~w~, které nyní sleduje nás konvoj.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pred námi je ~r~blokáda z vozidel~w~! Chrante konvoj za kazdou cenu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nedaleko od nás se nachází ~y~podezrelé vozidlo~w~. Zkontrolujte svuj radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Vezen~w~ byl ~r~zabit~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nový úkol:~w~~n~ Zustante nazivu, obnovte porádek a porazte zbývající neprátele!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Stupen nebezpecí prevozu:~w~~n~{0}~W~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~g~NÍZKÝ]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~o~STŘEDNÍ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~STrEDNÍ]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~VYSOKÝ]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~y~Řidič~w~ vězeňské dodávky ~r~umřel~w~! Budete muset ~y~řídit vozidlo~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Převoz ~r~nebyl úspěšný~w~, protože ~y~vezeň~w~ při převozu ~r~umřel~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Převoz ~g~byl úspěšný~w~, protože ~y~vezeň~w~ při převozu ~g~přežil~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~ridic~w~ vezenské dodávky ~r~umrel~w~! Budete muset ~y~rídit vozidlo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Prevoz ~r~nebyl úspesný~w~, protoze ~y~vezen~w~ pri prevozu ~r~umrel~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Prevoz ~g~byl úspesný~w~, protoze ~y~vezen~w~ pri prevozu ~g~prezil~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Zasekl se ~b~konvoj~w~? Stisknutím ~y~{0}~w~ jej kdykoli resetujete.]]></NOTIFICATION>
 	</GENERAL>
 </CALLOUT>

@@ -1,0 +1,64 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pozár vozidla]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Zmacknete ~y~{0}~w~ pro prijmutí hovoru.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Informátor ukoncil hovor~w~. Presmerovali jsme vasi ~g~GPS~w~ na lokaci. Zamirte tam.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Bylo spatreno ~r~odcizené vozidlo~w~, které ~o~horí~w~. Okamzite se dostavte na místo cinu.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[Po vycistení areálu stisknete ~y~{0}~w~ pro nastavení GPS na domov majitele.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Informujte ~p~majitele~w~ ~y~{0}~w~, který zije poblíz.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Pozár vozidla uhasen. Smeruji k registrovanému majiteli.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím. Obávám se, ze pro vás máme spatné zprávy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Ach ne! Co se stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Dnes jsem se bohuzel zúcastnil pozáru auta. Vysledovali jsme vás jako registrovaného majitele vozidla, o kterém se domnívám, ze jste jej nedávno nahlásil jako odcizené?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Dnes jsem se bohuzel zúcastnil pozáru auta. Vysledovali jsme vás jako registrovaného majitele vozidla, o kterém se domnívám, ze jste jej nedávno nahlásila jako odcizené?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Ano... neverím tomu. Jsem v soku. Takze bylo ukradeno a pak zapáleno?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Presne tak. Mám tu pro vás pár informací, co ted delat. Doufejme, ze to poskytne nejaké mnoho potrebné objasnení.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Dekuji mnohokrát. Pri optimistickém pohledu by to melo pokrývat moje pojistení.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dobré slyset. Prejeme hezký zbytek dne, my se vám ozveme s dalsími podrobnostmi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~b~Ty:~w~ Zdravím. Jsem tu, abych vám sdelil nejaké novinky.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~b~Ty:~w~ Zdravím. Jsem tu, abych vám sdelila nejaké novinky.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ To jsou novinky o mém vozidle, ze? A na základe skutecnosti, ze není za vámi, mohu hádat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To je, obávám se, presné. Dnes dríve bylo spatreno vozidlo v plamenech, je mi líto vám oznámit, ze to bylo vase vozidlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ To je sokující. Jak se to stalo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ V této fázi to nevíme, i kdyz pravdepodobne pujde o necestnou hru. Zde jsou nekteré podrobnosti a kroky, které byste meli nyní podniknout.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Dobre, díky. Moje pojistení poletí nahoru skrz strechu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Snad to pochopí a jeste jednou se omlouvám. Budeme v kontaktu.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Prominte? Dobrý den, potrebuji s vámi jen mluvit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ O, co se deje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Jde o vase vozidlo. Dnes jsme se zúcastnili hlásení ohledne horícího vozidla. Vysledovali jsme vás jako registrovaného majitele a chteli jsme vám dát vedet.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Obet:~w~ Opravdu? Jste si jistý, ze to bylo moje vozidlo? Tomu neverím! Myslel jsem, ze bylo ukradené, ne spálené do krupava.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Obet:~w~ Opravdu? Jste si jistý, ze to bylo moje vozidlo? Tomu neverím! Myslela jsem, ze bylo ukradené, ne spálené do krupava.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Prícinu v tuto chvíli neznáme, ale vysetrujeme. Zde je vsak nekolik dokumentu, které byste si meli precíst o tom, co delat dál. Zde jsou.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Dekuji. Vsechno se to stalo tak rychle. Doufám, ze se nikomu nic nestalo, zvláste pokud to bylo úmyslne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vskutku, preji príjemný zbytek dne. A pokud máte dalsí dotazy, neváhejte se na nás obrátit.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím. Jak vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informátor:~w~ Poslouchejte, nemám moc casu, ale musím vám neco ríct.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Prominte, kdo jste?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informátor:~w~ Neptejte se me na otázky. Vozidlo bude zapáleno, práve ted. Potrebuji, abyste tam hned jeli!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Kde? A proc nám to ríkáte?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informátor:~w~ Poslal jsem místo na vás mobil. Nekdo, koho znám, udelal chybu.. snazí se pomstít spatné osobe.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Na koho se porád odvoláváte? A proc zapalují necí vozidlo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informátor:~w~ Chyba... udelali chybu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Pojdme zpomalit. Potrebuji nejaký kontext.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informátor:~w~ rekl jsem prílis moc... sakra...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,39 +1,39 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Vozidlo s nahlášenou bombou]]></CALLOUTMESSAGE>
-		<NOTIFICATION><![CDATA[Stisknutím ~y~{0}~w~ se pokusíte ~y~zneškodnit aktivní bombu.~w~]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udržujte ~y~civilisty mimo dosah vozidla~w~, nebo co nejrychleji ~y~ukončete honičku vozidla~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~g~Úspěšně!~w~ ~n~Bomba byla zněškodněna. Pokračujte dál dle svého uvážení.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~r~Neúspěšně!~w~~n~Bomba vybuchla. ~y~Evakuujte ihned okolí kolem výbuchu~w~!]]></NOTIFICATION>
+		<CALLOUTMESSAGE><![CDATA[Vozidlo s nahlásenou bombou]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Stisknutím ~y~{0}~w~ se pokusíte ~y~zneskodnit aktivní bombu.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~r~muze kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo co nejrychleji ~y~ukoncete honicku vozidla~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Úspesne!~w~ ~n~Bomba byla zneskodnena. Pokracujte dál dle svého uvázení.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Neúspesne!~w~~n~Bomba vybuchla. ~y~Evakuujte ihned okolí kolem výbuchu~w~!]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME0>
-		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~vozidlo s bombou. ~n~~w~Jeďte na místo ~y~co nejrychleji.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Podezřelý ~y~ujíždí~w~ ve vozidle, co rozvědka nahlásila, a vypadá to, že je ozbrojen ~y~bombou ve vozidle.~w~]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Vozidlo ~r~může kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
-		<OTHER><![CDATA[~r~Rozbuška]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[Rozvedka ohlásila ~r~vozidlo s bombou. ~n~~w~Jedte na místo ~y~co nejrychleji.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Podezrelý ~y~ujízdí~w~ ve vozidle, co rozvedka nahlásila, a vypadá to, ze je ozbrojen ~y~bombou ve vozidle.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~r~muze kdykoli vybouchnout~w~.~n~Udrzujte ~y~civilisty mimo dosah vozidla~w~, nebo ~y~ukoncete pronásledování vozidla~w~ co nejrychleji.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Rozbuska]]></OTHER>
 	</OUTCOME0>
 	<OUTCOME1>
-		<FURTHERINFORMATION><![CDATA[Rozvědka hlásila duševně nestabilní osobu ~r~s bombou ve vozidle.~n~~w~Reagujte na místo ~y~urychleně!]]></FURTHERINFORMATION>
-    	<OTHER><![CDATA[~r~Rozbuška~w~, ~y~Dráty]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[Rozvedka hlásila dusevne nestabilní osobu ~r~s bombou ve vozidle.~n~~w~Reagujte na místo ~y~urychlene!]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Rozbuska~w~, ~y~Dráty]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vzdávám se! Můžete mě zatknout strážníku!]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vzdávám se! Můžete mě zatknout strážníku!]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Vzdávám se! Můžete mě zatknout strážnice!]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Vzdávám se! Můžete mě zatknout strážnice!]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Strážníku... je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Strážníku... je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Strážnice... je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Strážnice... je mi líto, že to muselo skončit takhle...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Vzdávám se! Muzete me zatknout strázníku!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Vzdávám se! Muzete me zatknout strázníku!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Vzdávám se! Muzete me zatknout stráznice!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Vzdávám se! Muzete me zatknout stráznice!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Strázníku... je mi líto, ze to muselo skoncit takhle...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Strázníku... je mi líto, ze to muselo skoncit takhle...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Stráznice... je mi líto, ze to muselo skoncit takhle...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Stráznice... je mi líto, ze to muselo skoncit takhle...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
-		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~bombu ve vozidle.~n~~w~Reagujte na místo ~y~urychleně!]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Bomba ve vozidle ~y~byla odpálena.~n~~w~Nahlášené oběti tragedie: ~r~{0} osob(a).]]></NOTIFICATION>
-	    <OTHER><![CDATA[~y~Dráty~w~,~r~Výbušnina]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[Rozvedka ohlásila ~r~bombu ve vozidle.~n~~w~Reagujte na místo ~y~urychlene!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bomba ve vozidle ~y~byla odpálena.~n~~w~Nahlásené obeti tragedie: ~r~{0} osob(a).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Dráty~w~,~r~Výbusnina]]></OTHER>
 	</OUTCOME2>
 	<OUTCOME3>
-		<FURTHERINFORMATION><![CDATA[Rozvědka ohlásila ~r~opuštěné vozidlo s bombou.~w~~n~Jeďte na místo ~y~co nejrychleji, a ~y~zneškodněte bombu.~w~]]></FURTHERINFORMATION>
-	    <OTHER><![CDATA[~y~Klíče od auta~w~, ~r~Bomba]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[Rozvedka ohlásila ~r~opustené vozidlo s bombou.~w~~n~Jedte na místo ~y~co nejrychleji, a ~y~zneskodnete bombu.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Klíce od auta~w~, ~r~Bomba]]></OTHER>
 	</OUTCOME3>
 </CALLOUT>
 
