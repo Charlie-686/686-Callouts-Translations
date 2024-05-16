@@ -9,7 +9,7 @@
 		<FAILED><![CDATA[~y~Yuklendi, ancak guncellemeleri kontrol edemiyoruz.]]></FAILED>
 	</UPDATECHECKER>
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[686 Callouts dosyalari eksik.]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[686 Callouts dosyalari eksik!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Folder]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Ses Dosyasi]]></AUDIOFOLDER>
