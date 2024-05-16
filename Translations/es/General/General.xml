@@ -9,7 +9,7 @@
 		<FAILED><![CDATA[~y~Cargado, pero no pudimos buscar actualizaciones.]]></FAILED>
 	</UPDATECHECKER>
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[¡Faltan archivos de 686 Callouts!~]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[¡Faltan archivos de 686 Callouts!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[Carpeta de 686 Callouts]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Carpeta de audio]]></AUDIOFOLDER>
