@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Oggetto rubato]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[È avvenuto un ~y~furto~w~; parla con la ~y~vittima~w~ e procedi con le indagini.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Si ritiene che il sospettato sia ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[a piedi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[in un veicolo~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Cellulare]]></OTHER>
+		<OTHER><![CDATA[Notebook]]></OTHER>
+		<OTHER><![CDATA[Documenti]]></OTHER>
+		<OTHER><![CDATA[Chiavi casa]]></OTHER>
+		<OTHER><![CDATA[Telecamera]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[scosso]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Cosa vuoi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Siamo stati informati di un furto e avremo bisogno di perquisirti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Perchè? Se non hai prove non risponderò a nessuna delle tue domande!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sono qui per far rispettare la legge. Il nostro localizzatore indica che un {0} è qui e su di te.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Bugie! In ogni caso, la tecnologia al giorno d'oggi spesso sbaglia!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Cosa vuoi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Crediamo che tu abbia un {0} su di te, dovrò perquisirti, per favore.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Mi hai preso, mi arrendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Okay, alza le mani e ti dichiaro in arresto.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Individua il ~r~sospetto~w~. L'area di ricerca ~y~ verrà aggiornata ~w~ periodicamente.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Agente, aiuto, sono stato derubato!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Puoi dirmi qualcosa sul sospettato?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Non proprio, ma il mio {0} ha un localizzatore GPS, che dovrebbe tornarmi utile per una volta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ottimo,lo invio alla centrale che lo localizzerà così posso rintracciarlo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima: ~w~Sì, spero che riuscirai a recuperarlo, è importante.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Naturalmente ci metteremo in contatto. Cercheremo di localizzarlo adesso.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

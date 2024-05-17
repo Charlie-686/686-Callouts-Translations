@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protesta]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[È in corso una ~r~protesta~w~ ed è stata bloccata la strada. Si prega di attendere ulteriori istruzioni dalla centrale.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La protesta ora ~r~si è trasformata in protesta con rissa.~n~~y~Rispondi urgentemente.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Supervisiona la protesta~w~ finché non sarà finita. Assicurati che continui senza intoppi.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La protesta si è verificata ~g~senza escalation~w~, e ora sta terminando.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La protesta è in corso. Per favore, contatta il ~o~responsabile della protesta.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[I manifestanti stanno attualmente ~g~lasciando la zona~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Passante:~w~ Agente, è ridicolo! Abbiamo bisogno di spostare il traffico!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Passante:~w~ Stanno bloccando la strada! Muovili! Non è sicuro.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Passante:~w~ Agente, ti avevo detto di farli spostare!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Passante:~w~ I manifestanti che bloccano la strada possono soffocare!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto: ~w~Agente, si unisca alla causa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Per quale motivo è questa protesta?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto: ~w~Crediamo che il cambiamento climatico stia rovinando il nostro Paese e che il nostro governo debba agire ora!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Mi dispiace, devi spostarti. Se protesti devi prima ottenere l'autorizzazione e non bloccando una strada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ma perché? Protestiamo per una buona causa!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Questa protesta non è stata autorizzata. Non puoi bloccare la strada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ne ho parlato agli altri...ma non mi hanno ascoltato. Dirò loro che dobbiamo andare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Grazie. Per favore, raccogli le tue cose in modo che il traffico possa riprendere.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Giusto ragazzi, la protesta è vietata. Andiamo adesso.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospettato: ~w~Guarda chi è venuto a sostenere la nostra protesta!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Perché protesti?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto: ~w~I prezzi del cibo sono alle stelle e siamo stufi! Moriremo di fame!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Questa protesta non può avvenire qui, stai mettendo a rischio la sicurezza pubblica.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Non ci spostiamo agente. Questa è una giusta causa!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Devi spostarti, stai protestando qui illegalmente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Agente, non ci muoviamo! Vai a rompere a qualcun'altro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

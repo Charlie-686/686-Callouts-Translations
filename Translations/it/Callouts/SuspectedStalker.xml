@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sospetto stalker]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~p~cittadino preoccupato~w~ crede di essere seguito, ~y~garantisci la sua sicurezza~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, sono uno stalker, ma la prigione non faceva per me e non ci tornerò]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Foto della vittima~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Togliti dalla mia faccia!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Manteniamo la calma, abbiamo ricevuto segnalazioni secondo cui prima stavi perseguitando qualcuno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Vaffanculo, non ho fatto un cazzo!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ti rifiuti di parlare?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, SÌ! Non parlo con i maiali, li mangio.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[È improbabile che siano loro gli stalker; non hanno precedenti. Finisci di parlare, quindi ~y~torna dalla vittima~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Salve agente, come posso aiutarla oggi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Abbiamo ricevuto segnalazioni da un individuo secondo cui lo stavi perseguitando, è vero?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Mio Dio,No!Ci deve essere un errore o un malinteso. Sto solo facendo un po' di spesa, forse eravamo diretti nella stessa direzione? Sicuramente non corrisponderei alla descrizione.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non ce ne è stato fornito uno, lasciami contattare la centrale per chiarire la situazione.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Certo, i miei acquisti possono aspettare, non preoccuparti.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sei a posto, sembra che sia stato molto probabilmente un errore. Goditi il ​​resto della giornata.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ È bello rivederti, come va?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Abbiamo parlato con loro, ma è improbabile che ti stessero perseguitando.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Mi dispiace tanto. Stavo pensando che forse ti ho chiamato prematuramente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va bene. La prossima volta, accertati prima.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Sì, mi spiace per tutto il disturbo inutile.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Abbiamo localizzato il sospettato. ~y~Finisci di parlare~w~ poi vai immediatamente da loro.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Agente, grazie a Dio sei qui! Mi seguono!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Siamo qui adesso. Potete darmi una spiegazione su cosa è successo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Sono stato seguito... ma non mi ricordo più come fossero.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non preoccuparti, è normale dimenticare le cose in questo momento. Controlleremo le telecamere per rivedere le riprese della zona.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Victim:~w~ Eravamo qui, su ~y~{0}~w~ qualche tempo fa, forse 15 minuti fa. Per favore lo segnali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Grazie, lo inoltrerò ora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Stanno controllando il filmato adesso, ci sono altri dettagli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ No, non ho idea del motivo per cui mi hanno seguito nelle ultime 2 ore.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non preoccuparti, risolveremo la situazione.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Siamo riusciti a localizzarli, quindi andremo a prenderli. Puoi tornare a casa, ma ci terremo in contatto.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

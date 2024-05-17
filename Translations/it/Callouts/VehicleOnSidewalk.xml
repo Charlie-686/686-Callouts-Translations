@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Veicolo sul marciapiede]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[È stato segnalato un veicolo sul marciapiede, ~y~bloccandolo~w~. Prova a parlare con l'autista.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Ciao. Ho paura che non si può stare qui.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Non mi muovo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Meglio che tu lo faccia-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Posso aiutarti. Che succede?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Bhoo, non saprei. C'è qualcosa che non va?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Questo è un marciapiede.Ti devi spostare da qui.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Sto aspettando una persona, arriverà da un momento all'altro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non era una richiesta. Questo è un marciapiede, la gente lo usa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Parcheggerò da qualche altra parte.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao. Sei parcheggiato su un marciapiede, lo sapevi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, ma sto solo aspettando un amico. Posso restare?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Temo di no.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Beh, dove altro posso andare?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Un parcheggio o qualcosa di simile, ce ne sono molti da queste parti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Capito. Mi spiace, non accadrà più.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Sacchetti di cannabis confezionati]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Ciao. Perché hai parcheggiato qui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sto facendo una consegna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Consegnare cosa? Non sembri un fattorino.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Uh, cosa ti interessa a te?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Allora sei parcheggiato qui, in attesa di consegnare qualcosa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Senti, devo consegnare questo per la mia famiglia. Per favore.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

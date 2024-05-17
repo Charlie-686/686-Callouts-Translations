@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Rapina in un vicolo]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Intorno alle ore {0} si sta verificando una ~y~sospetta rapina~w~. Esamina la scena.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Un sospetto furto sta accadendo intorno {0}. Indagare la scena.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Stolen Goods]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Una sospetta rapina si sta verificando intorno a {0} e la vittima è sotto tiro. Esamina la scena.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Intorno al giorno {0} si sta verificando una sospetta rapina con la segnalazione di due rapinatori. Esamina la scena.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per ~g~recuperare~w~ la merce rubata.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Recuperata una ~y~{0}~w~ rubata come ~g~prova~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Valigia]]></OTHER>
+		<OTHER><![CDATA[Sacchetto]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Notebook]]></OTHER>
+		<OTHER><![CDATA[Pacco]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Autobomba]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per tentare di ~y~disarmare la bomba.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il veicolo ~r~può esplodere in qualsiasi momento~w~.~n~~y~tieni i civili lontani dal percorso del veicolo~w~ oppure ~y~interrompi l'inseguimento~w~ il più rapidamente possibile.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Riuscito.La bomba è stata disinnescata. Continua come ritieni opportuno.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Non riuscito.La bomba non è stata disinnescata.Evacuare l'area circostante immediatamente.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[I servizi segreti hanno segnalato un'autobomba.Rispondi alla scena urgentemente.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Il sospettato sta fuggendo nel suo veicolo ed è armato con una bomba.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il veicolo può esplodere in qualsiasi momento.Tieni i civili lontani dal percorso del veicolo oppure interrompi l'inseguimento il più rapidamente possibile.]]></NOTIFICATION>
+		<OTHER><![CDATA[Detonatore di bombe]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[L'intelligence ha segnalato una persona mentalmente instabile con un'autobomba.Intervieni prima possibile urgentemente.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[Detonatore di bomba, cablaggio]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:Mi arrendo! Può arrestarmi, agente!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:Agente...mi dispiace che sia dovuta finire così...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[I servizi segreti hanno segnalato un'~r~autobomba.Intervieni prima possibile.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[L'autobomba è stata fatta esplodere.Vittime segnalate: ~r~{0} persona/e.]]></NOTIFICATION>
+	    <OTHER><![CDATA[Cablaggio,Esplosivi]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[I servizi segreti hanno segnalato un'autobomba abbandonata.Rispondi urgentemente alla scena e disinnescare la bomba.]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[Chiavi della macchina,Bomba]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fotografia della stazione di polizia]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Una persona è ~y~scattare foto della stazione~w~, parlare con loro per scoprire perché.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao. Cosa sta succedendo qui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Nulla. Niente di niente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Metti giù la telecamera, vorrei parlare con-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Che succede? Cosa ti ha portato qui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Non sto facendo nulla di illegale, per favore lasciami stare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sto solo cercando di avviare una conversazione per capire cosa sta succedendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ E sto solo cercando di fare cose che sono perfettamente legali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Vorrei solo parlare con te.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Non tentare di violare i miei diritti fotografici su proprietà pubblica.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao, posso chiederti perché stai scattando foto alla stazione?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sono per il mio canale di social , non va bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ È legale, sì, è solo piuttosto strano che lo faccia per così tanto tempo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Capisco,ho finito, quindi me ne vado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Saluti, allora.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Abbiamo ricevuto il numero di telefono e sono iniziate le prime indagini. Grazie.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao, perchè stai fotografando la stazione?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Vuoi davvero saperlo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sì, per favore, vai avanti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Mi rendo conto di quanto sembri stupido nel dirlo, ma qualcuno, di nome Jeff, mi ha mandato un messaggio chiedendomelo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, col senno di poi è stata una cosa un po' approssimativa da fare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Penso che entrambi pensiamo la stessa cosa. Puoi darmi il loro numero?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Penso che dovresti andare a casa adesso, ed eventualmente pensare a con chi stai parlando.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, capisco. Scusa per il disturbo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao, cosa fai a fotografare la stazione?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ciao agente! Sono un grande fan dei servizi di emergenza e del lavoro che svolgono. Ho appena scattato alcune foto della tua stazione, va bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco, quindi questo è una specie di hobby se ho capito bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Esattamente! Volevo fare il poliziotto, ma essendo dall'altra parte della stazione come puoi vedere non lo sono diventato.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ È interessante da sentire, volevo solo capire cosa stava succedendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Posso solo scusarmi per averti fatto perdere tempo, ma ho comunque finito le mie foto, sembrano piuttosto belle .]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Nessun problema, spero che tu abbia trascorso uno splendido resto della giornata.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Bene, allora vado. Arrivederci.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

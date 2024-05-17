@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Mancato Pagamento Ticket]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Il personale della stazione~w~ ha bisogno della tua assistenza; ha bisogno che tu arresti qualcuno che potrebbe ~y~non aver pagato il biglietto del treno.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[ Parla con il presunto sospetto che non ha pagato.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Biglietto valido~w~]]></OTHER>
+		<OTHER><![CDATA[~g~Biglietto non valido~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Una stazione vicina mi ha comunicato che hanno saltato le barriere lì. Impressionante, ma un reato penale.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Mi scusi, potrebbe aspettare un minuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Affrettati, ho un treno da prendere.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[ ~b~Tu:~w~ Ho parlato con un agente di controllo dei biglietti e mi hanno detto che hai saltato le barriere?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Pfff. In realtà non è un grosso problema. Non ho spiccioli con me, puoi chiudere un occhio?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ E' un reato usare il treno senza pagare un biglietto, le dovrò fare un verbale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Bene andare avanti allora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~E'qui.Puoi usare il treno ora appena pagherai una multa, ma la prossima volta paga la tua tariffa come tutti gli altri.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Questa multa è costosa, non ci credo. Beh, avrei dovuto comprare un biglietto.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Ho notato un biglietto che qualcuno ha; sembra insolito, ho la sensazione che potrebbe essere falso. È un peccato che siano diventati sempre più comuni.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Salve, si fermi lì, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Certo, agente, come posso esserle d'aiuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Siamo stati chiamati dal personale della stazione ferroviaria, si chiedevano come hai attraversato i cancelli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Beh, ho un biglietto, ecco come sono riuscito a passare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco, potrei dargli un'occhiata, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Uh, certo. Non vedo però perché dovresti averne bisogno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Qui dice che il biglietto è scaduto una settimana fa, sa il perché?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Assolutamente no! Non ho idea di come possa essere.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non fare lo stupido con me, hai deliberatamente utilizzato un vecchio biglietto. Ti sto facendo una multa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Onestamente, per una volta fai qualcosa di utile nella tua vita. Mi dia la multa cosi parto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Eccolo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Grazie mille per questo. Mi hai rovinato la giornata.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Il mio collega in un'altra stazione si è messo in contatto via radio. Apparentemente potrebbero non avere un biglietto, tuttavia sfortunatamente il mio collega non stava guardando la telecamera.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Salve, si fermi lì, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Certo, agente, come posso esserle d'aiuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Mi è stato chiesto di controllare se hai il biglietto con te.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Non lo so, vero?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non è sto scherzando, mi serve una risposta sincera, per favore.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Oh, per l'amor di Dio! Catturate i criminali invece di fermare non le persone che vogliono salire su un treno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Te lo chiedo ancora una volta, hai il biglietto con te?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Non hai niente di meglio da fare, vero? Fammi salire sul treno.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Parla con il presunto ~r~venditore di biglietti fraudolento.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Ho dato un'occhiata a un biglietto che qualcuno stava usando, non sembrava corretto. Penso che sia falso.]]></OTHER>
+		<OTHER><![CDATA[~r~Biglietti falsi~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Scusami, ho bisogno di parlare con te.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Certo, agente, come posso esserle d'aiuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Siamo stati chiamati dal personale della stazione ferroviaria, si chiedevano come hai attraversato i cancelli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Beh, ho un biglietto, ecco come sono riuscito a passare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco, potrei dargli un'occhiata, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Certo, eccolo qui.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ È un biglietto falso, lo puoi capire dalle scritte sul lato. Perché lo stai usando?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ All'ingresso della stazione me lo hanno venduto,costava almeno la metà di un biglietto normale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco, quindi gliel'hai comprato a questo prezzo più basso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Si l'ho preso.Non sono un criminale, guarda, ecco la mia carta d'identità . Prometto non lo farò più.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Grazie. Vedo se riesco a trovare questa persona che hai menzionato.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Aspetta un attimo. Ti devo parlare]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Un altro giorno agente sto lavorando.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Abbiamo il sospetto che tu abbia venduto biglietti fraudolenti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Allora per ora ti trattengo per accertamenti.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Ho le mani alzate!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[A quanto pare una persona non ha utilizzato il biglietto da quanto ho sentito alla radio]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ciao, potresti restare lì per me, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Certo, agente, come posso esserle d'aiuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Siamo stati chiamati dal personale della stazione ferroviaria, si chiedevano come hai attraversato i cancelli?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Come tutti gli altri, con il mio biglietto del treno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ti dispiace se gli do un'occhiata?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Uh, certo. Non vedo però perché dovresti averne bisogno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sembra che vada tutto bene, buon proseguimento di viaggio!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Agente di stazione:~w~ È bello vederla, agente, grazie per essere arrivato così tempestivamente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va assolutamente bene, potresti fornire alcuni dettagli sulla situazione, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente di stazione:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco. Non va bene per non dire altro. Dove sarebbero adesso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente della stazione:~w~ Non ci sono ancora treni, quindi probabilmente saranno sul binario.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Grazie per tutto il tuo aiuto, parlerò subito.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Agente di stazione:~w~ Mi scuso per la chiamata per qualcosa di così meschino, lo apprezzo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va assolutamente bene, potresti fornire alcuni dettagli sulla situazione, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente di stazione:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Giusto, sembra che abbiamo per le mani un truffatore. Dove potrebbero essere?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agente di stazione:~w~ Fammi pensare. Devono essere sulla piattaforma, è l'unico posto in cui potrebbero essere.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capito, beh, prima controllerò lì!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
