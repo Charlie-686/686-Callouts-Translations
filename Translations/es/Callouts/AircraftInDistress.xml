@@ -1,0 +1,125 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Avión en Peligro]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[El ~o~avión~w~ permanecerá en un ~y~patrón de espera~w~ por unos minutos antes de que ~y~intente aterrizar~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Un avión está realizando un ~r~aterrizaje de emergencia~w~ en ~y~{0}~w~. Dirígete al área de aterrizaje designada y espera instrucciones adicionales.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~o~avión~w~ está ahora autorizado para intentar un ~r~aterrizaje de emergencia~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La escena es Código 4 ya que el ~g~avión aterrizó a salvo~w~ en ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Habla con el ~y~piloto~w~ e investiga la situación.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El avión ha aterrizado. ~y~Habla con el piloto~w~ para verificar que todo está bien.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Fuimos ~r~incapaces de generar el avión~w~. Por favor, intenta la llamada otra vez o contacta al soporte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hemos ~y~perdido el contacto~w~ con la posición del radar del ~o~avión~w~. Intenta establecer ~y~contacto visual~w~ sobre el ~o~avión~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hemos ~g~recuperado el contacto~w~ con la posición del radar del ~o~avión~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~o~avión~w~ se ha ~r~estrellado~w~. Por favor, espera mientras nosotros te enrutamos al sitio donde se ha estrellado. Cuando lo localices, continua como lo veas conveniente.]]></NOTIFICATION>
+		<OTHER><![CDATA[Aeropuerto Internacional de Los Santos]]></OTHER>
+		<OTHER><![CDATA[Aeródromo de Sandy Shores]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Un ~o~avión~w~ está experimentando ~y~problemas del motor~w~. Dirígete al área de aterrizaje y prepárate para el aterrizaje del avión.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~¡Gracias Agente! ¿Te ha gustado el aterrizaje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¡No está mal para alguien con un motor hechando humo!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Bueno, aprecio que hayas venido para asegurarte de que todo estaba bien. ¿Necesitas algo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Para nada, sólo buscábamos estar aquí en caso de que algo fuese mal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Tendré que buscar a mi mecánico para que le eche un vistazo al motor. Si hubiera estado en el aire unos minutos más, no sé si hubiese podido aterrizarlo de manera segura.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Has hecho un buen trabajo hoy. Dejaré que cuides tu avión, ten cuidado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Gracias Agente. ¡Cuídate y perdón por la inconveniencia!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Un pasajero ha ~r~muerto~w~ a bordo de un ~o~avión~w~. Habla con el piloto para establecer si las circustancias son ~y~sospechosas~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas Capitán. ¿Puedes contarme que ha pasado en el aire?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Por supuesto...Estaba con mi amigo en un vuelo y él se murió en el aire.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿A qué te refieres exactamente?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Estaba concentrado en volar porque el espacio aéreo estaba muy ocupado hoy, Y me dí la vuelta y o respondió. Yo luego hice un aterrizaje de emergencia aquí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Tu amigo tiene algún problema de salud del que te haya hablado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Honestamente, nunca hablamos de eso. Yo solo asumí que él estaría lo suficientemente sano para volar...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Ahora esto es una escena del crimen, así que necesitaré investigar. ¿Está bien?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Si, por supuesto agente, tienes toda mi cooperación.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Paño con Cloroformo]]></OTHER>
+		<OTHER><![CDATA[~r~Marcas de Asfixia]]></OTHER>
+		<OTHER><![CDATA[~y~Almohada]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[El ~o~avión~w~ está en riesgo de ~y~explotar en cualquier momento~w~. ¡Habla con el piloto y procede a evacuar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~o~avión~w~ ha ~r~explotado~w~. Continua como lo veas necesario.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¡Sal fuera del avión y sigueme! ¡Rápido!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Un ~o~avión~w~ está experimentando ~y~problemas con el motor~w~ y necesita realizar un aterrizaje de emergencia. ~n~Reportes indican que la ~r~pista está bloqueada~w~. ¡Despéjala antes de que el avión aterrice!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Mueve el vehículo antes de que el ~o~avión~w~ intente arerrizar y después habla con el piloto~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Eso estuvo cerca. Gracias por despejar la pista a tiempo.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Tú: ~w~No hay problema. Estoy contento de que pudiésemos sacar ese vehículo de tu camino. ¿Cómo va el avión?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Tú: ~w~No hay problema. Estoy contenta de que pudiésemos sacar ese vehículo de tu camino. ¿Cómo va el avión?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Podría estar pero, el problema del motor nos afectó duro. Sin embargo, conseguí bajar de manera segura.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hiciste un gran trabajo dadas las circustancias.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Gracias, supongo que todo esto es parte de nuestro trabajo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Definitivamente. Estamos contentos de que estés a salvo. ¿Necesitas alguna asistencia?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Nah, nos encargaremos. Tenemos al equipo de tierra en camino.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Bien entonces. Si necesitas algo, danos un toque.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Lo haré, gracias otra vez por tu ayuda, Agente.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Un ~o~avión~w~ está reportando una emergencia por una  a ~y~supuesto polizón~w~ a bordo. Detén la aeronave al aterrizar.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Comprobando si ~y~algún prisionero ha escapado~w~ en las últimas 24 horas. Espere.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Podemos confirmar que un ~y~{0}~w~ se ha fugado de la prisión en las últimas 24 horas. El sospechoso sigue prófugo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pulsa ~y~{0}~w~ para buscar en la ~o~aeronave~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Buenas, ¿cómo podemos ayudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Mientras estaba volando he escuchado algún arrastramiento en mi areonave. Y sonó como si fuera un animal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Has dejado tu aeronave desatendida recientemente?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot: ~w~Yes, no tengo un hangar así que la dejé fuera por unos días.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Qué crees que podría ser?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Bueno agente, tengo mis sospechas de que puede ser que tenga un polizón a bordo. No quería revisar, peri si tú pudieras revisar mi avión lo apreciaría.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Déjeme verificar algo con Control.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Voy a revisar tu aeronave ahora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¡No te muevas! ¿Qué te crees que estas haciendo aquí?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Polizón: ~w~Oh, uh...Solo estaba intentando llegar a algún lado. Mira, te has equivocado de persona.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Tú: ~w~Ahórratelo, no eres tan sigiloso como crees. Sabemos quién eres.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Tú: ~w~Ahórratelo, no eres tan sigilosa como crees. Sabemos quién eres.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Polizón: ~w~Lo juro Agente, no tenía malas intenciones. Solo necesitaba una salida.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Una salida? Bueno, ciertamente has encontrado una. Corriendo por ahí con una orden judicial sobre tu cabeza es una forma de volver a las celdas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Polizón: ~w~Por favor, tienes que entenderlo. Es complicado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~ Complicado no justifica romper la ley. Te vienes conmigo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Una ~o~aeronave~w~ está reportando una emergencia debido a una ~y~ventana rota~w~ ocurrida durante el vuelo. Diríjase al área de aterrizaje y prepárate para el aterrizaje de la aeronave.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Agente, gracias por estar aquí. Ese fue un aterrizaje infernal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~No hay problema, Capitán. Recibimos la llamada sobre tu ventana rota. ¿Estás bien?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Piloto: ~w~Si, solo un poco conmocionado. Nunca se me había reventado una ventana como ahora en medio vuelo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Piloto: ~w~Si, solo un poco conmocionada. Nunca se me había reventado una ventana como ahora en medio vuelo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Tú: ~w~Lo has manejado bien, sin embargo. ¿Como te las apañastes para estar calmado?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Tú: ~w~Lo has manejado bien, sin embargo. ¿Como te las apañastes para estar calmada?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Piloto: ~w~Años de entrenamiento, supongo. Todo fue sobre mantenerme concentrado y bajarnos a salvo.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Piloto: ~w~Años de entrenamiento, supongo. Todo fue sobre mantenerme concentrada y bajarnos a salvo.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Tú: ~w~Bueno, ciertamente hicistes un buen trabajo. Teníamos a los servicios de emergencia a la espera por si acaso. Contento de que no los necesitamos.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Tú: ~w~Bueno, ciertamente hicistes un buen trabajo. Teníamos a los servicios de emergencia a la espera por si acaso. Contenta de que no los necesitamos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Yo también. Gracias por tu ayuda, lo aprecio.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~En cualquier momento, Capitán. Para eso estamos. Cuídese, avísenos si necesitas algo más.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Una ~o~aeronave~w~ está haciendo un aterrizaje de emergencia debido a ~y~las condiciones malas de tiempo~w~. Diríjase al área de aterrizaje y prepárate para el aterrizaje de la aeronave.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Vaya, ese fue un aterrizaje bastante duro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~¿Estás bien Capitán? Esa tormenta vino de la nada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Sí. El radar meteorológico no le hizo justicia a la turbulencia de allá afuera.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Hiciste un trabajo remarcable bajándola a salvo. Estábamos preocupados por tí.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Gracias Agente. Aprecio que estés aquí para asegurarte de que todo esté yendo sin problemas. Fue tocar y despegar por un momento.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Tú: ~w~Contento de que estés a salvo. Avísame si necesitas asistencia con lo que sea.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Tú: ~w~Contenta de que estés a salvo. Avísame si necesitas asistencia con lo que sea.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloto: ~w~Gracias otra vez. Hablaré con la torre de control cuando estemos listos para movernos. Ojalá el tiempo de tregua pronto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú: ~w~Dedos cruzados. Tenga cuidado Capitán, y otra vez, buen trabajo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

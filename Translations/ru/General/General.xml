@@ -9,7 +9,7 @@
 		<FAILED><![CDATA[~y~Загружено, но мы не смогли проверить наличие обновлений.]]></FAILED>
 	</UPDATECHECKER>
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[В 686 Callouts отсутствуют файлы!~y~]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[В 686 Callouts отсутствуют файлы!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[Папка 686 Callouts]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Папка Аудио]]></AUDIOFOLDER>

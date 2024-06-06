@@ -1,70 +1,70 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Podezření Na Stalking]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[~p~Znepokojený občan~w~ věří, že jsou sledován, ~y~zajistěte jejich bezpečnost~w~!]]></FURTHERINFORMATION>
+		<CALLOUTMESSAGE><![CDATA[Podezrení Na Stalking]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Znepokojený obcan~w~ verí, ze jsou sledován, ~y~zajistete jejich bezpecnost~w~!]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ano, jsem stalker, ale vězení nebylo pro mě a já už nejdu zpět!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ano, jsem stalker, ale vězení nebylo pro mě a já už nejdu zpět!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Ano, jsem stalker, ale vezení nebylo pro me a já uz nejdu zpet!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Ano, jsem stalker, ale vezení nebylo pro me a já uz nejdu zpet!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
-		<OTHER><![CDATA[~r~Fotky oběti~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Fotky obeti~w~]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Podezřelý:~w~ Jdi mi z očí!]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Uklidněte se. Bylo nám hlášeno, že jste někoho před chvílí stalkoval.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Uklidněte se. Bylo nám hlášeno, že jste někoho před chvílí stalkovala.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Odprejskni, neudělal jsem ani hovno, je to jenom slovo proti slovu!]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Odprejskni, neudělala jsem ani hovno, je to jenom slovo proti slovu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Podezrelý:~w~ Jdi mi z ocí!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Uklidnete se. Bylo nám hláseno, ze jste nekoho pred chvílí stalkoval.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Uklidnete se. Bylo nám hláseno, ze jste nekoho pred chvílí stalkovala.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Odprejskni, neudelal jsem ani hovno, je to jenom slovo proti slovu!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Odprejskni, neudelala jsem ani hovno, je to jenom slovo proti slovu!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Odmítáte s námi mluvit?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ano, ANO! Nemluvím s prasaty, žeru je.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ano, ANO! Nemluvím s prasaty, žeru je.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Ano, ANO! Nemluvím s prasaty, zeru je.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Ano, ANO! Nemluvím s prasaty, zeru je.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
-		<NOTIFICATION><![CDATA[Je nepravděpodobné, že je to ten stalker; mají čistý rejstřík. Dokončete konverzaci a pak ~y~se vraťte k oběti~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Je nepravdepodobné, ze je to ten stalker; mají cistý rejstrík. Dokoncete konverzaci a pak ~y~se vratte k obeti~w~.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zdravím strážníku, jak vám mohu pomoci?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zdravím strážníku, jak vám mohu pomoci?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zdravím strážnice, jak vám mohu pomoci?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zdravím strážnice, jak vám mohu pomoci?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlášení od osoby, že ji stalkujete, je to pravda?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ó můj bože, ne! Vůbec. To musel být omyl. Jenom tady nakupuju, možná jsme jenom šli stejným směrem? Určitě bych se neshodoval s popisem.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ó můj bože, ne! Vůbec. To musel být omyl. Jenom tady nakupuju, možná jsme jenom šli stejným směrem? Určitě bych se neshodovala s popisem.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Popis nám nebyl poskytnut, zkusím kontaktovat dispečink pro objasnění situace.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Bez obav, moje nákupy počkají.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Bez obav, moje nákupy počkají.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Zdravím strázníku, jak vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Zdravím strázníku, jak vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Zdravím stráznice, jak vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Zdravím stráznice, jak vám mohu pomoci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dostali jsme hlásení od osoby, ze ji stalkujete, je to pravda?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Ó muj boze, ne! Vubec. To musel být omyl. Jenom tady nakupuju, mozná jsme jenom sli stejným smerem? Urcite bych se neshodoval s popisem.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Ó muj boze, ne! Vubec. To musel být omyl. Jenom tady nakupuju, mozná jsme jenom sli stejným smerem? Urcite bych se neshodovala s popisem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Popis nám nebyl poskytnut, zkusím kontaktovat dispecink pro objasnení situace.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Bez obav, moje nákupy pockají.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Bez obav, moje nákupy pockají.]]></DIALOGUE>
 			<DIALOGUE/>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Můžete jít, vypadá to, že to byl omyl. Přeji hezký den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Muzete jít, vypadá to, ze to byl omyl. Preji hezký den.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE TARGET="M"><![CDATA[~y~Oběť:~w~ Rád vás zase vidím, jak jsme na tom?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~y~Oběť:~w~ Ráda vás zase vidím, jak jsme na tom?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Promluvili jsme si s podezřelou osobou, ale je nepravděpodobné, že vás stalkovala.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~y~Oběť:~w~ Strašně moc se omlouvám, dává to smysl. Přemýšlel jsem nad tím jak jsem vás možná volal předčasně.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~y~Oběť:~w~ Strašně moc se omlouvám, dává to smysl. Přemýšlela jsem nad tím jak jsem vás možná volala předčasně.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ V pořádku, je lepší být opatrný. Příště nám dejte vědět kdybyste si nebyl jistý.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ V pořádku, je lepší být opatrná. Příště nám dejte vědět kdybyste si nebylá jistá.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Oběť:~w~ Ano, omlouvám se za všechny zbytečné potíže.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Obet:~w~ Rád vás zase vidím, jak jsme na tom?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Obet:~w~ Ráda vás zase vidím, jak jsme na tom?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Promluvili jsme si s podezrelou osobou, ale je nepravdepodobné, ze vás stalkovala.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Obet:~w~ Strasne moc se omlouvám, dává to smysl. Premýslel jsem nad tím jak jsem vás mozná volal predcasne.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Obet:~w~ Strasne moc se omlouvám, dává to smysl. Premýslela jsem nad tím jak jsem vás mozná volala predcasne.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ V porádku, je lepsí být opatrný. Príste nám dejte vedet kdybyste si nebyl jistý.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ V porádku, je lepsí být opatrná. Príste nám dejte vedet kdybyste si nebylá jistá.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Ano, omlouvám se za vsechny zbytecné potíze.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
-		<NOTIFICATION><![CDATA[Lokalizovali jsme podezřelého. ~y~Dokončete konverzaci~w~ a poté za nimi ihned vyražte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Lokalizovali jsme podezrelého. ~y~Dokoncete konverzaci~w~ a poté za nimi ihned vyrazte.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M"><![CDATA[~y~Oběť:~w~ Strážníku, díky bohu, že tu jste! Někdo mě pronásleduje!]]></DIALOGUE>
-			<DIALOGUE PLAYER="F"><![CDATA[~y~Oběť:~w~ Strážnice, díky bohu, že tu jste! Někdo mě pronásleduje!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Už jsme tady. Můžete mi vysvětlit co se stalo?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~y~Oběť:~w~ Byl jsem pronásledován... ale vytratilo se mi z hlavy jak vypadal.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~y~Oběť:~w~ Byla jsem pronásledována... ale vytratilo se mi z hlavy jak vypadal.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ V pořádku, je normální zapomínat. Nechám operátory kamer zkontrolovat záběry z oblasti.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Oběť:~w~ Byli jsme tu, na ~y~{0}~w~ pár minut zpátky, přesněji asi 15 minut zpět. Prosím zmiňte to.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Děkuji, předám jim to.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Právě nyní kontrolují záznamy, máte ještě nějaké detaily? Čím víc tím líp.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Oběť:~w~ Ne, nemám ponětí proč mě poslední 2 hodiny pronásledovali.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Nebojte se, my to vyřešíme.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Obet:~w~ Strázníku, díky bohu, ze tu jste! Nekdo me pronásleduje!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Obet:~w~ Stráznice, díky bohu, ze tu jste! Nekdo me pronásleduje!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Uz jsme tady. Muzete mi vysvetlit co se stalo?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~y~Obet:~w~ Byl jsem pronásledován... ale vytratilo se mi z hlavy jak vypadal.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~y~Obet:~w~ Byla jsem pronásledována... ale vytratilo se mi z hlavy jak vypadal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ V porádku, je normální zapomínat. Nechám operátory kamer zkontrolovat zábery z oblasti.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Byli jsme tu, na ~y~{0}~w~ pár minut zpátky, presneji asi 15 minut zpet. Prosím zminte to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dekuji, predám jim to.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Práve nyní kontrolují záznamy, máte jeste nejaké detaily? cím víc tím líp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Obet:~w~ Ne, nemám ponetí proc me poslední 2 hodiny pronásledovali.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Nebojte se, my to vyresíme.]]></DIALOGUE>
 			<DIALOGUE/>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Podařilo se nám je lokalizovat, tak tam teď zamířím. Můžete dále pokračovat ve svém dní nebo jít domů, ale ozveme se.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Podarilo se nám je lokalizovat, tak tam ted zamírím. Muzete dále pokracovat ve svém dní nebo jít domu, ale ozveme se.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

@@ -1,77 +1,77 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Fotografování Policejní Stanice]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Osoba ~y~pořizuje fotky stanice~w~, promluvte si s ní pro zjištění důvodu.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Osoba ~y~porizuje fotky stanice~w~, promluvte si s ní pro zjistení duvodu.]]></FURTHERINFORMATION>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
 	<OUTCOME1>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím. Co se děje?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nic. Vůbec nic.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nic. Vůbec nic.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Dejte tu kameru dolů, rád bych mluvil s-]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím. Co se deje?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Nic. Vubec nic.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Nic. Vubec nic.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dejte tu kameru dolu, rád bych mluvil s-]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Co se děje? Co vás sem přináší?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nedělám nic nelegálního, nechte mě prosím na pokoji.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nedělám nic nelegálního, nechte mě prosím na pokoji.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Snažím se jen prohodit pár slov abych pochopil co se tu děje.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ A já se jen snažm dělat věci, které jsou perfektně legální.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ A já se jen snažm dělat věci, které jsou perfektně legální.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Co se deje? Co vás sem prinásí?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Nedelám nic nelegálního, nechte me prosím na pokoji.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Nedelám nic nelegálního, nechte me prosím na pokoji.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Snazím se jen prohodit pár slov abych pochopil co se tu deje.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ A já se jen snazm delat veci, které jsou perfektne legální.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ A já se jen snazm delat veci, které jsou perfektne legální.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Ty:~w~ Jen s vámí chci mluvit.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Nezkoušejte porušit mé fotografické práva na veřejném pozemku.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Nezkoušejte porušit mé fotografické práva na veřejném pozemku.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Nezkousejte porusit mé fotografické práva na verejném pozemku.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Nezkousejte porusit mé fotografické práva na verejném pozemku.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, můžu se zeptat proč fotíte stanici?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Bylo to pro můj kanál na sociálních médiích, je to v pohodě?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Bylo to pro můj kanál na sociálních médiích, je to v pohodě?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Je to legální, ano, jen trochu divné vzhledem k tomu, jak dlouho to děláte.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Chápu, už jsem hotový takže půjdu dál.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Chápu, už jsem hotová takže půjdu dál.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Děkuji.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, muzu se zeptat proc fotíte stanici?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Bylo to pro muj kanál na sociálních médiích, je to v pohode?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Bylo to pro muj kanál na sociálních médiích, je to v pohode?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Je to legální, ano, jen trochu divné vzhledem k tomu, jak dlouho to deláte.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Chápu, uz jsem hotový takze pujdu dál.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Chápu, uz jsem hotová takze pujdu dál.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Dekuji.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<OUTCOME4>
-		<NOTIFICATION><![CDATA[Bylo přijato telefonní číslo, a počáteční vyšetřování bylo zahájeno. Děkuji.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bylo prijato telefonní císlo, a pocátecní vysetrování bylo zahájeno. Dekuji.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, proč pořizujete fotky stanice?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Opravdu to chcete vědět?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Opravdu to chcete vědět?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Ano prosím, pokračujte.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Uvědomuji si, jak blbě to co říkám zní, ale někdo pod jménem Jeff mi napsal, ať to udělám.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Uvědomuji si, jak blbě to co říkám zní, ale někdo pod jménem Jeff mi napsal, ať to udělám.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Jo, když se na to zpetně koukám tak to bylo trochu divný.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Jo, když se na to zpetně koukám tak to bylo trochu divný.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Myslím si, že oba myslíme na to samé. Mohl byste mi dát jeho číslo?]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Myslím si, že oba myslíme na to samé. Mohla byste mi dát jeho číslo?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Myslím si, že byste měl jít domů, a popřípadě přemýšlet nad tím s kým mluvíte.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Myslím si, že byste měla jít domů, a popřípadě přemýšlet nad tím s kým mluvíte.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Ano, chápu. Omlouvám se za potíže.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Ano, chápu. Omlouvám se za potíže.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, proc porizujete fotky stanice?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Opravdu to chcete vedet?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Opravdu to chcete vedet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Ano prosím, pokracujte.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Uvedomuji si, jak blbe to co ríkám zní, ale nekdo pod jménem Jeff mi napsal, at to udelám.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Uvedomuji si, jak blbe to co ríkám zní, ale nekdo pod jménem Jeff mi napsal, at to udelám.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Jo, kdyz se na to zpetne koukám tak to bylo trochu divný.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Jo, kdyz se na to zpetne koukám tak to bylo trochu divný.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Myslím si, ze oba myslíme na to samé. Mohl byste mi dát jeho císlo?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Myslím si, ze oba myslíme na to samé. Mohla byste mi dát jeho císlo?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Myslím si, ze byste mel jít domu, a poprípade premýslet nad tím s kým mluvíte.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Myslím si, ze byste mela jít domu, a poprípade premýslet nad tím s kým mluvíte.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Ano, chápu. Omlouvám se za potíze.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Ano, chápu. Omlouvám se za potíze.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>
 		<OUTCOME5>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, proč pořizujete fotky stanice?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zdravím strážníku! Jsem velký fanda pohotovostních služeb a jejich práce. Jenom jsem pořizoval nějaké fotky vaší stanice, je to v pořádku?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezřelý:~w~ Zdravím strážnice! Jsem velký fanda pohotovostních služeb a jejich práce. Jenom jsem pořizoval nějaké fotky vaší stanice, je to v pořádku?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zdravím strážníku! Jsem velká fanynka pohotovostních služeb a jejich práce. Jenom jsem pořizovala nějaké fotky vaší stanice, je to v pořádku?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezřelá:~w~ Zdravím strážnice! Jsem velká fanynka pohotovostních služeb a jejich práce. Jenom jsem pořizovala nějaké fotky vaší stanice, je to v pořádku?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumím, takže jestli to chápu správně, tak je to nějaký váš koníček?]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Přesně! Chtěl jsem se stát policajtem, ale vzhledem k tomu, že jsem na druhé straně stanice, tak vidíte, že to nedopadlo podle plánu.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Přesně! Chtěla jsem se stát policajtkou, ale vzhledem k tomu, že jsem na druhé straně stanice, tak vidíte, že to nedopadlo podle plánu.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ To je zajímavé, jenom jsem vás chtěl zkontrolovat a zjistit, co se děje.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ Můžu se jen omluvit za plýtvání vaším časem, ale už jsem dokončil všechny záběry, vypadá to dle mého docela dobře.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ Můžu se jen omluvit za plýtvání vaším časem, ale už jsem dokončila všechny záběry, vypadá to dle mého docela dobře.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Ty:~w~ Vůbec žádný problém, přeji vám nádherný zbytek dne.]]></DIALOGUE>
-			<DIALOGUE TARGET="M"><![CDATA[~r~Podezřelý:~w~ No, tak já jdu. Možná se nám někdy v budoucnosti cesty zkříží.]]></DIALOGUE>
-			<DIALOGUE TARGET="F"><![CDATA[~r~Podezřelá:~w~ No, tak já jdu. Možná se nám někdy v budoucnosti cesty zkříží.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zdravím, proc porizujete fotky stanice?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Zdravím strázníku! Jsem velký fanda pohotovostních sluzeb a jejich práce. Jenom jsem porizoval nejaké fotky vasí stanice, je to v porádku?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Podezrelý:~w~ Zdravím stráznice! Jsem velký fanda pohotovostních sluzeb a jejich práce. Jenom jsem porizoval nejaké fotky vasí stanice, je to v porádku?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Zdravím strázníku! Jsem velká fanynka pohotovostních sluzeb a jejich práce. Jenom jsem porizovala nejaké fotky vasí stanice, je to v porádku?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Podezrelá:~w~ Zdravím stráznice! Jsem velká fanynka pohotovostních sluzeb a jejich práce. Jenom jsem porizovala nejaké fotky vasí stanice, je to v porádku?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Rozumím, takze jestli to chápu správne, tak je to nejaký vás konícek?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Presne! Chtel jsem se stát policajtem, ale vzhledem k tomu, ze jsem na druhé strane stanice, tak vidíte, ze to nedopadlo podle plánu.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Presne! Chtela jsem se stát policajtkou, ale vzhledem k tomu, ze jsem na druhé strane stanice, tak vidíte, ze to nedopadlo podle plánu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ To je zajímavé, jenom jsem vás chtel zkontrolovat a zjistit, co se deje.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ Muzu se jen omluvit za plýtvání vasím casem, ale uz jsem dokoncil vsechny zábery, vypadá to dle mého docela dobre.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ Muzu se jen omluvit za plýtvání vasím casem, ale uz jsem dokoncila vsechny zábery, vypadá to dle mého docela dobre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Vubec zádný problém, preji vám nádherný zbytek dne.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~r~Podezrelý:~w~ No, tak já jdu. Mozná se nám nekdy v budoucnosti cesty zkrízí.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~Podezrelá:~w~ No, tak já jdu. Mozná se nám nekdy v budoucnosti cesty zkrízí.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME5>
 </CALLOUT>

@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Segnalazione Possesso arma offensiva]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Il sospetto si sta muovendo!~ Procedi verso la posizione aggiornata.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[angosciato]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Resta lì e tieni le mani lontane dalle tasche.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Cosa c'è che non va? Non ho fatto nulla. Nulla!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ho bisogno che tu mi obbedisca, ok?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Cosa sta succedendo? Cosa stai cercando di fare?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Metti le mano in alto subito.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ NO! fatti da parte! ORA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Arresta il sospetto e affronta la situazione come meglio credi.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Resta lì per me e metti le mani dove posso vederle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Cosa c'è che non va?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ So che hai un'arma con te.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Oh no...oh...no...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Cosa c'è che non va?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Per favore, mi dispiace! Non volevo...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va bene, ne possiamo discutere più tardi. Ricordati solo di seguire le mie istruzioni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Scordatelo, non voglio finire in prigione...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va tutto bene, non siamo qui per farti del male. Alza semplicemente le mani.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

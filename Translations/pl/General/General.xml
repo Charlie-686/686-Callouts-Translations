@@ -9,7 +9,7 @@
 		<FAILED><![CDATA[~y~Wczytano, ale nie udało się sprawdzić aktualizacji.]]></FAILED>
 	</UPDATECHECKER>
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[Brakuje plików 686 Callouts!~y~]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[Brakuje plików 686 Callouts!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[Folder 686 Callouts]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Folder audio]]></AUDIOFOLDER>

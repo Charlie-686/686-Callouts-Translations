@@ -12,7 +12,7 @@
 	
 	/// Notifications related to the Dependency check.
 	<DEPENDENCYCHECK>
-		<MISSINGFILES><![CDATA[Tomuto doplnku chýbajú súbory potrebné na fungovanie!~]]></MISSINGFILES>
+		<MISSINGFILES><![CDATA[Tomuto doplnku chýbajú súbory potrebné na fungovanie!]]></MISSINGFILES>
 		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
 		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Folder]]></_686CALLOUTSFOLDER>
 		<AUDIOFOLDER><![CDATA[Zvukový priečinok]]></AUDIOFOLDER>

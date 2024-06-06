@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Scorta ad alto rischio]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Un ~y~prigioniero~w~ ha bisogno di una ~y~scorta~w~ a ~y~{0}~w~. I tuoi ufficiali di riserva stanno aspettando il tuo arrivo.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informazioni sulla scorta:~w~~n~ Trasporterai ~y~{0}~w~ chi {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[Stazione di polizia di Mission Row]]></OTHER>
+		<OTHER><![CDATA[Penitenziario di Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[è a capo di un~r~ gruppo criminale organizzato~w~ che coinvolge agenti di polizia corrotti]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[è un famigerato ~y~boss mafioso~w~ attualmente in attesa di processo, con il rischio di essere preso di mira da una banda rivale]]></OTHER>
+		<OTHER><![CDATA[è un ex agente di polizia diventato ~y~informatore corrotto~w~, con legami con il mondo criminale]]></OTHER>
+		<OTHER><![CDATA[è un ~y~signore della droga~w~ collegato alla più grande operazione di narcotici della regione]]></OTHER>
+		<OTHER><![CDATA[è un ~y~criminale informatico~w~, che attualmente sta scontando una pena detentiva]]></OTHER>
+		<OTHER><![CDATA[controlla ~y~il traffico illegale di armi~w~ ed è stato arrestato di recente]]></OTHER>
+		<OTHER><![CDATA[è un ~y~terrorista~w~. C’è il rischio che altri cerchino di farlo evadere]]></OTHER>
+		<OTHER><![CDATA[ha creato una ~y~violenta banda di strada~w~, affrontando le ritorsioni di una banda rivale]]></OTHER>
+		<OTHER><![CDATA[faceva parte di una ~y~famigerata rete di traffico di droga~w~, recentemente smantellata dalle autorità]]></OTHER>
+		<OTHER><![CDATA[ha creato un ~y~programma globale di riciclaggio di denaro~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Quando sei pronto, ~y~guida il convoglio~w~ e segui il ~r~percorso pianificato~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Riportiamo la visuale di un ~y~veicolo sospetto~w~ che sta seguendo la nostra scorta. Passo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[C'è un ~r~posto di blocco~w~ più avanti! Proteggi il convoglio a tutti i costi.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~y~veicolo sospetto~w~ si trova nelle vicinanze. Controlla il tuo radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il ~y~prigioniero~w~ è stato ~r~ucciso~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nuovo obiettivo:~w~~n~ Resta in vita, ripristina l'ordine e sconfiggi i nemici rimasti!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Livello di pericolo scorta:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~BASSO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MEDIO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~ALTO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L' ~y~autista~w~ del furgone della prigione è ~r~morto~w~! Dovrai ~y~guidare il veicolo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Scorta ~r~fallita~w~. Il ~y~prigioniero~w~ è stato ~r~ucciso~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La scorta ~g~è riuscita~w~. Il ~y~prigioniero~w~ è ~g~vivo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La ~b~scorta è bloccata~w~? Premi ~y~{0}~w~ in qualsiasi momento per reimpostarlo.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

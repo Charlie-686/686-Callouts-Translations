@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tentativo di effrazione]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un proprietario di casa ha chiamato per segnalare un ~y~tentativo di effrazione~w~ nella sua proprietà. Secondo quanto riferito, il sospettato è fuggito dalla scena.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Premi ~y~{0}~w~ per recuperare le prove.]]></OTHER>
+		<OTHER><![CDATA[Recupero ~g~{0}~w~ riuscito con successo.]]></OTHER>
+		<OTHER><![CDATA[una carta d'identità]]></OTHER>
+<OTHER><![CDATA[un portafoglio]]></OTHER>
+<OTHER><![CDATA[un paio di forbici]]></OTHER>
+<OTHER><![CDATA[una collana]]></OTHER>
+<OTHER><![CDATA[una scarpa]]></OTHER>
+<OTHER><![CDATA[un piede di porco]]></OTHER>
+<OTHER><![CDATA[un cellulare]]></OTHER>
+<OTHER><![CDATA[~y~Cerca~w~ nell'area vicina prove e indizi di un'effrazione. Una volta completato, torna dal proprietario della casa~w~.]]></OTHER>
+<OTHER><![CDATA[~r~Grimaldello]]></OTHER>
+<OTHER><![CDATA[~r~Guanti]]></OTHER>
+<OTHER><![CDATA[~y~Mashera]]></OTHER>
+<OTHER><![CDATA[~y~Balaclava]]></OTHER>
+<OTHER><![CDATA[~r~Coltello tascabile]]></OTHER>
+<OTHER><![CDATA[~r~Dispositivo]]></OTHER>
+<OTHER><![CDATA[~y~Binocolo]]></OTHER>
+<OTHER><![CDATA[~r~Bavaglio]]></OTHER>
+		<NOTIFICATION><![CDATA[Usa la fotografia e l'area di ricerca per catturare il sospetto.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Questa è la foto del sospetto.~n~Premi ~y~Y~w~ per visualizzare di nuovo questa notifica~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Non c'erano prove qui.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ho trovato ~y~{0}~w~ associato a ~r~{1}~w~. Richiedo dettagli urgenti su questa persona.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[Controllo tutti gli avvistamenti di ~r~{0}~w~ nelle vicinanze. Attendi.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hai raccolto ~y~{0}~w~/~g~{1}~w~ prove.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hai raccolto ~g~{0}~w~/~g~{1}~w~ prove.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Una volta arrestato il sospetto, continua come ritieni opportuno.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[Il sospettato sta fuggendo!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Il sospettato si sta arrendendo. Arrestatelo e indagate.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vittima:Aiutami, agente! Aiutami!]]></DIALOGUE>
+		<DIALOGUE TARGET="M"><![CDATA[~b~Tu:~w~ Sono qui signore. Sei al sicuro adesso. Puoi dirmi cosa è successo?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Tu:~w~ Sono qui, signora. Sei al sicuro adesso. Puoi dirmi cosa è successo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Qualcuno ha provato a entrare...li ho sentiti e sono corso subito a chiudermi in camera mia.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco. Li hai visti?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Non l'ho fatto, ma ho sentito molti movimenti fuori casa finché non sei arrivato. Non so cosa stessero facendo!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Grazie. Fammi dare un'occhiata in giro per la proprietà per vedere se riesco a trovare qualcosa.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ho cercato nella zona vicina ma sfortunatamente non ho trovato alcuna prova che possa collegarsi a un sospetto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ È un peccato... e adesso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Chiederemo al reparto investigativo e la squadra scientifica di venire per condurre ulteriori indagini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Sfortunatamente, queste indagini iniziali hanno lasciato un vuoto. Non c'è nient'altro che posso fare ora.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ho perquisito la zona vicina e ho trovato prove che collegano a un sospetto. Ora mi metto al lavoro per trovarli.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Perfetto, buona fortuna, agente!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Per favore, agente! Ho sentito qualcuno fuori, ho paura!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Tu:Stai calmo, signore. Io sono qui ora. Puoi descrivere quello che hai sentito??]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Tu:Non si preoccupi, signora. Ora è al sicuro adesso. Puoi dirmi cosa è successo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Ho sentito dei colpi alle finestre, ma non ho osato guardare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va bene. Hai notato qualcosa di insolito prima che ciò accadesse?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ No, fino ad allora tutto era tranquillo. Per favore, trova chi ha fatto questo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Farò del mio meglio. Fammi controllare la zona per eventuali segni del sospetto.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ho cercato nei dintorni, ma non ho trovato nessun indizio che conduca al sospettato.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Oh no, e adesso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Dovremo aspettare che gli investigatori si occupino delle indagini.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sfortunatamente, non posso fare molto altro al momento.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Buone notizie! Ho trovato delle prove nelle vicinanze che potrebbero condurci al colpevole. Seguirò la pista immediatamente..]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vittima:~w~ Che sollievo, agente! Grazie e stai attento là fuori.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

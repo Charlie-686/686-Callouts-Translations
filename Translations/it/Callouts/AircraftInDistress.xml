@@ -1,0 +1,118 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Aereo in pericolo]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[L'~o~aereo~w~ rimarrà in una ~y~schema di attesa~w~ per alcuni minuti prima che ~y~tenta di atterrare~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Un aereo sta eseguendo un ~r~atterraggio di emergenza~w~ alle ~y~{0}~w~. Dirigiti verso l'area di atterraggio designata e attendi ulteriori istruzioni.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L'~o~aereo~w~ è ora autorizzato a tentare un ~r~atterraggio di emergenza~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La scena è il codice 4 poiché l'~g~aereo è atterrato sano e salvo~w~ alle ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Parla con il ~y~pilota~w~ e indaga sulla situazione.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L'aereo è atterrato. ~y~Parla con il pilota~w~ per verificare che sia tutto a posto.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Non siamo riusciti a ~r~spawn l'aereo~w~. Riprova a rifare il callout o contatta l'assistenza.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Abbiamo ~y~perso il contatto~w~ con il posizionamento radar dell'~o~aereo~w~. Tentativo di stabilire una ~y~visuale~w~ sull'~o~aereo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Abbiamo ~g~ripreso il contatto~w~ con il posizionamento radar dell'~o~aereo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L'~o~aereo~w~ si è ~r~schiantato~w~. Per favore attendi mentre ti indirizziamo al luogo dell'incidente. Una volta individuato, prosegui come ritieni opportuno.]]></NOTIFICATION>
+		<OTHER><![CDATA[Aeroporto internazionale di Los Santos]]></OTHER>
+		<OTHER><![CDATA[Campo d'aviazione di Sandy Shores]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Un aereo ha problemi al motore. Dirigiti verso l'area di atterraggio e preparati per l'atterraggio dell'aereo.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Grazie agente! Ti è piaciuto l'atterraggio]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Not bad for someone with a smoking engine!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Beh, apprezzo che tu sia venuto ad assicurarti che tutto andasse bene. Ti serve qualcosa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Niente affatto, volevamo solo essere lì nel caso qualcosa fosse andato storto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Dovrò far dare un'occhiata al motore dal mio meccanico. Se fossi rimasto in aria ancora per qualche minuto, non so se sarei riuscito a riportarlo a terra sano e salvo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Hai fatto un buon lavoro oggi. Ti lascerò occuparti del tuo aereo, stai al sicuro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Grazie, agente. Fate attenzione e scusate per l'inconveniente!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Un passeggero è morto a bordo di un aereo. Parla con il pilota per stabilire se le circostanze sono sospette.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ehi Capitano. Puoi dirmi cosa è successo nell'aria?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Certo... stavo portando il mio amico a fare un volo ed è svenuto a mezz'aria.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Cosa intendi esattamente?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Mi stavo concentrando sul volo perché oggi lo spazio aereo era occupato, mi sono voltato e lui non rispondeva. Poi ho fatto un atterraggio d'emergenza qui.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Il tuo amico ha qualche problema di salute di cui ti ha parlato?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Onestamente, non ne abbiamo mai parlato. Pensavo solo che sarebbero stati abbastanza sani da volare...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Questa è una scena del crimine adesso, quindi dovrò indagare. Va bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Sì, certo, agente, ha la mia piena collaborazione.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Panno al cloroformio~w~]]></OTHER> <!--If the pilot murdered the passenger, these are the suspicious items we will plant on the pilot!-->
+		<OTHER><![CDATA[~r~Segni di soffocamento~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Cuscino~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Il ~o~aereo~w~ corre il rischio di ~y~esplodere in qualsiasi momento~w~. Parla con il pilota e procedi all'evacuazione!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L'~o~aereo~w~ è ~r~esploso~w~. Continua come ritieni opportuno.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Esci dall'aereo e seguimi! Velocemente!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Un ~o~aereo~w~ ha ~y~problemi al motore~w~ e deve effettuare un atterraggio di emergenza. ~n~Secondo quanto riferito, la ~r~pista è bloccata~w~. Sgombrala prima che l'aereo atterri!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Muovi il veicolo prima che il ~o~aereo~w~ tenti di atterrare, quindi parla con il pilota~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ C'è mancato poco. Grazie per aver ripulito la pista in tempo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Nessun problema. Sono solo felice di aver potuto toglierti di mezzo quel veicolo. Come va l'aereo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Poteva andare peggio, i problemi al motore ci hanno colpito duramente. Sono riuscito comunque a scendere in sicurezza.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Hai fatto un ottimo lavoro, date le circostanze.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Grazie, fa tutto parte del lavoro, suppongo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sicuramente. Siamo solo contenti che tu sia al sicuro. Hai bisogno di assistenza?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ No, ce la faremo. Abbiamo richiesto personale di terra ed è in arrivo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Va bene allora. Se hai bisogno di qualcosa, chiamaci]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Va bene, grazie ancora per il tuo aiuto, agente.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Un ~o~aereo~w~ segnala un'emergenza a causa di un ~y~sospetto clandestino~w~ a bordo. Circondare l'aereo all'atterraggio.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Controllo se ~y~qualcuno di prigionieri è scappato~w~ nelle ultime 24 ore. Attendi.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Possiamo confermare che un ~y~{0}~w~ è evaso di prigione nelle ultime 24 ore. Il sospettato è ancora latitante.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per cercare l'~o~aereo~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ehi, come possiamo aiutarti?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Mentre volavo ho sentito dei strascichi nel mio aereo. E sembrava un animale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Hai lasciato il tuo aereo incustodito di recente?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Sì, non ho un garage quindi l'ho lasciata fuori per qualche giorno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Cosa pensi che possa essere?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Bene, agente, ho il sospetto che ci sia un clandestino a bordo. Non volevo controllare, ma se potessi perquisire il mio aereo, te ne sarei grato.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Fammi controllare una cosa con la centrale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Adesso perquisirò il tuo aereo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Non muoverti! Cosa pensi di fare qui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Clandestino:~w~ Oh, uh...stavo solo cercando di andare da qualche parte. Guarda, hai sbagliato persona.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Risparmia, non sei così furbo come pensi. Sappiamo chi sei.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Clandestino:~w~ Lo giuro, agente, non volevo fare del male. Avevo solo bisogno di una via d'uscita.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Una via d'uscita? Beh, ne hai sicuramente trovato uno. Andare in giro con un mandato in testa è un modo per tornare in cella.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Clandestino:~w~ Per favore, devi capire. È complicato.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Le complicazioni non giustificano la violazione della legge. Verrai con me.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Un ~o~aereo~w~ segnala un'emergenza a causa di un ~y~finestrino rotto~w~ avvenuto durante il volo. Dirigiti verso l'area di atterraggio e preparati per l'atterraggio dell'aereo.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Agente, grazie per essere qui. È stato un atterraggio davvero incredibile.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Nessun problema, Comandante. Abbiamo ricevuto la chiamata per la tua finestra. Sta bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Sì, solo un po' scosso. Non si era mai verificato un finestrino andato in frantumi come quello durante il volo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Comunque, ha gestito la cosa bene. Complimenti per come è riuscito a mantenere la calma?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Anni di addestramento, immagino. Si trattava solo di mantenere la concentrazione e di scendere in sicurezza.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Beh, ha sicuramente fatto un ottimo lavoro. Avevamo i servizi di emergenza in attesa per ogni evenienza. Siamo contenti che non ne abbiamo avuto bisogno.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Anch'io. Grazie per il tuo aiuto, lo apprezzo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Quando vuole, Comandante. Siamo qui per questo. Stia attento,e ci faccia sapere se hai bisogno di altro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Un ~o~aereo~w~ sta effettuando un atterraggio di emergenza a causa delle ~y~maltempo~w~. Dirigiti verso l'area di atterraggio e preparati per l'atterraggio dell'aereo.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Wow, è stato un atterraggio davvero eccezionale.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sta bene, Comandante? Quella tempesta è arrivata dal nulla.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Già. Il radar meteorologico non rendeva giustizia alla turbolenza là fuori.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ha fatto un ottimo lavoro portandolo giù sano e salvo. Eravamo preoccupati per voi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilota:~w~ Grazie, agente. Apprezzo che lei sia qui per assicurarti che tutto sia andato liscio. È stato un momento toccante.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Sono felice che sia al sicuro. Mi faccia sapere se ha bisogno di assistenza per qualsiasi cosa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilot:~w~ Grazie ancora. Parlerò con l'ATC quando saremo pronti a muoverci. Speriamo che il tempo migliori presto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Incrociamo le dita. In bocca al lupo Comandante e ancora buon lavoro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

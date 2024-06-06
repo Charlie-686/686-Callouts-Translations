@@ -1,26 +1,26 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Loupež V Uličce]]></CALLOUTMESSAGE>
+		<CALLOUTMESSAGE><![CDATA[Loupez V Ulicce]]></CALLOUTMESSAGE>
 	</GENERAL>
 	<OUTCOME0>
-		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[~y~Podezrení na loupez~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
 	</OUTCOME0>
 	<OUTCOME1>
-		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
-		<OTHER><![CDATA[Ukradené Zboží]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[~y~Podezrení na loupez~w~ okolo {0}. Prozkoumejte oblast.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Ukradené Zbozí]]></OTHER>
 	</OUTCOME1>
 	<OUTCOME2>
-		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ okolo {0}, na oběť je ~r~údajně namířena zbraň~w~. Prozkoumejte místo činu.]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[~y~Podezrení na loupez~w~ okolo {0}, na obet je ~r~údajne namírena zbran~w~. Prozkoumejte místo cinu.]]></FURTHERINFORMATION>
 	</OUTCOME2>
 	<OUTCOME3>
-		<FURTHERINFORMATION><![CDATA[~y~Podezření na loupež~w~ s hlášenými dvěma lupiči okolo {0}. Prozkoumejte místo činu.]]></FURTHERINFORMATION>
-		<NOTIFICATION><![CDATA[Stiskněte ~y~{0}~w~ pro ~g~získání zpět~w~ ukradného zboží.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Získejte zpět ukradený/ou ~y~{0}~w~ jako ~g~důkaz~w~.]]></NOTIFICATION>
-		<OTHER><![CDATA[Tašku]]></OTHER>
-		<OTHER><![CDATA[Nákupní Tašku]]></OTHER>
+		<FURTHERINFORMATION><![CDATA[~y~Podezrení na loupez~w~ s hlásenými dvema lupici okolo {0}. Prozkoumejte místo cinu.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Stisknete ~y~{0}~w~ pro ~g~získání zpet~w~ ukradného zbozí.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Získejte zpet ukradený/ou ~y~{0}~w~ jako ~g~dukaz~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Tasku]]></OTHER>
+		<OTHER><![CDATA[Nákupní Tasku]]></OTHER>
 		<OTHER><![CDATA[Pizzu]]></OTHER>
 		<OTHER><![CDATA[Laptop]]></OTHER>
-		<OTHER><![CDATA[Balíček]]></OTHER>
+		<OTHER><![CDATA[Balícek]]></OTHER>
 	</OUTCOME3>
 </CALLOUT>
 <!-- <![CDATA[]]> -->

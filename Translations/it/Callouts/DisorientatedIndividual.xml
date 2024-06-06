@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Individuo disorientato]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Gli operatori delle telecamere~w~ hanno ~y~sollevato preoccupazioni~w~ su una persona, controlla come sta.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[ha un forte odore di alcol]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Ciao, va tutto bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Ciao! Mi favorisca un suo documento, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto: ~w~Nooooooooo, non voglio.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Penso che sarebbe meglio se lo fai sono un agente?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~Hmmm...non voglio , ho detto di no ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ BLALALALALA! la lascio agente!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ciao, grazie a Dio sei qui!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~ Ciao, qual è il problema?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Mi sono perso, non sono della zona che vedi. Non so come tornare a casa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Oh cielo, c'è qualcuno che può venirti a prendere?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospettato:~w~ Oh sì, fammi pensare! Gli mando subito un messaggio.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~ Perfetto. Se non può venire nessuno troveremo una soluzione alternativa.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Che succede?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:Niente... ho solo fatto una bella festa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco e ora immagino stai semplicemente curiosando?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, mi piace stare all'aria aperta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Posso avere il tuo nome, per favore?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ok... mi chiamo Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Basta con gli scherzi, voglio il tuo vero nome.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Provo a ricordare...penso che sia {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu: ~w~Ciao, va tutto bene?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sì, sì, lo è.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Capisco, abbiamo appena ricevuto segnalazioni di un individuo disorientato nella zona.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Ok, ed è un crimine?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ No, volevamo solo accertarsi che stai bene.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Sospetto:~w~ Sto perfettamente bene, ma apprezzerei se mi lasciassi in pace.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Se insisti, buona giornata.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

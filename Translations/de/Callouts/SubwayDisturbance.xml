@@ -8,6 +8,7 @@
 		<NOTIFICATION><![CDATA[~y~Opfer:~w~ Helfen Sie mir, ich werde von einem Verrückten verfolgt!]]></NOTIFICATION>
 	</OUTCOME0>
 	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Neuigkeit:~w~ Ein Verdächtiger wurde in der U-Bahn ~y~bewusstlos geschlagen~w~ gemeldet. Gehen Sie vorsichtig vor.]]></NOTIFICATION>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>

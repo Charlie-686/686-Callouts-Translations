@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Il sospettato indossa una~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Ia sospettata indossa una ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Il sospetto è ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[abito~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[maglietta blu~w~ ed è un runner.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[camicia a quadretti blu~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[cappotto di pelle~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[operaio~w~, che indossa una ~y~maglietta bianca~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[bretelle~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[maglietta blu~w~ con ~y~pantaloncini blu~w~. Sospetto impiegato delle poste.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[ampia camicia rossa e berretto~w~ con ~y~pantaloni blu scuro~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[giacca azzurro e gonna di jeans~w~ con una ~y~camicia rossa sotto~w~.]]></DESCRIPTION> // FEMALE ped. 
+</PEDDESCRIPTIONS>
