@@ -1,0 +1,95 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Perturbation au métro]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un témoin demande de l'aide pour une ~y~situation~w~ suspecte impliquant ~y~2 individus~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Localisez l'entrer du métro~w~ et tentez de trouver les ~y~2 individus~w~ qui ont causé une perturbation.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Victime:~w~ Aidez-moi officier, Je me fais poursuivre par un fou furieux!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ C'est un tir de sommation, Restez où vous êtes!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ ARGHHHH! PRENEZ ÇA!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[agacé]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nous vérifions leurs dossiers. Attendez.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Leurs identifications respectives sont ressortis comme ~g~correctes~w~. Aucune raison de s'inquiéter.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Vous deux, Calmez-vous! Allez, respirez un grand coup.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "M"><![CDATA[~r~Suspect 1: ~w~Officier! Vous ne savez pas à quel point c'est une connasse!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "M"><![CDATA[~r~Suspect 1: ~w~Officière! Vous ne savez pas à quel point c'est une connasse!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M" TARGET = "F"><![CDATA[~r~Suspect 1: ~w~Officier! Vous ne savez pas à quel point c'est un connard!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F" TARGET = "F"><![CDATA[~r~Suspect 1: ~w~Officière! Vous ne savez pas à quel point c'est un connard!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Ok...mais restons là et discutons...sans tous se crier dessus.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect 2: ~w~Vous ne savez pas l'ENFER que j'ai vécu avec cette personne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~S'il vous plaît, essayons de calmer les choses.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect 2: ~w~Très bien, TRES BIEN! Calmons-nous alors.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Alors quel est le problem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect 1: ~w~Cette satanée personne est rentrée dans ma vie et la ruinée.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect 2: ~w~C'est PAS le cas!]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~b~Vous: ~w~Je suis assez concerné par vos manières, puis-je vous faire confiance pour vous calmez?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~b~Vous: ~w~Je suis assez concernée par vos manières, puis-je vous faire confiance pour vous calmez?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect 1: ~w~Pfff. Ok, peut-être que je me suis laissé emporter.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect 1: ~w~Pfff. Ok, peut-être que je me suis laissée emporter.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect 2: ~w~Déso', j'voulais pas causer de soucis à cause de cette enflure.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Puis-je avoir vos cartes d'identités s'il vous plaît? Je veux juste les vérifier vite fait.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Vous êtes tout les deux libres de partir. Merci d'avoir finalement coopérés et faites plus attention.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~Y~w~ pour bouger le piéton dans un endroit calme pour lui parler.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Succès~w~. Le piéton vous suit à présent.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Retournez parler au ~r~suspect~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Salut les gars, est-ce que vous voyagez ensemble?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Oui c'est le cas. Qu'est-ce que vous voulez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~On nous a signalé une possible perturbation ici. Je vais avoir besoin de verifier quelques trucs.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Ca a l'air inutile, mais très bien.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Vous: ~w~Monsieur, s'il vous plaît venez avec moi. J'ai besoin de vous parler en privé.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Vous: ~w~Madame, s'il vous plaît venez avec moi. J'ai besoin de vous parler en privé.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Merci. Pouvez-vous me dire si tout va bien??]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Victime: ~w~Ma partenaire me force à la suivre je ne sais où! S'il vous plaît aidez-moi avant que ce soit trop tard.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Victime: ~w~Mon partenaire me force à le suivre je ne sais où! S'il vous plaît aidez-moi avant que ce soit trop tard.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Y a-t-il autre chose que je dois savoir?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Victime: ~w~Elle a peut-être une arme sur elle, faites attention.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Victime: ~w~Il a peut-être une arme sur lui, faites attention.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Vous: ~w~Merci d'avoir attendu. J'ai besoin de vous demandez si vous avez quelque chose sur vous que vous ne devrez pas avoir?]]></DIALOGUE>
+			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect: ~w~J'ai rien sur moi officier.]]></DIALOGUE>
+			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect: ~w~J'ai rien sur moi officière.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Vous: ~w~Vous êtes sûr?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Vous: ~w~Vous êtes sûre?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect: ~w~Comme on dit, l'honnêteté est la meilleure politique.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Vous: ~w~Ok. Vous êtes détenu, gardez vos mains là où je peux les voir.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Vous: ~w~Ok. Vous êtes détenue, gardez vos mains là où je peux les voir.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Victime:~w~ Mon travail est fait. Arretez-moi]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Vous voyez ?! C'est de sa faute, pas la mienne..]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE TARGET = "M" PLAYER = "M"><![CDATA[~y~Spectateur:~w~ Officier, merci d'être venu! Laissez-moi vous expliquez ce que je sais.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "M"><![CDATA[~y~Spectatrice:~w~ Officier, merci d'être venu! Laissez-moi vous expliquez ce que je sais.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER = "F"><![CDATA[~y~Spectateur:~w~ Officière, merci d'être venue! Laissez-moi vous expliquez ce que je sais.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER = "F"><![CDATA[~y~Spectatrice:~w~ Officière, merci d'être venue! Laissez-moi vous expliquez ce que je sais.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Spectateur:~w~ J'étais entrain de m'occuper de mes affaires, et je passe à côté de ces 2 personnes. Elles avaient l'air de se disputer violemment! On aurait dit que l'une d'entre elle allait la frapper.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Spectatrice:~w~ J'étais entrain de m'occuper de mes affaires, et je passe à côté de ces 2 personnes. Elles avaient l'air de se disputer violemment! On aurait dit que l'une d'entre elle allait la frapper.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous:~w~ Vers où sont-elles allées?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Spectateur:~w~ Je ne suis pas sûr, mais je crois qu'elles sont rentrées dans la station de métro.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Spectatrice:~w~ Je ne suis pas sûre, mais je crois qu'elles sont rentrées dans la station de métro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous:~w~ Ca a l'air d'être un point de départ. Merci!]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Spectateur:~w~ De rien!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Spectatrice:~w~ De rien!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
