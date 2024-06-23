@@ -1,0 +1,59 @@
+<CALLOUT>
+  <GENERAL>
+    <CALLOUTMESSAGE><![CDATA[Fotografering av polisstationen]]></CALLOUTMESSAGE>
+    <FURTHERINFORMATION><![CDATA[En person ~y~tar foton av stationen~w~, prata med dem för att ta reda på varför.]]></FURTHERINFORMATION>
+  </GENERAL>
+  <OUTCOME0>
+  </OUTCOME0>
+  <OUTCOME1>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Hej där. Vad händer här?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Inget. Inget alls.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Lägg ner kameran, jag skulle vilja prata med-]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME1>
+  <OUTCOME2>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Vad händer? Vad har fått dig att komma hit?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag gör inget olagligt, vänligen lämna mig ifred.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Jag försöker bara inleda ett samtal för att förstå vad som pågår.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Och jag försöker bara göra saker som är helt lagliga.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Jag skulle bara vilja prata med dig.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Försök inte att inskränka mina fotofriheter på allmän plats.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME2>
+  <OUTCOME3>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Hej, kan jag fråga varför du tar foton av stationen?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Det var för min sociala mediekanal, är det okej?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Det är lagligt, ja, bara lite märkligt att hålla på så länge.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag förstår, jag är klar nu så jag går vidare.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Tack, tack.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME3>
+  <OUTCOME4>
+    <NOTIFICATION><![CDATA[Telefonnummer har mottagits, och de inledande undersökningarna har börjat. Tack.]]></NOTIFICATION>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Hej, vad gör du när du tar foton av stationen?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Vill du verkligen veta?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Ja tack, fortsätt.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag inser hur dumt det låter när jag säger detta, men någon som heter Jeff sms:ade mig och bad mig göra det.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ja, i efterhand var det nog en skum sak att göra.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Jag tror vi båda tänker samma sak. Kan du ge mig deras nummer?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Jag tror att du borde gå hem nu, och kanske tänka på vem du pratar med.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ja, jag förstår. Förlåt för besväret.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME4>
+  <OUTCOME5>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Hej, vad gör du när du tar foton av stationen?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Hej officer! Jag är ett stort fan av räddningstjänsterna och det arbete de gör. Jag har bara tagit några foton av er station, är det okej?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår, så det är någon sorts hobby om jag förstår rätt?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Precis! Jag ville bli polis, men på andra sidan av stationen kan du se att det inte gick enligt plan.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Intressant att höra, jag ville bara kolla på dig för att förstå vad som pågick.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag kan bara be om ursäkt för att jag slösar din tid, men jag är ändå klar med mina bilder, de ser ganska bra ut om jag får säga det själv.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Du:~w~ Inga problem alls, jag hoppas du får en fantastisk dag.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~r~Misstänkt:~w~ Nåväl, då går jag. Kanske korsar våra vägar någon gång i framtiden.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME5>
+</CALLOUT>
