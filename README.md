@@ -3,6 +3,11 @@ The repository dedicated to holding all translation files for 686 Callouts. It i
 
 :warning: These files are provided for reference purposes only and may not be redistributed or modified in any way without explicit permission from myself.<br><br>
 
+## Want to contribute a translation?
+All contributions are appreciated. Apart from being careful about spelling & grammar, please do not take creative liberties when translating. Translate it word for word (but of course you can change it so it makes sense in your language).
+
+If you are contributing to a new language, you will also need to create a new folder to match your [language code](http://www.lingoes.net/en/translator/langcode.htm).
+
 | Language    | Translation Status |
 | -------- | ------- |
 | English [en] | Completed    |
@@ -12,9 +17,9 @@ The repository dedicated to holding all translation files for 686 Callouts. It i
 | Slovak [sk] | Completed    |
 | Turkish [tr] | Completed    |
 | Chinese [cn]  | Incomplete    |
-| Czech [cs] | Incomplete    |
-| German [de]  | Complete    |
-| Spanish [es] | Incomplete    |
+| Czech [cs] | Completed    |
+| German [de]  | Completed    |
+| Spanish [es] | Completed    |
 | French [fr]  | Incomplete    |
 | Hungarian [hu] | Incomplete    |
 | Thai [th]  | Incomplete    |
