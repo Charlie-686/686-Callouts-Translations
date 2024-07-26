@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Solicitação]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um ~y~suspeito de ~w~prostituição foi reportado. Dirija-se ao local ~y~aguardando mais instruções~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Você está se aproximando do local. Estacione para ~y~não ser notado~w~ pelo suspeito.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Estabeleça contato com o suspeito.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você está ~r~muito perto do suspeito~w~. Afaste-se para evitar ser notado.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você ~r~alertou o suspeito.~n~~w~Por causa disso, não conseguimos ~y~coletar evidências~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O suspeito fez contato com o veículo. ~y~Fale com ele e investigue.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O veículo não está afiliado ao ~y~suspeito.~w~ Continue conforme achar adequado.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Utensílios para drogas, Substância branca em pó]]></OTHER>
+		<OTHER><![CDATA[~y~Pacote de preservativos]]></OTHER>
+		<OTHER><![CDATA[~y~Lubrificante~w~,~r~ Substância branca em pó]]></OTHER>
+		<OTHER><![CDATA[~r~Pacotes de dinheiro, Canivete]]></OTHER>
+		<OTHER><![CDATA[~r~Pacotes de dinheiro]]></OTHER>
+		<OTHER><![CDATA[~y~Tangas]]></OTHER>
+		<OTHER><![CDATA[~r~Imagens explícitas]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Faca ensanguentada]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Espectador:~w~ Aqui! Aqui!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Espectador:~w~ Por favor, salve-a! Por favor!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ O que aconteceu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Espectador:~w~ Eu estava apenas dando uma volta, e encontrei essa pobre mulher.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Você viu o que aconteceu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Espectador:~w~ Infelizmente não, eu gostaria de ter chegado mais cedo. Talvez ela ainda estaria viva...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ E me lembre - o que você estava fazendo quando a encontrou?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Espectador:~w~ Apenas caminhando, eu moro aqui perto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Como você deve entender, preciso realizar algumas verificações - se você puder ficar aqui, seria ótimo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Senhora, eu vou precisar falar com você.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Oficial, em que posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Recebemos relatos de solicitação nesta área. Você sabe algo sobre isso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Oh Deus! Não sou eu, oficial, você está confundido.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Está bastante frio hoje e você está com poucas roupas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Oficial, temo que isso não seja um crime. Estou apenas indo para uma festa, que já começou.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ De acordo com nossos relatórios, você tem andado de forma um pouco desorientada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Estou apenas um pouco perdida, só isso. Posso ir agora?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Ambos - fiquem aqui para mim. Preciso ter uma conversa rápida.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Em que posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Recebemos relatos de solicitação ocorrendo nesta área, você sabe algo sobre isso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Sim! Esta mulher se aproximou do meu carro, oferecendo seus 'serviços'...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Isso é verdade, senhora?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Estou apenas aqui para fazer negócios. Considere-me uma empreendedora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ É indesejado e nojento - eu não quero uma prostituta perto de mim! Prenda-a, oficial!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Vamos manter a calma aqui, eu vou lidar com isso agora.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[O ~y~suspeito~w~ entrou no veículo.~n~~r~Realize uma parada de trânsito o mais rápido possível e investigue a partir daí~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
