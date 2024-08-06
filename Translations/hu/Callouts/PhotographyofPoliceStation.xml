@@ -1,0 +1,60 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fotózás Rendör Örsröl]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy személy ~y~fotókat készít az örsröl~w~, beszélj vele, hogy megtudd, miért.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv, mi folyik itt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Semmi. Semmi egyéb.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Tegye le a fényképezögépet, beszélni szeretnék önnel-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mi a helyzet? Miért van itt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem csinálok semmi illegálisat, kérlek, hagyj békén.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Csak próbálok beszélgetni, hogy megértsem, mi történik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Én csak olyan dolgokat csinálok, amelyek teljesen legálisak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Csak szeretnék beszélni önnel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ne próbáld meg korlátozni a fényképezési jogaimat nyilvános helyen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló, megkérdezhetem, miért készít fényképeket az örsröl?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Az a közösségi média csatornám számára volt, rendben van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Igen, legális, csak elég furcsa, hogy ilyen sokáig csinálja.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Értem, most már kész vagyok, szóval megyek tovább.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Köszönöm.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[A telefonszámot megkaptuk, és az elsödleges nyomozások elkezdödtek. Köszönjük.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló, miért készít fényképeket az örsröl?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tényleg szeretnéd tudni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Igen, kérlek, mondj el mindent.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tudom, hogy ostobán hangzik, de valaki, akit Jeffnek hívnak, írt nekem, hogy csináljam ezt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, most már belátom, hogy ez egy kicsit gyanús volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Úgy tünik, mindketten ugyanarra gondolunk. Meg tudná adni a telefonszámát?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Szerintem most haza kéne mennie, és esetleg gondolkodnia kéne azon, kivel beszél.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, értem. Sajnálom.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló, miért készít fényképeket az örsröl?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Helló, tiszt! Nagy rajongója vagyok a sürgösségi szolgáltatásoknak és annak, amit csinálnak. Csak pár fényképet készítettem az állomásról, rendben van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Értem, tehát ez valamilyen hobbi, ha jól értem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Pontosan! Szerettem volna rendör lenni, de mivel most a másik oldalon vagyok, láthatja, hogy nem így alakult.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Érdekes, amit mondasz, csak ellenörizni akartam, hogy mi történik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Csak elnézést kérhetek, hogy elpazaroltam az idödet, de mindenesetre befejeztem a fényképeimet, elég jól sikerültek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Semmi probléma.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nos, akkor megyek. Talán találkozunk a jövöben.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

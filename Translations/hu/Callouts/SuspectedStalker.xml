@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Gyanított orvvadász]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy ~p~aggódó állampolgár~w~ úgy véli, hogy követik öt, ~y~biztosítsd a biztonságát~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, orvvadász vagyok, de a börtön nem nekem való, és nem megyek vissza!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~A sértett fényképei~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Takarodjatok a képem elöl!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Nyugodjunk meg, jelentések érkeztek arról, hogy korábban zaklatott valakit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Húzzatok el, semmit sem tettem, csak egy szó áll szemben egy másikkal!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Elutasítja, hogy beszéljen velünk?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, IGEN! Nem beszélek disznókkal, megeszem öket.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Nem valószínü, hogy ök a zaklatók; tiszta rekordjuk van. Fejezd be a beszélgetést, majd ~y~menj vissza a sértetthez~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Helló Tiszt, miben segíthetek ma?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentések érkeztek egy egyénről, aki azt mondta, hogy zaklatta öt. Igaz ez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Azta, nem! Egyáltalán nem. Biztos tévedés vagy félreértés. Csak vásárolni jöttem, lehet, hogy ugyanarra mentünk? Biztosan nem felelek meg a leírásnak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Nem kaptunk leírást, kapcsolatba lépek a központtal, hogy tisztázzuk a helyzetet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, a vásárlás várhat, ne aggódj.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben van, mehet, úgy tünik, hogy valószínüleg tévedés történt. Jó napot kívánok.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Jó látni téged ismét, mi a helyzet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Beszéltünk a gyanúsítottal, de valószínüleg nem ök zaklatták magát.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Sajnálom, ez logikus. Gondoltam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Semmi gond, jobb a biztonság, mint a sajnálat. Legközelebb, csak szóljon, ha nem biztos valamiben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Igen, sajnálom az összes szükségtelen problémát.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Megtaláltuk a gyanúsítottat. ~y~Fejezd be a beszélgetést~w~ majd azonnal menj oda hozzá.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Tiszt, hála istennek, hogy itt vagy! Követnek engem!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Most itt vagyunk. Tudna adni egy magyarázatot arról, mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Követtek... de elfelejtettem, hogy néztek ki.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben van, normális, hogy elfelejt dolgokat egy adott pillanatban. Megnéztem a kamerás felvételeket a területen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Itt voltunk, ~y~{0}~w~ valamikor, talán 15 perccel ezelött. Kérem, említse meg ezt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Köszönöm, továbbítom most.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Most ellenörzik a felvételeket, vannak még részletek? Minél több, annál jobb.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sértett:~w~ Nem, fogalmam sincs, miért követtek az utolsó 2 órában.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Ne aggódjon, megoldjuk.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Megtaláltuk öket, így most oda megyünk. Folytathatja a napját vagy hazamehet, visszahívjuk.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
