@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Betörési Kísérlet]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy háztulajdonos jelentette, hogy ~y~betörési kísérlet~w~ történt az ingatlanán. A gyanúsított állítólag elmenekült a helyszínröl.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Nyomja meg a ~y~{0}~w~ gombot a bizonyíték visszaszerzéséhez.]]></OTHER>
+		<OTHER><![CDATA[Sikeresen visszaszerezte ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[egy személyi igazolvány]]></OTHER>
+		<OTHER><![CDATA[egy pénztárca]]></OTHER>
+		<OTHER><![CDATA[egy olló]]></OTHER>
+		<OTHER><![CDATA[egy nyaklánc]]></OTHER>
+		<OTHER><![CDATA[egy cipő]]></OTHER>
+		<OTHER><![CDATA[egy feszítővas]]></OTHER>
+		<OTHER><![CDATA[egy mobiltelefon]]></OTHER>
+		<OTHER><![CDATA[~y~Kutatás~w~ a környező területen bizonyítékok és betörési nyomok után. Miután befejezte, ~y~térjen vissza a háztulajdonoshoz~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Tolvajkulcs]]></OTHER>
+		<OTHER><![CDATA[~r~Kesztyü]]></OTHER>
+		<OTHER><![CDATA[~y~Maszk]]></OTHER>
+		<OTHER><![CDATA[~y~Símaszk]]></OTHER>
+		<OTHER><![CDATA[~r~Zsebkés]]></OTHER>
+		<OTHER><![CDATA[~r~Feszítövas]]></OTHER>
+		<OTHER><![CDATA[~y~Távcsö]]></OTHER>
+		<OTHER><![CDATA[~r~Szájpecek]]></OTHER>
+		<NOTIFICATION><![CDATA[Használja a ~y~fényképet~w~ és a ~y~keresési területet~w~, hogy elfogja a ~r~gyanúsítottat~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ez a ~y~fényképe~w~ a ~r~gyanúsítottnak~w~. ~n~Nyomja meg a(z) ~y~Y~w~ gombot, hogy újra lássa ezt az értesítést.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Itt nem volt ~r~bizonyíték~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Találtam egy ~y~{0}~w~ tárgyat, ami ~r~{1}~w~-hoz kapcsolódik. Azonnali információkérés erröl a személyröl.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[Ellenörzöm a ~r~{0}~w~ közeli észleléseit. Kérem várjon.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[{0}~w~ / ~g~{1}~w~ bizonyítékot gyüjtött be.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[{0}~w~ / ~g~{1}~w~ bizonyítékot gyüjtött be.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Miután ~y~elfogta~w~ a ~r~gyanúsítottat~w~, folytassa saját belátása szerint.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[A ~r~gyanúsított~w~ menekül!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[A ~r~gyanúsított~w~ ~y~feladja magát~w~. Tartóztassa le és vizsgálja ki.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Segítsen, tiszt úr! Segítsen!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ön:~w~ Itt vagyok uram. Most már biztonságban van. Elmondaná, mi történt?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ön:~w~ Itt vagyok asszonyom. Most már biztonságban van. Elmondaná, mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Valaki megpróbált betörni...hallottam öket, és azonnal a szobámba zárkóztam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem. Látta öket?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Nem láttam öket, de sok mozgást hallottam a ház körül, amíg meg nem érkeztek. Nem tudom, mit csináltak!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Köszönöm. Hagy nézzek körül az ingatlan körül, hátha találok valamit.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Átkutattam a környéket, de sajnos nem találtam bizonyítékot, amely a gyanúsítotthoz kapcsolódna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez szomorú..mi lesz most?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Késöbb nyomozók fognak kijönni további vizsgálatokra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Sajnos ezek az elsö vizsgálatok eredménytelenek voltak. Most nem tehetek többet.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Átkutattam a környéket és találtam bizonyítékot, amely egy gyanúsítotthoz kapcsolódik. Most elmegyek, hogy megtaláljam öket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez nagyszerü, sok sikert tiszt úr!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Kérem, tiszt úr! Hallottam valakit odakint, nagyon félek!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ön:~w~ Nyugodjon meg, uram. Itt vagyok. Le tudná írni, mit hallott?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ön:~w~ Ne aggódjon, asszonyom. Most már biztonságban van. Elmondaná, mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Dörömbölést hallottam az ablakokon, de nem mertem megnézni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Rendben. Észrevett valami szokatlant, mielött ez történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Nem, addig csend volt. Kérem, találják meg, aki ezt tette.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megteszem, amit tudok. Hagy nézzek körül a környéken, hátha találok valami nyomot.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Átkutattam a környéket, de nem találtam semmilyen nyomot, ami a gyanúsítotthoz vezetne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ó, nem, most mi lesz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Meg kell várnunk a nyomozókat, hogy folytassák a vizsgálatot.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Sajnos jelenleg nem tehetek többet.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Jó hírek! Találtam bizonyítékot a közelben, amely segíthet a tettes azonosításában. Azonnal utána járok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez megkönnyebbülés, tiszt úr! Köszönöm, és legyen óvatos.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

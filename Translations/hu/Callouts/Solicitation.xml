@@ -1,0 +1,63 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Prostitúció]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy ~y~feltételezett prostituáltról~w~ jelentést kaptunk. Menj a helyszínre ~y~további utasítások várásával~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Hozzá közelítesz. Parkolj le úgy, hogy ~y~ne vegyen észre~w~ a gyanúsított.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Lépj kapcsolatba a gyanúsítottal.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Most ~r~túl közel vagy a gyanúsítotthoz~w~. Tovább kell távolodnod, hogy ne vegyen észre.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Riasztottad a gyanúsítottat.~n~~w~ Emiatt nem tudtunk ~y~bizonyítékot gyüjteni~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A gyanúsított kapcsolatba lépett a jármüvel. ~y~Beszélj velük és vizsgálj tovább.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A jármü nem kapcsolódik a ~y~gyanúsítotthoz.~w~ Folytasd a te döntésed szerint.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Vérrel borított kés]]></OTHER>
+		<OTHER><![CDATA[~y~Kondomcsomag]]></OTHER>
+		<OTHER><![CDATA[~y~Síkosító~w~,~r~ Fehér por]]></OTHER>
+		<OTHER><![CDATA[~r~Pénztekercsek, Kés]]></OTHER>
+		<OTHER><![CDATA[~r~Pénztekercsek]]></OTHER>
+		<OTHER><![CDATA[~y~Tangabugyi]]></OTHER>
+		<OTHER><![CDATA[~r~Szenvedélyes képek]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Vérrel borított kés]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Szemlélö:~w~ Itt! Itt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Szemlélö:~w~ Kérem, mentse meg öt! Kérem!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Szemlélő:~w~ Csak sétáltam, és találkoztam ezzel a szegény növel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Láttad, mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sajnálom, nem láttam. Bárcsak hamarabb itt lettem volna... Talán még életben lenne...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ És emlékszik, mit csinált, amikor megtalálta öt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Sétáltam, helyben lakom.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Biztosan megérti, hogy néhány ellenörzést kell végeznem - ha itt tudna maradni, az nagyszerü lenne.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Asszonyom, beszélnem kell önnel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tiszt, miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentések érkeztek prostitúcióról ezen a területen. Tud valamit erről?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ó, Istenem! Nem én vagyok, uram, téved.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Elég hüvös van ma, és nagyon kevés öltözet van magán.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tiszt, sajnálom, de ez nem büncselekmény. Csak egy buliba megyek, ami már el is kezdödött.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentéseink szerint céltalanul kószált.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Csak egy kicsit eltévedtem, ennyi az egész. Most elmehetek?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mindkettöjüknek - maradjanak itt velem. Gyorsan beszélnem kell önökkel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentések érkeztek prostitúcióról ezen a területen, tudnak erröl valamit?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Igen! Ez a nö odajött az autómhoz, és felajánlotta a 'szolgáltatásait'...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Igaz ez, asszonyom?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Csak üzletet csinálok. Tekintsetek rám vállalkozóként.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez nem kívánatos és undorító - nem akarok prostituáltat a közelemben! Tartóztassa le!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Nyugodjunk le, rendben? Intézkedem.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[A ~y~gyanúsított~w~ beszállt a jármübe.~n~~r~Végezz el egy forgalmi ellenörzést a lehetö leggyorsabban és vizsgálj tovább~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -9,13 +9,13 @@
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Tiszteletem. Attól tartok, hogy nem parkolhat itt.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem megyek én sehová.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Te:~w~ Pedig kellene]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Pedig kellene.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Te:~w~ Maradjon ott kérem. Mit csinál?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Semmit. Valami rossz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv. Mit csinál?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Semmitt. Valami rosszat tettem?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Ez egy járda. El kell állnia innen.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Várok valakire, bármelyik pillanatban itt lehet.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Ez nem kérés volt. Ez egy járda, az emberek használni szeretnék.]]></DIALOGUE>
@@ -26,7 +26,7 @@
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Tiszteletem. Egy járdán parkol, tudta?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, de csak egy barátra várok. Maradhatok?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Te:~w~ Attól tartok nem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Attól tartok, nem.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Hát, hova máshová mehetek?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Egy parkoló vagy hasonló, elég sok van a környéken.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Értem. Sajnálom, nem fog megtörténni mégegyszer.]]></DIALOGUE>
@@ -37,10 +37,11 @@
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Tiszteletem. Miért parkol itt?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Kézbesítek valamit.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Te:~w~ Mit kézbesít? Nem néz ki úgy mint egy futár, már ha nem sértem meg.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mit kézbesít? Nem néz ki úgy, mint egy futár, már ha nem sértem meg.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Hát, csak valami amit meg kell csinálnom.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Te:~w~ Szóval, azért áll itt, mert kézbesít valamit?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nézze, ezt le kell szállítanom, a családomért. Kérem!.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nézze, ezt le kell szállítanom, a családomért. Kérem!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 </CALLOUT>
+<!-- <![CDATA[]]> -->

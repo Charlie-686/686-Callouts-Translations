@@ -1,0 +1,81 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Metró Zürzavar]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy szemtanú segítséget kér egy gyanított ~y~zürzavar~w~ miatt, ami ~y~2 egyén~w~ között történt.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Menj be a metró bejáratán~w~ és próbáld meg találni a ~y~2 egyént~w~ akik zürzavart okoztak.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Áldozat:~w~ Segítsen, tiszt! Egy örült üldöz engem!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Fejlemény:~w~ Egy gyanúsított ~y~eszméletlenül~w~ jelentették a metrón. Gyakorolj nagy óvatosságot.]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ez egy figyelmeztetö lövés, maradjatok távol!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ ARGHHHH! KAPJÁTOK EZT!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[felbosszantott]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Most ellenörizzük az adatokat. Várj.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Az azonosító ellenörzés ~g~sikeresen lezárult~w~. Nincs ok aggodalomra.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mindkettötöket, nyugodjatok meg! Vegyünk egy kis szünetet.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Gyanúsított 1:~w~ Tiszt! Nem tudja, milyen szemét ez a nö!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Gyanúsított 1:~w~ Tiszt! Nem tudja, milyen szemét ez a férfi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben... de csak álljunk meg és beszéljünk... ne kiabáljunk egymással agresszívan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 2:~w~ Nem tudja, MENNYIRE SZAR VOLTAM EZZEL AZ EMBERREL!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Kérem, próbáljunk meg lehiggadni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 2:~w~ Rendben, rendben! Nyugodjunk meg.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mi a probléma?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 1:~w~ Ez a kibaszott személy belépett az életembe és tönkretette azt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 2:~w~ Nem tettem ilyet!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Egy kicsit aggódom mindkettöjük viselkedése miatt, megbízhatok magukban, hogy lenyugodnak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 1:~w~ Pfff. Rendben, talán túlzottan reagáltam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított 2:~w~ Az én hibám, nem akartam zürzavart okozni emiatt a seggfej miatt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Kérhetem az igazolványokat? Csak gyorsan ellenörizni szeretném önöket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Szabadon távozhatnak. Köszönöm, hogy végül együttmüködtek.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Nyomd meg a ~y~Y~w~ gombot, hogy a személyt egy csendes helyre vidd beszélgetésre.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Siker~w~. A személy most követ téged.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Menj vissza és beszélj a ~r~gyanúsítottal~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv, együtt utaznak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen. Mit akarsz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentés érkezett egy lehetséges zürzavarról itt. Ellenöriznem kell néhány dolgot.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ez feleslegesnek tünik, de rendben.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Te:~w~ Uram, kérem jöjjön velem. Magánbeszélgetést szeretnék folytatni önnel.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Te:~w~ Hölgyem, kérem jöjjön velem. Magánbeszélgetést szeretnék folytatni önnel.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Köszönöm. Megmondaná, hogy minden rendben van-e?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ A partnerem arra kényszerít, hogy kövessem öt! Nem tudom hová, kérlek segíts, mielött késö lenne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Van még valami, amit tudnom kell?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Lehet, hogy van náluk egy fegyver, légy óvatos.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben. Kérdeznem kell, van-e maguknál olyan dolog, ami nem kellene.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nincs nálam semmi, tiszt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Biztos vagy benne?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ahogy mondani szokták, az öszinteség a legjobb politika.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben. Örizetbe veszem, tartsa a kezeit ott, ahol láthatom.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ A munkám vége. Örizetbe vehetsz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Látta, hogyan jöttek nekem a tiszt! Ez nem volt az én hibám.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Szemtanú:~w~ Tiszt, köszönöm, hogy megérkezett! Hadd mondjam el, amit tudok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Szemtanú:~w~ Az én dolgom volt, és ezek a 2 ember elment mellettem. Nagyon vitatkoztak! Úgy tünt, az egyikük mindjárt kitör.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Merre mentek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Szemtanú:~w~ Nem vagyok biztos benne, de azt hiszem, bementek a metróállomásra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben. Köszönöm!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Szemtanú:~w~ Szívesen!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

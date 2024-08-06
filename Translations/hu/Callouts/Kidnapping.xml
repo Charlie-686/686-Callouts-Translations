@@ -1,0 +1,75 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Rablás folyamatban]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy személyt állítólag ~y~elrabolták egy taxiban. ~y~Végezz közlekedési ellenörzést.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Adatbázis keresése...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Ellenörzések rendben. Nincs ok aggodalomra.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Gyanúsított keresett.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Miután foglalkoztál a gyanúsítotttal, nyomd meg ~y~{0}~w~ a sértett segítségére.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Vérrel áztatott kötözöszalagok]]></OTHER>
+		<OTHER><![CDATA[~r~Vérrel áztatott kesztyük]]></OTHER>
+		<OTHER><![CDATA[~y~Ragasztószalag]]></OTHER>
+		<OTHER><![CDATA[~r~Szemellenzö]]></OTHER>
+		<OTHER><![CDATA[~r~Kötözöszalagok~w~, ~r~Kés~w~, ~o~Sál]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ AHHH SEGÍTSÉG!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[provokált]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Beszélnem kell az utassal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem hiszem. Kiszállok az autóból, beszélj velem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Fontos, hogy az utassal beszéljek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Rendben, rendben, csak mondd el, mi a helyzet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentések érkeztek, hogy egy személyt elraboltak. Ellenörzéseket végzünk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nos, akkor te megtaláltad a megfelelö embert!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Végeztünk itt!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Élelmiszerek]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Szia, merre tartasz jelenleg?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Csak hazaviszem ezt az utast]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Értem, hadd beszéljek gyorsan az utassal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Helló, tiszthelyettes, mire van szükséged?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Most kaptunk jelentéseket egy elrablásról, csak szeretném ellenörizni, hogy rendben van-e?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Teljesen rendben vagyok! Éppen vásárolni voltam, és az autó csomagtartójában van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Köszönöm. Csak futtatok egy pár ellenörzést, és utána szabadon mehet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Persze, nincs sietség.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Minden rendben van, mehet tovább!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[próbálja felhívni a figyelmedet]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Csak megkérdeznék pár dolgot, kérem, állítsa le a motort.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Mi történik itt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentések érkeztek egy lehetséges elrablásról. Csak azt szeretném tudni, hová tart.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ezt a személyt oda viszem, ahová menniük kell. Ez az, amit egy taxisofőr csinál.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Beszélhetek az utassal?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Rendben, de a taxi díja növekszik, amíg beszélgetünk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv, hová kérte, hogy vigye ez a soför?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Csak hazamegyek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben, nincs semmi, amit el szeretne mondani?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Csak hazafelé tartok, ennyi az egész.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Nagyszerü, minden rendben van. Futtatok néhány ellenörzést, és mehet.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+		<OTHER><![CDATA[Elöször azt hittem, hogy ez egy valódi taxi... de amint beszálltam, észrevettem, hogy valami nincs rendben. Elmentünk egy sikátorba, fegyvert tartottak rám, elvették a telefonomat, és azt mondták, hogy maradjak csendben.]]></OTHER>
+		<OTHER><![CDATA[Hazafelé tartottam, amikor egy sálat viselö személy megragadott, és éreztem egy fegyvert a fejemen. Kényszerítettek, hogy szálljak be a taxiba.]]></OTHER>
+		<OTHER><![CDATA[Ez a taxisoför útbaigazítást kért tölem, odahajoltam az autójához, hogy beszéljek vele, és behúzott. De nem sérültem meg.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ Nagyon köszönöm, tiszthelyettes! Azt hittem... azt hittem, vége.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Megkönnyebbültem, hogy megtaláltuk. Biztonságosan szeretném haza juttatni, de elmondanád, mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Értem. Köszönöm, hogy megosztotta ezeket a részleteket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Utasa:~w~ El sem hiszem, hogy ez történt...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

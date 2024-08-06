@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sikátorban Elkövetett Rablás]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~y~Rablási kísérlet~w~ történik a(z) {0} környékén. Vizsgálja meg a helyszínt.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~y~Rablási kísérlet~w~ történik a(z) {0} környékén. Vizsgálja meg a helyszínt.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Lopott Tárgyak]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[~y~Rablási kísérlet~w~ történik a(z) {0} környékén, és az áldozatot ~r~fegyverrel fenyegetik~w~. Vizsgálja meg a helyszínt.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[~y~Rablási kísérlet~w~ történik a(z) {0} környékén, és két rablót jelentettek. Vizsgálja meg a helyszínt.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Nyomja meg a ~y~{0}~w~ gombot a ~g~lopott tárgyak visszaszerzéséhez~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Visza lett szerezve egy lopott ~y~{0}~w~ mint ~g~bizonyíték~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Táska]]></OTHER>
+		<OTHER><![CDATA[Bevásárlótáska]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Csomag]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

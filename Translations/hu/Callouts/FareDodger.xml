@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Utazási díjat elkerülö személy]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Állomás személyzete~w~ segítségét kérik; szükségük van arra, hogy elfogjon valakit, aki ~y~nem fizette ki a vonatjegyet.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Szólj a gyanúsított ~y~utazási díjat elkerülö~w~ személlyel.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Érvényes jegy~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Hamisan bemutatott jegy~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Az egyik közeli állomás jelentette, hogy átugrották a kapukat. Imponáló, de büncselekmény.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Elnézést, meg tudna várni itt egy percre?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Siessen, el kell érnem egy vonatot.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Beszéltem egy jegyellenörrel, és azt mondta, hogy átugrották a kapukat?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Pfff. Nem nagy ügy. Nincs nálam apró pénz, el tudna engedni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Büncselekmény vonattal utazni jegy nélkül, írok önnek egy bírságot.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Hát akkor siessen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Itt van. Mostantól használhatja a vonatot, mivel büntetést fizet, de legközelebb, mint mindenki más, fizesse ki a jegyét.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ez a büntetés drága, nem hiszem el. Nos, azt hiszem, jegyet kellett volna vásárolnom.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Láttam egy jegyet, amit valaki használt; szokatlannak tünt, gyanítom, hogy hamis. Sajnos ezek egyre gyakoribbak.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Helló, maradjon itt egy pillanatra, kérem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, tisztelendö, miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Az állomás személyzete értesített minket, hogy hogyan jutott át a kapukon!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nos, van egy jegyem, így jutottam át.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megnézhetem azt a jegyet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Uh, persze. Nem látom, miért lenne szüksége rá.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ A jegy egy hete lejárt, tudja, miért van ez?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem tudom, tényleg! Nem tudom, hogy lehet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ne játssza a butát, szándékosan használt egy régi jegyet. Bírságot kap.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tényleg? Csináljon már valami hasznosat az életében. Add ide a jegyet, aztán megyek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Itt van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Köszönöm szépen. Elrontotta a napomat.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Az egyik kollégám egy másik állomáson bejelentette. Állítólag nincs maguknál jegy.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Helló, maradjon itt egy pillanatra, kérem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, tisztelendö, miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megkértek minket, hogy ellenörizzük, van-e magánál jegy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem tudom, van-e?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ez nem vicc, kérem, adjon öszinte választ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ó, az ördögbe! Fogja el a bünözöket, ne azokat, akik vonatra akarnak szállni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Még egyszer megkérdezem, van-e jegy magánál?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nincs jobb dolga, mint ezzel foglalkozni? Hadd szálljak már fel a nyomorult vonatra, mindjárt itt van.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Beszélj a gyanúsítottal ~r~hamis jegyértékesítés~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Felületesen megnéztem egy jegyet, amit valaki használt, nem tűnt rendesnek. Úgy tűnt, hamis.]]></OTHER>
+		<OTHER><![CDATA[~r~Hamis jegyek~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Elnézést, beszélnem kell Önnel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Természetesen, tisztelendö, miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Az állomás személyzete értesített minket, hogy hogyan jutott át a kapukon!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nos, van egy jegyem, így jutottam át.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megnézhetem azt a jegyet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, itt van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ez egy hamis jegy, a szélén lévö jelek alapján. Miért használja?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Az állomás bejáratánál valaki árulta, legalább a felébe került, mint egy rendes jegy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem, tehát töle vásárolta meg a jegyet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen. Itt a személyi igazolványom. Nem vagyok bünözö, ígérem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Köszönöm. Megpróbálom megtalálni ezt az embert, akit említett.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Várjon egy pillanatot. Beszélnünk kell.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Másik nap, másik rendőr az ügyeimmel. Mi van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Gyanúink vannak arra, hogy hamis jegyeket árult.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Letartóztatom, hamis jegyek árusítása miatt, maradjon itt, kérem.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Fent vannak a kezeim!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Egy személy, akiröl rádión hallottam, nem használt jegyet.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Helló, maradjon itt egy pillanatra, kérem!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, tisztelendö, miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Az állomás személyzete értesített minket, hogy hogyan jutott át a kapukon!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Mint mindenki más, a vonatjegyemmel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megnézhetem azt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Uh, persze. Nem értem, miért lenne szüksége rá.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Úgy tünik, minden rendben van, kellemes utazást kívánok!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ Örülök, hogy itt van, tisztelendö, köszönöm, hogy ilyen gyorsan érkezett.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Semmi probléma, tudna részletezni a helyzetet, kérem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem. Nem túl jó, mondhatni. Hol találhatók most?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ Mivel még nem voltak vonatok, valószínüleg a peronon vannak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Köszönöm a segítséget, azonnal keresem öket.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ Elnézést a hívásért valami ilyen apróság miatt, de hálás vagyok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Semmi gond, tudná részletezni a helyzetet, kérem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ráadásul, van egy utazási díjat elkerülö esetünk. Hol találhatjuk öket?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~BKK ellenör:~w~ Gondolom, a peronon vannak, ez az egyetlen hely, ahol lehetnek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem, elöször ott fogok körül nézni!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

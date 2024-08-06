@@ -1,0 +1,60 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Jármü Tüz]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Nyomj ~y~{0}~w~ a hívás elfogadásához.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~y~bejelentö~w~ letette a telefont. Az ~g~GPS~w~ koordinátáid már a helyszínre vannak irányítva. Menj oda!]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Egy ~r~lopott jármü~w~ lángol ~o~tüzben~w~. Azonnal látogass el a helyszínre.]]></FURTHERINFORMATION>
+	
+		<NOTIFICATION><![CDATA[Miután a helyszínt megtisztítottad, nyomj ~y~{0}~w~ a GPS-ed beállításához az ügyfél otthonához.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Értesítsd a ~p~tulajdonost~w~ a ~y~{0}~w~ jármüvel, amely a közelben lakik.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A jármü tüz eloltva. Indulok a nyilvántartott tulajdonoshoz.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv. Sajnos rossz híreink vannak számára.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ó nem! Mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Sajnos ma korábban egy jármü tüzhez hívtak minket. Önre mint a jármü nyilvántartott tulajdonosára bukkantunk, amit nemrégiben jelentett mint ellopott jármü.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Igen...nem hiszem el. Sokkoló! Tehát ellopták, majd felgyújtották?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Pontosan. Van itt néhány információ arról, hogy mit tegyen most. Remélhetöleg ez némi tisztázást nyújt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Nagyon köszönöm. Remélem a biztosítóm fedezni fogja ezt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Reméljük. További szép napot, és hamarosan jelentkezünk további részletekkel.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv. Rossz hírt hoztam önnek.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez a jármüvemre vonatkozik, igaz? És a tény, hogy nem látom a háta mögött, valószínüsíti, hogy...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Sajnos pontosan így van. Ma korábban egy jármü tüzröl értesültünk, és sajnálattal közlöm, hogy az a jármü a magáé volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Ez sokkoló. Hogyan történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelenleg nem tudjuk a pontos okot, de valószínüleg rosszindulatú cselekedet. Itt van néhány részlet és lépés, amit most követnie kell.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Köszönöm. A biztosítóm biztosan megemeli a díjat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Reméljük, hogy megértik, és ismét elnézést kérünk. Hamarosan jelentkezünk.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv, beszélnem kell önnel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Mi történt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ A jármüvéröl van szó. Ma korábban egy jármü tüzhöz hívtak minket. Önre mint a jármü nyilvántartott tulajdonosára bukkantunk, és értesíteni akartuk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Tényleg? Biztos, hogy az én jármüvem volt? Nem hiszem el! Azt hittem, ellopták, nem pedig megsemmisítették.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelenleg nem tudjuk az okát, de nyomozunk. Itt van néhány papír, amit olvasson ell, hogy mit tegyen most. Itt vannak.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Áldozat:~w~ Köszönöm. Minden olyan gyorsan történt. Remélem, hogy senki sem sérült meg, föleg ha szándékos volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Így van, legyen szép napja. Ha további kérdéseid lennének, lépjen kapcsolatba velünk.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Üdv. Miben segíthetek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bejelentö:~w~ Figyelj, nincs sok idöm, de van valami, amit el kell mondanom.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Sajnálom, ön kicsoda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bejelentö:~w~ Ne kérdezz tölem semmit. Egy jármüvet éppen most fognak felgyújtani. Azonnal menj oda!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Hol? És miért mondja ezt nekem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bejelentö:~w~ Elküldtem a helyszínt az mobilodra. Valaki, akit ismerek, hibát követett el... próbálnak bosszút állni a rossz emberen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Kik azok, akikröl beszél? És miért gyújtják fel valakinek a jármüvét?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bejelentö:~w~ Hibák...hibát követtek el.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Lassítsunk le. Szükségem van némi háttérinformációra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bejelentö:~w~ Túl sokat mondtam...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

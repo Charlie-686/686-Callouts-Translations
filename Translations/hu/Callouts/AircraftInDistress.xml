@@ -1,0 +1,118 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Repülögép bajban]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~o~repülögép~w~ néhány percig ~y~várakozó köröket~w~ fog tenni, mielött ~y~megpróbál leszállni~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Egy repülögép ~r~kényszerleszállást~w~ hajt végre a ~y~{0}~w~ helyszínen. Menjen a kijelölt leszállási területre és várja meg a további utasításokat.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~o~repülögép~w~ engedélyt kapott a ~r~kényszerleszállás~w~ megkísérlésére.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A 4-es kód, mivel a ~g~repülögép biztonságosan leszállt~w~ a ~y~{0}~w~ helyszínen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Beszéljen a ~y~pilótával~w~ és vizsgálja meg a helyzetet.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A repülögép leszállt. ~y~Beszéljen a pilótával~w~, hogy minden rendben van-e.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nem sikerült a repülögépet elindítani. Kérem próbálja újra a hívást, vagy lépj kapcsolatba a support.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Elvesztettük a kapcsolatot a ~o~repülögép~w~ radarhelyzetével. Próbálja meg vizuálisan azonosítani a ~o~repülögépet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Újra kapcsolatot létesítettünk a ~o~repülögép~w~ radarhelyzetével.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~o~repülögép~w~ ~r~lezuhant~w~. Kérjük, várjon, amíg az ütközési helyszínre irányítjuk. Miután megtalálta, folytassa ahogy jónak látja.]]></NOTIFICATION>
+		<OTHER><![CDATA[Los Santos Nemzetközi Repülötér]]></OTHER>
+		<OTHER><![CDATA[Sandy Shores Repülötér]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Egy ~o~repülögép~w~ ~y~motorproblémákat~w~ tapasztal. Menjen a leszállási területre és készüljön fel a repülögép leszállására.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Köszönöm, uram! Hogy tetszett a leszállás?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nem rossz valakitöl, akinek füstöl a motorja!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Nos, köszönöm, hogy eljöttek, hogy megkérdezzék, hogy minden rendben van-e. Szüksége van valamire?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Egyáltalán nem, csak itt akartunk lenni, ha valami rosszul sülne el.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Meg kell nézetnem a szerelömmel a motort. Ha még néhány percig a levegöben lettem volna, nem tudom, hogy biztonságosan le tudtam-e volna szállni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ma jó munkát végzett. Hagyom, hogy gondoskodjon a repülögépéröl, vigyázzon magára.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Köszönöm, uram! Vigyázzon magára és elnézést a kellemetlenségért!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Egy utas ~r~meghalt~w~ a ~o~repülögépen~w~. Beszéljen a pilótával, hogy megállapítsa, a körülmények ~y~gyanúsak-e~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Helló Kapitány. El tudja mondani, mi történt a levegöben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Persze...Egy barátomat vittem repülni és egyszer csak elájult.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Mit ért ez alatt pontosan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Az idöjárási viszonyok miatt a repülésre összpontosítottam, és amikor megfordultam, nem voltak reakciói. Ezután kényszerleszállást hajtottam végre itt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Barátjának voltak egészségügyi problémái, amelyekröl mesélt önnek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Öszintén szólva, soha nem beszéltünk róla. Csak feltételeztem, hogy elég egészséges a repüléshez...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ez most egy bünügyi helyszín, ezért vizsgálatot kell folytatnom. Rendben van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Igen, természetesen, tiszt úr, teljes mértékben együttmüködöm.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Kloroform Kendö~w~]]></OTHER> <!--Ha a pilóta megölte az utast, ezek a gyanús tárgyak lesznek, amelyeket a pilótára ültetünk!-->
+		<OTHER><![CDATA[~r~Fulladás Nyomok~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Párna~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[A ~o~repülögép~w~ ~y~bármikor felrobbanhat~w~. Beszéljen a pilótával és evakuáljon!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~o~repülögép~w~ ~r~felrobbant~w~. Folytassa ahogy jónak látja.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Szálljon ki a repülögépböl és kövessen! Gyorsan!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Egy ~o~repülögép~w~ ~y~motorproblémákat~w~ tapasztal és kényszerleszállást kell végrehajtania. ~n~Jelentések szerint a ~r~futópálya el van zárva~w~. Tisztítsa meg, mielött a repülögép leszáll!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Mozgassa el a jármÜvet, mielött a ~o~repülögép~w~ leszállást kísérel meg, majd beszéljen a pilótával~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Ez majdnem rosszul végzödött. Köszönöm, hogy idöben megtisztította a futópályát.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nem probléma. Csak örülök, hogy el tudtuk távolítani a jármüvet az útjából. Hogy van a repülögép?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Lehetett volna rosszabb is, a motorprobléma nehezen érintett minket. Sikerült biztonságosan leszállnunk.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nagyszerü munkát végzett a körülményekhez képest.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Köszönöm, ez mind része a munkának, úgy hiszem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Határozottan. Csak örülünk, hogy biztonságban van. Szüksége van valamilyen segítségre?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Nem, megleszünk. A földi személyzet már úton van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Rendben. Ha bármire szüksége van, jelezze.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Megteszem, köszönöm a segítséget, tiszt úr.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Egy ~o~repülögép~w~ vészhelyzetet jelentett egy ~y~feltételezett potyautas~w~ miatt a fedélzeten. Elfoglalja a repülögépet leszállás után.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ellenörizzük, hogy ~y~szökött-e fogoly~w~ az elmúlt 24 órában. Várjon.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Megerösíthetjük, hogy az elmúlt 24 órában egy ~y~{0}~w~ szökött meg a börtönböl. A gyanúsított még mindig szökésben van.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nyomja meg a ~y~{0}~w~ gombot a ~o~repülögép~w~ átvizsgálásához.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Helló, miben segíthetünk?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Repülés közben hallottam valami motoszkálást a gépen. Olyan volt, mintha egy állat lett volna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Hagyta már örizetlenül a repülögépét mostanában?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Igen, nincs hangárom, így néhány napig kint hagytam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Mit gondol, mi lehet az?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Nos, tiszt úr, az a gyanúm, hogy van egy potyautas a fedélzeten. Nem akartam ellenörizni, de ha átvizsgálná a gépem, azt megköszönném.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Hagy nézzek meg valamit a központnál.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Most átvizsgálom a repülögépét.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ne mozduljon! Mit keres itt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Potyautas:~w~ Ó, hát...csak próbáltam eljutni valahová. Nézze, rossz embert fogtak el.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ne is próbálkozzon, nem olyan ravasz, mint gondolja. Tudjuk, ki maga.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Potyautas:~w~ Esküszöm tiszt úr, nem akartam ártani. Csak ki akartam jutni innen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ki akart jutni? Nos, megtalálta a módját. Körözéssel a fején vissza fog menni a cellába.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Potyautas:~w~ Kérem, meg kell értenie. Ez bonyolult.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ A bonyolultság nem mentesíti a törvénysértést. Jön velem.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Egy ~o~repülögép~w~ vészhelyzetet jelentett egy ~y~törött ablak~w~ miatt, amely a repülés során történt. Menjen a leszállási területre és készüljön fel a repülögép leszállására.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Tiszt úr, köszönöm, hogy itt vannak. Az egy igazi leszállás volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nincs mit, kapitány. Hívtak minket az ablakáról. Minden rendben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Igen, csak egy kicsit meg vagyok rázva. Soha nem tört még össze ablak a levegöben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Jól kezelte. Hogyan sikerült nyugodtnak maradnia?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Évek képzése, azt hiszem. Csak arra koncentráltam, hogy biztonságosan letegyem a gépet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nos, valóban nagyszerü munkát végzett. Készen álltunk vészhelyzetre, de szerencsére nem volt rá szükség.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Én is. Köszönöm a segítséget, nagyon értékelem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Bármikor, kapitány. Ezért vagyunk itt. Vigyázzon magára, és jelezze, ha bármire szüksége van.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Egy ~o~repülögép~w~ kényszerleszállást hajt végre ~y~rossz idöjárási körülmények~w~ miatt. Menjen a leszállási területre és készüljön fel a repülögép leszállására.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ HÜ, ez egy igazi leszállás volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Minden rendben, kapitány? Az a vihar a semmiböl jött elö.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Igen. Az idöjárásradar nem mutatta a turbulenciát odakint.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Figyelemre méltó munkát végzett a biztonságos leszállással. Aggódtunk önért.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Köszönöm, tiszt úr. Értékelem, hogy itt voltak, hogy minden simán menjen. Egy pillanatra nagyon feszült volt a helyzet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Örülünk, hogy biztonságban van. Jelezze, ha segítségre van szüksége.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Pilóta:~w~ Köszönöm még egyszer. Beszélek a légiforgalmi irányítással, amint készen állunk a továbblépésre. Remélhetöleg az idöjárás hamarosan javul.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Reméljük. Vigyázzon magára kapitány, és még egyszer gratulálok a nagyszerü munkához.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

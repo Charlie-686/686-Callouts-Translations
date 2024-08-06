@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Veszélyes Fegyver Jelentés]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~A gyanúsított mozgásban van!~w~~n~Haladj az aktualizált helyszín felé.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[zavart]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Álljon meg, és tartsa a kezeit távol a zsebeitöl.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Mi a baj? Nem csináltam semmit. Semmit!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Engedelmeskedjen nekem, rendben?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Mi történik? Mit próbálsz csinálni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Emelje fel a kezeit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ NEM! HÚZZATOK EL! AZONNAL!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Vedd örizetbe a gyanúsítottat és kezeld a helyzetet, ahogy jónak látod.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Maradjon ott, és tartsa a kezeit ott, ahol látom.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Mi a baj?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Tudom, hogy van magánál fegyver.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Oh nem... oh... nem...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Mi a probléma?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Kérlek, sajnálom! Nem akartam...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben van, ezt késöbb megbeszélhetjük. Csak kövesse az utasításaimat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Soha nem fogom többé nálam tartani, nem akarom, hogy ez szerepeljen a nyilvántartásomban...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Rendben van, nem azért vagyunk itt, hogy ártsunk magának. Csak emelje fel a kezeit.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

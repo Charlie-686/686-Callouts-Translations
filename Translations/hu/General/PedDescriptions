@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[A gyanúsított egy ~y~ visel]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[A gyanúsított egy ~y~ visel]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[A gyanúsított egy ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[öltöny~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kék póló~w~ és melegítö.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kék kockás ing~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[börkabát~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[munkás~w~, egy ~y~fehér polót~w~ visel.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[harisnyatartót~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[kék ing~w~ egy ~y~kék rövid nadrággal~w~. Feltételezett postai dolgozó.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[nagy piros ing és sapkát~w~ egy ~y~kék nadrággal~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[világos kék blézer és farmerszoknya ~w~ egy ~y~piros ing alatta~w~.]]></DESCRIPTION> // FEMALE ped. 
+</PEDDESCRIPTIONS>
