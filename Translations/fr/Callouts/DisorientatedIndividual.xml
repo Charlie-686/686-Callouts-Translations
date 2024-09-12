@@ -19,8 +19,8 @@
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Bonjour, Dieu merci vous êtes là!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~ Bonjour, Quel est le souci?]]></DIALOGUE>
-			<DIALOGUE TARGET "M"><![CDATA[~r~Suspect:~w~ Je me suis perdu, je ne suis pas d'ici vous voyez. Je ne sais pas comment rentrer chez moi.]]></DIALOGUE>
-			<DIALOGUE TARGET "F"><![CDATA[~r~Suspect:~w~ Je me suis perdue, je ne suis pas d'ici vous voyez. Je ne sais pas comment rentrer chez moi.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Suspect:~w~ Je me suis perdu, je ne suis pas d'ici vous voyez. Je ne sais pas comment rentrer chez moi.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Suspect:~w~ Je me suis perdue, je ne suis pas d'ici vous voyez. Je ne sais pas comment rentrer chez moi.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Oh seigneur, y a-t-il quelqu'un qui peut venir vous cherchez?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh oui, je sais! Laissez-moi lui envoyé un message.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi: ~w~ Parfait. Si elle ne peut pas venir, je verrai si on peut trouver un arrangement alternatif.]]></DIALOGUE>
