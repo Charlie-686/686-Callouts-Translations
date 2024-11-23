@@ -1,0 +1,63 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Solicitation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En misstänkt ~y~prostituerad~w~ har rapporterats, rulla mot platsen i väntan på ~y~ytterligare instruktioner~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Du närmar dig platsen. Parkera så att du ~y~inte blir upptäckt~w~ av den misstänkte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Etablera kontakt med den misstänkte.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Du är ~r~för nära den misstänkte~w~. Placera dig längre bort för att inte bli upptäckt.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Du ~r~har blivit upptäckt.~n~~w~På grund av detta kunde vi ~y~inte samla in bevismaterial~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Den misstänkte har tagit kontakt med fordonet. ~y~Prata med dem för att skapa en lägesbild.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Fordonet är inte kopplat till ~y~den misstänkte.~w~ Arbeta vidare som du anser bäst.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Drogredskap, Vitt Pulverformigt Ämne]]></OTHER>
+		<OTHER><![CDATA[~y~Paket med Kondomer]]></OTHER>
+		<OTHER><![CDATA[~y~Glidmedel~w~,~r~ Vitt pulverformigt ämne]]></OTHER>
+		<OTHER><![CDATA[~r~Rullar med Kontanter, Fickniv]]></OTHER>
+		<OTHER><![CDATA[~r~Rullar med Kontanter]]></OTHER>
+		<OTHER><![CDATA[~y~Stringtrosor]]></OTHER>
+		<OTHER><![CDATA[~r~Explicita Bilder]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Blodig Kniv]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Här borta! Här borta!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Snälla rädda henne! Snälla!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vad har hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Jag var precis på en promenad, och jag mötte den här stackars kvinnan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Såg du vad som hände?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Tyvärr inte, jag önskar att jag hade varit här tidigare. Då kanske hon fortfarande hade levt...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Kan du bara påminna mig - vad gjorde du när du hittade henne?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Bara ute på promenad, jag bor i området.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Som du förstår måste jag göra några kontroller. Det tar bara någon minut, stanna här.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, jag skulle behöva byta några ord med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad kan jag hjälpa er med?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått rapporter om prostitution i det här området. Vet du något om det?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Åh gud! Jag skulle aldrig, ni har fel person.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det är rätt kyligt ute idag och du har väldigt lite kläder på dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Det är dock inget brott. Jag är påväg till en fest som redan har börjat...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Enligt våra rapporter har du vandrat runt här planlöst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag är bara lite vilse, inget annat. Kan jag gå nu?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Polis! Stanna här, båda två. Jag måste prata med er.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad kan jag hjälpa er med?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått rapporter om prostitution i det här området. Vet du något om det?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Ja! Den här kvinnan kom fram till min bil och försökte erbjuda sina "tjänster"...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Är det sant?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag är bara här för att göra affärer. Jag är entreprenör.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Det var oönskat och äckligt – jag vill inte ha en prostituerad nära mig! Arrestera henne!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Håll er lugna, vi ska ta itu med det här direkt.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Den ~y~misstänkte~w~ har tagit sig in i fordonet.~n~~r~Utför ett trafikstopp och skapa en lägesbild~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

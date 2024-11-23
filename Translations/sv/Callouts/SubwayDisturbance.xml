@@ -1,0 +1,82 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tunnelbanestörning]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En åskådare larmat angående en misstänkt ~y~situation~w~ involverande ~y~2 personer~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Lokalisera ingången till tunnelbanan~w~ och försök hitta de ~y~2 individerna~w~ som har stört ordningen.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Offer:~w~ Hjälp mig, någon slags galning jagar mig!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Utveckling:~w~ En misstänkt har enligt uppgift blivit ~y~slagen medvetslös~w~ i tunnelbanan. Arbeta vidare med extrem försiktighet.]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Det här är ett varningsskott, stanna där borta!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ ARGHHHH! SMAKA PÅ DET HÄR!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[förvärrad]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kontrollerar uppgifter. Återkommer.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Deras respektive kontroller kom tillbaka ~g~utan anmärkning~w~. Ingen anledning till oro.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Lugna er, båda två! Det är dags att ta en paus här.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Misstänkte 1:~w~ Du anar inte vilken idiot hon är!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Misstänkte 1:~w~ Du anar inte vilken idiot han är!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej... men nu skulle vi prata sansat...inte skrika åt varandra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 2:~w~ Du förstår inte vilket HELVETE jag har levt igenom med den här personen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Snälla! Försök lugna ner er!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 2:~w~ Okej, okej! Vi tar det lite lugnare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vad är problemet här?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 1:~w~ Den här jävla personen kom in i mitt liv och förstörde det.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 2:~w~ Det gjorde jag INTE!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag är rätt bekymrad över hur ni beter er, kan jag verkligen lita på att ni båda svalnar av?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 1:~w~ Pfff. Okej, det kanske gick lite överstyr.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte 2:~w~ Jag menade inte att ställa till en scen över den där pappskallen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Kan jag få se legitimation från er? Jag ska bara göra en snabb-kontroll.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ni är båda fria att gå. Tack för erat samarbete till slut. Var försiktiga i fortsättningen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Tryck ~y~Y~w~ att flytta ped:en till en lugn plats för att prata.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Lyckades~w~. Ped:en följer dig nu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Återvänd för att prata med den ~r~misstänkte~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjena, reser ni tillsammans?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ja det gör vi. Vad vill ni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått rapporter om en misstänkt situation här så vi måste kontrollera några saker.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Det känns onödigt, men visst.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~Du:~w~ Följ med här. Jag behöver byta några ord med dig privat.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~Du:~w~ Följ med här. Jag behöver byta några ord med dig privat.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack. Är allt är okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Min partner tvingar mig att följa med! Jag vet inte vart vi ska, snälla hjälp mig innan det är för sent.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Finns det något mer jag borde veta?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~Offer:~w~ Han kanske har ett vapen på sig så var försiktig.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~Offer:~w~ Hon kanske har ett vapen på sig så var försiktig.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack för att du väntade. Har du något på dig som du inte får ha?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Nej, ingenting.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Är du säker?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Som ordspråket lyder, ärlighet varar längst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej. Du är härmed gripen, håll händerna där jag kan se dem.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Mitt arbete är klart. Grip mig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ni såg hur de gick på mig! Det var inte mitt fel.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Tack för att ni kom!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Jag höll på med mitt eget när två personer gick förbi. De verkade väldigt osams! Det såg ut som att en av dem höll på att bli galen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, vart är de nu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Jag är inte säker, men jag tror att de gick ner i tunnelbanan.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det låter som stället att börja på då. Tack!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Åskådare:~w~ Ingen orsak!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

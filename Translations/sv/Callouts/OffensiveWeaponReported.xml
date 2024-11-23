@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Rapporterat Vapen]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Den misstänkte rör på sig!~w~~n~Ta dig till den uppdaterade platsen.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[bedrövad]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Polis, stanna! Håll händerna utanför fickorna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad händer? Jag har inte gjort någonting. Ingenting!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag behöver att du lyssnar på mig, okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad händer? Vad gör ni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Håll händerna i luften, okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ NEJ! BACKA UNDAN! NU!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Grip den misstänkte och arbeta vidare som du anser lämpligt.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Polis, stanna! Håll händerna där jag kan se dem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad händer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi vet att du har ett vapen på dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Åh nej..åh...nej...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Är det något som är fel?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Snälla, förlåt! Jag menade inte att...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ta det lugnt, vi kan diskutera det senare. Kom bara ihåg att följa mina instruktioner.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag kommer ALDRIG göra om det, jag vill inte ha det här i mitt register...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ta det lugnt, vi kommer inte att skada dig. Bara håll händerna uppe.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

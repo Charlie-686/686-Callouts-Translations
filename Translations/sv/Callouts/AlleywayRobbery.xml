@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Rån på en Bakgata]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Ett ~y~misstänkt rån~w~ pågår i närheten av {0}. Rulla PRIO 1 och undersök området.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Ett ~y~misstänkt rån~w~ pågår i närheten av {0}. Rulla PRIO 1 och undersök området.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Stulna föremål]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Ett ~y~misstänkt rån~w~ pågår i närheten av {0} och offret ~r~hålls under pistolhot~w~. Rulla PRIO 1 och undersök området.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Ett ~y~misstänkt rån~w~ pågår i närheten av {0}. Två gärningsmän rapporterade. Rulla PRIO 1 och undersök området.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Tryck ~y~{0}~w~ för att ~g~återfå~w~ de stulna föremålen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hittade en stulen ~y~{0}~w~ som ~g~bevismaterial~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Väska]]></OTHER>
+		<OTHER><![CDATA[Plastpåse från en matbutik]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Postlåda]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

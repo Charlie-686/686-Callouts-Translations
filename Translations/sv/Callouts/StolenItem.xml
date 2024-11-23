@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Stolen Item]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En ~y~stöld~w~ begåtts; prata med ~y~offret~w~ och gå vidare med utredningen.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[RLC tror att den misstänkte ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[befinner sig ~y~till fots~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[befinner sig ~y~i ett fordon~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[mobiltelefon]]></OTHER>
+		<OTHER><![CDATA[laptop]]></OTHER>
+		<OTHER><![CDATA[plånbok]]></OTHER>
+		<OTHER><![CDATA[husnyckel]]></OTHER>
+		<OTHER><![CDATA[kamera]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[är skakad]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad vill du?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Vi har fått in rapporter om en stöld och kommer att behöva visitera dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Inte en chans! Ni har noll bevis och jag tänker inte svara på några frågor!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag är här för att upprätthålla lagen. Vår spårsändare indikerar att en {0} finns här, på dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Lögn! Tekniken har alltid fel nuförtiden ändå!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad vill du?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi misstänker att du har en stulen {0} på dig, därför kommer vi att behöva visitera dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ni fick mig, jag överlämnar mig själv.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, visa händerna, vi kommer att gripa dig.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Hitta den ~r~misstänkte~w~. ~y~Sökområdet kommer att uppdateras~w~ med jämna mellanrum.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Hjälp, jag har blivit rånad!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Kan du berätta något om den misstänkte?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Inte direkt, men min {0} har en GPS-spårare, som borde kunna vara användbar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Perfekt, jag skickar det till RLC. De kopplar upp mig så att vi kan spåra den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Jag hoppas ni hittar min {0}, den är väldigt viktig för mig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Självklart, vi hör av oss. Dags att rulla vidare och leta.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Plankning]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En ~p~Spärrvakt~w~ har begärt assistans från Polis; de behöver hjälp med att hantera en person som misstänks ~y~inte betalat för sin tågbiljett.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Prata med den misstänkte ~y~plankaren.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Giltig biljett~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Falsk biljett~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[En närliggande station har berättat att någon hoppat över barriärerna där. Imponerande, men ett lagbrott.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Polis! Stanna där, vi behöver prata med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Låt det gå fort, jag har brottom till tåget.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi blev hitkallade av en biljettkontrollant, som menar att du hoppat barriären?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Pfff. Det är ju ingen stor grej. Jag har inga småpenger på mig, kan ni inte bara låta mig gå?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ De t är olagligt att använda tåget utan biljett, Vi kommer åtminstone att behöva skriva en böter.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Se till att skynda på isåfall.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Här har du. Du får åka vidare med tåget nu eftersom du kommer att betala en avgift, köp en biljett nästa gång.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Varför är det så dyr avgift? Jag antar att jag bara borde ha köpt en biljett.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Jag reagerade på en biljett någon hade; den såg annorlunda ut, Jag får känslan att det är en falsk biljett. Det är tråkigt att de blivit så lättillgängliga.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, kan du stanna en sekund?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Självklart, hur kan jag hjälpa till?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi blev hitkallade av stationspersonalen, de undrar hur du tog dig igenom spärrarna?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ja, jag har en biljett, det är hur jag kom igenom.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, skulle jag kunna få se din biljett?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Öh, visst. Jag förstår inte varför du skulle behöva, dock.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det står här att din biljett gick ut förra veckan, hur kommer det sig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Inte en chans! Jag har ingen aning hur det skulle kunna ha blivit så.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Spela inte dum med oss, du har medvetet använt en gammal biljett. Jag kommer att skriva en böter till dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ärligt talat, gör något användbart med ditt liv för en gångs skull. Ge mig lappen, så jag kan åka.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Här är den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Tack så mycket för det... Förstörde min dag.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Min kollega på en annan station hörde av sig. Tydligen har någon inte en biljett, men min kollega hade tyvär inte koll på kamerorna.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, kan du stanna en sekund?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Självklart, hur kan jag hjälpa till?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag har blivit ombedd att kolla så att du har en biljett på dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag vet inte, har jag?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det här är inget skämt, ge mig ett ärligt svar nu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Men för guds skull! Fånga brottslingar, inte folk som bara vill åka med tåget.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag frågar en gång till, har du en biljett på dig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Du har inget bättre för dig, eller hur? Låt mig bara kliva på det förbannade tåget. Det kommer när som helst.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Prata med den misstänkte ~r~falskbiljett försäljaren.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Jag sneglade på en biljett någon anväde, den såg inte rätt ut. Jag tror det är falsk.]]></OTHER>
+		<OTHER><![CDATA[~r~Falska biljetter~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, vi skulle vilja prata med dig lite.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Självklart, hur kan jag hjälpa till?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi blev hitkallade av stationspersonalen, de undrar hur du tog dig igenom spärrarna?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ja, jag har en biljett, det är hur jag kom igenom.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, skulle jag kunna få se din biljett?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Självklart, här är den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det där är en falsk biljett, det ser man på markeringarna på sidan. Varför använder du den?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Det var någon som sålde dem utanför tågstationen, de måste ha varit åtminstone halva priset av en vanlig biljett.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, så du köpte den av honom för halva priset?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ja, det gjorde jag. Alltså, här är mitt ID-kort. Jag är ingen brottsling, jag lovar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack så mycket. Vi ska se om vi kan hitta personen du berättat om.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Polis! Stanna där, vi behöver prata med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Varje dag, en ny polis som ifrågsätter mina affärer. Vad?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har anledning att misstänka att du har sålt falska biljetter.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du kommer därför härmed att bli gripen.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Mina händer är uppe!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[En person har tydligen, enligt radion, inte använt en biljett.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, kan du stanna en sekund?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Självklart, hur kan jag hjälpa till?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi blev hitkallade av stationspersonalen, de undrar hur du tog dig igenom spärrarna?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Precis som alla andra, med min tågbiljett.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Skulle vi kunna få se din biljett?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Öh, visst. Jag förstår inte varför du skulle behöva, dock.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Allt verkar se bra ut, ha en fortsatt bra resa!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ Skönt att se er, tack för att ni tog er hit så snabbt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det var så lite, vad är det som har hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår. Inte alls bra. Vart är de nu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ Det har inte kommit några tåg än, så de är förmodligen bara på platformen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack för hjälpen, vi tar hand om det.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ Ursäkta att vi kallat in er för något så litet, vi uppskattar det.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Inga problem, vad är det som har hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, det låter som att vi har med en plankare att göra. Var kan de vara nu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Ordningsvakt:~w~ Låt mig tänka. De måste vara på platformen, det är det enda stället de kan vara på.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Perfekt, vi kollar där först!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

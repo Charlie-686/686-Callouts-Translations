@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fotografering av Polisstation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En person håller på att ~y~ta bilder på stationen~w~, prata med dem för att ta reda på varför.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjenare! Vad pågår här?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ingenting. Ingenting alls.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Lägg ner kameran Lägg ner kameran så ska vi snacka lite-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjenare! Vad gör du här?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag gör inget olagligt, snälla låt mig vara.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag vill bara prata med dig för att förstå vad som händer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Och jag försöker bara göra saker, som är helt lagliga.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag skulle bara vilja byta några ord med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Försök inte ta ifrån mig mina rättigheter på allmän plats.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan! Hur kommer det sig att du fotar stationen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Det är till min Instagram, är det okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det är lagligt, ja, bara lite udda att göra så pass länge.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag förstår, jag är klar nu så jag ska bege mig vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Alright, tack så mycket.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Telefonnummer har inkommit och en inledande utredning har påbörjats. Tack.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan! Hur kommer det sig att du fotar stationen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vill du verkligen veta?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Väldigt gärna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag inser hur dum jag låter när jag säger detta, men en kille som heter Jeff SMS:ade mig och bad mig att göra det.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Så här i efterhand var det en lite konstig grej att göra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag tror att vi båda tänker samma sak. Kan du ge mig hans nummer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Se till att gå hem nu och fundera på vilka du pratar med.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Det ska jag! Jag ber om ursäkt.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan! Hur kommer det sig att du fotar stationen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Hej! Jag älskar blåljuspersonal och det arbete de gör. Jag har bara tagit några bilder av eran station, är det okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Så det här är någon slags hobby, om jag tolkat dig rätt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ja precis! Jag ville bli polis, men klarade inte utbildningen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår, jag ville bara kolla upp dig för att se vad som föresgick.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag kan bara be om ursäkt för att jag slösat er tid. Jag har tagit mina bilder nu iallfall och de ser riktigt bra ut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Inga problem, ha en fortsatt bra dag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Detsamma. Kanske möts vi igen någon gång i framtiden.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
