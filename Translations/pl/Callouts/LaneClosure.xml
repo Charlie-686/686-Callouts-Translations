@@ -1,0 +1,31 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Zamknięcie pasa]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Kierowca lawety prosi o zamknięcie pasa, aby bezpiecznie zająć się zepsutym pojazdem.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Zablokuj zajęty pas~w~ i porozmawiaj z ~o~kierowcą lawety~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Utrzymaj blokadę pasa~w~ i przekieruj ruch, aby umożliwić ~o~kierowcy lawety~w~ naprawę pojazdu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Pojazd został naprawiony~w~ pomyślnie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Pojazd zostanie odholowany~w~, ponieważ nie udało się go naprawić.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Mechanik:~w~ Oficerze, wszystko naprawione. Niedługo ruszamy!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Mechanik:~w~ Oficerko, wszystko naprawione. Niedługo ruszamy!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Mechanik:~w~ Przepraszam, oficerze, nie udało się naprawić pojazdu! Potrzebuję wystarczającej przestrzeni za moją lawetą, aby podpiąć pojazd do holowania.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Mechanik:~w~ Przepraszam, oficerko, nie udało się naprawić pojazdu! Potrzebuję wystarczającej przestrzeni za moją lawetą, aby podpiąć pojazd do holowania.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Cześć, jak mogę pomóc?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Mechanik:~w~ Cześć, oficerze. Potrzebuję, abyś pozostawił pas zamknięty, aby bezpiecznie pomóc temu zepsutemu pojazdowi.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Mechanik:~w~ Cześć, oficerko. Potrzebuję, abyś pozostawiła pas zamknięty, aby bezpiecznie pomóc temu zepsutemu pojazdowi.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Ty:~w~ Nie ma sprawy. Powodzenia! Daj znać, jeśli będziesz czegoś potrzebował.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Ty:~w~ Nie ma sprawy. Powodzenia! Daj znać, jeśli będziesz czegoś potrzebowała.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
