@@ -1,0 +1,52 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Dezorientált személy]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Kamerakezelök~w~ ~y~aggodalmakat vetettek fel~w~ egy személy miatt, ellenörizze öket.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[erös alkoholszagot áraszt]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~Üdv, minden rendben van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~Helló! Beszélhetnénk egy percet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Neooooooooo, de én nem akarok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~Úgy gondolom, hogy jobb lenne, ha beszélnénk, van magánál valamilyen igazolvány?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Hmmm...nem köszi...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ BLALALALALA! ITT AZ IDŐ, BYEE RENDŐR!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Helló, hála az égnek, hogy itt vagy!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~ Üdv, mi a gond?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Elvesztem, nem vagyok ismerős erre. Nem tudom, hogyan jussak haza.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ó, sajnálom, van valaki, aki fel tudna venni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Ó, igen, van! Azonnal írok nekik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~ Tökéletes. Ha nem tudnak jönni, kitalálunk valamilyen alternatív megoldást.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Mi folyik itt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Semmi...csak egy nagyszerű buli volt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem, és csak úgy sétálgat?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, imádom a szabadban lenni.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Megtudhatnám a nevét?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Rendben..a nevem Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ne viccelödjön, a valódi nevét szeretném.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Próbálom felidézni...Azt hiszem, az a nevem, hogy {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ön: ~w~Üdv, minden rendben van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, minden rendben van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Értem, kaptunk jelentést egy zavart személyröl a környéken.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Rendben, és ez büncselekmény?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Nem, csak meg akartunk bizonyosodni, hogy minden rendben van magával.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Teljesen rendben vagyok, de örülnék, ha békén hagyna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ön:~w~ Ha ragaszkodik hozzá, további szép napot kívánok.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

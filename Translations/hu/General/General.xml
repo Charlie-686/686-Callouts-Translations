@@ -1,0 +1,63 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Sikeresen betöltve~w~, ideje járörözni!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Ez egy régi verzió!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Betöltve, de kérjük frissítse a 686 Callouts-ot amikor lehetséges.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Béta verzió észlelve.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Köszönjük a tesztelést és a visszajelzést. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Nem sikerült ellenörizni a frissítéseket!]]></FAILED>
+		<FAILED><![CDATA[~y~Betöltve, de nem sikerült ellenörizni, hogy van-e frissítés.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts-hoz hiányoznak fájlok!]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts Mappa]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Audio Mappa]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Audio Mappa]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Translations Mappa]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Karrier Statisztika]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Hívások]]></CALLS>
+		<FIGHTS><![CDATA[Verekedések]]></FIGHTS>
+		<PURSUITS><![CDATA[Üldözések]]></PURSUITS>
+		<ARRESTS><![CDATA[Letartóztatások]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Halott Gyanúsítottak]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Viselkedéselemzés~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[Úgy néz ki a, hogy a gyanúsított~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Úgy néz ki a, hogy az áldozat~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Kifagyás megelözése]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Lehet, hogy valami probléma van.~w~ Kérjük, vedd fel a kapcsolatot a supportal.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Távolság ellenörzése]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Sajnáljuk, túl közel voltál a híváshoz, hogy elfogadhasd.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[A GTAV hibája!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV törölt egy npc-t! Nem tudtunk mást tenni mint, hogy megelözzük a kifagyást, de ez történhet túl sokszor.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Központ]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Párbeszéd vége. Kezelje a helyzetet, ahogy jónak látja.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Nyomd ~y~{0}~w~ a beszéd megkezdéséhez.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Nyomd ~y~{0}~w~ a hívás befejezéséhez.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Információ]]></INFORMATION>
+		<CODE4><![CDATA[~g~Végeztünk a helyszínen.~w~ Tegyen elérhetövé hívásokra.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Üldözés frissítés]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[úgy tudjuk a gyanúsított ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[úgy tudjuk a gyanúsított ~y~{0}~w~ akinek ~y~{1}~w~ bírsága(i) voltak a múltban.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[úgy tudjuk a gyanúsított ~y~férfi~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[úgy tudjuk a gyanúsított ~y~nö~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[úgy tudjuk a gyanúsított ~y~{0}~w~ már meg lett állítva közúti ellenörzésen ~y~{1}~w~x a múltban.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[nincs ~y~leírás~w~ a gyanúsítottról.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[KÖZPONT]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[VÉSZHÍVÁS]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Hívás: ~b~{0}~n~~w~Hely: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->

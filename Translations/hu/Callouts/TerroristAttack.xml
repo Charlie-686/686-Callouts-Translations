@@ -1,0 +1,9 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Terrorista Támadás]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Terrorista támadás zajlik a ~y~{0}~w~ helyszínen. Korlátozd a ~r~terroristákat~w~ a további emberáldozatok elkerülése érdekében.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Egy ~y~gyanús jármü~w~ tart a helyszínedre. Biztosítsd a területet!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Légy óvatos, mert ~y~{0}~w~ gyanús egyén(ek) közelednek a terrorista támadáshoz.]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

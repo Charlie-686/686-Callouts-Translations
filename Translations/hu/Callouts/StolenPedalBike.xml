@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Lopott Kerékpár]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy ~y~lopott kerékpár~w~ észlelve lett, állítsd meg a kerékpárost.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló. Kérdezhetek öntöl pár dolgot?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Persze, csak figyelj a mögötted lévö forgalomra. Vigyázz!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló. Beszélhetünk a kerékpárról?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Miröl van szó?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Jelentették, hogy ellopták, még ma reggel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Oh, haha. Bocsánat, én jelentettem be! Azt hittem, elvesztettem, de megtaláltam!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Értem, szóval ez a kerékpár a nevén van?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Igen, abszolút. Futass le minden ellenörzést, amit szükséges.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[ideges]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló. Azért beszélek önnel, mert az a kerékpár...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Valahová próbálok eljutni. A gumi nem lapos vagy ilyesmi. Mi a baj?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Tegnap jelentették, hogy ellopták.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Oh. Huh, ez furcsa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Miért?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Uh... igen! Teljesen elfelejtettem, hogy bejelentettem hogy ellopták.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Helló. Beszélhetnénk egy kicsit erröl a kerékpárról?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Rendben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ A nyilvántartásaink szerint nemrégiben bejelentették, hogy ellopták.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te:~w~ Bocsánat, mit mondott?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Nem kívánok nyilatkozni az ügyben.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ ARRRRGGGHH! NEM TE!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tüntetés]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Egy ~r~tüntetés zajlik~w~ az út blokkolásával. Kérlek, várj további utasításokra a Központól.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[A tüntetés most ~r~eröszakba torkollott.~n~~y~Reagálj sürgösen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Felügyeld a tüntetést~w~ amíg véget nem ér. Gondoskodj arról, hogy zökkenömentesen folytatódjon.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A tüntetés ~g~eszkalálódás nélkül~w~ lezárult.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A tüntetés folyamatban van. Kérlek, lépj kapcsolatba a ~o~tüntetés vezetöjével.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A tüntetök éppen ~g~elhagyják a helyszínt~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Szemlélö:~w~ Tiszt, ez nevetséges! Irányítsák a forgalmat!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Szemlélö:~w~ Blokkolják az utat! Vigyék el öket! Ez veszélyes.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Szemlélö:~w~ Tiszt, mondtam, hogy vigyék el öket!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Szemlélö:~w~ A tüntetök, akik blokkolják az utat, akadjanak meg ezen!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Tiszt, ön is csatlakozik az ügyünkhöz?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Miröl szól ez a tüntetés?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Úgy gondoljuk, hogy a klímaváltozás tönkreteszi az országunkat - és a kormányunknak most azonnal cselekednie kell!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Sajnálom, de el kell menniük. Ha az utat blokkolják tüntetéssel, engedélyt kell kérni elöször.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~De miért? Jó ügyért tüntetünk!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Ez a tüntetés nem volt engedélyezve. Nem blokkolhatják az utat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~Szóltam a többieknek erröl...de nem hallgattak rám. Megmondom nekik, hogy menniük kell.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Köszönöm. Pakolják össze a dolgaikat, hogy a forgalom folytatódhasson.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~Rendben srácok, a tüntetés véget ért. Menjünk most.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Nézd, ki jött támogatni a tüntetésünket!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Miért tüntetnek?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított: ~w~Az élelmiszerárak az egekben vannak, és elegünk van belöle! Éhen fogunk halni!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Ez a tüntetés nem tartható itt, közbiztonságot veszélyeztetik.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~Nem érdekel minket, hogy el kell menni! Ez egy igazságos ügy!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Te: ~w~Menjenek el, illegálisan tüntetnek itt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~Tiszt, nem mozdulunk! Foglalkozzon valaki mással.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
