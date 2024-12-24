@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Lane Closure]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~y~tow truck driver~w~ is requesting a ~o~lane closure~w~ to safely attend a broken down vehicle.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Close the affected lane~w~ and speak to the ~o~tow truck driver~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Maintain the lane closure~w~ and redirect traffic to allow the ~o~Tow Truck Driver~w~ to repair the vehicle.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~g~vehicle was repaired~w~ successfully.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The vehicle will be ~o~towed~w~ as it couldn't be fixed.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanic:~w~ Officer, we've got this fixed over here. We'll be on our way shortly!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanic:~w~ Sorry Officer, we can't get it fixed! I'll need enough space behind my truck to attach the vehicle to my tow.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey there, how can I help today?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mechanic:~w~ Hey Officer. I need you to keep the lane closed so I can safely assist this broken down vehicle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ No problem. Good luck! Let me know if you need anything.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
