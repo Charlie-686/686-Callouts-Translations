@@ -1,0 +1,75 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pågående Människorov]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En person misstänks ha blivit ~y~bortförd i en taxi.~y~ Genomför ett trafikstopp.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Genomsöker databasen...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Kontroll genomförd. Inga skäl till oro.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Misstänkt är efterlyst. Potentiellt skäl till oro.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[När du har tagit itu med den misstänkte, tryck ~y~{0}~w~ för att hjälpa offret.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Blodiga Buntband]]></OTHER>
+		<OTHER><![CDATA[~r~Blodiga Handskar]]></OTHER>
+		<OTHER><![CDATA[~y~Silvertejp]]></OTHER>
+		<OTHER><![CDATA[~r~Ögonbindel]]></OTHER>
+		<OTHER><![CDATA[~r~Buntband~w~, ~r~Kniv~w~, ~o~Rånarluva]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ AHHH HjÄÄÄLPPP!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[provocerad]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjena! Jag behöver byta några ord med din passagerare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Skulle inte tro det. Jag klev ur min bil, du kan prata med mig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tyvär är det är väldigt viktigt att jag får prata med din passagerare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Okej okej, just tell me what's going on.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått uppgifter om att en person blivit bortförd. Vi vill göra några kontroller.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Då har ni hittat rätt person!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vi är klara här!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Livsmedel]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tjena, vart är ni påväg idag?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag kör bara hem min kund.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Aah, låt mig bara byta några ord med passageraren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Hejsan, vad kan jag hjälpa till med?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått in rapporter om en bortförd person, vi vill bara kolla att du är okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Absolut! Jag har precis varit ute och handlat, mina varor ligger i bagaget.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack. Jag ska bara göra några kontroller, innan ni får åka vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Självklart, ingen brådska.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Allt ser bra ut, ni är fria att åka vidare!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[försöka få din uppmärksamhet]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag vill bara byta några ord, kan du stänga av motorn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad är det som händer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått in rapporter om en misstänkt bortförd person. Så jag undrar bara vart ni är på väg?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag kör min kund dit dem ska. Det är vad en taxichaufför gör.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag behöver byta några ord med passageraren, är det okej?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Visst, men taxametern tickar på under tiden.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan, vart har du bett den här föraren att köra dig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Jag får bara skjuts hem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Okej, och det finns inget annat du vill berätta för mig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Nej, jag är bara påväg hem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Alright, allt verkar okej. Låt mig göra några kontroller, så tar vi det därifrån sen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+	<OTHER><![CDATA[Jag trodde det var en riktig taxi...men så fort jag satte mig märkte jag att något var fel. Vi åkte ner i en gränd, de viftade med en pistol, tog min telefon och sa åt mig att vara tyst.]]></OTHER>
+	<OTHER><![CDATA[Jag var påväg hem och en person med rånarluva tog tag i mig och jag kände en pistol mot mitt huvud. De tvingade in mig i taxin.]]></OTHER>
+	<OTHER><![CDATA[Taxichauffören frågade mig om vägbeskrivning, jag lutade mig mot deras bil och han slet in mig. Men jag är inte skadad.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Tack så mycket! Jag trodde...jag trodde det här var slutet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi ska få hem dig i säkert, klarar du av att berätta vad det var som hände först?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår. Tack för att du delar med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Passagerare:~w~ Jag kan inte fatta att det hände mig...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

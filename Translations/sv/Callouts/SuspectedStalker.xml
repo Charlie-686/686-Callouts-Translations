@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Misstänkt stalker]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En ~p~orolig medborgare~w~ misstänker att de blir förföljd, ~y~se till att de är i säkerhet~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ja, jag är en stalker, men fängelset var inget för mig! Jag vägrar åka in igen!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Bilder på offret~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Försvinn ur min åsyn!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Försök lugna ner dig lite, vi har fått rapporter om att du förföljt någon tidigare idag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Försvinn bara, jag har inte gjort ett skit. Det är ord mot ord!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du vägrar alltså prata med oss?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Ja, JA det gör jag! Jag pratar inte med svin.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Det är osannolikt att det här skulle vara stalkern; deras register är fläckfritt. Avsluta konversationen och ~y~återgå till offret~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Tjena, kan jag hjälpa er med något?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har fått rapporter om att du har förföljt en annan person, stämmer det?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Herregud, nej! Inte alls. Det måste vara ett missförtånd. Jag är bara ute och shoppar lite, vi kanske var på väg åt samma håll? Jag kan knappast matcha signalementet!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi fick inte något, ge mig en sekund så ska jag prata med RLC för att räta ut situationen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Självklart, min shopping kan vänta. Det är ingen fara!]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du är fri att gå, det verkar vara ett missförstånd. Ha en bra dag.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Skönt att se er igen, vad hände?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har pratat med dem, och det verkar osannolikt att de förföljde dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Jag ber om ursäkt, det låter rimligt. Jag tänkte att jag kanske ringde er för tidigt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det är helt okej, var hellre på den säkra sidan. Det är bara att larma oss om du är osäker igen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Tack! Och förlåt för allt onödigt krångel.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Vi har lokaliserat den misstänkte. ~y~avsluta konversationen~w~ och ta dig till dem omedelbart.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Tack och lov att ni är här! Jag blir förföljd!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~Vi är här nu. Kan du berätta för oss vad det är som har hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Jag har blivit förföljd...men jag har helt glömt bort hur de såg ut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det är okej, det är fullt normalt att glömma saker i stunden. Jag ska be kameraoperatörerna granska bilder från området.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Vi var här, på ~y~{0}~w~ för en liten stund sedan, kanske 15 minuter sedan. Nämn gärna det.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack, jag skickar det vidare direkt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ De kollar på bilderna nu, har du några fler detaljer? Ju mer desto bättre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Nej, jag har ingen aning varför de har följt efter mig de senaste två timmarna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Oroa dig inte, vi kommer lösa det här.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har lyckats lokalisera din förföljare, så vi rullar dit nu. Du är fri att fortsätta din dag eller åka hem, vi kommer att höra av oss.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

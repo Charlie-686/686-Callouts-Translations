@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bilbomb]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Tryck ~y~{0}~w~ för att försöka ~y~desarmera bomben.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bilen ~r~kan explodera när som helst~w~.~n~Antingen ~y~håll civila borta från bilen~w~, eller ~y~avsluta efterföljandet~w~ omedelbart.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bomben ~g~har desarmerats.~w~~n~. Arbeta vidare som du anser bäst.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bomben ~r~desarmerades inte~w~~n~. ~y~Evakuera området~w~ omedelbart.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Misstänkt ~r~bilbomb.~n~~w~Rulla PRIO 1 till platsen ~y~omedelbart.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Misstänkt gärningsman ~y~flyr~w~ i sitt fordon, beväpnad ~y~med en bomb.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bilen ~r~kan explodera när som helst~w~.~n~Antingen ~y~håll civila borta från bilen~w~, eller ~y~avsluta efterföljandet~w~ omedelbart.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Bombsprängkapsel]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Misstänkt mentalt instabil person med ~r~bilbomb.~n~~w~Rulla PRIO 1 till platsen ~y~omedelbart.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Bombsprängkapsel~w~, ~y~>Kablage]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Jag ger upp! Ni kan gripa mig!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkt:~w~ Ledsen att det var tvunget att sluta så här...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Misstänkt ~r~bilbomb.~n~~w~Rulla PRIO 1 till platsen ~y~omedelbart.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bilbomben ~y~har detonerats.~n~~w~Rapporterade dödsfall: ~r~{0} person(er).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Kablage~w~,~r~Sprängämnen]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Misstänkt ~r~övergiven bilbomb.~n~~w~Rulla PRIO 1 till platsen ~y~omedelbart, och ~y~desarmera bomben.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Bilnycklar~w~, ~r~Bomb]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

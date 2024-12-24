@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Terroristattack]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En terrorattack äger rum på ~y~{0}~w~. Handskas med ~r~terroriserna~w~ för att förhindra ytterligare dödsfall.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ett ~y~misstänkt fordon~w~ är påväg mot ditt område. Säkra platsen!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[För information: ~y~{0}~w~ misstänkt(a) person(er) är på väg mot terroristattacken.]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

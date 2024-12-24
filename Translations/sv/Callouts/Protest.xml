@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protest]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En ~r~pågående protest~w~ blockerar vägen. Invänta ytterligare instruktioner från RLC.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Protesten har ~r~eskalerat till våld.~n~~y~Brådskande ärende.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Övervaka protesten~w~ tills den är över. Se till att det fortsätter på ett lugnt sätt.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protesten pågick ~g~utan eskalering~w~, och är nu slut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pågående protest. Kontakta ~o~protestledaren~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Demonstranterna ~g~lämnar platsen~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Åskådare:~w~ Det här är löjligt! Trafiken måste komma vidare!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Åskådare:~w~ De blockerar vägen! Flytta på dem! Det här är en trafikfara.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Åskådare:~w~ Jag sa ju åt er att flytta på dem!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Åskådare:~w~ Demonstranter som blockerar vägen kan smaka på det här!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Är ni här för att stödja vår sak?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vad handlar eran protest om?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vi menar att klimatförändringarna förstör vårt land – och regeringen måste agera nu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tyvärr måste ni flytta på er. För att protestera genom att blockera en väg måste man först söka tillstånd.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Varför då!? Vi protesterar ju för en god sak!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Den här protesten har inget tillstånd. Ni kan inte bara blockera vägen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag sa det till de andra...men det struntade dem i. Jag säger åt dem att vi måste flytta oss.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~Tack. Se till att samla ihop era grejer så att trafiken kan rulla vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Alright hörni! Det är färdigprotesterat. Vi måste flytta på oss.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Titta vem som har kommit för att stödja vår sak!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Varför protesterar ni?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Matpriserna är skyhöga och vi har ledsnat! Vi svälter ihjäl!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Er protest kan inte fortsätta här, ni försätter allmänheten i fara.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vi är inte intresserade av att flytta på oss. Detta är ett stort problem!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ni måste flytta på er, ni protesterar här olagligt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vi kommer inte flytta oss en meter! Besvära någon annan istället.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

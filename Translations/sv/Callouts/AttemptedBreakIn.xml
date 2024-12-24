@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Inbrottsförsök]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En husägare har ringt 112 på grund av ett ~y~inbrottsförsök~w~ i deras hem. Gärningsmannen ska ha flytt från platsen.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Tryck ~y~{0}~w~ för att samla in bevismaterial.]]></OTHER>
+		<OTHER><![CDATA[Samlade in ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[ett ID-kort]]></OTHER>
+		<OTHER><![CDATA[en plånbok]]></OTHER>
+		<OTHER><![CDATA[en sax]]></OTHER>
+		<OTHER><![CDATA[ett halsband]]></OTHER>
+		<OTHER><![CDATA[en sko]]></OTHER>
+		<OTHER><![CDATA[en kofot]]></OTHER>
+		<OTHER><![CDATA[en mobiltelefon]]></OTHER>
+		<OTHER><![CDATA[~y~Sök igenom~w~ det närliggande området för bevismaterial & ledtrådar. När du är färdig, ~y~återvänd till husets ägare~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Låsdyrk]]></OTHER>
+		<OTHER><![CDATA[~r~Handskar]]></OTHER>
+		<OTHER><![CDATA[~y~Mask]]></OTHER>
+		<OTHER><![CDATA[~y~Rånarluva]]></OTHER>
+		<OTHER><![CDATA[~r~Fickkniv]]></OTHER>
+		<OTHER><![CDATA[~r~Hävstång]]></OTHER>
+		<OTHER><![CDATA[~y~Kikare]]></OTHER>
+		<OTHER><![CDATA[~r~Munkavle]]></OTHER>
+		<NOTIFICATION><![CDATA[Använd ~y~fotografiet~w~ och ~y~sökområdet~w~ för att gripa den ~r~misstänkte~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Det här är ~y~fotografiet~w~ av den ~r~misstänkte~w~.~n~Tryck ~y~Y~w~ för att se den här notificationen igen~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Det fanns ~r~inga bevis~w~ här.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jag hittade ~y~{0}~w~ relaterat till ~r~{1}~w~. Begär brådskande detailjer om personen.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[Kontrollerar alla närliggande iaktagelser av ~r~{0}~w~. Återkommer.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Du samlade in ~y~{0}~w~/~g~{1}~w~ bevismaterial.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Du samlade in ~g~{0}~w~/~g~{1}~w~ bevismaterial.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[När du har ~y~gripit~w~ ~r~gärningsmannen~w~, arbeta vidare som du anser bäst.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Gärningsmannen~w~ flyr!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~Gärningsmannen~w~ ~y~ger upp~w~. Grip dem och undersök.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Hjälp! Hjälp mig!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Du:~w~ Vi är här. Du är säker nu. Kan du berätta vad som hände?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Du:~w~ Vi är här. Du är säker nu. Kan du berätta vad som hände?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Någon försökte bryta sig in...Jag hörde dem och låste in mig i sovrummet direkt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår. Fick du någonsin syn på dem mendans de var här?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Tyvär inte, men jag hörde massor av rörelse utanför huset tills ni kom hit. Ingen aning vad de höll på med!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tack så mycket. Vi tittar runt på tomten och ser om vi kan hitta något.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag har sökt igenom närområdet men tyvärr har vi inte hittat några bevis som kan leda oss till en gärningsman.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Jag förstår..så vad händer nu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Utredare kommer att komma förbi senare för att söka vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tyvärr finns det inte något ytterligare jag kan göra innan dess.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag har sökt igenom närområdet och hittat bevis som leder till en misstänkt gärningsman. Vi kommer rulla vidare för att delta i sökandet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Skönt att höra, lycka till!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Hjälp! Jag hörde någon utanför, jag är livrädd!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Du:~w~ Vi är här. Du är säker nu. Kan du berätta vad du hörde?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Du:~w~ Vi är här. Du är säker nu. Kan du berätta vad du hörde?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Jag hörde knackande på fönstrena, men jag vågade inte titta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Alright. Har du märkt något annorlunda innan detta inträffade?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Nej, det var lugnt fram till dess. Snälla, hitta den som gjorde det här.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi ska göra vårt bästa. Vi undersöker närområdet.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi har undersökt området, utan att hitta några ledtrådar till en gärningsman.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Åh nej, vad händer nu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Utredare kommer att komma förbi senare för att söka vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Tyvärr finns det inte något ytterligare jag kan göra innan dess.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Bra nyheter! Vi hittade bevis i närheten som kan leda oss till gärningsmannen. Vi kommer att rulla vidare och undersöka direkt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offer:~w~ Skönt att höra! Tack så mycket, ta det lugn där ute.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
