@@ -1,0 +1,56 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Suspeito de Perseguição]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um ~p~cidadão preocupado~w~ acredita que está sendo seguido, ~y~garanta sua segurança~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, eu sou um perseguidor, mas a prisão não era para mim e eu não vou voltar!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Fotos da vítima~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Saia da minha frente!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Vamos manter a calma aqui, recebemos relatos de que você estava perseguindo alguém mais cedo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Vá se ferrar, eu não fiz nada, é só uma palavra contra a outra!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Você está se recusando a falar conosco?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, SIM! Eu não falo com porcos, eu os como.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[É improvável que sejam o perseguidor; eles têm um registro limpo. Termine a conversa e ~y~volte para a vítima~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Olá Oficial, como posso ajudá-lo hoje?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Recebemos relatos de que você estava perseguindo alguém, isso é verdade?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Meu Deus, não! De forma alguma. Deve ser um engano ou confusão. Eu só estou fazendo compras, talvez estivéssemos indo para o mesmo lugar? Eu definitivamente não corresponderia à descrição.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Não recebemos uma descrição, deixe-me contatar a central para esclarecer a situação.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, minhas compras podem esperar, não se preocupe.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Você está liberado para ir, parece que foi provavelmente um engano. Aproveite o resto do seu dia.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Bom te ver novamente, o que há de novo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Falamos com eles, mas é improvável que eles estivessem te perseguindo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Sinto muito, isso faz sentido. Eu estava pensando em como talvez eu tenha chamado vocês prematuramente.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Está tudo bem, melhor estar do lado seguro. Da próxima vez, apenas nos avise se você não tiver certeza.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Sim, desculpe por todo o transtorno desnecessário.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Localizamos o suspeito. ~y~Termine a conversa~w~ e vá até eles imediatamente.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Oficial, graças a Deus você está aqui! Estou sendo seguido!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Estamos aqui agora. Pode me dar uma explicação do que aconteceu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Fui seguido... mas minha mente apagou o que eles pareciam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Está tudo bem, é normal esquecer as coisas no momento. Vou pedir aos operadores de câmeras para revisar as filmagens da área.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Estávamos aqui, em ~y~{0}~w~, há algum tempo, talvez 15 minutos atrás. Por favor, mencione isso.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Obrigado, eu vou repassar isso agora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Eles estão verificando as filmagens agora, há mais detalhes? Quanto mais, melhor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Não, estou sem pistas sobre por que eles estão me seguindo há 2 horas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Não se preocupe, vamos resolver isso.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Conseguimos localizá-los, então vou lá agora. Você pode continuar o seu dia ou ir para casa, mas estaremos em contato.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
