@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Wymagana obserwacja terenu]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Udaj się do znacznika w ~y~{0}~w~ i zapewnij ~b~obecność policji~w~ w wyznaczonym obszarze.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Pozostań na miejscu i obserwuj, czy nie dochodzi do ~o~podejrzanej aktywności~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[W pobliżu znaleziono ~r~podejrzaną torbę~w~!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Spróbuj ~o~rozbroić~w~ bombę, odnajdując ~r~osobę, która porzuciła torbę~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zlokalizowałeś ~r~zamachowca~w~. Aresztuj go, aby uzyskać ~g~kod dostępu do bomby~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uzyskałeś ~g~kod dostępu~w~. Udaj się do ~r~bomby~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby ~r~rozbroić bombę~w~ bez kodu dostępu (znajduje się u osoby, która porzuciła torbę).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby ~r~rozbroić bombę~w~ za pomocą kodu dostępu.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Wprowadź kod dostępu, liczbę z zakresu od 1 do 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zgadnij kod dostępu, liczbę z zakresu od 1 do 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Nie udało się rozbroić bomby~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba została rozbrojona~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kod dostępu: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Nieprawidłowe dane.~w~ Podaj liczbę z zakresu ~y~1~w~ do ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Obserwacja terenu przebiegła ~g~bez incydentów~w~. Powrót do patrolu.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
