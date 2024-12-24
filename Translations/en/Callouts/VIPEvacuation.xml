@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP Evacuation]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to get the VIP to follow you.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~p~VIP~w~ will now ~g~follow you~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[When possible, ~o~evacuate the VIP~w~ to the station!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~g~VIP was rescued safely~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~r~VIP is dead.~w~ ~y~Fight off the remaining enemies~w~ and handle the situation as you see fit!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Get closer to the ~p~VIP~w~ to tell them to ~g~follow you~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[An ~r~unidentified helicopter~w~ is entering neaby airspace.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[The VIP's security detail is ~r~under attack~w~. Help ~y~neutralise the threats~w~ and await further instructions!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Protect the VIP!~w~ Dispatch will provide more instructions once the scene is under control.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[The VIP's security detail has been ~r~eliminated~w~. Rescue the VIP who has been ~y~taken hostage~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Try to ~y~approach the VIP~w~ without ~o~being spotted by the armed attackers~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~You've been spotted~w~. ~g~Protect the VIP~w~ who will now be ~o~targeted by the attackers~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
