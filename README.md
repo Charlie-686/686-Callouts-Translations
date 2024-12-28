@@ -9,20 +9,3 @@ All contributions are appreciated. Apart from being careful about spelling & gra
 If you are contributing to a new language, you will also need to create a new folder to match your [language code](http://www.lingoes.net/en/translator/langcode.htm).
 
 **When you have completed your contribution, please create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with it and it will be considered.**
-
-| Language    | Translation Status |
-| -------- | ------- |
-| English [en] | Completed    |
-| Japanese [jp] | Completed    |
-| Polish [pl] | Completed    |
-| Russian [ru] | Completed    |
-| Slovak [sk] | Completed    |
-| Turkish [tr] | Completed    |
-| Chinese [cn]  | Incomplete    |
-| Czech [cs] | Completed    |
-| German [de]  | Completed    |
-| Spanish [es] | Completed    |
-| French [fr]  | Incomplete    |
-| Hungarian [hu] | Incomplete    |
-| Thai [th]  | Incomplete    |
-| Swedish [sv]  | Incomplete    |
