@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evacuazione dei VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per farti seguire dal VIP.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il ~p~VIP~w~ ora ~g~ti seguirà~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Quando possibile, ~o~porta il VIP~w~ alla stazione!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il ~g~VIP è stato salvato sano e salvo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il ~r~VIP è morto.~w~ ~y~Combatti i nemici rimasti~w~ e gestisci la situazione come meglio credi!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Avvicinati ai ~p~VIP~w~ per dirgli di ~g~seguirti~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~r~elicottero non identificato~w~ sta entrando nello spazio aereo vicino.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[La scorta di sicurezza del VIP è ~r~sotto attacco~w~. Aiuta ~y~neutralizzare le minacce~w~ e attendi ulteriori istruzioni!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Proteggi il VIP!~w~ Il dispatcher ti fornirà ulteriori istruzioni una volta che la scena sarà sotto controllo.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[I dettagli di sicurezza del VIP sono stati ~r~eliminati~w~. Salva il VIP che è stato ~y~preso in ostaggio~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Prova ad ~y~avvicinarti al VIP~w~ senza ~o~essere individuato dagli aggressori armati~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Sei stato individuato~w~. ~g~Proteggi il VIP~w~ che ora sarà ~o~preso di mira dagli aggressori~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Chiusura corsia]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~y~autista di carro attrezzi~w~ richiede la ~o~chiusura della corsia~w~ per intervenire in sicurezza su un veicolo in panne.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Chiudi la corsia interessata~w~ e parla con il ~o~autista del carro attrezzi~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Mantieni la chiusura della corsia~w~ e reindirizza il traffico per consentire al ~o~autista del carro attrezzi~w~ di riparare il veicolo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il ~g~veicolo è stato riparato~w~ con successo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il veicolo verrà ~o~rimorchiato~w~ poiché non è possibile ripararlo.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Meccanico:~w~ Agente, abbiamo risolto il problema qui. Saremo in viaggio a breve!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Meccanico:~w~ Mi spiace agente, non possiamo ripararlo! Avrò bisogno di spazio sufficiente dietro il mio camion per agganciare il veicolo al mio rimorchio.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Ehi, come posso aiutarti oggi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Meccanico:~w~ Ehi agente. Ho bisogno che tu tenga la corsia chiusa così posso assistere in sicurezza questo veicolo in panne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tu:~w~ Nessun problema. Buona fortuna! Fammi sapere se hai bisogno di qualcosa.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
