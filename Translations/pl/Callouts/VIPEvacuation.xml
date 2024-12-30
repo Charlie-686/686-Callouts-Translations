@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Ewakuacja VIP'a]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Naciśnij ~y~{0}~w~, aby VIP podążał za tobą.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~ ~g~podąża za tobą~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[W miarę możliwości, ~o~ewakuuj VIP'a~w~ na posterunek!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP został uratowany~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP nie żyje.~w~ ~y~Pokonaj pozostałych wrogów~w~ i zajmij się sytuacją według własnego uznania!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zbliż się do ~p~VIP'a~w~, aby nakazać mu ~g~podążać za tobą~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Niezidentyfikowany helikopter~w~ wkracza w pobliską przestrzeń powietrzną.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Ochrona VIP'a została ~r~zaatakowana~w~. Pomóż ~y~zneutralizować zagrożenie~w~ i oczekuj na dalsze instrukcje!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Chroń VIP'a!~w~ Centrala poda dalsze instrukcje, gdy sytuacja zostanie opanowana.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Ochrona VIP'a została ~r~wyeliminowana~w~. Uwolnij VIP'a, który został ~y~wzięty jako zakładnik~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Spróbuj ~y~zbliżyć się do VIP'a~w~ bez ~o~zwracania uwagi uzbrojonych napastników~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Napastnicy cię zauważyli~w~. ~g~Chroń VIP'a~w~, który teraz będzie ~o~celem napastników~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

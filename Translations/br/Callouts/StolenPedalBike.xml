@@ -1,0 +1,50 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bicicleta de Pedal Roubada]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Uma ~y~bicicleta roubada foi avistada~w~, pare o ciclista.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. Posso fazer algumas perguntas?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, pode perguntar. Mas fique atento ao tráfego atrás de você. Cuidado!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. Podemos conversar sobre essa bicicleta?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sobre o que?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Foi relatada como roubada, hoje inclusive.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah, haha. Desculpe, fui eu quem a reportou! Achei que tinha perdido, mas a encontrei!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi, então essa bicicleta está registrada em seu nome?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, absolutamente. Faça todas as verificações que precisar.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[ansioso]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. A razão pela qual estou falando com você é por causa daquela bicicleta.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Estou tentando chegar a algum lugar. O pneu não está furado nem nada. Qual é o problema?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Ontem foi relatada como roubada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah. Uhh, isso é estranho.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Você saberia por quê?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Uh... sim! Eu completamente esqueci que a havia reportado como roubada.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. Podemos ter uma pequena conversa sobre essa bicicleta?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ok.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Em nossos registros, ela foi recentemente reportada como roubada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Desculpe, o que foi isso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não estou comentando sobre o assunto.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ ARRRRGGGHH! NÃO VOCÊ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

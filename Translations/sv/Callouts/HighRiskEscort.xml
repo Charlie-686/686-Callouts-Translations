@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Högrisk Eskort]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[En ~y~intagen~w~ behöver ~y~eskorteras~w~ till ~y~{0}~w~. Förstärkningskollegor inväntar din ankomst.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Eskort Information:~w~~n~ Du kommer att transportera ~y~{0}~w~ som {1}.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[Mission Row Police Station]]></OTHER>
+		<OTHER><![CDATA[Bolingbroke Penitentiary]]></OTHER>
+		<OTHER><![CDATA[leder ett ~r~krimiellt gäng~w~ involverande korrupta poliser]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[är en ökänd ~y~gängledare~w~, häktad i väntan på rättegång, med risk att bli måltavla för ett rivaliserande gäng]]></OTHER>
+		<OTHER><![CDATA[är en F.D polis, numera ~y~korrupt informatör~w~, med kopplingar till kriminella kretsar]]></OTHER>
+		<OTHER><![CDATA[är en ~y~knarkbaron~w~ med koppling till den största narkotikaleverantören i regionen]]></OTHER>
+		<OTHER><![CDATA[är en ~y~cyberkriminell~w~, som avtjänar ett fängelsestraff]]></OTHER>
+		<OTHER><![CDATA[kontrollerar ~y~den illegala vapenhandeln~w~ och som nyligen gripits]]></OTHER>
+		<OTHER><![CDATA[är en ~y~terrorist~w~. Det finns risk att allierade kommer försöka sig på ett fritagande]]></OTHER>
+		<OTHER><![CDATA[grundade ett ~y~våldsamt gäng~w~ och riskerar nu hämd från ett rivaliserande gäng]]></OTHER>
+		<OTHER><![CDATA[var medlem i en ~y~ökänd narkotikasmugglingsring~w~, nyligen splittrad av myndigheterna]]></OTHER>
+		<OTHER><![CDATA[drivit ett ~y~globalt penningtvättssystem~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[När du är redo, ~y~led konvojen~w~ och följ den ~r~planerade rutten~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vi rapporterar visuell kontakt med ett ~y~misstänkt fordon~w~ som verkar följa efter konvojen. Återkommer.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Det finns en ~r~vägspärr~w~ längre fram! Skydda konvojen till varje pris.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ett ~y~misstänkt fordon~w~ är i närheten. Kolla din radar!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Den ~y~intagna~w~ har ~r~avlidit~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nya Order:~w~~n~ Håll er vid liv, återställ ordningen, och besegra kvarvarande fiender!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Eskort Risk Nivå:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~LÅG]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MEDEL]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~HÖG]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Föraren~w~ av fängelsebilen har ~r~avlidit~w~! Du kommer att behöva ~y~köra fordonet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorten ~r~misslyckades~w~. Den ~y~intagna~w~ har ~r~avlidit~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Eskorten ~g~lyckades~w~. Den ~y~intagna~w~ ~g~överlevde~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Har ~b~eskorten fastnat~w~? Tryck ~y~{0}~w~ när som helst för att återställa.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

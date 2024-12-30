@@ -1,0 +1,53 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Cykelstöld]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[En ~y~stulen cykel har upptäckts~w~, genomför ett trafikstopp.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hej där. Är det okej om jag ställer några frågor till dig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Visst. Men håll koll på trafiken bakom dig.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Vi behöver prata om din cykel?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Vad är det med den?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Den har rapporterats stulen, idag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Åh, haha. Förlåt, det var jag som anmälde den! Jag trodde att jag hade tappat bort den men jag hittade den igen!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Jag förstår, så cykeln är registrerad på dig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jepp. Ni kan göra alla kontroller som behövs.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[orolig]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Anledningen till att jag pratar med dig är på grund av den här cykeln.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag försöker ta mig någonstans. Jag har inte punktering eller nått. Vad är det för problem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Cykeln anmäldes den stulen igår.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Åh. Ööh, det var konstigt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du råkar inte veta varför?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Uuh... jo! Jag glömde helt bort att jag hade anmält den som stulen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Kan vi byta några ord om den där cykeln?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Okej.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ I våra register har den nyligen rapporterats stulen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ursäkta, vad sa du?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Misstänkte:~w~ Jag har inga kommentarer.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ ARRRRGGGHH! INTE DU!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

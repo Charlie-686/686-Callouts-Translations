@@ -1,0 +1,33 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Autóbomba]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Nyomja meg a ~y~{0}~w~ gombot a bomba hatástalanításának ~y~megkísérléséhez.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A jármü ~r~bármikor felrobbanhat~w~.~n~Tartsa távol a civileket a jármü útvonalától, vagy ~y~fejezze be az üldözést~w~ a lehetö leggyorsabban.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sikeres.~w~~n~A bombát hatástalanították. Folytassa saját belátása szerint.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Sikertelen.~w~~n~A bombát nem sikerült hatástalanítani. ~y~Azonnal ürítse ki a környezö területet.~w~]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Hírszerzés ~r~autóbombát~w~ jelentett.~n~Reagáljon a helyszínre ~y~sürgösen.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[A gyanúsított ~y~menekül~w~ a jármüvével, és ~y~bombával van felfegyverkezve.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A jármü ~r~bármikor felrobbanhat~w~.~n~Tartsa távol a civileket a jármü útvonalától, vagy ~y~fejezze be az üldözést~w~ a lehetö leggyorsabban.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Bombavezérlö]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Hírszerzés jelentett egy mentálisan instabil személyt, akinek ~r~autóbombája~w~ van.~n~Reagáljon a helyszínre ~y~sürgösen.~w~]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Bombavezérlö~w~, ~y~Vezetékek]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Feladom! Letartóztathat, tiszt úr!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Gyanúsított:~w~ Tiszt úr...sajnálom, hogy így kellett végzödnie...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Hírszerzés ~r~autóbombát~w~ jelentett.~n~Reagáljon a helyszínre ~y~sürgösen.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Az autóbombát ~y~felrobbantották.~n~Jelentett áldozatok száma: ~r~{0} fö.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Vezetékek~w~,~r~Robbanóanyagok]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Hírszerzés jelentett egy ~r~elhagyott autóbombát.~w~~n~Reagáljon a helyszínre ~y~sürgösen, és hatástalanítsa a bombát.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Autókulcsok~w~, ~r~Bomba]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

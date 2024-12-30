@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Richiesta la sorveglianza dell'area]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Dirigiti al segnale in ~y~{0}~w~ e assicurati una ~b~presenza della polizia~w~ nell'area designata.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Rimani parcheggiato e fai attenzione a ~o~attività sospette~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Nelle vicinanze è stata localizzata una ~r~borsa sospetta~w~!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Prova a ~o~disinnescare~w~ la bomba localizzando la ~r~persona che l'ha sganciata~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hai ~r~localizzato l'attentatore~w~. Arrestali per ricevere il codice di disinnesco ~g~bomb.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hai ~g~recuperato il codice di disinnesco~w~. Vai alla ~r~bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per ~r~disinnescare la bomba~w~ senza il codice di esclusione (situato sulla persona che ha lasciato cadere la borsa).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Premi ~y~{0}~w~ per ~r~disinnescare la bomba~w~ con il codice di override.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Immettere il codice di override, un numero compreso tra 1 e 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Indovina il codice di override, un numero compreso tra 1 e 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Impossibile disattivare la bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba diffusa~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Codice di override: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Inserimento non valido.~w~ Fornisci un numero compreso tra ~y~1~w~ e ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[La sorveglianza dell'area è avvenuta ~g~senza incidenti~w~. Ritorno alla pattuglia.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

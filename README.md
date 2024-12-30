@@ -3,19 +3,9 @@ The repository dedicated to holding all translation files for 686 Callouts. It i
 
 :warning: These files are provided for reference purposes only and may not be redistributed or modified in any way without explicit permission from myself.<br><br>
 
-| Language    | Translation Status |
-| -------- | ------- |
-| English [en] | Completed    |
-| Japanese [jp] | Completed    |
-| Polish [pl] | Completed    |
-| Russian [ru] | Completed    |
-| Slovak [sk] | Completed    |
-| Turkish [tr] | Completed    |
-| Chinese [cn]  | Incomplete    |
-| Czech [cs] | Incomplete    |
-| German [de]  | Complete    |
-| Spanish [es] | Incomplete    |
-| French [fr]  | Incomplete    |
-| Hungarian [hu] | Incomplete    |
-| Thai [th]  | Incomplete    |
-| Swedish [sv]  | Incomplete    |
+## Want to contribute a translation?
+All contributions are appreciated. Apart from being careful about spelling & grammar, please do not take creative liberties when translating. Translate it word for word (but of course you can change it so it makes sense in your language).
+
+If you are contributing to a new language, you will also need to create a new folder to match your [language code](http://www.lingoes.net/en/translator/langcode.htm).
+
+**When you have completed your contribution, please create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with it and it will be considered.**

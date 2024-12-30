@@ -1,0 +1,118 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Flygplan i nöd]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~o~Flygplanet~w~ kommer att ~y~avvakta~w~ i några minuter innan de ~y~försöker nödlanda~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Ett flygplan utför en ~r~nödlandning~w~ på ~y~{0}~w~. Åk mot den designerade landningsplatsen och invänta ytterliggare instruktioner.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Flygplanet~w~ har nu fått tillstånd att genomföra en ~r~nödlandning~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Flygplanet har landat säkert~w~ at ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Prata med ~y~piloten~w~ för att skapa dig en lägesbild.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Flygplanet har landat. ~y~Prata med piloten~w~ för att säkerställa att allt är okej.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vi ~r~kunde inte spawna flygplanet~w~. Försök starta larmet igen eller kontakta support.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vi har ~y~tappat kontakten~w~ med ~o~flygplanet~w~ via radar. Försök etablera ~y~visuell~w~ kontakt med ~o~flygplanet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vi har ~g~återfått kontakten~w~ med ~o~flygplanet~w~ via radar.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Flygplanet~w~ har ~r~krashat~w~. Vänligen invänta ny rutt till olycksplatsen. Vid lokalisering, arbeta vidare som ni anser bäst.]]></NOTIFICATION>
+		<OTHER><![CDATA[Sundsvall-Timrå Airport]]></OTHER>
+		<OTHER><![CDATA[Kramfors Flygfält]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Ett ~o~flygplan~w~ har fått ~y~motorproblem~w~. Rulla PRIO 1 till landingsplatsen & förbered er för nödlandning.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack för hjälpen! Vad tyckte ni om landningen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Inte illa för någon med en rykande motor!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack för att ni tog er hit och hjälpte till! Behöver ni någonting från mig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ingenting, vi var bara här utifall att något skulle gå fel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Min mekaniker ska få se över motorn. Hade jag varit uppe ett par minuter till så hade nog landningen gått mycket sämre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Bra jobbat. Ta hand om ditt plan så rullar vi vidare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack så mycket. Ta hand om er!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[En passagerare har ~r~dött~w~ ombord på ett ~o~flygplan~w~. Prata med piloten för att etablera en ~y~lägesbild~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Kapten. Kan du berätta vad som hände under resan?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Självklart...Vi var ute på en flygtur & min polare svimmade från ingenstans.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hur då, menar du?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Jag var fokuserad på flygningen eftersom det var full fart i luftrummet idag. När jag vände mig om var han avsvimmad så vi nödlandade här.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Har din vän nämnt några hälsoproblem för dig?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Vi har aldrig riktigt pratat om det. Jag antog bara att han hade hälsan för att flyga...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det här är en brottsplats nu som vi måste utreda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Självklart, vad ni än behöver.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Kloroformduk~w~]]></OTHER> <!--If the pilot murdered the passenger, these are the suspicious items we will plant on the pilot!-->
+		<OTHER><![CDATA[~r~Kvävningsmärken~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Kudde~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~o~Flygplanet~w~ riskerar att ~y~explodera närsomhelst~w~. Prata med piloten & evakuera landningsbanan!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~Flygplanet~w~ har ~r~exploderat~w~. Arbeta vidare som du anser bäst.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Stig ur planet och följ mig! Fort!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Ett ~o~flygplan~w~ har fått ~y~motorproblem~w~ och måste nödlanda. ~n~Inringare säger att ~r~landningsbanan är blockerad~w~. Töm den innan planet landar!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Flytta fordonet innan ~o~flygplanet~w~ försöker land. Prata sedan med piloten~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Det var nära ögat. Tack för att tömde landningsbanan i tid.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Inga problem, det är vårat jobb. Hur mår planet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Kunde varit värre, motorn krånglade. Men jag tog mig ner, som tur var.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du gjorde ett jäkla jobb med tanke på omständigheterna.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack, det är det som är jobbet antar jag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Definitvt. Vi är glada att du är säker på marken. Behöver du någpt mer från oss?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Nej, vi klarar oss. Vi har markteamet på väg.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Alright. Om du behöver någonting, hör av dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Absolut, tack igen för hjälpen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[Ett ~o~flygplan~w~ har rapporterat ett nödläge på grund av en ~y~misstänkt fripassagerare~w~ ombord. Grip den misstänkte vid landning.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Kontrollerar om ~y~några fångar har rymt~w~ de senaste 24 timmarna. Återkommer.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vi kan bekräfta att en ~y~{0}~w~ rymde från Saltvik det senaste dygnet. Misstänkte är fortfarande försvunnen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tryck ~y~{0}~w~ för att söka igeom ~o~flygplanet~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hur kan vi hjälpa till?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Jag hörde en massa oväsen när jag flög. Det lät nästan som ett djur.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Har du lämnat ditt flygplan utan tillsyn nyligen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Ja, Jag har ingen hangar så jag lämnade det ute ett par dagar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~Vad tror du det kan vara som låter?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Jag misstänker att jag har en fripassagerare ombord. Jag ville inte kolla själv, men om ni kan söka igenom mitt plan så skulle jag vara tacksam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Absolut, jag ska bara kolla en sak med RLC.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Alright, vi söker igenom ditt plan nu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Stanna! Vad tror du att du håller på med här?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Fripassagerare:~w~ Öh, öh...Jag försökte bara ta mig någonstans. Ni har tagit fel person!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Lägg ner, du är inte alls så smidig som du tror. Vi vet precis vem du är.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Fripassagerare:~w~ Jag lovar, jag menade inget illa. Jag behövde bara ta mig härifrån.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Härifrån? Det har du minsann lyckats med.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Fripassagerare:~w~ Snälla, ni måste förstå. Det är komplicerat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Komplicerat ursäktar inte att begå brott. Du är gripen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[Ett ~o~flygplan~w~ har rapporterat ett nödläge på grund av en ~y~krossad vindruta~w~ som gick sönder under flygning. Rulla PRIO 1 till landingsplatsen & förbered er för nödlandning.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack och lov att ni är här! Det var en jäkla landning.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Inga problem. Vi fick samtalet om din trasiga vindruta. Hur mår du?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Jadå, bara lite skakad. Aldrig varit med om att fönstret gått sönder i luften förut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du hanterade det bra. Hur kunde du hålla dig lugn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Träning, antar jag. Det var bara att hålla fokus för att komma ner säkert.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Bra jobbat. Vi hade ambulans och räddningstjänst här utifall att. Glad att vi inte behövde dem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Jag med. Tack för hjälpen, jag uppskattar det.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det är därför vi finns här. Ta hand om dig, och hör av dig om du behöver någonting.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[Ett ~o~flygplan~w~ nödlandar på grund av ~y~dåliga väderförhållanden~w~. Rulla PRIO 1 till landingsplatsen & förbered er för nödlandning.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Phew, vilken jäkla landning.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hur mår du? Den där stormen kom från ingenstans.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Ja! Väderradarn gjorde den inte rättvisa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Du gjorde en jäkla jobb med komma ner säkert. Vi var rätt oroliga.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack. Jag uppskattar att ni kom hit och försäkrade att allt gått bra. Det var nära ögat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Glad att du är i säkerhet. Hör av dig om du behöver något från oss.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Piloten:~w~ Tack igen. Jag pratar med flygledningen när vi är redo att lyfta igen. Förhoppningsvis så snart som möjligt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi håller tummarna. Ta hand om er och bra jobbat, igen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

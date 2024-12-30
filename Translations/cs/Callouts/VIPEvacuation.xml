@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evakuace VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Zmácknete ~y~{0}~w~ aby vás zaclo VIP následovat.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~ vás nyní ~g~bude následovat~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jakmile to bude mozné, ~o~evakuujte VIP~w~ na stanici!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP bylo úspesne zachráneno~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP umrelo.~w~ ~y~Zneskodnete zbytek nepratel~w~ a pokracujte jak uznate za vhodne!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Priblizte se bliz k ~p~VIP~w~ pro jehoz prikázaní k ~g~nasledování~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Neidentikovaný vrtulník~w~ vstupuje do blízkého vzdusného prostoru.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Bezpecnostní detail od VIP je ~r~pod útokem~w~. Pomoz ~y~neutralizovat hrozby~w~ a vyckej na dalsi pokyny!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Chran VIP!~w~ Dispecink poskytne více informací poté, co bude situace pod kontrolou.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Bezpecnostní detail od VIP byl ~r~eliminován~w~. Zachrante VIP, které bylo ~y~zajato jako rukojmí~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Zkus ~y~se priblízit k VIP~w~ bez toho ~o~aniz bys byl spatren ozbrojenymi útocníky~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Byl jsi spatren~w~. ~g~Ochran VIP~w~, které je nyní ~o~cílem útocníků~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

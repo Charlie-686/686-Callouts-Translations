@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Misstänkte har på sig en ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Misstänkte har på sig ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Misstänkte är en ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[kostym~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blå T-shirt~w~ och springer.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blå rutig tröja~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[läder rock~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[arbetare~w~, har på sig en ~y~vit T-shirt~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[hängslen~w~.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[blå tröja~w~ med ~y~blå shorts~w~. Potentiellt brevbärare.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[stor röd tröja och en keps~w~ med ~y~mårkblå byxor~w~.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[ljusblå blazer och jeans kjol~w~ med en ~y~röd tröja under~w~.]]></DESCRIPTION> // FEMALE ped. 
+</PEDDESCRIPTIONS>

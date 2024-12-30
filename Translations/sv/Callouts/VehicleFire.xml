@@ -1,0 +1,61 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fordonsbrand]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Tryck ~y~{0}~w~ för att acceptera larmet.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Inringaren avslutade samtalet~w~. Vi har dirigerat din ~g~GPS~w~ till platsen. Rulla ditåt.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Ett ~r~stulet fordon~w~ har hittats ~o~brinnande~w~. Rulla mot platsen omedelbart.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[När du är klar på platsen, tryck på ~y~{0}~w~ för att ställa in din GPS mot bilägarens hem.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Informera ~p~bilägaren~w~ om ~y~{0}~w~ som bor i närheten.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Fordonbrand släckt. Rullar mot den registrerade ägarens hem.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Jag är rädd att vi har dåliga nyheter att leverera till dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Åh nej! Vad är det?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi larmades till en fordonsbrand. Det verkar som att du stod som registrerad ägare av fordonet, som nyligen rapporterats som stulet?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Ja...jag kan knappt tro mina öron. Jag är i chock. Så någon stal den och eldade sedan upp den?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Precis. Jag har lite information här för dig angående vad du kan göra nu. Förhoppningsvis ger det lite välbehövligt klarhet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Tack så mycket. För att se positivt på det så borde min försäkring täcka allt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Skönt att höra. Ha en bra dag, så hör vi av oss med mer information.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Hejsan. Vi skulle vilja prata lite med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Det handlar om mitt fordon, eller hur? Och baserat på det faktum att det inte också är med så kan jag väll gissa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det stämmer tyvärr. Tidigare idag upptäcktes en fordonsbrand, vi kan nu bekräfta att det var ditt fordon.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Vilken chock! Vad hade hänt?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ I det här skedet vet vi inte än, även om det verkar sannolikt att det begåtts ett brott. Här är lite information om vad som händer nu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Tack. Mitt försäkringsbolag kommer att gå i taket.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Förhoppningsvis är de förstående. Vi kommer att höra av oss med mer information senare.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Ursäkta mig! Vi behöver byta några ord med dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Oj, vad är det som händer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Det handlar om ditt fordon. Tidigare idag upptäcktes en fordonsbrand. Det verkar som att du stod som registrerad ägare så vi är här för att meddela dig.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Är du säker på att det var mitt fordon? Jag kan knappt tro mina öron! Jag trodde bara att den blivit stulen, inte att någon skulle göra kaffeved av den.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Vi vet inte orsaken i nuläget, men vi utreder. Men här är några papper du bör läsa om vad som blir nästa steg.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Offret:~w~ Tack. Allt har hänt så snabbt. Jag hoppas att ingen kom till skada, särskilt om den eldades upp avsiktligt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Du:~w~ Verkligen, ha en trevlig dag nu. Och om du har ytterligare frågor, tveka inte att höra av dig.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~SOS-operatör:~w~ SOS 112 – vad har inträffat?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Inringare:~w~ Jag har ont om tid, men det är något jag måste berätta för er.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~SOS-operatör:~w~ Ursäkta, vem är det jag pratar med?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Inringare:~w~ Jag svarar inte på frågor! Ett fordon är påväg att eldas upp, precis nu. Ni måste åka dit direkt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~SOS-operatör:~w~ Vart? Och varför berättar du detta för oss?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Inringare:~w~ Jag har skickat platsen till din mobil. Några jag känner har begått ett misstag..de försöker hämnas på fel person.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~SOS-operatör:~w~ Vilka är de du pratar om? Och varför sätter de eld på någons fordon?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Inringare:~w~ Misstag...de har gjort ett misstag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~SOS-operatör:~w~ Sakta ner lite. Hjälp mig förstå sammanhanget.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Inringare:~w~ Jag har redan sagt för mycket...shit....]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

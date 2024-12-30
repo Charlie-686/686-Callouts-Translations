@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Magas kockázatú kíséret]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Egy ~y~fogoly~w~ ~y~{0}~w~ helyszínre kíséretet igényel. A háttérben várják a további egységek az érkezésed.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Kíséreti információ:~w~~n~ A ~y~{0}~w~ szállítása lesz a feladatod, aki {1}.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Mission Row Rendörörs]]></OTHER>
+		<OTHER><![CDATA[Bolingbroke Büntetöintézet]]></OTHER>
+		<OTHER><![CDATA[irányít egy ~r~szervezett bünözöi csoportot~w~, amelyben korrupt rendörök is szerepet játszanak]]></OTHER>
+		<OTHER><![CDATA[egy hírhedt ~y~maffiafönök~w~, aki jelenleg bírósági eljárás alatt áll, és fennáll a veszély, hogy egy rivális banda célpontja lesz]]></OTHER>
+		<OTHER><![CDATA[egy korábbi rendör, aki ~y~korrupt informátor~w~ lett, kapcsolatban áll a bünözöi világgal]]></OTHER>
+		<OTHER><![CDATA[egy ~y~kábítószer-kereskedö~w~, aki a legnagyobb drogkereskedelmi hálózathoz kapcsolódik a régióban]]></OTHER>
+		<OTHER><![CDATA[egy ~y~kiberbünözö~w~, aki jelenleg börtönbüntetését tölti]]></OTHER>
+		<OTHER><![CDATA[~y~illegális fegyverkereskedelmet~w~ irányít és nemrégiben letartóztatták]]></OTHER>
+		<OTHER><![CDATA[egy ~y~terrorista~w~, akit megpróbálhatnak megmenteni]]></OTHER>
+		<OTHER><![CDATA[létrehozott egy ~y~erőszakos utcai bandát~w~, amely visszavágást vár egy rivális bandától]]></OTHER>
+		<OTHER><![CDATA[egy ~y~híres drogkereskedelmi hálózat~w~ tagja volt, amelyet nemrégiben feloszlattak a hatóságok]]></OTHER>
+		<OTHER><![CDATA[felállított egy ~y~globális pénzmosási sémát~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Amikor készen állsz, ~y~vezetheted a konvojt~w~ és kövesd a ~r~tervezett útvonalat~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Jelentést kaptunk egy ~y~gyanús jármüröl~w~, amely követi a kíséretet. Készenlétben!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Elöre ~r~úttorlasz~w~ van! Védd meg a konvojt mindenáron.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Egy ~y~gyanús jármü~w~ a közelben van. Nézd meg a radart!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~y~fogoly~w~ ~r~meghalt~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Új célkitüzés:~w~~n~ Maradj életben, állítsd helyre a rendet, és gyözd le a fennmaradó ellenfeleket!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Kísérési kockázati szint:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~ALACSONY]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~KÖZEPES]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~MAGAS]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~y~kíséret~w~ vezetője ~r~meghalt~w~! Neked kell ~y~vezetned a jármüvet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~r~kíséret~w~ ~r~elbukott~w~. A ~y~fogoly~w~ ~r~meghalt~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~g~kíséret~w~ ~g~sikeres~w~. A ~y~fogoly~w~ ~g~épségben maradt~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Elakadt a ~b~kíséret~w~? Nyomd meg ~y~{0}~w~ bármikor a visszaállításhoz.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
