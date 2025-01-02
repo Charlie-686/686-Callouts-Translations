@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Эвакуация VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Нажмите ~y~{0}~w~, чтобы приказать VIP-персоне следовать за вами.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~ теперь ~g~следует за вами~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[По возможности ~o~эвакуируйте VIP-персону~w~ к полицейскому участку!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP-персона была успешно спасена~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP-персона мертва.~w~ ~y~Отбейтесь от оставшихся противников~w~ и разбирайтесь с ситуацией так, как считаете нужным!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Подойдите ближе к ~p~VIP-персонt~w~,чтобы приказать ей ~g~следовать за вами~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Неопознанный вертолет~w~ входит в ваше воздушное пространство.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[На охрану VIP-персоны совершено ~r~нападение~w~. Помогите ~y~нейтрализовать угрозу~w~ и ждите дальнейших указаний!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Защищайте VIP!~w~ Диспетчер сообщит дальнейшие инструкции, как только ситуация будет взята под контроль.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Охрана VIP-персоны ~r~ликвидирована~w~. Спасите VIP попавшего в ~y~заложники~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Попробуйте ~y~подобраться к VIP-персоне~w~ и ~o~не попасться вооруженным противникам.~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Вас заметили~w~. ~g~Защищайте VIP-персону~w~, теперь она стала ~o~мишенью для нападающих~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
