@@ -41,11 +41,11 @@
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Sie: ~w~Guten Tag, ist alles okay?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Ja, ja alles gut.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Sie:~w~ Das sehe ich, wir hatten Informationen über eine disorientierte Person in der Gegend.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich verstehe, wir haben Informationen über eine disorientierte Person in der Gegend.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Okay, und ist das verboten?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Sie:~w~ Nein, wir wollen sichergehen, dass es Ihnen gut geht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Nein, wir wollen nur sichergehen, dass es Ihnen gut geht.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Mir geht's super, aber ich würde es toll finden, wenn Sie mich jetzt allein lassen würden.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Sie:~w~ Wenn Sie darauf bestehen, noch einen schönen Tag.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wenn Sie darauf bestehen, einen schönen Tag noch.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 </CALLOUT>
