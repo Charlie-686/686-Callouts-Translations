@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Überwachungsbereich erforderlich]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Gehen Sie zum Marker bei ~y~{0}~w~ und stellen Sie eine ~b~Polizeipräsenz~w~ im angegebenen Bereich sicher.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bleiben Sie geparkt und achten Sie auf ~o~verdächtige Aktivitäten~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Eine ~r~verdächtige Tasche~w~ wurde in der Nähe gefunden!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Versuchen Sie, die Bombe zu ~o~entschärfen~w~, indem Sie die ~r~Person finden, die sie platziert hat~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sie haben den ~r~Bombenleger~w~ gefunden. Verhaften Sie ihn, um den ~g~Entschärfungscode~w~ zu erhalten.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sie haben den ~g~Entschärfungscode~w~ erhalten. Gehen Sie zur ~r~Bombe~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um die ~r~Bombe~w~ ohne den Entschärfungscode zu entschärfen (befindet sich bei der Person, die die Tasche abgelegt hat).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um die ~r~Bombe~w~ mit dem Entschärfungscode zu entschärfen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Geben Sie den Entschärfungscode ein, eine Zahl zwischen 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Raten Sie den Entschärfungscode, eine Zahl zwischen 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Entschärfung der Bombe fehlgeschlagen~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bombe entschärft~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Entschärfungscode: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Ungültige Eingabe.~w~ Bitte geben Sie eine Zahl zwischen ~y~1~w~ und ~y~9~w~ ein.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Überwachung des Bereichs verlief ~g~ohne Zwischenfälle~w~. Rückkehr zur Streife.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

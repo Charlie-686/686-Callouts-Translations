@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP Evakuierung]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Drücken Sie ~y~{0}~w~, um den VIP dazu zu bringen, Ihnen zu folgen.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~p~VIP~w~ wird Ihnen jetzt ~g~folgen~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Evakuieren Sie den VIP ~o~so schnell wie möglich~w~ zum Polizeirevier!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~g~VIP wurde in Sicherheit gebracht~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der ~r~VIP ist tot.~w~ ~y~Bekämpfen Sie die verbleibenden Feinde~w~ und handeln Sie nach eigenem Ermessen!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Gehen Sie näher an den ~p~VIP~w~ heran, um ihm zu sagen, dass er Ihnen ~g~folgen soll~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ein ~r~unidentifizierter Hubschrauber~w~ betritt den nahegelegenen Luftraum.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Das Sicherheitsteam des VIPs wird ~r~angegriffen~w~. Helfen Sie, die ~y~Bedrohungen zu neutralisieren~w~ und warten Sie auf weitere Anweisungen!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Beschützen Sie den VIP!~w~ Die Leitstelle wird weitere Anweisungen geben, sobald die Situation unter Kontrolle ist.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Das Sicherheitsteam des VIPs wurde ~r~eliminiert~w~. Retten Sie den VIP, der ~y~als Geisel genommen wurde~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Versuchen Sie, sich dem VIP ~y~zu nähern~w~, ohne von den ~o~bewaffneten Angreifern~w~ entdeckt zu werden.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Sie wurden entdeckt~w~. ~g~Schützen Sie den VIP~w~, der von den Angreifern ~o~ins Visier genommen wird~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
