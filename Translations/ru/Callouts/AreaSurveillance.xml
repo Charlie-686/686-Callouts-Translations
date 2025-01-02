@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Требуется наблюдение за территорией]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Направляйтесь к маркеру на ~y~{0}~w~ и обеспечьте ~b~присутствие полиции~w~ в указанной области.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Припаркуйтесь и следите за ~o~подозрительной активностью~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Поблизости была обнаружена ~r~подозрительная сумка~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Попытайтесь ~o~обезвредить~w~ бомбу, найдя ~r~того, кто ее заложил~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Вы ~r~нашли подрывника~w~. Арестуйте его, чтобы заполучить ~g~код отключения бомбы~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Вы ~g~получили код отключения~w~. Направляйтесь к ~r~бомбе~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Нажмите ~y~{0}~w~, чтобы ~r~обезвредить бомбу~w~ без кода отключения (находиться у человека, который её заложил).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Нажмите ~y~{0}~w~, чтобы ~r~обезвредить бомбу~w~ используя код отключения.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Введите код отключения, число от 1 до 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Угадайте код отключения, число от 1 до 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Не удалось обезвредить бомбу~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Бомба обезврежена~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Код отключения: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Неверный ввод.~w~ Пожалуйста, укажите число от ~y~1~w~ до ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Наблюдение за территорией прошло ~g~без происшествий~w~. Возвращайтесь к патрулированию.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
