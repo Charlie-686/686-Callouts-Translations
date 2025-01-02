@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fahrspursperrung]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein ~y~Abschleppwagenfahrer~w~ bittet um eine ~o~Fahrspuhrsperrung~w~ um ein liegengebliebenes Fahrzeug zu bergen.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Sperre die betroffene Spur~w~ und spreche mit dem ~o~Abschleppwagenfahrer~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Halte die Sperrung der Fahrbahn aufrecht~w~ und leite den Verkehr um, damit der ~o~Abschleppwagenfahrer~w~ das liegengebliebene Fahrzeug reparieren kann.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das Fahrzeug wurde ~g~erfolgreich~w~ repariert.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Das Fahrzeug muss ~o~abgeschleppt~w~ werden, da es nicht repariert werden konnte.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Abschleppwagenfahrer:~w~ Ich konnte das Fahrzeug reparieren und bin gleich wieder weg!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Abschleppwagenfahrer:~w~ Ich konnte das Fahrzeug leider nicht reparieren! Ich brauche genug Platz hinter meinem Abschleppwagen, um das Fahrzeug anzuhängen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, wie kann ich helfen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Abschleppwagenfahrer:~w~ Hallo. Ich benötige eine Sperrung der Fahrbahn, um das liegengebliebene Fahrzeug zu reparieren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Kein Problem und viel Erfolg! Sagen Sie Bescheid, falls Sie etwas benötigen.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
