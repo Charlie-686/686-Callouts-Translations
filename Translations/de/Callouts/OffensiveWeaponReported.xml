@@ -21,7 +21,7 @@
 	<OUTCOME3>
 		<NOTIFICATION><![CDATA[Verhaften Sie den Verdächtigen und handeln Sie entsprechend der Situation.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~b~Sie:~w~ Bleiben Sie wo Sie sind für mich und halten Sie Ihre Hände sichtbar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Bleiben Sie wo Sie sind und halten Sie Ihre Hände sichtbar nach oben.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Was ist los?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich weiß, dass Sie eine Waffe bei sich tragen.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Verdächtiger:~w~ Oh nein... oh... nein...]]></DIALOGUE>
