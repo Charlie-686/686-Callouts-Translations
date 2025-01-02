@@ -7,7 +7,7 @@
 		<NOTIFICATION><![CDATA[The ~g~VIP was rescued safely~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[The ~r~VIP is dead.~w~ ~y~Fight off the remaining enemies~w~ and handle the situation as you see fit!]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Get closer to the ~p~VIP~w~ to tell them to ~g~follow you~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[An ~r~unidentified helicopter~w~ is entering neaby airspace.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[An ~r~unidentified helicopter~w~ is entering nearby airspace.]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME>
 		<FURTHERINFORMATION><![CDATA[The VIP's security detail is ~r~under attack~w~. Help ~y~neutralise the threats~w~ and await further instructions!]]></FURTHERINFORMATION>

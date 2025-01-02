@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Перекрытие полосы движения]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~Водитель эвакуатора~w~ запрашивает ~o~перекрыть полосу~w~, чтобы безопасно обслужить сломавшийся автомобиль.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Перекройте нужную полосу~w~ и поговорите с ~o~водителем эвакуатора~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Сохраняйте полосу закрытой~w~  и перенаправляйте движение, чтобы ~o~Водитель Эвакуатора~w~мог отремонтировать автомобиль.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Автомобиль был отремантирован ~g~успешно~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Автомобиль будет ~o~отбуксирован~w~, так как его невозможно починить.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Механик:~w~ Офицер, я все починил и скоро тут закончу!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Механик:~w~ Простите, Офицер, я не могу ее починить! Мне нужно много места за эвакуатором, чтобы закрепить машину на буксир.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Здравствуйте, чем могу помочь?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Механик:~w~ Здравствуйте Офицер. Мне нужно, чтобы вы держали полосу закрытой, чтобы я мог безопасно обслужить эту сломавшуюся машину.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Вы:~w~ Без проблем. Удачи! Дайте знать если вам что-нибудь понадобится.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
