@@ -4,7 +4,7 @@
 		<UPDATEAVAILABLE><![CDATA[~r~Sie verwenden eine alte Version!]]></UPDATEAVAILABLE>
 		<UPDATEAVAILABLE><![CDATA[~y~Geladen, aber bitte aktualisieren Sie 686 Callouts, wenn möglich.]]></UPDATEAVAILABLE>
 		<BETAVERSION><![CDATA[~r~Beta-Version erkannt.]]></BETAVERSION>
-		<BETAVERSION><![CDATA[Vielen Dank für Ihr Testen & Feedback. <3]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Vielen Dank fürs Testen & Ihr Feedback. <3]]></BETAVERSION>
 		<FAILED><![CDATA[~r~Fehler beim Überprüfen von Updates!]]></FAILED>
 		<FAILED><![CDATA[~y~Geladen, jedoch konnte nicht auf Updates geprüft werden.]]></FAILED>
 	</UPDATECHECKER>
@@ -18,11 +18,11 @@
 	</DEPENDENCYCHECK>
 	<STATISTICS>
 		<CAREERSTATISTICS><![CDATA[Karrierestatistiken]]></CAREERSTATISTICS>
-		<CALLS><![CDATA[Anrufe]]></CALLS>
+		<CALLS><![CDATA[Einsätze]]></CALLS>
 		<FIGHTS><![CDATA[Kämpfe]]></FIGHTS>
 		<PURSUITS><![CDATA[Verfolgungen]]></PURSUITS>
 		<ARRESTS><![CDATA[Festnahmen]]></ARRESTS>
-		<SUSPECTDEATHS><![CDATA[Tode Verdächtige]]></SUSPECTDEATHS>
+		<SUSPECTDEATHS><![CDATA[Todesfälle]]></SUSPECTDEATHS>
 	</STATISTICS>
 	<NOTIFICATIONS>
 		<BEHAVIOURALANALYSIS><![CDATA[~b~Verhaltensanalyse~w~]]></BEHAVIOURALANALYSIS>
@@ -34,8 +34,8 @@
 		<DISTANCECHECK><![CDATA[Entschuldigung, Sie waren zu nah am Einsatzort, um ihn zu starten.]]></DISTANCECHECK>
 		<INVALIDPED><![CDATA[Schiebs auf GTAV!]]></INVALIDPED>
 		<INVALIDPED><![CDATA[~o~GTAV hat einen unserer Peds gelöscht! Wir konnten nichts tun, außer einen Absturz zu verhindern, aber das sollte nicht öfter passieren.]]></INVALIDPED>
-		<DISPATCH><![CDATA[Zentrale]]></DISPATCH>
-		<DIALOGUEOVER><![CDATA[Dialogue vorbei. Handeln Sie je nach Situation.]]></DIALOGUEOVER>
+		<DISPATCH><![CDATA[Leistelle]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialog vorbei. Handeln Sie je nach Situation.]]></DIALOGUEOVER>
 		<BEGINSPEAKING><![CDATA[Drücken Sie ~y~{0}~w~, um zu sprechen.]]></BEGINSPEAKING>
 		<ENDREMINDER><![CDATA[Drücken Sie ~y~{0}~w~ jederzeit, um den Einsatz zu beenden.]]></ENDREMINDER>
 		<INFORMATION><![CDATA[Information]]></INFORMATION>
@@ -47,7 +47,7 @@
 		<PURSUITUPDATE TARGET = "F"><![CDATA[vermutet, der Verdächtige ist ~y~female~w~.]]></PURSUITUPDATE> 
 		<PURSUITUPDATE><![CDATA[vermutet, dass der Verdächtige ~y~{0}~w~ ist, der bereits ~y~{1}~w~ Mal kontrolliert worden ist.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
 		<PURSUITUPDATE><![CDATA[hat ~y~keine Information~w~ über den Verdächtigen.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
-		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[ZENTRALE]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[LEITSTELLE]]></CALLOUTDISPLAYEDNOTIFICATION>
 		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[NOTRUF]]></CALLOUTDISPLAYEDNOTIFICATION>
 		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Einsatz: ~b~{0}~n~~w~Ort: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
 	</NOTIFICATIONS>

@@ -18,7 +18,7 @@
 		<NOTIFICATION><![CDATA[Enter the override code, a number between 1-9.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Guess the override code, a number between 1-9.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~Failed to disable the bomb~w~.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[~g~Bomb diffused~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomb defused~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Override Code: ~g~{0}~w~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~Invalid input.~w~ Please provide a number between ~y~1~w~ and ~y~9~w~.]]></NOTIFICATION>
 	</OUTCOME>

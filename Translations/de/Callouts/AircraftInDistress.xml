@@ -4,7 +4,7 @@
 		<FURTHERINFORMATION><![CDATA[Das ~o~Flugzeug~w~ fliegt für einige Minuten im ~y~Kreis~w~, bevor es ~y~einen Landeversuch unternimmt~w~.]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[Ein Flugzeug führt eine ~r~Notlandung~w~ bei ~y~{0}~w~ durch. Begeben Sie sich zur ausgewiesenen Landezone und erwarten Sie weitere Anweisungen.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Das ~o~Flugzeug~w~ hat nun die Erlaubnis, eine ~r~Notlandung~w~ zu versuchen.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Die Szene ist Code 4, da das ~g~Flugzeug~w~ bei ~y~{0}~w~ sicher gelandet ist.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Der Einsatz ist Code 4, da das ~g~Flugzeug~w~ bei ~y~{0}~w~ sicher gelandet ist.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Sprechen Sie mit dem ~y~Piloten~w~ und untersuchen Sie die Situation.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Das Flugzeug ist gelandet. ~y~Sprechen Sie mit dem Piloten~w~, um zu überprüfen, ob alles in Ordnung ist.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Wir konnten das ~o~Flugzeug nicht spawnen~w~. Bitte starten Sie den Einsatz erneut oder wenden Sie sich an den Support.]]></NOTIFICATION>

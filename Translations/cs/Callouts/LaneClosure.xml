@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Uzavrení jízdního pruhu]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~Ridic odtahového vozidla~w~ zádá o uzavrení ~o~jízdního pruhu~w~, aby mohl bezpecne osetrit porouchané vozidlo.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Uzavrete blokovaný jízdní pruh~w~ a promluvte si s ~o~ridicem odtahového vozidla~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Zachovejte uzavírku jízdního pruhu~w~ a presmerujte provoz, aby mohl ~o~ridic odtahového vozidla~w~ opravit vozidlo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~g~bylo úspesne~w~ opraveno.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo bude ~o~odtazeno~w~ protoze se ho nepodarilo opravit.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~ Strázníku, máme to tady opravené. Za chvíli jsme na ceste!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~ Je nám líto, ale nemuzeme to opravit! Potrebuji za svým vozem dostatek místa, abych mohl vozidlo pripojit k vleku.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Ahoj, jak vám mohu dnes pomoci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~ Hej, strázníku. Potrebuji, abyste udrzoval uzavrený jízdní pruh, abych mohl bezpecne pomoci tomuto porouchanému vozidlu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty:~w~ Zádný problém. Hodne stestí! Dejte mi vedet kdybyste neco potrebovali.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

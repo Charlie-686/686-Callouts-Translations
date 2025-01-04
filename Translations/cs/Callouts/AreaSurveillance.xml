@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Pozadovaný dohled nad oblastí]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Vydejte se ke znacce na ~y~{0}~w~ a zajistete ~b~policejní prítomnost~w~ v urcené oblasti.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Zustante zaparkovaní a sledujte ~o~podezrelou aktivitu~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Nedaleko byla nalezena ~r~podezrelá taska~w~!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pokuste se bombu ~o~zneskodnit~w~ tím, ze najdete ~r~osobu, která ji tam dala~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nasli jste ~r~osobu co tam dala bombu~w~. Zatknete ji a ~g~získejte kód pro deaktivaci bomby.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Získali jste ~g~kód pro deaktivaci bomby~w~. Jdete k ~r~bombe~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Stisknete ~y~{0}~w~ pro ~r~zneskodnení bomby~w~ bez kódu pro deaktivaci bomby (která má osoba u sebe).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Stisknete ~y~{0}~w~ pro ~r~zneskodnení bomby~w~ získaným kódem pro deaktivaci bomby.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zadejte kód pro deaktivaci bomby, císlo v rozmezí 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uhodnete kód pro deaktivaci bomby, císlo v rozmezí 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Nepodarilo se deaktivovat bombu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba deaktivována~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kód pro deaktivaci bomby: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Neplatné zadání.~w~ Uvedte prosím císlo mezi ~y~1~w~ a ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Dohled nad oblastí probehl ~g~bez incidentu~w~. Vracíme se k hlídce.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

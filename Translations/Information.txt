@@ -16,10 +16,10 @@ Fully complete:
 - Slovak
 - Turkish
 - German
+- Czech
 
 Partially complete:
 - Chinese
-- Czech
 - Spanish
 - French
 - Hungarian
