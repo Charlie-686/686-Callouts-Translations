@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIPの警護]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ を押してVIPに同行するよう指示してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~はあなたに~g~同行します~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[可能であれば、~o~VIPを駅まで避難~w~させてください！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIPは無事に救出されました~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIPは死亡しました~w~。~y~残りの敵を排除~w~し、状況を適切に対処してください！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~に近づき、~g~同行するよう指示~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~未確認のヘリコプター~w~が付近の空域に進入しています。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIPの警護チームが~r~攻撃を受けています~w~。~y~脅威を無力化~w~し、さらなる指示を待ってください！]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~VIPを守ってください！~w~ 現場が制圧され次第、司令部が追加の指示を出します。]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIPの警護チームは~r~全滅しました~w~。~y~人質となったVIP~w~を救出してください。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~武装した攻撃者に見つからない~w~ように、~y~VIPに接近~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~発見されました~w~。~g~VIPを守ってください~w~。VIPは~o~攻撃者に狙われる~w~ことになります。]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
