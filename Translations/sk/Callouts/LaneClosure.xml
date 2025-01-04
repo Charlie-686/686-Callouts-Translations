@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Uzavretie jazdného pruhu]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Vodič ~y~odťahovky~w~ žiada o ~uzatvorenie jazdného pruhu~w~, aby sa mohol bezpečne dostať k pokazenému vozidlu.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Zatvorte dotknutý jazdný pruh~w~ a porozprávajte sa s ~vodičom odťahovacieho vozidla~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Udržujte uzávierku jazdného pruhu~w~ a presmerujte premávku, aby ~vodič odťahovacieho vozidla~w~ mohol vozidlo opraviť.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo ~g~ bolo úspešne opravené~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vozidlo bude ~odtiahnuté~w~, pretože sa nedalo opraviť.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~ Dôstojník, máme to tu opravené. Čoskoro sme na ceste!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~ Prepáčte, dôstojník, nemôžeme to opraviť! Budem potrebovať dostatok miesta za kamiónom na pripevnenie vozidla k vleku.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vy::~w~ Ahoj, ako ti dnes môžem pomôcť?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mechanik:~w~Ahoj dôstojník. Potrebujem, aby ste držali jazdný pruh uzavretý, aby som mohol bezpečne pomôcť tomuto pokazenému vozidlu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vy:~w~ Žiadny problém. Veľa šťastia! Ak by ste niečo potrebovali, dajte mi vedieť.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
