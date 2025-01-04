@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[エリア監視の要請]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~{0}~w~のマーカーに向かい、指定されたエリアで~b~警察の存在感~w~を示してください。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[車両を停車させ、~o~不審な挙動~w~がないか監視してください。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[~r~不審なバッグ~w~が付近で発見されました！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~バッグを置いた人物~w~を特定し、~o~爆弾を無力化~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~爆弾犯を特定しました~w~。逮捕して~g~爆弾の解除コード~w~を入手してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~解除コードを入手しました~w~。~r~爆弾~w~の場所へ向かってください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~を押して、解除コードなしで~r~爆弾を無力化~w~してください（コードはバッグを置いた人物が所持しています）。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~を押して、解除コードを使用して~r~爆弾を無力化~w~してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[1から9の間の数字で解除コードを入力してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[1から9の間の数字で解除コードを推測してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~爆弾の無力化に失敗しました~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~爆弾は無力化されました~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[解除コード: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~無効な入力です~w~。 ~y~1~w~から~y~9~w~の間の数字を入力してください。]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[エリア監視は~g~問題なく完了しました~w~。パトロールに戻ります。]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
