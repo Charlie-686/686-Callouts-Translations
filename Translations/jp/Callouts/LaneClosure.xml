@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[レーンの閉鎖]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~レッカー車の運転手~w~が、故障車両への安全な対応のために~o~レーン閉鎖~w~を要請しています。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~影響を受けたレーンを閉鎖~w~し、~o~レッカー車の運転手~w~と話してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~レーン閉鎖を維持~w~し、~o~レッカー車の運転手~w~が車両を修理できるよう、交通を誘導してください。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~車両は無事に修理されました~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[車両は修理できなかったため、~o~牽引されます~w~。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~整備士:~w~ こちらは修理が完了しました。すぐに出発します！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~整備士:~w~ 申し訳ありません、修理はできませんでした。車両を牽引するため、トラックの後方に十分なスペースが必要です。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ こんにちは、今日はどうしましたか？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~整備士:~w~ 故障した車両に安全に対応するため、レーンを閉鎖したままにしておいてください。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~あなた:~w~ 了解しました。頑張ってください！何か必要があれば教えてください。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
