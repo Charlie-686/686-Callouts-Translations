@@ -1,0 +1,22 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP evakuácia]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Stlačte ~y~{0}~w~, aby vás VIP nasledoval.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~ vás bude teraz ~g~nasledovať~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Keď je to možné, ~evakuujte VIP~w~ na stanicu!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP bol zachránený bezpečne~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP je mŕtvy.~w~ ~y~Porazte zostávajúcich nepriateľov~w~ a zvládnite situáciu tak, ako uznáte za vhodné!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pristúpte bližšie k ~p~VIP~w~ a povedzte im, aby vás ~g~nasledovali~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Neznámy vrtuľník vstupuje do blízkeho vzdušného priestoru.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Podrobnosti o zabezpečení VIP sú ~r~útočené~w~. Pomôžte ~y~neutralizovať hrozby~w~ a čakajte na ďalšie pokyny!
+]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Chráňte VIP!~w~ Odoslanie poskytne ďalšie pokyny, keď bude scéna pod kontrolou.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Bezpečnostný detail VIP bol ~odstránený~w~. Zachráňte VIP, ktorý bol ~zajatý ako rukojemník~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Pokúste sa ~priblížiť sa k VIP~w~ bez toho, aby ste si vás všimli ozbrojení útočníci~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Boli ste spozorovaní~w~. ~g~Chráňte VIP~w~, ktorí budú teraz ~zameraní útočníkmi~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

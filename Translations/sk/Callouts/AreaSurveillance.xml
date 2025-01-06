@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vyžaduje sa plošný dohľad]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Zamierte k značke ~y~{0}~w~ a zaistite ~b~policajnú prítomnosť~w~ v určenej oblasti.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Zostaňte zaparkovaní a sledujte ~podozrivú aktivitu~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Neďaleko sa našla ~podozrivá taška~w~!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pokúste sa ~zneškodniť~w~ bombu lokalizáciou ~osoby, ktorá ju zhodila~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~Našli ste bombardér~w~. Zatknite ich, aby ste dostali kód na prepísanie ~g~bomb.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~získali ste kód na potlačenie detonácie~w~. Prejdite na ~r~bomb~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Stlačením ~y~{0}~w~ ~r~zneškodníte bombu~w~ bez prepisovacieho kódu (umiestneného na osobe, ktorá zhodila tašku).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Stlačením ~y~{0}~w~ ~r~zneškodníte bombu~w~ pomocou kódu na potlačenie.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Zadajte prepisovací kód, číslo medzi 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Uhádnite prepisovací kód, číslo medzi 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Nepodarilo sa deaktivovať bombu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba zneškodnená~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Kód prepísania: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Neplatný vstup.~w~ Zadajte číslo medzi ~y~1~w~ a ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Oblastný dozor prebehol ~g~bez incidentu~w~. Návrat na hliadku.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
