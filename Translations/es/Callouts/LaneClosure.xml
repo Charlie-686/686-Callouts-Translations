@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Cierre de carril]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~y~conductor de grúa~w~ está solicitando un ~o~cierre de carril~w~ para atender de manera segura un vehículo averiado.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Cierra el carril afectado~w~ y habla con el ~o~conductor de la grúa~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Mantenga el cierre del carril~w~ y redirija el tráfico para permitir que el ~o~conductor de la grúa~w~ repare el vehículo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~g~vehículo fue reparado~w~ con éxito.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El vehículo será ~o~remolcado~w~ ya que no se pudo reparar.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mecánico:~w~ Oficial, tenemos esto arreglado aquí. ¡Estaremos en camino en breve!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mecánico:~w~ Lo siento oficial, ¡no podemos arreglarlo! Necesitaré suficiente espacio detrás de mi camión para sujetar el vehículo a mi remolque.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Hola, ¿cómo puedo ayudar hoy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mecánico:~w~ Hola oficial. Necesito que tú mantenga el carril cerrado para poder asistir con seguridad a este vehículo averiado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Tú:~w~ Ningún problema. ¡Buena suerte! Avísame si necesitas algo.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

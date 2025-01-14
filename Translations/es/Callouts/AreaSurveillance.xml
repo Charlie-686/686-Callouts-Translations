@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Se requiere vigilancia del área]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Dirígete al marcador en ~y~{0}~w~ y proporciona una ~b~presencia policial~w~ en el área designada.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Mantente estacionado y observa ~o~actividad sospechosa~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[¡Se ha localizado una ~r~bolsa sospechosa~w~ cerca!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Intenta ~o~desactivar~w~ la bomba localizando a la ~r~persona que la arrojó~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tú ~r~localizaste el bombardero~w~. Arréstelos para recibir el código de anulación de bomba ~g~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Recuperaste el código de anulación~w~. Ve a la ~r~bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Presiona ~y~{0}~w~ para ~r~desactivar la bomba~w~ sin el código de anulación (ubicado en la persona que dejó caer la bolsa).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pulsa ~y~{0}~w~ para ~r~desactivar la bomba~w~ con el código de anulación.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Ingrese el código de anulación, un número entre 1 y 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Adivina el código de anulación, un número entre 1 y 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~No se pudo desactivar la bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba desactivada~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Código de anulación: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Entrada no válida.~w~ Proporcione un número entre ~y~1~w~ y ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[La Vigilancia del Área se produjo ~g~sin incidentes~w~. Volviendo a patrullar.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
