@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evacuación VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Presiona ~y~{0}~w~ para que el VIP te siga.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~p~VIP~w~ ahora ~g~te seguirá~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[¡Cuando sea posible, ~o~evacue al VIP~w~ a la estación!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~g~VIP fue rescatado sano y salvo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[El ~r~VIP está muerto.~w~ ~y~¡Lucha contra los enemigos restantes~w~ y maneja la situación como mejor te parezca!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Acércate al ~p~VIP~w~ para decirles que ~g~te sigan~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~r~helicóptero no identificado~w~ está entrando en el espacio aéreo cercano.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[El equipo de seguridad del VIP está ~r~bajo ataque~w~. ¡Ayuda a ~y~neutralizar las amenazas~w~ y espera más instrucciones!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~¡Protege al VIP!~w~ El despacho proporcionará más instrucciones una vez que la escena esté bajo control.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[El equipo de seguridad del VIP ha sido ~r~eliminado~w~. Rescata al VIP que ha sido ~y~tomado como rehén~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Intenta ~y~acercarte al VIP~w~ sin ~o~ser visto por los atacantes armados~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Has sido descubierto~w~. ~g~Protege al VIP~w~ que ahora será ~o~objetivo de los atacantes~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
