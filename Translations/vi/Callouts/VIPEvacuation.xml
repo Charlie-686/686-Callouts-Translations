@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP Evacuation]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để yêu cầu VIP đi theo bạn.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[VIP ~p~sẽ ~g~đi theo bạn~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Khi có thể, ~o~evacuate VIP~w~ đến trạm!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[VIP ~g~được cứu an toàn~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[VIP ~r~đã chết.~w~ ~y~Đánh bại những kẻ thù còn lại~w~ và xử lý tình huống theo cách bạn thấy phù hợp!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đến gần VIP ~p~để yêu cầu họ ~g~đi theo bạn~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Helicopter ~r~không xác định~w~ đang vào không phận gần đây.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Đội bảo vệ của VIP đang ~r~bị tấn công~w~. Hãy giúp ~y~xử lý các mối đe dọa~w~ và chờ chỉ thị tiếp theo!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Bảo vệ VIP!~w~ Dispatch sẽ cung cấp hướng dẫn thêm khi tình huống được kiểm soát.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Đội bảo vệ của VIP đã bị ~r~tiêu diệt~w~. Cứu VIP, người đã ~y~bị bắt làm con tin~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Cố gắng ~y~tiếp cận VIP~w~ mà không bị ~o~phát hiện bởi những kẻ tấn công có vũ khí~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Bạn đã bị phát hiện~w~. ~g~Bảo vệ VIP~w~ vì giờ đây VIP sẽ bị ~o~nhắm đến bởi những kẻ tấn công~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

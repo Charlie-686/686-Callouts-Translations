@@ -1,0 +1,114 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Trốn vé]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Nhân viên nhà ga~w~ yêu cầu sự hỗ trợ của bạn; họ cần bạn bắt giữ một người có thể đã ~y~không thanh toán vé tàu.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Nói chuyện với người bị nghi ngờ ~y~trốn vé.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Vé hợp lệ~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Vé giả~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Một nhà ga gần đó đã báo cho tôi rằng họ đã nhảy qua cổng rào. Ấn tượng đấy, nhưng đó là hành vi phạm tội.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin lỗi, có thể bạn đứng lại một chút không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Nhanh lên, tôi phải bắt tàu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi đã nói chuyện với nhân viên kiểm soát vé, họ bảo bạn đã nhảy qua cổng phải không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Pfff, không phải chuyện lớn đâu. Tôi không có tiền lẻ, bạn có thể bỏ qua cho tôi không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đi tàu mà không thanh toán vé là phạm tội, tôi sẽ lập biên lai cho bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Vậy làm đi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đây là vé phạt. Bạn có thể sử dụng tàu nhưng sẽ phải nộp phạt, lần sau hãy thanh toán vé như mọi người.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Vé phạt này đắt quá, tôi không thể tin được. Chắc tôi nên mua vé rồi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Tôi thấy vé của ai đó có vẻ bất thường, tôi nghi là vé giả. Thật không may khi vé giả ngày càng phổ biến.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn, có thể đứng lại một chút không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi nhận được thông báo từ nhân viên nhà ga, họ muốn biết bạn vào cổng như thế nào?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ừ, tôi có vé, đó là lý do tôi vào được.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Để tôi xem vé của bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Uh, chắc thôi. Tôi không thấy lý do gì mà bạn cần phải xem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Vé này hết hạn từ một tuần trước, bạn có biết lý do không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Không thể nào, tôi không biết sao lại như vậy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đừng giả vờ ngớ ngẩn, bạn đã cố tình dùng vé hết hạn. Tôi sẽ lập biên lai phạt cho bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Thật sự, làm gì đó có ích với cuộc sống của bạn đi. Đưa vé cho tôi, rồi tôi đi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đây là vé của bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Cảm ơn bạn rất nhiều. Bạn đã làm hỏng cả ngày của tôi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+         <OUTCOME2>
+		<CALLOUT>
+	<GENERAL>
+		<OTHER><![CDATA[Đồng nghiệp của tôi ở ga khác đã gọi qua đài. Có vẻ như họ có thể không có vé, tuy nhiên đồng nghiệp của tôi đã không theo dõi camera, thật không may.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin chào, bạn có thể đứng lại một chút không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi được yêu cầu kiểm tra xem bạn có vé không.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tôi không biết, tôi có không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đây không phải là trò đùa, tôi cần câu trả lời trung thực.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ôi trời ơi! Hãy bắt những tên tội phạm, không phải những người muốn đi tàu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi sẽ hỏi lại, bạn có vé không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Bạn không có việc gì khác làm à? Hãy để tôi lên tàu chết tiệt này. Nó cũng sắp đến rồi mà.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Nói chuyện với người bị nghi ngờ ~r~bán vé giả.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Tôi nhìn thấy một vé của ai đó, nó không đúng. Tôi nghĩ đó là vé giả.]]></OTHER>
+		<OTHER><![CDATA[~r~Vé giả~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin lỗi, tôi cần nói chuyện với bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận được thông báo từ nhân viên nhà ga, họ muốn biết bạn vào cổng như thế nào?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ừ, tôi có vé, đó là lý do tôi vào được.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Để tôi xem vé của bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, đây là vé của tôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đây là vé giả, bạn có thể nhận thấy qua các dấu hiệu bên cạnh. Tại sao bạn lại sử dụng nó?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ở cửa ga, có người bán vé này, chắc chắn giá của nó chỉ bằng một nửa giá vé bình thường.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, vậy bạn đã mua vé này với giá rẻ hơn à?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Đúng vậy. Đây, tôi có chứng minh nhân dân. Tôi không phải là tội phạm, tôi hứa đấy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn bạn. Tôi sẽ cố gắng tìm người mà bạn đã đề cập.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đợi một chút, chúng ta cần nói chuyện.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Một ngày nữa, một cảnh sát nữa trong chuyện của tôi. Có chuyện gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi có lý do để tin rằng bạn đã bán vé giả.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi sẽ bắt giữ bạn, đứng im ở đó.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tay tôi giơ lên!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Một người nào đó, theo như tôi nghe qua đài, không sử dụng vé.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin chào, bạn có thể đứng lại một chút không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận được thông báo từ nhân viên nhà ga, họ muốn biết bạn vào cổng như thế nào?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Như mọi người khác, bằng vé tàu của tôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Có thể tôi xem vé của bạn được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ừ, chắc thôi. Tôi không thấy lý do gì mà bạn cần phải xem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Có vẻ như mọi thứ ổn, chúc bạn tiếp tục hành trình suôn sẻ!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ Rất vui được gặp bạn, cảm ơn bạn đã đến nhanh chóng.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không có gì đâu, bạn có thể cung cấp chi tiết về tình huống này không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu rồi. Không tốt chút nào. Bây giờ họ ở đâu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ Chưa có tàu nào đi, nên họ có thể sẽ ở trên sân ga.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn bạn vì đã giúp đỡ, tôi sẽ đến đó ngay.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ Xin lỗi vì đã gọi về một việc nhỏ như vậy, rất cảm kích.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không sao đâu, bạn có thể cung cấp chi tiết về tình huống này không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi, có vẻ như chúng ta đang có một người trốn vé. Họ có thể ở đâu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nhân viên ga:~w~ Để tôi nghĩ xem. Họ chắc chắn ở sân ga, đó là nơi duy nhất họ có thể ở.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi, tôi sẽ kiểm tra ở đó trước!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

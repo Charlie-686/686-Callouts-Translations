@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Hành vi Môi Giới]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Đã có báo cáo về một ~y~gái mại dâm~w~, đến hiện trường ~y~chờ chỉ đạo thêm~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bạn đang tiến gần đến hiện trường. Đỗ xe sao cho ~y~không bị nghi ngờ~w~ bởi đối tượng.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Liên hệ với đối tượng.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn ~r~quá gần đối tượng~w~. Di chuyển xa hơn để tránh bị phát hiện.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn ~r~đã làm đối tượng chú ý.~n~~w~Vì vậy, chúng tôi đã ~y~không thể thu thập chứng cứ~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đối tượng đã tiếp cận xe. ~y~Hãy nói chuyện với họ và điều tra.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Xe không liên quan đến ~y~đối tượng.~w~ Tiếp tục như bạn thấy hợp lý.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Dụng cụ ma túy, Chất bột trắng]]></OTHER>
+		<OTHER><![CDATA[~y~Gói bao cao su]]></OTHER>
+		<OTHER><![CDATA[~y~Gel bôi trơn~w~,~r~ Chất bột trắng]]></OTHER>
+		<OTHER><![CDATA[~r~Cuộn tiền mặt, Dao gấp]]></OTHER>
+		<OTHER><![CDATA[~r~Cuộn tiền mặt]]></OTHER>
+		<OTHER><![CDATA[~y~Quần lót dây]]></OTHER>
+		<OTHER><![CDATA[~r~Hình ảnh khiêu dâm]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Con dao đầy máu]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Qua đây! Qua đây!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Xin cứu cô ấy! Xin cứu cô ấy!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chuyện gì đã xảy ra vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Tôi đang đi dạo, và gặp phải người phụ nữ tội nghiệp này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn có thấy chuyện gì xảy ra không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Thật tiếc, tôi ước mình có thể đến sớm hơn. Có thể cô ấy sẽ vẫn còn sống...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Và xin nhắc lại - bạn đang làm gì khi gặp cô ấy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Chỉ đi bộ thôi, tôi sống gần đây.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Như bạn sẽ hiểu, tôi cần thực hiện một số kiểm tra - nếu bạn có thể ở lại đây, sẽ rất tuyệt.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Thưa bà, tôi cần nói chuyện với bà.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Sĩ quan, tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận báo cáo về hành vi môi giới trong khu vực này. Bà có biết gì về điều này không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Ôi trời! Không phải tôi đâu sĩ quan, bà đã nhầm người rồi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hôm nay trời khá lạnh mà bà lại mặc rất ít đồ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Sĩ quan, tôi e rằng đó không phải là tội phạm. Tôi chỉ đang đi đến một bữa tiệc, nó đã bắt đầu rồi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Theo báo cáo của chúng tôi, bà đã đi lang thang khá mơ hồ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Tôi chỉ bị lạc một chút thôi, vậy có thể tôi đi không?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cả hai người - ở lại đây với tôi. Tôi cần nói chuyện nhanh.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận báo cáo về hành vi môi giới trong khu vực này, bà có biết gì về điều đó không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Có! Người phụ nữ này đã đến gần xe của tôi, mời chào "dịch vụ" của cô ta...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Điều này có đúng không, thưa bà?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Tôi chỉ ở đây để làm ăn. Hãy coi tôi là một doanh nhân.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Đó là điều không mong muốn và thật kinh tởm - tôi không muốn có gái mại dâm gần tôi! Hãy bắt cô ấy đi sĩ quan!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hãy giữ bình tĩnh, tôi sẽ giải quyết chuyện này ngay bây giờ.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Đối tượng ~y~đã vào xe~w~.~n~~r~Hãy dừng xe ngay lập tức và tiến hành điều tra từ đó~w~.]]></NOTIFICATION>
+<OUTCOME3>
+</OUTCOME3>
+<OUTCOME4>
+</OUTCOME4>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

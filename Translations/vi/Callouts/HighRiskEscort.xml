@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Đưa người tù có nguy cơ cao]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Một ~y~tù nhân~w~ đang yêu cầu ~y~hộ tống~w~ đến ~y~{0}~w~. Các sĩ quan hỗ trợ của bạn đang chờ bạn đến.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Thông tin hộ tống:~w~~n~ Bạn sẽ đưa ~y~{0}~w~ đi, người này {1}.]]></FURTHERINFORMATION> 	<!-- // 0: tên họ 1: lý lịch -->
+		<OTHER><![CDATA[Đồn Cảnh Sát Mission Row]]></OTHER>
+		<OTHER><![CDATA[Nhà Tù Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[đứng đầu một~r~ nhóm tội phạm có tổ chức~w~ bao gồm các cảnh sát tham nhũng]]></OTHER> 	<!-- // Tù nhân luôn là nam. -->
+		<OTHER><![CDATA[là một tên~y~ ông trùm xã hội đen~w~ khét tiếng, hiện đang chờ xét xử, có nguy cơ bị tấn công bởi băng nhóm đối thủ]]></OTHER>
+		<OTHER><![CDATA[là một cựu cảnh sát đã trở thành~y~ mật thám tham nhũng~w~, có liên hệ với thế giới tội phạm]]></OTHER>
+		<OTHER><![CDATA[là một~y~ ông trùm ma túy~w~ có liên kết với đường dây buôn bán ma túy lớn nhất khu vực]]></OTHER>
+		<OTHER><![CDATA[là một~y~ tội phạm mạng~w~, hiện đang thụ án tù]]></OTHER>
+		<OTHER><![CDATA[kiểm soát~y~ hoạt động buôn lậu vũ khí trái phép~w~ và vừa bị bắt gần đây]]></OTHER>
+		<OTHER><![CDATA[là một~y~ kẻ khủng bố~w~. Có nguy cơ có người khác sẽ cố cứu anh ta]]></OTHER>
+		<OTHER><![CDATA[tạo ra một~y~ băng nhóm bạo lực đường phố~w~, đang đối mặt với sự trả thù từ băng nhóm đối thủ]]></OTHER>
+		<OTHER><![CDATA[là một phần của một~y~ đường dây buôn lậu ma túy khét tiếng~w~, vừa bị cơ quan chức năng phá vỡ]]></OTHER>
+		<OTHER><![CDATA[đã thiết lập một~y~ hệ thống rửa tiền toàn cầu~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Khi bạn sẵn sàng, ~y~dẫn dắt đoàn xe~w~ và theo ~r~lộ trình đã lên kế hoạch~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chúng tôi phát hiện một~y~ phương tiện khả nghi~w~ hiện đang theo dõi đoàn hộ tống của chúng ta. Chờ lệnh.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Có một~r~ chướng ngại vật~w~ phía trước! Bảo vệ đoàn xe bằng mọi giá.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đang có một~y~ phương tiện khả nghi~w~ ở gần. Kiểm tra radar của bạn!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Người~y~ tù nhân~w~ đã bị~r~ giết~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mục tiêu mới:~w~~n~ Cố gắng sống sót, khôi phục trật tự, và đánh bại những kẻ thù còn lại!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mức độ nguy hiểm của hộ tống:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~THẤP]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~TRUNG BÌNH]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~CAO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tài xế của xe tù đã~r~ chết~w~! Bạn sẽ cần phải~y~ lái xe~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hộ tống ~r~thất bại~w~. Người~y~ tù nhân~w~ đã~r~ bị giết~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hộ tống~g~ thành công~w~. Người~y~ tù nhân~w~ đã~g~ sống sót~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Liệu~b~ hộ tống có bị kẹt~w~ không? Nhấn ~y~{0}~w~ bất kỳ lúc nào để đặt lại.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,64 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Tải xong hoàn hảo~w~, đã đến lúc tuần tra!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Bạn đang sử dụng phiên bản cũ!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Đã tải, nhưng vui lòng cập nhật 686 Callouts khi có thể.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Phát hiện phiên bản Beta.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Cảm ơn bạn vì việc thử nghiệm và phản hồi. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Kiểm tra cập nhật thất bại!]]></FAILED>
+		<FAILED><![CDATA[~y~Đã tải, nhưng chúng tôi không thể kiểm tra cập nhật.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts thiếu các tệp!]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Thư mục 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Thư mục Âm thanh]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Tệp Âm thanh]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Thư mục Dịch thuật]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Thống kê sự nghiệp]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Cuộc gọi]]></CALLS>
+		<FIGHTS><![CDATA[Cuộc đấu]]></FIGHTS>
+		<PURSUITS><![CDATA[Cuộc truy đuổi]]></PURSUITS>
+		<ARRESTS><![CDATA[Cuộc bắt giữ]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Sự kiện tử vong của nghi phạm]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Phân tích hành vi~w~]]></BEHAVIOURALANALYSIS> <!-- Example: "Nghi phạm có vẻ lo lắng." -->
+		<BEHAVIOURALANALYSIS><![CDATA[Điều tra viên nhận thấy nghi phạm có vẻ ~y~{0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[Điều tra viên nhận thấy nạn nhân có vẻ ~y~{0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Ngăn ngừa sự cố]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Có thể có vấn đề.~w~ Vui lòng liên hệ với bộ phận hỗ trợ.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Kiểm tra khoảng cách]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Rất tiếc, bạn đã ở quá gần để cuộc gọi này có thể bắt đầu.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Đổ lỗi cho GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV đã xóa một trong các nhân vật của chúng tôi! Chúng tôi không thể làm gì ngoài việc ngăn ngừa sự cố, nhưng điều này không nên xảy ra thường xuyên.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Điều phối viên]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Cuộc hội thoại đã kết thúc. Hãy xử lý tình huống như bạn thấy phù hợp.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Nhấn ~y~{0}~w~ để bắt đầu nói.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Nhấn ~y~{0}~w~ bất cứ lúc nào để kết thúc cuộc gọi.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Thông tin]]></INFORMATION>
+		<CODE4><![CDATA[~g~Mã 4.~w~ Hiện tôi đã sẵn sàng cho các cuộc gọi.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Cập nhật về cuộc truy đuổi]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[Điều phối viên cho rằng nghi phạm là ~y~{0}~w~.]]></PURSUITUPDATE> <!-- Example: "Điều phối viên cho rằng nghi phạm là Bob Peterson." -->
+		<PURSUITUPDATE><![CDATA[Điều phối viên cho rằng nghi phạm là ~y~{0}~w~ người đã có ~y~{1}~w~ vi phạm trong quá khứ.]]></PURSUITUPDATE> <!-- Example: "Điều phối viên cho rằng nghi phạm là Bob Peterson, người đã có 3 vi phạm trong quá khứ." -->
+		<PURSUITUPDATE TARGET = "M"><![CDATA[Điều phối viên cho rằng nghi phạm là ~y~nam~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[Điều phối viên cho rằng nghi phạm là ~y~nữ~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[Điều phối viên cho rằng nghi phạm là ~y~{0}~w~ người đã bị dừng xe ~y~{1}~w~ lần trong quá khứ.]]></PURSUITUPDATE> <!-- Example: "Điều phối viên cho rằng nghi phạm là Bob Peterson người đã bị dừng xe 2 lần trong quá khứ." -->
+		<PURSUITUPDATE><![CDATA[Điều phối viên không có thông tin chi tiết về nghi phạm.]]></PURSUITUPDATE> <!-- Điều phối viên không biết gì về nghi phạm. -->
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[THÔNG BÁO]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[CUỘC GỌI KHẨN CẤP]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Cuộc gọi: ~b~{0}~n~~w~Địa điểm: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL>
+ 
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Cuộc tấn công khủng bố]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một cuộc tấn công khủng bố đang xảy ra tại ~y~{0}~w~. Hãy ngăn chặn các ~r~kẻ khủng bố~w~ để tránh thiệt hại thêm.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Một ~y~phương tiện nghi ngờ~w~ đang di chuyển đến vị trí của bạn. Hãy bảo vệ hiện trường!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chú ý rằng ~y~{0}~w~ những cá nhân nghi ngờ đang tiến về khu vực xảy ra cuộc tấn công khủng bố.]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,75 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Đang Diễn Ra Vụ Bắt Cóc]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một cá nhân đã bị~y~ bắt cóc trong một chiếc taxi. ~y~Tiến hành dừng xe kiểm tra.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Đang tìm kiếm trong cơ sở dữ liệu...]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Kiểm tra thành công. Không có vấn đề gì đáng lo ngại.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Nghi phạm đang bị truy nã. Có lý do để lo ngại.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Khi bạn đã xử lý nghi phạm, nhấn ~y~{0}~w~ để giúp đỡ nạn nhân.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Dây Nhựa Máu]]></OTHER>
+		<OTHER><![CDATA[~r~Găng Tay Máu]]></OTHER>
+		<OTHER><![CDATA[~y~Băng Dính]]></OTHER>
+		<OTHER><![CDATA[~r~Bịt Mắt]]></OTHER>
+		<OTHER><![CDATA[~r~Dây Nhựa~w~, ~r~Dao~w~, ~o~Mặt Nạ Che Mặt]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ AHHH CỨU TÔI VỚI!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[đã bị kích động]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Nghe đây. Tôi cần nói chuyện với hành khách của bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Tôi không nghĩ vậy. Tôi đã ra khỏi xe, bạn có thể nói chuyện với tôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Điều quan trọng là bạn phải để tôi nói chuyện với họ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Được rồi, được rồi, chỉ cần nói cho tôi biết chuyện gì đang xảy ra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi nhận được báo cáo về việc một cá nhân bị bắt cóc. Chúng tôi đang kiểm tra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Thế thì bạn đã chọn đúng người rồi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Chúng ta xong rồi!!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[~g~Mua Sắm]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn, hiện bạn đang đi đâu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Chỉ đang đưa hành khách này về nhà]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, để tôi nói chuyện nhanh với hành khách.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Chào sĩ quan, bạn cần gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi vừa nhận được báo cáo về vụ bắt cóc, tôi chỉ muốn kiểm tra xem bạn có ổn không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Mọi chuyện ổn! Tôi vừa đi mua sắm và đồ đang để trong cốp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn bạn. Tôi sẽ kiểm tra một chút và rồi bạn có thể tiếp tục đi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Dĩ nhiên, không có gì gấp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Kiểm tra xong rồi, bạn có thể đi tiếp!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[đang cố gắng thu hút sự chú ý của bạn]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi chỉ cần nói chuyện một chút, tắt máy xe đi nhé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Chuyện gì đang xảy ra vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi nhận được báo cáo về vụ bắt cóc. Vậy tôi chỉ muốn biết bạn đang đi đâu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Đưa người này đến nơi họ cần tới. Đó là công việc của tài xế taxi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi cần nói chuyện với hành khách, được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi Phạm:~w~ Được thôi, nhưng giá taxi đang tăng lên đấy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn, bạn yêu cầu tài xế đưa bạn đi đâu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Tôi chỉ đang về nhà.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi, không có gì bạn muốn nói với tôi sao?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Chỉ đang về nhà thôi, chẳng có gì khác.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tốt rồi, mọi thứ có vẻ ổn. Để tôi kiểm tra một chút, rồi chúng ta sẽ tiếp tục.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<EXTRA>
+		<OTHER><![CDATA[Tôi nghĩ đó là một chiếc taxi thật sự... nhưng ngay khi tôi lên xe, tôi nhận ra có điều gì đó không đúng. Chúng tôi đi vào một con hẻm, họ chĩa súng vào tôi, cướp điện thoại của tôi và bảo tôi im lặng.]]></OTHER>
+		<OTHER><![CDATA[Tôi đang đi bộ về nhà, thì người này đeo mặt nạ balaclava đã kéo tôi lại, tôi cảm thấy có súng kề vào đầu. Họ buộc tôi lên xe taxi.]]></OTHER>
+		<OTHER><![CDATA[Tài xế taxi này yêu cầu tôi chỉ đường, tôi nghiêng người vào xe họ để nói chuyện và họ kéo tôi vào. Tôi không bị thương.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Cảm ơn rất nhiều, Sĩ Quan! Tôi nghĩ... tôi nghĩ đây là cuối cùng rồi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi rất mừng vì chúng tôi đã tìm thấy bạn. Tôi muốn đưa bạn về nhà an toàn, nhưng bạn có thể kể tôi nghe chuyện gì đã xảy ra không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu. Cảm ơn bạn đã chia sẻ những chi tiết này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Hành Khách:~w~ Tôi không thể tin chuyện đó đã xảy ra...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

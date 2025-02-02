@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Đột nhập không thành công]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một chủ nhà đã gọi để báo cáo về một ~y~vụ đột nhập không thành công~w~ tại tài sản của họ. Kẻ tình nghi được cho là đã bỏ trốn khỏi hiện trường.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Nhấn ~y~{0}~w~ để thu thập bằng chứng.]]></OTHER>
+		<OTHER><![CDATA[Đã thu thập thành công ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[một thẻ ID]]></OTHER>
+		<OTHER><![CDATA[một ví tiền]]></OTHER>
+		<OTHER><![CDATA[một chiếc kéo]]></OTHER>
+		<OTHER><![CDATA[một chiếc vòng cổ]]></OTHER>
+		<OTHER><![CDATA[một chiếc giày]]></OTHER>
+		<OTHER><![CDATA[một cây xà beng]]></OTHER>
+		<OTHER><![CDATA[một chiếc điện thoại di động]]></OTHER>
+		<OTHER><![CDATA[~y~Tìm kiếm~w~ khu vực xung quanh để tìm bằng chứng và manh mối về vụ đột nhập. Khi hoàn thành, ~y~quay lại gặp chủ nhà~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Dụng cụ phá khóa]]></OTHER>
+		<OTHER><![CDATA[~r~Găng tay]]></OTHER>
+		<OTHER><![CDATA[~y~Mặt nạ]]></OTHER>
+		<OTHER><![CDATA[~y~Khăn trùm đầu]]></OTHER>
+		<OTHER><![CDATA[~r~Dao nhỏ]]></OTHER>
+		<OTHER><![CDATA[~r~Xà beng]]></OTHER>
+		<OTHER><![CDATA[~y~Ống nhòm]]></OTHER>
+		<OTHER><![CDATA[~r~Giẻ bịt miệng]]></OTHER>
+		<NOTIFICATION><![CDATA[Sử dụng ~y~ảnh chụp~w~ và khu vực tìm kiếm ~y~để bắt giữ~w~ kẻ tình nghi ~r~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đây là ~y~ảnh chụp~w~ của kẻ tình nghi ~r~.~n~Nhấn ~y~Y~w~ để xem lại thông báo này~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Không tìm thấy ~r~bằng chứng~w~ nào ở đây.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tôi đã tìm thấy ~y~{0}~w~ liên quan đến ~r~{1}~w~. Đang yêu cầu thông tin khẩn cấp về người này.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đang kiểm tra tất cả các lần phát hiện gần đây của ~r~{0}~w~. Vui lòng chờ.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn đã thu thập ~y~{0}~w~/~g~{1}~w~ mục bằng chứng.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn đã thu thập ~g~{0}~w~/~g~{1}~w~ mục bằng chứng.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Sau khi bạn ~y~bắt giữ~w~ kẻ tình nghi ~r~, tiếp tục xử lý theo cách bạn thấy phù hợp.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[Kẻ tình nghi ~r~đang chạy trốn!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Kẻ tình nghi ~r~đang ~y~đầu hàng~w~. Hãy bắt giữ họ và điều tra.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Làm ơn giúp tôi, sĩ quan! Giúp tôi với!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Bạn:~w~ Tôi đây rồi, thưa ông. Giờ ông an toàn rồi. Ông có thể kể lại chuyện gì đã xảy ra không?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Bạn:~w~ Tôi đây rồi, thưa bà. Giờ bà an toàn rồi. Bà có thể kể lại chuyện gì đã xảy ra không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Có ai đó cố gắng đột nhập... Tôi nghe thấy tiếng động và chạy vào phòng khóa cửa lại.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu. Ông/bà có nhìn thấy họ không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Tôi không nhìn thấy, nhưng nghe thấy rất nhiều tiếng động bên ngoài nhà cho đến khi sĩ quan đến. Tôi không biết họ đang làm gì!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn. Để tôi xem xét khu vực xung quanh tài sản để tìm bằng chứng.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi đã kiểm tra khu vực gần đây nhưng không tìm thấy bằng chứng nào liên quan đến kẻ tình nghi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Thật đáng tiếc... giờ phải làm gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi sẽ cử thám tử đến sau để tiếp tục điều tra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đáng tiếc, cuộc điều tra ban đầu chưa có kết quả. Hiện tại tôi không thể làm gì thêm.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi đã tìm được bằng chứng liên quan đến kẻ tình nghi. Tôi sẽ đi tìm họ ngay bây giờ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Tuyệt vời, chúc may mắn sĩ quan!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Làm ơn, sĩ quan! Tôi nghe thấy ai đó ở ngoài, tôi rất sợ hãi!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Bạn:~w~ Bình tĩnh lại, thưa ông. Tôi ở đây rồi. Ông có thể mô tả những gì ông nghe thấy không?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Bạn:~w~ Đừng lo lắng, thưa bà. Bà an toàn rồi. Bà có thể kể lại chuyện gì đã xảy ra không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Tôi nghe thấy tiếng đập vào cửa sổ, nhưng không dám nhìn ra ngoài.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi. Trước đó, ông/bà có nhận thấy điều gì bất thường không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Không, mọi thứ yên tĩnh cho đến khi xảy ra việc này. Xin hãy tìm ra kẻ đã làm chuyện này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi sẽ cố gắng hết sức. Hãy để tôi kiểm tra khu vực để tìm dấu hiệu của kẻ đột nhập.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi đã kiểm tra xung quanh nhưng không tìm thấy manh mối nào dẫn đến kẻ tình nghi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Ồ không, giờ phải làm sao đây?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng ta sẽ chờ các thám tử tiếp tục điều tra.]]>
+<DIALOGUE><![CDATA[~b~Bạn:~w~ Thật không may, hiện tại tôi không thể làm gì nhiều hơn được nữa.]]></DIALOGUE> 
+</DIALOGUES> 
+<DIALOGUES> 
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Tin tốt đây! Tôi đã tìm thấy bằng chứng gần đó có thể dẫn chúng ta đến thủ phạm. Tôi sẽ truy đuổi đầu mối ngay lập tức.]]></DIALOGUE> 
+	<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Thật nhẹ nhõm, cảnh sát! Cảm ơn và hãy cẩn thận ở ngoài đó.]]></DIALOGUE> 
+</DIALOGUES> 
+</EXTRA> 
+</CALLOUT> 
+<!-- <![CDATA[]]> -->

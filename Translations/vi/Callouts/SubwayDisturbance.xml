@@ -1,0 +1,82 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Nhận diện sự cố tàu điện ngầm]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một người qua đường yêu cầu giúp đỡ cho một vụ ~y~rối loạn~w~ liên quan đến ~y~2 người~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~Tìm đến lối vào tàu điện ngầm~w~ và cố gắng tìm kiếm ~y~2 người~w~ đã gây rối.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~Nạn nhân:~w~ Cứu tôi, cảnh sát ơi, tôi đang bị một tên điên đuổi theo!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~Phát triển:~w~ Một nghi phạm đã bị ~y~đánh ngất~w~ trong tàu điện ngầm. Cẩn thận khi tiếp cận.]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Đây là một cú bắn cảnh báo, tránh xa ra!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ ARGH! LẤY NÀY!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[căng thẳng]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chúng tôi đang kiểm tra thông tin của họ. Đợi nhé.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Thông tin kiểm tra nhận dạng của họ đã ~g~rõ ràng~w~. Không có gì đáng lo ngại.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cả hai bình tĩnh lại đi! Chúng ta cần nghỉ một chút.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Nghi phạm 1:~w~ Cảnh sát! Bạn không biết cô ấy là một con quái vật như thế nào đâu!]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~Nghi phạm 1:~w~ Cảnh sát! Bạn không biết anh ta là một kẻ đáng ghét như thế nào đâu!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi... nhưng chúng ta chỉ đứng và trò chuyện... đừng hét lên như thế.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 2:~w~ Bạn không biết tôi đã sống thế nào với người này đâu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin vui lòng, chúng ta cố gắng làm dịu lại.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 2:~w~ Được rồi, được rồi! Làm dịu lại thôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Vấn đề là gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 1:~w~ Người này đã vào cuộc sống của tôi và phá hủy nó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 2:~w~ Tôi không có làm thế!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hơi lo ngại về hành vi của các bạn, tôi có thể tin các bạn sẽ bình tĩnh lại chứ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 1:~w~ Hừ. Được rồi, có thể tôi đã hơi quá rồi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm 2:~w~ Lỗi của tôi, không nên gây rối vì tên khốn này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cho tôi xin giấy tờ tùy thân của các bạn, tôi chỉ cần kiểm tra nhanh thôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Các bạn có thể đi được rồi. Cảm ơn vì đã hợp tác và nhớ cẩn thận hơn nhé.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[Nhấn ~y~Y~w~ để di chuyển người dân đến một nơi yên tĩnh để trò chuyện.]]></NOTIFICATION>
+<NOTIFICATION><![CDATA[~g~Thành công~w~. Người dân hiện đang theo bạn.]]></NOTIFICATION>
+<NOTIFICATION><![CDATA[Quay lại nói chuyện với ~r~nghi phạm~w~.]]></NOTIFICATION>
+<DIALOGUES>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào các bạn, các bạn có đi cùng nhau không?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Có, chúng tôi đi cùng nhau. Bạn muốn gì?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi nhận được báo cáo về một vụ ~y~rối loạn~w~ có thể xảy ra ở đây. Tôi cần kiểm tra một vài thứ.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Điều này có vẻ không cần thiết, nhưng cũng được.]]></DIALOGUE>
+	<DIALOGUE TARGET = "M"><![CDATA[~b~Bạn:~w~ Thưa ông, xin vui lòng đi theo tôi. Tôi cần nói chuyện riêng với ông.]]></DIALOGUE>
+	<DIALOGUE TARGET = "F"><![CDATA[~b~Bạn:~w~ Thưa bà, xin vui lòng đi theo tôi. Tôi cần nói chuyện riêng với bà.]]></DIALOGUE>
+	<DIALOGUE/>
+	<DIALOGUE/>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn. Bạn có thể cho tôi biết mọi chuyện có ổn không?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Bạn tôi đang ép tôi đi theo họ! Tôi không biết đi đâu, xin giúp tôi trước khi quá muộn.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Có điều gì khác mà tôi cần biết không?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Họ có thể mang theo vũ khí, hãy cẩn thận.]]></DIALOGUE>
+	<DIALOGUE/>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn vì đã đợi. Tôi cần hỏi bạn có mang theo thứ gì không nên có không?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tôi không có gì đâu, cảnh sát.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn chắc chứ?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Như người ta nói, thành thật là chính sách tốt nhất.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi. Bạn bị bắt giữ, giữ tay ở nơi tôi có thể nhìn thấy.]]></DIALOGUE>
+</DIALOGUES>
+<DIALOGUES>
+	<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Công việc của tôi xong rồi. Bắt tôi đi.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Bạn thấy họ xông vào tôi như thế nào rồi đó, cảnh sát! Đó không phải lỗi của tôi.]]></DIALOGUE>
+</DIALOGUES>
+</OUTCOME4>
+<EXTRA>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Cảnh sát, cảm ơn vì đã đến! Hãy để tôi kể cho bạn nghe những gì tôi biết.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Tôi đang chú ý đến công việc của mình, và hai người này đi qua. Họ đang cãi nhau rất dữ dội! Có vẻ như một trong họ sắp nổi giận.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Họ đã đi đâu?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Tôi không chắc lắm, nhưng tôi nghĩ họ đã vào ga tàu điện ngầm.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Vậy thì bắt đầu ở đó nhé. Cảm ơn bạn!]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Người qua đường:~w~ Không có gì đâu!]]></DIALOGUE>
+	</DIALOGUES>
+</EXTRA>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

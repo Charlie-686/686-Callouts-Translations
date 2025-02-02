@@ -1,0 +1,30 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Alleyway Robbery]]></CALLOUTMESSAGE>
+	<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vụ cướp trong hẻm]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Một ~y~vụ cướp bị nghi ngờ~w~ đang xảy ra quanh khu vực {0}. Hãy điều tra hiện trường.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Một ~y~vụ cướp bị nghi ngờ~w~ đang xảy ra quanh khu vực {0}. Hãy điều tra hiện trường.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Tài sản bị đánh cắp]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Một ~y~vụ cướp bị nghi ngờ~w~ đang xảy ra quanh khu vực {0} và nạn nhân được báo cáo là ~r~bị đe dọa bằng súng~w~. Hãy điều tra hiện trường.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Một ~y~vụ cướp bị nghi ngờ~w~ đang xảy ra quanh khu vực {0} với báo cáo có hai tên cướp. Hãy điều tra hiện trường.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để ~g~thu hồi~w~ tài sản bị đánh cắp.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đã thu hồi một ~y~{0}~w~ bị đánh cắp làm ~g~bằng chứng~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Túi xách]]></OTHER>
+		<OTHER><![CDATA[Túi mua sắm]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Kiện hàng]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
+

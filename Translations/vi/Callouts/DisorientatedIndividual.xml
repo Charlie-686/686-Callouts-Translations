@@ -1,0 +1,51 @@
+<<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Người mất phương hướng]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Các nhà quay phim~w~ đã ~y~bày tỏ lo ngại~w~ về một người, hãy kiểm tra họ.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[có mùi rượu nồng nặc]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Chào, mọi chuyện ổn chứ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Chào! Chúng ta có thể trò chuyện một chút được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm: ~w~Neooooooooo, nhưng tôi không muốn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Tôi nghĩ chúng ta nên làm vậy; bạn có mang theo bất kỳ giấy tờ gì không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm: ~w~Hmmm...không cảm ơn...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ BLALALALALA! ĐẾN LÚC PHẢI ĐI RỒI TẠM BIỆT CẢNH SÁT!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Chào, cảm ơn trời bạn đến đây!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~ Chào, có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tôi bị lạc, tôi không phải người ở khu vực này. Tôi không biết cách về nhà.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Ôi, có ai có thể đến đón bạn không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ À có, tôi có người! Để tôi nhắn tin cho họ ngay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~ Tuyệt vời. Nếu họ không thể đến, tôi sẽ cố gắng sắp xếp phương án khác cho bạn.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+        <OUTCOME2>
+		<DIALOGUES>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Có chuyện gì vậy?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Chẳng có gì...chỉ vừa tổ chức một bữa tiệc tuyệt vời thôi.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, và bạn chỉ đang lang thang ngoài kia à?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ừm, tôi thích ở ngoài trời lắm.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Cho tôi biết tên của bạn được không?]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Được rồi... tên tôi là Ben Dover.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~b~Bạn:~w~ Đừng đùa nữa, tôi muốn tên thật của bạn.]]></DIALOGUE>
+	<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Để tôi thử nhớ lại... Tôi nghĩ tên tôi là {0}.]]></DIALOGUE>
+</DIALOGUES>
+<OUTCOME2>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~b~Bạn: ~w~Chào, mọi chuyện ổn chứ?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ừ, mọi thứ ổn.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, chúng tôi vừa nhận được báo cáo về một người mất phương hướng trong khu vực.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Ồ, vậy đó có phải là một tội không?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Không, chúng tôi chỉ muốn xác nhận rằng bạn ổn.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tôi hoàn toàn ổn, nhưng tôi sẽ rất cảm kích nếu bạn để tôi yên.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Nếu bạn yêu cầu vậy, chúc bạn một ngày tốt lành.]]></DIALOGUE>
+	</DIALOGUES>
+</OUTCOME3>
+
+</CALLOUT>

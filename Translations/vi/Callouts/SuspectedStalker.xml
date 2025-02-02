@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Nghi ngờ là kẻ theo dõi]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một ~p~công dân lo lắng~w~ tin rằng họ đang bị theo dõi, ~y~đảm bảo an toàn cho họ~w~!]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Đúng, tôi là kẻ theo dõi, nhưng nhà tù không dành cho tôi và tôi sẽ không quay lại đâu!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~Ảnh của nạn nhân~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Cút ra khỏi mặt tôi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hãy bình tĩnh nào, chúng tôi đã nhận được báo cáo rằng bạn đã theo dõi ai đó trước đó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Cút đi, tôi không làm gì cả, chỉ là một lời nói chống lại một lời nói thôi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn từ chối nói chuyện với chúng tôi sao?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Đúng, ĐÚNG! Tôi không nói chuyện với bọn cảnh sát, tôi ăn chúng.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Họ có thể không phải là kẻ theo dõi; hồ sơ của họ là rõ ràng. Nói chuyện xong rồi ~y~quay lại với nạn nhân~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Chào cảnh sát, tôi có thể giúp gì cho bạn hôm nay?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi nhận được báo cáo từ một cá nhân rằng bạn đã theo dõi họ, có đúng không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Trời ơi, không phải đâu! Chắc chắn là có sự nhầm lẫn hoặc lỗi gì đó. Tôi chỉ đang đi mua sắm, có thể chúng ta đi cùng một đường? Chắc chắn tôi không phù hợp với mô tả.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi không nhận được mô tả, để tôi liên hệ với bộ phận điều phối để làm rõ tình hình.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Dĩ nhiên, mua sắm của tôi có thể đợi, đừng lo.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn có thể đi rồi, có vẻ như đây là một sự nhầm lẫn. Chúc bạn có một ngày tốt lành.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Rất vui được gặp lại bạn, có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nói chuyện với họ, nhưng có lẽ họ không phải là kẻ theo dõi bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Tôi rất xin lỗi, điều đó có lý. Tôi đang nghĩ liệu tôi có báo cảnh sát quá sớm không.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không sao, tốt hơn là an toàn hơn là tiếc. Lần sau, chỉ cần cho chúng tôi biết nếu bạn không chắc chắn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Vâng, xin lỗi vì đã gây phiền phức không cần thiết.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Chúng tôi đã tìm thấy nghi phạm. ~y~Nói chuyện xong~w~ rồi hãy đến ngay với họ.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Cảnh sát, cảm ơn trời bạn đến rồi! Tôi đang bị theo dõi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã đến. Bạn có thể giải thích cho tôi biết chuyện gì đã xảy ra không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Tôi đã bị theo dõi... nhưng tôi không nhớ được họ trông như thế nào.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không sao, việc quên đi một số chi tiết là chuyện bình thường. Tôi sẽ yêu cầu đội quay phim xem lại băng ghi hình trong khu vực.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Chúng tôi đã ở đây, tại ~y~{0}~w~ cách đây một thời gian, có thể 15 phút trước. Hãy nhớ nói với họ điều này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn bạn, tôi sẽ chuyển thông tin này ngay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Họ đang xem băng ghi hình, có thêm chi tiết nào nữa không? Càng nhiều càng tốt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Không, tôi không biết tại sao họ lại theo dõi tôi trong suốt 2 giờ qua.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đừng lo, chúng tôi sẽ giải quyết chuyện này.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã tìm thấy họ, vậy tôi sẽ đi ngay bây giờ. Bạn có thể tiếp tục công việc của mình hoặc về nhà, chúng tôi sẽ liên lạc lại với bạn.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

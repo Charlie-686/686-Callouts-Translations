@@ -1,0 +1,47 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Món đồ bị đánh cắp]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một vụ ~y~trộm cắp~w~ đã xảy ra; hãy nói chuyện với ~y~nạn nhân~w~ và tiếp tục điều tra.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Người ta tin rằng đối tượng ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[đang đi bộ~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[trong một chiếc xe~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Điện thoại di động]]></OTHER>
+		<OTHER><![CDATA[Laptop]]></OTHER>
+		<OTHER><![CDATA[Ví tiền]]></OTHER>
+		<OTHER><![CDATA[Chìa khóa nhà]]></OTHER>
+		<OTHER><![CDATA[Máy ảnh]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[Rung chuyển]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Các bạn muốn gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận được thông tin về một vụ trộm, và chúng tôi cần khám người bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Làm gì có! Các bạn chẳng có bằng chứng gì cả và tôi sẽ không trả lời bất kỳ câu hỏi nào của các bạn!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi ở đây để thi hành pháp luật. Thiết bị theo dõi của chúng tôi cho thấy một chiếc {0} đang ở gần đây và trên người bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Nói dối! Công nghệ bây giờ lúc nào cũng sai!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Các bạn muốn gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi tin rằng bạn có một chiếc {0} trên người, tôi sẽ phải khám xét bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Các bạn đã bắt được tôi, tôi sẽ tự đầu thú.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi, hãy giơ tay lên và tôi sẽ bắt giữ bạn.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Tìm kiếm ~r~đối tượng~w~. Khu vực ~y~tìm kiếm sẽ được cập nhật ~w~thường xuyên.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Sĩ quan, giúp tôi với, tôi đã bị cướp!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn có thể nói cho tôi biết gì về đối tượng không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Không thật sự, nhưng chiếc {0} của tôi có một GPS, có thể sẽ hữu ích lần này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Thật tuyệt, để tôi gửi thông tin này cho bộ phận điều phối, họ sẽ giúp tôi kết nối và tôi có thể theo dõi nó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Vâng, tôi hy vọng bạn sẽ có thể tìm lại được, nó rất quan trọng.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Dĩ nhiên, chúng tôi sẽ liên lạc lại. Tôi sẽ thử tìm kiếm ngay bây giờ.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->
