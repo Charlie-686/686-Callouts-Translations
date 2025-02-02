@@ -1,0 +1,33 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bom Xe Hơi]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để thử ~y~vô hiệu hóa bom.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Xe ~r~có thể phát nổ bất cứ lúc nào~w~.~n~Hoặc ~y~giữ dân thường tránh xa đường xe~w~, hoặc ~y~kết thúc cuộc truy đuổi~w~ càng nhanh càng tốt.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Thành công.~w~~n~Bom đã được vô hiệu hóa. Tiếp tục theo cách bạn thấy phù hợp.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Không thành công.~w~~n~Bom chưa được vô hiệu hóa. ~y~Di tản khu vực xung quanh~w~ ngay lập tức.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Tình báo đã báo cáo về một ~r~bom xe hơi.~n~~w~Hãy phản ứng tại hiện trường ~y~gấp.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Nghi phạm đang ~y~trốn chạy~w~ trên xe của họ, và mang theo ~y~bom.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Xe ~r~có thể phát nổ bất cứ lúc nào~w~.~n~Hoặc ~y~giữ dân thường tránh xa đường xe~w~, hoặc ~y~kết thúc cuộc truy đuổi~w~ càng nhanh càng tốt.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Thiết bị kích nổ]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Tình báo đã báo cáo về một người không ổn định tâm lý mang theo ~r~bom xe hơi.~n~~w~Hãy phản ứng tại hiện trường ~y~gấp.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Thiết bị kích nổ~w~, ~y~Dây nối]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Tôi đầu hàng! Các anh có thể bắt tôi!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Nghi phạm:~w~ Cảnh sát... tôi xin lỗi vì mọi chuyện phải kết thúc như thế này...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Tình báo đã báo cáo về một ~r~bom xe hơi.~n~~w~Hãy phản ứng tại hiện trường ~y~gấp.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Bom xe hơi ~y~đã được kích nổ.~n~~w~Số thương vong báo cáo: ~r~{0} người.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Dây nối~w~,~r~Chất nổ]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Tình báo đã báo cáo về một ~r~bom xe hơi bị bỏ lại.~w~~n~Hãy phản ứng tại hiện trường ~y~gấp, và ~y~vô hiệu hóa bom.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Chìa khóa xe~w~, ~r~Bom]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

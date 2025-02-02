@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vehicle Fire]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để chấp nhận cuộc gọi này.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Người thông báo đã kết thúc cuộc gọi~w~. Chúng tôi đã gửi vị trí ~g~GPS~w~ đến bạn. Hãy đến đó ngay.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Một chiếc xe ~r~bị đánh cắp~w~ đã bị phát hiện ~o~bốc cháy~w~. Hãy đến hiện trường ngay lập tức.]]></FURTHERINFORMATION>
+	
+		<NOTIFICATION><![CDATA[Sau khi dập tắt đám cháy, nhấn ~y~{0}~w~ để đặt GPS của bạn đến nhà của chủ xe.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Thông báo cho ~p~chủ xe~w~ về ~y~{0}~w~ người sống gần đó.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đám cháy xe đã được dập tắt. Đang hướng đến chủ xe đã đăng ký.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Tôi e rằng có một tin xấu muốn thông báo cho bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Ôi không! Là gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Thật không may, hôm nay tôi đã tham gia xử lý một vụ cháy xe. Chúng tôi đã xác định bạn là chủ xe của chiếc xe này, mà tôi nghĩ bạn đã báo bị mất gần đây?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Đúng vậy... Tôi không thể tin được. Tôi đang sốc. Vậy là nó bị đánh cắp, rồi sau đó bị đốt sao?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chính xác. Tôi có một số thông tin về những gì bạn cần làm tiếp theo. Hy vọng điều này sẽ giúp bạn hiểu rõ hơn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Cảm ơn rất nhiều. Nhìn vào mặt tích cực, bảo hiểm của tôi sẽ chi trả cho việc này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Rất vui khi nghe vậy. Chúc bạn một ngày tốt lành, chúng tôi sẽ liên hệ lại với bạn sau.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Tôi đến để thông báo một tin cho bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Đây là tin về chiếc xe của tôi phải không? Và dựa vào việc nó không còn phía sau bạn, tôi đoán được.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đúng vậy, thật tiếc phải thông báo với bạn, chiếc xe của bạn đã bị phát hiện cháy hôm nay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Thật sốc. Chuyện gì đã xảy ra vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hiện tại chúng tôi chưa biết nguyên nhân, nhưng có thể là hành động xấu. Dưới đây là một số thông tin và các bước bạn cần làm tiếp theo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Cảm ơn. Bảo hiểm của tôi chắc chắn sẽ tăng cao.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hy vọng họ sẽ hiểu, và rất tiếc về sự bất tiện này. Chúng tôi sẽ liên hệ lại.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin lỗi, tôi cần nói chuyện với bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Ồ, chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Liên quan đến chiếc xe của bạn. Hôm nay, chúng tôi đã nhận cuộc gọi về một chiếc xe đang cháy. Chúng tôi đã xác định bạn là chủ xe và muốn thông báo cho bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Thật sao? Bạn chắc chắn là xe của tôi? Tôi không thể tin được! Tôi nghĩ nó đã bị đánh cắp, không phải bị đốt như thế này.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hiện tại chúng tôi chưa xác định được nguyên nhân, nhưng đang điều tra. Tuy nhiên, đây là một số tài liệu bạn cần đọc về những gì bạn nên làm tiếp theo. Đây là thông tin chi tiết.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Nạn nhân:~w~ Cảm ơn bạn. Mọi thứ xảy ra quá nhanh. Tôi hy vọng không ai bị thương, đặc biệt nếu vụ việc là có chủ đích.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đúng vậy, chúc bạn một ngày tốt lành. Nếu bạn có bất kỳ câu hỏi nào thêm, đừng ngần ngại liên hệ với chúng tôi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người thông báo:~w~ Nghe này, tôi không có nhiều thời gian, nhưng tôi cần phải nói cho bạn biết một điều.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin lỗi, bạn là ai?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người thông báo:~w~ Đừng hỏi tôi câu hỏi. Một chiếc xe sẽ bị đốt ngay bây giờ. Tôi cần bạn đến ngay đó!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đâu? Và tại sao bạn lại nói với tôi chuyện này?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người thông báo:~w~ Tôi đã gửi vị trí qua điện thoại của bạn. Một người tôi biết đã phạm phải một sai lầm... họ đang cố trả thù sai người.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Họ là ai mà bạn cứ nhắc đến vậy? Và tại sao họ lại đốt chiếc xe của ai đó?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người thông báo:~w~ Những sai lầm... họ đã phạm phải một sai lầm.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hãy từ từ. Tôi cần thêm thông tin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Người thông báo:~w~ Tôi đã nói quá nhiều rồi...chết tiệt....]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

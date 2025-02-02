@@ -1,0 +1,54 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Chiếc xe đạp bị đánh cắp]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một chiếc ~y~xe đạp bị đánh cắp~w~ đã được phát hiện, hãy dừng lại và kiểm tra người lái xe.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Có thể tôi hỏi bạn một vài câu được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Được rồi, hỏi đi. Nhưng cẩn thận với giao thông phía sau bạn. Cẩn thận đấy!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Chúng ta có thể nói chuyện về chiếc xe đạp đó được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Nó đã được báo cáo là bị đánh cắp, chính xác là hôm nay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Ồ, haha. Xin lỗi, chính tôi đã báo cáo mất nó! Tôi nghĩ tôi đã mất nó, nhưng tôi đã tìm thấy!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, vậy chiếc xe đạp này có phải là của bạn không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Đúng rồi, chắc chắn rồi. Hãy kiểm tra mọi thứ bạn cần.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[lo lắng]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Lý do tôi nói chuyện với bạn là vì chiếc xe đạp đó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Tôi đang cố gắng đi đâu đó. Lốp xe không bị xẹp hay gì cả. Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hôm qua nó đã được báo cáo là bị đánh cắp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Ồ. Ừm, thật kỳ lạ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn có biết lý do tại sao không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Ừm... vâng! Tôi hoàn toàn quên mất là tôi đã báo cáo nó bị đánh cắp.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Chúng ta có thể trò chuyện một chút về chiếc xe đạp đó không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Được rồi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Theo hồ sơ của chúng tôi, nó đã được báo cáo là bị đánh cắp gần đây.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin lỗi, bạn vừa nói gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ Tôi không bình luận gì về vấn đề này.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Đối tượng:~w~ ARRRRGGGHH! KHÔNG PHẢI BẠN!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,39 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tin Báo Vũ Khí Tấn Công]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~Kẻ tình nghi đang di chuyển!~w~~n~Hãy đến vị trí đã được cập nhật.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[lo lắng]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đứng yên, và để tay ra ngoài túi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Có chuyện gì vậy? Tôi không làm gì cả. Chẳng làm gì cả!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi cần bạn tuân theo lệnh của tôi, được không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Có chuyện gì vậy? Bạn định làm gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi cần bạn giơ tay lên cho tôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ KHÔNG! LÙI LẠI! NGAY LẬP TỨC!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Khóa tay kẻ tình nghi và giải quyết tình huống theo ý bạn.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đứng yên, và để tay ở vị trí tôi có thể nhìn thấy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi biết bạn có vũ khí trên người.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Ôi không...ô...không...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Xin lỗi, tôi không có ý làm vậy...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không sao, chúng ta sẽ thảo luận sau. Chỉ cần nhớ tuân theo lệnh của tôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi sẽ không mang theo nó nữa, tôi không muốn có chuyện này trong hồ sơ của mình...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không sao, chúng ta không đến đây để làm hại bạn. Chỉ cần giơ tay lên.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+
+<!-- <![CDATA[]]> -->

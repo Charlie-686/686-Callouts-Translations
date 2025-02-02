@@ -1,0 +1,123 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Máy bay gặp nạn]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Chiếc ~o~máy bay~w~ sẽ giữ trong ~y~vòng chờ~w~ vài phút trước khi nó ~y~thử hạ cánh~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Một chiếc máy bay đang thực hiện một ~r~cuộc hạ cánh khẩn cấp~w~ tại ~y~{0}~w~. Hãy đến khu vực hạ cánh được chỉ định và chờ hướng dẫn thêm.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chiếc ~o~máy bay~w~ hiện được phép thử ~r~hạ cánh khẩn cấp~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hiện trường là Code 4 vì ~g~máy bay đã hạ cánh an toàn~w~ tại ~y~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hãy nói chuyện với ~y~phi công~w~ và điều tra tình huống.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chiếc máy bay đã hạ cánh. ~y~Hãy nói chuyện với phi công~w~ để kiểm tra mọi thứ có ổn không.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chúng tôi đã ~r~không thể triển khai máy bay~w~. Vui lòng thử lại cuộc gọi hoặc liên hệ hỗ trợ.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chúng tôi đã ~y~mất liên lạc~w~ với ~o~vị trí radar máy bay~w~. Hãy cố gắng thiết lập một ~y~liên lạc trực quan~w~ với ~o~máy bay~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chúng tôi đã ~g~khôi phục liên lạc~w~ với ~o~vị trí radar máy bay~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Chiếc ~o~máy bay~w~ đã ~r~rơi~w~. Vui lòng đợi chúng tôi dẫn bạn đến hiện trường vụ tai nạn. Sau khi xác định, tiếp tục xử lý như bạn thấy phù hợp.]]></NOTIFICATION>
+		<OTHER><![CDATA[Sân bay Quốc tế Los Santos]]></OTHER>
+		<OTHER><![CDATA[Đường băng Sandy Shores]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Một ~o~máy bay~w~ gặp ~y~sự cố động cơ~w~. Hãy đến khu vực hạ cánh và chuẩn bị cho máy bay hạ cánh.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Cảm ơn sĩ quan! Anh thấy tôi hạ cánh thế nào?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không tệ cho một người với động cơ đang bốc khói!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Tôi rất cảm kích vì anh đến kiểm tra xem mọi thứ ổn không. Anh cần gì không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không cần, chúng tôi chỉ muốn ở đây trong trường hợp có gì đó không ổn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Tôi sẽ phải gọi thợ máy kiểm tra động cơ. Nếu tôi bay thêm vài phút nữa, tôi không biết liệu mình có thể hạ cánh an toàn không.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Anh đã làm tốt hôm nay. Tôi sẽ để anh chăm sóc chiếc máy bay của mình, giữ an toàn nhé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Cảm ơn sĩ quan. Hãy bảo trọng và xin lỗi vì sự bất tiện!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Một hành khách đã ~r~qua đời~w~ trên một ~o~máy bay~w~. Hãy nói chuyện với phi công để xác định liệu có gì ~y~đáng ngờ~w~ không.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Này thuyền trưởng. Anh có thể cho tôi biết chuyện gì đã xảy ra trên không trung không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Tất nhiên... Tôi đưa bạn tôi đi bay và họ bỗng ngất xỉu giữa chuyến bay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Ý anh là gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Tôi tập trung vào việc lái vì không phận hôm nay rất bận rộn. Sau đó tôi quay lại và họ không phản ứng. Tôi đã phải hạ cánh khẩn cấp tại đây.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn của anh có vấn đề sức khỏe gì không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Thành thật mà nói, chúng tôi chưa bao giờ nói về nó. Tôi chỉ nghĩ rằng họ đủ khỏe để bay...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Đây là hiện trường vụ án nên tôi sẽ cần điều tra. Anh ổn không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Vâng, tất nhiên rồi sĩ quan, tôi hoàn toàn hợp tác.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Vải tẩm chloroform~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Dấu hiệu ngạt thở~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Gối~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Máy bay bị nghi ngờ ~r~chở hàng lậu~w~. Hãy kiểm tra khoang chứa hàng để tìm ~y~bằng chứng~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Máy bay này có vẻ đã qua rất nhiều điểm kiểm tra hôm nay. Anh biết tại sao không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Không, thưa sĩ quan. Tôi chỉ làm việc của mình và bay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chúng tôi đã nhận được báo cáo rằng máy bay này có thể đang chở hàng bất hợp pháp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Phi công:~w~ Tôi không biết gì về điều đó. Anh có thể kiểm tra nếu cần.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn, chúng tôi sẽ kiểm tra khoang hàng.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~Túi chứa chất bột trắng~w~]]></OTHER>
+		<OTHER><![CDATA[~y~Bằng chứng ghi lại~w~]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+	<FURTHERINFORMATION><![CDATA[Một ~o~máy bay~w~ đang gặp ~y~vấn đề động cơ~w~ và cần thực hiện hạ cánh khẩn cấp. ~n~Có thông tin rằng ~r~đường băng đang bị chặn~w~. Hãy dọn sạch trước khi máy bay hạ cánh!]]></FURTHERINFORMATION>
+	<NOTIFICATION><![CDATA[Di chuyển phương tiện trước khi ~o~máy bay~w~ cố gắng hạ cánh, sau đó nói chuyện với phi công~w~.]]></NOTIFICATION>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Đó là một tình huống căng thẳng. Cảm ơn vì đã dọn đường băng kịp thời.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Không vấn đề gì. Chúng tôi chỉ vui vì có thể đưa chiếc xe ra khỏi đường của bạn. Máy bay thế nào rồi?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Có thể đã tệ hơn, sự cố động cơ rất nghiêm trọng. Nhưng may mắn là đã hạ cánh an toàn.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn đã làm rất tốt trong hoàn cảnh này.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Cảm ơn, đó là một phần của công việc mà.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Chắc chắn rồi. Chúng tôi chỉ vui vì bạn an toàn. Bạn có cần trợ giúp gì không?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Không, chúng tôi sẽ tự xử lý. Đội mặt đất đang trên đường đến.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Được rồi. Nếu cần gì, hãy báo cho chúng tôi.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Sẽ làm vậy, cảm ơn sự giúp đỡ của bạn, sĩ quan.]]></DIALOGUE>
+	</DIALOGUES>
+</OUTCOME3>
+<OUTCOME4>
+	<FURTHERINFORMATION><![CDATA[Một ~o~máy bay~w~ đang báo cáo tình trạng khẩn cấp do ~y~nghi ngờ có kẻ trốn vé~w~ trên máy bay. Hãy chặn máy bay khi nó hạ cánh.]]></FURTHERINFORMATION>
+	<NOTIFICATION><![CDATA[Đang kiểm tra xem có ~y~tù nhân nào trốn thoát~w~ trong 24 giờ qua hay không. Vui lòng chờ.]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[Xác nhận có một ~y~{0}~w~ đã trốn thoát khỏi nhà tù trong 24 giờ qua. Đối tượng vẫn đang lẩn trốn.]]></NOTIFICATION>
+	<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để kiểm tra ~o~máy bay~w~.]]></NOTIFICATION>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Này, có thể giúp gì cho bạn?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Khi đang bay, tôi nghe thấy tiếng động lạ trong máy bay, giống như tiếng động vật.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn có để máy bay không giám sát gần đây không?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Có, tôi không có nhà chứa máy bay nên đã để nó bên ngoài vài ngày.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn nghĩ đó có thể là gì?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Thú thật, sĩ quan, tôi nghi ngờ có kẻ trốn vé trên máy bay. Tôi không muốn kiểm tra, nhưng nếu bạn có thể kiểm tra giúp thì tôi rất cảm kích.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Để tôi kiểm tra điều này với trung tâm điều phối.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi sẽ kiểm tra máy bay của bạn bây giờ.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Không được di chuyển! Bạn nghĩ mình đang làm gì ở đây?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Kẻ trốn vé:~w~ Ồ, ừ... tôi chỉ cố gắng đến một nơi nào đó. Nhìn xem, các bạn đã nhầm người rồi.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Đừng biện minh nữa, bạn không lén lút như bạn nghĩ đâu. Chúng tôi biết bạn là ai.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Kẻ trốn vé:~w~ Tôi thề, sĩ quan, tôi không cố ý gây hại. Tôi chỉ cần một cách để thoát.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Thoát? Ồ, bạn chắc chắn đã tìm ra cách đấy. Nhưng chạy trốn với lệnh truy nã trên đầu chỉ là vé quay lại nhà tù thôi.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~r~Kẻ trốn vé:~w~ Làm ơn, hãy hiểu cho tôi. Nó rất phức tạp.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Phức tạp không phải lý do để phá luật. Bạn đi theo tôi.]]></DIALOGUE>
+	</DIALOGUES>
+</OUTCOME4>
+<OUTCOME5>
+	<FURTHERINFORMATION><![CDATA[Một ~o~máy bay~w~ đang báo cáo tình trạng khẩn cấp do ~y~cửa sổ bị vỡ~w~ trong khi bay. Hãy đến khu vực hạ cánh và chuẩn bị cho máy bay hạ cánh.]]></FURTHERINFORMATION>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Sĩ quan, cảm ơn vì đã có mặt ở đây. Đó là một cú hạ cánh thật sự kinh khủng.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Không vấn đề gì, thuyền trưởng. Chúng tôi nhận được cuộc gọi về cửa sổ của bạn. Bạn ổn chứ?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Ừ, chỉ là hơi lo lắng. Chưa bao giờ gặp tình huống cửa sổ vỡ giữa chuyến bay như vậy.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Nhưng bạn đã xử lý rất tốt. Làm thế nào mà bạn vẫn giữ được bình tĩnh?]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Có lẽ là nhờ nhiều năm huấn luyện. Chỉ tập trung vào việc đưa chúng tôi hạ cánh an toàn thôi.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn đã làm rất tốt. Chúng tôi đã chuẩn bị dịch vụ khẩn cấp, nhưng rất vui vì không cần dùng đến.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Tôi cũng vậy. Cảm ơn vì sự hỗ trợ của bạn, tôi rất cảm kích.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Không có gì, thuyền trưởng. Đó là lý do chúng tôi ở đây. Chăm sóc bản thân và cho chúng tôi biết nếu bạn cần bất cứ điều gì khác.]]></DIALOGUE>
+	</DIALOGUES>
+</OUTCOME5>
+<OUTCOME6>
+	<FURTHERINFORMATION><![CDATA[Một ~o~máy bay~w~ đang thực hiện hạ cánh khẩn cấp do ~y~điều kiện thời tiết xấu~w~. Hãy đến khu vực hạ cánh và chuẩn bị cho máy bay hạ cánh.]]></FURTHERINFORMATION>
+	<DIALOGUES>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Uầy, đó là một cú hạ cánh khá căng thẳng.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn ổn chứ, thuyền trưởng? Cơn bão đến bất ngờ quá.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Ừ. Radar thời tiết không thể phản ánh đúng độ nhiễu loạn ngoài đó.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Bạn đã làm rất tốt khi đưa máy bay xuống an toàn. Chúng tôi đã lo lắng về bạn.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Cảm ơn, sĩ quan. Tôi đánh giá cao sự có mặt của bạn để đảm bảo mọi thứ suôn sẻ. Đã có một khoảnh khắc căng thẳng.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Mừng vì bạn an toàn. Cho tôi biết nếu bạn cần trợ giúp gì.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~y~Phi công:~w~ Cảm ơn một lần nữa. Tôi sẽ nói chuyện với ATC khi chúng tôi sẵn sàng di chuyển. Hy vọng thời tiết sẽ giảm bớt sớm.]]></DIALOGUE>
+		<DIALOGUE><![CDATA[~b~Bạn:~w~ Cầu mong vậy. Chăm sóc bản thân thuyền trưởng và một lần nữa chúc mừng công việc tuyệt vời của bạn.]]></DIALOGUE>
+	</DIALOGUES>
+</OUTCOME6>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

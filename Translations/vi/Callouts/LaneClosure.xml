@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Đóng Làn Đường]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một ~y~tài xế xe kéo~w~ yêu cầu ~o~đóng một làn đường~w~ để sửa chữa một phương tiện bị hỏng một cách an toàn.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Đóng lại làn đường bị ảnh hưởng~w~ và nói chuyện với ~o~tài xế xe kéo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Giữ nguyên việc đóng làn đường~w~ và điều hướng giao thông để ~o~Tài xế xe kéo~w~ có thể sửa chữa phương tiện.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Phương tiện ~g~đã được sửa chữa~w~ thành công.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Phương tiện sẽ được ~o~kéo đi~w~ vì không thể sửa chữa.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Cơ khí:~w~ Sĩ quan, chúng tôi đã sửa xong rồi. Chúng tôi sẽ rời đi ngay thôi!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Cơ khí:~w~ Xin lỗi Sĩ quan, chúng tôi không thể sửa được! Tôi cần đủ không gian phía sau xe tải để kéo phương tiện.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn, hôm nay tôi có thể giúp gì cho bạn?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Cơ khí:~w~ Chào Sĩ quan. Tôi cần bạn giữ lại làn đường để tôi có thể giúp phương tiện hỏng một cách an toàn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Không vấn đề gì. Chúc bạn may mắn! Hãy cho tôi biết nếu bạn cần gì.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

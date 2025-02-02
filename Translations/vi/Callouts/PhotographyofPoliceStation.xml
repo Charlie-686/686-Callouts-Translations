@@ -1,0 +1,61 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Chụp Hình Trạm Cảnh Sát]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một người đang ~y~chụp ảnh trạm cảnh sát~w~, hãy nói chuyện với họ để tìm hiểu lý do.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Chào bạn. Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Không có gì. Không có gì cả.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Hạ máy ảnh xuống, tôi muốn nói chuyện với-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Có chuyện gì vậy? Tại sao bạn lại ở đây?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi không làm gì trái pháp luật, làm ơn để tôi yên.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi chỉ muốn trò chuyện để hiểu chuyện gì đang xảy ra.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Và tôi chỉ đang làm những điều hợp pháp mà thôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi chỉ muốn nói chuyện với bạn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Đừng cố xâm phạm quyền chụp ảnh của tôi trên tài sản công cộng.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Xin chào, tôi có thể hỏi lý do bạn chụp ảnh trạm cảnh sát không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi làm vậy cho kênh mạng xã hội của mình, có sao không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Việc đó hợp pháp, nhưng có vẻ hơi kỳ lạ khi làm lâu như vậy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi hiểu, giờ tôi đã xong và sẽ đi ngay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn:~w~ Cảm ơn, chúc bạn một ngày tốt lành.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[Số điện thoại đã được nhận và cuộc điều tra ban đầu đã bắt đầu. Cảm ơn bạn.]]></NOTIFICATION>
+<DIALOGUES>
+    <DIALOGUE><![CDATA[~b~Bạn:~w~ Chào, bạn đang làm gì khi chụp ảnh trạm cảnh sát?]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Bạn thực sự muốn biết sao?]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~b~Bạn:~w~ Vâng, làm ơn cứ tiếp tục.]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi nhận ra điều này có vẻ ngu ngốc, nhưng có người tên Jeff nhắn tin bảo tôi làm vậy.]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Hừ, nghĩ lại thì đó là một điều hơi mờ ám.]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi nghĩ chúng ta đang nghĩ giống nhau. Bạn có thể cho tôi số của họ không?]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi nghĩ bạn nên về nhà và suy nghĩ về người bạn đang nói chuyện với.]]></DIALOGUE>
+    <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Vâng, tôi hiểu rồi. Xin lỗi vì đã làm phiền.]]></DIALOGUE>
+</DIALOGUES>
+<OUTCOME5>
+    <DIALOGUES>
+        <DIALOGUE><![CDATA[~b~Bạn:~w~ Chào, bạn đang làm gì khi chụp ảnh trạm cảnh sát?]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Chào sĩ quan! Tôi là fan lớn của các dịch vụ khẩn cấp và công việc mà họ làm. Tôi chỉ đang chụp một số bức ảnh về trạm của bạn, có sao không?]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Bạn:~w~ Tôi hiểu, vậy đây là một sở thích nếu tôi đoán đúng?]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Chính xác! Tôi đã muốn trở thành một sĩ quan cảnh sát, nhưng khi đứng ở phía bên kia trạm, bạn có thể thấy điều đó không đi đúng kế hoạch.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Bạn:~w~ Thật thú vị khi nghe điều đó, tôi chỉ muốn kiểm tra bạn để hiểu rõ chuyện gì đang xảy ra.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Tôi chỉ có thể xin lỗi vì đã làm mất thời gian của bạn, nhưng tôi đã xong với những bức ảnh rồi, nhìn cũng khá tốt nếu tôi nói vậy.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Bạn:~w~ Không có vấn đề gì, chúc bạn một ngày tuyệt vời nhé.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~r~Kẻ tình nghi:~w~ Vậy tôi đi đây. Có thể chúng ta sẽ gặp lại nhau vào một lúc nào đó trong tương lai.]]></DIALOGUE>
+    </DIALOGUES>
+</OUTCOME5>
+
+
+
+<!-- <![CDATA[]]> -->

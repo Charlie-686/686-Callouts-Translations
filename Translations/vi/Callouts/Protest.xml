@@ -1,0 +1,49 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Biểu Tình]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một cuộc ~r~biểu tình đang diễn ra~w~ và chặn đường. Vui lòng chờ hướng dẫn thêm từ Trung Tâm Điều Hành.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Cuộc biểu tình đã ~r~leo thang thành bạo lực.~n~~y~Cần phản ứng ngay lập tức.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Giám sát cuộc biểu tình~w~ cho đến khi kết thúc. Đảm bảo cuộc biểu tình diễn ra suôn sẻ.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Cuộc biểu tình diễn ra ~g~một cách hòa bình~w~, và đang kết thúc.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Cuộc biểu tình đang diễn ra. Vui lòng liên hệ với ~o~người dẫn đầu cuộc biểu tình.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Những người biểu tình hiện đang ~g~rời khỏi hiện trường~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Người qua đường:~w~ Cảnh sát ơi, thật là vô lý! Chúng ta cần cho giao thông di chuyển!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Người qua đường:~w~ Họ đang chặn đường! Dẹp họ đi! Thật nguy hiểm.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Người qua đường:~w~ Cảnh sát, tôi đã bảo bạn dẹp họ rồi mà!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Người qua đường:~w~ Những người biểu tình chặn đường này có thể chết với điều này!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Cảnh sát ơi, bạn có tham gia phong trào này không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Cuộc biểu tình này nói về cái gì?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Chúng tôi tin rằng biến đổi khí hậu đang hủy hoại đất nước chúng ta - và chính phủ cần hành động ngay bây giờ!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Xin lỗi, bạn cần phải di chuyển. Nếu bạn đang biểu tình bằng cách chặn đường, bạn cần có sự cho phép trước.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Nhưng tại sao? Chúng tôi đang biểu tình vì một lý do chính đáng!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Cuộc biểu tình này chưa được phép. Bạn không thể chặn đường như vậy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Tôi đã nói với những người khác về điều này... nhưng họ không nghe. Tôi sẽ bảo họ phải đi thôi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Cảm ơn. Hãy thu dọn đồ đạc để giao thông có thể tiếp tục.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Được rồi, các bạn ơi, cuộc biểu tình đã kết thúc. Chúng ta đi thôi.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Nhìn xem ai đã đến ủng hộ cuộc biểu tình của chúng ta!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Tại sao các bạn lại biểu tình?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Giá thực phẩm quá cao và chúng tôi đã chán ngấy rồi! Chúng tôi sẽ chết đói mất!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Cuộc biểu tình này không thể xảy ra ở đây, các bạn đang gây nguy hiểm cho sự an toàn công cộng.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Chúng tôi không muốn di chuyển đâu, cảnh sát ạ. Đây là một lý do chính đáng!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Bạn: ~w~Tôi cần các bạn di chuyển, các bạn đang biểu tình trái phép ở đây.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Kẻ tình nghi: ~w~Cảnh sát ơi, chúng tôi không di chuyển đâu! Hãy đi làm phiền người khác.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+
+<!-- <![CDATA[]]> -->

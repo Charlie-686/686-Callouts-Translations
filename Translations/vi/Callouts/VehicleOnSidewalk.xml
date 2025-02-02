@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vehicle On Sidewalk]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Một chiếc xe đã được báo cáo đậu trên vỉa hè, ~y~chặn đường~w~. Hãy cố gắng trò chuyện với tài xế.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Chào bạn. Tôi e là bạn không thể dừng lại ở đây.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Tôi sẽ không di chuyển.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Tôi cần bạn phải-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Giữ ở đó cho tôi. Có chuyện gì vậy?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Chắc không có gì. Có chuyện gì sao?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Đây là vỉa hè. Bạn cần phải di chuyển.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Tôi đang đợi ai đó, họ sẽ đến ngay bây giờ.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Đây không phải là yêu cầu. Đây là vỉa hè, người ta đang sử dụng nó.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Tôi sẽ đi đậu xe ở chỗ khác.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Xin chào. Bạn đậu xe trên vỉa hè, bạn có biết không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Có, nhưng tôi chỉ đang đợi một người bạn. Tôi có thể ở lại không?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Tôi e là không được.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Vậy tôi có thể đi đâu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Một bãi đậu xe hoặc tương tự, xung quanh đây có rất nhiều.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Hiểu rồi. Xin lỗi, sẽ không tái phạm nữa.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Bịch cần sa đóng gói]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Xin chào. Tại sao bạn đậu xe ở đây?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Tôi đang giao hàng.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Giao hàng gì? Bạn không giống một tài xế giao hàng nếu bạn không phiền tôi nói vậy.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Ừ, một cái gì đó mà tôi cần làm.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Vậy bạn đang đậu xe ở đây để giao cái gì đó?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect:~w~ Nhìn, tôi cần giao cái này, cho gia đình tôi. Làm ơn.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

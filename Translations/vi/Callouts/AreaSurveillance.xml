@@ -1,0 +1,28 @@
+<<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Yêu cầu giám sát khu vực]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Hãy đến điểm đánh dấu tại ~y~{0}~w~ và cung cấp sự ~b~hiện diện của cảnh sát~w~ trong khu vực được chỉ định.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Hãy đậu xe và theo dõi ~o~hoạt động đáng ngờ~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Một ~r~túi khả nghi~w~ đã được phát hiện gần đây!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Hãy cố gắng ~o~vô hiệu hóa~w~ quả bom bằng cách tìm ~r~người đã bỏ lại nó~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn đã ~r~tìm thấy kẻ đặt bom~w~. Bắt giữ họ để nhận được ~g~mã vô hiệu hóa bom~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bạn đã ~g~lấy được mã vô hiệu hóa~w~. Hãy đến chỗ ~r~quả bom~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để ~r~vô hiệu hóa quả bom~w~ mà không cần mã (mã nằm trên người đã bỏ lại túi).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nhấn ~y~{0}~w~ để ~r~vô hiệu hóa quả bom~w~ bằng mã vô hiệu hóa.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Nhập mã vô hiệu hóa, một số từ 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Đoán mã vô hiệu hóa, một số từ 1-9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Vô hiệu hóa bom thất bại~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bom đã được vô hiệu hóa~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Mã vô hiệu hóa: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Dữ liệu nhập không hợp lệ.~w~ Vui lòng nhập một số từ ~y~1~w~ đến ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Giám sát khu vực đã diễn ra ~g~không có sự cố nào~w~. Quay trở lại tuần tra.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

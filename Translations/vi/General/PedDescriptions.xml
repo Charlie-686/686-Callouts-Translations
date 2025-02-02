@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[Suspect is wearing a ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Suspect is wearing ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[Suspect is a ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0"><![CDATA[đồ vest~w~.]]></DESCRIPTION> <!-- Nghi phạm NAM. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[áo thun xanh dương~w~ và là người chạy bộ.]]></DESCRIPTION> <!-- Nghi phạm NAM. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[áo sơ mi kẻ xanh dương~w~.]]></DESCRIPTION> <!-- Nghi phạm NỮ. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[áo khoác da~w~.]]></DESCRIPTION> <!-- Nghi phạm NỮ. -->
+	<DESCRIPTION PREFIX = "2"><![CDATA[công nhân~w~, mặc ~y~áo thun trắng~w~.]]></DESCRIPTION> <!-- Nghi phạm NAM. -->
+	<DESCRIPTION PREFIX = "1"><![CDATA[đeo yếm~w~.]]></DESCRIPTION> <!-- Nghi phạm NỮ. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[áo sơ mi xanh dương~w~ với ~y~quần short xanh dương~w~. Nghi phạm có thể là nhân viên bưu điện.]]></DESCRIPTION> <!-- Nghi phạm NAM. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[áo đỏ lớn và mũ~w~ với ~y~quần tây xanh biển~w~.]]></DESCRIPTION> <!-- Nghi phạm NAM. -->
+	<DESCRIPTION PREFIX = "0"><![CDATA[blazer xanh dương nhạt và váy bò~w~ với ~y~áo đỏ bên trong~w~.]]></DESCRIPTION> <!-- Nghi phạm NỮ. -->
+</PEDDESCRIPTIONS>
