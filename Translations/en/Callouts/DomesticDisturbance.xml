@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Domestic Disturbance]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~o~household disturbance~w~ has been reported, details unknown. Attend the scene and ~y~ascertain the situation~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Resolve the situation. You may want to ~y~search for witnesses~w~ if there are any.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey, what’s going on here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ She just won’t let it go! Every little thing sets her off. I’m sick and tired of it!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ He just won’t let it go! Every little thing sets him off. I’m sick and tired of it!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~b~You:~w~ Let's hear her side of the story.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~b~You:~w~ Let's hear his side of the story.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’m just asking for some respect! She brushes me off like I’m not even here, and it drives me crazy.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I’m just asking for some respect! He brushes me off like I’m not even here, and it drives me crazy.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’m not ignoring you! I just don’t think everything’s a crisis, but you act like it is.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I’m not ignoring you! I just don’t think everything’s a crisis, but you act like it is.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~You:~w~ It sounds like you're not hearing each other. Why does this keep happening?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ She always jumps to conclusions before we can even talk it through. I just need some space!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ He always jumps to conclusions before we can even talk it through. I just need some space!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I don’t want to fight! I just want her to understand, and she shuts me down before I even get a chance to explain.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I don’t want to fight! I just want him to understand, and he shuts me down before I even get a chance to explain.]]></DIALOGUE> // ped 2
+			<DIALOGUE><![CDATA[~b~You:~w~ Okay, let’s all take a step back. The important thing is that everyone communicates and is heard.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Frustrated" TARGET="M"><![CDATA[~y~Male:~w~ I get it. It's just frustrating that it feels like I’m talking to a brick wall most of the time.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Frustrated" TARGET="F"><![CDATA[~y~Female:~w~ I get it. It's just frustrating that it feels like I’m talking to a brick wall most of the time.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Frustrated" TARGET="M"><![CDATA[~y~Male:~w~ I hear you, just not in the right way.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="Frustrated" TARGET="F"><![CDATA[~y~Female:~w~ I hear you, just not in the right way.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~You:~w~ Can I trust you guys to resolve this sensibly?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Apologetic" TARGET="M"><![CDATA[~y~Male:~w~ Yes Officer, sorry...heat of the moment.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="Apologetic" TARGET="F"><![CDATA[~y~Female:~w~ Yes Officer, sorry...heat of the moment.]]></DIALOGUE> // ped 2
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey! What’s going on here?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’M DONE WITH HER, OFFICER! She NEVER stops running her mouth!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I’M DONE WITH HIM, OFFICER! He NEVER stops running his mouth!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ OH PLEASE! You’re the one who storms around like a damn child whenever things don’t go your way!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ OH PLEASE! You’re the one who storms around like a damn child whenever things don’t go your way!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Both of you, take a breath! We’re not doing this right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ She doesn’t LISTEN! She just keeps PUSHING and PUSHING!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ He doesn’t LISTEN! He just keeps PUSHING and PUSHING!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ BECAUSE YOU NEVER TAKE ANYTHING SERIOUSLY! YOU LAUGH IN MY FACE LIKE I’M NOTHING!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ BECAUSE YOU NEVER TAKE ANYTHING SERIOUSLY! YOU LAUGH IN MY FACE LIKE I’M NOTHING!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ ENOUGH! Step back, NOW!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ You want me to step back?! MAYBE SHE SHOULD SHUT UP FOR ONCE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ You want me to step back?! MAYBE HE SHOULD SHUT UP FOR ONCE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ YOU WANNA GO?! SAY THAT AGAIN TO MY FACE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ YOU WANNA GO?! SAY THAT AGAIN TO MY FACE!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="While fighting" TARGET="M"><![CDATA[~y~Male:~w~ Oh you're gonna get a punch to the face now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="While fighting" TARGET="F"><![CDATA[~y~Female:~w~ Oh you're gonna get a punch to the face now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Scared" TARGET="M"><![CDATA[~y~Male:~w~ Officer, she's attacking me! HELP!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Scared" TARGET="F"><![CDATA[~y~Female:~w~ Officer, he's attacking me! HELP!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ You think you can do whatever you want? You deserve this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ You think you can do whatever you want? You deserve this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ Your punches suck! Let me show you how to land a REAL blow!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ Your punches suck! Let me show you how to land a REAL blow!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, what’s going on here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ Officer, THANK GOD you’re here! She HIT me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ Officer, THANK GOD you’re here! He HIT me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ THAT’S A LIE! I didn’t lay a hand on her!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ THAT’S A LIE! I didn’t lay a hand on him!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Everyone take a breath. M'am, tell me exactly what happened.]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Everyone take a breath. Sir, tell me exactly what happened.]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ We were arguing, and then she LOST IT! She grabbed me and shoved me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ We were arguing, and then he LOST IT! He grabbed me and shoved me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I DIDN’T TOUCH YOU! You’re making this up because you’re pissed off!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I DIDN’T TOUCH YOU! You’re making this up because you’re pissed off!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Sir, keep your voice down. Did you put your hands on her or not?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ M'am, keep your voice down. Did you put your hands on him or not?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ NO! I swear, I didn’t! She’s the one who threw something at ME!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ NO! I swear, I didn’t! He’s the one who threw something at ME!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ That’s because you wouldn’t STOP screaming in my face! I was SCARED!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ That’s because you wouldn’t STOP screaming in my face! I was SCARED!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, enough! I need both of you to stay where you are. We’re going to get to the bottom of this.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey there. We're investigating a disturbance nearby. Have you noticed anything unusual?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Curious"><![CDATA[~y~Bystander:~w~ Well why do you ask? Is it about that couple down the street?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I can't get into specifics, I just wanted to know if you've noticed anything out of the ordinary.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Curious"><![CDATA[~y~Bystander:~w~ I don't want to get involved. But let me just say this. A word to the wise, her husband is an awful man.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Okay, did you see anything in particular?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Curious"><![CDATA[~y~Bystander:~w~ Word is on the street that their marriage got messy. I don't know anymore.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thank you for the information.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey there. We're investigating a disturbance nearby. Have you noticed anything unusual?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Flirtatious"><![CDATA[~y~Bystander:~w~ The only thing unusual is how smoking hot you are Officer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thanks, I guess. But I am only interested in any information about a disturbance would could help our investigation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Flirtatious"><![CDATA[~y~Bystander:~w~ Then I'm no help, feel free to hit me up when you're off duty though.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Great, thanks.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, what’s going on here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ Officer my roommate is out of control. They totally flipped out on me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ Officer my roommate is out of control. They totally flipped out on me!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ What do you mean?! You binned all my stuff!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ What do you mean?! You binned all my stuff!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Okay I want to hear both sides of the story. M'am, what happened?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Okay I want to hear both sides of the story. Sir, what happened?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ My roommate is basically a hoarder. She has so much crap in my house! It is totally unfair.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ My roommate is basically a hoarder. He has so much crap in my house! It is totally unfair.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Sad" TARGET="M"><![CDATA[~y~Male:~w~ Those are my valuable items! You can't just throw them out! That's absurd!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Sad" TARGET="F"><![CDATA[~y~Female:~w~ Those are my valuable items! You can't just throw them out! That's absurd!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Where is your stuff now?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Frustrated" TARGET="M"><![CDATA[~y~Male:~w~ The bins were collected so all my stuff is gone! GONE! I want to press charges for theft!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Frustrated" TARGET="F"><![CDATA[~y~Female:~w~ The bins were collected so all my stuff is gone! GONE! I want to press charges for theft!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Condescending" TARGET="M"><![CDATA[~y~Male:~w~ Oh come on. That's ridiculous, you know that Officer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Condescending" TARGET="F"><![CDATA[~y~Female:~w~ Oh come on. That's ridiculous, you know that Officer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Both of you need to behave yourself, I will get to the bottom of this.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. I am investigating events that happened in a nearby property. Have you seen anything strange recently?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Curious"><![CDATA[~y~Bystander:~w~ No I haven't officer, but those two roommates are always up at each others neck.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It has been alleged that someone has thrown away the others stuff in the trash. Did you see anything like this?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Thoughtful"><![CDATA[~y~Bystander:~w~ I did actually. One of them, I don't remember which, was carrying lots of bags full of rubbish.]]></DIALOGUE> // the gender of the suspect is unknown, for it could be the man or woman. The bystander does not remember.
+			<DIALOGUE><![CDATA[~b~You:~w~ That's very helpful. Is this the first time you've seen them do that?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Annoyed"><![CDATA[~y~Bystander:~w~ Throwing lots of rubbish? Yes. But I've had to tell them in the past to keep the volume down, they argue quite a bit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thanks for the valuable assistance. Take care.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hi there. I am investigating events that happened in a nearby property. Have you seen anything strange recently?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Neutral"><![CDATA[~y~Bystander:~w~ Sorry officer, I haven't seen anything strange.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It has been alleged that someone has thrown away the others stuff in the trash. Did you see anything like this?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Honest"><![CDATA[~y~Bystander:~w~I didn't see anything of the sorts. I have just come back from a holiday abroad.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I understand. Do you know much about the roommates living nearby?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Unsettled"><![CDATA[~y~Bystander:~w~ No, I try to stay clear of them if I am honest. They're a bit strange.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Thanks for the information.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Both of you, take a step back. What’s going on?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shocked" TARGET="M"><![CDATA[~y~Male:~w~ Officer, she’s throwing me out over NOTHING! I live here! She can’t do this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shocked" TARGET="F"><![CDATA[~y~Female:~w~ Officer, he’s throwing me out over NOTHING! I live here! He can’t do this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ NOTHING?! Are you kidding me?! I’m DONE with your lies, your excuses—I want you OUT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ NOTHING?! Are you kidding me?! I’m DONE with your lies, your excuses—I want you OUT!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Let's take a step back. M'am, do you have a legal right to be here?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Let's take a step back. Sir, do you have a legal right to be here?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I PAY RENT! I’VE LIVED HERE FOR A YEAR! She can’t just kick me out like I’m some stranger!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I PAY RENT! I’VE LIVED HERE FOR A YEAR! He can’t just kick me out like I’m some stranger!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I don’t care! I WANT her GONE! I can’t take another night of her bullshit!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I don’t care! I WANT HIM GONE! I can’t take another night of his bullshit!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Alright, yelling isn’t going to solve this. Sir, have you gone through proper eviction procedures?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Alright, yelling isn’t going to solve this. M'am, have you gone through proper eviction procedures?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Frustrated" TARGET="M"><![CDATA[~y~Male:~w~ I SHOULDN’T HAVE TO! She refuses to leave! What am I supposed to do?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Frustrated" TARGET="F"><![CDATA[~y~Female:~w~ I SHOULDN’T HAVE TO! He refuses to leave! What am I supposed to do?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ Maybe stop treating me like garbage and we wouldn’t be here!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ Maybe stop treating me like garbage and we wouldn’t be here!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, I’ve heard both sides. Here’s what’s going to happen—we’re going to handle this the right way. So let’s keep this civil.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hello there. We're investigating a disturbance nearby. Do you have any possible information?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Apologetic"><![CDATA[~y~Bystander:~w~ No, sorry. It's not my business.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I understand, thank you.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hello there. We're investigating a disturbance nearby. Do you have any possible information?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Neutral"><![CDATA[~y~Bystander:~w~ Why, what's going on?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ An argument has broken out a few houses down, did you know anything about the couple who lived there?]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shocked"><![CDATA[~y~Bystander:~w~That's a bit of an intrusive question, no. I don't know anything about that.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Okay, thank you.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ I'M SO SICK OF THIS! YOU NEVER LISTEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ I'M SO SICK OF THIS! YOU NEVER LISTEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ ME?! YOU'RE THE ONE WHO STARTED THIS! GET OUT OF MY FACE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ ME?! YOU'RE THE ONE WHO STARTED THIS! GET OUT OF MY FACE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ OR WHAT? YOU GONNA SHOVE ME AGAIN? DO IT! I DARE YOU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ OR WHAT? YOU GONNA SHOVE ME AGAIN? DO IT! I DARE YOU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ I'VE HAD IT WITH YOU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ I'VE HAD IT WITH YOU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ FINE! LET'S FINISH THIS!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ FINE! LET'S FINISH THIS!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ YOU DON'T GET TO TREAT ME LIKE THIS!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ YOU DON'T GET TO TREAT ME LIKE THIS!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ BACK OFF! I AM DONE WITH YOUR CRAZY ASS!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ BACK OFF! I AM DONE WITH YOUR CRAZY ASS!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Maintain a ~g~safe distance~w~ of at least ~g~15 metres~w~ while the hostage conversation carries out. ~y~Prepare for any outcome~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You were ~r~too close~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ If you're keeping anyone hostage, I strongly advise you release them now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ Stay back! I swear I will shoot her!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ Stay back! I swear I will shoot him!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Desperate" TARGET="M"><![CDATA[~y~Male:~w~ PLEASE! JUST LET ME GO!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Desperate" TARGET="F"><![CDATA[~y~Female:~w~ PLEASE! JUST LET ME GO!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ SHUT UP! THIS IS YOUR FAULT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ SHUT UP! THIS IS YOUR FAULT!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ No one’s moving. But listen—this isn’t the way. Let’s talk.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="Shouting" TARGET="M"><![CDATA[~y~Male:~w~ Screw this! She deserves to be dead anyway!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Shouting" TARGET="F"><![CDATA[~y~Female:~w~ Screw this! He deserves to be dead anyway!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="Terrified" TARGET="M"><![CDATA[~y~Male:~w~ I just can't take it anymore officer! Arrest me! I'd rather live in jail!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Terrified" TARGET="F"><![CDATA[~y~Female:~w~ I just can't take it anymore officer! Arrest me! I'd rather live in jail!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="Scared" TARGET="M"><![CDATA[~y~Male:~w~ Fine, I won't kill her! But I don't want to go to prison!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Scared" TARGET="F"><![CDATA[~y~Female:~w~ Fine, I won't kill her! But I don't want to go to prison!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey! What’s going on here?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’M DONE WITH HER, OFFICER! She NEVER stops running her mouth!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I’M DONE WITH HIM, OFFICER! He NEVER stops running his mouth!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ OH PLEASE! You’re the one who storms around like a damn child whenever things don’t go your way!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ OH PLEASE! You’re the one who storms around like a damn child whenever things don’t go your way!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Both of you, take a breath! We’re not doing this right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Mysterious" TARGET="M"><![CDATA[~y~Male:~w~ Oh officer, we are doing this right here, right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Mysterious" TARGET="F"><![CDATA[~y~Female:~w~ Oh officer, we are doing this right here, right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="Mysterious" TARGET="M"><![CDATA[~y~Male:~w~ Sorry officer, but you fell right into our trap. There is no domestic disturbance. Just an AMBUSH!]]></DIALOGUE>
+			<DIALOGUE EMOTION="Mysterious" TARGET="F"><![CDATA[~y~Female:~w~ Sorry officer, but you fell right into our trap. There is no domestic disturbance. Just an AMBUSH!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>
