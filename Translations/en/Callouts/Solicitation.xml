@@ -38,7 +38,7 @@
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh god! Not me officer, you've got the wrong person.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ It's quite chilly today and you have very little clothes on.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer, I'm afraid that's not a crime. I am just heading off to a party, which has already started.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~You:~w~ According to our reports, you've been wondering around rather aimlessly.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ According to our reports, you've been wandering around rather aimlessly.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm just a little lost, that's all. Can I get going now?]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
