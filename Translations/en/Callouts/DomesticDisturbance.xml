@@ -10,8 +10,8 @@
 			<DIALOGUE><![CDATA[~b~You:~w~ Hey, what’s going on here?]]></DIALOGUE>
 			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ She just won’t let it go! Every little thing sets her off. I’m sick and tired of it!]]></DIALOGUE> // ped 1
 			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ He just won’t let it go! Every little thing sets him off. I’m sick and tired of it!]]></DIALOGUE> // ped 1
-			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~b~You:~w~ Let's hear her side of the story.]]></DIALOGUE>
-			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~b~You:~w~ Let's hear his side of the story.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~You:~w~ Let's hear her side of the story.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~You:~w~ Let's hear his side of the story.]]></DIALOGUE>
 			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’m just asking for some respect! She brushes me off like I’m not even here, and it drives me crazy.]]></DIALOGUE> // ped 2
 			<DIALOGUE EMOTION="Angry" TARGET="F"><![CDATA[~y~Female:~w~ I’m just asking for some respect! He brushes me off like I’m not even here, and it drives me crazy.]]></DIALOGUE> // ped 2
 			<DIALOGUE EMOTION="Angry" TARGET="M"><![CDATA[~y~Male:~w~ I’m not ignoring you! I just don’t think everything’s a crisis, but you act like it is.]]></DIALOGUE> // ped 1
