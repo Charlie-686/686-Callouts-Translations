@@ -6,45 +6,45 @@
 	<OUTCOME0>
 		<NOTIFICATION><![CDATA[to have a strong odour of alcohol]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~Hello, is everything alright?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~Hello! Can we just have a quick conversation please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Neooooooooo, but I don't want to.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect: ~w~Neooooooooo, but I don't want to.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~I think it would be best if we could; do you have any details on you?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Hmmm...no thanksss...]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ BLALALALALA! TIME TO GOO BYEE OFFICER!]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect: ~w~Hmmm...no thanksss...]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect:~w~ BLALALALALA! TIME TO GOO BYEE OFFICER!]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Hello, thank god you are here!]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect:~w~ Hello, thank god you are here!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~ Hello, what's the matter?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I've got lost, I'm not from the area you see. I don't know how to get home.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect:~w~ I've got lost, I'm not from the area you see. I don't know how to get home.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Oh dear, is there anyone who could pick you up?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Oh yes, I do! Let me text them now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~Suspect:~w~ Oh yes, I do! Let me text them now.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~ Perfect. If they can't come I will see if we can put together some alternative arrangements.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~You:~w~ What's going on?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Nothingg...just had a great partyyy.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect:~w~ Nothingg...just had a great partyyy.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ I see, and you are just wandering around?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yesss, I loveee being outside.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect:~w~ Yesss, I loveee being outside.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Can I have your name please?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Okay..my name is Ben Dover.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect:~w~ Okay..my name is Ben Dover.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ Quit the jokes, I want your real name.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Let me try to remember...I think it is {0}.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect:~w~ Let me try to remember...I think it is {0}.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~You: ~w~Hi there, is everything okay?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Yes, yes it is.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect:~w~ Yes, yes it is.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ I see, we just had reports of a disorientated invididual in the area.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Okay, and is that a crime?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect:~w~ Okay, and is that a crime?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ No, we just wanted to establish that you are okay.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I'm perfectly fine, but I'd appreciate if you left me alone.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect:~w~ I'm perfectly fine, but I'd appreciate if you left me alone.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You:~w~ If you insist, have a good day.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
