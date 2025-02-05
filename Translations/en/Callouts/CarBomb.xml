@@ -16,8 +16,8 @@
 		<FURTHERINFORMATION><![CDATA[Intelligence has reported a mentally unstable person with a ~r~car bomb.~n~~w~Respond to the scene ~y~urgently.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Bomb Detonator~w~, ~y~Wiring]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I surrender! You can arrest me officer!]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer...I'm sorry it had to end this way...]]></DIALOGUE>
+			<DIALOGUE EMOTION="fear"><![CDATA[~r~Suspect:~w~ I surrender! You can arrest me officer!]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~Suspect:~w~ Officer...I'm sorry it had to end this way...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
@@ -30,5 +30,3 @@
 	    <OTHER><![CDATA[~y~Car keys~w~, ~r~Bomb]]></OTHER>	
 	</OUTCOME3>
 </CALLOUT>
-
-<!-- <![CDATA[]]> -->
