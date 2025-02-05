@@ -18,31 +18,28 @@
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Officer, are you joining the cause?]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~Suspect: ~w~Officer, are you joining the cause?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~What's this protest about?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~We believe that climate change is ruining our country - and our government needs to act now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="passionate"><![CDATA[~r~Suspect: ~w~We believe that climate change is ruining our country - and our government needs to act now!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~I'm sorry, you need to move. If you are protesting by blocking a road, you need to obtain authorisation first.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ But why? We are protesting for a good cause!]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect:~w~ But why? We are protesting for a good cause!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~This protest hasn't been authorised. You can't just block the road.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ I told the others about this...but they didn't listen. I'll tell them we need to go.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Suspect:~w~ I told the others about this...but they didn't listen. I'll tell them we need to go.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~Thanks. Please get your stuff together so traffic can resume.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Right guys, protest is off. Let's go now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="disappointed"><![CDATA[~r~Suspect:~w~ Right guys, protest is off. Let's go now.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<DIALOGUES>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Look who's come to support our protest!]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~Suspect: ~w~Look who's come to support our protest!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~Why are you protesting?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect: ~w~Food prices are sky high and we are fed up! We're gonna starve!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Food prices are sky high and we are fed up! We're gonna starve!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~This protest cannot happen here, you are putting public safety at risk.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ We're not interested in moving officer. This is a just cause!]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect:~w~ We're not interested in moving officer. This is a just cause!]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~You: ~w~I need you to move, you are protesting here illegally.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~r~Suspect:~w~ Officer, we are not moving! Bother someone else.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect:~w~ Officer, we are not moving! Bother someone else.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
 	<OUTCOME4>
 	</OUTCOME4>
 </CALLOUT>
-
-
-<!-- <![CDATA[]]> -->
