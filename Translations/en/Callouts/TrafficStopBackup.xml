@@ -1,0 +1,327 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Traffic Stop Backup]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~b~backup officer~w~ has pulled over a vehicle and is requesting another unit to provide backup during the stop.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect: ~w~No, what's wrong? I thought I was driving fine.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~You were driving all over the place, couldn't stay in one lane.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Oh, I didn’t even realize. Was it really that bad?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Yes, I had to follow you for a bit to make sure. It looked like you were struggling to keep control.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Sorry officer, I am not a hugely confident driver.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Have you had your license for very long?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Yes, I just don't drive very often. I'm sorry, I've been trying to improve. I just find it stressful.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~You've got to be very careful, you can't swerve between lanes all the time, there are other road users.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~Officer: ~w~If you're feeling nervous, take your time and focus on staying centered in your lane.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I'm going to let you go with a warning, but I don't want to see you driving like that again.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Thank you officer! I appreciate the second chance. Have a good day!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect: ~w~Was I going too fast, officer?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~You were going just above the speed limit, you need to be careful.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Suspect: ~w~Oh, I didn’t notice. How much over was I?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Not by much, but enough that it caught my attention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~I'm sorry officer, I think I missed the speed sign.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~That can't happen again. Do you have a valid license?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Yes officer. This is the first time I've been stopped before.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Alright, I’ll check your license and run a quick record check. Sit tight.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Okay well your license looks good so I'll let you be on your way, let this serve as a warning to you though.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~I'm sorry, I will be more careful!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect: ~w~No, did I do something wrong?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Your brake light is out. That can be dangerous, especially at night.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Suspect: ~w~Oh no, I had no idea! How bad is it?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~It's completely out, no light at all when you brake. Have you had any maintenance done recently?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Not in a while, to be honest. I've been meaning to get a check-up done.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I recommend getting it fixed as soon as possible. Other drivers need to see when you're stopping.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Do you have a repair shop nearby you trust?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Not really, but I can look one up.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Good. I'm not going to give you a ticket, but take this as a warning. Get that light fixed soon.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect: ~w~Absolutely, officer. Thank you for letting me know, I'll take care of it!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m’am, do you know why I pulled you over today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I pulled you over today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect: ~w~Uh… no? Everything alright?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~You failed to signal when changing lanes back there. That can be dangerous, especially with how heavy traffic is today.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Oh, I didn’t even realize! I must’ve been focused on merging.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~I understand that, but it’s important to make sure other drivers know what you’re doing. It’s for everyone’s safety.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect: ~w~Yeah, I get that. I’ll make sure to signal from now on.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Good. It only takes a second to use your turn signal, and it could prevent accidents.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~b~Officer: ~w~Do you usually drive in heavy traffic?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect: ~w~Not usually, but I was trying to get ahead of some slow-moving vehicles today.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Alright, I’m not issuing a ticket today, just a warning. I trust this will be a reminder to be more mindful of your signals.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect: ~w~Absolutely! Thanks for letting me off with a warning, officer.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~Suspect: ~w~Um… was I going too fast?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but you didn’t stop at the stop sign back there.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Oh no… I’m so sorry. I must not have seen it.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~It’s important to be aware—rolling through a stop can be dangerous.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~I understand. I should’ve been paying more attention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I have to issue you a citation for the violation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Suspect: ~w~I get it. I’ll be more careful next time.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Drive safe, and make sure to stop fully at all signs.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~Suspect: ~w~I will. Thank you, officer.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~I have no idea, was I speeding?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but I ran your plate, and your vehicle registration is expired.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~What? That’s impossible, I thought I renewed it.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~According to the system, it expired last month. Have you received a renewal notice?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~I mean... maybe? I get so much mail, I must have missed it.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Unfortunately, I have to issue you a citation for the expired registration.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~Great... just what I needed.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~You’ll need to get it renewed as soon as possible. Instructions are on the ticket.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~Fine. Guess I’ll deal with it.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~No, but I’m sure you’re going to tell me.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I saw you using your phone while driving. That’s a serious safety issue.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Oh, come on! I was just checking my GPS for a second.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~It doesn’t matter. The law is clear—no handheld devices while driving.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Seriously? There are way worse things happening, and this is what you’re worried about?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Distracted driving leads to accidents. I’m issuing you a citation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Unbelievable. This is just a cash grab.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~You have the right to contest the ticket in court if you disagree. Drive safe.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Yeah, whatever.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Suspect: ~w~Um, I’m not sure… maybe for speeding?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but you didn’t signal when you changed lanes back there.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect: ~w~Oh, I didn’t realize. I’m sorry about that.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~It’s important to signal—it keeps everyone on the road safe.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~r~Suspect: ~w~I know, I’ll be more careful next time.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I’m issuing you a citation for failing to signal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Suspect: ~w~I understand. I’ll make sure to signal every time.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~You can pay the fine online, and be more mindful of your signals in the future.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~Suspect: ~w~Thank you, officer. I’ll definitely pay more attention.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect: ~w~No, I don’t. Was I driving too slow?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but you were tailgating the vehicle in front of you. It’s a safety hazard.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~I wasn’t tailgating! They were going way too slow!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Officer: ~w~That may be, but following too closely can cause accidents. It’s important to maintain a safe distance.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect: ~w~I was just trying to get to work, I wasn’t thinking about it that much.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I understand, but for your safety and others’, I have to issue you a citation for tailgating.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect: ~w~Great… just what I needed.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Make sure to maintain a safe distance from now on. Drive safely.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~Yeah, whatever.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect: ~w~Not sure, was I speeding?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but when I ran your information, it came back that your license is suspended.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Wait, that’s a mistake. I sorted that out weeks ago!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~The system still shows it as suspended. You’re not supposed to be driving.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~This is ridiculous, I can’t afford another ticket. I need my car for work!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I understand that, but you can’t drive on a suspended license.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleading"><![CDATA[~r~Suspect: ~w~Come on, officer, there’s got to be another way to handle this.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~I need you to step out of the vehicle while we sort this out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~No way! I’m not getting out over some stupid clerical error!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Officer: ~w~I’m not going to ask you again. Step out now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect: ~w~You know what? Forget this!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect: ~w~No, but I bet you’re gonna tell me.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Your brake light is out. You need to get that fixed.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect: ~w~Oh… that’s all? Thought you were pulling me for something else.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~b~Officer: ~w~Do you have anything illegal in the vehicle?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~What? No! I mean… nothing serious.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~What do you mean, nothing serious? I need you to be honest with me.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Suspect: ~w~Look, I got a weapon under the seat, but it’s just for protection!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~The owner of this vehicle doesn’t have a gun license. I need you to step out of the vehicle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Come on, seriously?! It’s not even a big deal!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~Out of the car. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect: ~w~No way, I’m not going to jail over this!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello m'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Nope, but I’m sure you have some excuse.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I noticed you were weaving between lanes back there. Have you been drinking tonight?]]></DIALOGUE>
+			<DIALOGUE EMOTION="offended"><![CDATA[~r~Suspect: ~w~What? No! That’s ridiculous. I’m just tired.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Your eyes are bloodshot, and I can smell alcohol. I need you to step out of the vehicle for a sobriety test.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Oh, so now I’m a drunk? Come on, officer, I’m telling you, I’m just tired.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~Step out of the car. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect: ~w~You know what? No. I’m not doing this.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Officer: ~w~Don’t make this harder than it needs to be. Step out of the vehicle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~Suspect: ~w~I don’t think so, officer.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Suspect: ~w~I’m not sure, officer. Was I speeding?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~No, but your vehicle’s registration is expired, and I need to check your ID.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~I paid for the registration! There’s no way it's expired!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~I’ll need you to step out so we can resolve this.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Suspect: ~w~I can’t deal with this right now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~I need you to stay calm and step out of the vehicle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate"><![CDATA[~r~Suspect: ~w~I can’t. I just… I’m sorry!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~No, officer. What’s the issue?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I pulled you over because your brake lights are malfunctioning. I need to check your ID.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~Are you kidding me? That’s it?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Officer: ~w~It’s a safety issue. I need to ensure you’re good to drive.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect: ~w~This is ridiculous!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Please hand me your license and registration.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~I don’t have time for this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Officer: ~w~Quick! Get back to our patrol vehicles and catch the bugger!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="dismissive"><![CDATA[~r~Suspect: ~w~No clue. What’s the problem?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Your vehicle matches the description of one reported in a nearby incident. I need your ID.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~That’s crazy! I’ve been home all night!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Your plates were spotted in the area. Hand me your ID.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~You’re harassing me for NO REASON! This is BULLSHIT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~Step out of the vehicle. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect: ~w~I’M NOT GOING ANYWHERE! YOU HAVE NO RIGHT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Officer: ~w~Last chance. Step out of the vehicle, or I’ll remove you.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Suspect: ~w~GET THE HELL AWAY FROM ME! I’M DONE WITH THIS!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Hello ma'am, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Hello sir, do you know why I stopped you today?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect: ~w~Yeah, because some idiot called the cops over NOTHING.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~We received a report that you were aggressively tailgating and swerving at another driver.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Oh, so now I’M the bad guy? THAT MORON CUT ME OFF FIRST!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Reckless driving is a serious offense. I need to see your license.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~FOR WHAT?! I DIDN’T EVEN TOUCH THEIR CAR!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~Sir, hand over your license. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect: ~w~THIS IS BULLSHIT! YOU'RE JUST LOOKING FOR A REASON TO SCREW ME OVER!]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Officer: ~w~Step out of the vehicle. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Suspect: ~w~I’M NOT DOING A DAMN THING! GET AWAY FROM ME!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Officer: ~w~Ma’am, where are you headed?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Officer: ~w~Sir, where are you headed?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~Suspect: ~w~What’s with all the questions? I’m just driving.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I need to confirm a few things. Whose vehicle is this?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Mine! What kinda question is that?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="M"><![CDATA[~b~Officer: ~w~That’s interesting, because this vehicle is registered to a female.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="F"><![CDATA[~b~Officer: ~w~That’s interesting, because this vehicle is registered to a male.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~WHAT?! That’s bull! You must’ve messed something up!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Officer: ~w~The system doesn't make mistakes. Who does this car belong to?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~I told you, it’s MINE! This is a waste of time!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~I need you to step out of the vehicle. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect: ~w~HELL NO! YOU’RE NOT TAKING ME IN FOR THIS!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~b~Officer: ~w~I'M UNDER FIRE! SHE'S GOT A WEAPON, BE CAREFUL!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~b~Officer: ~w~I'M UNDER FIRE! HE'S GOT A WEAPON, BE CAREFUL!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~b~Officer: ~w~WE NEED TO TAKE DOWN THE SUSPECT! GIVE ME COVERING FIRE!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Officer: ~w~Jesus Christ...that was quite something!]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Officer: ~w~You came in the nick of time, thank you!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Thank you for arriving officer. I've stopped this vehicle and wanted some backup before proceeding.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~No worries, what would you like me to do?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I'd like you to stay in your patrol vehicle while I conduct the stop, in case the vehicle makes off.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Sounds good, lets go.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Good to see you, officer. This one's giving me a weird vibe, so I’d rather have backup before I approach.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. What’s the plan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Stay in your vehicle and be ready in case they decide to run. I’ll handle the stop.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Got it. Let’s see how this plays out.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Thanks for coming. Just a heads-up, I don’t want to escalate things, so I’ll keep this low-key.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Got it. You want me to hang back?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Yeah, stay in your vehicle and keep an eye on things. If something feels off, be ready.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. I’ll be watching.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Glad you're here. I’d feel better with another set of eyes on this.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright, where do you need me?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Come up on the passenger side while I speak with the driver. Just in case things take a turn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy that. Let’s go.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Officer: ~w~Something feels off about this one. Appreciate you showing up.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~No problem. What do you need?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Officer: ~w~I will speak with the driver; you should approach from the passenger side. Less of a direct threat if things go south.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright, I’m with you.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Hey, thanks for coming. I’d rather not do this alone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~I hear you. Where do you need me?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Take position on the driver side with me. Let’s keep this straightforward.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright, let’s handle it.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Appreciate the quick response. I want this driver to know they’ve got eyes on them.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. Where do you want me?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Stand on the driver’s side with me. A little extra presence never hurts.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Sounds good. Let’s do it.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Thanks for backing me up. You can stay in your vehicle for now, or join me up front—your call.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright, I’ll decide based on how this plays out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Officer: ~w~Sounds good. Just be ready if I need you.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~I got you covered.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Hey, glad you're here. With how traffic stops have been going lately, I didn’t want to approach alone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. What’s the plan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~I want you at the passenger side while I talk to the driver. Just in case.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright, let’s be smart about this.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Officer: ~w~Hey, uh… thanks for showing up. I’m still getting used to doing stops alone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~No problem. You got a plan?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Officer: ~w~Yeah, I just feel better having backup. You can either stay in your car or join me at the driver’s side. Your call.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Got it. I’ll be ready.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~Appreciate the backup officer! Have a good rest of your shift!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Officer: ~w~Thanks sir, I appreciate you coming to assist with that stop.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Officer: ~w~Thanks m'am, I appreciate you coming to assist with that stop.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~Appreciate it, officer. I owe you one.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~All good here. Stay sharp out there!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~All wrapped up. Appreciate the assist!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~Thanks for having my back. Stay safe out there.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~Officer: ~w~Smooth one! See you on the next call.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Officer: ~w~Thanks, sir! Always good having backup.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Officer: ~w~Thanks, ma’am! Always good having backup.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
