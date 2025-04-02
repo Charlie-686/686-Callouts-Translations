@@ -1,0 +1,211 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Missing Person]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~p~household member~w~ has reported someone ~r~missing~w~. Speak to them to ascertain the situation.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[You now have ~y~3 possible areas~w~ to search on your map. ~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Return the ~y~victim~w~ back home safely. They will automatically follow you.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~y~victim~w~ was ~g~safely returned~w~ back home.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~y~missing person~w~ has been ~r~killed~w~. Render medical assistance!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Missing Person: ~y~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Begin checking the ~y~search areas~w~ on your map for the missing person!]]></NOTIFICATION>
+		<OTHER><![CDATA[~b~blue~w~]]></OTHER>
+		<OTHER><![CDATA[~y~yellow~w~]]></OTHER>
+		<OTHER><![CDATA[~g~green~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Air support is reporting ~o~one individual sitting on the ground~w~. Get ground units to ~y~establish contact~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You’re the missing person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victim:~w~ Yeah... I'm sorry, I didn’t mean to worry anyone. I just... needed some time away.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You’ve been missing for over a day. Why didn’t you reach out?]]></DIALOGUE>
+			<DIALOGUE EMOTION="distant"><![CDATA[~y~Victim:~w~ I don’t know. I just... didn’t feel like talking. I’ve been thinking a lot... I wanted to be alone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ But you’ve been gone for a while. People were worried.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Victim:~w~ I know, and I’m sorry. I didn’t want to cause any trouble. I just... needed to clear my head.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Clear your head? Was something wrong?]]></DIALOGUE>
+			<DIALOGUE EMOTION="hesitant"><![CDATA[~y~Victim:~w~ It’s nothing. Just... personal stuff. Don’t worry about it.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Personal stuff? Are you okay?]]></DIALOGUE>
+			<DIALOGUE EMOTION="avoiding"><![CDATA[~y~Victim:~w~ Yeah, I’m fine. I just... I need to get home. Can you take me back?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We can’t just leave it at that. We need to make sure you’re alright.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Victim:~w~ I’m sorry. I didn’t mean to make this harder. I’ll be fine. Please, I just want to go home now.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright. The important thing is you're safe and okay. I'll take you back.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Air support is reporting ~o~one individual walking around~w~ aimlessly.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey there! Are you alright?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~y~Victim:~w~ Oh—uh, yeah. I think so. Wait, are you with search and rescue?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I’m with the police. We got a report that someone was lost out here.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victim:~w~ Oh man... yeah, that’s me. I was just out hiking, and then I—uh—I have no idea where I ended up.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ How long have you been wandering?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sheepish"><![CDATA[~y~Victim:~w~ I think... a few hours? Maybe more? I lost track of time. ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You should’ve stayed put. Moving around just makes it harder for us to find you.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Victim:~w~ I know, I know. But I didn’t want to just sit there doing nothing.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ At least you’re okay. Any injuries? Feeling lightheaded or dehydrated?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victim:~w~ Nah, I think I’m good. Just tired... and really ready to go home.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I don’t blame you. Let’s get you out of here.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Victim:~w~ Thanks, officer. Seriously. I owe you one.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Air support is reporting ~o~one individual walking around~w~ who is looking distressed.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey, are you alright? You look scared.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~y~Victim:~w~ Oh, thank God! I thought I was never going to get out of here. I—I don’t know where I am!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It’s alright, I’m here to help. How long have you been out here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frantic"><![CDATA[~y~Victim:~w~ I... I’ve been wandering for hours! My phone died, and I—I thought I knew the way, but now... now everything looks the same.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Deep breaths. You’re safe now. Just focus on staying calm.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Victim:~w~ I—I’m trying. But I keep hearing noises, and I don’t know what to do. I’m... I’m really scared.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It’s okay. You’re not alone anymore. We’ll get you out of here.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victim:~w~ I know, but I just—I don’t want to be stuck out here any longer. Can you... can you help me get back?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Of course, I’ll take you back. You’re not far from safety now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victim:~w~ Thank you so much. I was starting to lose hope.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ No need to thank me. Just stay with me, and we’ll get you home safe.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Air support is reporting ~o~one individual walking around~w~ who looks injured or drunk. Get ground units to ~y~check on them~w~ quickly!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey, are you alright? You seem to be limping.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Victim:~w~ Oh, it’s nothing too serious. Just some cramping in my leg. I’ve been walking in circles for a while now... I think I might be lost.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Lost? How long have you been out here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Victim:~w~ A few hours, I guess. I was following the trail, but then I lost track. It all looks the same. I thought I was going in the right direction, but...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ That sounds stressful. Are you injured, or is it just the cramping?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victim:~w~ It’s just cramping. My leg’s a little stiff, but I’ll be fine. I just need to get out of here.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I can help you with that. How far from the trail do you think you are?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Victim:~w~ Honestly? I have no idea. It’s like every path I walk down just leads me to another dead end. I just want to go home.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Don’t worry, you’re not far off. Let’s get you back to safety. Can you keep walking, or should I help you along?]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Victim:~w~ I can manage, but slowly. I just want to get home... I’ve been out here too long already.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, just take it easy. We’ll get you there soon.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victim:~w~ Thank you so much. I don’t know what I would’ve done without help.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ No problem. Follow me and we'll get you back home.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Air support is reporting ~o~one individual walking around~w~ who looks injured or drunk. Get ground units to ~y~check on them~w~ quickly!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hey there, are you alright? You look like you’ve been out here a while.]]></DIALOGUE>
+			<DIALOGUE EMOTION="slurred"><![CDATA[~y~Victim:~w~ H-Hey... yeah, I’m fine. Jus’ been... walkin’, y’know? Thinkin’...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I can see that. You don’t look so good, though. Are you hurt?]]></DIALOGUE>
+			<DIALOGUE EMOTION="tipsy"><![CDATA[~y~Victim:~w~ Hahaha... nah, nah. Not hurt. Jus’ a little... uh, a little drunk. Long walk, y’know? Needed... needed to clear my head.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ A long walk? What’s going on? Why are you out here drinking?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Victim:~w~ I... I don’t know... My... my partner and I, we... we split. And... and I thought some air, some space, would help... but I just kept... drinking. It’s been a mess.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I’m sorry to hear that. But you shouldn’t be out here like this, especially alone. Do you need help?]]></DIALOGUE>
+			<DIALOGUE EMOTION="regretful"><![CDATA[~y~Victim:~w~ I know... I just... I didn’t wanna be around anyone, y’know? Didn’t want... to face it. Just kept walking. I thought it’d make me feel better.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You don’t need to be alone right now. Let’s get you back to safety. Can you walk, or should I help you?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reluctant"><![CDATA[~y~Victim:~w~ I... I’ll be okay. Just need to get home... please, I jus’ wanna go home...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, we’ll get you there. Just stay with me, and take it slow. You’re not alone anymore.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Victim:~w~ Thank you... I don’t know what I’d’ve done without you...]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Air support is reporting ~o~one individual walking around~w~ aimlessly. They have also identified a potential threat: nearby ~y~mountain lions~w~.]]></NOTIFICATION>
+    <DIALOGUES>
+        <DIALOGUE><![CDATA[~b~You:~w~ Hey, are you alright? You look like you’ve been through a lot.]]></DIALOGUE>
+        <DIALOGUE EMOTION="panicked"><![CDATA[~y~Victim:~w~ Oh, thank God! I thought I was going to die out here! I’ve been running... from mountain lions!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~You:~w~ Mountain lions? Are you serious? How long have they been following you?]]></DIALOGUE>
+        <DIALOGUE EMOTION="terrified"><![CDATA[~y~Victim:~w~ I don’t even know... I heard something behind me, and then I turned, and there they were! I—I started running, and they kept getting closer. I thought for sure they were going to get me!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~You:~w~ You’re safe now. Don’t worry, I’ve got you. How long have you been out here?]]></DIALOGUE>
+        <DIALOGUE EMOTION="shaky"><![CDATA[~y~Victim:~w~ I’ve been... out here for hours. I was hiking, trying to clear my head, and then I got lost. I didn’t realize how far I’d gone... And then the mountain lions appeared, and I just ran. I don’t even know where I am anymore.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~You:~w~ It’s alright. You’re not alone now, and we’re going to get you out of here. Just stay close to me.]]></DIALOGUE>
+        <DIALOGUE EMOTION="relieved"><![CDATA[~y~Victim:~w~ Thank you... I was really scared I wouldn’t make it out of here.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~You:~w~ You’re safe now. Let’s take it slow. We’ll get you back to safety.]]></DIALOGUE>
+        <DIALOGUE EMOTION="grateful"><![CDATA[~y~Victim:~w~ Thank you so much, officer. I don’t know what I’d have done without you.]]></DIALOGUE>
+    </DIALOGUES>
+</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Air support is reporting ~o~one individual who is unconscious~w~. Injuries look severe, ground units required quickly.]]></NOTIFICATION>
+</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You called about a missing person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Roommate:~w~ Yeah, my roommate. I don’t know where he went.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When did you last see him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Roommate:~w~ Yesterday- and he never came back! He always comes back the same day.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Comes back from where?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Roommate:~w~ He calls it hiking...I call it long walks. I'm worried he did something stupid.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Don't worry, we will find him. Do you know where he might have gone?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Roommate:~w~ I have no idea. He keeps to himself most the time, didn't tell me where he was going.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Have you tried calling him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Roommate:~w~ Yes, I tried several times! It just goes straight to voice mail.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, we'll conduct a search. If you hear from him, let us know.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~b~Roommate:~w~ Thank you. I just hope he’s okay.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You called about a missing person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Roommate:~w~ Yes, my roommate. She’s been missing since this morning, and I have no idea where she went.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When did you last see her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Roommate:~w~ She left early this morning. She’s training for this big charity hike, and today was supposed to be a long one, but I didn’t expect her to be gone this long.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did she say where she was going?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Roommate:~w~ She said she was planning to hike some trails near the cliffs. It’s been part of her training. She’s been getting more into it since her hospital scare last year. She says the fresh air helps.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Has she ever done hikes like this before?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Roommate:~w~ Yeah, but not this long. Usually, she’s back by midday. I’ve been trying not to worry, but this feels different.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Have you tried calling her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Roommate:~w~ Yes, but it keeps going to voicemail. She always picks up or texts me. I’m getting really worried.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, we’ll start the search. Please let us know if you hear anything.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Roommate:~w~ Please find her. I just want to know she’s safe.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You reported a missing person? Can you tell me more about them?]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Landlord:~w~ Yes, it’s my tenant. He's been renting for a few months now. He's a bit of a loner, but he seemed alright. He just hasn't returned.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When was the last time you saw him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Landlord:~w~ It was a few days ago. He mentioned he was going out to hike the hills nearby. But he hasn’t come back since then, and it’s unlike him to be gone for so long.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Do you know if he had any specific hiking spots he liked to go to?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Landlord:~w~ He didn’t talk about it much, but I know he would often head to the ridge behind the old farm. Not many people go up there, it’s a bit secluded.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did he take any unusual gear with him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Landlord:~w~ Not that I know of. I think he just took his regular backpack and some water. No special gear or anything.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Has he ever disappeared like this before?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worry"><![CDATA[~y~Landlord:~w~ Not at all. He’s always been reliable, paid his rent on time. This is very out of character for him.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We’ll start the search now. If you hear anything, don’t hesitate to contact us.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Landlord:~w~ Please find him. I really hope he’s okay.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You reported a missing person? Can you tell me more about them?]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Landlord:~w~ Yes, it’s my tenant. She’s been renting here for a couple of months. She’s a bit of a quiet one, but recently she started talking about spending more time outdoors. She had a health scare last month, and she’s been getting into hiking to clear her head.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When was the last time you saw her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Landlord:~w~ A few days ago. She mentioned she wanted to get away for the weekend and go hiking in the nearby mountains to reset. I didn’t think much of it. She was supposed to be back today.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Do you know where she was headed specifically?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Landlord:~w~ Not exactly. She likes going up the trails near the old forest. The same ones she was telling me about when she mentioned the hike. She said she wanted to try a longer trek, but that was before she left.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did she take any special equipment with her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Landlord:~w~ Just the usual. Her backpack, a first-aid kit, and some water. She mentioned she was planning to be gone a while but didn’t tell me when she’d be back.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Has she ever been missing for an extended period before?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worry"><![CDATA[~y~Landlord:~w~ No, not like this. She’s always reliable and respectful. This is the longest she’s been gone without letting me know.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We’ll start the search now. If you hear anything, don’t hesitate to contact us.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Landlord:~w~ Please find her. I’m worried she’s not okay.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You called about a missing person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Housemate:~w~ Yes, it’s my housemate. He’s been missing since yesterday, and I have no idea where he is.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When did you last see him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Housemate:~w~ He left yesterday morning to go on a hike. That’s something he does all the time, but he usually comes back by the evening... this time, he didn’t.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Does he go hiking often?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Housemate:~w~ Yeah, he’s an avid hiker. He loves spending time outdoors. He’s gone on longer hikes before, but he always makes sure to check in or come back by the end of the day.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did he say where he was headed?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Housemate:~w~ Not exactly. He just said he was going out for a hike, but he never told me where exactly. He tends to go to the hills or the trails up by the old reservoir, but he didn’t mention anything specific this time.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Has he ever gone missing before?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Housemate:~w~ No, not like this. He’s always pretty predictable with his hikes. If he’s going to be late, he usually sends a text or calls. This time, nothing. It’s really unlike him.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Have you tried calling him?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Housemate:~w~ Yes, I’ve called and texted him multiple times. It just goes straight to voicemail every time. I’m starting to get really worried.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, we’ll begin the search. Please let us know if you hear from him.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Housemate:~w~ Thank you. I just want to know he’s safe. Please find him.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ You called about a missing person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Housemate:~w~ Yes, it’s my housemate. She’s been missing since yesterday, and I haven’t heard from her. I’m really worried.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ When did you last see her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Housemate:~w~ Yesterday morning. She left for a hike. She’s been doing this thing lately—after her hospital scare, she really wanted to reconnect with nature. She said it’s helping her heal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Does she go hiking often?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Housemate:~w~ Yeah, she does. But she’s been doing longer, more challenging hikes now. She mentioned wanting to spend more time alone in the mountains, away from everything. I thought it was a good idea, but now... I don’t know.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did she say where she was going?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Housemate:~w~ Not exactly. She just said she was going up to the trailhead by the lake. She mentioned she’d been wanting to do a long hike there for a while.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Has she ever gone missing like this before?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Housemate:~w~ No, she’s never been gone for this long. If she’s running late or something’s wrong, she always calls or texts me. This time, nothing. It’s been over 24 hours now.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Have you tried calling her?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Housemate:~w~ Yes, I’ve called and texted. She’s not picking up. I’m starting to lose it. I’m so scared something happened to her.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, we’ll start the search. If you hear anything, please let us know.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Housemate:~w~ Please find her. I just want to know she’s okay.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
