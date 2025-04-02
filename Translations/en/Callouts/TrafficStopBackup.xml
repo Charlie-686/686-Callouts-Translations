@@ -218,7 +218,8 @@
 			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect: ~w~Oh, so now I’M the bad guy? THAT MORON CUT ME OFF FIRST!]]></DIALOGUE>
 			<DIALOGUE EMOTION="firm"><![CDATA[~b~Officer: ~w~Reckless driving is a serious offense. I need to see your license.]]></DIALOGUE>
 			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect: ~w~FOR WHAT?! I DIDN’T EVEN TOUCH THEIR CAR!]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Officer: ~w~Sir, hand over your license. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding" TARGET="M"><![CDATA[~b~Officer: ~w~Sir, hand over your license. Now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding" TARGET="F"><![CDATA[~b~Officer: ~w~M'am, hand over your license. Now.]]></DIALOGUE>
 			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect: ~w~THIS IS BULLSHIT! YOU'RE JUST LOOKING FOR A REASON TO SCREW ME OVER!]]></DIALOGUE>
 			<DIALOGUE EMOTION="tense"><![CDATA[~b~Officer: ~w~Step out of the vehicle. Now.]]></DIALOGUE>
 			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Suspect: ~w~I’M NOT DOING A DAMN THING! GET AWAY FROM ME!]]></DIALOGUE>
