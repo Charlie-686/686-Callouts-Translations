@@ -97,10 +97,10 @@
 	</OUTCOME4>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE TARGET = "M" PLAYER "M"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" PLAYER "F"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" PLAYER "M"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" PLAYER "F"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER="M"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER="F"><![CDATA[~y~Agent de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER="M"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officier, merci d'être arrivé si rapidement.]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER="F"><![CDATA[~y~Agente de la station:~w~ Content de vous voir officière, merci d'être arrivée si rapidement.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Ce n'ai vraiment rien, pouvez-vous me donner plus de détails sur la situation s'il vous plaît?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Agent de la station:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~y~Agente de la station:~w~ {0}]]></DIALOGUE>
