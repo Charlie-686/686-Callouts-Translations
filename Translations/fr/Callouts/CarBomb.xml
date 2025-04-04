@@ -16,12 +16,12 @@
 		<FURTHERINFORMATION><![CDATA[Les services de renseignement policier nous ont signalés une personne mentalement instable avec une ~r~voiture piégée.~n~~w~Intervenez sur la scène de toute ~y~urgence.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Détonateur de bombe~w~, ~y~Du câblage]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE PLAYER = "M"><![CDATA[~r~Suspect:~w~ Je me rend! Vous pouvez m'arrêter officier!]]></DIALOGUE>
-			<DIALOGUE PLAYER = "F"><![CDATA[~r~Suspect:~w~ Je me rend! Vous pouvez m'arrêter officière!]]></DIALOGUE>
-			<DIALOGUE PLAYER = "M" TARGET "M"><![CDATA[~r~Suspect:~w~ Officier...Je suis désolé que ça doit se terminer ainsi...]]></DIALOGUE>
-			<DIALOGUE PLAYER = "M" TARGET "F"><![CDATA[~r~Suspect:~w~ Officier...Je suis désolée que ça doit se terminer ainsi...]]></DIALOGUE>
-			<DIALOGUE PLAYER = "F" TARGET "M"><![CDATA[~r~Suspect:~w~ Officière...Je suis désolé que ça doit se terminer ainsi...]]></DIALOGUE>
-			<DIALOGUE PLAYER = "F" TARGET "F"><![CDATA[~r~Suspect:~w~ Officière...Je suis désolée que ça doit se terminer ainsi...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M"><![CDATA[~r~Suspect:~w~ Je me rend! Vous pouvez m'arrêter officier!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~r~Suspect:~w~ Je me rend! Vous pouvez m'arrêter officière!]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="M"><![CDATA[~r~Suspect:~w~ Officier...Je suis désolé que ça doit se terminer ainsi...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Suspect:~w~ Officier...Je suis désolée que ça doit se terminer ainsi...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="M"><![CDATA[~r~Suspect:~w~ Officière...Je suis désolé que ça doit se terminer ainsi...]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Suspect:~w~ Officière...Je suis désolée que ça doit se terminer ainsi...]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>
@@ -34,5 +34,3 @@
 	    <OTHER><![CDATA[~y~Clés de voiture~w~, ~r~Une bombe]]></OTHER>	
 	</OUTCOME3>
 </CALLOUT>
-
-<!-- <![CDATA[]]> -->
