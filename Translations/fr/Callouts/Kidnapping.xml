@@ -36,10 +36,10 @@
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Bonjour, où est-ce que vous allez?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~r~Suspect:~w~ Conduire simplement cette personne à la maison.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ Je vois, laissez moi avoir un mod avec elle.]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" PLAYER = "M"><![CDATA[~y~Passager:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M" PLAYER = "F"><![CDATA[~y~Passager:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" PLAYER "F"><![CDATA[~y~Passagère:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
-			<DIALOGUE TARGET = "F" PLAYER "M"><![CDATA[~y~Passagère:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER="M"><![CDATA[~y~Passager:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "M" PLAYER="F"><![CDATA[~y~Passager:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER="F"><![CDATA[~y~Passagère:~w~ Salut officière, Vous avez besoin de quelque chose?]]></DIALOGUE>
+			<DIALOGUE TARGET = "F" PLAYER="M"><![CDATA[~y~Passagère:~w~ Salut officier, Vous avez besoin de quelque chose?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Toi:~w~ On vient de nous signaler un enlèvement, je veux juste vérifier que vous allez bien?]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~y~Passager:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~y~Passagère:~w~ Absolument! Je viens juste de faire des courses, elles sont dans le coffre.]]></DIALOGUE>
