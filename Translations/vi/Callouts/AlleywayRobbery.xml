@@ -1,8 +1,5 @@
 <CALLOUT>
 	<GENERAL>
-		<CALLOUTMESSAGE><![CDATA[Alleyway Robbery]]></CALLOUTMESSAGE>
-	<CALLOUT>
-	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Vụ cướp trong hẻm]]></CALLOUTMESSAGE>
 	</GENERAL>
 	<OUTCOME0>
@@ -26,5 +23,3 @@
 		<OTHER><![CDATA[Kiện hàng]]></OTHER>
 	</OUTCOME3>
 </CALLOUT>
-<!-- <![CDATA[]]> -->
-
