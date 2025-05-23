@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[拉客]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[接到报警发现疑似~y~妓女~w~正在拉客，前往现场~y~等待进一步指示~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[你正在接近现场，把车停好，不要被嫌犯~y~发现~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~等待嫌犯与受害者交谈~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[距离~r~嫌犯过近~w~。离远一点，以免被注意到。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~嫌犯已经惊动~w~。~n~正因如此，我们~y~无法收集证据~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[嫌犯已经接触受害者。~y~靠近与他们交谈进行调查~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[车辆与~y~嫌犯~w~无关。按照你认为合适的方式进行处理。]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~药具，白色粉末]]></OTHER>
+		<OTHER><![CDATA[~y~一包避孕套]]></OTHER>
+		<OTHER><![CDATA[~y~润滑油~w~，~r~白色粉末]]></OTHER>
+		<OTHER><![CDATA[~r~现金卷，弹簧刀]]></OTHER>
+		<OTHER><![CDATA[~r~现金卷]]></OTHER>
+		<OTHER><![CDATA[~y~丁字裤]]></OTHER>
+		<OTHER><![CDATA[~r~裸照]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~带血小刀]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：这里！这里！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：你快救救她吧！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：发生什么事了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：我正在散步，然后就发现了这个女人。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你看到发生什么事了吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：不幸的是没有，真希望我会早点出来。也许她还可以活下来...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：再说一下发现她的时候你在做什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：只是散步，我就住在这附近。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我相信你能理解，我需要进行一些检查 — 如果你能待在这里等一会就太好了。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：女士，我需要和你谈谈。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：有什么可以帮你的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我们接到报警说有人在这附近拉客，你知道这件事吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：什么！不是我，你认错人了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：今天天挺冷的，你穿的衣服很少。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我穿多穿少都没什么问题吧。我正要去参加一个派对。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：根据我们接到的报警描述，你一直到在漫无目的的四处闲逛。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我只是有点迷路而已，我可以走了吗？]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你们两个待在这里等下。我需要和你们谈谈。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我有什么可以帮你的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我已经接到报警声称这附近有人正在拉客，你知道这回事吗？]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~y~受害者~w~：是的！这个女人走到我的车旁，问我想不想要她提供'服务'...]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~y~受害者~w~：是的！这个女人走到我的车旁，问我想不想要她提供'服务'...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：这是真的吗，女士？]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~嫌犯~w~：我只是在做生意。你可以把我当作一个企业家。]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~嫌犯~w~：我只是在做生意。你可以把我当作一个企业家。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：真令人恶心 — 让她离我远点！赶紧把她抓起来。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：先冷静一下，我现在就来处理这个问题。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~y~嫌犯~w~已经进入载具。~n~~r~尽快进行临时截停然后开始调查~w~。]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+<!-- <![CDATA[]]> -->
