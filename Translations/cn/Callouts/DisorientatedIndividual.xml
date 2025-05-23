@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[迷路人员]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~接到报告~w~声称有人~y~非常可疑~w~，前往现场进行检查。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[身上闻起来有着~y~强烈的酒精气味~s~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~目标~w~：额.......]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，一切都还好吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你好！我能和你谈谈吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：不不不，我不想。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：如果可以的话最好了，能提供一下你的信息吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：额...不能，谢谢...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：再见，警官！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~目标~w~：你好，你终于来了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：我迷路了，我不住在这附近。我不知道该怎么回家了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：可以找个熟人来接你吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：哦，对啊，我现在就给他们发短信。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的。如果他们来不了，我再想想有没有其他办法。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：这是怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：没事...就是刚刚参加了一个很棒的派对。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：明白了，你现在只是在闲逛吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：是的，我喜欢散散步。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：能告诉我你的名字吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：我的名字是 Ben Dover。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你在和我开玩笑吗？我说的是你的真名。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：让我想想...我觉得应该是 {0}。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，一切都还正常吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：是的，都很正常。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的，我们刚刚接到报警声称这附近有人迷路了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：我是违法了吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没有，我们只是想确认一下你没事。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~目标~w~：我很好，但如果你让我一个人呆着我会更好。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：当然，祝你今天愉快。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

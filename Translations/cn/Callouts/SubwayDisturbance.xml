@@ -1,0 +1,80 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[地铁骚乱]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[接到路人报警声称有~y~两个人~w~正在~y~争吵~w~，事态正在不断升级。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~找到地铁入口~w~，尝试找到~y~争吵~w~人员。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~受害者~w~：救救我，那个疯子一直跟着我！]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：在靠近我就动手了！离我远点！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：啊！尝尝这个！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[看起来好像~y~非常激动~s~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[正在检索他们的详细资料，稍等。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[他们双方身份检查结果~g~一切正常~w~，无需担心。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你们俩个都冷静一点！]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~嫌犯 1~w~：警官！你根本不知道她有多混蛋！]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~r~嫌犯 1~w~：警官！你根本不知道他有多混蛋！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的... 但是请你冷静一下...不让大喊大叫。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 2~w~：你根本不知道我和那个废物在一起到底经历了什么。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：请你们先冷静一点。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 2~w~：好吧，那我们就冷静一下。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：到底发生什么事情了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 1~w~：那个混蛋闯入了我的生活，然后毁了它。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 2~w~：我没有。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我很担心你们俩的状态，我能相信你们会冷静下来吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 1~w~：好吧，也许我是有点失控了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯 2~w~：我的错，我不是故意的。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：能出示一下你们的证件吗？我简单的检查一下。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你们可以走了，谢谢你们的合作。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[按下 ~y~Y~w~ 键将目标移动到安静的地方进行交谈。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~成功~w~，目标正在跟随着你。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[回去与~r~嫌犯~w~进行交谈。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嘿，你们是一起旅行的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：是的，有什么事情吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我们接到报警声称你俩正在争吵。所以我就来检查一下。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：：没有必要，我们只是小打小闹，已经和好如初了。]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~b~你~w~：先生，请跟我来，我需要和你单独谈谈。]]></DIALOGUE>
+			<DIALOGUE TARGET = "F"><![CDATA[~b~你~w~：女士，请跟我来，我需要和你单独谈谈。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~你~w~：非常感谢。你能告诉我一切都还好吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我被逼着跟着他！我不知道是要去哪里！请你帮帮我！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：还有什么是我该知道的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：他身上可能有武器，小心点。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~你~w~：谢谢你的等待。我想问一下你身上有带什么武器吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我身上什么都没有。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你确定吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：君子一言，驷马难追。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好吧。我需要你和我回去警局配合调查，请把手放在我能看到的地方。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我的工作已经完成了，把我抓起来吧。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你也看到他们是怎么对我的，警官！那不是我的错！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：谢谢你赶过来！我给你描述一下发生了什么。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：我当时正在忙我自己的事情，有两个人从我身边经过。他们吵得很厉害！看起来其中一个就要动手打另一个人了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：他们往哪边走了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：我不太确定，但我想他们已经进了地铁站。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：听起来好像就是在那边，谢谢你！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~旁观者~w~：不客气！]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

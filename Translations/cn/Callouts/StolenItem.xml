@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[偷窃案件]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[发生~y~盗窃案件~w~；与~y~受害者~w~进行交谈调查盗窃案件。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[根据可靠消息报告，嫌犯正在~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[步行~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[驾车~w~。]]></NOTIFICATION>
+		<OTHER><![CDATA[手机]]></OTHER>
+		<OTHER><![CDATA[笔记本]]></OTHER>
+		<OTHER><![CDATA[钱包]]></OTHER>
+		<OTHER><![CDATA[钥匙]]></OTHER>
+		<OTHER><![CDATA[相机]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[看起来好像~y~有点动摇~s~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你想干什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：发生了一起盗窃案，我们需要对你进行搜身。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：如果你没有证据，那么我不会回答你的任何问题！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我是来逮捕你的。跟踪器显示有个 {0} 就在你身上。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：错了！你们技术根本不可靠，找错人了。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你想干什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我们认为你身上有被偷的 {0}，我需要检查一下。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我投降，把我抓起来吧。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的，举起你的双手，我现在就逮捕你。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[找到~r~嫌犯~w~，~y~搜索区域将会定期更新~w~。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~受害者~w~：帮帮我，我被抢劫了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你能告诉我嫌犯的相关信息吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~受害者~w~：没有，但是被偷的 {0} 有 GPS 定位系统，应该会有点用处。 ]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：太好了，我通知一下调度中心，他们会帮忙找到它的。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：好的，希望你能帮我找回来，它很重要。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：当然，我们会联系你的。我现在就去帮你找。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

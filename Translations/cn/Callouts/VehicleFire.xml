@@ -1,0 +1,61 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[载具失火]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键接受调度任务。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~线人挂断电话~w~。我们已将你的 ~g~GPS~w~ 设定为目标地点。请前往进行调查。]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[发现~r~被盗载具~w~失火。立即前往现场。]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[一旦现场清理完成，按下 ~y~{0}~w~ 键设置 GPS 为车主的家。]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[通知住在附近的 ~y~{0}~w~ ~p~车主~w~。]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[火情已经得到控制。前往车主登记住址。]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嗨，恐怕我要告诉你一些坏消息。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：不幸的是，今天早些时候，我处理了一起车辆失火案件。我们发现那辆车是你的，然后查到你最近报警说那辆车被偷了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：是的...不敢相信。它被烧了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：对的。这里有一些关于这类事件的处理意见，希望能帮到你。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：非常感谢，我的保险应该包括这种事情。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：那就太好了。祝你今天愉快，我们会再进一步与你联系交代更多细节。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好。我是来通知你一些消息的。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：是关于我车子的事情吗？鉴于它没有出现在你的身后，我好像有点不好的预感。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没错。今天早些时候我们发现了有辆汽车失火，那就是你的车。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：什么？怎么回事？到底发生什么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：目前而言，我们并没有掌握太多信息，只是很有可能是谋杀。这里有一些关于这类事件的处理意见。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：好的，谢谢你。我应该去看看我的保险了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：非常抱歉，我们会再联系你的。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：打扰一下？你好，我需要和你谈谈。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：发生什么事了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：关于你的车子。今天早些时候我们接到关于车辆起火的报警电话。我们查到你就是那个车主，然后过来通知你一下。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：真的吗？你确定那是我的车吗？什么东西！我以为它被偷了，怎么又被烧了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：目前还不清楚原因，仍在调查。这里有一些关于这类事件的处理意见。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：谢谢你。我现在还没缓过来。希望没人受伤，特别是如果这一切都是有人故意的。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：祝你今天愉快，如果还有其他问题，请随时联系我们。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，我能帮你做些什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~线人~w~：听着，我时间不多了，但是有件事我得告诉你。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：对不起，你是？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~线人~w~：这不重要，有一辆车马上就要被烧毁了。你先必须赶紧过去！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：在哪里？你为什么来找我？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~线人~w~：我已经把位置发到你的手机上面了。有人犯了个错误，他们想要报复无辜的人。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：谁？他们为什么要烧别人的车？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~线人~w~：...他们犯了一个错误。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：先等一下。我需要再了解一下更多情况。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~线人~w~：透露的太多了...操...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

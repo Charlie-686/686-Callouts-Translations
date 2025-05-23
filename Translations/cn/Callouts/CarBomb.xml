@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[汽车炸弹]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键尝试~y~拆除炸弹~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[车辆~r~可能随时爆炸~w~。~n~要么~y~让平民远离车辆~w~，要么~y~尽快结束追捕~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~成功~w~。~n~炸弹已被拆除，请按照你认为合适的方式进行处理。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~失败~w~。~n~炸弹拆除失败~w~，立即~y~疏散周围区域~w~。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[情报部门报告发现~r~汽车炸弹~w~。~n~~y~立即~w~响应前往现场~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~带有炸弹~w~的嫌犯正在驾车~y~逃窜~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[车辆~r~可能随时爆炸~w~。~n~要么~y~让平民远离车辆~w~，要么~y~尽快结束追捕~w~。]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~炸弹雷管]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[情报部门报告发现精神异常的人携带~r~汽车炸弹~w~。~n~~y~立即~w~响应前往现场。]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~炸弹雷管~w~，~y~电线]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我投降！把我抓起来吧！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：...我很抱歉，但是必须要这样做...]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[情报部门报告发现~r~汽车炸弹~w~。~n~~y~立即~w~响应前往现场~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[汽车炸弹~y~已被引爆~w~。~n~~w~伤亡人数：~r~{0} 名。]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~电线~w~，~r~炸药]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[情报部门报告发现~r~汽车炸弹~w~。~n~~y~立即~w~响应前往现场~y~拆除炸弹~w~。]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~汽车钥匙~w~，~r~炸弹]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

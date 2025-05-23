@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[疑似跟踪]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[有~p~市民~s~报警声称正在被人跟踪，前往现场~y~确保报警人的安全~w~！]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：没错，我是在跟踪那个人，但是监狱不是我的归宿，我不会回去的！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~受害者照片~s~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：离我远点！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：冷静，我们接到报警声称你正在跟踪别人。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：滚开，我什么都没做！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你是拒绝和我交谈吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：是的，我不喜欢和猪说话，一般情况都是直接吃的！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[他不太像是跟踪者，有着明确的记录。~y~完成交谈后回到受害者那里~s~。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你好，有什么需要帮忙的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我们接到报警说你在跟踪别人，是有这么一回事吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：什么？不，一定是弄错了。我只是去买点东西，只是恰好同一条路而已，绝对不是跟踪。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：让我联系一下我的同事说明一下情况。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：当然，我可以等会再去购物。不用担心。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~你~w~：你可以走了，看起来可能是弄错了。祝你今天愉快。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者~w~：很高兴再次见到你，怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我和他谈过了，但他不太可能是跟踪你。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我很抱歉，确实可以说得通。我可能疑心过重了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没事，安全第一。如果再遇到这种情况请随时给我们致电。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：好的，抱歉给你带来了这么多麻烦。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[已经发现嫌犯。~y~结束交谈~w~后去寻找嫌犯。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者~w~：谢谢你赶过来！我被跟踪了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我就在这里。你能解释一下发生什么事情了吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我被人跟踪了...但我已经忘记他长什么样子了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没关系，这很正常。我会让我的同事检查这片区域的监控。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：对了，大概是15分钟前在 ~y~{0}~w~。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的，我现在就通知他们。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：他们正在检查监控，还有什么其他细节吗？越多越好。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：没有了，完全不知道为什么他一直跟着我，两个小时了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：不用担心，我们会处理好的。]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~你~w~：我们找到他了，我现在就过去。你先去忙你的事情吧，我们会联系你的。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP 撤离]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键要求 VIP 跟随你。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP ~w~现已~g~跟随着你~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[条件允许的情况下，将 ~o~VIP 撤离~w~到警局！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP 已经安全救出~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP 已经死亡~w~。~y~击退剩余敌人~w~，根据现场情况进行处理！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[靠近 ~p~VIP~w~ 要求其~g~跟随着你~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[一架~r~身份不明的直升机正在进入附近领空。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIP 的安保人员~r~受到攻击~w~。前往协助~y~解除威胁~w~，等待进一步的指示！]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~保护 VIP~w~！调度中心将在控制现场后提供更多指示。]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIP 的安保人员已被~r~击杀~w~。营救~y~被劫持为人质的 VIP~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[尝试在~o~不被袭击者发现~w~的情况下~y~接近 VIP~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~已被敌人发现~w~。现在你们已经成为袭击者的~o~目标~w~，~g~保护 VIP~w~。]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

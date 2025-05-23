@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[非法闯入]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[有一名房主报警声称有人~y~尝试闯入~w~他的住处，嫌犯目前已经逃离现场。]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[按下 ~y~{0}~w~ 键收集证据。]]></OTHER>
+		<OTHER><![CDATA[成功收集~g~{0}~w~。]]></OTHER>
+		<OTHER><![CDATA[身份证]]></OTHER>
+		<OTHER><![CDATA[钱包]]></OTHER>
+		<OTHER><![CDATA[剪刀]]></OTHER>
+		<OTHER><![CDATA[项链]]></OTHER>
+		<OTHER><![CDATA[鞋子]]></OTHER>
+		<OTHER><![CDATA[撬棍]]></OTHER>
+		<OTHER><![CDATA[手机]]></OTHER>
+		<OTHER><![CDATA[~y~搜索~w~附近区域寻找尝试非法闯入的证据和线索，完成后~y~与房主交谈~w~。]]></OTHER>
+		<OTHER><![CDATA[~r~撬锁工具]]></OTHER>
+		<OTHER><![CDATA[~r~手套]]></OTHER>
+		<OTHER><![CDATA[~y~面具]]></OTHER>
+		<OTHER><![CDATA[~y~防寒帽]]></OTHER>
+		<OTHER><![CDATA[~r~袖珍小刀]]></OTHER>
+		<OTHER><![CDATA[~r~撬棍]]></OTHER>
+		<OTHER><![CDATA[~y~望远镜]]></OTHER>
+		<OTHER><![CDATA[~r~口塞]]></OTHER>
+		<NOTIFICATION><![CDATA[查看~y~照片~w~确定嫌犯长相，然后~y~搜索区域~w~逮捕~r~嫌犯~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[这是~r~嫌犯~y~照片~w~。~n~按下 ~y~Y~w~ 键可再次查看此通知。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[这里~r~没有证据~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[现场发现~y~{0}~w~与~r~{1}~w~有关。请求调度中心提供此人详细信息。]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[正在检查附近所有有关 ~r~{0}~w~ 的踪迹，请原地待命。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[你已收集~y~{0}~w~/~g~{1}~w~ 项证据。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[你已收集~g~{0}~w~/~g~{1}~w~ 项证据。]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[一旦成功~y~逮捕~r~嫌犯~w~，按照你认为合适的方式进行处理。]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~嫌犯~w~正在逃窜！]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~嫌犯~w~已经~y~投降~w~，逮捕嫌犯然后进行调查。]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者~w~：警官，帮帮我！帮帮我！]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~你~w~：我就在这里，你现在很安全。你能告诉我发生什么事了吗？]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~你~w~：我就在这里，女士，你现在很安全。你能告诉我发生什么事了吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：有人想要闯入我的家里...我听到他的声音之后就把我自己锁在房间里面了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我明白了，你看到那个人是什么样子了吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我没有，但在你来之前，我听到房子外面有很多动静，我也不知道他在做什么！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：谢谢你，我先去房子周围看看能不能找到什么。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：我已经搜索了附近区域，但不幸的是没有发现任何有关非法闯入的证据。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：真遗憾...现在该怎么办？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我们稍后会让警探来进一步的调查。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：不幸的是，现在初步调查一无所获。目前我也无能为力了。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：我已经搜索了附近区域，发现了与嫌犯有关的证据 我现在就去把他抓起来。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：太棒了，祝你好运。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~受害者~w~：帮帮我！我听到外面好像有人，吓死我了！]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~你~w~：冷静一点，我就在这里，你能描述一下你听到了什么吗？]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~你~w~：别担心，你现在安全了。能告诉我具体发生了什么吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：我听到有人敲窗户的声音，但我没敢去看到底是不是有人。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：好的，在此之前还有什么其他异常情况吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：不，在此之前一切都很正常。麻烦帮忙检查一下吧。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我会尽力的，我现在就去检查一下周围有没有非法闯入的痕迹。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：我搜索了房子附近，没有发现任何有关非法闯入的证据。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：额...现在该怎么办？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：需要等待警探过来进一步的进行调查。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：遗憾的是，我暂时也无能为力了。]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：好消息！我在附近发现了证据，可能会帮助找到嫌犯。我现在立刻开始追查。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~受害者~w~：那我就放心了，谢谢你，路上小心。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[抗议活动]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[有~r~抗议活动~w~正在进行，道路已被封锁。等待调度中心进一步的指示。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[抗议活动现已升级为~r~暴力事件~w~，~n~~y~立即响应~w~前往现场。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~监督抗议活动~w~直至结束，确保活动顺利进行。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[抗议活动~g~没有升级~w~，现已结束。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[抗议活动仍在继续。请与~o~领头者~w~进行交谈。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[抗议者们~g~正在离开现场~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~路人~w~：烦死人了，我们需要过去上班，赶紧让他们滚开！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~路人~w~：他们挡住路了，赶紧让他们让开，这很不安全。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~路人~w~：我告诉过你别让他们挡道！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~路人~w~：我觉得他们可能会窒息！]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你也要加入我们吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你们这是因为什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我们相信气候变化正在毁掉我们的国家 - 政府需要立即行动起来！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：抱歉，你们必须离开。如果你们想要堵住道路举行抗议活动必须事先获得批准。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：为什么？我们有正当理由！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你们不能未经批准就这样堵在路上。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我跟其他人说过这件事...但他们不听。我会告诉他们我们得走了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：谢谢，请整理好你们的东西，恢复这里的交通。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：好了，都结束了，我们走吧。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：看看谁来支持我们了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：为什么要这样？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：食品价格飞涨，我们受够了！大家都要饿死了！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：不能在这里举行抗议活动，你们会危及公共安全。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我们不会离开的，我们有正当理由！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：请你们离开，在这里举行抗议活动是违法行为。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我们不会走的，去烦别人吧。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

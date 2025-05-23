@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[封闭车道]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~拖车司机~w~请求~o~封闭车道~w~以便安全处理抛锚车辆。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~封闭受影响的车道~w~并与~o~拖车司机~w~进行交谈。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~保持车道封闭~w~并重新引导交通，让~o~拖车司机~w~安全处理抛锚车辆。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~成功修复抛锚车辆~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[由于无法修复，车辆将被~o~拖走~w~。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+		<DIALOGUE><![CDATA[~y~技工:~w~ 你好，我已经把车修好了，马上就离开这里！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~技工:~w~ 抱歉，在这里没办法修好那辆车，我会把它拖走处理。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，有什么可以帮你的吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~技工~w~：你好，我需要你封闭车道，这样我才能安全地处理那辆车。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没问题，祝你好运，有什么需要尽管说。]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

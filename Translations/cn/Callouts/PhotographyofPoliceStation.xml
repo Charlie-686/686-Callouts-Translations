@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[拍摄警局]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[有人正在~y~对着警局拍照~w~。前往现场进行交谈找出原因。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，你在干什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：没事，什么都没有。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：放下相机，我需要和你谈谈。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：这里发生什么事了？什么风把你吹到这里来了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我没做违法乱纪的事情，别来烦我。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我只是想和你聊聊，了解一下发生了什么事情。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我是在做一些完全合法的事情。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我只是想和你谈谈。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：不要想侵犯我给公共财产拍摄的权力。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，请问你为什么要对着警局照相？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：只是想上传到我的社交媒体频道，可以吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：可以，只是你拍的时间那么久让人感觉有点奇怪。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我明白，我这就走。我拍完了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：谢谢。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[已经收到电话号码，初步调查已经开始。谢谢。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嗨，你为什么对着警局拍照？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你真的想知道吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：是的，请讲。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我知道听起来有点不可思议，但是有个叫做 Jeff 的人给我发短信，让我这么做的。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我现在才反应过来，真蠢。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我觉得咱们想法应该一样，你能给我他的电话号吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我想你该回家了，下次你应该想想你到底在和谁聊天。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：是的，我明白。对不起，给您添麻烦了。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嗨，你为什么对着警局拍照？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：你好！我非常喜欢你们和你们所作的工作。所以刚刚给你们警局拍了几张照片，可以吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我明白了，如果我没想错的话，这算是一种爱好吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：没错！我一直都想成为一名警察，但是你应该也能看出来，我没能如愿。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：很有意思，我只是想看看你是什么情况，弄清楚到底怎么回事。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：很抱歉浪费了你的时间，但不管怎么说我已经拍完了，如果要我自己来说的话，我觉得很不错。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没关系，希望你今天愉快。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：好吧，我该走了。也许未来我们可能还会再见。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

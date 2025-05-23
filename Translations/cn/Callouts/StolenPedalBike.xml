@@ -1,0 +1,53 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[单车被盗]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[发现~y~被盗单车~w~，截停嫌犯。]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，我可以问你几个问题吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：当然可以，注意你身后的车。小心！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嘿，你好。我们可以谈谈那辆自行车吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：它怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：今天有人报警它被盗了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：哦，哈哈。对不起，那是我！我以为它丢了，但是我找到了它！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我明白了，所以自行车是登记在你的名下的？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：是的，你可以随便检查。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[看起来好像~y~非常焦虑~s~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：嘿，我之所以和你说话，是因为那辆自行车。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我正打算出去呢。轮胎是不是没气了，怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：昨天有人报警声称那辆自行车被偷了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：哦。额，这很奇怪。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：你不知道为什么会这样？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：额...是的！我完全忘记我给你们打过电话了。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：你好，我们能谈谈那辆自行车吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：当然。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：根据我们的记录显示，它最近被报告为被盗。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：抱歉？你说什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我对此事不发表任何意见。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：啊！不是你！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

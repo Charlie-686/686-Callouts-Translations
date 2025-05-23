@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[区域监控]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[前往~y~{0}~w~标记处，并在指定区域进行~b~临时监控~w~。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[停好车辆，注意观察~o~可疑行为~w~。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[附近发现~r~可疑包裹~w~！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[尝试通过定位~r~恐怖份子~w~来~o~拆除~w~炸弹。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[你已~r~发现恐怖分子~w~。逮捕目标获取~g~炸弹超控代码~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[你已~g~获取超控代码~w~。前往~r~炸弹~w~附近。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键使用超控代码~r~拆除炸弹~w~（代码位于恐怖分子身上）。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键使用超控代码~r~拆除炸弹~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[输入超控代码，介于1-9之间的数字。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[猜测超控代码，介于1-9之间的数字。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~炸弹拆除失败~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~炸弹拆除成功~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[超控代码：~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~无效输入~w~。请输入介于~y~1~w~-~y~9~w~之间的数字。]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[区域监控~g~顺利~w~完成，返回巡逻。]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

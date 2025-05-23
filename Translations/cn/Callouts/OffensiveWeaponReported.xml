@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[攻击性武器]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~嫌犯正在移动~w~！~n~前往最新位置。]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[看起来好像~y~非常苦恼~s~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：别动，把手从口袋里拿出来。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：怎么了？我什么都没做！]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我需要你的配合，好吗？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：然后呢，你想干什么？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我需要你现在把手举起来。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：不！赶紧滚开！]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[逮捕嫌犯，按照你认为合适的方式进行处理。]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~你~w~：别动，把手放在我能看到的地方。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：我知道你带着武器。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：哦，不..哦...不...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：怎么了？]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：求求你了，我很抱歉！我不是故意的...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：一会再说这个，现在你只需要知道配合我就行了。]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~嫌犯~w~：我再也不会带着它了，我不想这件事出现在我的档案上...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~你~w~：没关系的，举起手来，我不想伤害你。]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

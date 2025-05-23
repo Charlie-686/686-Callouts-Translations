@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[恐怖袭击]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~{0}~w~正在发生恐怖袭击。遏制~r~恐怖分子~w~以防止更多人丧生。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~可疑车辆~w~正在靠近你的位置。务必保护现场！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[注意，共有 ~y~{0}~w~ 名恐怖分子正在向你靠近。]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[小巷抢劫]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[在{0}附近发生~y~疑似劫案~w~，前往现场进行调查。]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[在{0}附近发生~y~疑似劫案~w~，前往现场进行调查。]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[赃物]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[在{0}附近发生~y~疑似劫案~w~，根据报警描述声称受害者被人~r~用枪指着~w~，前往现场进行调查。]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[在{0}附近发生~y~疑似劫案~w~，有两名可疑人员，前往现场进行调查。]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[按下 ~y~{0}~w~ 键~g~归还~w~赃物。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[找回被盗~y~{0}~w~作为~g~证据~w~。]]></NOTIFICATION>
+		<OTHER><![CDATA[背包]]></OTHER>
+		<OTHER><![CDATA[购物袋]]></OTHER>
+		<OTHER><![CDATA[披萨]]></OTHER>
+		<OTHER><![CDATA[笔记本电脑]]></OTHER>
+		<OTHER><![CDATA[包裹]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[高危押送]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[一名~y~囚犯~w~需要~y~押送~w~前往~y~{0}~w~。押送人员正在等待你的抵达。]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~押送信息~w~：~n~ 你将押送~y~{0}~w~，{1}。]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[密申罗警局]]></OTHER>
+		<OTHER><![CDATA[博林布鲁克监狱]]></OTHER>
+		<OTHER><![CDATA[他领导一个涉及腐败警察的~r~有组织犯罪团体~w~]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[他是一名臭名昭著的~y~黑帮头目~w~，目前正在候审，有可能成为敌对帮派的目标]]></OTHER>
+		<OTHER><![CDATA[他是一名警员，后来~y~贪污受贿~w~与犯罪集团有密集的联系]]></OTHER>
+		<OTHER><![CDATA[他是一名~y~毒枭~w~，与当地最大的毒品活动有关]]></OTHER>
+		<OTHER><![CDATA[他是一名~y~黑客~w~，目前正在监狱服刑]]></OTHER>
+		<OTHER><![CDATA[他长期控制~y~非法武器交易~w~，目前已经被捕]]></OTHER>
+		<OTHER><![CDATA[他是一名~y~恐怖分子~w~，其他同党可能会谋划劫持车队]]></OTHER>
+		<OTHER><![CDATA[他创立了一个~y~暴力街头帮派~w~，面临着来自敌对帮派的报复]]></OTHER>
+		<OTHER><![CDATA[他是一名臭名昭著的~y~毒品走私团伙~w~的成员，最近毒品走私团体已被当局捣毁]]></OTHER>
+		<OTHER><![CDATA[他参与建立了一个~y~全球洗钱计划~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[当准备就绪后，~y~带领车队~w~按照~r~计划路线~w~前进。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[我们发现一辆~y~可疑车辆~w~正在跟踪我们的车队，请原地待命。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[前往发现~r~路障~w~！不惜一切代价保护车队。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[附近发现~y~可疑车辆~w~，检查你的雷达！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~囚犯~w~已经~r~死亡~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~新的目标~w~：~n~ 保住性命，恢复秩序，击败残敌！]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~押送危险等级~w~：~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~低]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~中]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~高]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[押运车辆~y~司机~w~已经~r~死亡~w~！现在需要由你~y~驾驶押运车辆~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[押送~r~失败~w~，~y~囚犯~w~已经~r~死亡~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[押送~g~成功~w~，~y~囚犯~w~已经~g~抵达~w~。]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~押送卡住~w~？任意时间按下 ~y~{0}~w~ 键重置车队。]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
