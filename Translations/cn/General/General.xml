@@ -1,0 +1,63 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Loaded perfectly~w~, time to patrol!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~You are on an old build!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Loaded, but please update 686 Callouts when possible.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Beta Build detected.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Thanks for your testing & feedback. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Failed to check for updates!]]></FAILED>
+		<FAILED><![CDATA[~y~Loaded, but we weren't able to check for updates.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 标注缺少文件！~]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts 文件夹]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[音频文件夹]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[音频文件]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[翻译文件夹]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[职业统计]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[完成任务]]></CALLS>
+		<FIGHTS><![CDATA[发生交火]]></FIGHTS>
+		<PURSUITS><![CDATA[追捕次数]]></PURSUITS>
+		<ARRESTS><![CDATA[逮捕嫌犯]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[嫌犯死亡]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~行为分析~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[嫌犯~y~{0}。]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[行为分析~y~{0}。]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~预防崩溃]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~可能出现问题~w~。请与作者联络，]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~距离检查]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[抱歉，距离过近，无法开始调度任务。]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[GTAV 问题]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV 删除了一个人物！除了防止游戏崩溃之外，我们无能为力，但这种情况不会经常放生。]]></INVALIDPED>
+		<DISPATCH><![CDATA[调度中心]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[对话结束，按照你认为合适的方式进行处理。]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[按下 ~y~{0}~w~ 键开始进行交谈。]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[任意时间按下 ~y~{0}~w~ 键结束调度任务。]]></ENDREMINDER>
+		<INFORMATION><![CDATA[信息]]></INFORMATION>
+		<CODE4><![CDATA[调度任务状态 ~g~CODE 4~w~。]]></CODE4>
+		<PURSUITUPDATE><![CDATA[追捕更新]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[确认嫌犯姓名为~y~{0}~w~。]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[确认嫌犯姓名为~y~{0}~w~，先前已经有过~y~{1}~w~次犯罪记录。]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[确认嫌犯性别为~y~男性~w~。]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[确认嫌犯性别为~y~女性~w~。]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[确认嫌犯姓名为 ~y~{0}~w~，先前已经有过~y~{1}~w~次截停记录。]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[~y~暂无~w~嫌犯~y~详细信息~w~。]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[调度中心]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[紧急呼叫]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[调度任务：~b~{0}~n~~w~任务地点：~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL> 
+
+<!-- <![CDATA[]]> -->
