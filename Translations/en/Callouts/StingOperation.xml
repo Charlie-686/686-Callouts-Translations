@@ -1,0 +1,115 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Sting Operation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[An officer is running a sting operation on ~r~illegal firearm trades~w~. Drive to the ~y~meetup spot~w~ and speak with them.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Drive the ~y~informant~w~ to the ~r~gun store~w~ and park up nearby.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[When you are ~o~parked up covertly outside the store~w~, press ~y~{0}~w~ to begin the sting operation.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Enter ~r~Ammunation~w~ and arrest the clerk for ~r~illegal firearm trading~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Clerk: ~w~You the one Terry sent?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informant: ~w~Yeah. Said you’d know what I’m here for.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~Clerk: ~w~Depends. You lookin’ for home defense, or... something a little louder?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~b~Informant: ~w~Something that don’t jam when it counts. You feel me?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~r~Clerk: ~w~Got just the thing. No papers, clean barrel. You got the cash?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Informant: ~w~All here. Just like we talked about.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Clerk: ~w~Alright. Lemme bag it up. Don’t flash that thing ‘til you’re outta here.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Informant: ~w~No worries. We done?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~r~Clerk: ~w~We’re done. Now get lost.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informant:~w~ Here, just like he promised. No serials, it was just in this bag.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ He gave it up easily. I told him Terry sent me, like we rehearsed. He asked if I wanted “home defense or something louder.”]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informant:~w~ I said I needed something reliable — something that wouldn’t jam. That’s when he offered me this.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ No paperwork was mentioned.. Said it was “clean barrel, no papers.” Asked for the cash, handed it over, told me to leave quiet.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informant:~w~ One more thing before you go in — he’s got a shotgun stashed low behind the counter, left-hand side. Might get jumpy.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informant:~w~ Here, just like he promised. No serials, it was just in this bag.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ But here's the thing — I’ve seen this before. I'm pretty damn sure this is the piece used in that East Vinewood shooting last month.]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Informant:~w~ Same scratch on the side, same missing rear sight. I remember 'cause the crime scene photo made the rounds.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informant:~w~ If this is what I think it is, he's sitting on evidence — and he doesn’t even know, or he’s playing dumb. Either way, this got real serious.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Informant:~w~ You should go in and arrest him, but be real careful. This could get messy.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informant:~w~ Here you go. No serials, untraceable, just like he said. Straight from under the counter.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informant:~w~ He didn’t ask many questions. Took the cash, handed it over in a discreet bag.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~Informant:~w~ Kept glancing at the window though. I figured he was just being paranoid.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Informant:~w~ — Wait, hold up. Yo—he’s running. The clerk, he’s bolting out the door!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Informant:~w~ He must’ve clocked me or saw something he didn’t like. You better move — he’s not sticking around!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Clerk: ~w~You the one Terry sent?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informant: ~w~Yeah. Said you could help me out... with something off the books.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Clerk: ~w~We got a catalog, permits, background checks. That kind of help?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informant: ~w~Nah, I’m not here for red tape. I need serious firepower, no questions.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Clerk: ~w~No questions? You sure you’re in the right place, buddy?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pushy"><![CDATA[~b~Informant: ~w~C’mon, man. Terry said you had access. Full auto, no serials, clean stock. I'm ready to buy right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Clerk: ~w~Terry talks too much. Get out. And don’t come back.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~Informant: ~w~Alright, alright. No problem. I’m gone.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Clerk: ~w~Damn right you are. Don’t test me.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="regretful"><![CDATA[~y~Informant:~w~ That was a bust. He shut it down the moment I got specific.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ashamed"><![CDATA[~y~Informant:~w~ I thought if I showed I was serious, he’d make the offer. Instead, he got real quiet, real fast.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ I asked for full auto, no serials... said I had the cash ready. He told me to get out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informant:~w~ I pushed too hard. That’s on me. I thought I could close it quick, but I blew the setup. I’m sorry.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informant:~w~ There's nothing to follow up on — we’ve got no evidence. Sorry this one didn’t pan out. Sometimes it goes that way.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Informant:~w~ Anyway... I’ll hop out here. You should return to patrol — maybe this one's just a dead lead.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Clerk: ~w~You the one Terry sent?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~Informant: ~w~Yeah. Said you could help me out... with something off the books.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Clerk: ~w~We got a catalog, permits, background checks. That kind of help?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informant: ~w~Nah. I'm not looking to fill out paperwork. I need something clean, untraceable.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~r~Clerk: ~w~You some kind of cop? 'Cause this feels like a setup.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~Informant: ~w~Do I look like a cop? Terry vouches for me. I’ve got cash. That’s all that should matter.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Clerk: ~w~Yeah? Well Terry runs his mouth too much. Last guy he sent brought heat to my door.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~Informant: ~w~Not me. I’m in and out, one-time buy. Full auto, no serials, clean stock. That's the deal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~Clerk: ~w~You sure you know what you're asking for? Stuff like that doesn’t just fall off a truck.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~Informant: ~w~I know exactly what I’m asking. I’ve got the money. Just say yes or no.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~Clerk: ~w~...Maybe. Depends who’s watching today. You alone?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Informant: ~w~No tails. No wires. Just me and the cash.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Clerk: ~w~Alright. Wait here. Let me check the back.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Gang Member 1: ~w~Yo! You think we wouldn’t find out you sold to Big Ray's crew?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Clerk: ~w~I don’t know what you’re talkin’ about.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~r~Gang Member 2: ~w~Cut the crap. You gave them crates last week. Now they’re flexin’ like they own the block. That’s on you!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Gang Member 1: ~w~We were loyal customers. Now you doin' deals with the enemy — and while we’re standin’ right here? Disrespectful.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Clerk: ~w~Look—business is business. I don’t pick sides.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~Gang Member 2: ~w~Wrong answer, punk. You just picked a side right now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Clerk: ~w~Hey! Don’t—don’t do anything stupid!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Informant:~w~ I’m not trying to die out here!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="excited"><![CDATA[~y~Officer:~w~ Thanks for arriving sir- let's talk about how we can take down the illegal firearm trade!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="excited"><![CDATA[~y~Officer:~w~ Thanks for arriving m'am- let's talk about how we can take down the illegal firearm trade!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Officer:~w~ We've been investigating lots of illegal firearms being used, and we think we've got them now- we just need the proof.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Officer:~w~ Our investigation has pinpointed a nearby gun store. Their paperwork all checks out, but recent shootings trace back here. ]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Officer:~w~ And the source of all these weapons? This store. Our forensics teams are bloody good at what they do.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ I'm the informant, and together we'll head to the store nearby. We've been ready for this moment for a while.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Officer:~w~ I've got to head back on patrol now- drive the informant to the store, they'll tell you everything you need to know on the way.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Sounds good. Jump in my car, let's begin the sting!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ Alright, so here’s how this is gonna go. I head inside, ask for a “clean piece.” Nothing traceable.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~Informant:~w~ You should hang back — wait in the car, engine running, but try to be out of sight.]]></DIALOGUE>
+			<DIALOGUE EMOTION="instructive"><![CDATA[~y~Informant:~w~ If you can hear what’s going on through the door, good. But don’t be obvious. These guys spook easy.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Informant:~w~ Once the deal goes through, I’ll walk out like nothing happened and head back to your vehicle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Informant:~w~ Let’s just hope they don’t smell a setup. Last time someone got cute in there, they didn’t walk out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informant:~w~ If it all goes clean, we pull up to the store, I get out, do the deal, head back in the car — then we talk next steps. Cool?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Informant:~w~ That said, if something goes bad, they catch on or we get some uninvited visitors, I will need you to back me up.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Informant:~w~ I’ve done worse jobs. But I wouldn’t mind getting through this one without holes in me. Let's not screw this up.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT> 
