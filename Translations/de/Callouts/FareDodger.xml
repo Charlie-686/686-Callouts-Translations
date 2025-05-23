@@ -94,7 +94,7 @@
 			<DIALOGUE><![CDATA[~b~Sie:~w~ Gerne, das ist mein Job, könnten Sie bitte einige Details zur Situation angeben?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ {0}]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Sie:~w~ Verstehe. Das ist alles andere als gut. Wo könnten er sich jetzt befinden?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~y~Bahnhofspersonal: ~w~Es gab noch keine Züge, also wird er wahrscheinlich auf dem Bahnsteig sein.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Bahnhofspersonal:~w~ Bisher ist noch kein Zug abgefahren, also wird er wahrscheinlich auf dem Bahnsteig sein.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Sie:~w~ Vielen Dank für Ihre Hilfe, ich werde jetzt zu ihm gehen.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
