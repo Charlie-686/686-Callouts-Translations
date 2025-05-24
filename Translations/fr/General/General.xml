@@ -1,0 +1,84 @@
+<GENERAL>
+	/// Notifications liées à la vérification des mises à jour.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Chargé parfaitement~w~, prêt pour la patrouille !]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Vous utilisez une version obsolète !]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Chargé, mais merci de mettre à jour 686 Callouts dès que possible.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Version bêta détectée.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Merci pour vos tests et retours. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Échec de la vérification des mises à jour !]]></FAILED>
+		<FAILED><![CDATA[~y~Chargé, mais impossible de vérifier les mises à jour.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notifications liées à la vérification des dépendances.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[Il manque des fichiers à 686 Callouts !]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Dossier 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Dossier Audio]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Fichiers Audio]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Dossier des Traductions]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notifications liées aux statistiques de carrière.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Statistiques de carrière]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Interventions]]></CALLS>
+		<FIGHTS><![CDATA[Rixes]]></FIGHTS>
+		<PURSUITS><![CDATA[Poursuites]]></PURSUITS>
+		<ARRESTS><![CDATA[Arrestations]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Morts de suspects]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// Notifications liées aux voix IA.
+	<AI>
+		<AIVOICES><![CDATA[Voix IA de 686 Callouts :]]></AIVOICES>
+		<VOICEDOWNLOAD><![CDATA[Statut : Téléchargement ~n~~y~{0} Go~w~ / ~g~{1} Go~w~ [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Statut : Installation ~n~~y~{0}~w~ / ~g~{1}~w~ fichiers [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Statut : ~g~Installé automatiquement~w~.]]></VOICEDOWNLOAD>
+	</AI> 
+	
+	/// Notifications relatives à l'hélicoptère de secours.
+	<SEARCHHELI>
+		<REQUESTHELI><![CDATA[Appuyez sur ~y~{0}~w~ dans les 10 secondes si vous souhaitez le soutien d’un ~b~hélicoptère de recherche~w~.]]></REQUESTHELI>
+		<ISAVAILABLE><![CDATA[Un hélicoptère de recherche est ~g~disponible pour aider~w~.]]></ISAVAILABLE>
+		<ISAVAILABLE><![CDATA[Aucun hélicoptère de recherche n’a été ~r~envoyé pour aider~w~.]]></ISAVAILABLE>
+		<LOCATEDPED><![CDATA[Le soutien aérien a ~g~localisé le suspect~w~ dans la zone {0} et restera dans la zone jusqu'à votre arrivée. ~y~Vérifiez votre carte~w~.]]></LOCATEDPED>
+		<ZONESEARCH><![CDATA[Le soutien aérien se dirige vers la zone {0}.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[Le soutien aérien se dirige vers la zone {0}. La zone {1} était dégagée.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~b~bleue~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~o~orange~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~g~verte~w~]]></ZONESEARCH>
+	</SEARCHHELI>
+	
+	/// Toutes les autres notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Analyse comportementale~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[Le suspect semble~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[La victime semble~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Prévention des crashs]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Un problème est peut-être survenu.~w~ Veuillez contacter le support.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Vérification de la distance]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Désolé, vous étiez trop proche pour démarrer cette intervention.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[C’est la faute de GTAV !]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV a supprimé un de nos personnages ! On n’a rien pu faire d’autre qu’éviter un crash, mais cela ne devrait pas arriver souvent.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Dispatch]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Dialogue terminé. Gérez la situation comme vous le souhaitez.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Appuyez sur ~y~{0}~w~ pour commencer à parler.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Appuyez sur ~y~{0}~w~ à tout moment pour terminer l’appel.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Information]]></INFORMATION>
+		<CODE4><![CDATA[~g~Code 4.~w~ Je suis disponible pour d’autres appels.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Mise à jour poursuite]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[pense que le suspect est ~y~{0}~w~.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[pense que le suspect est ~y~{0}~w~ qui a eu ~y~{1}~w~ contravention(s) dans le passé.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[pense que le suspect est un ~y~homme~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE TARGET = "F"><![CDATA[pense que le suspect est une ~y~femme~w~.]]></PURSUITUPDATE> 
+		<PURSUITUPDATE><![CDATA[pense que le suspect est ~y~{0}~w~ qui a été arrêté ~y~{1}~w~ fois dans le passé.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[ne ~y~dispose d’aucune information~w~ sur le suspect.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[APPEL D'URGENCE]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Intervention : ~b~{0}~n~~w~Lieu : ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL>
+
+<!-- <![CDATA[]]> -->
