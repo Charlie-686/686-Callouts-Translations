@@ -1,0 +1,52 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Individu désorienté]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Les opérateurs de caméra~w~ ont ~y~signalé des inquiétudes~w~ concernant une personne, allez la vérifier.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[présente une forte odeur d'alcool]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect : ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Bonjour, tout va bien ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Bonjour ! Est-ce qu'on peut discuter un instant ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect : ~w~Neooooooooon, mais je veux paaas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Je pense que ce serait préférable ; avez-vous des papiers sur vous ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect : ~w~Hmmm... non merciii...]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="drunk"><![CDATA[~r~Suspect :~w~ BLALALALALA ! TEMPS DE PARTIR BYEE MONSIEUR L'AGENT !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="drunk"><![CDATA[~r~Suspect :~w~ BLALALALALA ! TEMPS DE PARTIR BYEE MADAME L'AGENT !]]></DIALOGUE>		
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect :~w~ Bonjour, dieu merci vous êtes là !]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~ Bonjour, que se passe-t-il ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect :~w~ Je me suis perdu, je ne suis pas d'ici. Je ne sais pas comment rentrer chez moi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Oh mince, y a-t-il quelqu'un qui pourrait venir vous chercher ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~Suspect :~w~ Oh oui, j'ai quelqu'un ! Je vais lui envoyer un message.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~ Parfait. S'il ne peut pas venir, on trouvera une autre solution.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Que se passe-t-il ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect :~w~ Rienn... j'ai juste fait une super fêteee.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, et vous vous promenez juste comme ça ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect :~w~ Ouiii, j'adoooore être dehors.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Puis-je avoir votre nom s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect :~w~ D'accord... je m'appelle Ben Dover.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Assez plaisanté, je veux votre vrai nom.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~Suspect :~w~ Laissez-moi me souvenir... je crois que c'est {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Bonjour, tout va bien ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Oui, oui tout va bien.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, on a juste reçu des signalements d'un individu désorienté dans le secteur.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ D'accord, et c'est un crime ça ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Non, on voulait juste vérifier que vous alliez bien.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect :~w~ Je vais très bien, mais j'aimerais que vous me laissiez tranquille.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Si vous insistez, bonne journée.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

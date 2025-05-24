@@ -1,0 +1,86 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Tentative d'effraction]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un propriétaire a appelé pour signaler une ~y~tentative d'effraction~w~ à son domicile. Le suspect aurait pris la fuite.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Appuyez sur ~y~{0}~w~ pour récupérer des preuves.]]></OTHER>
+		<OTHER><![CDATA[~g~{0}~w~ récupéré avec succès.]]></OTHER>
+		<OTHER><![CDATA[une carte d'identité]]></OTHER>
+		<OTHER><![CDATA[un portefeuille]]></OTHER>
+		<OTHER><![CDATA[une paire de ciseaux]]></OTHER>
+		<OTHER><![CDATA[un collier]]></OTHER>
+		<OTHER><![CDATA[une chaussure]]></OTHER>
+		<OTHER><![CDATA[un pied-de-biche]]></OTHER>
+		<OTHER><![CDATA[un téléphone portable]]></OTHER>
+		<OTHER><![CDATA[~y~Fouillez~w~ la zone alentour pour trouver des preuves et des indices d'effraction. Une fois terminé, ~y~retournez voir le propriétaire~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Crochet]]></OTHER>
+		<OTHER><![CDATA[~r~Gants]]></OTHER>
+		<OTHER><![CDATA[~y~Masque]]></OTHER>
+		<OTHER><![CDATA[~y~Cagoule]]></OTHER>
+		<OTHER><![CDATA[~r~Couteau de poche]]></OTHER>
+		<OTHER><![CDATA[~r~Pied-de-biche]]></OTHER>
+		<OTHER><![CDATA[~y~Jumelles]]></OTHER>
+		<OTHER><![CDATA[~r~Bâillon]]></OTHER>
+		<NOTIFICATION><![CDATA[Utilisez la ~y~photo~w~ et la ~y~zone de recherche~w~ pour appréhender le ~r~suspect~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Voici la ~y~photo~w~ du ~r~suspect~w~.~n~Appuyez sur ~y~Y~w~ pour revoir cette notification~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il n'y avait ~r~aucune preuve~w~ ici.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[J'ai trouvé ~y~{0}~w~ lié à ~r~{1}~w~. Je demande des informations urgentes sur cette personne.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Recherche des témoignages de présence de ~r~{0}~w~ à proximité. Veuillez patienter.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez récupéré ~y~{0}~w~/~g~{1}~w~ éléments de preuve.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez récupéré ~g~{0}~w~/~g~{1}~w~ éléments de preuve.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Une fois que vous avez ~y~appréhendé~w~ le ~r~suspect~w~, poursuivez comme vous le jugez nécessaire.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[Le ~r~suspect~w~ prend la fuite !]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[Le ~r~suspect~w~ est en train de ~y~se rendre~w~. Procédez à son arrestation et enquêtez.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M"><![CDATA[~y~Victime :~w~ Aidez-moi, monsieur l'agent ! Aidez-moi !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F"><![CDATA[~y~Victime :~w~ Aidez-moi, madame l'agent ! Aidez-moi !]]></DIALOGUE>			
+			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Je suis là monsieur. Vous êtes en sécurité maintenant. Pouvez-vous me dire ce qu'il s'est passé ?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Je suis là madame. Vous êtes en sécurité maintenant. Pouvez-vous me dire ce qu'il s'est passé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ Quelqu'un a essayé d'entrer… J'ai entendu du bruit et je me suis enfermée dans ma chambre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je comprends. L'avez-vous vu ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Victime :~w~ Non, mais j'ai entendu beaucoup de mouvements autour de la maison jusqu'à votre arrivée. Je ne sais pas ce qu'il faisait !]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci. Je vais faire un tour autour de la propriété pour voir si je peux trouver quelque chose.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ J'ai fouillé les environs, mais malheureusement je n'ai trouvé aucune preuve pouvant relier à un suspect.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Victime :~w~ C'est dommage… Et maintenant ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Des détectives viendront plus tard pour approfondir l'enquête.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Malheureusement, ces premières recherches n'ont rien donné. Je ne peux rien faire de plus pour le moment.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ J'ai fouillé les alentours et trouvé des preuves liées à un suspect. Je pars à sa recherche maintenant.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="hopeful"><![CDATA[~y~Victime :~w~ C'est super, bonne chance monsieur l'agent !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="hopeful"><![CDATA[~y~Victime :~w~ C'est super, bonne chance madame l'agent !]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="scared"><![CDATA[~y~Victime :~w~ S'il vous plaît, monsieur l'agent ! J'ai entendu quelqu'un dehors, j'ai très peur !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="scared"><![CDATA[~y~Victime :~w~ S'il vous plaît, madame l'agent ! J'ai entendu quelqu'un dehors, j'ai très peur !]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Restez calme, monsieur. Je suis là maintenant. Pouvez-vous décrire ce que vous avez entendu ?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Ne vous inquiétez pas, madame. Vous êtes en sécurité maintenant. Pouvez-vous me dire ce qu'il s'est passé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ J'ai entendu frapper aux fenêtres, mais je n'ai pas osé regarder.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord. Avez-vous remarqué quelque chose d'inhabituel avant cela ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ Non, tout était calme avant. S'il vous plaît, trouvez celui qui a fait ça.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vais faire de mon mieux. Je vais inspecter les alentours pour trouver des indices.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ J'ai fouillé les alentours, mais je n'ai trouvé aucun indice menant au suspect.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Victime :~w~ Oh non, et maintenant ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous allons devoir attendre que les détectives poursuivent l'enquête.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Malheureusement, je ne peux rien faire de plus pour le moment.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonne nouvelle ! J'ai trouvé des preuves à proximité qui pourraient nous mener au coupable. Je vais suivre cette piste immédiatement.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="relieved"><![CDATA[~y~Victime :~w~ Quel soulagement, monsieur l'agent ! Merci et soyez prudent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="relieved"><![CDATA[~y~Victime :~w~ Quel soulagement, madame l'agent ! Merci et soyez prudent.]]></DIALOGUE>	
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

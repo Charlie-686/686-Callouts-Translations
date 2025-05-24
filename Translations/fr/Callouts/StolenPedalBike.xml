@@ -1,0 +1,50 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vélo volé]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vélo volé a été repéré~w~, interpellez le cycliste.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Est-ce que je peux vous poser quelques questions ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect :~w~ Bien sûr, allez-y. Mais faites attention à la circulation derrière vous. Attention !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. On peut discuter un peu de ce vélo ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Qu'est-ce qu'il a ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Il a été signalé comme volé, aujourd'hui même.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect :~w~ Oh, haha. Désolé, c'est moi qui l'ai signalé ! Je croyais l'avoir perdu, mais je l'ai retrouvé !]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, donc ce vélo est bien enregistré à votre nom ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="proud"><![CDATA[~r~Suspect :~w~ Oui, absolument. Faites toutes les vérifications que vous voulez.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[anxieux]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Je vous parle à cause de ce vélo.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ J'essaie d'aller quelque part. Le pneu n'est pas crevé ou quoi que ce soit. Quel est le problème ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Il a été signalé volé hier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Oh. Euh, c'est étrange.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous n'auriez pas une idée de pourquoi ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~Suspect :~w~ Euh... si ! J'avais complètement oublié que je l'avais signalé comme volé.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>	
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Pourrions-nous discuter un instant de ce vélo ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ D'accord.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Selon nos registres, il a récemment été déclaré volé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspect :~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Pardon, qu'avez-vous dit ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~Suspect :~w~ Je ne ferai aucun commentaire à ce sujet.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>	
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ ARRRRGGGHH ! PAS VOUS !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

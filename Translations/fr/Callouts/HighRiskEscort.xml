@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Convoi à Haut Risque]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Un ~y~prisonnier~w~ nécessite une ~y~escorte~w~ vers ~y~{0}~w~. Vos agents de renfort vous attendent.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informations sur l'escorte :~w~~n~ Vous allez transporter ~y~{0}~w~ qui {1}.]]></FURTHERINFORMATION> 	<!-- // 0: son nom, 1: son passé -->
+		<OTHER><![CDATA[Commissariat de Mission Row]]></OTHER>
+		<OTHER><![CDATA[Pénitencier de Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[dirige un~r~ groupe criminel organisé~w~ impliquant des policiers corrompus]]></OTHER> 	<!-- // Le prisonnier est toujours un homme. -->
+		<OTHER><![CDATA[est un ~y~parrain notoire~w~ en attente de procès, avec un risque d'attaque par un gang rival]]></OTHER>
+		<OTHER><![CDATA[est un ancien policier devenu ~y~informateur corrompu~w~, avec des liens dans le milieu criminel]]></OTHER>
+		<OTHER><![CDATA[est un ~y~baron de la drogue~w~ lié à la plus grande opération de stupéfiants de la région]]></OTHER>
+		<OTHER><![CDATA[est un ~y~cybercriminel~w~, actuellement incarcéré]]></OTHER>
+		<OTHER><![CDATA[dirige un trafic ~y~d'armes illégales~w~ et a été arrêté récemment]]></OTHER>
+		<OTHER><![CDATA[est un ~y~terroriste~w~. Il y a un risque que d'autres tentent de le libérer]]></OTHER>
+		<OTHER><![CDATA[a créé un ~y~gang de rue violent~w~, faisant face à des représailles d'un groupe rival]]></OTHER>
+		<OTHER><![CDATA[a fait partie d'un ~y~réseau notoire de trafic de drogue~w~, récemment démantelé par les autorités]]></OTHER>
+		<OTHER><![CDATA[a mis en place un ~y~système mondial de blanchiment d'argent~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Lorsque vous êtes prêt, ~y~menez le convoi~w~ et suivez ~r~l'itinéraire prévu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~y~véhicule suspect~w~ suit actuellement notre convoi. Restez en alerte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Il y a un ~r~barrage routier~w~ devant ! Protégez le convoi à tout prix.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~y~véhicule suspect~w~ est à proximité. Vérifiez votre radar !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~y~prisonnier~w~ a été ~r~tué~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nouvel Objectif :~w~~n~ Restez en vie, rétablissez l'ordre et éliminez les ennemis restants !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Niveau de Danger de l'Escorte :~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~FAIBLE]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MOYEN]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~ÉLEVÉ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~y~conducteur~w~ du fourgon pénitentiaire est ~r~mort~w~ ! Vous devrez ~y~conduire le véhicule~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escorte ~r~échouée~w~. Le ~y~prisonnier~w~ a été ~r~tué~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escorte ~g~réussie~w~. Le ~y~prisonnier~w~ a été ~g~maintenu en vie~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L'~b~escorte est-elle bloquée~w~ ? Appuyez sur ~y~{0}~w~ à tout moment pour la réinitialiser.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

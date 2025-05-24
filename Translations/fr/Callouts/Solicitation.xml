@@ -1,0 +1,65 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Racolage]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Une ~y~prostituée présumée~w~ a été signalée. Rendez-vous sur les lieux ~y~en attendant d'autres instructions~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Vous approchez de la scène. Garez-vous de façon à ~y~ne pas être remarqué~w~ par la suspecte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Établissez un contact avec la suspecte.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous êtes ~r~trop proche de la suspecte~w~. Éloignez-vous pour éviter d'être remarqué.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~r~alerté la suspecte.~n~~w~À cause de cela, nous avons été ~y~incapables de recueillir des preuves~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La suspecte a établi un contact avec le véhicule. ~y~Parlez-lui et enquêtez.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le véhicule n'est pas lié à la ~y~suspecte.~w~ Poursuivez selon votre jugement.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Accessoires pour drogue, Substance poudreuse blanche]]></OTHER>
+		<OTHER><![CDATA[~y~Paquet de préservatifs]]></OTHER>
+		<OTHER><![CDATA[~y~Lubrifiant~w~,~r~ Substance poudreuse blanche]]></OTHER>
+		<OTHER><![CDATA[~r~Liasses d'argent, Couteau à cran d'arrêt]]></OTHER>
+		<OTHER><![CDATA[~r~Liasses d'argent]]></OTHER>
+		<OTHER><![CDATA[~y~String]]></OTHER>
+		<OTHER><![CDATA[~r~Images explicites]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[~r~Couteau ensanglanté]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Témoin :~w~ Par ici ! Par ici !]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~Témoin :~w~ S'il vous plaît, sauvez-la ! Je vous en prie !]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Que s’est-il passé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Témoin :~w~ Je faisais juste une promenade et je suis tombé sur cette pauvre femme.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Avez-vous vu ce qui s’est passé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Témoin :~w~ Malheureusement non, j’aurais aimé être là plus tôt. Peut-être qu’elle serait encore en vie…]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Et rappelez-moi — que faisiez-vous lorsque vous l’avez trouvée ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Témoin :~w~ Je marchais simplement, j’habite dans le coin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Comme vous pouvez le comprendre, je dois effectuer quelques vérifications — merci de rester ici.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Madame, je dois vous parler un instant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspecte :~w~ Oui, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons reçu des signalements de racolage dans cette zone. Vous êtes au courant ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="shocked"><![CDATA[~r~Suspecte :~w~ Oh mon dieu ! Ce n’est pas moi, monsieur l'agent. Vous faites erreur.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="shocked"><![CDATA[~r~Suspecte :~w~ Oh mon dieu ! Ce n’est pas moi, madame l'agent. Vous faites erreur.]]></DIALOGUE>			
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Il fait plutôt froid aujourd’hui, et vous portez très peu de vêtements.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="annoyed"><![CDATA[~r~Suspecte :~w~ Monsieur l'agent, je crains que ce ne soit pas un crime. Je vais juste à une fête qui a déjà commencé.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="annoyed"><![CDATA[~r~Suspecte :~w~ Madame l'agent, je crains que ce ne soit pas un crime. Je vais juste à une fête qui a déjà commencé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Selon nos rapports, vous errez dans les environs sans but précis.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspecte :~w~ Je suis juste un peu perdue, c’est tout. Puis-je y aller maintenant ?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous deux — restez ici un moment. Je dois vous parler rapidement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspecte :~w~ Que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons reçu des signalements de racolage dans cette zone, êtes-vous au courant ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Victime :~w~ Oui ! Cette femme est venue à ma voiture pour proposer ses “services”…]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Est-ce vrai, madame ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="smug"><![CDATA[~r~Suspecte :~w~ Je suis juste là pour faire des affaires. Considérez-moi comme une entrepreneuse.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="angry"><![CDATA[~y~Victime :~w~ C’est répugnant et non désiré – je ne veux pas de prostituée près de moi ! Arrêtez-la, monsieur l'agent!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="angry"><![CDATA[~y~Victime :~w~ C’est répugnant et non désiré – je ne veux pas de prostituée près de moi ! Arrêtez-la, madame l'agent!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Restons calmes. Je vais m'en occuper maintenant.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[La ~y~suspecte~w~ est montée dans le véhicule.~n~~r~Procédez à un contrôle routier dès que possible et poursuivez l’enquête à partir de là~w~.]]></NOTIFICATION>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>

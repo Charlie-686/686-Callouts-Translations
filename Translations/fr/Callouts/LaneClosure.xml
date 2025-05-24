@@ -1,0 +1,30 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Fermeture de voie]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un ~y~dépanneur~w~ demande une ~o~fermeture de voie~w~ pour pouvoir intervenir en toute sécurité sur un véhicule en panne.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Fermez la voie concernée~w~ et parlez avec le ~o~dépanneur~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Maintenez la fermeture de voie~w~ et redirigez la circulation pour permettre au ~o~dépanneur~w~ de réparer le véhicule.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~g~véhicule a été réparé~w~ avec succès.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le véhicule sera ~o~remorqué~w~ car il n'a pas pu être réparé.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="pleased"><![CDATA[~y~Mécanicien :~w~ Monsieur l'agent, c'est réparé. Nous allons pouvoir repartir !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="pleased"><![CDATA[~y~Mécanicien :~w~ Madame l'agent, c'est réparé. Nous allons pouvoir repartir !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="disappointed"><![CDATA[~y~Mécanicien :~w~ Désolé Monsieur l'agent, on n'arrive pas à le réparer ! Il me faut assez d'espace derrière mon camion pour attacher le véhicule au treuil.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="disappointed"><![CDATA[~y~Mécanicien :~w~ Désolé Madame l'agent, on n'arrive pas à le réparer ! Il me faut assez d'espace derrière mon camion pour attacher le véhicule au treuil.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, comment puis-je vous aider aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~Mécanicien :~w~ Bonjour monsieur l'agent. J'ai besoin que vous mainteniez la voie fermée pour pouvoir intervenir en toute sécurité sur ce véhicule en panne.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~Mécanicien :~w~ Bonjour madame l'agent. J'ai besoin que vous mainteniez la voie fermée pour pouvoir intervenir en toute sécurité sur ce véhicule en panne.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Pas de souci. Bonne chance ! Dites-moi si vous avez besoin de quelque chose.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

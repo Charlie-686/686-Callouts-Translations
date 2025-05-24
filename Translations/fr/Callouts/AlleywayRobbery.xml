@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vol dans une ruelle]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vol présumé~w~ est en cours aux alentours de {0}. Enquêtez sur les lieux.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vol présumé~w~ est en cours aux alentours de {0}. Enquêtez sur les lieux.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Objets volés]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vol présumé~w~ est en cours aux alentours de {0} et la victime serait ~r~menacée avec une arme à feu~w~. Enquêtez sur les lieux.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Un ~y~vol présumé~w~ est en cours aux alentours de {0}, avec deux voleurs signalés. Enquêtez sur les lieux.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour ~g~récupérer~w~ les objets volés.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~y~{0}~w~ volé a été ~g~récupéré~w~ comme preuve.]]></NOTIFICATION>
+		<OTHER><![CDATA[Sac]]></OTHER>
+		<OTHER><![CDATA[Sac de courses]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Ordinateur portable]]></OTHER>
+		<OTHER><![CDATA[Colis]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

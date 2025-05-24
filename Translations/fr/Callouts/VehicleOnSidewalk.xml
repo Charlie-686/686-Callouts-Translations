@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CALLOUT>
+  <GENERAL>
+    <CALLOUTMESSAGE><![CDATA[Véhicule sur le trottoir]]></CALLOUTMESSAGE>
+    <FURTHERINFORMATION><![CDATA[Un véhicule a été signalé sur un trottoir, ~y~l'obstruant~w~. Essayez de parler avec le conducteur.]]></FURTHERINFORMATION>
+  </GENERAL>
+  <OUTCOME></OUTCOME>
+  <OUTCOME>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Vous ne pouvez pas rester ici à l'arrêt.]]></DIALOGUE>
+      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Je ne bougerai pas.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Je vais avoir besoin que vous...]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME>
+  <OUTCOME>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Restez ici un instant. Que se passe-t-il ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Oh, pas grand-chose. Y a-t-il un problème ?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ C'est un trottoir. Vous devez bouger.]]></DIALOGUE>
+      <DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ J'attends quelqu'un, il ne devrait pas tarder.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Ce n'était pas une demande. C'est un trottoir, des gens l'utilisent.]]></DIALOGUE>
+      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ D'accord, je vais me garer ailleurs.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME>
+  <OUTCOME>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Vous êtes garé sur un trottoir, vous le saviez ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="hopeful"><![CDATA[~r~Suspect :~w~ Oui, mais j'attends juste un ami. Je peux rester ?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Je crains que non.]]></DIALOGUE>
+      <DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Et où pourrais-je aller alors ?]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Sur une place de stationnement ou autre, il y en a plein dans le coin.]]></DIALOGUE>
+      <DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ Compris. Désolé, ça ne se reproduira plus.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME>
+  <OUTCOME>
+    <OTHER><![CDATA[~r~Sachets de cannabis emballés]]></OTHER>
+    <DIALOGUES>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Pourquoi êtes-vous garé ici ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="mysterious"><![CDATA[~r~Suspect :~w~ Je fais une livraison.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Une livraison de quoi ? Vous n'avez pas l'air d'un livreur, si vous me permettez.]]></DIALOGUE>
+      <DIALOGUE EMOTION="serious"><![CDATA[~r~Suspect :~w~ Euh, quelque chose que je dois faire.]]></DIALOGUE>
+      <DIALOGUE><![CDATA[~b~Vous :~w~ Donc, vous êtes garé ici en attendant de livrer quelque chose ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="pleading"><![CDATA[~r~Suspect :~w~ Écoutez, je dois faire cette livraison, c'est pour ma famille. S'il vous plaît.]]></DIALOGUE>
+    </DIALOGUES>
+  </OUTCOME>
+</CALLOUT>

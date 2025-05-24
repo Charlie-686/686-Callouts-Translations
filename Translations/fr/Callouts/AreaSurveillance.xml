@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Surveillance de zone requise]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Dirigez-vous vers le marqueur à ~y~{0}~w~ et assurez une ~b~présence policière~w~ dans la zone désignée.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Restez garé et surveillez toute ~o~activité suspecte~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[~Un ~r~sac suspect~w~ a été repéré à proximité !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Essayez de ~o~désamorcer~w~ la bombe en localisant la ~r~personne qui l'a déposée~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~r~localisé le poseur de bombe~w~. Arrêtez-le pour obtenir le ~g~code de désactivation~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~g~récupéré le code de désactivation~w~. Rendez-vous à la ~r~bombe~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour ~r~désamorcer la bombe~w~ sans le code (situé sur la personne ayant déposé le sac).]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour ~r~désamorcer la bombe~w~ avec le code de désactivation.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Saisissez le code de désactivation, un chiffre entre 1 et 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Devinez le code de désactivation, un chiffre entre 1 et 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Échec du désamorçage de la bombe~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bombe désamorcée~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Code de désactivation : ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Entrée invalide.~w~ Veuillez saisir un chiffre entre ~y~1~w~ et ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[La surveillance de zone s'est déroulée ~g~sans incident~w~. Reprise de la patrouille.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

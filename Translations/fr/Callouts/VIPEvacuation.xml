@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Évacuation de VIP]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour que le VIP vous suive.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~p~VIP~w~ va maintenant ~g~vous suivre~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Évacuez le ~o~VIP~w~ vers le poste dès que possible !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~g~VIP a été évacué en sécurité~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le ~r~VIP est mort.~w~ ~y~Éliminez les ennemis restants~w~ et gérez la situation comme vous l'entendez !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Approchez-vous du ~p~VIP~w~ pour lui dire de ~g~vous suivre~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~r~hélicoptère non identifié~w~ entre dans l'espace aérien à proximité.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[La sécurité du VIP est ~r~attaquée~w~. Aidez à ~y~neutraliser les menaces~w~ et attendez de nouvelles instructions !]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Protégez le VIP !~w~ Le central enverra de nouvelles instructions une fois la zone sécurisée.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[La sécurité du VIP a été ~r~éliminée~w~. Sauvez le VIP qui a été ~y~pris en otage~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Essayez de ~y~vous approcher du VIP~w~ sans ~o~être repéré par les assaillants armés~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Vous avez été repéré~w~. ~g~Protégez le VIP~w~ qui est maintenant ~o~ciblé par les attaquants~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

@@ -1,0 +1,116 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Resquilleur]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Le personnel de la gare~w~ requiert votre assistance ; ils ont besoin que vous interpelliez une personne qui aurait ~y~voyagé sans payer son billet.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Parlez au ~y~suspect de fraude~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Billet valide~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Faux billet~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Une gare voisine m'a signalé que la personne a sauté les barrières là-bas. Impressionnant, mais c'est un délit.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Excusez-moi, pouvez-vous attendre ici un instant ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Faites vite, j'ai un train à prendre.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Un agent de contrôle m'a dit que vous aviez sauté les barrières ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Pfff. Ce n'est vraiment pas grave. J'ai pas de monnaie sur moi, vous pouvez pas laisser passer ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Voyager sans payer son billet est une infraction, je vais vous dresser une amende.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Alors fais-le, qu'on en finisse.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Voilà. Vous pouvez prendre le train maintenant puisque vous allez payer une amende, mais la prochaine fois, payez comme tout le monde.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ Cette amende est chère, c'est pas possible. J'aurais dû acheter un billet, c'est clair.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[J'ai remarqué un billet étrange ; j'ai l'impression qu'il pourrait être faux. Malheureusement, ça devient de plus en plus courant.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, vous pouvez rester ici un instant s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Le personnel de la gare nous a appelés, ils se demandent comment vous êtes passé par les portiques ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ J'ai un billet, voilà comment.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, puis-je le voir s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Euh, d'accord. Mais je vois pas pourquoi vous en auriez besoin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Le billet est expiré depuis une semaine, vous savez pourquoi ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sarcastic"><![CDATA[~r~Suspect :~w~ Sérieux ?! Aucune idée de comment c'est arrivé.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Ne jouez pas au plus malin, vous avez utilisé un vieux billet délibérément. Je vais vous verbaliser.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Franchement, occupez-vous de vrais criminels. Donnez-moi le PV, je me casse.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Le voilà.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Merci, vraiment. Vous avez ruiné ma journée.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Un collègue dans une autre gare a signalé par radio que la personne n'avait peut-être pas de billet, mais il ne regardait pas les caméras à ce moment-là.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, pouvez-vous rester ici un instant s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ On m'a demandé de vérifier si vous avez un billet.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ J'en sais rien, à vous de me le dire.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Ce n'est pas une plaisanterie, j'ai besoin d'une réponse honnête.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Oh bon sang ! Allez arrêter de vrais criminels au lieu d'embêter les gens qui veulent juste prendre le train.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vais vous demander encore une fois : avez-vous un billet ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Vous n'avez rien de mieux à faire, hein ? Laissez-moi monter dans ce fichu train. Il va arriver de toute façon.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Parlez au ~r~vendeur de faux billets~w~ présumé.]]></NOTIFICATION>
+		<OTHER><![CDATA[J'ai jeté un œil à un billet utilisé, il ne semblait pas authentique. Je pense qu'il est faux.]]></OTHER>
+		<OTHER><![CDATA[~r~Faux billets~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Excusez-moi, je dois vous parler.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Bien sûr madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Le personnel de la gare nous a appelés, ils se demandent comment vous êtes passé par les portiques ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ J'ai un billet, tout simplement.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, puis-je le voir s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Bien sûr, le voilà.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est un faux billet, on le voit aux marquages sur le côté. Pourquoi l'utilisez-vous ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Quelqu'un le vendait à l'entrée de la gare, il coûtait au moins deux fois moins cher.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, vous l'avez donc acheté à prix réduit ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~r~Suspect :~w~ Oui, c'est ça. Tenez, voici mon identité. Je ne suis pas un criminel, je vous le jure.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci. Je vais voir si je peux retrouver cette personne.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Un instant. Nous devons parler.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Encore un flic qui me colle. Quoi ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons des raisons de croire que vous vendez de faux billets.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vais vous placer en garde à vue, restez ici.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~Suspect :~w~ Je lève les mains !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Quelqu'un n'aurait apparemment pas utilisé de billet, selon une communication radio.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, pouvez-vous rester ici un instant s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="happy"><![CDATA[~r~Suspect :~w~ Bien sûr monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="happy"><![CDATA[~r~Suspect :~w~ Bien sûr madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Le personnel de la gare nous a appelés, ils se demandent comment vous êtes passé par les portiques ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Comme tout le monde, avec mon billet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je peux le voir s'il vous plaît ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Euh, d'accord. Mais je vois pas pourquoi vous en auriez besoin.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Tout est en règle, bonne continuation !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~Agent de gare :~w~ Ravi de vous voir monsieur l'agent, merci d'avoir été aussi rapide.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~Agent de gare :~w~ Ravi de vous voir madame l'agent, merci d'avoir été aussi rapide.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Pas de souci, pouvez-vous me donner des détails sur la situation ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agent de gare :~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois. Ce n'est pas bon signe. Où se trouvent-ils maintenant ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Agent de gare :~w~ Aucun train n'est encore passé, ils doivent encore être sur le quai.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci pour votre aide, je vais m'en occuper.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Agent de gare :~w~ Désolé de vous déranger pour si peu, c'est apprécié.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Pas de problème, pouvez-vous me donner des détails sur la situation ?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Agent de gare :~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, on dirait qu'on a un resquilleur. Où pourrait-il être ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Agent de gare :~w~ Réfléchissons... Il doit être sur le quai, c'est le seul endroit possible.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, je vais commencer par là !]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

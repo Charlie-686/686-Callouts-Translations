@@ -1,0 +1,32 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Bombe dans une voiture]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour tenter de ~y~désamorcer la bombe.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le véhicule ~r~peut exploser à tout moment~w~.~n~Soit ~y~tenez les civils à l'écart de la trajectoire du véhicule~w~, soit ~y~mettez fin à la poursuite~w~ le plus rapidement possible.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Succès.~w~~n~La bombe a été désamorcée. Poursuivez selon votre jugement.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Échec.~w~~n~La bombe n'a pas été désamorcée. ~y~Évacuez immédiatement la zone environnante~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[Les renseignements signalent une ~r~bombe dans une voiture.~n~~w~Intervenez sur les lieux ~y~de toute urgence.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Le suspect ~y~prend la fuite~w~ à bord de son véhicule et est armé ~y~d'une bombe.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Le véhicule ~r~peut exploser à tout moment~w~.~n~Soit ~y~tenez les civils à l'écart de la trajectoire du véhicule~w~, soit ~y~mettez fin à la poursuite~w~ le plus rapidement possible.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Détonateur de bombe]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[Les renseignements signalent une personne mentalement instable avec une ~r~bombe dans une voiture.~n~~w~Intervenez sur les lieux ~y~de toute urgence.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~Détonateur de bombe~w~, ~y~Câblage]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="fear"><![CDATA[~r~Suspect :~w~ Je me rends ! Vous pouvez m'arrêter !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~Suspect :~w~ Je suis désolé que cela se termine ainsi…]]></DIALOGUE>
+		</DIALOGUES>		
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[Les renseignements signalent une ~r~bombe dans une voiture.~n~~w~Intervenez sur les lieux ~y~de toute urgence.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La bombe ~y~a été déclenchée.~n~~w~Victimes signalées : ~r~{0} personne(s).]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~Câblage~w~,~r~Explosifs]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[Les renseignements signalent une ~r~bombe dans une voiture abandonnée.~w~~n~Intervenez sur les lieux ~y~de toute urgence, et ~y~désamorcez la bombe.~w~]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~Clés de voiture~w~, ~r~Bombe]]></OTHER>	
+	</OUTCOME3>
+</CALLOUT>
