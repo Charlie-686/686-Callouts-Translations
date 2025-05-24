@@ -1,0 +1,17 @@
+<PEDDESCRIPTIONS>
+	<PREFIX TARGET="M"><![CDATA[Le suspect porte ~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<PREFIX TARGET="F"><![CDATA[La suspecte porte ~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<PREFIX TARGET="M"><![CDATA[Le suspect est vêtu d’~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<PREFIX TARGET="F"><![CDATA[La suspecte est vêtu d'~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<PREFIX TARGET="M"><![CDATA[Le suspect est un ~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<PREFIX TARGET="F"><![CDATA[La suspecte est une ~y~]]></PREFIX> // Si nécessaire, vous pouvez ajouter "TARGET = M/F" ici.
+	<DESCRIPTION PREFIX = "3" ><![CDATA[un costume~w~.]]></DESCRIPTION> // Individu masculin.
+	<DESCRIPTION PREFIX = "1"><![CDATA[un T-shirt bleu~w~ et est un coureur.]]></DESCRIPTION> // Individu masculin.
+	<DESCRIPTION PREFIX = "4"><![CDATA[une chemise bleue à carreaux~w~.]]></DESCRIPTION> // Individu féminin.
+	<DESCRIPTION PREFIX = "2"><![CDATA[un manteau en cuir~w~.]]></DESCRIPTION> // Individu féminin.
+	<DESCRIPTION PREFIX = "5"><![CDATA[ouvrier~w~, portant un ~y~T-shirt blanc~w~.]]></DESCRIPTION> // Individu masculin.
+	<DESCRIPTION PREFIX = "2"><![CDATA[des bretelles~w~.]]></DESCRIPTION> // Individu féminin.
+	<DESCRIPTION PREFIX = "1"><![CDATA[une chemise bleue~w~ avec ~y~short bleu~w~. Présumé employé des postes.]]></DESCRIPTION> // Individu masculin.
+	<DESCRIPTION PREFIX = "3"><![CDATA[une grande chemise rouge et casquette~w~ avec ~y~pantalon bleu marine~w~.]]></DESCRIPTION> // Individu masculin.
+	<DESCRIPTION PREFIX = "4"><![CDATA[un blazer bleu clair et jupe en jean~w~ avec un ~y~chemisier rouge en dessous~w~.]]></DESCRIPTION> // Individu féminin.
+</PEDDESCRIPTIONS>
