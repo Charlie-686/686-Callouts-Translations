@@ -1,0 +1,211 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Vermisste Person]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Ein ~p~Familienmitglied~w~ hat eine ~r~vermisste Person~w~ gemeldet. Sprechen Sie mit dieser Person, um die Situation zu klären.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Sie haben nun ~y~3 mögliche Suchgebiete~w~ auf Ihrer Karte markiert. ~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Bringen Sie das ~y~Opfer~w~ sicher nach Hause zurück. Es folgt Ihnen automatisch.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Die ~y~vermisste Person~w~ wurde ~g~sicher nach Hause~w~ zurückgebracht.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Die ~y~vermisste Person~w~ wurde ~r~getötet~w~. Leisten Sie medizinische Hilfe!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vermisste Person: ~y~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Beginnen Sie mit der Suche in den ~y~markierten Gebieten~w~ auf Ihrer Karte nach der vermissten Person!]]></NOTIFICATION>
+		<OTHER><![CDATA[~b~blau~w~]]></OTHER>
+		<OTHER><![CDATA[~y~gelb~w~]]></OTHER>
+		<OTHER><![CDATA[~g~grün~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine Person, die auf dem Boden sitzt~w~. Lassen Sie Bodeneinheiten ~y~Kontakt aufnehmen~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sind Sie die vermisste Person?]]></DIALOGUE>
+			<DIALOGUE EMOTION="erleichtert"><![CDATA[~y~Opfer:~w~ Ja... Es tut mir leid, ich wollte niemanden beunruhigen. Ich brauchte einfach... etwas Zeit für mich.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie sind seit über einem Tag vermisst. Warum haben Sie sich nicht gemeldet?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ausweichend"><![CDATA[~y~Opfer:~w~ Ich weiß nicht. Ich hatte einfach... keine Lust zu reden. Ich habe viel nachgedacht... Ich wollte allein sein.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Aber Sie sind schon lange weg. Ihre Familie hat sich Sorgen gemacht.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reumütig"><![CDATA[~y~Opfer:~w~ Ich weiß, und es tut mir leid. Ich wollte keinen Ärger machen. Ich musste einfach... meinen Kopf freibekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Den Kopf freibekommen? Gab es ein Problem?]]></DIALOGUE>
+			<DIALOGUE EMOTION="zögerlich"><![CDATA[~y~Opfer:~w~ Es ist nichts. Nur... persönliche Dinge. Machen Sie sich keine Sorgen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Persönliche Dinge? Geht es Ihnen gut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ausweichend"><![CDATA[~y~Opfer:~w~ Ja, mir geht's gut. Ich... ich möchte nach Hause. Können Sie mich zurückbringen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir können das nicht einfach so stehen lassen. Wir müssen sichergehen, dass alles in Ordnung ist.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reumütig"><![CDATA[~y~Opfer:~w~ Es tut mir leid. Ich wollte nichts erschweren. Mir geht's gut. Bitte, ich möchte jetzt einfach nach Hause.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ In Ordnung. Hauptsache, Sie sind sicher und wohlauf. Ich bringe Sie zurück.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine Person, die orientierungslos umherläuft~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo! Geht es Ihnen gut?]]></DIALOGUE>
+			<DIALOGUE EMOTION="verwirrt"><![CDATA[~y~Opfer:~w~ Oh—äh, ja, ich glaube schon. Moment, sind Sie von der Rettung?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich bin von der Polizei. Wir erhielten eine Meldung über eine vermisste Person hier in der Gegend.]]></DIALOGUE>
+			<DIALOGUE EMOTION="erleichtert"><![CDATA[~y~Opfer:~w~ Oh Mann... ja, das bin wohl ich. Ich war nur wandern und dann... ich habe mich verlaufen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wie lange laufen Sie schon hier umher?]]></DIALOGUE>
+			<DIALOGUE EMOTION="verlegen"><![CDATA[~y~Opfer:~w~ Ich glaube... ein paar Stunden? Vielleicht mehr? Ich habe die Zeit aus den Augen verloren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie hätten an Ort und Stelle bleiben sollen. Wenn Sie umherlaufen, macht das die Suche schwieriger.]]></DIALOGUE>
+			<DIALOGUE EMOTION="entschuldigend"><![CDATA[~y~Opfer:~w~ Ich weiß, ich weiß. Aber ich wollte nicht einfach nur herumsitzen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hauptsache, es geht Ihnen gut. Haben Sie sich verletzt? Schwindel oder Dehydrierung?]]></DIALOGUE>
+			<DIALOGUE EMOTION="beruhigend"><![CDATA[~y~Opfer:~w~ Nein, ich denke, es geht mir gut. Nur müde... und ich möchte wirklich nach Hause.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das kann ich verstehen. Lassen Sie uns von hier verschwinden.]]></DIALOGUE>
+			<DIALOGUE EMOTION="dankend"><![CDATA[~y~Opfer:~w~ Danke, Officer. Wirklich. Ich bin Ihnen einen schuldig.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine Person, die verstört umherläuft~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, geht es Ihnen gut? Sie wirken verängstigt.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panisch"><![CDATA[~y~Opfer:~w~ Oh, Gott sei Dank! Ich dachte schon, ich komme hier nie wieder raus. Ich—ich weiß nicht, wo ich bin!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Alles in Ordnung, ich bin hier, um zu helfen. Wie lange sind Sie schon hier?]]></DIALOGUE>
+			<DIALOGUE EMOTION="panisch"><![CDATA[~y~Opfer:~w~ Ich... ich laufe seit Stunden umher! Mein Handy ist leer, und ich—ich dachte, ich kenne den Weg, aber jetzt... jetzt sieht alles gleich aus.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Atmen Sie tief durch. Sie sind jetzt in Sicherheit. Versuchen Sie, sich zu beruhigen.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervös"><![CDATA[~y~Opfer:~w~ Ich—ich versuche es. Aber ich höre ständig Geräusche und weiß nicht, was ich tun soll. Ich habe... ich habe wirklich Angst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es ist okay. Sie sind nicht mehr allein. Wir bringen Sie hier raus.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ängstlich"><![CDATA[~y~Opfer:~w~ Ich weiß, aber ich—ich möchte nicht länger hier bleiben. Können Sie... können Sie mir helfen, zurückzukommen?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Natürlich bringe ich Sie zurück. Sie sind in Kürze in Sicherheit.]]></DIALOGUE>
+			<DIALOGUE EMOTION="erleichtert"><![CDATA[~y~Opfer:~w~ Vielen Dank. Ich hatte schon die Hoffnung aufgegeben.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Kein Grund zu danken. Bleiben Sie bei mir, wir bringen Sie sicher nach Hause.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine verletzt oder betrunken wirkende Person~w~. Lassen Sie Bodeneinheiten ~y~sofort nachsehen~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, geht es Ihnen gut? Sie humpeln.]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Opfer:~w~ Oh, nichts Ernstes. Nur ein Krampf im Bein. Ich laufe schon seit einer Weile im Kreis... Ich glaube, ich habe mich verlaufen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Verlaufen? Wie lange sind Sie schon hier?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert"><![CDATA[~y~Opfer:~w~ Ein paar Stunden, schätze ich. Ich bin dem Weg gefolgt, aber dann habe ich ihn verloren. Alles sieht gleich aus. Ich dachte, ich gehe in die richtige Richtung, aber...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das klingt stressig. Sind Sie verletzt oder ist es nur der Krampf?]]></DIALOGUE>
+			<DIALOGUE EMOTION="beruhigend"><![CDATA[~y~Opfer:~w~ Nur der Krampf. Mein Bein ist etwas steif, aber es geht. Ich muss nur hier raus.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Dabei kann ich Ihnen helfen. Wie weit entfernt vom Weg schätzen Sie sich?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Opfer:~w~ Ehrlich? Keine Ahnung. Jeder Pfad, den ich nehme, endet in einer Sackgasse. Ich möchte einfach nur nach Hause.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Keine Sorge, Es ist nicht weit. Lassen Sie uns zurück gehen. Können Sie laufen oder soll ich Ihnen helfen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="dankbar"><![CDATA[~y~Opfer:~w~ Ich schaffe es, aber langsam. Ich möchte einfach nur nach Hause... ich war schon zu lange hier.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, aber gehen Sie es ruhig an. Wir sind gleich da.]]></DIALOGUE>
+			<DIALOGUE EMOTION="erleichtert"><![CDATA[~y~Opfer:~w~ Vielen Dank. Ich weiß nicht, was ich ohne Ihre Hilfe gemacht hätte.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Kein Problem. Folgen Sie mir, wir bringen Sie nach Hause.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine verletzt oder betrunken wirkende Person~w~. Lassen Sie Bodeneinheiten ~y~sofort nachsehen~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, geht es Ihnen gut? Sie wirken, als wären Sie schon länger hier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="undeutlich"><![CDATA[~y~Opfer:~w~ H-Hey... ja, mir geht's gut. War nur... spazieren, wissen Sie? Nachdenken...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das sehe ich. Aber Sie sehen nicht gut aus. Sind Sie verletzt?]]></DIALOGUE>
+			<DIALOGUE EMOTION="beschwipst"><![CDATA[~y~Opfer:~w~ Hahaha... nein, nein. Nicht verletzt. Nur ein bisschen... äh, ein bisschen betrunken. Langer Weg, wissen Sie? Musste... musste den Kopf freibekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ein langer Weg? Was ist passiert? Warum trinken Sie hier draußen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="traurig"><![CDATA[~y~Opfer:~w~ Ich... ich weiß nicht... Mein... mein Partner und ich, wir... wir haben uns getrennt. Und... und ich dachte, frische Luft, Abstand, würde helfen... aber ich habe einfach... weitergetrunken. Es ist ein Chaos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das tut mir leid. Aber Sie sollten nicht allein hier draußen sein, vor allem nicht in diesem Zustand. Brauchen Sie Hilfe?]]></DIALOGUE>
+			<DIALOGUE EMOTION="bedauernd"><![CDATA[~y~Opfer:~w~ Ich weiß... ich wollte einfach... nicht unter Leuten sein, verstehen Sie? Wollte nicht... damit konfrontiert werden. Bin einfach weiter gelaufen. Dachte, das würde helfen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie müssen nicht allein sein. Lassen Sie uns zurück gehen. Können Sie laufen oder soll ich Ihnen helfen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="widerwillig"><![CDATA[~y~Opfer:~w~ Ich... ich schaffe das. Muss nur nach Hause... bitte, ich will nur nach Hause...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, wir bringen Sie zurück. Bleiben Sie bei mir und gehen Sie langsam. Sie sind nicht mehr allein.]]></DIALOGUE>
+			<DIALOGUE EMOTION="dankbar"><![CDATA[~y~Opfer:~w~ Danke... ich weiß nicht, was ich ohne Sie gemacht hätte...]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine orientierungslos umherlaufende Person~w~. Sie haben auch eine potenzielle Gefahr identifiziert: ~y~Pumas~w~ in der Nähe.]]></NOTIFICATION>
+    <DIALOGUES>
+        <DIALOGUE><![CDATA[~b~Sie:~w~ Hallo, geht es Ihnen gut? Sie sehen aus, als hätten Sie viel durchgemacht.]]></DIALOGUE>
+        <DIALOGUE EMOTION="panisch"><![CDATA[~y~Opfer:~w~ Oh, Gott sei Dank! Ich dachte schon, ich sterbe hier! Ich bin... vor Pumas weggelaufen!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Sie:~w~ Pumas? Ernsthaft? Wie lange verfolgen sie Sie schon?]]></DIALOGUE>
+        <DIALOGUE EMOTION="ängstlich"><![CDATA[~y~Opfer:~w~ Ich weiß nicht mal... ich hörte etwas hinter mir, drehte mich um und da waren sie! Ich—ich bin gerannt und sie kamen immer näher. Ich dachte, sie kriegen mich!]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Sie:~w~ Sie sind jetzt in Sicherheit. Keine Sorge, ich bin bei Ihnen. Wie lange sind Sie schon hier?]]></DIALOGUE>
+        <DIALOGUE EMOTION="zitternd"><![CDATA[~y~Opfer:~w~ Ich bin... seit Stunden hier. Ich war wandern, wollte den Kopf freibekommen, dann habe ich mich verlaufen. Und dann die Pumas... ich bin einfach gerannt. Ich weiß nicht mal mehr, wo ich bin.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Sie:~w~ Alles gut. Sie sind nicht mehr allein, wir bringen Sie hier raus. Bleiben Sie bei mir.]]></DIALOGUE>
+        <DIALOGUE EMOTION="erleichtert"><![CDATA[~y~Opfer:~w~ Danke... ich hatte echt Angst, hier nicht lebend rauszukommen.]]></DIALOGUE>
+        <DIALOGUE><![CDATA[~b~Sie:~w~ Sie sind jetzt sicher. Gehen wir langsam. Wir bringen Sie in Sicherheit.]]></DIALOGUE>
+        <DIALOGUE EMOTION="dankbar"><![CDATA[~y~Opfer:~w~ Vielen Dank, Officer. Ich weiß nicht, was ich ohne Sie gemacht hätte.]]></DIALOGUE>
+    </DIALOGUES>
+</OUTCOME>
+<OUTCOME>
+    <NOTIFICATION><![CDATA[Die Luftunterstützung meldet ~o~eine bewusstlose Person~w~. Die Verletzungen sehen schwer aus, Bodeneinheiten werden dringend benötigt.]]></NOTIFICATION>
+</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben eine vermisste Person gemeldet?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohner:~w~ Ja, mein Mitbewohner. Ich weiß nicht, wo er ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie ihn zuletzt gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ungewiss"><![CDATA[~y~Mitbewohner:~w~ Gestern - und er ist nicht zurückgekommen! Er kommt sonst immer am selben Tag zurück.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Zurück von wo?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohner:~w~ Er nennt es wandern... ich nenne es lange Spaziergänge. Ich mache mir Sorgen, dass er etwas Dummes gemacht hat.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Keine Sorge, wir finden ihn. Wissen Sie, wo er hingegangen sein könnte?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohner:~w~ Keine Ahnung. Er ist meist für sich, hat mir nicht gesagt, wohin er geht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Haben Sie versucht, ihn anzurufen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert"><![CDATA[~y~Mitbewohner:~w~ Ja, mehrfach! Es geht direkt auf die Mailbox.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, wir werden eine Suche einleiten. Falls Sie von ihm hören, melden Sie sich bitte.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~b~Mitbewohner:~w~ Danke. Ich hoffe nur, dass es ihm gut geht.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben eine vermisste Person gemeldet?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohnerin:~w~ Ja, meine Mitbewohnerin. Sie wird seit heute Morgen vermisst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie sie zuletzt gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohnerin:~w~ Sie ist heute früh gegangen. Sie trainiert für einen Wohltätigkeitsmarsch und heute sollte eine lange Tour sein, aber ich habe nicht erwartet, dass sie so lange wegbleibt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hat sie gesagt, wohin sie geht?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ruhig"><![CDATA[~y~Mitbewohnerin:~w~ Sie meinte, sie wolle einige Wege in der Nähe der Klippen wandern. Seit ihrem Krankenhausaufenthalt letztes Jahr ist sie sehr aktiv geworden. Sie sagt, die frische Luft tue ihr gut.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Macht sie oft solche Wanderungen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Mitbewohnerin:~w~ Ja, aber nie so lange. Normalerweise ist sie mittags zurück. Ich habe versucht, mir keine Sorgen zu machen, aber diesmal ist es anders.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Haben Sie versucht, sie anzurufen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert"><![CDATA[~y~Mitbewohnerin:~w~ Ja, aber es geht nur die Mailbox ran. Sie meldet sich sonst immer. Ich mache mir ernsthafte Sorgen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, wir werden mit der Suche beginnen. Bitte melden Sie sich, falls Sie etwas hören.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hoffnungsvoll"><![CDATA[~y~Mitbewohnerin:~w~ Bitte finden Sie sie. Ich will nur wissen, dass sie sicher ist.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben eine vermisste Person gemeldet? Können Sie mir mehr darüber erzählen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ängstlich"><![CDATA[~y~Vermieter:~w~ Ja, es geht um meinen Mieter. Er wohnt seit einigen Monaten hier. Ein Einzelgänger, aber sonst unauffällig. Er ist einfach nicht zurückgekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie ihn zuletzt gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Vermieter:~w~ Vor ein paar Tagen. Er meinte, er wolle in den nahegelegenen Hügeln wandern. Aber seitdem ist er nicht zurückgekommen, was untypisch für ihn ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wissen Sie, ob er bestimmte Wanderrouten bevorzugte?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Vermieter:~w~ Er sprach nicht viel darüber, aber ich weiß, dass er oft zum Bergrücken hinter dem alten Bauernhof ging. Da ist es etwas abgelegen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hatte er ungewöhnliche Ausrüstung dabei?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Vermieter:~w~ Nicht dass ich wüsste. Nur seinen normalen Rucksack und etwas Wasser. Nichts Besonderes.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ist er schon einmal so verschwunden?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Vermieter:~w~ Überhaupt nicht. Er war immer zuverlässig, hat pünktlich Miete gezahlt. Das ist völlig untypisch für ihn.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir werden die Suche einleiten. Bitte kontaktieren Sie uns, falls Sie etwas hören.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hoffnungsvoll"><![CDATA[~y~Vermieter:~w~ Bitte finden Sie ihn. Ich hoffe wirklich, dass es ihm gut geht.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben eine vermisste Person gemeldet? Können Sie mir mehr darüber erzählen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ängstlich"><![CDATA[~y~Vermieterin:~w~ Ja, es geht um meine Mieterin. Sie wohnt seit ein paar Monaten hier. Sehr ruhig, aber seit ihrem Gesundheitsproblem letztes Monat ist sie viel draußen unterwegs. Sie sagte, Wandern würde ihr helfen, den Kopf freizubekommen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie sie zuletzt gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Vermieterin:~w~ Vor ein paar Tagen. Sie meinte, sie wolle übers Wochenende in die nahegelegenen Berge wandern, um abzuschalten. Ich dachte nicht weiter darüber nach. Eigentlich sollte sie heute zurück sein.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wissen Sie, wo genau sie hinwollte?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Vermieterin:~w~ Nicht genau. Sie mag die Wege im alten Wald. Davon hatte sie erzählt, als sie den Ausflug erwähnte. Sie wollte eine längere Tour versuchen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hatte sie besondere Ausrüstung dabei?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Vermieterin:~w~ Nur das Übliche. Ihren Rucksack, ein Erste-Hilfe-Set und Wasser. Sie sagte, sie plane, länger wegzubleiben, aber nannte keine Rückkehrzeit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ War sie schon einmal so lange weg?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Vermieterin:~w~ Nein, nie so lange. Sie ist immer zuverlässig und respektvoll. Das ist das erste Mal, dass sie sich nicht meldet.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wir werden die Suche starten. Bitte kontaktieren Sie uns, falls Sie etwas hören.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hoffnungsvoll"><![CDATA[~y~Vermieterin:~w~ Bitte finden Sie sie. Ich mache mir Sorgen, dass etwas passiert ist.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben eine vermisste Person gemeldet?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohner:~w~ Ja, mein Mitbewohner. Er wird seit gestern vermisst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie ihn zuletzt gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohner:~w~ Gestern Morgen ist er zum Wandern gegangen. Das macht er oft, aber normalerweise ist er abends zurück... diesmal nicht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Geht er oft wandern?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ruhig"><![CDATA[~y~Mitbewohner:~w~ Ja, er ist leidenschaftlicher Wanderer. Er liebt die Natur. Schon längere Touren gemacht, aber immer mit Rückmeldung.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hat er gesagt, wohin er geht?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ungewiss"><![CDATA[~y~Mitbewohner:~w~ Nicht genau. Er meinte nur "wandern". Oft geht er zu den Hügeln oder Wegen am alten Reservoir, aber diesmal nichts Konkretes.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ist er schon einmal verschwunden?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervös"><![CDATA[~y~Mitbewohner:~w~ Nein, nie so. Er ist normalerweise berechenbar. Bei Verspätung meldet er sich. Diesmal nichts - sehr untypisch.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Haben Sie versucht, ihn anzurufen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert"><![CDATA[~y~Mitbewohner:~w~ Ja, mehrfach. Geht direkt auf Mailbox. Ich mache mir ernsthafte Sorgen.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Gut, wir beginnen die Suche. Bitte melden Sie sich, falls Sie etwas hören.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hoffnungsvoll"><![CDATA[~y~Mitbewohner:~w~ Danke. Ich will nur wissen, dass er sicher ist. Bitte finden Sie ihn.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Sie haben wegen einer vermissten Person angerufen?]]></DIALOGUE>
+            <DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohnerin:~w~ Ja, es geht um meine Mitbewohnerin. Sie wird seit gestern vermisst, und ich habe nichts von ihr gehört. Ich mache mir große Sorgen.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Wann haben Sie sie zuletzt gesehen?]]></DIALOGUE>
+            <DIALOGUE EMOTION="besorgt"><![CDATA[~y~Mitbewohnerin:~w~ Gestern Morgen. Sie ist zu einer Wanderung aufgebrochen. Sie macht das in letzter Zeit öfter – nach ihrem Krankenhausaufenthalt wollte sie sich wieder mit der Natur verbinden. Sie meinte, das hilft ihr beim Heilen.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Geht sie häufig wandern?]]></DIALOGUE>
+            <DIALOGUE EMOTION="ruhig"><![CDATA[~y~Mitbewohnerin:~w~ Ja, das tut sie. Aber in letzter Zeit unternimmt sie längere, anspruchsvollere Wanderungen. Sie sagte, sie wolle mehr Zeit allein in den Bergen verbringen, weg von allem. Ich hielt das für eine gute Idee, aber jetzt... ich weiß nicht.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Hat sie gesagt, wohin sie wollte?]]></DIALOGUE>
+            <DIALOGUE EMOTION="ungewiss"><![CDATA[~y~Mitbewohnerin:~w~ Nicht genau. Sie meinte nur, sie wolle zum Wanderweg am See. Sie sagte, sie habe schon lange vorgehabt, dort eine längere Wanderung zu machen.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Ist sie schon einmal vermisst worden?]]></DIALOGUE>
+            <DIALOGUE EMOTION="nervös"><![CDATA[~y~Mitbewohnerin:~w~ Nein, sie war noch nie so lange weg. Wenn sie sich verspätet oder etwas nicht stimmt, ruft sie immer an oder schreibt. Dieses Mal – nichts. Es sind jetzt über 24 Stunden.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ Haben Sie versucht, sie anzurufen?]]></DIALOGUE>
+            <DIALOGUE EMOTION="frustriert"><![CDATA[~y~Mitbewohnerin:~w~ Ja, ich habe angerufen und geschrieben. Sie geht nicht ran. Ich drehe langsam durch. Ich habe solche Angst, dass ihr etwas passiert ist.]]></DIALOGUE>
+            <DIALOGUE><![CDATA[~b~Sie:~w~ In Ordnung, wir beginnen mit der Suche. Wenn Sie etwas hören, informieren Sie uns bitte.]]></DIALOGUE>
+            <DIALOGUE EMOTION="hoffnungsvoll"><![CDATA[~y~Mitbewohnerin:~w~ Bitte finden Sie sie. Ich will nur wissen, dass es ihr gut geht.]]></DIALOGUE>
+        </DIALOGUES>
+    </EXTRA>
+</CALLOUT>
