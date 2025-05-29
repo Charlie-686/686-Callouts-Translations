@@ -51,6 +51,25 @@
 		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[NOTRUF]]></CALLOUTDISPLAYEDNOTIFICATION>
 		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Einsatz: ~b~{0}~n~~w~Ort: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
 	</NOTIFICATIONS>
+	
+	/// Notifications related to AI Voices.
+	<AI>
+		<AIVOICES><![CDATA[686 Callouts AI Voices:]]></AIVOICES>
+		<VOICEDOWNLOAD><![CDATA[Status: Downloading ~n~~y~{0} GB~w~ / ~g~{1} GB~w~ [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Status: Installing ~n~~y~{0}~w~ / ~g~{1}~w~ files [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[Status: ~g~Automatically installed~w~.]]></VOICEDOWNLOAD>
+	</AI> 
+	
+	/// Notifications relating to the Backup Helicopter Search Team.
+	<SEARCHHELI>
+		<REQUESTHELI><![CDATA[Press ~y~{0}~w~ in the next 10 seconds if you'd like support from a ~b~search helicopter~w~.]]></REQUESTHELI>
+		<ISAVAILABLE><![CDATA[A search helicopter is ~g~available to assist~w~.]]></ISAVAILABLE>
+		<ISAVAILABLE><![CDATA[A search helicopter was ~r~not dispatched to assist~w~.]]></ISAVAILABLE>
+		<LOCATEDPED><![CDATA[Air support has ~g~located the ped~w~ in the {0} zone and will remain in the area until you arrive. ~y~Check your map~w~.]]></LOCATEDPED>
+		<ZONESEARCH><![CDATA[Air support is heading to the {0} zone.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[Air support is heading to the {0} zone. The {1} zone was clear.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~b~blue~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~o~orange~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~g~green~w~]]></ZONESEARCH>
+	</SEARCHHELI>
 </GENERAL> 
-
-<!-- <![CDATA[]]> -->
