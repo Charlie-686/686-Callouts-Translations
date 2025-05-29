@@ -1,0 +1,232 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Häusliche Auseinandersetzung]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Eine ~o~häusliche Auseinandersetzung~w~ wurde gemeldet, keine weiteren Informationen. Fahren Sie zur Adresse und ~y~klären Sie die Situation~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Klären Sie die Situation. Möglicherweise befinden sich ~y~Zeugen~w~ in der Nähe.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hey, was ist hier los?]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Sie hört einfach nicht auf! Jede Kleinigkeit macht sie wütend. Mir reicht es!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Er hört einfach nicht auf! Jede Kleinigkeit macht ihn wütend. Mir reicht es!]]></DIALOGUE> // ped 1
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Lassen Sie mich hören was sie dazu zu sagen hat.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Lassen Sie mich hören was er dazu zu sagen hat.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Ich will doch nur ein wenig Respekt! Sie ignoriert mich als wäre ich gar nicht da und das nervt.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Ich will doch nur ein wenig Respekt! Er ignoriert mich als wäre ich gar nicht da und das nervt.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Ich ignoriere dich nicht! Es ist nicht immer alles gleich ein riesen Problem, aber du machst eins draus.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Ich ignoriere dich nicht! Es ist nicht immer alles gleich ein riesen Problem, aber du machst eins draus.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es scheint, als würden Sie sich nicht gegenseitig zuhören. Warum ist das so?]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Sie zieht immer voreilige Schlüsse, bevor wir darüber reden können. Ich brauche einfach etwas Abstand!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Er zieht immer voreilige Schlüsse, bevor wir darüber reden können. Ich brauche einfach etwas Abstand!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Ich will mich nicht streiten! Ich will nur, dass sie mich versteht, aber sie blockt mich ab, bevor ich meine Sicht überhaupt erklären kann.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Ich will mich nicht streiten! Ich will nur, dass er mich versteht, aber er blockt mich ab, bevor ich meine Sicht überhaupt erklären kann.]]></DIALOGUE> // ped 2
+			<DIALOGUE><![CDATA[~b~Sie:~w~Hören Sie mir mal bitte zu. Das Wichtigste ist Kommunikation und dass man sich gegenseitig zuhört.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert" TARGET="M"><![CDATA[~y~Mann:~w~ Ich verstehe. Es fühlt sich nur immer so an, als wenn ich gegen eine Wand reden würde.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustriert" TARGET="F"><![CDATA[~y~Frau:~w~ Ich verstehe. Es fühlt sich nur immer so an, als wenn ich gegen eine Wand reden würde.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustriert" TARGET="M"><![CDATA[~y~Mann:~w~ Ich verstehe was du sagst, aber es kommt nicht so rüber, als wenn du es ernst meinen würdest.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="frustriert" TARGET="F"><![CDATA[~y~Frau:~w~ Ich verstehe was du sagst, aber es kommt nicht so rüber, als wenn du es ernst meinen würdest.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Kann ich mich darauf verlassen, dass Sie ihren Streit friedlich klären?]]></DIALOGUE>
+			<DIALOGUE EMOTION="entschuldigend" TARGET="M"><![CDATA[~y~Mann:~w~ Ja, bitte entschuldigen Sie...]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="entschuldigend" TARGET="F"><![CDATA[~y~Frau:~w~ Ja, bitte entschuldigen Sie...]]></DIALOGUE> // ped 2
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~You:~w~ Hallo! Was ist hier los?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ MIR REICHT ES MIT IHR! Sie kann einfach nicht ihren Mund halten!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ MIR REICHT ES MIT IHM! Er kann einfach nicht seinen Mund halten!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ ACH BITTE! Du verhälst dich doch wie ein Kleinkind, sobald dir mal etwas nicht passt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ ACH BITTE! Du verhälst dich doch wie ein Kleinkind, sobald dir mal etwas nicht passt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Beruhigt euch beide! So können wir das nicht lösen.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Sie HÖRT NIE ZU! SIE TREIBT ES IMMER WEITER UND WEITER!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ ER HÖRT NIE ZU! ER TREIBT ES IMMER WEITER UND WEITER!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ WEIL DU MICH NIE ERNST NIMMST! DU LACHST MICH AUS, ALS WÄRE ICH EIN NIEMAND!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ WEIL DU MICH NIE ERNST NIMMST! DU LACHST MICH AUS, ALS WÄRE ICH EIN NIEMAND!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~D:~w~ ES REICHT! Treten Sie ein Schritt zurück!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Sie wollen das ich zurück trete?! VIELLEICHT SOLLTE SIE MAL IHR MAUL HALTEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Sie wollen das ich zurück trete?! VIELLEICHT SOLLTE ER MAL SEIN MAUL HALTEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ HABEN SIE EIN PROBLEM MIT MIR?! SAG MIR DAS NOCHMAL INS GESICHT!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ HABEN SIE EIN PROBLEM MIT MIR?! SAG MIR DAS NOCHMAL INS GESICHT!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Ich schlag dir gleich ins Gesicht!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Ich schlag dir gleich ins Gesicht!]]></DIALOGUE>
+			<DIALOGUE EMOTION="verängstigt" TARGET="M"><![CDATA[~y~Mann:~w~ HELFEN SIE MIR! Sie greift mich an, BITTE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="verängstigt" TARGET="F"><![CDATA[~y~Frau:~w~ HELFEN SIE MIR! Er greift mich an, BITTE!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Glaubst du, du kannst tun was du willst? Du verdienst das!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Glaubst du, du kannst tun was du willst? Du verdienst das!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Du schlägst wie ein Kleinkind! Ich zeig dir, wie man richtig zuschlägt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Du schlägst wie ein Kleinkind! Ich zeig dir, wie man richtig zuschlägt!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Okay, was ist hier los?]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Zum Glück sind Sie hier, sie hat mich geschlagen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Zum Glück sind Sie hier, er hat mich geschlagen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Das ist eine Lüge. Ich habe sie nicht angefasst!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Das ist eine Lüge. Ich habe ihn nicht angefasst!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Bitte beruhigen Sie sich. Erzählen Sie mir was passiert ist.]]></DIALOGUE> // we are referring to the other ped of the opposite gender. "Which doesn't matter :D - Lenny"
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Bitte beruhigen Sie sich. Erzählen Sie mir was passiert ist.]]></DIALOGUE> // we are referring to the other ped of the opposite gender. "Same here -Lenny"
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Wir haben uns nur gestritten und dann ist sie durchgedreht! Sie hat mich gepackt und dann geschubst!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Wir haben uns nur gestritten und dann ist er durchgedreht! Er hat mich gepackt und dann geschubst!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ ICH HABE DICH NICHT ANGEFASST! Du denkst dir das nur aus, weil du sauer bist!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ ICH HABE DICH NICHT ANGEFASST! Du denkst dir das nur aus, weil du sauer bist!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Bitte werden sie nicht laut. Haben Sie sie angefasst oder nicht?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Bitte werden sie nicht laut. Haben Sie ihn angefasst oder nicht?]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ NEIN, ich schwöre! Sie hat MICH mit etwas abgeworfen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ NEIN, ich schwöre! Er hat MICH mit etwas abgeworfen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Ja, weil du nicht aufhören wolltest, mich anzuschreien! Ich hatte ANGST!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Ja, weil du nicht aufhören wolltest, mich anzuschreien! Ich hatte ANGST!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Alles klar, es reicht! Bleiben Sie beide, wo Sie sind. Wir werden das schon klären.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo. Wir erhielten einige Anrufe bezüglich eines Streites hier in der Nähe. Haben Sie etwas ungewöhnliches gehört?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neugierig"><![CDATA[~y~Zeuge/in:~w~ Warum fragen Sie? Ist es das Ehepaar die Straße runter?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Genaueres kann ich Ihnen nicht sagen, Ich würde nur gerne wissen, ob sie etwas ungewöhnliches gehört haben.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neugierig"><![CDATA[~y~Zeuge/in:~w~ Ich möchte mich da nicht einmischen. Aber hören Sie mir zu, ihr Ehemann ist ein schlimmer Kerl.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Haben Sie genaueres gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neugierig"><![CDATA[~y~Zeuge/in:~w~ Ich habe nur gehört, dass ihre Ehe schlimm sein soll. Mehr weiß ich nicht.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich danke Ihnen für die Informationen.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Entschuldigen Sie? Wir wurden zu einem Streit in der Nähe gerufen. Haben Sie etwas ungewöhnliches gesehen oder gehört?]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtend"><![CDATA[~y~Zeuge/in:~w~ Das einzig ungewöhnliche ist, wie heiß Sie sind.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Danke?! Aber ich würde gerne wissen, ob Sie etwas gesehen oder gehört haben.]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtend"><![CDATA[~y~Zeuge/in:~w~ Dann kann ich nicht helfen, aber melden Sie sich gerne bei mir nach dem Dienst.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Na toll, danke.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Also, was ist hier los?]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Meine Mitbewohnerin ist außer Kontrolle. Sie ist total ausgeflippt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Mein Mitbewohner ist außer Kontrolle. Er ist total ausgeflippt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Wie bitte?! Du hast all meine Sachen in den Müll geworfen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Wie bitte?! Du hast all meine Sachen in den Müll geworfen!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Okay, ich möchte gerne beide Seiten hören, was ist denn passiert?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.  "Same thing here again - Lenny"
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Okay, ich möchte gerne beide Seiten hören, was ist denn passiert?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.  "Same thing here again - Lenny"
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Meine Mitbewohnerin ist quasi ein Messi. Sie hat so viel Müll in meinem Haus! Das ist total eklig.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Mein Mitbewohner ist quasi ein Messi. Er hat so viel Müll in meinem Haus! Das ist total eklig.]]></DIALOGUE>
+			<DIALOGUE EMOTION="traurig" TARGET="M"><![CDATA[~y~Mann:~w~ Das sind kostbare Dinge! Du kannst die nicht einfach in den Müll werfen! Das ist absurd!]]></DIALOGUE>
+			<DIALOGUE EMOTION="traurig" TARGET="F"><![CDATA[~y~Frau:~w~ Das sind kostbare Dinge! Du kannst die nicht einfach in den Müll werfen! Das ist absurd!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Wo sind Ihre Sachen jetzt?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert" TARGET="M"><![CDATA[~y~Mann:~w~ Der Müll wurde schon abgeholt, also ist alles weg! WEG! Ich möchte sie wegen Diebstahl anzeigen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert" TARGET="F"><![CDATA[~y~Frau:~w~ Der Müll wurde schon abgeholt, also ist alles weg! WEG! Ich möchte ihn wegen Diebstahl anzeigen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="herablassend" TARGET="M"><![CDATA[~y~Mann:~w~ Ach komm schon. Sie wissen, dass das Schwachsinn ist.]]></DIALOGUE>
+			<DIALOGUE EMOTION="herablassend" TARGET="F"><![CDATA[~y~Frau:~w~ Ach komm schon. Sie wissen, dass das Schwachsinn ist.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Sie sollten sich beide wirklich benehmen, wir bekommen das schon wieder hin.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo. Wir haben einige Anrufe wegen eines Streits in ihrer Nachbarschaft. Haben Sie in letzter Zeit etwas ungewöhnliches gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neugierig"><![CDATA[~y~Zeuge/in:~w~ Nein das habe ich nicht, aber diese beiden Mitbewohner haben sich immer in den Haaren.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es wurden wohl einige Gegenstände vom jeweils anderen in den Müll geworfen. Haben Sie etwas in der Art gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nachdenklich"><![CDATA[~y~Zeuge/in:~w~ Das habe ich tatsächlich. Einer von ihnen hatte einige Säcke im Müll entsorgt. Ich kann mich leider nicht mehr daran erinnern, wer von beiden.]]></DIALOGUE> // the gender of the suspect is unknown, for it could be the man or woman. The bystander does not remember.
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Das ist sehr hilfreich. Ist dies das erste Mal, dass Sie so etwas gesehen haben?]]></DIALOGUE>
+			<DIALOGUE EMOTION="genervt"><![CDATA[~y~Zeuge/in:~w~ Dass jemand etwas entsorgt hat? Ja. Aber wir mussten den beiden schon oft sagen, leiser zu sein. Die haben oft Streit.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Danke für Ihre Hilfe. Einen schönen Tag noch.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo. Wir haben einige Anrufe wegen eines Streits in ihrer Nachbarschaft. Haben Sie in letzter Zeit etwas ungewöhnliches gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Zeuge/in:~w~ Entschuldigen Sie, Ich habe nichts ungewöhnliches bemerkt.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Es wurden wohl einige Gegenstände vom jeweils anderen in den Müll geworfen. Haben Sie etwas in der Art gesehen?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ehrlich"><![CDATA[~y~Zeuge/in:~w~Daran kann ich mich nicht erinnern. Ich komme gerade aus dem Urlaub zurück.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich verstehe. Wissen Sie viel über die Bewohner?]]></DIALOGUE>
+			<DIALOGUE EMOTION="unbestimmt"><![CDATA[~y~Zeuge/in:~w~ Nein, ich versuche mich da raus zu halten, um ehrlich zu sein. Die sind ein wenig seltsam.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Danke für die Informationen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Treten Sie beide zurück. Was ist los?]]></DIALOGUE>
+			<DIALOGUE EMOTION="schockiert" TARGET="M"><![CDATA[~y~Mann:~w~ Sie hat mich einfach aus der Wohnung geschmissen, OHNE GRUND! Ich wohne hier! Das kann sie nicht machen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schockiert" TARGET="F"><![CDATA[~y~Frau:~w~ Er hat mich einfach aus der Wohnung geschmissen, OHNE GRUND! Ich wohne hier! Das kann er nicht machen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ OHNE GRUND?! Willst du mich verarschen?! Mir REICHTS mit deinen Lügen und deinen Ausreden —Ich will dich aus meiner Wohnung raus!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ OHNE GRUND?! Willst du mich verarschen?! Mir REICHTS mit deinen Lügen und deinen Ausreden —Ich will dich aus meiner Wohnung raus!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Bitte treten Sie zurück. Haben Sie ein Recht darauf hier zu wohnen?]]></DIALOGUE> // we are referring to the other ped of the opposite gender. "Well. once again - Lenny"
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Bitte treten Sie zurück. Haben Sie ein Recht darauf hier zu wohnen??]]></DIALOGUE> // we are referring to the other ped of the opposite gender.  "Well. once again - Lenny"
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ ICH ZAHLE MIETE! ICH LEBE HIER SEIT EINEM JAHR! Sie kann mich nicht einfach rauswerfen als wäre ich ein Fremder!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ ICH ZAHLE MIETE! ICH LEBE HIER SEIT EINEM JAHR! Er kann mich nicht einfach rauswerfen als wäre ich ein Fremder!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Das ist mir egal! Ich WILL SIE HIER RAUS! Ich kann mir nicht noch eine Nacht mit ihr antun!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Das ist mir egal! Ich WILL IHN HIER RAUS! Ich kann mir nicht noch eine Nacht mit ihm antun!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Sie:~w~ Okay, rumschreien hilft hier auch nicht weiter. Haben Sie schon eine Räumungsklage eingeleitet?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Sie:~w~ Okay, rumschreien hilft hier auch nicht weiter. Haben Sie schon eine Räumungsklage eingeleitet?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert" TARGET="M"><![CDATA[~y~Mann:~w~ DAS SOLLTE ICH GAR NICHT MÜSSEN! Sie weigert sich zu gehen! Was soll ich denn tun?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustriert" TARGET="F"><![CDATA[~y~Frau:~w~ DAS SOLLTE ICH GAR NICHT MÜSSEN! Sie weigert sich zu gehen! Was soll ich denn tun?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ Vielleicht soltest du mich besser behandeln, dann wäre es nicht so weit gekommen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ Vielleicht soltest du mich besser behandeln, dann wäre es nicht so weit gekommen!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Alles klar, ich habe beide Seiten angehört. Folgendes wird passieren—wir werden das auf dem richtigen Weg lösen. Bleiben wir zivilisiert.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Wir haben einige Anrufe wegen eines Streits in der Nähe. Haben Sie etwas gesehen oder gehört?]]></DIALOGUE>
+			<DIALOGUE EMOTION="entschuldigend"><![CDATA[~y~Zeuge/in:~w~ Nein, entschuldigung. Das geht mich aber auch nichts an.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ich verstehe, trotzdem danke.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Guten Tag. Wir haben einige Anrufe wegen eines Streits in der Nähe. Haben Sie etwas gesehen oder gehört?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Zeuge/in:~w~ Warum, was ist los?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Ein paar Häuser weiter ist ein Streit eskaliert, wissen Sie etwas über das Paar, was dort lebt??]]></DIALOGUE>
+			<DIALOGUE EMOTION="schockiert"><![CDATA[~y~Zeuge/in:~w~Das ist eine etwas indiskrete Frage, oder? Ich weiß darüber nichts.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Okay, danke Ihnen.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ MIR REICHT ES! DU HÖRST MIR NIE ZU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ MIR REICHT ES! DU HÖRST MIR NIE ZU!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ ICH?! DU HAST DOCH DAMIT ANGEFANGEN! GEH MIR AUS DEN AUGEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ ICH?! DU HAST DOCH DAMIT ANGEFANGEN! GEH MIR AUS DEN AUGEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ ODER WAS? WILLST DU MICH WIEDER SCHLAGEN? TU ES! TRAU DICH!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ ODER WAS? WILLST DU MICH WIEDER SCHLAGEN? TU ES! TRAU DICH!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ ICH HABE DIE NASE VOLL VON DIR!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ ICH HABE DIE NASE VOLL VON DIR!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ NA GUT! LASS UNS DAS BEENDEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ NA GUT! LASS UNS DAS BEENDEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ SO KANNST DU MICH NICHT BEHANDELN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ SO KANNST DU MICH NICHT BEHANDELN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ ES REICHT! ICH BIN FERTIG MIT DIR!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ ES REICHT! ICH BIN FERTIG MIT DIR!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Halten Sie einen ~g~sicheren Abstand~w~ von mindestens ~g~15 Metern~w~ während des Gesprächs mit dem Geiselnehmer. ~y~Seien Sie auf alles vorbereitet~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Sie waren ~r~zu nah dran~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Falls Sie eine Geisel haben, rate ich ihnen Sie/Ihn frei zu lassen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ Bleiben Sie zurück! Ich schwöre ich bringe sie um!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ Bleiben Sie zurück! Ich schwöre ich bringe ihn um!]]></DIALOGUE>
+			<DIALOGUE EMOTION="verzweifelt" TARGET="M"><![CDATA[~y~Mann:~w~ BITTE! LASS MICH GEHEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="verzweifelt" TARGET="F"><![CDATA[~y~Frau:~w~ BITTE! LASS MICH GEHEN!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ HALT DEIN MAUL! DAS IST ALLES DEINE SCHULD!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ HALT DEIN MAUL! DAS IST ALLES DEINE SCHULD!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Keiner wird sich bewegen. Aber hören Sie zu, das ist der Falsche weg. Lassen Sie uns reden.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="schreiend" TARGET="M"><![CDATA[~y~Mann:~w~ Vergiss es! Sie verdient es zu sterben!]]></DIALOGUE>
+			<DIALOGUE EMOTION="schreiend" TARGET="F"><![CDATA[~y~Frau:~w~ Vergiss es! Er verdient es zu sterben!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="verängstigt" TARGET="M"><![CDATA[~y~Mann:~w~ Ich kann so nicht mehr leben, verhaften Sie mich! Ich würde lieber im Gefängnis leben!]]></DIALOGUE>
+			<DIALOGUE EMOTION="verängstigt" TARGET="F"><![CDATA[~y~Frau:~w~ Ich kann so nicht mehr leben, verhaften Sie mich! Ich würde lieber im Gefängnis leben!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="ängstlich" TARGET="M"><![CDATA[~y~Mann:~w~ Okay ich werde sie nicht umbringen! Aber ich werde auch nicht ins Gefängnis gehen!]]></DIALOGUE>
+			<DIALOGUE EMOTION="ängstlich" TARGET="F"><![CDATA[~y~Frau:~w~ Okay ich werde ihn nicht umbringen! Aber ich werde auch nicht ins Gefängnis gehen!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Hallo! Was ist hier los?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ MIR REICHT ES MIT IHR! Sie kann einfach NIE ihr Maul halten!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ MIR REICHT ES MIT IHM! Er kann einfach NIE sein Maul halten!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="M"><![CDATA[~y~Mann:~w~ ACH BITTE! Du benimmst dich doch wie ein Kleinkind, wenn dir mal was nicht passt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="wütend" TARGET="F"><![CDATA[~y~Frau:~w~ ACH BITTE! Du benimmst dich doch wie ein Kleinkind, wenn dir mal was nicht passt!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Sie:~w~ Bitte beruhigen Sie sich beide! So wird das hier nichts.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drohend" TARGET="M"><![CDATA[~y~Mann:~w~ Falsch, genau so machen wir das gleich hier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drohend" TARGET="F"><![CDATA[~y~Frau:~w~ Falsch, genau so machen wir das gleich hier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drohend" TARGET="M"><![CDATA[~y~Mann:~w~ Sie sind in unsere Falle getappt. Es gibt überhaupt keinen Streit, das ist ein Hinterhalt!]]></DIALOGUE>
+			<DIALOGUE EMOTION="drohend" TARGET="F"><![CDATA[~y~Frau:~w~ Sie sind in unsere Falle getappt. Es gibt überhaupt keinen Streit, das ist ein Hinterhalt!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>
