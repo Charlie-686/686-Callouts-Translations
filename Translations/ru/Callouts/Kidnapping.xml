@@ -1,7 +1,7 @@
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Похищение]]></CALLOUTMESSAGE>
-		<FURTHERINFORMATION><![CDATA[Человек, предположительно, был ~y~похищен в такси. ~y~Проведите траффик стоп.~w~]]></FURTHERINFORMATION>
+		<FURTHERINFORMATION><![CDATA[Человек, предположительно, был ~y~похищен таксистом. ~y~Проведите траффик стоп.~w~]]></FURTHERINFORMATION>
 		<NOTIFICATION><![CDATA[~p~Поиск в базе данных ...]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~g~Всё в порядке. Никаких причин для беспокойства.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~r~Подозреваемый в розыске. Причина для беспокойства.]]></NOTIFICATION>
