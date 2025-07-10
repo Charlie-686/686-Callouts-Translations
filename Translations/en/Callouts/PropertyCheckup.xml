@@ -1,0 +1,156 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Property Checkup]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~Watch the property discreetly~w~ for ~o~suspicious activity~w~. If you see something suspicious, take action.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Don't see anything?~w~~n~Press ~y~{0}~w~ to end the callout if everything is clear.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Search the house~w~ for what might've triggered the ~y~silent alarm~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Speak with the home owner~w~ at the property.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A caller has reported ~o~suspicious behaviour~w~ near a ~o~property~w~. They are unsure if anyone is home. ~y~Investigate the property~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[A ~y~vehicle~w~ has been ~r~stolen~w~ at the property. Apprehend the suspect!]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Burglar:~w~ How the hell did you know I was here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Burglar:~w~ Okay, okay! I give up! Don’t shoot!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Burglar:~w~ Damn it... I was so close to getting out!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Burglar:~w~ No way am I getting caught for this!]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~Burglar:~w~ You’ll have to catch me first, cop!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Burglar:~w~ Nope! Not going back to jail!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~Burglar 1:~w~ This one’s locked up tight. You getting anywhere on your side?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~r~Burglar 2:~w~ Nah, frame’s solid. I can’t even get the crowbar in clean.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Burglar 1:~w~ Place looked easier on the walk-by. You sure this is worth it?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Burglar 2:~w~ We’re here, aren’t we? Just keep trying—quietly.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~r~Burglar 1:~w~ If I push too hard, the whole pane’s gonna rattle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~Burglar 2:~w~ Then don’t push. Look for a weak spot. Handle, maybe a hinge.]]></DIALOGUE>
+			<DIALOGUE EMOTION="whisper"><![CDATA[~r~Burglar 1:~w~ Feels like we’re wasting time here. Nothing’s budging.]]></DIALOGUE>
+			<DIALOGUE EMOTION="dry"><![CDATA[~r~Burglar 2:~w~ Then keep looking. One of these’s gotta give eventually.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~Burglar 1:~w~ Damn it—run! Go, go, go!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Burglar 2:~w~ I told you we waited too long! Move!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defeated"><![CDATA[~r~Burglar 1:~w~ Alright, alright! Hands up! I’m done!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Burglar 2:~w~ I told you… this property was a mistake!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Apprehend the ~y~2 burglars~w~ who have ~o~fled in a van~w~!]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Stolen Goods]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~r~Burglar:~w~ Get in the van! Let's move, COME ON!]]></DIALOGUE>`
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Check the ID~w~ of the gardener and when you are satisfied, press ~y~{0}~w~ to ~g~dismiss them~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Gardener:~w~ Whoa! You scared me! I—I work here, I swear!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Relax. I'm responding to a silent alarm that was triggered.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Gardener:~w~ Oh… that was probably me. I came in earlier and didn't realize anything got set off.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Do you have any ID? Just need to verify you're meant to be here.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Gardener:~w~ Yeah, sure—here you go. Really sorry about that, officer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ No problem. Sit tight while I run this through.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A home owner has reported ~y~2 squatters~w~ who are in on their property.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Search the house~w~ to locate the ~y~2 squatters~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="startled"><![CDATA[~y~Squatter:~w~ Whoa—hey! We’re not trying to cause trouble, alright?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ This is private property. Do either of you live here or know the owner?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~y~Squatter:~w~ No, we just needed a place to crash. The backyard looked empty... figured no one would mind.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ The homeowner does mind. They called this in thinking someone broke in.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~Squatter:~w~ Yeah... we didn’t break anything or go inside. Just laid low out here.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ I understand your situation, but you can’t stay here. I need both of you to gather your things and leave the property.]]></DIALOGUE>
+			<DIALOGUE EMOTION="resigned"><![CDATA[~y~Squatter:~w~ Alright. We’ll go. Wasn’t trying to mess with anyone. Come on, let’s pack up.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Squatter:~w~ What now? We’re just sitting here. Not hurting anyone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ This is someone’s property. You and your friend need to leave—now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Squatter:~w~ We’re not going anywhere. The place looked abandoned. We’ve been here two nights and nobody said a thing.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Doesn’t matter how long you've been here. The homeowner reported people trespassing.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Squatter:~w~ Yeah? Well maybe they should’ve said something themselves instead of hiding behind the cops.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ That’s enough. I’m not asking again—pack your things and clear out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~y~Squatter:~w~ We’re not leaving. You wanna make us?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A home owner has reported that their ~o~smoke alarm~w~ was activated. Secure the scene!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Locate the ~r~fire sources~w~, evacuate the ~y~nearby area~w~ and secure the scene.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A home owner is reporting a ~y~dispute~w~ with their neighbour.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Home Owner:~w~ You honestly thought dumping rubbish around my property was going to make your point?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~Neighbour:~w~ I told you—I’ve had enough of the way you treat shared space. Something had to give.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Alright, that’s enough. What’s going on here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Home Owner:~w~ Officer, they left bin bags scattered—against the fence, near my front door, even by the side wall.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~Neighbour:~w~ I didn’t dump them, I just… put them there. After the argument. It wasn’t meant to stay.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You placed household waste on someone else’s property. That’s not a statement—it’s an offence.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~o~Neighbour:~w~ Fine. I got annoyed, alright? I didn’t think it through.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ You need to remove every single bag—now. If this happens again, you'll be fined. Or worse. Clear?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reluctant"><![CDATA[~o~Neighbour:~w~ Yeah. I’ll deal with it.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Home Owner:~w~ Thank you, officer. I just want a bit of peace.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[The ~y~silent alarm~w~ was ~g~deactivated~w~ at the property.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Home Owner:~w~ Officer! Sorry—yep, that was me. I figured someone would show up.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Afternoon. We received a silent alarm from this property. Everything alright here?]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~y~Home Owner:~w~ Yeah, I messed up. This is our family’s holiday home—we haven’t been here in months, and I completely blanked on the alarm code.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did you manage to deactivate it already?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Home Owner:~w~ Eventually, yeah. Took me a few tries, but it’s off now. Sorry for the scare.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ It happens. Do you have any ID or proof of connection to the property, just to verify?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cooperative"><![CDATA[~y~Home Owner:~w~ Yep—got my license on me. You want it?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Please. Once I confirm everything checks out, I’ll be on my way.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A resident is reporting an ~y~unknown disturbance~w~ near their property. Get in contact with them.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[We are tracking the ~y~ankle tag~w~ monitor. Check your map for ~y~location updates~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Officers are responding to a ~y~abandoned prison van~w~. They report a ~r~missing firearm~w~. Suspect may be ~r~armed and dangerous~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Home Owner:~w~ Officer! Yes, over here—thanks for coming so fast.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ We got a report about a disturbance near this property. You're the one who called?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~Home Owner:~w~ Yeah, and it wasn’t just some loiterer. I’m almost certain it was an escaped prisoner. He had the full orange jumpsuit and everything.]]></DIALOGUE> // The prisoner can only be male.
+			<DIALOGUE><![CDATA[~b~You:~w~ Did he approach you?]]></DIALOGUE>
+			<DIALOGUE EMOTION="disturbed"><![CDATA[~y~Home Owner:~w~ He showed up out of nowhere and knocked on my side door. Asked if I’d let him in—said he was cold and needed water. But something felt off.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ And then?]]></DIALOGUE>
+			<DIALOGUE EMOTION="alarmed"><![CDATA[~y~Home Owner:~w~ I told him no, and that I was calling the police. He didn’t like that—got tense, stepped forward, started peering around like he was looking for a way in. I shut the door and locked it immediately.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Did he do anything else before leaving?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~Home Owner:~w~ He tried the handle, then banged on the door once—hard. After that he backed off and took off running. I didn’t follow, just called you guys.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Which direction did he run?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Home Owner:~w~ Hard to say—I lost sight of him pretty quickly. Somewhere around the back.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You:~w~ Understood. You did the right thing. Stay inside and keep everything locked. I’ll see if I can pick up a trail.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[A ~o~hostile~w~ animal has been found on the property.~n~~y~Handle the situation as you see fit~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~g~friendly~w~ animal has been found on the property.~n~~y~Handle the situation as you see fit~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[This is a ~y~follow-up~w~ call. This property was ~y~recently involved~w~ in a disturbance. ~b~Swing by and check on it~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[A ~y~silent alarm~w~ has been triggered at a residential property. ~y~Investigate~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+</CALLOUT>
+ 
