@@ -8,198 +8,198 @@
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé, que se passe-t-il ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Elle ne lâche jamais rien ! Chaque petit truc la fait exploser. J'en peux plus !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Il ne lâche jamais rien ! Chaque petit truc le fait exploser. J'en peux plus !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Elle ne lâche jamais rien ! Chaque petit truc la fait exploser. J'en peux plus !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Il ne lâche jamais rien ! Chaque petit truc le fait exploser. J'en peux plus !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Écoutons sa version des faits.]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Écoutons sa version des faits.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Je demande juste un peu de respect ! Elle me traite comme si je n'existais pas, ça me rend fou.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Je demande juste un peu de respect ! Il me traite comme si je n'existais pas, ça me rend folle.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Je ne t'ignore pas ! Je pense juste que tout n'est pas une crise, mais toi, tu agis comme si c'était toujours le cas.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Je ne t'ignore pas ! Je pense juste que tout n'est pas une crise, mais toi, tu agis comme si c'était toujours le cas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Je demande juste un peu de respect ! Elle me traite comme si je n'existais pas, ça me rend fou.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Je demande juste un peu de respect ! Il me traite comme si je n'existais pas, ça me rend folle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Je ne t'ignore pas ! Je pense juste que tout n'est pas une crise, mais toi, tu agis comme si c'était toujours le cas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Je ne t'ignore pas ! Je pense juste que tout n'est pas une crise, mais toi, tu agis comme si c'était toujours le cas.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ On dirait que vous ne vous écoutez pas. Pourquoi ça arrive encore ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Elle tire toujours des conclusions hâtives avant même qu'on puisse en parler. J'ai juste besoin d'un peu d'espace !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Il tire toujours des conclusions hâtives avant même qu'on puisse en parler. J'ai juste besoin d'un peu d'espace !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Je ne veux pas me disputer ! Je veux juste qu'elle comprenne, mais elle me coupe la parole avant même que je puisse expliquer.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Je ne veux pas me disputer ! Je veux juste qu'il comprenne, mais il me coupe la parole avant même que je puisse expliquer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Elle tire toujours des conclusions hâtives avant même qu'on puisse en parler. J'ai juste besoin d'un peu d'espace !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Il tire toujours des conclusions hâtives avant même qu'on puisse en parler. J'ai juste besoin d'un peu d'espace !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Je ne veux pas me disputer ! Je veux juste qu'elle comprenne, mais elle me coupe la parole avant même que je puisse expliquer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Je ne veux pas me disputer ! Je veux juste qu'il comprenne, mais il me coupe la parole avant même que je puisse expliquer.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, faisons tous un pas en arrière. Ce qui compte, c'est que chacun puisse communiquer et être entendu.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Homme :~w~ Je comprends. C'est juste frustrant, on dirait que je parle à un mur la plupart du temps.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Femme :~w~ Je comprends. C'est juste frustrant, on dirait que je parle à un mur la plupart du temps.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Homme :~w~ Je t'entends, juste pas de la bonne manière.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Femme :~w~ Je t'entends, juste pas de la bonne manière.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="M"><![CDATA[~y~Homme :~w~ Je comprends. C'est juste frustrant, on dirait que je parle à un mur la plupart du temps.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="F"><![CDATA[~y~Femme :~w~ Je comprends. C'est juste frustrant, on dirait que je parle à un mur la plupart du temps.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="M"><![CDATA[~y~Homme :~w~ Je t'entends, juste pas de la bonne manière.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="F"><![CDATA[~y~Femme :~w~ Je t'entends, juste pas de la bonne manière.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Est-ce que je peux compter sur vous pour régler ça calmement ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic" TARGET="M"><![CDATA[~y~Homme :~w~ Oui, désolé… c'était sous le coup de l'émotion.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic" TARGET="F"><![CDATA[~y~Femme :~w~ Oui, désolée… c'était sous le coup de l'émotion.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé" TARGET="M"><![CDATA[~y~Homme :~w~ Oui, désolé… c'était sous le coup de l'émotion.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé" TARGET="F"><![CDATA[~y~Femme :~w~ Oui, désolée… c'était sous le coup de l'émotion.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé ! Que se passe-t-il ici ?!]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ OH S'IL TE PLAÎT ! C'est toi qui fais des scènes comme un enfant capricieux dès que ça ne va pas !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ OH S'IL TE PLAÎT ! C'est toi qui fais des scènes comme un enfant capricieux dès que ça ne va pas !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ OH S'IL TE PLAÎT ! C'est toi qui fais des scènes comme un enfant capricieux dès que ça ne va pas !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ OH S'IL TE PLAÎT ! C'est toi qui fais des scènes comme un enfant capricieux dès que ça ne va pas !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Tous les deux, respirez un bon coup ! Ce n'est pas le moment.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Elle n'ÉCOUTE PAS ! Elle continue de POUSSER et POUSSER !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Il n'ÉCOUTE PAS ! Il continue de POUSSER et POUSSER !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ PARCE QUE TU NE PRENDS JAMAIS RIEN AU SÉRIEUX ! TU RIGOLES DEVANT MOI COMME SI JE N'ÉTAIS RIEN !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ PARCE QUE TU NE PRENDS JAMAIS RIEN AU SÉRIEUX ! TU RIGOLES DEVANT MOI COMME SI JE N'ÉTAIS RIEN !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Elle n'ÉCOUTE PAS ! Elle continue de POUSSER et POUSSER !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Il n'ÉCOUTE PAS ! Il continue de POUSSER et POUSSER !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ PARCE QUE TU NE PRENDS JAMAIS RIEN AU SÉRIEUX ! TU RIGOLES DEVANT MOI COMME SI JE N'ÉTAIS RIEN !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ PARCE QUE TU NE PRENDS JAMAIS RIEN AU SÉRIEUX ! TU RIGOLES DEVANT MOI COMME SI JE N'ÉTAIS RIEN !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ ÇA SUFFIT ! Reculez, MAINTENANT !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Tu veux que je recule ?! PEUT-ÊTRE QU'ELLE DEVRAIT SE TAIRE POUR UNE FOIS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Tu veux que je recule ?! PEUT-ÊTRE QU'IL DEVRAIT SE TAIRE POUR UNE FOIS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ TU VEUX TE BATTRE ?! RÉPÈTE ÇA POUR VOIR !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ TU VEUX TE BATTRE ?! RÉPÈTE ÇA POUR VOIR !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Tu veux que je recule ?! PEUT-ÊTRE QU'ELLE DEVRAIT SE TAIRE POUR UNE FOIS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Tu veux que je recule ?! PEUT-ÊTRE QU'IL DEVRAIT SE TAIRE POUR UNE FOIS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ TU VEUX TE BATTRE ?! RÉPÈTE ÇA POUR VOIR !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ TU VEUX TE BATTRE ?! RÉPÈTE ÇA POUR VOIR !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Oh, tu vas te prendre mon poing en pleine tronche maintenant !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Oh, tu vas te prendre mon poing en pleine tronche maintenant !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="scared" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, elle m'attaque ! À L'AIDE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="scared" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, elle m'attaque ! À L'AIDE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="scared" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, il m'attaque ! À L'AIDE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="scared" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, il m'attaque ! À L'AIDE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Tu crois pouvoir faire tout ce que tu veux ? Tu mérites ça !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Tu crois pouvoir faire tout ce que tu veux ? Tu mérites ça !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Tes coups sont nuls ! Laisse-moi te montrer comment porter un VRAI coup !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Tes coups sont nuls ! Laisse-moi te montrer comment porter un VRAI coup !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Oh, tu vas te prendre mon poing en pleine tronche maintenant !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Oh, tu vas te prendre mon poing en pleine tronche maintenant !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="effrayé" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, elle m'attaque ! À L'AIDE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="effrayé" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, elle m'attaque ! À L'AIDE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="effrayé" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, il m'attaque ! À L'AIDE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="effrayé" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, il m'attaque ! À L'AIDE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Tu crois pouvoir faire tout ce que tu veux ? Tu mérites ça !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Tu crois pouvoir faire tout ce que tu veux ? Tu mérites ça !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Tes coups sont nuls ! Laisse-moi te montrer comment porter un VRAI coup !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Tes coups sont nuls ! Laisse-moi te montrer comment porter un VRAI coup !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, que se passe-t-il ici ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, DIEU MERCI que vous soyez là ! Elle m'a FRAPPÉ !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, DIEU MERCI que vous soyez là ! Elle m'a FRAPPÉ !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, DIEU MERCI que vous soyez là ! Il m'a FRAPPÉ !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, DIEU MERCI que vous soyez là ! Il m'a FRAPPÉ !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ C'EST FAUX ! Je ne l'ai même pas touchée !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ C'EST FAUX ! Je ne l'ai même pas touché !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, DIEU MERCI que vous soyez là ! Elle m'a FRAPPÉ !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, DIEU MERCI que vous soyez là ! Elle m'a FRAPPÉ !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, DIEU MERCI que vous soyez là ! Il m'a FRAPPÉ !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, DIEU MERCI que vous soyez là ! Il m'a FRAPPÉ !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ C'EST FAUX ! Je ne l'ai même pas touchée !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ C'EST FAUX ! Je ne l'ai même pas touché !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Respirez un bon coup. Madame, dites-moi exactement ce qui s'est passé.]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Respirez un bon coup. Monsieur, dites-moi exactement ce qui s'est passé.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ On se disputait, puis elle A PÉTÉ UN CÂBLE ! Elle m'a attrapé et poussé !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ On se disputait, puis il A PÉTÉ UN CÂBLE ! Il m'a attrapée et poussée !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ JE NE T'AI PAS TOUCHÉE ! Tu inventes tout ça parce que tu es en colère !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ JE NE T'AI PAS TOUCHÉ ! Tu inventes tout ça parce que tu es en colère !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ On se disputait, puis elle A PÉTÉ UN CÂBLE ! Elle m'a attrapé et poussé !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ On se disputait, puis il A PÉTÉ UN CÂBLE ! Il m'a attrapée et poussée !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ JE NE T'AI PAS TOUCHÉE ! Tu inventes tout ça parce que tu es en colère !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ JE NE T'AI PAS TOUCHÉ ! Tu inventes tout ça parce que tu es en colère !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Monsieur, baissez d'un ton. L'avez-vous touchée ou non ?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Madame, baissez d'un ton. L'avez-vous touché ou non ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ NON ! Je le jure, je ne l'ai pas fait ! C'est elle qui m'a lancé quelque chose !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ NON ! Je le jure, je ne l'ai pas fait ! C'est lui qui m'a lancé quelque chose !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ C'est parce que tu hurlais sans arrêt en pleine figure ! J'étais EFFRAYÉ !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ C'est parce que tu hurlais sans arrêt en pleine figure ! J'étais EFFRAYÉE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ NON ! Je le jure, je ne l'ai pas fait ! C'est elle qui m'a lancé quelque chose !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ NON ! Je le jure, je ne l'ai pas fait ! C'est lui qui m'a lancé quelque chose !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ C'est parce que tu hurlais sans arrêt en pleine figure ! J'étais EFFRAYÉ !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ C'est parce que tu hurlais sans arrêt en pleine figure ! J'étais EFFRAYÉE !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, ça suffit ! Restez tous les deux sur place. On va éclaircir tout ça.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Nous enquêtons sur une perturbation dans le coin. Avez-vous remarqué quelque chose d'inhabituel ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="curious"><![CDATA[~y~Témoin :~w~ Pourquoi cette question ? C'est à propos du couple là-bas au bout de la rue ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curieux"><![CDATA[~y~Témoin :~w~ Pourquoi cette question ? C'est à propos du couple là-bas au bout de la rue ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je ne peux pas entrer dans les détails, je voulais juste savoir si vous aviez remarqué quelque chose d'anormal.]]></DIALOGUE>
-			<DIALOGUE EMOTION="curious"><![CDATA[~y~Témoin :~w~ Je ne veux pas m'en mêler. Mais entre nous, son mari est un sale type.]]></DIALOGUE>
+			<DIALOGUE EMOTION="curieux"><![CDATA[~y~Témoin :~w~ Je ne veux pas m'en mêler. Mais entre nous, son mari est un sale type.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, avez-vous vu quelque chose en particulier ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="curious"><![CDATA[~y~Témoin :~w~ On dit dans le quartier que leur mariage est devenu compliqué. J'en sais pas plus.]]></DIALOGUE>
+			<DIALOGUE EMOTION="curieux"><![CDATA[~y~Témoin :~w~ On dit dans le quartier que leur mariage est devenu compliqué. J'en sais pas plus.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci pour l'information.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Nous enquêtons sur une perturbation dans le coin. Avez-vous remarqué quelque chose d'inhabituel ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="flirtatious"><![CDATA[~y~Témoin :~w~ La seule chose inhabituelle, c'est à quel point vous êtes canon, Monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="flirtatious"><![CDATA[~y~Témoin :~w~ La seule chose inhabituelle, c'est à quel point vous êtes canon, Madame l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="flirtant"><![CDATA[~y~Témoin :~w~ La seule chose inhabituelle, c'est à quel point vous êtes canon, Monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="flirtant"><![CDATA[~y~Témoin :~w~ La seule chose inhabituelle, c'est à quel point vous êtes canon, Madame l'agent.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci, je suppose. Mais je ne suis intéressé que par des informations utiles à l'enquête.]]></DIALOGUE>
-			<DIALOGUE EMOTION="flirtatious"><![CDATA[~y~Témoin :~w~ Alors je ne vous serai d'aucune aide, mais passez me voir quand vous serez hors service.]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtant"><![CDATA[~y~Témoin :~w~ Alors je ne vous serai d'aucune aide, mais passez me voir quand vous serez hors service.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, merci.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, que se passe-t-il ici ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Qu'est-ce que tu racontes ? Tu as jeté toutes mes affaires !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Qu'est-ce que tu racontes ? Tu as jeté toutes mes affaires !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, mon colocataire est incontrôlable. Il/elle a complètement pété les plombs !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Qu'est-ce que tu racontes ? Tu as jeté toutes mes affaires !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Qu'est-ce que tu racontes ? Tu as jeté toutes mes affaires !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Très bien, je veux entendre les deux versions. Madame, que s'est-il passé ?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Très bien, je veux entendre les deux versions. Monsieur, que s'est-il passé ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Mon colocataire est littéralement un accumuleur compulsif. Elle garde une tonne de trucs chez moi ! C'est totalement injuste.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Mon colocataire est littéralement un accumuleur compulsif. Il garde une tonne de trucs chez moi ! C'est totalement injuste.]]></DIALOGUE>
-			<DIALOGUE EMOTION="sad" TARGET="M"><![CDATA[~y~Homme :~w~ Ce sont mes objets précieux ! Tu ne peux pas juste les jeter ! C'est absurde !]]></DIALOGUE>
-			<DIALOGUE EMOTION="sad" TARGET="F"><![CDATA[~y~Femme :~w~ Ce sont mes objets précieux ! Tu ne peux pas juste les jeter ! C'est absurde !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Mon colocataire est littéralement un accumuleur compulsif. Elle garde une tonne de trucs chez moi ! C'est totalement injuste.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Mon colocataire est littéralement un accumuleur compulsif. Il garde une tonne de trucs chez moi ! C'est totalement injuste.]]></DIALOGUE>
+			<DIALOGUE EMOTION="triste" TARGET="M"><![CDATA[~y~Homme :~w~ Ce sont mes objets précieux ! Tu ne peux pas juste les jeter ! C'est absurde !]]></DIALOGUE>
+			<DIALOGUE EMOTION="triste" TARGET="F"><![CDATA[~y~Femme :~w~ Ce sont mes objets précieux ! Tu ne peux pas juste les jeter ! C'est absurde !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Où sont vos affaires maintenant ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Homme :~w~ Les poubelles ont été ramassées donc tout est parti ! FICHU ! Je veux porter plainte pour vol !]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Femme :~w~ Les poubelles ont été ramassées donc tout est parti ! FICHU ! Je veux porter plainte pour vol !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="condescending" TARGET="M"><![CDATA[~y~Homme :~w~ Oh allez. C'est ridicule, vous le savez monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="condescending" TARGET="M"><![CDATA[~y~Homme :~w~ Oh allez. C'est ridicule, vous le savez madame l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="condescending" TARGET="F"><![CDATA[~y~Femme :~w~ Oh allez. C'est ridicule, vous le savez monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="condescending" TARGET="F"><![CDATA[~y~Femme :~w~ Oh allez. C'est ridicule, vous le savez madame l'agent.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="M"><![CDATA[~y~Homme :~w~ Les poubelles ont été ramassées donc tout est parti ! FICHU ! Je veux porter plainte pour vol !]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="F"><![CDATA[~y~Femme :~w~ Les poubelles ont été ramassées donc tout est parti ! FICHU ! Je veux porter plainte pour vol !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="condescendant" TARGET="M"><![CDATA[~y~Homme :~w~ Oh allez. C'est ridicule, vous le savez monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="condescendant" TARGET="M"><![CDATA[~y~Homme :~w~ Oh allez. C'est ridicule, vous le savez madame l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="condescendant" TARGET="F"><![CDATA[~y~Femme :~w~ Oh allez. C'est ridicule, vous le savez monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="condescendant" TARGET="F"><![CDATA[~y~Femme :~w~ Oh allez. C'est ridicule, vous le savez madame l'agent.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous devez tous les deux vous calmer. Je vais tirer cette affaire au clair.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. J'enquête sur des événements survenus dans une propriété voisine. Avez-vous vu quelque chose d'étrange récemment ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="curious"><![CDATA[~y~Témoin :~w~ Non, je n'ai rien vu, monsieur l'agent, mais ces deux colocataires se disputent tout le temps.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="curious"><![CDATA[~y~Témoin :~w~ Non, je n'ai rien vu, madame l'agent, mais ces deux colocataires se disputent tout le temps.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="curieux"><![CDATA[~y~Témoin :~w~ Non, je n'ai rien vu, monsieur l'agent, mais ces deux colocataires se disputent tout le temps.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="curieux"><![CDATA[~y~Témoin :~w~ Non, je n'ai rien vu, madame l'agent, mais ces deux colocataires se disputent tout le temps.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Il a été allégué que quelqu'un a jeté les affaires de l'autre à la poubelle. Avez-vous vu quelque chose de ce genre ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Témoin :~w~ En fait, oui. L'un des deux, je ne me souviens plus lequel, transportait plein de sacs poubelle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Témoin :~w~ En fait, oui. L'un des deux, je ne me souviens plus lequel, transportait plein de sacs poubelle.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est très utile. C'est la première fois que vous les voyez faire cela ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Témoin :~w~ Jeter beaucoup d'ordures ? Oui. Mais j'ai déjà dû leur demander de baisser le volume, ils se disputent pas mal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~y~Témoin :~w~ Jeter beaucoup d'ordures ? Oui. Mais j'ai déjà dû leur demander de baisser le volume, ils se disputent pas mal.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci pour votre aide précieuse. Prenez soin de vous.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. J'enquête sur des événements survenus dans une propriété voisine. Avez-vous vu quelque chose d'étrange récemment ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="neutral"><![CDATA[~y~Témoin :~w~ Désolé, monsieur l'agent, je n'ai rien vu d'étrange.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="neutral"><![CDATA[~y~Témoin :~w~ Désolé, madame l'agent, je n'ai rien vu d'étrange.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="neutre"><![CDATA[~y~Témoin :~w~ Désolé, monsieur l'agent, je n'ai rien vu d'étrange.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="neutre"><![CDATA[~y~Témoin :~w~ Désolé, madame l'agent, je n'ai rien vu d'étrange.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Il a été allégué que quelqu'un a jeté les affaires de l'autre à la poubelle. Avez-vous vu quelque chose de ce genre ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="honest"><![CDATA[~y~Témoin :~w~ Je n'ai rien vu de tel. Je viens juste de rentrer de vacances à l'étranger.]]></DIALOGUE>
+			<DIALOGUE EMOTION="honnête"><![CDATA[~y~Témoin :~w~ Je n'ai rien vu de tel. Je viens juste de rentrer de vacances à l'étranger.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je comprends. Connaissez-vous bien les colocataires qui vivent à côté ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="unsettled"><![CDATA[~y~Témoin :~w~ Non, pour être honnête, j'essaie de les éviter. Ils sont un peu bizarres.]]></DIALOGUE>
+			<DIALOGUE EMOTION="troublé"><![CDATA[~y~Témoin :~w~ Non, pour être honnête, j'essaie de les éviter. Ils sont un peu bizarres.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci pour les informations.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous deux, reculez d'un pas. Que se passe-t-il ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="shocked" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, elle m'expulse pour RIEN ! Je vis ici ! Elle n'a pas le droit !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="shocked" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, elle m'expulse pour RIEN ! Je vis ici ! Elle n'a pas le droit !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="shocked" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, il m'expulse pour RIEN ! Je vis ici ! Il n'a pas le droit !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="shocked" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, il m'expulse pour RIEN ! Je vis ici ! Il n'a pas le droit !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ RIEN ?! Tu te moques de moi ?! J'en ai MARRE de tes mensonges, de tes excuses — je veux que tu dégages !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ RIEN ?! Tu te moques de moi ?! J'en ai MARRE de tes mensonges, de tes excuses — je veux que tu dégages !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="choqué" TARGET="M"><![CDATA[~y~Homme :~w~ Monsieur l'agent, elle m'expulse pour RIEN ! Je vis ici ! Elle n'a pas le droit !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="choqué" TARGET="M"><![CDATA[~y~Homme :~w~ Madame l'agent, elle m'expulse pour RIEN ! Je vis ici ! Elle n'a pas le droit !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="choqué" TARGET="F"><![CDATA[~y~Femme :~w~ Monsieur l'agent, il m'expulse pour RIEN ! Je vis ici ! Il n'a pas le droit !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="choqué" TARGET="F"><![CDATA[~y~Femme :~w~ Madame l'agent, il m'expulse pour RIEN ! Je vis ici ! Il n'a pas le droit !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ RIEN ?! Tu te moques de moi ?! J'en ai MARRE de tes mensonges, de tes excuses — je veux que tu dégages !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ RIEN ?! Tu te moques de moi ?! J'en ai MARRE de tes mensonges, de tes excuses — je veux que tu dégages !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Prenons du recul. Madame, avez-vous un droit légal d'habiter ici ?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Prenons du recul. Monsieur, avez-vous un droit légal d'habiter ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ JE PAYE LE LOYER ! J'HABITE ICI DEPUIS UN AN ! Elle ne peut pas juste me virer comme un inconnu !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ JE PAYE LE LOYER ! J'HABITE ICI DEPUIS UN AN ! Il ne peut pas juste me virer comme une étrangère !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Je m'en fiche ! JE VEUX qu'elle PARTE ! Je ne supporte plus ses conneries une nuit de plus !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Je m'en fiche ! JE VEUX QU'IL PARTE ! Je ne supporte plus ses conneries une nuit de plus !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ JE PAYE LE LOYER ! J'HABITE ICI DEPUIS UN AN ! Elle ne peut pas juste me virer comme un inconnu !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ JE PAYE LE LOYER ! J'HABITE ICI DEPUIS UN AN ! Il ne peut pas juste me virer comme une étrangère !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Je m'en fiche ! JE VEUX qu'elle PARTE ! Je ne supporte plus ses conneries une nuit de plus !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Je m'en fiche ! JE VEUX QU'IL PARTE ! Je ne supporte plus ses conneries une nuit de plus !]]></DIALOGUE>
 			<DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Très bien, crier ne résoudra rien. Monsieur, avez-vous entamé une procédure légale d'expulsion ?]]></DIALOGUE>
 			<DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Très bien, crier ne résoudra rien. Madame, avez-vous entamé une procédure légale d'expulsion ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~Homme :~w~ JE NE DEVRAIS PAS AVOIR À LE FAIRE ! Elle refuse de partir ! Que suis-je censé faire ?!]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~Femme :~w~ JE NE DEVRAIS PAS AVOIR À LE FAIRE ! Il refuse de partir ! Que suis-je censée faire ?!]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ Peut-être que si tu arrêtais de me traiter comme une merde, on n'en serait pas là !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ Peut-être que si tu arrêtais de me traiter comme une merde, on n'en serait pas là !]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="M"><![CDATA[~y~Homme :~w~ JE NE DEVRAIS PAS AVOIR À LE FAIRE ! Elle refuse de partir ! Que suis-je censé faire ?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré" TARGET="F"><![CDATA[~y~Femme :~w~ JE NE DEVRAIS PAS AVOIR À LE FAIRE ! Il refuse de partir ! Que suis-je censée faire ?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ Peut-être que si tu arrêtais de me traiter comme une merde, on n'en serait pas là !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ Peut-être que si tu arrêtais de me traiter comme une merde, on n'en serait pas là !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, j'ai entendu les deux versions. Voici ce qui va se passer : on va régler ça correctement. Alors restons calmes.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Nous enquêtons sur une perturbation dans le voisinage. Avez-vous des informations à ce sujet ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Témoin :~w~ Non, désolé. Cela ne me regarde pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Témoin :~w~ Non, désolé. Cela ne me regarde pas.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je comprends, merci.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Nous enquêtons sur une perturbation dans le voisinage. Avez-vous des informations à ce sujet ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Témoin :~w~ Pourquoi ? Que se passe-t-il ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~y~Témoin :~w~ Pourquoi ? Que se passe-t-il ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Une dispute a éclaté à quelques maisons d'ici. Connaissiez-vous le couple qui y vivait ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Témoin :~w~ C'est une question un peu intrusive, non ? Je ne sais rien là-dessus.]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Témoin :~w~ C'est une question un peu intrusive, non ? Je ne sais rien là-dessus.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, merci.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI MARRE ! TU N'ÉCOUTES JAMAIS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI MARRE ! TU N'ÉCOUTES JAMAIS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ MOI ?! C'EST TOI QUI AS COMMENCÉ ! DÉGAGE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ MOI ?! C'EST TOI QUI AS COMMENCÉ ! DÉGAGE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ AH OUI ? TU VAS ME POUSSER ENCORE ? VAS-Y ! JE T'ATTENDS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ AH OUI ? TU VAS ME POUSSER ENCORE ? VAS-Y ! JE T'ATTENDS !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN PEUX PLUS DE TOI !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN PEUX PLUS DE TOI !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ TRÈS BIEN ! RÉGLONS ÇA !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ TRÈS BIEN ! RÉGLONS ÇA !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ TU N'AS PAS LE DROIT DE ME TRAITER COMME ÇA !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ TU N'AS PAS LE DROIT DE ME TRAITER COMME ÇA !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ RECULE ! J'EN AI FINI AVEC TOI ET TA FOLIE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ RECULE ! J'EN AI FINI AVEC TOI ET TA FOLIE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI MARRE ! TU N'ÉCOUTES JAMAIS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI MARRE ! TU N'ÉCOUTES JAMAIS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ MOI ?! C'EST TOI QUI AS COMMENCÉ ! DÉGAGE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ MOI ?! C'EST TOI QUI AS COMMENCÉ ! DÉGAGE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ AH OUI ? TU VAS ME POUSSER ENCORE ? VAS-Y ! JE T'ATTENDS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ AH OUI ? TU VAS ME POUSSER ENCORE ? VAS-Y ! JE T'ATTENDS !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN PEUX PLUS DE TOI !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN PEUX PLUS DE TOI !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ TRÈS BIEN ! RÉGLONS ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ TRÈS BIEN ! RÉGLONS ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ TU N'AS PAS LE DROIT DE ME TRAITER COMME ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ TU N'AS PAS LE DROIT DE ME TRAITER COMME ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ RECULE ! J'EN AI FINI AVEC TOI ET TA FOLIE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ RECULE ! J'EN AI FINI AVEC TOI ET TA FOLIE !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
@@ -207,47 +207,47 @@
 		<NOTIFICATION><![CDATA[Vous étiez ~r~trop proche~w~ !]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Si vous retenez quelqu'un en otage, je vous conseille fortement de le libérer immédiatement !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ Reculez ! Je vous jure que je vais la tuer !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ Reculez ! Je vous jure que je vais le tuer !]]></DIALOGUE>
-			<DIALOGUE EMOTION="desperate" TARGET="M"><![CDATA[~y~Homme :~w~ PITIÉ ! LAISSEZ-MOI PARTIR !]]></DIALOGUE>
-			<DIALOGUE EMOTION="desperate" TARGET="F"><![CDATA[~y~Femme :~w~ PITIÉ ! LAISSEZ-MOI PARTIR !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ TAIS-TOI ! TOUT EST DE TA FAUTE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ TAIS-TOI ! TOUT EST DE TA FAUTE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ Reculez ! Je vous jure que je vais la tuer !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ Reculez ! Je vous jure que je vais le tuer !]]></DIALOGUE>
+			<DIALOGUE EMOTION="désespéré" TARGET="M"><![CDATA[~y~Homme :~w~ PITIÉ ! LAISSEZ-MOI PARTIR !]]></DIALOGUE>
+			<DIALOGUE EMOTION="désespéré" TARGET="F"><![CDATA[~y~Femme :~w~ PITIÉ ! LAISSEZ-MOI PARTIR !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ TAIS-TOI ! TOUT EST DE TA FAUTE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ TAIS-TOI ! TOUT EST DE TA FAUTE !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Personne ne bouge. Mais écoutez-moi—ce n'est pas la solution. Parlons.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~Homme :~w~ J'en ai marre ! Elle mérite de mourir de toute façon !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~Femme :~w~ J'en ai marre ! Il mérite de mourir de toute façon !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~y~Homme :~w~ J'en ai marre ! Elle mérite de mourir de toute façon !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~y~Femme :~w~ J'en ai marre ! Il mérite de mourir de toute façon !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" EMOTION="terrified" TARGET="M"><![CDATA[~y~Homme :~w~ Je n'en peux plus, monsieur l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="terrified" TARGET="M"><![CDATA[~y~Homme :~w~ Je n'en peux plus, madame l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="terrified" TARGET="F"><![CDATA[~y~Femme :~w~ Je n'en peux plus, monsieur l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="terrified" TARGET="F"><![CDATA[~y~Femme :~w~ Je n'en peux plus, madame l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="terrifié" TARGET="M"><![CDATA[~y~Homme :~w~ Je n'en peux plus, monsieur l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="terrifié" TARGET="M"><![CDATA[~y~Homme :~w~ Je n'en peux plus, madame l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="terrifié" TARGET="F"><![CDATA[~y~Femme :~w~ Je n'en peux plus, monsieur l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="terrifié" TARGET="F"><![CDATA[~y~Femme :~w~ Je n'en peux plus, madame l'agent ! Arrêtez-moi ! Je préfère vivre en prison !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="scared" TARGET="M"><![CDATA[~y~Homme :~w~ Très bien, je ne la tuerai pas ! Mais je ne veux pas aller en prison !]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared" TARGET="F"><![CDATA[~y~Femme :~w~ Très bien, je ne le tuerai pas ! Mais je ne veux pas aller en prison !]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé" TARGET="M"><![CDATA[~y~Homme :~w~ Très bien, je ne la tuerai pas ! Mais je ne veux pas aller en prison !]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé" TARGET="F"><![CDATA[~y~Femme :~w~ Très bien, je ne le tuerai pas ! Mais je ne veux pas aller en prison !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé ! Que se passe-t-il ici ?!]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE, MONSIEUR L'AGENT ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE, MADAME L'AGENT ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI, MONSIEUR L'AGENT ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI, MADAME L'AGENT ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~Homme :~w~ OH, PARDON ! C'est toi qui fais des crises dès que quelque chose ne te convient pas !]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~Femme :~w~ OH, PARDON ! C'est toi qui fais des crises dès que quelque chose ne te convient pas !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE, MONSIEUR L'AGENT ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ J'EN AI FINI AVEC ELLE, MADAME L'AGENT ! Elle n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI, MONSIEUR L'AGENT ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ J'EN AI FINI AVEC LUI, MADAME L'AGENT ! Il n'arrête JAMAIS de parler !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="M"><![CDATA[~y~Homme :~w~ OH, PARDON ! C'est toi qui fais des crises dès que quelque chose ne te convient pas !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère" TARGET="F"><![CDATA[~y~Femme :~w~ OH, PARDON ! C'est toi qui fais des crises dès que quelque chose ne te convient pas !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Respirez tous les deux ! On ne va pas régler ça comme ça.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="threatening" TARGET="M"><![CDATA[~y~Homme :~w~ Oh monsieur l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="threatening" TARGET="M"><![CDATA[~y~Homme :~w~ Oh madame l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="threatening" TARGET="F"><![CDATA[~y~Femme :~w~ Oh monsieur l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="threatening" TARGET="F"><![CDATA[~y~Femme :~w~ Oh madame l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="threatening" TARGET="M"><![CDATA[~y~Homme :~w~ Désolé monsieur l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="threatening" TARGET="M"><![CDATA[~y~Homme :~w~ Désolé madame l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="threatening" TARGET="F"><![CDATA[~y~Femme :~w~ Désolé monsieur l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="threatening" TARGET="F"><![CDATA[~y~Femme :~w~ Désolé madame l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="menaçant" TARGET="M"><![CDATA[~y~Homme :~w~ Oh monsieur l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="menaçant" TARGET="M"><![CDATA[~y~Homme :~w~ Oh madame l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="menaçant" TARGET="F"><![CDATA[~y~Femme :~w~ Oh monsieur l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="menaçant" TARGET="F"><![CDATA[~y~Femme :~w~ Oh madame l'agent, si justement, on va régler ça ici et maintenant.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="menaçant" TARGET="M"><![CDATA[~y~Homme :~w~ Désolé monsieur l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="menaçant" TARGET="M"><![CDATA[~y~Homme :~w~ Désolé madame l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="menaçant" TARGET="F"><![CDATA[~y~Femme :~w~ Désolé monsieur l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="menaçant" TARGET="F"><![CDATA[~y~Femme :~w~ Désolé madame l'agent, mais vous êtes tombé droit dans notre piège. Ce n'est pas une dispute domestique. C'est UNE EMBUSCADE !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 </CALLOUT>

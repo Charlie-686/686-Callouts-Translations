@@ -18,17 +18,17 @@
 		<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu assis au sol~w~. Envoyez des unités au sol pour ~y~établir le contact~w~.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est vous la personne disparue ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victime :~w~ Oui... Désolé, je ne voulais inquiéter personne. J'avais juste... besoin de m'éloigner un peu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~y~Victime :~w~ Oui... Désolé, je ne voulais inquiéter personne. J'avais juste... besoin de m'éloigner un peu.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez disparu depuis plus d'un jour. Pourquoi ne pas avoir donné de nouvelles ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="distant"><![CDATA[~y~Victime :~w~ Je ne sais pas. Je n'avais juste... pas envie de parler. J'ai beaucoup réfléchi... je voulais être seul(e).]]></DIALOGUE>
+			<DIALOGUE EMOTION="distante"><![CDATA[~y~Victime :~w~ Je ne sais pas. Je n'avais juste... pas envie de parler. J'ai beaucoup réfléchi... je voulais être seul(e).]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Mais vous êtes parti(e) longtemps. Les gens étaient inquiets.]]></DIALOGUE>
-			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Victime :~w~ Je sais, et je suis désolé(e). Je ne voulais pas causer de problèmes. J'avais juste besoin de faire le point.]]></DIALOGUE>
+			<DIALOGUE EMOTION="coupable"><![CDATA[~y~Victime :~w~ Je sais, et je suis désolé(e). Je ne voulais pas causer de problèmes. J'avais juste besoin de faire le point.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Faire le point ? Quelque chose n'allait pas ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="hesitant"><![CDATA[~y~Victime :~w~ Ce n'est rien. Juste... des choses personnelles. Ne vous en faites pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hésitant"><![CDATA[~y~Victime :~w~ Ce n'est rien. Juste... des choses personnelles. Ne vous en faites pas.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Des choses personnelles ? Vous allez bien ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="avoiding"><![CDATA[~y~Victime :~w~ Oui, ça va. Je veux juste... rentrer chez moi. Vous pouvez m'y ramener ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="évitant"><![CDATA[~y~Victime :~w~ Oui, ça va. Je veux juste... rentrer chez moi. Vous pouvez m'y ramener ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ On ne peut pas s'en tenir à ça. On doit s'assurer que vous allez bien.]]></DIALOGUE>
-			<DIALOGUE EMOTION="remorseful"><![CDATA[~y~Victime :~w~ Je suis désolé(e). Je ne voulais pas compliquer les choses. Je vais aller bien. S'il vous plaît, je veux juste rentrer maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="coupable"><![CDATA[~y~Victime :~w~ Je suis désolé(e). Je ne voulais pas compliquer les choses. Je vais aller bien. S'il vous plaît, je veux juste rentrer maintenant.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord. L'important, c'est que vous soyez sain et sauf. Je vais vous ramener.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
@@ -36,33 +36,33 @@
 		<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu marchant~w~ sans but précis.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé ! Tout va bien ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~y~Victime :~w~ Oh—euh, oui. Je crois. Attendez, vous êtes avec les secours ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~y~Victime :~w~ Oh—euh, oui. Je crois. Attendez, vous êtes avec les secours ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je suis avec la police. On a reçu un signalement indiquant que quelqu'un était perdu ici.]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victime :~w~ Oh mince... oui, c'est moi. J'étais en randonnée, et puis—euh—je ne sais pas où je me suis retrouvé(e).]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~y~Victime :~w~ Oh mince... oui, c'est moi. J'étais en randonnée, et puis—euh—je ne sais pas où je me suis retrouvé(e).]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Depuis combien de temps errez-vous ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="sheepish"><![CDATA[~y~Victime :~w~ Je crois... quelques heures ? Peut-être plus ? J'ai perdu la notion du temps.]]></DIALOGUE>
+			<DIALOGUE EMOTION="penauds"><![CDATA[~y~Victime :~w~ Je crois... quelques heures ? Peut-être plus ? J'ai perdu la notion du temps.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous auriez dû rester sur place. Bouger complique notre recherche.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Victime :~w~ Je sais, je sais. Mais je ne voulais pas juste rester là à rien faire.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Victime :~w~ Je sais, je sais. Mais je ne voulais pas juste rester là à rien faire.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ L'essentiel, c'est que vous alliez bien. Des blessures ? Étourdi ? Déshydraté ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victime :~w~ Non, je crois que ça va. Juste fatigué(e)... et vraiment prêt(e) à rentrer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="rassurant"><![CDATA[~y~Victime :~w~ Non, je crois que ça va. Juste fatigué(e)... et vraiment prêt(e) à rentrer.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je comprends. On va vous sortir d'ici.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="grateful"><![CDATA[~y~Victime :~w~ Merci, monsieur l'agent. Sincèrement. Je vous dois une fière chandelle.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="grateful"><![CDATA[~y~Victime :~w~ Merci, madame l'agent. Sincèrement. Je vous dois une fière chandelle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Merci, monsieur l'agent. Sincèrement. Je vous dois une fière chandelle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Merci, madame l'agent. Sincèrement. Je vous dois une fière chandelle.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu en train de marcher~w~, semblant en détresse.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé, ça va ? Vous avez l'air effrayé.]]></DIALOGUE>
-			<DIALOGUE EMOTION="panicked"><![CDATA[~y~Victime :~w~ Oh, Dieu merci ! Je croyais ne jamais sortir d'ici. Je... je ne sais pas où je suis !]]></DIALOGUE>
+			<DIALOGUE EMOTION="paniqué"><![CDATA[~y~Victime :~w~ Oh, Dieu merci ! Je croyais ne jamais sortir d'ici. Je... je ne sais pas où je suis !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Tout va bien, je suis là pour vous aider. Depuis combien de temps êtes-vous ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frantic"><![CDATA[~y~Victime :~w~ Je... j'erre depuis des heures ! Mon téléphone est mort et je... je pensais connaître le chemin, mais maintenant... tout se ressemble.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frénétique"><![CDATA[~y~Victime :~w~ Je... j'erre depuis des heures ! Mon téléphone est mort et je... je pensais connaître le chemin, mais maintenant... tout se ressemble.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Respirez profondément. Vous êtes en sécurité maintenant. Essayez juste de rester calme.]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Victime :~w~ J'essaie. Mais j'entends des bruits et je ne sais pas quoi faire. J'ai... j'ai vraiment peur.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~y~Victime :~w~ J'essaie. Mais j'entends des bruits et je ne sais pas quoi faire. J'ai... j'ai vraiment peur.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est bon. Vous n'êtes plus seul. On va vous sortir de là.]]></DIALOGUE>
-			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victime :~w~ Je sais, mais je... je ne veux plus rester ici. Vous pouvez... vous pouvez m'aider à rentrer ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="rassurant"><![CDATA[~y~Victime :~w~ Je sais, mais je... je ne veux plus rester ici. Vous pouvez... vous pouvez m'aider à rentrer ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bien sûr, je vais vous raccompagner. Vous êtes presque en sécurité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victime :~w~ Merci beaucoup. Je commençais à perdre espoir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~y~Victime :~w~ Merci beaucoup. Je commençais à perdre espoir.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Pas besoin de me remercier. Restez près de moi, et on vous ramène chez vous sain et sauf.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
@@ -70,17 +70,17 @@
 		<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu en train de marcher~w~, semblant blessé ou ivre. Envoyez une unité au sol pour ~y~aller vérifier~w~ rapidement !]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Hé, ça va ? Vous semblez boiter.]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Victime :~w~ Oh, ce n'est rien de grave. Juste des crampes à la jambe. Je marche en rond depuis un moment... Je crois que je suis perdu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Victime :~w~ Oh, ce n'est rien de grave. Juste des crampes à la jambe. Je marche en rond depuis un moment... Je crois que je suis perdu.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Perdu ? Depuis combien de temps êtes-vous ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Victime :~w~ Quelques heures, je crois. Je suivais le sentier, puis je l'ai perdu. Tout se ressemble. Je pensais aller dans la bonne direction, mais...]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~y~Victime :~w~ Quelques heures, je crois. Je suivais le sentier, puis je l'ai perdu. Tout se ressemble. Je pensais aller dans la bonne direction, mais...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ça doit être stressant. Vous êtes blessé ou c'est juste les crampes ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="reassuring"><![CDATA[~y~Victime :~w~ Juste des crampes. Ma jambe est un peu raide, mais ça ira. J'ai juste besoin de sortir d'ici.]]></DIALOGUE>
+			<DIALOGUE EMOTION="rassurant"><![CDATA[~y~Victime :~w~ Juste des crampes. Ma jambe est un peu raide, mais ça ira. J'ai juste besoin de sortir d'ici.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je peux vous aider. Vous pensez être loin du sentier ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Victime :~w~ Franchement ? Aucune idée. Chaque chemin semble mener à une impasse. Je veux juste rentrer chez moi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Victime :~w~ Franchement ? Aucune idée. Chaque chemin semble mener à une impasse. Je veux juste rentrer chez moi.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ne vous inquiétez pas, vous êtes tout proche. Allons vous mettre à l'abri. Vous pouvez marcher ou vous avez besoin d'aide ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Victime :~w~ Je peux marcher, lentement. Je veux juste rentrer... je suis resté ici trop longtemps.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Je peux marcher, lentement. Je veux juste rentrer... je suis resté ici trop longtemps.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, prenez votre temps. On y est presque.]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victime :~w~ Merci infiniment. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~y~Victime :~w~ Merci infiniment. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Pas de souci. Suivez-moi, on rentre à la maison.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
@@ -88,33 +88,33 @@
 		<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu en train de marcher~w~, semblant blessé ou ivre. Envoyez une unité au sol pour ~y~aller vérifier~w~ rapidement !]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Salut, tout va bien ? On dirait que vous êtes ici depuis un moment.]]></DIALOGUE>
-			<DIALOGUE EMOTION="slurred"><![CDATA[~y~Victime :~w~ H-Hey... ouais, ça va. J'faisais juste... marcher, tu vois ? Réfléchir...]]></DIALOGUE>
+			<DIALOGUE EMOTION="empâtée"><![CDATA[~y~Victime :~w~ H-Hey... ouais, ça va. J'faisais juste... marcher, tu vois ? Réfléchir...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois bien. Mais vous n'avez pas l'air en forme. Vous êtes blessé ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="tipsy"><![CDATA[~y~Victime :~w~ Hahaha... non, non. Pas blessé. Juste un peu... euh, un peu saoul. Longue marche, tu vois ? J'voulais... vider ma tête.]]></DIALOGUE>
+			<DIALOGUE EMOTION="éméché"><![CDATA[~y~Victime :~w~ Hahaha... non, non. Pas blessé. Juste un peu... euh, un peu saoul. Longue marche, tu vois ? J'voulais... vider ma tête.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Une longue marche ? Qu'est-ce qui se passe ? Pourquoi boire ici, dehors ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="sad"><![CDATA[~y~Victime :~w~ Je... je sais pas... Mon... mon partenaire et moi, on... on s'est séparés. Et... je croyais que de l'air, un peu d'espace, ça aiderait... mais j'ai juste continué... à boire. C'est le chaos.]]></DIALOGUE>
+			<DIALOGUE EMOTION="triste"><![CDATA[~y~Victime :~w~ Je... je sais pas... Mon... mon partenaire et moi, on... on s'est séparés. Et... je croyais que de l'air, un peu d'espace, ça aiderait... mais j'ai juste continué... à boire. C'est le chaos.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Désolé d'entendre ça. Mais vous ne devriez pas être ici tout seul, surtout dans cet état. Vous avez besoin d'aide ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="regretful"><![CDATA[~y~Victime :~w~ Je sais... je voulais juste pas voir personne, tu vois ? Pas... affronter tout ça. J'croyais que marcher aiderait.]]></DIALOGUE>
+			<DIALOGUE EMOTION="regrettant"><![CDATA[~y~Victime :~w~ Je sais... je voulais juste pas voir personne, tu vois ? Pas... affronter tout ça. J'croyais que marcher aiderait.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous n'avez pas à rester seul. On va vous ramener en sécurité. Vous pouvez marcher ou vous avez besoin d'aide ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="reluctant"><![CDATA[~y~Victime :~w~ J'vais m'en sortir. J'veux juste rentrer... s'il vous plaît, j'veux juste rentrer...]]></DIALOGUE>
+			<DIALOGUE EMOTION="réticent"><![CDATA[~y~Victime :~w~ J'vais m'en sortir. J'veux juste rentrer... s'il vous plaît, j'veux juste rentrer...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, on va y aller. Restez avec moi, doucement. Vous n'êtes plus seul.]]></DIALOGUE>
-			<DIALOGUE EMOTION="grateful"><![CDATA[~y~Victime :~w~ Merci... j'sais pas ce que j'aurais fait sans vous...]]></DIALOGUE>
+			<DIALOGUE EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Merci... j'sais pas ce que j'aurais fait sans vous...]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 <OUTCOME>
 	<NOTIFICATION><![CDATA[Le soutien aérien signale ~o~un individu qui erre~w~ sans but. Ils ont également identifié une menace potentielle : des ~y~pumas~w~ à proximité.]]></NOTIFICATION>
 	<DIALOGUES>
 		<DIALOGUE><![CDATA[~b~Vous :~w~ Hé, ça va ? Vous avez l'air d'avoir traversé quelque chose de difficile.]]></DIALOGUE>
-		<DIALOGUE EMOTION="panicked"><![CDATA[~y~Victime :~w~ Oh, merci mon Dieu ! Je croyais que j'allais mourir ici ! Je courais... pour échapper à des pumas !]]></DIALOGUE>
+		<DIALOGUE EMOTION="paniqué"><![CDATA[~y~Victime :~w~ Oh, merci mon Dieu ! Je croyais que j'allais mourir ici ! Je courais... pour échapper à des pumas !]]></DIALOGUE>
 		<DIALOGUE><![CDATA[~b~Vous :~w~ Des pumas ? Sérieusement ? Depuis combien de temps vous suivent-ils ?]]></DIALOGUE>
-		<DIALOGUE EMOTION="terrified"><![CDATA[~y~Victime :~w~ Je ne sais même pas... J'ai entendu quelque chose derrière moi, je me suis retourné·e, et ils étaient là ! J'ai... j'ai commencé à courir, et ils se rapprochaient de plus en plus. J'étais sûr·e qu'ils allaient m'attraper !]]></DIALOGUE>
+		<DIALOGUE EMOTION="terrifié"><![CDATA[~y~Victime :~w~ Je ne sais même pas... J'ai entendu quelque chose derrière moi, je me suis retourné·e, et ils étaient là ! J'ai... j'ai commencé à courir, et ils se rapprochaient de plus en plus. J'étais sûr·e qu'ils allaient m'attraper !]]></DIALOGUE>
 		<DIALOGUE><![CDATA[~b~Vous :~w~ Vous êtes en sécurité maintenant. Ne vous inquiétez pas, je suis là. Depuis combien de temps êtes-vous ici ?]]></DIALOGUE>
-		<DIALOGUE EMOTION="shaky"><![CDATA[~y~Victime :~w~ Je suis... ici depuis des heures. Je faisais une randonnée pour me vider la tête, et puis je me suis perdu·e. Je ne me rendais pas compte à quel point j'étais allé·e loin... Et ensuite les pumas sont apparus, et j'ai juste couru. Je ne sais même plus où je suis.]]></DIALOGUE>
+		<DIALOGUE EMOTION="tremblant"><![CDATA[~y~Victime :~w~ Je suis... ici depuis des heures. Je faisais une randonnée pour me vider la tête, et puis je me suis perdu·e. Je ne me rendais pas compte à quel point j'étais allé·e loin... Et ensuite les pumas sont apparus, et j'ai juste couru. Je ne sais même plus où je suis.]]></DIALOGUE>
 		<DIALOGUE><![CDATA[~b~Vous :~w~ Tout va bien. Vous n'êtes plus seul·e maintenant, et on va vous sortir d'ici. Restez près de moi.]]></DIALOGUE>
-		<DIALOGUE EMOTION="relieved"><![CDATA[~y~Victime :~w~ Merci... J'ai vraiment eu peur de ne pas m'en sortir.]]></DIALOGUE>
+		<DIALOGUE EMOTION="soulagé"><![CDATA[~y~Victime :~w~ Merci... J'ai vraiment eu peur de ne pas m'en sortir.]]></DIALOGUE>
 		<DIALOGUE><![CDATA[~b~Vous :~w~ Vous êtes en sécurité maintenant. Allons-y doucement. On va vous ramener en lieu sûr.]]></DIALOGUE>
-		<DIALOGUE PLAYER="M" EMOTION="grateful"><![CDATA[~y~Victime :~w~ Merci beaucoup, monsieur l'agent. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
-		<DIALOGUE PLAYER="F" EMOTION="grateful"><![CDATA[~y~Victime :~w~ Merci beaucoup, madame l'agent. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
+		<DIALOGUE PLAYER="M" EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Merci beaucoup, monsieur l'agent. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
+		<DIALOGUE PLAYER="F" EMOTION="reconnaissant"><![CDATA[~y~Victime :~w~ Merci beaucoup, madame l'agent. Je ne sais pas ce que j'aurais fait sans vous.]]></DIALOGUE>
 	</DIALOGUES>
 </OUTCOME>
 <OUTCOME>
@@ -123,91 +123,91 @@
 	<EXTRA>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Colocataire :~w~ Oui, mon colocataire. Je ne sais pas où il est allé.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Colocataire :~w~ Oui, mon colocataire. Je ne sais pas où il est allé.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vu pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Colocataire :~w~ Hier – et il n'est jamais revenu ! Il rentre toujours le jour même.]]></DIALOGUE>
+			<DIALOGUE EMOTION="incertain"><![CDATA[~y~Colocataire :~w~ Hier – et il n'est jamais revenu ! Il rentre toujours le jour même.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Il revient d'où, en général ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Colocataire :~w~ Il appelle ça une randonnée... moi j'appelle ça de longues balades. J'ai peur qu'il ait fait une bêtise.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Colocataire :~w~ Il appelle ça une randonnée... moi j'appelle ça de longues balades. J'ai peur qu'il ait fait une bêtise.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ne vous inquiétez pas, nous allons le retrouver. Vous savez où il aurait pu aller ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Colocataire :~w~ Aucune idée. Il est plutôt réservé, ne m'a pas dit où il allait.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Colocataire :~w~ Aucune idée. Il est plutôt réservé, ne m'a pas dit où il allait.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Avez-vous essayé de l'appeler ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Colocataire :~w~ Oui, plusieurs fois ! Ça tombe directement sur la messagerie vocale.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~y~Colocataire :~w~ Oui, plusieurs fois ! Ça tombe directement sur la messagerie vocale.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, nous allons commencer les recherches. Si vous avez des nouvelles, tenez-nous au courant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="pensive"><![CDATA[~b~Colocataire :~w~ Merci. J'espère juste qu'il va bien.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~b~Colocataire :~w~ Merci. J'espère juste qu'il va bien.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Colocataire :~w~ Oui, ma colocataire. Elle a disparu ce matin, et je ne sais pas où elle est allée.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Colocataire :~w~ Oui, ma colocataire. Elle a disparu ce matin, et je ne sais pas où elle est allée.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vue pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Colocataire :~w~ Elle est partie tôt ce matin. Elle s'entraîne pour une grande randonnée caritative, et aujourd'hui c'était censé être une longue séance, mais je ne pensais pas qu'elle serait absente aussi longtemps.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Colocataire :~w~ Elle est partie tôt ce matin. Elle s'entraîne pour une grande randonnée caritative, et aujourd'hui c'était censé être une longue séance, mais je ne pensais pas qu'elle serait absente aussi longtemps.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle dit où elle allait ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~y~Colocataire :~w~ Elle a parlé de quelques sentiers près des falaises. C'est une partie de son entraînement. Depuis qu'elle a eu un souci de santé l'an dernier, elle dit que l'air frais l'aide.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~y~Colocataire :~w~ Elle a parlé de quelques sentiers près des falaises. C'est une partie de son entraînement. Depuis qu'elle a eu un souci de santé l'an dernier, elle dit que l'air frais l'aide.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle déjà fait des randonnées comme celle-ci auparavant ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Colocataire :~w~ Oui, mais pas aussi longues. D'habitude, elle revient vers midi. J'essaye de ne pas m'inquiéter, mais cette fois, c'est différent.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Colocataire :~w~ Oui, mais pas aussi longues. D'habitude, elle revient vers midi. J'essaye de ne pas m'inquiéter, mais cette fois, c'est différent.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Avez-vous essayé de l'appeler ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Colocataire :~w~ Oui, mais ça va directement sur la messagerie. Elle répond toujours d'habitude. Je commence vraiment à m'inquiéter.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~y~Colocataire :~w~ Oui, mais ça va directement sur la messagerie. Elle répond toujours d'habitude. Je commence vraiment à m'inquiéter.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, nous allons commencer les recherches. Prévenez-nous si vous avez des nouvelles.]]></DIALOGUE>
-			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Colocataire :~w~ S'il vous plaît, retrouvez-la. Je veux juste savoir qu'elle est en sécurité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="espoir"><![CDATA[~y~Colocataire :~w~ S'il vous plaît, retrouvez-la. Je veux juste savoir qu'elle est en sécurité.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ? Pouvez-vous m'en dire plus sur elle ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Propriétaire :~w~ Oui, c'est mon locataire. Il loue ici depuis quelques mois. Il est un peu solitaire, mais il avait l'air bien. Il n'est pas revenu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxieux"><![CDATA[~y~Propriétaire :~w~ Oui, c'est mon locataire. Il loue ici depuis quelques mois. Il est un peu solitaire, mais il avait l'air bien. Il n'est pas revenu.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vu pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Propriétaire :~w~ Il y a quelques jours. Il avait dit qu'il allait faire une randonnée dans les collines. Mais il n'est jamais revenu, ce n'est pas son genre de disparaître ainsi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Propriétaire :~w~ Il y a quelques jours. Il avait dit qu'il allait faire une randonnée dans les collines. Mais il n'est jamais revenu, ce n'est pas son genre de disparaître ainsi.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Avait-il un endroit préféré pour ses randonnées ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Propriétaire :~w~ Il n'en parlait pas beaucoup, mais je sais qu'il allait souvent vers la crête derrière l'ancienne ferme. Peu de gens vont là-bas, c'est assez isolé.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Propriétaire :~w~ Il n'en parlait pas beaucoup, mais je sais qu'il allait souvent vers la crête derrière l'ancienne ferme. Peu de gens vont là-bas, c'est assez isolé.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-il emporté du matériel particulier ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Propriétaire :~w~ Pas à ma connaissance. Juste son sac habituel et un peu d'eau. Rien de spécial.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Propriétaire :~w~ Pas à ma connaissance. Juste son sac habituel et un peu d'eau. Rien de spécial.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-il déjà disparu ainsi auparavant ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worry"><![CDATA[~y~Propriétaire :~w~ Pas du tout. Il a toujours été fiable, payait son loyer à temps. C'est très inhabituel.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiétude"><![CDATA[~y~Propriétaire :~w~ Pas du tout. Il a toujours été fiable, payait son loyer à temps. C'est très inhabituel.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous allons commencer les recherches. Prévenez-nous si vous avez des nouvelles.]]></DIALOGUE>
-			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Propriétaire :~w~ S'il vous plaît, retrouvez-le. J'espère vraiment qu'il va bien.]]></DIALOGUE>
+			<DIALOGUE EMOTION="espoir"><![CDATA[~y~Propriétaire :~w~ S'il vous plaît, retrouvez-le. J'espère vraiment qu'il va bien.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ? Pouvez-vous m'en dire plus sur elle ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="anxious"><![CDATA[~y~Propriétaire :~w~ Oui, c'est ma locataire. Elle loue ici depuis quelques mois. Plutôt discrète, mais elle a commencé à parler de passer plus de temps dehors. Elle a eu un problème de santé récemment, et elle s'est mise à la randonnée pour se vider la tête.]]></DIALOGUE>
+			<DIALOGUE EMOTION="anxieux"><![CDATA[~y~Propriétaire :~w~ Oui, c'est ma locataire. Elle loue ici depuis quelques mois. Plutôt discrète, mais elle a commencé à parler de passer plus de temps dehors. Elle a eu un problème de santé récemment, et elle s'est mise à la randonnée pour se vider la tête.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vue pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="pensive"><![CDATA[~y~Propriétaire :~w~ Il y a quelques jours. Elle avait dit qu'elle voulait partir en randonnée pour le week-end, se ressourcer dans les montagnes. Elle devait rentrer aujourd'hui.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Propriétaire :~w~ Il y a quelques jours. Elle avait dit qu'elle voulait partir en randonnée pour le week-end, se ressourcer dans les montagnes. Elle devait rentrer aujourd'hui.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Savez-vous précisément où elle est allée ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Propriétaire :~w~ Pas exactement. Elle aime les sentiers près de la vieille forêt. Elle m'en parlait avant de partir. Elle voulait faire une randonnée plus longue.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pensif"><![CDATA[~y~Propriétaire :~w~ Pas exactement. Elle aime les sentiers près de la vieille forêt. Elle m'en parlait avant de partir. Elle voulait faire une randonnée plus longue.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle emporté du matériel particulier ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Propriétaire :~w~ Juste son sac à dos habituel, une trousse de secours, un peu d'eau. Elle avait dit qu'elle partait pour un bon moment, mais sans donner de date de retour.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Propriétaire :~w~ Juste son sac à dos habituel, une trousse de secours, un peu d'eau. Elle avait dit qu'elle partait pour un bon moment, mais sans donner de date de retour.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle déjà disparu aussi longtemps ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worry"><![CDATA[~y~Propriétaire :~w~ Non, jamais. Elle est toujours ponctuelle, respectueuse. C'est la première fois qu'elle disparaît ainsi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiétude"><![CDATA[~y~Propriétaire :~w~ Non, jamais. Elle est toujours ponctuelle, respectueuse. C'est la première fois qu'elle disparaît ainsi.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous allons commencer les recherches. Si vous apprenez quoi que ce soit, contactez-nous.]]></DIALOGUE>
-			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Propriétaire :~w~ S'il vous plaît, retrouvez-la. Je suis inquiet.]]></DIALOGUE>
+			<DIALOGUE EMOTION="espoir"><![CDATA[~y~Propriétaire :~w~ S'il vous plaît, retrouvez-la. Je suis inquiet.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Cohabitant :~w~ Oui, c'est mon colocataire. Il a disparu depuis hier et je n'ai aucune idée d'où il est.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Cohabitant :~w~ Oui, c'est mon colocataire. Il a disparu depuis hier et je n'ai aucune idée d'où il est.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vu pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Cohabitant :~w~ Il est parti hier matin pour une randonnée. C'est quelque chose qu'il fait tout le temps, mais il revient habituellement le soir… cette fois, il n'est pas rentré.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Cohabitant :~w~ Il est parti hier matin pour une randonnée. C'est quelque chose qu'il fait tout le temps, mais il revient habituellement le soir… cette fois, il n'est pas rentré.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Fait-il souvent des randonnées ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~y~Cohabitant :~w~ Oui, c'est un randonneur passionné. Il adore passer du temps en pleine nature. Il a déjà fait des randonnées plus longues, mais il prend toujours soin de prévenir ou de rentrer avant la fin de la journée.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~y~Cohabitant :~w~ Oui, c'est un randonneur passionné. Il adore passer du temps en pleine nature. Il a déjà fait des randonnées plus longues, mais il prend toujours soin de prévenir ou de rentrer avant la fin de la journée.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-il dit où il allait ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Cohabitant :~w~ Pas précisément. Il a juste dit qu'il partait en randonnée, mais ne m'a pas précisé où. Il va souvent vers les collines ou les sentiers près de l'ancien réservoir, mais il n'a rien indiqué de spécifique cette fois.]]></DIALOGUE>
+			<DIALOGUE EMOTION="incertain"><![CDATA[~y~Cohabitant :~w~ Pas précisément. Il a juste dit qu'il partait en randonnée, mais ne m'a pas précisé où. Il va souvent vers les collines ou les sentiers près de l'ancien réservoir, mais il n'a rien indiqué de spécifique cette fois.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-il déjà disparu auparavant ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Cohabitant :~w~ Non, jamais comme ça. Il est toujours assez prévisible avec ses randonnées. S'il doit rentrer tard, il envoie un message ou appelle. Cette fois, rien du tout. Ce n'est vraiment pas dans ses habitudes.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~y~Cohabitant :~w~ Non, jamais comme ça. Il est toujours assez prévisible avec ses randonnées. S'il doit rentrer tard, il envoie un message ou appelle. Cette fois, rien du tout. Ce n'est vraiment pas dans ses habitudes.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Avez-vous essayé de l'appeler ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Cohabitant :~w~ Oui, j'ai appelé et envoyé plusieurs messages. Ça tombe directement sur la messagerie à chaque fois. Je commence à être vraiment inquiet.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~y~Cohabitant :~w~ Oui, j'ai appelé et envoyé plusieurs messages. Ça tombe directement sur la messagerie à chaque fois. Je commence à être vraiment inquiet.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, nous allons commencer les recherches. Prévenez-nous si vous avez des nouvelles.]]></DIALOGUE>
-			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Cohabitant :~w~ Merci. Je veux juste savoir qu'il est sain et sauf. S'il vous plaît, retrouvez-le.]]></DIALOGUE>
+			<DIALOGUE EMOTION="espoir"><![CDATA[~y~Cohabitant :~w~ Merci. Je veux juste savoir qu'il est sain et sauf. S'il vous plaît, retrouvez-le.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous avez signalé une personne disparue ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="worried"><![CDATA[~y~Cohabitant :~w~ Oui, c'est ma colocataire. Elle a disparu depuis hier et je n'ai pas eu de nouvelles. Je suis vraiment inquiet.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Cohabitant :~w~ Oui, c'est ma colocataire. Elle a disparu depuis hier et je n'ai pas eu de nouvelles. Je suis vraiment inquiet.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Quand l'avez-vous vue pour la dernière fois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~y~Cohabitant :~w~ Hier matin. Elle est partie faire une randonnée. C'est quelque chose qu'elle fait souvent ces derniers temps—après son passage à l'hôpital, elle voulait vraiment se reconnecter à la nature. Elle disait que ça l'aidait à guérir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Cohabitant :~w~ Hier matin. Elle est partie faire une randonnée. C'est quelque chose qu'elle fait souvent ces derniers temps—après son passage à l'hôpital, elle voulait vraiment se reconnecter à la nature. Elle disait que ça l'aidait à guérir.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Fait-elle souvent de la randonnée ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~y~Cohabitant :~w~ Oui, souvent. Mais elle s'est mise à faire des randonnées plus longues et plus difficiles. Elle avait dit vouloir passer plus de temps seule dans les montagnes, loin de tout. Je pensais que c'était une bonne chose, mais maintenant… je ne sais plus.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~y~Cohabitant :~w~ Oui, souvent. Mais elle s'est mise à faire des randonnées plus longues et plus difficiles. Elle avait dit vouloir passer plus de temps seule dans les montagnes, loin de tout. Je pensais que c'était une bonne chose, mais maintenant… je ne sais plus.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle dit où elle allait ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~Cohabitant :~w~ Pas exactement. Elle a juste dit qu'elle allait au départ du sentier près du lac. Elle m'avait parlé depuis un moment de vouloir faire une longue randonnée là-bas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="incertain"><![CDATA[~y~Cohabitant :~w~ Pas exactement. Elle a juste dit qu'elle allait au départ du sentier près du lac. Elle m'avait parlé depuis un moment de vouloir faire une longue randonnée là-bas.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ A-t-elle déjà disparu comme ça auparavant ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~y~Cohabitant :~w~ Non, jamais aussi longtemps. Si elle a du retard ou s'il y a un souci, elle m'appelle ou m'envoie un message. Cette fois, rien. Ça fait maintenant plus de 24 heures.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~y~Cohabitant :~w~ Non, jamais aussi longtemps. Si elle a du retard ou s'il y a un souci, elle m'appelle ou m'envoie un message. Cette fois, rien. Ça fait maintenant plus de 24 heures.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Avez-vous essayé de l'appeler ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~Cohabitant :~w~ Oui, j'ai appelé et envoyé des messages. Elle ne répond pas. Je suis en train de paniquer. J'ai tellement peur qu'il lui soit arrivé quelque chose.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~y~Cohabitant :~w~ Oui, j'ai appelé et envoyé des messages. Elle ne répond pas. Je suis en train de paniquer. J'ai tellement peur qu'il lui soit arrivé quelque chose.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, nous allons commencer les recherches. Si vous avez des nouvelles, prévenez-nous.]]></DIALOGUE>
-			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~Cohabitant :~w~ S'il vous plaît, retrouvez-la. Je veux juste savoir qu'elle va bien.]]></DIALOGUE>
+			<DIALOGUE EMOTION="espoir"><![CDATA[~y~Cohabitant :~w~ S'il vous plaît, retrouvez-la. Je veux juste savoir qu'elle va bien.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

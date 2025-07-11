@@ -14,8 +14,8 @@
   </OUTCOME1>
   <OUTCOME2>
     <DIALOGUES>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Ceci est un tir de sommation, ne vous approchez pas !]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ ARRGGHHH ! PRENDS ÇA !]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Ceci est un tir de sommation, ne vous approchez pas !]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ ARRGGHHH ! PRENDS ÇA !]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME2>
   <OUTCOME3>
@@ -24,20 +24,20 @@
     <NOTIFICATION><![CDATA[Les vérifications d'identité sont revenues comme ~g~sans problème~w~. Aucune inquiétude à avoir.]]></NOTIFICATION>
     <DIALOGUES>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Calmez-vous tous les deux ! On respire un bon coup.]]></DIALOGUE>
-      <DIALOGUE PLAYER="M" EMOTION="angry" TARGET="M"><![CDATA[~r~Suspect 1 :~w~ Monsieur l'agent ! Vous n'imaginez pas à quel point c'est une ordure !]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="angry" TARGET="M"><![CDATA[~r~Suspect 1 :~w~ Madame l'agent ! Vous n'imaginez pas à quel point c'est une ordure !]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="colère" TARGET="M"><![CDATA[~r~Suspect 1 :~w~ Monsieur l'agent ! Vous n'imaginez pas à quel point c'est une ordure !]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="colère" TARGET="M"><![CDATA[~r~Suspect 1 :~w~ Madame l'agent ! Vous n'imaginez pas à quel point c'est une ordure !]]></DIALOGUE>
       <DIALOGUE PLAYER="M" TARGET="F"><![CDATA[~r~Suspect 1 :~w~ Monsieur l'agent ! Vous n'imaginez pas à quel point c'est un salaud !]]></DIALOGUE>
       <DIALOGUE PLAYER="F" TARGET="F"><![CDATA[~r~Suspect 1 :~w~ Madame l'agent ! Vous n'imaginez pas à quel point c'est un salaud !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Très bien… mais parlons calmement, pas en hurlant.]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect 2 :~w~ Vous ne savez pas l'ENFER que j'ai vécu avec cette personne.]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect 2 :~w~ Vous ne savez pas l'ENFER que j'ai vécu avec cette personne.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ S'il vous plaît, essayons de calmer la situation.]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect 2 :~w~ D'accord, D'ACCORD ! Calmons-nous alors.]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect 2 :~w~ D'accord, D'ACCORD ! Calmons-nous alors.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Quel est le problème ici ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect 1 :~w~ Cette foutue personne a ruiné ma vie.]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect 2 :~w~ C'est faux !]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect 1 :~w~ Cette foutue personne a ruiné ma vie.]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect 2 :~w~ C'est faux !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Je suis un peu inquiet de vos comportements à tous les deux. Puis-je vous faire confiance pour vous calmer ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect 1 :~w~ Pfff. D'accord, peut-être que je m'emballe.]]></DIALOGUE>
-      <DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect 2 :~w~ Désolé, je ne voulais pas créer de problème à cause de ce crétin.]]></DIALOGUE>
+      <DIALOGUE EMOTION="irrité"><![CDATA[~r~Suspect 1 :~w~ Pfff. D'accord, peut-être que je m'emballe.]]></DIALOGUE>
+      <DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect 2 :~w~ Désolé, je ne voulais pas créer de problème à cause de ce crétin.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Puis-je avoir vos pièces d'identité ? Je vais juste les vérifier rapidement.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Vous êtes libres de partir. Merci d'avoir coopéré finalement, et soyez plus prudents à l'avenir.]]></DIALOGUE>
     </DIALOGUES>
@@ -48,40 +48,40 @@
     <NOTIFICATION><![CDATA[Retournez parler au ~r~suspect~w~.]]></NOTIFICATION>
     <DIALOGUES>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Hé vous deux, vous voyagez ensemble ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Oui. Qu'est-ce que vous voulez ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect :~w~ Oui. Qu'est-ce que vous voulez ?]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ On nous a signalé une possible altercation ici. Je dois vérifier quelques détails.]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Cela me semble inutile, mais d'accord.]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect :~w~ Cela me semble inutile, mais d'accord.]]></DIALOGUE>
       <DIALOGUE TARGET="M"><![CDATA[~b~Vous :~w~ Monsieur, venez avec moi s'il vous plaît. J'ai besoin de vous parler en privé.]]></DIALOGUE>
       <DIALOGUE TARGET="F"><![CDATA[~b~Vous :~w~ Madame, venez avec moi s'il vous plaît. J'ai besoin de vous parler en privé.]]></DIALOGUE>
       <DIALOGUE />
       <DIALOGUE />
       <DIALOGUE><![CDATA[~b~Vous :~w~ Merci. Pouvez-vous me dire si tout va bien ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ Mon partenaire m'oblige à le suivre ! Je ne sais pas où, aidez-moi avant qu'il ne soit trop tard.]]></DIALOGUE>
+      <DIALOGUE EMOTION="effrayé"><![CDATA[~y~Victime :~w~ Mon partenaire m'oblige à le suivre ! Je ne sais pas où, aidez-moi avant qu'il ne soit trop tard.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Y a-t-il autre chose que je devrais savoir ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ Il pourrait être armé, soyez prudent.]]></DIALOGUE>
+      <DIALOGUE EMOTION="effrayé"><![CDATA[~y~Victime :~w~ Il pourrait être armé, soyez prudent.]]></DIALOGUE>
       <DIALOGUE />
       <DIALOGUE><![CDATA[~b~Vous :~w~ Merci d'avoir attendu. Avez-vous quelque chose sur vous que vous ne devriez pas avoir ?]]></DIALOGUE>
-      <DIALOGUE PLAYER="M" EMOTION="defensive"><![CDATA[~r~Suspect :~w~ J'ai rien sur moi, monsieur l'agent.]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="defensive"><![CDATA[~r~Suspect :~w~ J'ai rien sur moi, madame l'agent.]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="défensive"><![CDATA[~r~Suspect :~w~ J'ai rien sur moi, monsieur l'agent.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="défensive"><![CDATA[~r~Suspect :~w~ J'ai rien sur moi, madame l'agent.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Vous êtes sûr ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Comme on dit, l'honnêteté est la meilleure des politiques.]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect :~w~ Comme on dit, l'honnêteté est la meilleure des politiques.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ D'accord. Vous êtes en état d'arrestation, gardez vos mains bien visibles.]]></DIALOGUE>
     </DIALOGUES>
     <DIALOGUES>
-      <DIALOGUE EMOTION="resignedly"><![CDATA[~y~Victime :~w~ Ma tâche est accomplie. Arrêtez-moi.]]></DIALOGUE>
+      <DIALOGUE EMOTION="résigné"><![CDATA[~y~Victime :~w~ Ma tâche est accomplie. Arrêtez-moi.]]></DIALOGUE>
       <DIALOGUE PLAYER="M"><![CDATA[~r~Suspect :~w~ Vous avez vu comment il/elle m'a attaqué, monsieur l'agent ! Ce n'était pas de ma faute.]]></DIALOGUE>
       <DIALOGUE PLAYER="F"><![CDATA[~r~Suspect :~w~ Vous avez vu comment il/elle m'a attaqué, madame l'agent ! Ce n'était pas de ma faute.]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME4>
   <EXTRA>
     <DIALOGUES>
-      <DIALOGUE PLAYER="M" EMOTION="concerned"><![CDATA[~y~Passant :~w~ Merci d'être venu, monsieur l'agent ! Laissez-moi vous dire ce que je sais.]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="concerned"><![CDATA[~y~Passant :~w~ Merci d'être venu, madame l'agent ! Laissez-moi vous dire ce que je sais.]]></DIALOGUE>
-      <DIALOGUE EMOTION="concerned"><![CDATA[~y~Passant :~w~ Je faisais mes affaires, et ces deux personnes sont passées. Ils se disputaient violemment ! On aurait dit que ça allait dégénérer.]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="préoccupé"><![CDATA[~y~Passant :~w~ Merci d'être venu, monsieur l'agent ! Laissez-moi vous dire ce que je sais.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="préoccupé"><![CDATA[~y~Passant :~w~ Merci d'être venu, madame l'agent ! Laissez-moi vous dire ce que je sais.]]></DIALOGUE>
+      <DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Passant :~w~ Je faisais mes affaires, et ces deux personnes sont passées. Ils se disputaient violemment ! On aurait dit que ça allait dégénérer.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Dans quelle direction sont-ils allés ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="concerned"><![CDATA[~y~Passant :~w~ Je ne suis pas sûr, mais je pense qu'ils sont entrés dans la station de métro.]]></DIALOGUE>
+      <DIALOGUE EMOTION="préoccupé"><![CDATA[~y~Passant :~w~ Je ne suis pas sûr, mais je pense qu'ils sont entrés dans la station de métro.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, commençons par là. Merci !]]></DIALOGUE>
-      <DIALOGUE EMOTION="pleased"><![CDATA[~y~Passant :~w~ Je vous en prie !]]></DIALOGUE>
+      <DIALOGUE EMOTION="satisfait"><![CDATA[~y~Passant :~w~ Je vous en prie !]]></DIALOGUE>
     </DIALOGUES>
   </EXTRA>
 </CALLOUT>

@@ -9,11 +9,11 @@
 	<NOTIFICATION><![CDATA[angoissé]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Restez là, et gardez les mains hors de vos poches.]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared"><![CDATA[~r~Suspect :~w~ Qu'est-ce qu'il se passe ? J'ai rien fait. Rien du tout !]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé"><![CDATA[~r~Suspect :~w~ Qu'est-ce qu'il se passe ? J'ai rien fait. Rien du tout !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ J'ai besoin que vous coopériez avec moi, d'accord ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared"><![CDATA[~r~Suspect :~w~ Qu'est-ce qui se passe ? Qu'est-ce que vous essayez de faire ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé"><![CDATA[~r~Suspect :~w~ Qu'est-ce qui se passe ? Qu'est-ce que vous essayez de faire ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Levez les mains en l'air, s'il vous plaît.]]></DIALOGUE>
-			<DIALOGUE EMOTION="fearful"><![CDATA[~r~Suspect :~w~ NON ! RECULEZ ! MAINTENANT !]]></DIALOGUE>
+			<DIALOGUE EMOTION="apeuré"><![CDATA[~r~Suspect :~w~ NON ! RECULEZ ! MAINTENANT !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
@@ -22,13 +22,13 @@
 		<NOTIFICATION><![CDATA[Arrêtez le suspect et gérez la situation comme vous le jugez approprié.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Restez là pour moi, et gardez les mains bien visibles.]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Qu'est-ce qui se passe ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect :~w~ Qu'est-ce qui se passe ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je sais que vous avez une arme sur vous.]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Suspect :~w~ Oh non... oh... non...]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~r~Suspect :~w~ Oh non... oh... non...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Qu'est-ce qui ne va pas ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ S'il vous plaît, je suis désolé ! Je ne voulais pas...]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect :~w~ S'il vous plaît, je suis désolé ! Je ne voulais pas...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ce n'est pas grave, on pourra en parler plus tard. Suivez juste mes instructions.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ Je ne l'aurai PLUS JAMAIS sur moi, je veux pas que ça reste dans mon dossier...]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect :~w~ Je ne l'aurai PLUS JAMAIS sur moi, je veux pas que ça reste dans mon dossier...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est bon, on n'est pas là pour vous faire du mal. Levez simplement les mains.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>

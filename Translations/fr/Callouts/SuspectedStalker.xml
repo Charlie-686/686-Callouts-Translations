@@ -5,51 +5,51 @@
 	</GENERAL>
 	<OUTCOME0>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Oui, je suis un harceleur, mais la prison, ce n'est pas pour moi et je n'y retournerai pas !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Oui, je suis un harceleur, mais la prison, ce n'est pas pour moi et je n'y retournerai pas !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
 		<OTHER><![CDATA[~r~Photos de la victime~w~]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Dégage de mon chemin !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Dégage de mon chemin !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Restons calmes, nous avons reçu des signalements indiquant que vous suiviez quelqu'un plus tôt.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Fous-moi la paix, j'ai rien fait, c'est juste ta parole contre la mienne !]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Fous-moi la paix, j'ai rien fait, c'est juste ta parole contre la mienne !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous refusez de nous parler ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Oui, OUI ! Je ne parle pas aux poulets, je les mange.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Oui, OUI ! Je ne parle pas aux poulets, je les mange.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<NOTIFICATION><![CDATA[Peu probable qu'il s'agisse du harceleur ; son casier est vierge. Terminez la conversation puis ~y~retournez voir la victime~w~.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" EMOTION="confused"><![CDATA[~r~Suspect :~w~ Bonjour monsieur l'agent, comment puis-je vous aider aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="confused"><![CDATA[~r~Suspect :~w~ Bonjour madame l'agent, comment puis-je vous aider aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="confus"><![CDATA[~r~Suspect :~w~ Bonjour monsieur l'agent, comment puis-je vous aider aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="confus"><![CDATA[~r~Suspect :~w~ Bonjour madame l'agent, comment puis-je vous aider aujourd'hui ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Une personne nous a signalé que vous la suiviez. Est-ce vrai ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Suspect :~w~ Mon dieu, non ! Pas du tout. Il doit y avoir une erreur. Je fais simplement quelques courses, on allait peut-être juste dans la même direction ? Je ne corresponds sûrement pas à la description.]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~r~Suspect :~w~ Mon dieu, non ! Pas du tout. Il doit y avoir une erreur. Je fais simplement quelques courses, on allait peut-être juste dans la même direction ? Je ne corresponds sûrement pas à la description.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ On ne nous a pas donné de description, je vais contacter le central pour clarifier la situation.]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~r~Suspect :~w~ Bien sûr, mes courses peuvent attendre, ne vous inquiétez pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~r~Suspect :~w~ Bien sûr, mes courses peuvent attendre, ne vous inquiétez pas.]]></DIALOGUE>
 			<DIALOGUE/>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Vous pouvez y aller, il semble que ce soit une erreur. Bonne journée.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="confused"><![CDATA[~y~Victime :~w~ Contente de vous revoir, que se passe-t-il ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~y~Victime :~w~ Contente de vous revoir, que se passe-t-il ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous lui avons parlé, mais il est peu probable qu'il vous ait suivi.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Victime :~w~ Je suis vraiment désolé·e, ça fait sens. Je pense avoir appelé un peu trop vite.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Victime :~w~ Je suis vraiment désolé·e, ça fait sens. Je pense avoir appelé un peu trop vite.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ce n'est pas grave, il vaut mieux prévenir. La prochaine fois, n'hésitez pas à nous appeler même si vous n'êtes pas certain·e.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~Victime :~w~ Oui, désolé·e pour le dérangement inutile.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Victime :~w~ Oui, désolé·e pour le dérangement inutile.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
 		<NOTIFICATION><![CDATA[Nous avons localisé le suspect. ~y~Terminez la conversation~w~ puis rendez-vous immédiatement sur place.]]></NOTIFICATION>
 		<DIALOGUES>
-			<DIALOGUE PLAYER="M" EMOTION="scared"><![CDATA[~y~Victime :~w~ Monsieur l'agent, dieu merci que vous soyez là ! On me suit !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="scared"><![CDATA[~y~Victime :~w~ Madame l'agent, dieu merci que vous soyez là ! On me suit !]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="effrayé"><![CDATA[~y~Victime :~w~ Monsieur l'agent, dieu merci que vous soyez là ! On me suit !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="effrayé"><![CDATA[~y~Victime :~w~ Madame l'agent, dieu merci que vous soyez là ! On me suit !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous sommes là maintenant. Pouvez-vous m'expliquer ce qui s'est passé ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ On me suit… mais j'ai complètement oublié à quoi il ou elle ressemblait.]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé"><![CDATA[~y~Victime :~w~ On me suit… mais j'ai complètement oublié à quoi il ou elle ressemblait.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est normal d'oublier dans ce genre de situation. Je vais demander aux opérateurs de caméras de vérifier les images de la zone.]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ On était ici, sur ~y~{0}~w~ il y a environ 15 minutes. Merci de le mentionner.]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé"><![CDATA[~y~Victime :~w~ On était ici, sur ~y~{0}~w~ il y a environ 15 minutes. Merci de le mentionner.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci, je transmets ça immédiatement.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ils regardent les images maintenant. Vous avez d'autres détails ? Plus on en a, mieux c'est.]]></DIALOGUE>
-			<DIALOGUE EMOTION="scared"><![CDATA[~y~Victime :~w~ Non, je ne comprends pas pourquoi on me suit depuis deux heures.]]></DIALOGUE>
+			<DIALOGUE EMOTION="effrayé"><![CDATA[~y~Victime :~w~ Non, je ne comprends pas pourquoi on me suit depuis deux heures.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Ne vous en faites pas, on va régler ça.]]></DIALOGUE>
 			<DIALOGUE/>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons réussi à les localiser, je m'y rends tout de suite. Vous pouvez reprendre votre journée ou rentrer chez vous, nous vous recontacterons.]]></DIALOGUE>

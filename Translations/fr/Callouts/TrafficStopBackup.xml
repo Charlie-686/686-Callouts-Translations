@@ -5,336 +5,336 @@
 	</GENERAL>
 	<OUTCOME>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect : ~w~Non, que se passe-t-il ? Je pensais conduire correctement.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Vous zigzaguiez sur la route, incapable de rester dans une seule voie.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en étais même pas rendu compte. C'était si grave que ça ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Oui, j'ai dû vous suivre un moment pour m'en assurer. On aurait dit que vous aviez du mal à garder le contrôle.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Désolé monsieur l'agent, je ne suis pas un conducteur très sûr de moi.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Désolé madame l'agent, je ne suis pas un conducteur très sûr de moi.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Vous avez votre permis depuis longtemps ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oui, mais je ne conduis pas souvent. Je suis désolé, j'essaie de m'améliorer. Je trouve ça stressant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Vous devez être très prudent. Vous ne pouvez pas changer constamment de voie, il y a d'autres usagers de la route.]]></DIALOGUE>
-			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~Agent : ~w~Si vous vous sentez nerveux, prenez votre temps et concentrez-vous pour rester centré dans votre voie.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vais vous laisser partir avec un avertissement, mais je ne veux plus vous voir conduire comme ça.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Merci monsieur l'agent ! J'apprécie cette seconde chance. Bonne journée !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Merci madame l'agent ! J'apprécie cette seconde chance. Bonne journée !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect : ~w~Non, que se passe-t-il ? Je pensais conduire correctement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Vous zigzaguiez sur la route, incapable de rester dans une seule voie.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en étais même pas rendu compte. C'était si grave que ça ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Oui, j'ai dû vous suivre un moment pour m'en assurer. On aurait dit que vous aviez du mal à garder le contrôle.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Désolé monsieur l'agent, je ne suis pas un conducteur très sûr de moi.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Désolé madame l'agent, je ne suis pas un conducteur très sûr de moi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Vous avez votre permis depuis longtemps ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oui, mais je ne conduis pas souvent. Je suis désolé, j'essaie de m'améliorer. Je trouve ça stressant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Vous devez être très prudent. Vous ne pouvez pas changer constamment de voie, il y a d'autres usagers de la route.]]></DIALOGUE>
+			<DIALOGUE EMOTION="rassurant"><![CDATA[~b~Agent : ~w~Si vous vous sentez nerveux, prenez votre temps et concentrez-vous pour rester centré dans votre voie.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vais vous laisser partir avec un avertissement, mais je ne veux plus vous voir conduire comme ça.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Merci monsieur l'agent ! J'apprécie cette seconde chance. Bonne journée !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Merci madame l'agent ! J'apprécie cette seconde chance. Bonne journée !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="confused"><![CDATA[~r~Suspect : ~w~Je roulais trop vite, monsieur l'agent ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="confused"><![CDATA[~r~Suspect : ~w~Je roulais trop vite, madame l'agent ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Vous rouliez un peu au-dessus de la limite, il faut faire attention.]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis pas rendu compte. J'étais au-dessus de combien ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Pas de beaucoup, mais assez pour que cela attire mon attention.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Je suis désolé monsieur l'agent, je pense que j'ai raté le panneau de limitation.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Je suis désolé madame l'agent, je pense que j'ai raté le panneau de limitation.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Cela ne doit plus se reproduire. Avez-vous un permis valide ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oui monsieur l'agent. C'est la première fois qu'on m'arrête.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oui madame l'agent. C'est la première fois qu'on m'arrête.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~D'accord, je vais vérifier votre permis et faire une vérification rapide. Restez dans le véhicule.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Bon, votre permis est en règle, donc je vais vous laisser partir. Mais considérez ceci comme un avertissement.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Je suis désolé, je serai plus prudent !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="confus"><![CDATA[~r~Suspect : ~w~Je roulais trop vite, monsieur l'agent ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="confus"><![CDATA[~r~Suspect : ~w~Je roulais trop vite, madame l'agent ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Vous rouliez un peu au-dessus de la limite, il faut faire attention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis pas rendu compte. J'étais au-dessus de combien ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Pas de beaucoup, mais assez pour que cela attire mon attention.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Je suis désolé monsieur l'agent, je pense que j'ai raté le panneau de limitation.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Je suis désolé madame l'agent, je pense que j'ai raté le panneau de limitation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Cela ne doit plus se reproduire. Avez-vous un permis valide ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oui monsieur l'agent. C'est la première fois qu'on m'arrête.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oui madame l'agent. C'est la première fois qu'on m'arrête.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~D'accord, je vais vérifier votre permis et faire une vérification rapide. Restez dans le véhicule.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Bon, votre permis est en règle, donc je vais vous laisser partir. Mais considérez ceci comme un avertissement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Je suis désolé, je serai plus prudent !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect : ~w~Non, j'ai fait quelque chose de mal ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Votre feu stop est défectueux. C'est dangereux, surtout la nuit.]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~r~Suspect : ~w~Oh non, je ne le savais pas ! C'est si grave que ça ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Il ne s'allume plus du tout quand vous freinez. Avez-vous fait un entretien récemment ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Pas vraiment, pour être honnête. Je comptais le faire bientôt.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vous conseille de le faire réparer au plus vite. Les autres conducteurs doivent savoir quand vous freinez.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Avez-vous un garage de confiance près d'ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Pas vraiment, mais je peux en chercher un.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Très bien. Je ne vous donne pas de contravention, mais considérez cela comme un avertissement. Faites réparer ce feu rapidement.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="relieved"><![CDATA[~r~Suspect : ~w~Absolument, monsieur l'agent. Merci de m'avoir prévenu, je vais m'en occuper !]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="relieved"><![CDATA[~r~Suspect : ~w~Absolument, madame l'agent. Merci de m'avoir prévenu, je vais m'en occuper !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect : ~w~Non, j'ai fait quelque chose de mal ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Votre feu stop est défectueux. C'est dangereux, surtout la nuit.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~r~Suspect : ~w~Oh non, je ne le savais pas ! C'est si grave que ça ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Il ne s'allume plus du tout quand vous freinez. Avez-vous fait un entretien récemment ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Pas vraiment, pour être honnête. Je comptais le faire bientôt.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vous conseille de le faire réparer au plus vite. Les autres conducteurs doivent savoir quand vous freinez.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Avez-vous un garage de confiance près d'ici ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Pas vraiment, mais je peux en chercher un.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Très bien. Je ne vous donne pas de contravention, mais considérez cela comme un avertissement. Faites réparer ce feu rapidement.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="soulagé"><![CDATA[~r~Suspect : ~w~Absolument, monsieur l'agent. Merci de m'avoir prévenu, je vais m'en occuper !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="soulagé"><![CDATA[~r~Suspect : ~w~Absolument, madame l'agent. Merci de m'avoir prévenu, je vais m'en occuper !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect : ~w~Euh… non ? Tout va bien ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Vous n'avez pas mis votre clignotant en changeant de voie tout à l'heure. C'est dangereux, surtout avec la circulation d'aujourd'hui.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis même pas rendu compte ! J'étais concentré sur l'insertion.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Je comprends, mais il est important que les autres conducteurs sachent ce que vous faites. C'est une question de sécurité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect : ~w~Oui, je comprends. Je veillerai à signaler à l'avenir.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Très bien. Il ne faut qu'une seconde pour activer un clignotant, et ça peut éviter un accident.]]></DIALOGUE>
-			<DIALOGUE EMOTION="concerned"><![CDATA[~b~Agent : ~w~Vous conduisez souvent dans la circulation dense ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect : ~w~Pas vraiment, mais aujourd'hui je voulais éviter les voitures lentes.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Très bien, pas de contravention aujourd'hui, juste un avertissement. J'espère que cela vous rappellera d'être plus attentif aux signaux.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="relieved"><![CDATA[~r~Suspect : ~w~Absolument ! Merci de m'avoir laissé une chance, monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="relieved"><![CDATA[~r~Suspect : ~w~Absolument ! Merci de m'avoir laissé une chance, madame l'agent.]]></DIALOGUE>
-		</DIALOGUES>
-	</OUTCOME>
-	<OUTCOME>
-		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~Suspect : ~w~Euh… je roulais trop vite ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais vous ne vous êtes pas arrêté au stop là-bas.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oh non… je suis vraiment désolé(e). Je ne l'ai probablement pas vu.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Il est important d'être attentif — ne pas s'arrêter peut être dangereux.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Je comprends. J'aurais dû faire plus attention.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je dois vous dresser une contravention pour cette infraction.]]></DIALOGUE>
-			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Suspect : ~w~Je comprends. Je ferai plus attention la prochaine fois.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Conduisez prudemment, et veillez à vous arrêter complètement aux panneaux.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="grateful"><![CDATA[~r~Suspect : ~w~Je le ferai. Merci, monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="grateful"><![CDATA[~r~Suspect : ~w~Je le ferai. Merci, madame l'agent.]]></DIALOGUE>
-		</DIALOGUES>
-		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Aucune idée, je roulais trop vite ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais j'ai vérifié votre plaque, et votre immatriculation est expirée.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Quoi ? C'est impossible, je croyais l'avoir renouvelée.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Selon le système, elle a expiré le mois dernier. Avez-vous reçu l'avis de renouvellement ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Euh… peut-être ? Je reçois tellement de courrier, j'ai dû le rater.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Malheureusement, je dois vous dresser une contravention pour immatriculation expirée.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Génial… c'est tout ce qu'il me manquait.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Vous devez la renouveler dès que possible. Les instructions sont sur le procès-verbal.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Très bien. Je vais m'en occuper.]]></DIALOGUE>
-		</DIALOGUES>
-		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Non, mais je suppose que vous allez me le dire.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vous ai vu utiliser votre téléphone en conduisant. C'est un vrai danger pour la sécurité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Oh, allez ! Je consultais juste mon GPS une seconde.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Peu importe. La loi est claire — aucun appareil tenu en main en conduisant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Sérieusement ? Il y a des choses bien pires, et c'est ça qui vous préoccupe ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~La distraction au volant cause des accidents. Je vous donne une contravention.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Incroyable. C'est juste une question d'argent.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Vous avez le droit de contester l'amende au tribunal si vous le souhaitez. Conduisez prudemment.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Ouais, c'est ça.]]></DIALOGUE>
-		</DIALOGUES>
-		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Suspect : ~w~Euh, je ne suis pas sûr… pour excès de vitesse peut-être ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais vous n'avez pas mis votre clignotant pour changer de voie là-bas.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis pas rendu compte. Désolé(e).]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Utiliser le clignotant est important — cela garantit la sécurité de tous sur la route.]]></DIALOGUE>
-			<DIALOGUE EMOTION="guilty"><![CDATA[~r~Suspect : ~w~Je sais, je ferai plus attention à l'avenir.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vous dresse une contravention pour non-utilisation du clignotant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~Suspect : ~w~Je comprends. Je m'assurerai d'utiliser mes clignotants à chaque fois.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Vous pouvez payer l'amende en ligne. Soyez plus attentif aux signaux à l'avenir.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="grateful"><![CDATA[~r~Suspect : ~w~Merci, monsieur l'agent. Je ferai plus attention.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="grateful"><![CDATA[~r~Suspect : ~w~Merci, madame l'agent. Je ferai plus attention.]]></DIALOGUE>
-		</DIALOGUES>
-		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect : ~w~Non, je ne sais pas. Je roulais trop lentement ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais vous suiviez de trop près le véhicule devant vous. C'est dangereux.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Je ne collais pas ! C'est eux qui allaient trop lentement !]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~b~Agent : ~w~Peut-être, mais le fait de suivre de trop près peut causer des accidents. Il faut garder une distance de sécurité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect : ~w~Je voulais juste aller au travail, je n'y pensais pas.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je comprends, mais pour votre sécurité et celle des autres, je dois vous verbaliser.]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect : ~w~Génial… ça me manquait.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Assurez-vous de garder une distance suffisante dorénavant. Bonne route.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~Ouais, ouais.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect : ~w~Euh… non ? Tout va bien ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Vous n'avez pas mis votre clignotant en changeant de voie tout à l'heure. C'est dangereux, surtout avec la circulation d'aujourd'hui.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis même pas rendu compte ! J'étais concentré sur l'insertion.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Je comprends, mais il est important que les autres conducteurs sachent ce que vous faites. C'est une question de sécurité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Suspect : ~w~Oui, je comprends. Je veillerai à signaler à l'avenir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Très bien. Il ne faut qu'une seconde pour activer un clignotant, et ça peut éviter un accident.]]></DIALOGUE>
+			<DIALOGUE EMOTION="préoccupé"><![CDATA[~b~Agent : ~w~Vous conduisez souvent dans la circulation dense ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Suspect : ~w~Pas vraiment, mais aujourd'hui je voulais éviter les voitures lentes.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Très bien, pas de contravention aujourd'hui, juste un avertissement. J'espère que cela vous rappellera d'être plus attentif aux signaux.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="soulagé"><![CDATA[~r~Suspect : ~w~Absolument ! Merci de m'avoir laissé une chance, monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="soulagé"><![CDATA[~r~Suspect : ~w~Absolument ! Merci de m'avoir laissé une chance, madame l'agent.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<OUTCOME>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect : ~w~Je ne suis pas sûr·e, je roulais trop vite ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais quand j'ai vérifié vos informations, il s'est avéré que votre permis est suspendu.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Quoi ? C'est une erreur. J'ai réglé ça il y a des semaines !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Le système l'indique toujours comme suspendu. Vous n'avez pas le droit de conduire.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~C'est ridicule, je ne peux pas me permettre une autre amende. J'ai besoin de ma voiture pour aller travailler !]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je comprends, mais vous ne pouvez pas conduire avec un permis suspendu.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="pleading"><![CDATA[~r~Suspect : ~w~Allez, monsieur l'agent, il doit y avoir un autre moyen de régler ça.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="pleading"><![CDATA[~r~Suspect : ~w~Allez, madame l'agent, il doit y avoir un autre moyen de régler ça.]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Agent : ~w~Je vais vous demander de sortir du véhicule pendant qu'on règle ça.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Pas question ! Je ne sors pas à cause d'une stupide erreur administrative !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="incertain"><![CDATA[~r~Suspect : ~w~Euh… je roulais trop vite ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais vous ne vous êtes pas arrêté au stop là-bas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oh non… je suis vraiment désolé(e). Je ne l'ai probablement pas vu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Il est important d'être attentif — ne pas s'arrêter peut être dangereux.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Je comprends. J'aurais dû faire plus attention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je dois vous dresser une contravention pour cette infraction.]]></DIALOGUE>
+			<DIALOGUE EMOTION="coupable"><![CDATA[~r~Suspect : ~w~Je comprends. Je ferai plus attention la prochaine fois.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Conduisez prudemment, et veillez à vous arrêter complètement aux panneaux.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="reconnaissant"><![CDATA[~r~Suspect : ~w~Je le ferai. Merci, monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="reconnaissant"><![CDATA[~r~Suspect : ~w~Je le ferai. Merci, madame l'agent.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Aucune idée, je roulais trop vite ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais j'ai vérifié votre plaque, et votre immatriculation est expirée.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Quoi ? C'est impossible, je croyais l'avoir renouvelée.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Selon le système, elle a expiré le mois dernier. Avez-vous reçu l'avis de renouvellement ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Euh… peut-être ? Je reçois tellement de courrier, j'ai dû le rater.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Malheureusement, je dois vous dresser une contravention pour immatriculation expirée.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Génial… c'est tout ce qu'il me manquait.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Vous devez la renouveler dès que possible. Les instructions sont sur le procès-verbal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Très bien. Je vais m'en occuper.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Non, mais je suppose que vous allez me le dire.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vous ai vu utiliser votre téléphone en conduisant. C'est un vrai danger pour la sécurité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Oh, allez ! Je consultais juste mon GPS une seconde.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Peu importe. La loi est claire — aucun appareil tenu en main en conduisant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Sérieusement ? Il y a des choses bien pires, et c'est ça qui vous préoccupe ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~La distraction au volant cause des accidents. Je vous donne une contravention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Incroyable. C'est juste une question d'argent.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Vous avez le droit de contester l'amende au tribunal si vous le souhaitez. Conduisez prudemment.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Ouais, c'est ça.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~r~Suspect : ~w~Euh, je ne suis pas sûr… pour excès de vitesse peut-être ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais vous n'avez pas mis votre clignotant pour changer de voie là-bas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect : ~w~Oh, je ne m'en suis pas rendu compte. Désolé(e).]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Utiliser le clignotant est important — cela garantit la sécurité de tous sur la route.]]></DIALOGUE>
+			<DIALOGUE EMOTION="coupable"><![CDATA[~r~Suspect : ~w~Je sais, je ferai plus attention à l'avenir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vous dresse une contravention pour non-utilisation du clignotant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="coupable"><![CDATA[~r~Suspect : ~w~Je comprends. Je m'assurerai d'utiliser mes clignotants à chaque fois.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Vous pouvez payer l'amende en ligne. Soyez plus attentif aux signaux à l'avenir.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="reconnaissant"><![CDATA[~r~Suspect : ~w~Merci, monsieur l'agent. Je ferai plus attention.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="reconnaissant"><![CDATA[~r~Suspect : ~w~Merci, madame l'agent. Je ferai plus attention.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect : ~w~Non, je ne sais pas. Je roulais trop lentement ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais vous suiviez de trop près le véhicule devant vous. C'est dangereux.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Je ne collais pas ! C'est eux qui allaient trop lentement !]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~b~Agent : ~w~Peut-être, mais le fait de suivre de trop près peut causer des accidents. Il faut garder une distance de sécurité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irrité"><![CDATA[~r~Suspect : ~w~Je voulais juste aller au travail, je n'y pensais pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je comprends, mais pour votre sécurité et celle des autres, je dois vous verbaliser.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect : ~w~Génial… ça me manquait.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Assurez-vous de garder une distance suffisante dorénavant. Bonne route.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~Ouais, ouais.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Suspect : ~w~Je ne suis pas sûr·e, je roulais trop vite ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais quand j'ai vérifié vos informations, il s'est avéré que votre permis est suspendu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Quoi ? C'est une erreur. J'ai réglé ça il y a des semaines !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Le système l'indique toujours comme suspendu. Vous n'avez pas le droit de conduire.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~C'est ridicule, je ne peux pas me permettre une autre amende. J'ai besoin de ma voiture pour aller travailler !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je comprends, mais vous ne pouvez pas conduire avec un permis suspendu.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="implorant"><![CDATA[~r~Suspect : ~w~Allez, monsieur l'agent, il doit y avoir un autre moyen de régler ça.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="implorant"><![CDATA[~r~Suspect : ~w~Allez, madame l'agent, il doit y avoir un autre moyen de régler ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire"><![CDATA[~b~Agent : ~w~Je vais vous demander de sortir du véhicule pendant qu'on règle ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Pas question ! Je ne sors pas à cause d'une stupide erreur administrative !]]></DIALOGUE>
 			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Agent : ~w~Je ne vous le redirai pas. Sortez immédiatement.]]></DIALOGUE>
-			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect : ~w~Tu sais quoi ? Laisse tomber !]]></DIALOGUE>
+			<DIALOGUE EMOTION="agité"><![CDATA[~r~Suspect : ~w~Tu sais quoi ? Laisse tomber !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect : ~w~Non, mais je parie que vous allez me le dire.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Votre feu de freinage est en panne. Vous devez le faire réparer.]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~r~Suspect : ~w~Ah… c'est tout ? Je pensais que c'était pour autre chose.]]></DIALOGUE>
-			<DIALOGUE EMOTION="suspicious"><![CDATA[~b~Agent : ~w~Avez-vous quelque chose d'illégal dans le véhicule ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Quoi ? Non ! Enfin… rien de grave.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Que voulez-vous dire par “rien de grave” ? Je veux que vous soyez honnête avec moi.]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~r~Suspect : ~w~Écoutez, j'ai une arme sous le siège, mais c'est juste pour ma protection !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Le propriétaire de ce véhicule n'a pas de permis de port d'arme. Je vais vous demander de sortir du véhicule.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Sérieusement ? Ce n'est même pas un gros truc !]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Agent : ~w~Sortez de la voiture. Maintenant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect : ~w~Pas question, je ne vais pas aller en prison pour ça !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect : ~w~Non, mais je parie que vous allez me le dire.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Votre feu de freinage est en panne. Vous devez le faire réparer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~r~Suspect : ~w~Ah… c'est tout ? Je pensais que c'était pour autre chose.]]></DIALOGUE>
+			<DIALOGUE EMOTION="méfiant"><![CDATA[~b~Agent : ~w~Avez-vous quelque chose d'illégal dans le véhicule ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Quoi ? Non ! Enfin… rien de grave.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Que voulez-vous dire par “rien de grave” ? Je veux que vous soyez honnête avec moi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~r~Suspect : ~w~Écoutez, j'ai une arme sous le siège, mais c'est juste pour ma protection !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Le propriétaire de ce véhicule n'a pas de permis de port d'arme. Je vais vous demander de sortir du véhicule.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Sérieusement ? Ce n'est même pas un gros truc !]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire"><![CDATA[~b~Agent : ~w~Sortez de la voiture. Maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agité"><![CDATA[~r~Suspect : ~w~Pas question, je ne vais pas aller en prison pour ça !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Non, mais je suis sûr·e que vous avez une excuse.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vous ai vu zigzaguer entre les voies. Avez-vous bu ce soir ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="offended"><![CDATA[~r~Suspect : ~w~Quoi ? Non ! C'est absurde. Je suis juste fatigué·e.]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Vos yeux sont injectés de sang et je sens l'alcool. Sortez du véhicule pour un test d'alcoolémie.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Donc maintenant je suis ivre ? Je vous dis que je suis juste fatigué·e !]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Agent : ~w~Sortez de la voiture. Maintenant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="agitated"><![CDATA[~r~Suspect : ~w~Vous savez quoi ? Non. Je ne ferai pas ça.]]></DIALOGUE>
-			<DIALOGUE EMOTION="tense"><![CDATA[~b~Agent : ~w~Ne rendez pas les choses plus difficiles qu'elles ne le sont. Sortez du véhicule.]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="defiant"><![CDATA[~r~Suspect : ~w~Je ne pense pas, monsieur l'agent.]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="defiant"><![CDATA[~r~Suspect : ~w~Je ne pense pas, madame l'agent.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Non, mais je suis sûr·e que vous avez une excuse.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vous ai vu zigzaguer entre les voies. Avez-vous bu ce soir ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="offensé"><![CDATA[~r~Suspect : ~w~Quoi ? Non ! C'est absurde. Je suis juste fatigué·e.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Vos yeux sont injectés de sang et je sens l'alcool. Sortez du véhicule pour un test d'alcoolémie.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Donc maintenant je suis ivre ? Je vous dis que je suis juste fatigué·e !]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire"><![CDATA[~b~Agent : ~w~Sortez de la voiture. Maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agité"><![CDATA[~r~Suspect : ~w~Vous savez quoi ? Non. Je ne ferai pas ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~b~Agent : ~w~Ne rendez pas les choses plus difficiles qu'elles ne le sont. Sortez du véhicule.]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="défiant"><![CDATA[~r~Suspect : ~w~Je ne pense pas, monsieur l'agent.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="défiant"><![CDATA[~r~Suspect : ~w~Je ne pense pas, madame l'agent.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="nervous"><![CDATA[~r~Suspect : ~w~Je ne sais pas, monsieur l'agent. J'étais en excès de vitesse ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="nervous"><![CDATA[~r~Suspect : ~w~Je ne sais pas, madame l'agent. J'étais en excès de vitesse ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Non, mais l'immatriculation de votre véhicule est expirée, et j'ai besoin de vérifier votre pièce d'identité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~J'ai payé l'immatriculation ! Ce n'est pas possible qu'elle soit expirée !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Je vais vous demander de sortir pour que nous puissions résoudre cela.]]></DIALOGUE>
-			<DIALOGUE EMOTION="panicked"><![CDATA[~r~Suspect : ~w~Je ne peux pas gérer ça maintenant !]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Agent : ~w~Restez calme et sortez du véhicule.]]></DIALOGUE>
-			<DIALOGUE EMOTION="desperate"><![CDATA[~r~Suspect : ~w~Je ne peux pas. Je… je suis désolé·e !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="nerveux"><![CDATA[~r~Suspect : ~w~Je ne sais pas, monsieur l'agent. J'étais en excès de vitesse ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="nerveux"><![CDATA[~r~Suspect : ~w~Je ne sais pas, madame l'agent. J'étais en excès de vitesse ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Non, mais l'immatriculation de votre véhicule est expirée, et j'ai besoin de vérifier votre pièce d'identité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~J'ai payé l'immatriculation ! Ce n'est pas possible qu'elle soit expirée !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Je vais vous demander de sortir pour que nous puissions résoudre cela.]]></DIALOGUE>
+			<DIALOGUE EMOTION="paniqué"><![CDATA[~r~Suspect : ~w~Je ne peux pas gérer ça maintenant !]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire"><![CDATA[~b~Agent : ~w~Restez calme et sortez du véhicule.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désespéré"><![CDATA[~r~Suspect : ~w~Je ne peux pas. Je… je suis désolé·e !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Non, monsieur l'agent. Quel est le problème ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Non, madame l'agent. Quel est le problème ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je vous ai arrêté parce que vos feux de freinage sont défectueux. J'ai besoin de voir votre pièce d'identité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Vous vous moquez de moi ? C'est tout ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~b~Agent : ~w~C'est une question de sécurité. Je dois m'assurer que vous êtes apte à conduire.]]></DIALOGUE>
-			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~Suspect : ~w~C'est absurde !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Veuillez me remettre votre permis et l'immatriculation.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Je n'ai pas le temps pour ça !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Non, monsieur l'agent. Quel est le problème ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Non, madame l'agent. Quel est le problème ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je vous ai arrêté parce que vos feux de freinage sont défectueux. J'ai besoin de voir votre pièce d'identité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Vous vous moquez de moi ? C'est tout ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~b~Agent : ~w~C'est une question de sécurité. Je dois m'assurer que vous êtes apte à conduire.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustré"><![CDATA[~r~Suspect : ~w~C'est absurde !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Veuillez me remettre votre permis et l'immatriculation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Je n'ai pas le temps pour ça !]]></DIALOGUE>
 			<DIALOGUE EMOTION="urgent"><![CDATA[~b~Agent : ~w~Vite ! Retournez à nos véhicules de patrouille et attrapez-le !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="dismissive"><![CDATA[~r~Suspect : ~w~Aucune idée. Quel est le problème ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Votre véhicule correspond à la description d'un impliqué dans un incident à proximité. J'ai besoin de vos papiers.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~C'est n'importe quoi ! J'étais chez moi toute la soirée !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Vos plaques ont été vues dans le secteur. Donnez-moi votre pièce d'identité.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Vous me harcelez SANS RAISON ! C'est DU N'IMPORTE QUOI !]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding"><![CDATA[~b~Agent : ~w~Sortez du véhicule. Maintenant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect : ~w~JE NE VAIS NULLE PART ! VOUS N'AVEZ PAS LE DROIT !]]></DIALOGUE>
-			<DIALOGUE EMOTION="tense"><![CDATA[~b~Agent : ~w~Dernière chance. Sortez du véhicule ou je vous en fais sortir.]]></DIALOGUE>
-			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Suspect : ~w~FOUTEZ-MOI LA PAIX ! J'EN AI MARRE DE TOUT ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="désinvolte"><![CDATA[~r~Suspect : ~w~Aucune idée. Quel est le problème ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Votre véhicule correspond à la description d'un impliqué dans un incident à proximité. J'ai besoin de vos papiers.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~C'est n'importe quoi ! J'étais chez moi toute la soirée !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Vos plaques ont été vues dans le secteur. Donnez-moi votre pièce d'identité.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Vous me harcelez SANS RAISON ! C'est DU N'IMPORTE QUOI !]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire"><![CDATA[~b~Agent : ~w~Sortez du véhicule. Maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furieux"><![CDATA[~r~Suspect : ~w~JE NE VAIS NULLE PART ! VOUS N'AVEZ PAS LE DROIT !]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~b~Agent : ~w~Dernière chance. Sortez du véhicule ou je vous en fais sortir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enragé"><![CDATA[~r~Suspect : ~w~FOUTEZ-MOI LA PAIX ! J'EN AI MARRE DE TOUT ÇA !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect : ~w~Ouais, parce qu'un abruti a appelé les flics pour RIEN.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Nous avons reçu un signalement indiquant que vous colliez dangereusement un autre véhicule et faisiez des embardées.]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~Ah ouais ? Donc maintenant c'est MOI le méchant ? CE CON M'A COUPÉ LA ROUTE EN PREMIER !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~La conduite dangereuse est une infraction grave. Je veux voir votre permis.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~POURQUOI ? J'AI MÊME PAS TOUCHÉ SA VOITURE !]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding" TARGET="M"><![CDATA[~b~Agent : ~w~Monsieur, donnez-moi votre permis. Tout de suite.]]></DIALOGUE>
-			<DIALOGUE EMOTION="commanding" TARGET="F"><![CDATA[~b~Agent : ~w~Madame, donnez-moi votre permis. Tout de suite.]]></DIALOGUE>
-			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect : ~w~C'EST DU N'IMPORTE QUOI ! VOUS CHERCHEZ JUSTE À ME COINCER !]]></DIALOGUE>
-			<DIALOGUE EMOTION="tense"><![CDATA[~b~Agent : ~w~Sortez du véhicule. Maintenant.]]></DIALOGUE>
-			<DIALOGUE EMOTION="enraged"><![CDATA[~r~Suspect : ~w~JE NE FERAIS RIEN DU TOUT ! RECULEZ !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Bonjour madame, savez-vous pourquoi je vous ai arrêtée aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Bonjour monsieur, savez-vous pourquoi je vous ai arrêté aujourd'hui ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect : ~w~Ouais, parce qu'un abruti a appelé les flics pour RIEN.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Nous avons reçu un signalement indiquant que vous colliez dangereusement un autre véhicule et faisiez des embardées.]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~Ah ouais ? Donc maintenant c'est MOI le méchant ? CE CON M'A COUPÉ LA ROUTE EN PREMIER !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~La conduite dangereuse est une infraction grave. Je veux voir votre permis.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~POURQUOI ? J'AI MÊME PAS TOUCHÉ SA VOITURE !]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire" TARGET="M"><![CDATA[~b~Agent : ~w~Monsieur, donnez-moi votre permis. Tout de suite.]]></DIALOGUE>
+			<DIALOGUE EMOTION="autoritaire" TARGET="F"><![CDATA[~b~Agent : ~w~Madame, donnez-moi votre permis. Tout de suite.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furieux"><![CDATA[~r~Suspect : ~w~C'EST DU N'IMPORTE QUOI ! VOUS CHERCHEZ JUSTE À ME COINCER !]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~b~Agent : ~w~Sortez du véhicule. Maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enragé"><![CDATA[~r~Suspect : ~w~JE NE FERAIS RIEN DU TOUT ! RECULEZ !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~Agent : ~w~Madame, où allez-vous ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~Agent : ~w~Monsieur, où allez-vous ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="guarded"><![CDATA[~r~Suspect : ~w~Pourquoi toutes ces questions ? Je roule, c'est tout.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je dois vérifier quelques informations. À qui appartient ce véhicule ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect : ~w~À moi ! C'est quoi cette question ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm" TARGET="M"><![CDATA[~b~Agent : ~w~C'est étrange, car ce véhicule est enregistré au nom d'une femme.]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm" TARGET="F"><![CDATA[~b~Agent : ~w~C'est étrange, car ce véhicule est enregistré au nom d'un homme.]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~QUOI ? C'est des conneries ! Vous avez dû vous tromper quelque part !]]></DIALOGUE>
-			<DIALOGUE EMOTION="calm"><![CDATA[~b~Agent : ~w~Le système ne se trompe pas. À qui appartient vraiment cette voiture ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Je vous ai dit, c'est LA MIENNE ! On perd notre temps là !]]></DIALOGUE>
-			<DIALOGUE EMOTION="firm"><![CDATA[~b~Agent : ~w~Je vous demande de sortir du véhicule. Tout de suite.]]></DIALOGUE>
-			<DIALOGUE EMOTION="furious"><![CDATA[~r~Suspect : ~w~HORS DE QUESTION ! VOUS NE M'EMMÈNEZ NULLE PART POUR ÇA !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="F"><![CDATA[~b~Agent : ~w~Madame, où allez-vous ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux" TARGET="M"><![CDATA[~b~Agent : ~w~Monsieur, où allez-vous ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~r~Suspect : ~w~Pourquoi toutes ces questions ? Je roule, c'est tout.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je dois vérifier quelques informations. À qui appartient ce véhicule ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect : ~w~À moi ! C'est quoi cette question ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme" TARGET="M"><![CDATA[~b~Agent : ~w~C'est étrange, car ce véhicule est enregistré au nom d'une femme.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme" TARGET="F"><![CDATA[~b~Agent : ~w~C'est étrange, car ce véhicule est enregistré au nom d'un homme.]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~QUOI ? C'est des conneries ! Vous avez dû vous tromper quelque part !]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~b~Agent : ~w~Le système ne se trompe pas. À qui appartient vraiment cette voiture ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Je vous ai dit, c'est LA MIENNE ! On perd notre temps là !]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Agent : ~w~Je vous demande de sortir du véhicule. Tout de suite.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furieux"><![CDATA[~r~Suspect : ~w~HORS DE QUESTION ! VOUS NE M'EMMÈNEZ NULLE PART POUR ÇA !]]></DIALOGUE>
 		</DIALOGUES>
 	<OUTCOME>
 			<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~b~Agent : ~w~JE SUIS SOUS LE FEU ! ELLE EST ARMÉE, FAITES ATTENTION !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~b~Agent : ~w~JE SUIS SOUS LE FEU ! IL EST ARMÉ, FAITES ATTENTION !]]></DIALOGUE>
-			<DIALOGUE EMOTION="shouting"><![CDATA[~b~Agent : ~w~IL FAUT MAÎTRISER LE SUSPECT ! COUVREZ-MOI !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="F"><![CDATA[~b~Agent : ~w~JE SUIS SOUS LE FEU ! ELLE EST ARMÉE, FAITES ATTENTION !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant" TARGET="M"><![CDATA[~b~Agent : ~w~JE SUIS SOUS LE FEU ! IL EST ARMÉ, FAITES ATTENTION !]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant"><![CDATA[~b~Agent : ~w~IL FAUT MAÎTRISER LE SUSPECT ! COUVREZ-MOI !]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES AI="true">
-			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Agent : ~w~Bon sang… c'était quelque chose !]]></DIALOGUE>
-			<DIALOGUE EMOTION="relieved"><![CDATA[~b~Agent : ~w~Vous êtes arrivé juste à temps, merci !]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~b~Agent : ~w~Bon sang… c'était quelque chose !]]></DIALOGUE>
+			<DIALOGUE EMOTION="soulagé"><![CDATA[~b~Agent : ~w~Vous êtes arrivé juste à temps, merci !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Merci d'être venu, collègue. J'ai arrêté ce véhicule et je voulais un renfort avant de continuer.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Merci d'être venu, collègue. J'ai arrêté ce véhicule et je voulais un renfort avant de continuer.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Pas de souci, que voulez-vous que je fasse ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Restez dans votre véhicule pendant que je procède au contrôle, au cas où le véhicule tenterait de fuir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Restez dans votre véhicule pendant que je procède au contrôle, au cas où le véhicule tenterait de fuir.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Ça marche, allons-y.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Content de vous voir. Celui-là me donne une drôle d'impression, je préfère ne pas y aller seul.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Content de vous voir. Celui-là me donne une drôle d'impression, je préfère ne pas y aller seul.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Quel est le plan ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Restez dans votre véhicule, soyez prêt au cas où il essaierait de s'échapper. Je gère le contrôle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Restez dans votre véhicule, soyez prêt au cas où il essaierait de s'échapper. Je gère le contrôle.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Reçu. Voyons comment ça évolue.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Merci d'être là. Je ne veux pas que ça dégénère, donc je vais y aller doucement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Merci d'être là. Je ne veux pas que ça dégénère, donc je vais y aller doucement.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Vous voulez que je reste en retrait ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Oui, restez dans votre véhicule et gardez un œil. Si vous sentez un truc louche, soyez prêt.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Oui, restez dans votre véhicule et gardez un œil. Si vous sentez un truc louche, soyez prêt.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Entendu. Je garde l'œil ouvert.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Content que vous soyez là. J'aimerais avoir un deuxième regard sur cette situation.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Content que vous soyez là. J'aimerais avoir un deuxième regard sur cette situation.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~D'accord, où voulez-vous que je me place ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Venez du côté passager pendant que je parle au conducteur. Au cas où ça dérape.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Venez du côté passager pendant que je parle au conducteur. Au cas où ça dérape.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Reçu. Allons-y.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Agent : ~w~Ce conducteur me met mal à l'aise. Merci d'être venu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~b~Agent : ~w~Ce conducteur me met mal à l'aise. Merci d'être venu.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Pas de souci. Que faut-il faire ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="cautious"><![CDATA[~b~Agent : ~w~Je vais parler au conducteur ; approchez par le côté passager. Moins risqué si ça tourne mal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~b~Agent : ~w~Je vais parler au conducteur ; approchez par le côté passager. Moins risqué si ça tourne mal.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Très bien, je vous couvre.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Merci d'être venu. Je préfère ne pas faire ça en solo.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Merci d'être venu. Je préfère ne pas faire ça en solo.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Je comprends. Où vous voulez que je me place ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Placez-vous de mon côté, côté conducteur. On garde ça simple.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Placez-vous de mon côté, côté conducteur. On garde ça simple.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Parfait, on y va.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Merci d'avoir répondu si vite. Je veux que ce conducteur sache qu'il est surveillé.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Merci d'avoir répondu si vite. Je veux que ce conducteur sache qu'il est surveillé.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Où dois-je me placer ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Restez à mes côtés, côté conducteur. Une présence en plus ne fait pas de mal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Restez à mes côtés, côté conducteur. Une présence en plus ne fait pas de mal.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Très bien. Allons-y.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Merci pour le renfort. Vous pouvez rester dans votre véhicule pour l'instant, ou me rejoindre devant – à vous de voir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Merci pour le renfort. Vous pouvez rester dans votre véhicule pour l'instant, ou me rejoindre devant – à vous de voir.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Je verrai selon comment ça se passe.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~b~Agent : ~w~Ça marche. Soyez prêt si j'ai besoin de vous.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Agent : ~w~Ça marche. Soyez prêt si j'ai besoin de vous.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Je vous couvre.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Content que tu sois là. Avec la tournure des contrôles routiers dernièrement, je ne voulais pas m'approcher seul.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Content que tu sois là. Avec la tournure des contrôles routiers dernièrement, je ne voulais pas m'approcher seul.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Quel est le plan ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~b~Agent : ~w~Je veux que tu sois côté passager pendant que je parle au conducteur. Par précaution.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Agent : ~w~Je veux que tu sois côté passager pendant que je parle au conducteur. Par précaution.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~D'accord, soyons prudents.]]></DIALOGUE>
 		</DIALOGUES>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Agent : ~w~Hé, euh… merci d'être venu. Je m'habitue encore à faire les contrôles seul.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~b~Agent : ~w~Hé, euh… merci d'être venu. Je m'habitue encore à faire les contrôles seul.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Pas de souci. Tu as un plan ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="nervous"><![CDATA[~b~Agent : ~w~Ouais, je me sens juste mieux avec du renfort. Tu peux rester dans ta voiture ou me rejoindre côté conducteur. À toi de voir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~b~Agent : ~w~Ouais, je me sens juste mieux avec du renfort. Tu peux rester dans ta voiture ou me rejoindre côté conducteur. À toi de voir.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous : ~w~Reçu. Je serai prêt.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 	<EXTRA>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Merci pour le soutien, collègue ! Bonne fin de service !]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Agent : ~w~Merci monsieur, j'apprécie votre aide sur ce contrôle.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Agent : ~w~Merci madame, j'apprécie votre aide sur ce contrôle.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Merci, collègue. Je te revaudrai ça.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Tout est bon ici. Reste vigilant !]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Tout est réglé. Merci pour le coup de main !]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Merci de m'avoir couvert. Reste prudent.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~b~Agent : ~w~Contrôle sans accroc ! À la prochaine intervention.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~Agent : ~w~Merci, monsieur ! Toujours bien d'avoir du renfort.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~Agent : ~w~Merci, madame ! Toujours bien d'avoir du renfort.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Merci pour le soutien, collègue ! Bonne fin de service !]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux" PLAYER="M"><![CDATA[~b~Agent : ~w~Merci monsieur, j'apprécie votre aide sur ce contrôle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux" PLAYER="F"><![CDATA[~b~Agent : ~w~Merci madame, j'apprécie votre aide sur ce contrôle.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Merci, collègue. Je te revaudrai ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Tout est bon ici. Reste vigilant !]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Tout est réglé. Merci pour le coup de main !]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Merci de m'avoir couvert. Reste prudent.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~b~Agent : ~w~Contrôle sans accroc ! À la prochaine intervention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux" PLAYER="M"><![CDATA[~b~Agent : ~w~Merci, monsieur ! Toujours bien d'avoir du renfort.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux" PLAYER="F"><![CDATA[~b~Agent : ~w~Merci, madame ! Toujours bien d'avoir du renfort.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

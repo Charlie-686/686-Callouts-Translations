@@ -16,8 +16,8 @@
 		<FURTHERINFORMATION><![CDATA[Les renseignements signalent une personne mentalement instable avec une ~r~bombe dans une voiture.~n~~w~Intervenez sur les lieux ~y~de toute urgence.]]></FURTHERINFORMATION>
     	<OTHER><![CDATA[~r~Détonateur de bombe~w~, ~y~Câblage]]></OTHER>
 		<DIALOGUES>
-			<DIALOGUE EMOTION="fear"><![CDATA[~r~Suspect :~w~ Je me rends ! Vous pouvez m'arrêter !]]></DIALOGUE>
-			<DIALOGUE EMOTION="sad"><![CDATA[~r~Suspect :~w~ Je suis désolé que cela se termine ainsi…]]></DIALOGUE>
+			<DIALOGUE EMOTION="peur"><![CDATA[~r~Suspect :~w~ Je me rends ! Vous pouvez m'arrêter !]]></DIALOGUE>
+			<DIALOGUE EMOTION="triste"><![CDATA[~r~Suspect :~w~ Je suis désolé que cela se termine ainsi…]]></DIALOGUE>
 		</DIALOGUES>		
 	</OUTCOME1>
 	<OUTCOME2>

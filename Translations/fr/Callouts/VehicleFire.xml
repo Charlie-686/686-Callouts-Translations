@@ -13,48 +13,48 @@
 	<OUTCOME0>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. J'ai bien peur d'avoir de mauvaises nouvelles pour vous.]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Victime :~w~ Oh non ! Qu'est-ce qu'il se passe ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Victime :~w~ Oh non ! Qu'est-ce qu'il se passe ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Malheureusement, plus tôt aujourd'hui, j'ai été appelé pour un feu de véhicule. Nous avons retrouvé votre nom comme propriétaire enregistré du véhicule, que vous aviez récemment signalé comme volé, je crois ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Victime :~w~ Oui... J'arrive pas à y croire. Je suis sous le choc. Donc il a été volé, puis incendié ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Victime :~w~ Oui... J'arrive pas à y croire. Je suis sous le choc. Donc il a été volé, puis incendié ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Exactement. J'ai ici quelques informations sur les démarches à suivre maintenant. Cela devrait vous aider à y voir plus clair.]]></DIALOGUE>
-			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~Victime :~w~ Merci beaucoup. En voyant le bon côté des choses, mon assurance devrait couvrir ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimiste"><![CDATA[~y~Victime :~w~ Merci beaucoup. En voyant le bon côté des choses, mon assurance devrait couvrir ça.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonne nouvelle. Passez une bonne journée, nous vous recontacterons avec plus de détails.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME0>
 	<OUTCOME1>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Je suis ici pour vous apporter des nouvelles.]]></DIALOGUE>
-			<DIALOGUE EMOTION="sad"><![CDATA[~y~Victime :~w~ C'est à propos de mon véhicule, n'est-ce pas ? Et vu qu'il n'est pas derrière vous, je devine déjà...]]></DIALOGUE>
+			<DIALOGUE EMOTION="triste"><![CDATA[~y~Victime :~w~ C'est à propos de mon véhicule, n'est-ce pas ? Et vu qu'il n'est pas derrière vous, je devine déjà...]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est exact, malheureusement. Plus tôt aujourd'hui, un véhicule en feu a été signalé. Je suis désolé de vous dire qu'il s'agissait du vôtre.]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Victime :~w~ C'est choquant. Comment cela a-t-il pu arriver ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Victime :~w~ C'est choquant. Comment cela a-t-il pu arriver ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Pour le moment, nous ne savons pas. Mais il est probable que ce soit d'origine criminelle. Voici quelques documents expliquant les démarches à suivre.]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Victime :~w~ Génial... Mon assurance va exploser.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~y~Victime :~w~ Génial... Mon assurance va exploser.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Espérons qu'ils comprendront. Encore désolé. Nous reviendrons vers vous.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Excusez-moi ? Bonjour, j'aurais besoin de vous parler.]]></DIALOGUE>
-			<DIALOGUE EMOTION="confused"><![CDATA[~y~Victime :~w~ Oh, que se passe-t-il ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confus"><![CDATA[~y~Victime :~w~ Oh, que se passe-t-il ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est à propos de votre véhicule. Plus tôt dans la journée, nous avons été appelés pour un véhicule en feu. Vous êtes le propriétaire enregistré, et nous souhaitions vous en informer.]]></DIALOGUE>
-			<DIALOGUE EMOTION="disbelief"><![CDATA[~y~Victime :~w~ Vraiment ? Êtes-vous sûr que c'est bien mon véhicule ? Je n'y crois pas ! Je pensais qu'il avait été volé, pas réduit en cendres.]]></DIALOGUE>
+			<DIALOGUE EMOTION="incrédulité"><![CDATA[~y~Victime :~w~ Vraiment ? Êtes-vous sûr que c'est bien mon véhicule ? Je n'y crois pas ! Je pensais qu'il avait été volé, pas réduit en cendres.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Nous ne connaissons pas encore la cause, mais une enquête est en cours. En attendant, voici des documents sur les démarches à suivre. Les voilà.]]></DIALOGUE>
-			<DIALOGUE EMOTION="shocked"><![CDATA[~y~Victime :~w~ Merci. Tout s'est passé si vite. J'espère que personne n'a été blessé, surtout si c'était intentionnel.]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Victime :~w~ Merci. Tout s'est passé si vite. J'espère que personne n'a été blessé, surtout si c'était intentionnel.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ En effet. Passez une bonne journée, et n'hésitez pas à nous contacter si vous avez d'autres questions.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<EXTRA>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. En quoi puis-je vous aider ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informateur :~w~ Écoutez, je n'ai pas beaucoup de temps, mais je dois vous dire quelque chose.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~y~Informateur :~w~ Écoutez, je n'ai pas beaucoup de temps, mais je dois vous dire quelque chose.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Désolé, qui êtes-vous ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="fearful"><![CDATA[~y~Informateur :~w~ Ne me posez pas de questions. Un véhicule va être incendié, tout de suite. Il faut que vous y alliez maintenant !]]></DIALOGUE>
+			<DIALOGUE EMOTION="apeuré"><![CDATA[~y~Informateur :~w~ Ne me posez pas de questions. Un véhicule va être incendié, tout de suite. Il faut que vous y alliez maintenant !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Où ça ? Et pourquoi me dites-vous cela ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="tense"><![CDATA[~y~Informateur :~w~ J'ai envoyé l'emplacement sur votre mobile. Quelqu'un que je connais a fait une erreur... il veut se venger de la mauvaise personne.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~y~Informateur :~w~ J'ai envoyé l'emplacement sur votre mobile. Quelqu'un que je connais a fait une erreur... il veut se venger de la mauvaise personne.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Qui est ce « ils » dont vous parlez ? Et pourquoi veulent-ils brûler un véhicule ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="mysterious"><![CDATA[~y~Informateur :~w~ Des erreurs... ils ont fait une erreur.]]></DIALOGUE>
+			<DIALOGUE EMOTION="mystérieux"><![CDATA[~y~Informateur :~w~ Des erreurs... ils ont fait une erreur.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Du calme. J'ai besoin de contexte.]]></DIALOGUE>
-			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~Informateur :~w~ J'en ai trop dit... merde...]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~y~Informateur :~w~ J'en ai trop dit... merde...]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>

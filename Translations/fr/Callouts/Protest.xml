@@ -19,27 +19,27 @@
   <OUTCOME1></OUTCOME1>
   <OUTCOME2>
     <DIALOGUES>
-      <DIALOGUE PLAYER="M" EMOTION="optimistic"><![CDATA[~r~Suspect : ~w~Monsieur l'agent, vous vous joignez à la cause ?]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="optimistic"><![CDATA[~r~Suspect : ~w~Madame l'agent, vous vous joignez à la cause ?]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="optimiste"><![CDATA[~r~Suspect : ~w~Monsieur l'agent, vous vous joignez à la cause ?]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="optimiste"><![CDATA[~r~Suspect : ~w~Madame l'agent, vous vous joignez à la cause ?]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~De quoi s'agit-il exactement ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="passionate"><![CDATA[~r~Suspect : ~w~Nous pensons que le changement climatique détruit notre pays – et que notre gouvernement doit agir immédiatement !]]></DIALOGUE>
+      <DIALOGUE EMOTION="passionné"><![CDATA[~r~Suspect : ~w~Nous pensons que le changement climatique détruit notre pays – et que notre gouvernement doit agir immédiatement !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Désolé, vous devez bouger. Si vous manifestez en bloquant une route, vous devez d'abord obtenir une autorisation.]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Mais pourquoi ? Nous défendons une bonne cause !]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect :~w~ Mais pourquoi ? Nous défendons une bonne cause !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Cette manifestation n’a pas été autorisée. Vous ne pouvez pas bloquer la route comme ça.]]></DIALOGUE>
-      <DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Suspect :~w~ Je l’ai dit aux autres… mais ils n’ont pas écouté. Je vais leur dire qu’on doit partir.]]></DIALOGUE>
+      <DIALOGUE EMOTION="gêné"><![CDATA[~r~Suspect :~w~ Je l’ai dit aux autres… mais ils n’ont pas écouté. Je vais leur dire qu’on doit partir.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Merci. Rassemblez vos affaires pour que la circulation puisse reprendre.]]></DIALOGUE>
-      <DIALOGUE EMOTION="disappointed"><![CDATA[~r~Suspect :~w~ Bon, les gars, la manif est annulée. On s’en va.]]></DIALOGUE>
+      <DIALOGUE EMOTION="déçu"><![CDATA[~r~Suspect :~w~ Bon, les gars, la manif est annulée. On s’en va.]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME2>
   <OUTCOME3>
     <DIALOGUES>
-      <DIALOGUE EMOTION="optimistic"><![CDATA[~r~Suspect : ~w~Regardez qui vient soutenir notre manifestation !]]></DIALOGUE>
+      <DIALOGUE EMOTION="optimiste"><![CDATA[~r~Suspect : ~w~Regardez qui vient soutenir notre manifestation !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Pourquoi manifestez-vous ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect : ~w~Les prix des aliments sont hors de contrôle et on en a marre ! On va mourir de faim !]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect : ~w~Les prix des aliments sont hors de contrôle et on en a marre ! On va mourir de faim !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Cette manifestation ne peut pas avoir lieu ici, vous mettez la sécurité publique en danger.]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ On ne compte pas partir. C’est une cause juste !]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect :~w~ On ne compte pas partir. C’est une cause juste !]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous : ~w~Je vous demande de partir, vous manifestez illégalement ici.]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Je vais vous dire, on ne bougera pas ! Allez embêter quelqu’un d’autre.]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Je vais vous dire, on ne bougera pas ! Allez embêter quelqu’un d’autre.]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME3>
   <OUTCOME4></OUTCOME4>

@@ -8,26 +8,26 @@
 	<OUTCOME1>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour. Que se passe-t-il ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="mysterious"><![CDATA[~r~Suspect :~w~ Rien. Absolument rien.]]></DIALOGUE>
+			<DIALOGUE EMOTION="mystérieux"><![CDATA[~r~Suspect :~w~ Rien. Absolument rien.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Posez l'appareil photo, je voudrais vous parler—]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Qu'est-ce qui se passe ? Qu'est-ce qui vous amène ici ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect :~w~ Je ne fais rien d'illégal, laissez-moi tranquille.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irrité"><![CDATA[~r~Suspect :~w~ Je ne fais rien d'illégal, laissez-moi tranquille.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ J'essaie juste de discuter pour comprendre la situation.]]></DIALOGUE>
-			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect :~w~ Et moi j'essaie juste de faire quelque chose de parfaitement légal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irrité"><![CDATA[~r~Suspect :~w~ Et moi j'essaie juste de faire quelque chose de parfaitement légal.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je voudrais simplement vous parler.]]></DIALOGUE>
-			<DIALOGUE EMOTION="irritated"><![CDATA[~r~Suspect :~w~ N'essayez pas de porter atteinte à mes droits de photographe sur la voie publique.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irrité"><![CDATA[~r~Suspect :~w~ N'essayez pas de porter atteinte à mes droits de photographe sur la voie publique.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME2>
 	<OUTCOME3>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, puis-je vous demander pourquoi vous prenez des photos du poste ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ C'est pour ma chaîne sur les réseaux sociaux, c'est un problème ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect :~w~ C'est pour ma chaîne sur les réseaux sociaux, c'est un problème ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ C'est légal, oui, mais plutôt étrange de le faire aussi longtemps.]]></DIALOGUE>
-			<DIALOGUE EMOTION="neutral"><![CDATA[~r~Suspect :~w~ Je comprends, j'ai terminé maintenant donc je vais y aller.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Suspect :~w~ Je comprends, j'ai terminé maintenant donc je vais y aller.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Merci, bonne journée.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME3>
@@ -35,26 +35,26 @@
 		<NOTIFICATION><![CDATA[Le numéro de téléphone a été obtenu et l'enquête initiale a commencé. Merci.]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, pourquoi prenez-vous des photos du poste ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Suspect :~w~ Vous voulez vraiment savoir ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="gêné"><![CDATA[~r~Suspect :~w~ Vous voulez vraiment savoir ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Oui, je vous écoute.]]></DIALOGUE>
-			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Suspect :~w~ Je me rends compte que ça sonne idiot, mais quelqu'un, nommé Jeff, m'a envoyé un message pour me le demander.]]></DIALOGUE>
-			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~Suspect :~w~ Oui, avec du recul, c'était un peu louche comme demande.]]></DIALOGUE>
+			<DIALOGUE EMOTION="gêné"><![CDATA[~r~Suspect :~w~ Je me rends compte que ça sonne idiot, mais quelqu'un, nommé Jeff, m'a envoyé un message pour me le demander.]]></DIALOGUE>
+			<DIALOGUE EMOTION="gêné"><![CDATA[~r~Suspect :~w~ Oui, avec du recul, c'était un peu louche comme demande.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je crois qu'on pense tous les deux la même chose. Pouvez-vous me donner son numéro ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je pense que vous devriez rentrer chez vous et réfléchir à qui vous parlez à l'avenir.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ Oui, je comprends. Désolé pour le dérangement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect :~w~ Oui, je comprends. Désolé pour le dérangement.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME4>
 	<OUTCOME5>
 		<DIALOGUES>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, pourquoi prenez-vous des photos du poste ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="M" EMOTION="excited"><![CDATA[~r~Suspect :~w~ Bonjour monsieur l'agent ! Je suis un grand fan des services d'urgence et de leur travail. Je prenais juste quelques photos de votre poste, c'est bon ?]]></DIALOGUE>
-			<DIALOGUE PLAYER="F" EMOTION="excited"><![CDATA[~r~Suspect :~w~ Bonjour madame l'agent ! Je suis un grand fan des services d'urgence et de leur travail. Je prenais juste quelques photos de votre poste, c'est bon ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="excité"><![CDATA[~r~Suspect :~w~ Bonjour monsieur l'agent ! Je suis un grand fan des services d'urgence et de leur travail. Je prenais juste quelques photos de votre poste, c'est bon ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="excité"><![CDATA[~r~Suspect :~w~ Bonjour madame l'agent ! Je suis un grand fan des services d'urgence et de leur travail. Je prenais juste quelques photos de votre poste, c'est bon ?]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Je vois, c'est donc une sorte de passe-temps si je comprends bien ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="excited"><![CDATA[~r~Suspect :~w~ Exactement ! Je voulais devenir policier, mais vu que je suis de l'autre côté du poste, vous voyez que ça n'a pas marché.]]></DIALOGUE>
+			<DIALOGUE EMOTION="excité"><![CDATA[~r~Suspect :~w~ Exactement ! Je voulais devenir policier, mais vu que je suis de l'autre côté du poste, vous voyez que ça n'a pas marché.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Intéressant à entendre, je voulais juste vérifier ce qui se passait.]]></DIALOGUE>
-			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~Suspect :~w~ Je m'excuse de vous avoir fait perdre du temps, mais j'ai fini mes clichés, je trouve le résultat plutôt réussi.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~r~Suspect :~w~ Je m'excuse de vous avoir fait perdre du temps, mais j'ai fini mes clichés, je trouve le résultat plutôt réussi.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Aucun souci, je vous souhaite une excellente journée.]]></DIALOGUE>
-			<DIALOGUE EMOTION="happy"><![CDATA[~r~Suspect :~w~ Eh bien, je m'en vais. Peut-être qu'on se recroisera un jour.]]></DIALOGUE>
+			<DIALOGUE EMOTION="heureux"><![CDATA[~r~Suspect :~w~ Eh bien, je m'en vais. Peut-être qu'on se recroisera un jour.]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME5>
 </CALLOUT>

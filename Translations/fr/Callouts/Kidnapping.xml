@@ -22,26 +22,26 @@
     <NOTIFICATION><![CDATA[provoqué]]></NOTIFICATION>
     <DIALOGUES>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Écoutez-moi bien. Je dois parler à votre passager.]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Je ne pense pas. Je suis sorti de ma voiture, vous pouvez me parler à moi.]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect :~w~ Je ne pense pas. Je suis sorti de ma voiture, vous pouvez me parler à moi.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Il est très important que je lui parle.]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ D'accord, d'accord, dites-moi juste ce qu'il se passe.]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect :~w~ D'accord, d'accord, dites-moi juste ce qu'il se passe.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons reçu des signalements d'un enlèvement. Nous procédons à des vérifications.]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ Eh bien, vous avez trouvé la bonne personne !]]></DIALOGUE>
-      <DIALOGUE EMOTION="angry"><![CDATA[~r~Suspect :~w~ C'est fini entre nous !!!]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ Eh bien, vous avez trouvé la bonne personne !]]></DIALOGUE>
+      <DIALOGUE EMOTION="colère"><![CDATA[~r~Suspect :~w~ C'est fini entre nous !!!]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME1>
   <OUTCOME2>
     <OTHER><![CDATA[~g~Courses]]></OTHER>
     <DIALOGUES>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, vous allez où actuellement ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="confused"><![CDATA[~r~Suspect :~w~ Je ramène simplement ce passager chez lui.]]></DIALOGUE>
+      <DIALOGUE EMOTION="confus"><![CDATA[~r~Suspect :~w~ Je ramène simplement ce passager chez lui.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, laissez-moi juste échanger un mot avec lui.]]></DIALOGUE>
-      <DIALOGUE PLAYER="M" EMOTION="happy"><![CDATA[~y~Passager :~w~ Bonjour monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="happy"><![CDATA[~y~Passager :~w~ Bonjour madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="heureux"><![CDATA[~y~Passager :~w~ Bonjour monsieur l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="heureux"><![CDATA[~y~Passager :~w~ Bonjour madame l'agent, que puis-je faire pour vous ?]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons reçu des signalements d'un enlèvement, je veux juste m'assurer que tout va bien pour vous.]]></DIALOGUE>
-      <DIALOGUE EMOTION="happy"><![CDATA[~y~Passager :~w~ Absolument ! Je reviens juste des courses, elles sont dans le coffre.]]></DIALOGUE>
+      <DIALOGUE EMOTION="heureux"><![CDATA[~y~Passager :~w~ Absolument ! Je reviens juste des courses, elles sont dans le coffre.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Merci. Je vais faire quelques vérifications, puis vous pourrez repartir.]]></DIALOGUE>
-      <DIALOGUE EMOTION="happy"><![CDATA[~y~Passager :~w~ Bien sûr, prenez votre temps.]]></DIALOGUE>
+      <DIALOGUE EMOTION="heureux"><![CDATA[~y~Passager :~w~ Bien sûr, prenez votre temps.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Tout est en ordre, vous êtes libre de partir !]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME2>
@@ -49,15 +49,15 @@
     <NOTIFICATION><![CDATA[essaie d'attirer votre attention]]></NOTIFICATION>
     <DIALOGUES>
       <DIALOGUE><![CDATA[~b~Vous :~w~ J'ai besoin d'un mot, coupez le moteur s'il vous plaît.]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Que se passe-t-il ici ?]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect :~w~ Que se passe-t-il ici ?]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Nous avons eu des signalements d'un possible enlèvement. Je veux juste savoir où vous allez.]]></DIALOGUE>
-      <DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Je conduis cette personne là où elle doit aller. C'est ce que fait un chauffeur de taxi.]]></DIALOGUE>
+      <DIALOGUE EMOTION="défensive"><![CDATA[~r~Suspect :~w~ Je conduis cette personne là où elle doit aller. C'est ce que fait un chauffeur de taxi.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ J'aimerais parler au passager, c'est possible ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="annoyed"><![CDATA[~r~Suspect :~w~ Très bien, mais le compteur tourne toujours.]]></DIALOGUE>
+      <DIALOGUE EMOTION="agacé"><![CDATA[~r~Suspect :~w~ Très bien, mais le compteur tourne toujours.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Bonjour, où avez-vous demandé à ce chauffeur de vous emmener ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="scared"><![CDATA[~y~Passager :~w~ Je rentre juste chez moi.]]></DIALOGUE>
+      <DIALOGUE EMOTION="effrayé"><![CDATA[~y~Passager :~w~ Je rentre juste chez moi.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ D'accord, et vous n'avez rien d'autre à me dire ?]]></DIALOGUE>
-      <DIALOGUE EMOTION="scared"><![CDATA[~y~Passager :~w~ Non, je rentre juste chez moi, c'est tout.]]></DIALOGUE>
+      <DIALOGUE EMOTION="effrayé"><![CDATA[~y~Passager :~w~ Non, je rentre juste chez moi, c'est tout.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Parfait, tout semble en ordre. Je vais faire quelques vérifications et ensuite nous verrons.]]></DIALOGUE>
     </DIALOGUES>
   </OUTCOME3>
@@ -66,12 +66,12 @@
     <OTHER><![CDATA[Je rentrais à pied chez moi, et cette personne portant une cagoule m'a attrapé, j'ai senti une arme contre ma tête. Ils m'ont forcé à monter dans le taxi.]]></OTHER>
     <OTHER><![CDATA[Ce chauffeur de taxi m'a demandé mon chemin, je me suis penché pour lui parler, et il m'a tiré dans la voiture. Je ne suis pas blessé.]]></OTHER>
     <DIALOGUES>
-      <DIALOGUE PLAYER="M" EMOTION="relieved"><![CDATA[~y~Passager :~w~ Merci infiniment, monsieur l'agent ! Je pensais… je pensais que c'était la fin.]]></DIALOGUE>
-      <DIALOGUE PLAYER="F" EMOTION="relieved"><![CDATA[~y~Passager :~w~ Merci infiniment, madame l'agent ! Je pensais… je pensais que c'était la fin.]]></DIALOGUE>
+      <DIALOGUE PLAYER="M" EMOTION="soulagé"><![CDATA[~y~Passager :~w~ Merci infiniment, monsieur l'agent ! Je pensais… je pensais que c'était la fin.]]></DIALOGUE>
+      <DIALOGUE PLAYER="F" EMOTION="soulagé"><![CDATA[~y~Passager :~w~ Merci infiniment, madame l'agent ! Je pensais… je pensais que c'était la fin.]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Je suis soulagé qu'on vous ait retrouvé. Je veux vous ramener sain et sauf chez vous, mais pouvez-vous me dire ce qui s'est passé ?]]></DIALOGUE>
       <DIALOGUE><![CDATA[~y~Passager :~w~ {0}]]></DIALOGUE>
       <DIALOGUE><![CDATA[~b~Vous :~w~ Je comprends. Merci d'avoir partagé ces détails.]]></DIALOGUE>
-      <DIALOGUE EMOTION="relieved"><![CDATA[~y~Passager :~w~ Je n'arrive pas à croire que c'est arrivé…]]></DIALOGUE>
+      <DIALOGUE EMOTION="soulagé"><![CDATA[~y~Passager :~w~ Je n'arrive pas à croire que c'est arrivé…]]></DIALOGUE>
     </DIALOGUES>
   </EXTRA>
   <KIDNAPPERVAN>DT8jFyQnCA8rBB0VBwcaPC05OAwnIwcXAx4YDhkwGDc=</KIDNAPPERVAN>
