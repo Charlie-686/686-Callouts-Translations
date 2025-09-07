@@ -1,0 +1,169 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[SWAT Raid]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Meet the SWAT Raid Team at the designated rendezvous point to coordinate the raid.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Drive with the ~b~SWAT Team~w~ to the discreet location nearby the SWAT Raid area.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Press~w~ ~g~{0}~w~ for no further SWAT officers.~n~~o~Hold~w~ ~g~{0}~w~ for 2 further SWAT officers.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You received ~b~no extra SWAT officers~w~ for the raid.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You received ~b~2 extra SWAT officers~w~ for the raid. They're in your vehicle.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to switch the ~b~SWAT Team~w~ between ~o~COMBAT~w~ and ~g~FOLLOW~w~ mode.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~SWAT Team Mode:~w~ ~o~COMBAT~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~SWAT Team Mode:~w~ ~g~FOLLOW~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Objective ~g~succeeded~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Objective ~r~failed~w~.~n~{0}]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME> // High-Value Arrest Target
+		<FURTHERINFORMATION><![CDATA[~y~Locate~w~ & ~y~arrest~w~ the high-value target.~n~Target: ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[The ~o~high-value target~w~ was ~g~arrested~w~. ~n~Bring them to the nearest ~y~jail~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~o~high-value target~w~ was ~r~killed~w~. ~n~Secure the scene and press ~y~{0}~w~ to END the callout.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~o~high-value target~w~ is ~g~in custody~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Take the ~o~high-value target~w~ to the ~b~custody~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Good, you made it. We’ve got a high-value target today. Capture them alive.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. Arrest them?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Officer: ~w~Yes. We'll share more details en-route. He's a nasty piece of work, extremely dangerous.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy. We’re stopping nearby and proceeding on foot?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Officer: ~w~Exactly. My team of four is in my vehicle, you go in yours. Stay alert as we move.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~I will do.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~SWAT Lead: ~w~I have four officers, would you like an additional two for your vehicle?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Remember, the target must stay alive. Anyone else isn't important. My officers will provide cover for the extraction.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Let's go! Keep your radio on officer, I will provide more details about the raid as we drive.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Hey! Let me provide you with some more details as we approach the raid site.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~When you arrive on scene, there's going to be several people on the site. They'll definitely be armed, but that doesn't mean there will be a gunfight.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~You'll be able to sneak past or get them to surrender, as long as they don't see you first.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Your objective is to apprehend the high value target. We don't know which one that is - but you should be able to tell, unless things descend into a gunfight.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Once you've managed to arrest the high value target, bring them to the nearest police station.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Good luck officer. We want to see you return in one piece.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Target is secure. My team will stay on scene while you take the target to custody.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~g~SWAT Lead: ~w~Target is down. You've failed to get the target into custody.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Hostage
+		<FURTHERINFORMATION><![CDATA[~y~Locate~w~ & ~g~rescue~w~ the hostage.~n~Hostage: ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to get the ~g~hostage~w~ to follow you.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~g~hostage~w~ is now ~y~following you~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~g~hostage~w~ was ~r~killed~w~. ~n~Secure the scene and press ~y~{0}~w~ to END the callout.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~g~hostage~w~ is now safe at the ~b~Police Station~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Take the ~g~hostage~w~ to safety at the ~b~Police Station~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Good, you’re here. We’ve got a hostage situation unfolding. Our priority is rescuing the hostage alive.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. Extract them safely?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Officer: ~w~Exactly. The suspects are armed and unpredictable - don’t give them a chance to harm the hostage.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy. We’re stopping nearby and proceeding on foot?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Officer: ~w~Correct. We’ll park a short distance away and advance with caution. Stealth is key here.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~I will do.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~SWAT Lead: ~w~I have four officers, would you like an additional two for your vehicle?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Remember - the hostage’s life comes first. Neutralize the suspects if you must, but the hostage must make it out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Let’s move! Stay sharp and keep comms open, I’ll brief you further as we roll in.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Hey! Let me fill you in as we approach the rescue site.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~When you arrive, expect multiple armed guards on the property. They’ll be patrolling and keeping eyes on the hostage.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~You’ll have the option to sneak in or go loud - just make sure they don’t spot you first.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Once you reach the hostage, get them to follow you and escort them safely out. If things go loud, the suspects may try to harm the hostage.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Bring the hostage straight to the nearest police station once they’re secure. That’s your top priority.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Good luck officer. Let’s make sure both you and the hostage get out alive.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~We’ve secured the area. Get the hostage out of here and take them to the station.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~g~SWAT Lead: ~w~HOSTAGE DOWN! I REPEAT, HOSTAGE DOWN!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Intel Retreival
+		<FURTHERINFORMATION><![CDATA[~y~Locate~w~ & ~g~recover~w~ the intel.~n~Item: ~o~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Take the ~o~{0}~w~ to the nearest ~b~Police Station~w~ for forensic recovery.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You spotted the intel: ~o~{0}~n~~w~Get closer and press ~y~{1}~w~ to ~g~recover~w~ it.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You ~g~recovered~w~ the intel: ~o~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[The ~o~{0}~w~ was successfully recovered from the ~b~SWAT Raid~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Suitcase]]></OTHER>
+		<OTHER><![CDATA[Pile of Cash]]></OTHER>
+		<OTHER><![CDATA[Crate of Weapons]]></OTHER>
+		<OTHER><![CDATA[Weed]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Good, you’re here. We’ve got a high-risk search of this location. Our priority is recovering contraband and sensitive intel.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. Secure the evidence first?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Officer: ~w~Exactly. We are looking for one of the following: a crate of weapons, suitcase, pile of cash or some weed. They've been used in recent crimes.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Got it. We’re moving in quiet or fast?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~Officer: ~w~Quiet approach would be ideal. Once inside, we secure and sweep the area.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy that.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~SWAT Lead: ~w~I’ve got four officers on my team. Do you want an extra two riding with you?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Remember — intel is the target. Suspects are expendable, the data isn’t.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Mount up! Once we breach, keep eyes peeled and secure the evidence quickly!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Alright, listen up as we roll in. This raid is about recovering critical evidence.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~The evidence is hidden somewhere inside the target area. Expect suspects guarding it closely.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~This can be done without firing a shot. Watch their patrols, find weak spots, and slip through where you can.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~If you’re spotted, be ready for a fight — but stealth will make this a whole lot cleaner.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~The intel ties directly to a high-profile criminal case. Once you secure it, your next move is taking it straight to the nearest police station.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Good luck, officer. Bring it home and keep yourself in one piece.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~We've secured the intel! Safely return it to the nearest Police Station for forensic recovery.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Gang Leadership Capture
+    <FURTHERINFORMATION><![CDATA[~y~Locate~w~ & ~y~arrest~w~ both gang leaders.~n~Targets: ~r~{0} & {1}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[The ~o~gang leader(s)~w~ were ~g~arrested~w~. ~n~Transport them to the nearest ~y~jail~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Both ~o~gang leaders~w~ were ~r~killed~w~. ~n~Secure the scene and press ~y~{0}~w~ to END the callout.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[1 ~o~gang leader~w~ is ~g~in custody~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[2 ~o~gang leaders~w~ are ~g~in custody~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Take the ~o~gang leader(s)~w~ to ~b~custody~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Listen up. This is bigger than usual. We’ve intercepted intel—two rival gang leaders are meeting here today.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Both of them? Sounds like a rare chance.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~Officer: ~w~Exactly. The suspects are known criminals, with a history of violence, are expected to be armed, and are designated extremely dangerous.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy. The plan is to take them alive, right?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Correct. Priority is getting both leaders into custody. My team of four is in my vehicle, you move in yours. Stay sharp.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood.]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~g~SWAT Lead: ~w~I can assign you an additional two officers if you want them riding with you.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Remember - bringing the leaders in alive is the objective. Their bodyguards don’t matter. We’ll handle the cover.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Alright, let’s roll. I’ll update you with more intel as we close in.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~We’re closing in, let me fill you in on what to expect.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~The site will have multiple armed associates guarding the leaders. A gunfight is likely, but not guaranteed.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~If you can, use stealth or intimidation to your advantage—rushing in will get messy fast.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Both leaders must be identified and taken down alive. They'll be possessing some serious firepower.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~Once secured, transport the leaders to the nearest police station for holding.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cheerful"><![CDATA[~g~SWAT Lead: ~w~Good luck out there—we want you and those leaders back breathing.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="serious"><![CDATA[~g~SWAT Lead: ~w~We are securing targets. My team will hold the perimeter while you transport them to custody.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~g~SWAT Lead: ~w~Negative—we’ve lost both leaders. We needed both of them alive. This will not look good.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~y~Press~w~ ~g~{0}~w~ to enter combat and begin the raid now.~n~~o~Hold~w~ ~g~{0}~w~ for the SWAT team to follow you instead.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Come on team! Let's get into position!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~b~Officer: ~w~M'am, what would you like us to do?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~b~Officer: ~w~Sir, what would you like us to do?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~Team, we're going to begin the raid! Apprehend the criminals!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~Officer: ~w~My team will follow you! We'll only engage the enemy when you tell us to.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[A ~o~suspicious vehicle~w~ has been reported nearby. Prepare for ~y~possible contact~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[A ~o~suspicious helicopter~w~ has been reported nearby. Prepare for ~y~possible contact~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[You spotted a ~r~bomb.~n~~w~Get closer and press ~y~{0}~w~ to ~g~try defusing~w~ it.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You ~g~defused the bomb~w~. It is now ~o~disarmed~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You ~o~failed to defuse~w~ the bomb. It may ~r~explode at anytime~w~. Stay clear of it!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A ~r~bomb~w~ has just ~o~detonated~w~ on the site of the ~b~SWAT Raid~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[A ~r~sniper~w~ has been detected nearby!~n~Use ~y~cover~w~ to protect yourself.]]></NOTIFICATION>
+	</EXTRA>
+</CALLOUT>
