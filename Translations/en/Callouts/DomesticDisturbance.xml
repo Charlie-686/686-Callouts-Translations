@@ -1,6 +1,4 @@
 <!-- This callout is only available via Early Access https://ko-fi.com/686 -->
-
-<?xml version="1.0" encoding="utf-8"?>
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Domestic Disturbance]]></CALLOUTMESSAGE>
@@ -232,3 +230,4 @@
 		</DIALOGUES>
 	</OUTCOME>
 </CALLOUT>
+
