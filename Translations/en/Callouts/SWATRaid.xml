@@ -7,11 +7,12 @@
 		<NOTIFICATION><![CDATA[~y~Press~w~ ~g~{0}~w~ for no further SWAT officers.~n~~o~Hold~w~ ~g~{0}~w~ for 2 further SWAT officers.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[You received ~b~no extra SWAT officers~w~ for the raid.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[You received ~b~2 extra SWAT officers~w~ for the raid. They're in your vehicle.]]></NOTIFICATION>
-		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to switch the ~b~SWAT Team~w~ between ~o~COMBAT~w~ and ~g~FOLLOW~w~ mode.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Press ~y~{0}~w~ to switch the ~b~SWAT Team~w~ between ~o~COMBAT~w~, ~g~FOLLOW~w~ and ~y~HOLD~w~ mode.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~b~SWAT Team Mode:~w~ ~o~COMBAT~w~ ]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[~b~SWAT Team Mode:~w~ ~g~FOLLOW~w~ ]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Objective ~g~succeeded~w~.~n~{0}]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[Objective ~r~failed~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~SWAT Team Mode:~w~ ~y~HOLD~w~ ]]></NOTIFICATION>
 	</GENERAL>
 	<OUTCOME> // High-Value Arrest Target
 		<FURTHERINFORMATION><![CDATA[~y~Locate~w~ & ~y~arrest~w~ the high-value target.~n~Target: ~r~{0}]]></FURTHERINFORMATION>
@@ -167,5 +168,4 @@
 	<EXTRA>
 		<NOTIFICATION><![CDATA[A ~r~sniper~w~ has been detected nearby!~n~Use ~y~cover~w~ to protect yourself.]]></NOTIFICATION>
 	</EXTRA>
-
 </CALLOUT>
