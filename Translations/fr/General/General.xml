@@ -18,6 +18,7 @@
 		<AUDIOFOLDER><![CDATA[Dossier Audio]]></AUDIOFOLDER>
 		<AUDIOFILES><![CDATA[Fichiers Audio]]></AUDIOFILES>
 		<TRANSLATIONSFOLDER><![CDATA[Dossier des Traductions]]></TRANSLATIONSFOLDER>
+		<DATAFOLDER><![CDATA[Dossier de données]]></DATAFOLDER>
 	</DEPENDENCYCHECK>
 	
 	/// Notifications liées aux statistiques de carrière.
