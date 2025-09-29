@@ -41,7 +41,7 @@
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Да, я люблююю гулять по улице.]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Да, я люблююю гулять по улице.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Вы:~w~ Могу я узнать ваше имя, пожалуйста?]]></DIALOGUE>
-			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ладно... моё имя Яспер Моглот]]></DIALOGUE>
+			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Ладно... моё имя Матье Бал]]></DIALOGUE>
 			<DIALOGUE TARGET = "F"><![CDATA[~r~Подозреваемая:~w~ Ладно... моё имя Головач Лена]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Вы:~w~ Хватит шуток, мне нужно твое настоящее имя.]]></DIALOGUE>
 			<DIALOGUE TARGET = "M"><![CDATA[~r~Подозреваемый:~w~ Дай-ка я попробую вспомнить...Я думаю, {0}.]]></DIALOGUE>
