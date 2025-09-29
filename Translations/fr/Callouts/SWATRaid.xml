@@ -1,0 +1,171 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Assaut du SWAT]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Rejoignez l’équipe du SWAT au point de rendez-vous désigné pour coordonner l’assaut.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Conduisez avec l’~b~équipe SWAT~w~ jusqu’à l’endroit discret près de la zone de l’assaut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Appuyez~w~ sur ~g~{0}~w~ pour ne recevoir ~o~aucun renfort SWAT supplémentaire.~n~~o~Maintenez~w~ ~g~{0}~w~ pour obtenir 2 renforts SWAT supplémentaires.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous n’avez reçu ~b~aucun renfort SWAT~w~ pour l’assaut.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez reçu ~b~2 renforts SWAT~w~ pour l’assaut. Ils sont dans votre véhicule.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour changer le mode de l’~b~équipe SWAT~w~ entre ~o~COMBAT~w~, ~g~SUIVRE~w~ et ~y~MAINTENIR~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode de l’équipe SWAT :~w~ ~o~COMBAT~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode de l’équipe SWAT :~w~ ~g~SUIVRE~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Objectif ~g~réussi~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Objectif ~r~échoué~w~.~n~{0}]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Mode de l’équipe SWAT :~w~ ~y~MAINTENIR~w~ ]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME> // Arrestation d'une cible de grande valeur
+		<FURTHERINFORMATION><![CDATA[~y~Localisez~w~ et ~y~arrêtez~w~ la cible de grande valeur.~n~Cible : ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[La ~o~cible de grande valeur~w~ a été ~g~arrêtée~w~. ~n~Amenez-la à la ~y~prison~w~ la plus proche.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La ~o~cible de grande valeur~w~ a été ~r~tuée~w~. ~n~Sécurisez la scène et appuyez sur ~y~{0}~w~ pour TERMINER l’intervention.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[La ~o~cible de grande valeur~w~ est ~g~en garde à vue~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Amenez la ~o~cible de grande valeur~w~ en ~b~détention~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Bien, vous êtes là. Aujourd’hui, on a une cible de grande valeur. Capturez-la vivante.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. L’arrêter ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Officier : ~w~Oui. Nous donnerons plus de détails en route. C’est un individu dangereux, extrêmement violent.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~On s’arrête à proximité et on continue à pied ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Officier : ~w~Exactement. Mon équipe de quatre est dans mon véhicule, vous avancez dans le vôtre. Restez vigilant pendant le déplacement.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Entendu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Chef SWAT : ~w~J’ai quatre officiers, voulez-vous deux supplémentaires dans votre véhicule ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Souvenez-vous, la cible doit rester en vie. Les autres, ce n’est pas important. Mes hommes couvriront l’extraction.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~En avant ! Gardez la radio ouverte, je donnerai plus de détails sur l’assaut pendant qu’on roule.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Hé ! Laissez-moi vous donner plus de détails à l’approche du site de l’assaut.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~À votre arrivée, il y aura plusieurs individus sur place. Ils seront armés, mais ça ne signifie pas forcément qu’il y aura un échange de tirs.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Vous pourrez passer discrètement ou les amener à se rendre, tant qu’ils ne vous voient pas en premier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Votre objectif est d’arrêter la cible de grande valeur. Nous ne savons pas exactement laquelle c’est – mais vous devriez pouvoir l’identifier, sauf si tout dégénère en fusillade.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Une fois la cible arrêtée, conduisez-la au poste de police le plus proche.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Bonne chance, agent. On veut vous revoir entier.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~La cible est sécurisée. Mon équipe restera sur place pendant que vous l’emmenez en détention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~g~Chef SWAT : ~w~Cible abattue. Vous avez échoué à la mettre en garde à vue.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Otage
+		<FURTHERINFORMATION><![CDATA[~y~Localisez~w~ et ~g~sauvez~w~ l’otage.~n~Otage : ~r~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Appuyez sur ~y~{0}~w~ pour que l’~g~otage~w~ vous suive.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L’~g~otage~w~ vous ~y~suit désormais~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L’~g~otage~w~ a été ~r~tué~w~. ~n~Sécurisez la scène et appuyez sur ~y~{0}~w~ pour TERMINER l’intervention.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L’~g~otage~w~ est désormais en sécurité au ~b~poste de police~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Conduisez l’~g~otage~w~ en sécurité jusqu’au ~b~poste de police~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Bien, vous êtes là. Nous avons une prise d’otage en cours. Notre priorité est de sauver l’otage vivant.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. L’extraire en sécurité ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Officier : ~w~Exactement. Les suspects sont armés et imprévisibles — ne leur laissez aucune chance de blesser l’otage.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~On s’arrête à proximité et on avance à pied ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Officier : ~w~Correct. Nous allons nous garer un peu plus loin et progresser prudemment. La discrétion est essentielle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Entendu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Chef SWAT : ~w~J’ai quatre officiers, voulez-vous deux supplémentaires dans votre véhicule ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Souvenez-vous — la vie de l’otage passe avant tout. Neutralisez les suspects si nécessaire, mais l’otage doit survivre.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~En avant ! Restez attentif et gardez la radio ouverte, je vous donnerai plus d’infos en route.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Hé ! Laissez-moi vous briefer à l’approche du site de sauvetage.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~À votre arrivée, attendez-vous à plusieurs gardes armés sur la propriété. Ils surveilleront l’otage.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Vous aurez le choix d’entrer discrètement ou de forcer — mais assurez-vous qu’ils ne vous repèrent pas en premier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Une fois auprès de l’otage, faites-le vous suivre et escortez-le dehors en sécurité. Si ça tourne mal, les suspects pourraient tenter de lui faire du mal.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Amenez l’otage directement au poste de police le plus proche une fois qu’il est en sécurité. C’est votre priorité absolue.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Bonne chance agent. Assurons-nous que vous et l’otage sortiez vivants.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Zone sécurisée. Sortez l’otage d’ici et emmenez-le au poste.]]></DIALOGUE>
+			<DIALOGUE EMOTION="criant"><![CDATA[~g~Chef SWAT : ~w~OTAGE ABATTU ! JE RÉPÈTE, OTAGE ABATTU !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> <!-- Récupération de renseignements -->
+		<FURTHERINFORMATION><![CDATA[~y~Localisez~w~ et ~g~récupérez~w~ les renseignements.~n~Objet : ~o~{0}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Amenez l’~o~{0}~w~ au ~b~poste de police~w~ le plus proche pour une analyse médico-légale.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez repéré les renseignements : ~o~{0}~n~~w~Approchez-vous et appuyez sur ~y~{1}~w~ pour les ~g~récupérer~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~g~récupéré~w~ les renseignements : ~o~{0}~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[L’~o~{0}~w~ a été récupéré avec succès lors de l’~b~assaut SWAT~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Valise]]></OTHER>
+		<OTHER><![CDATA[Tas d’argent]]></OTHER>
+		<OTHER><![CDATA[Caisse d’armes]]></OTHER>
+		<OTHER><![CDATA[Herbe]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Bien, vous êtes là. Nous avons une fouille à haut risque à effectuer. Notre priorité est de récupérer de la contrebande et des renseignements sensibles.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Sécuriser les preuves en priorité ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Officier : ~w~Exactement. Nous cherchons l’un des éléments suivants : une caisse d’armes, une valise, un tas d’argent ou de l’herbe. Ils ont été utilisés dans des crimes récents.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Reçu. On avance discrètement ou rapidement ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Officier : ~w~L’approche discrète est idéale. Une fois à l’intérieur, on sécurise et on fouille la zone.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Bien compris.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Chef SWAT : ~w~J’ai quatre officiers dans mon équipe. Voulez-vous deux renforts supplémentaires avec vous ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Souvenez-vous — les renseignements sont la cible. Les suspects sont négligeables, les données ne le sont pas.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~En place ! Une fois la brèche ouverte, restez attentif et sécurisez les preuves rapidement !]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~D’accord, écoutez-moi bien pendant qu’on approche. Cet assaut vise à récupérer des preuves essentielles.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Les preuves sont cachées quelque part dans la zone ciblée. Attendez-vous à ce que des suspects les gardent de près.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~On peut réussir sans tirer un coup de feu. Observez leurs rondes, trouvez les failles et infiltrez-vous discrètement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Si vous êtes repéré, préparez-vous à un combat — mais la discrétion rendra l’opération beaucoup plus propre.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Ces renseignements sont liés à une affaire criminelle de haut niveau. Une fois récupérés, votre mission est de les amener directement au poste le plus proche.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Bonne chance agent. Ramenez-les et restez entier.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Nous avons sécurisé les renseignements ! Ramenez-les au poste de police le plus proche pour une analyse médico-légale.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME> // Capture des chefs de gang
+		<FURTHERINFORMATION><![CDATA[~y~Localisez~w~ et ~y~arrêtez~w~ les deux chefs de gang.~n~Cibles : ~r~{0} & {1}]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Les ~o~chefs de gang~w~ ont été ~g~arrêtés~w~. ~n~Transportez-les jusqu’à la ~y~prison~w~ la plus proche.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Les deux ~o~chefs de gang~w~ ont été ~r~tués~w~. ~n~Sécurisez la zone et appuyez sur ~y~{0}~w~ pour ~r~terminer~w~ l’intervention.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Un ~o~chef de gang~w~ est ~g~sous garde~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Les deux ~o~chefs de gang~w~ sont ~g~sous garde~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Amenez le(s) ~o~chef(s) de gang~w~ en ~b~détention~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Écoutez bien. Cette fois, c’est du lourd. Nous avons intercepté des renseignements — deux chefs de gangs rivaux se rencontrent aujourd’hui ici.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Les deux en même temps ? Ça ressemble à une occasion rare.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Officier : ~w~Exactement. Les suspects sont des criminels connus, violents, attendus armés, et classés extrêmement dangereux.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Compris. Le plan est de les capturer vivants, c’est bien ça ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Correct. La priorité est de mettre les deux chefs en détention. Mon équipe de quatre est dans mon véhicule, vous avancez dans le vôtre. Restez vigilant.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Bien reçu.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concentré"><![CDATA[~g~Chef SWAT : ~w~Je peux vous assigner deux officiers supplémentaires si vous souhaitez les avoir avec vous.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Souvenez-vous — ramener les chefs vivants est l’objectif. Leurs gardes du corps importent peu. Nous assurerons la couverture.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~En avant ! Je vous donnerai plus de détails en approchant.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~On se rapproche, laissez-moi vous briefer sur ce qui vous attend.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Le site sera surveillé par plusieurs associés armés protégeant les chefs. Un échange de tirs est probable, mais pas certain.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Si vous le pouvez, utilisez la discrétion ou l’intimidation à votre avantage — foncer tête baissée sera un vrai carnage.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Les deux chefs doivent être identifiés et capturés vivants. Ils disposeront probablement d’un armement lourd.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Une fois capturés, transportez-les directement au poste de police le plus proche pour les placer en détention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enjoué"><![CDATA[~g~Chef SWAT : ~w~Bonne chance — on veut vous revoir, et avec les chefs encore en vie.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~g~Chef SWAT : ~w~Nous sécurisons les cibles. Mon équipe tiendra le périmètre pendant que vous les transportez en détention.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~g~Chef SWAT : ~w~Négatif — nous avons perdu les deux chefs. Nous devions les avoir vivants. Ça va mal passer.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~y~Appuyez~w~ sur ~g~{0}~w~ pour entrer en combat et commencer l’assaut maintenant.~n~~o~Maintenez~w~ ~g~{0}~w~ pour que l’équipe SWAT vous suive à la place.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Officier : ~w~Allez l’équipe ! Mettons-nous en position !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="sérieux"><![CDATA[~b~Officier : ~w~Madame, que souhaitez-vous que nous fassions ?]]></DIALOGUE>
+			<DIALOGUE PLAYER="M" EMOTION="sérieux"><![CDATA[~b~Officier : ~w~Monsieur, que souhaitez-vous que nous fassions ?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Officier : ~w~Équipe, on commence l’assaut ! Arrêtez les criminels !]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~b~Officier : ~w~Mon équipe vous suivra ! Nous n’engagerons l’ennemi que sur votre ordre.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Un ~o~véhicule suspect~w~ a été signalé à proximité. Préparez-vous à un ~y~possible contact~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Un ~o~hélicoptère suspect~w~ a été signalé à proximité. Préparez-vous à un ~y~possible contact~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Vous avez repéré une ~r~bombe.~n~~w~Approchez-vous et appuyez sur ~y~{0}~w~ pour tenter de la ~g~désamorcer~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~g~désamorcé la bombe~w~. Elle est maintenant ~o~neutralisée~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Vous avez ~o~échoué à désamorcer~w~ la bombe. Elle peut ~r~exploser à tout moment~w~. Éloignez-vous !]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Une ~r~bombe~w~ vient d’~o~exploser~w~ sur le site de l’~b~assaut SWAT~w~.]]></NOTIFICATION>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Un ~r~sniper~w~ a été détecté à proximité !~n~Utilisez les ~y~couvertures~w~ pour vous protéger.]]></NOTIFICATION>
+	</EXTRA>
+</CALLOUT>

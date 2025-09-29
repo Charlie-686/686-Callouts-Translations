@@ -1,0 +1,117 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Opération coup de filet]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Un agent mène une opération coup de filet sur le ~r~trafic illégal d’armes à feu~w~. Conduisez jusqu’au ~y~lieu de rendez-vous~w~ et parlez-lui.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Conduisez l’~y~informateur~w~ jusqu’à l’~r~armurerie~w~ et garez-vous à proximité.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Quand vous êtes ~o~garé discrètement devant le magasin~w~, appuyez sur ~y~{0}~w~ pour commencer l’opération coup de filet.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Entrez dans ~r~Ammunation~w~ et arrêtez le vendeur pour ~r~trafic illégal d’armes~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Vendeur : ~w~C’est toi que Terry a envoyé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="décontracté"><![CDATA[~b~Informateur : ~w~Ouais. Il a dit que tu saurais pourquoi je suis là.]]></DIALOGUE>
+			<DIALOGUE EMOTION="méfiant"><![CDATA[~r~Vendeur : ~w~Ça dépend. Tu cherches de la défense maison, ou… quelque chose d’un peu plus bruyant ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="silencieux"><![CDATA[~b~Informateur : ~w~Un truc qui s’enraye pas quand ça compte. Tu me comprends ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~r~Vendeur : ~w~J’ai exactement ce qu’il faut. Pas de papiers, canon propre. T’as l’argent ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~b~Informateur : ~w~Tout est là. Comme on avait dit.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Vendeur : ~w~Très bien. Laisse-moi l’emballer. Ne dégaine pas ce truc avant d’être sorti d’ici.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~b~Informateur : ~w~T’inquiète. On a fini ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~r~Vendeur : ~w~C’est fini. Maintenant dégage.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~y~Informateur :~w~ Voilà, comme promis. Pas de numéros de série, c’était juste dans ce sac.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ Il me l’a donnée sans difficulté. Je lui ai dit que Terry m’envoyait, comme on avait répété. Il a demandé si je voulais de la “défense maison ou quelque chose de plus bruyant.”]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~y~Informateur :~w~ J’ai répondu que je voulais quelque chose de fiable — qui ne s’enraye pas. C’est là qu’il m’a proposé ça.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ Aucun papier n’a été mentionné… Il a dit “canon propre, pas de papiers.” Il a demandé l’argent, je le lui ai donné, et il m’a dit de partir discrètement.]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~y~Informateur :~w~ Une dernière chose avant que tu entres — il a un fusil à pompe planqué en bas derrière le comptoir, côté gauche. Il pourrait paniquer.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~y~Informateur :~w~ Voilà, comme promis. Pas de numéros de série, c’était juste dans ce sac.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ Mais voilà le problème — j’ai déjà vu ça. Je suis presque sûr que c’est l’arme utilisée dans la fusillade d’East Vinewood le mois dernier.]]></DIALOGUE>
+			<DIALOGUE EMOTION="inquiet"><![CDATA[~y~Informateur :~w~ La même rayure sur le côté, la même mire arrière manquante. Je m’en souviens parce que la photo de la scène de crime a circulé.]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~y~Informateur :~w~ Si c’est bien ce que je pense, il détient une pièce à conviction — et soit il ne le sait pas, soit il fait semblant. Dans tous les cas, ça devient très sérieux.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~y~Informateur :~w~ Tu devrais entrer et l’arrêter, mais fais vraiment attention. Ça peut mal tourner.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~y~Informateur :~w~ Tiens, comme il a dit. Pas de numéros de série, impossible à tracer, exactement comme il l’a promis. Directement sous le comptoir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~y~Informateur :~w~ Il n’a pas posé beaucoup de questions. A pris l’argent, m’a donné ça dans un sac discret.]]></DIALOGUE>
+			<DIALOGUE EMOTION="mal à l’aise"><![CDATA[~y~Informateur :~w~ Mais il jetait sans arrêt des coups d’œil vers la fenêtre. J’ai pensé qu’il était juste parano.]]></DIALOGUE>
+			<DIALOGUE EMOTION="choqué"><![CDATA[~y~Informateur :~w~ — Attends, attends. Hé—il s’enfuit ! Le vendeur, il sort en courant !]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Informateur :~w~ Il a dû se douter de quelque chose ou voir un détail qui lui a pas plu. Tu dois bouger — il reste pas là !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Vendeur : ~w~C’est toi que Terry a envoyé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="décontracté"><![CDATA[~b~Informateur : ~w~Ouais. Il a dit que tu pouvais m’arranger… quelque chose hors registres.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soupçonneux"><![CDATA[~r~Vendeur : ~w~On a un catalogue, permis, vérifications d’antécédents. C’est de ça que tu parles ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informateur : ~w~Non, je suis pas là pour la paperasse. J’ai besoin de vrai matos, sans questions.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sur la défensive"><![CDATA[~r~Vendeur : ~w~Sans questions ? T’es sûr que t’es au bon endroit, mon gars ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="insistant"><![CDATA[~b~Informateur : ~w~Allez, mec. Terry a dit que t’avais accès. Full auto, pas de numéros, stock propre. Je peux payer cash maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="en colère"><![CDATA[~r~Vendeur : ~w~Terry parle trop. Dégage. Et reviens jamais.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tendu"><![CDATA[~b~Informateur : ~w~Ok, ok. Pas de problème. Je m’en vais.]]></DIALOGUE>
+			<DIALOGUE EMOTION="en colère"><![CDATA[~r~Vendeur : ~w~T’as intérêt. Ne me teste pas.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="plein de regrets"><![CDATA[~y~Informateur :~w~ Raté. Il a fermé la porte dès que je suis entré dans les détails.]]></DIALOGUE>
+			<DIALOGUE EMOTION="honteux"><![CDATA[~y~Informateur :~w~ J’ai cru qu’en montrant que j’étais sérieux, il mordrait à l’hameçon. Mais au contraire, il s’est braqué direct.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ J’ai demandé du full auto, sans numéros… j’ai dit que j’avais l’argent. Il m’a dit de sortir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Informateur :~w~ J’ai insisté trop fort. C’est ma faute. Je pensais conclure vite, mais j’ai gâché l’opération. Désolé.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Informateur :~w~ Il n’y a rien à exploiter — on n’a aucune preuve. Désolé que ça ait échoué. Parfois ça arrive.]]></DIALOGUE>
+			<DIALOGUE EMOTION="désolé"><![CDATA[~y~Informateur :~w~ Bon… je descends ici. Tu devrais retourner en patrouille — ce filon est mort.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutre"><![CDATA[~r~Vendeur : ~w~C’est toi que Terry a envoyé ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="décontracté"><![CDATA[~b~Informateur : ~w~Ouais. Il a dit que tu pouvais m’arranger… quelque chose hors registres.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soupçonneux"><![CDATA[~r~Vendeur : ~w~On a un catalogue, permis, vérifications d’antécédents. C’est ça que tu cherches ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~Informateur : ~w~Non. Je veux pas remplir de papiers. Il me faut quelque chose de propre, intraçable.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicieux"><![CDATA[~r~Vendeur : ~w~T’es flic ou quoi ? Parce que ça ressemble à un piège.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~b~Informateur : ~w~J’ai l’air d’un flic ? Terry se porte garant. J’ai le cash. C’est tout ce qui compte.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sur la défensive"><![CDATA[~r~Vendeur : ~w~Ouais ? Eh bien Terry cause trop. Le dernier qu’il a envoyé m’a attiré des ennuis.]]></DIALOGUE>
+			<DIALOGUE EMOTION="rassurant"><![CDATA[~b~Informateur : ~w~Pas moi. Je fais l’achat et je disparais. Full auto, pas de numéros, stock propre. Voilà l’accord.]]></DIALOGUE>
+			<DIALOGUE EMOTION="incertain"><![CDATA[~r~Vendeur : ~w~Tu sais vraiment ce que tu demandes ? Ce genre de truc, ça tombe pas du camion.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ferme"><![CDATA[~b~Informateur : ~w~Je sais exactement ce que je veux. J’ai l’argent. Dis oui ou non.]]></DIALOGUE>
+			<DIALOGUE EMOTION="soupçonneux"><![CDATA[~r~Vendeur : ~w~…Peut-être. Tout dépend de qui regarde aujourd’hui. T’es venu seul ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~b~Informateur : ~w~Pas de filature. Pas de micros. Juste moi et le cash.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agacé"><![CDATA[~r~Vendeur : ~w~D’accord. Attends ici. Je vais voir derrière.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="en colère"><![CDATA[~r~Membre de gang 1 : ~w~Yo ! Tu pensais qu’on saurait pas que t’avais vendu au crew de Big Ray ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sur la défensive"><![CDATA[~r~Vendeur : ~w~Je vois pas de quoi tu parles.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agressif"><![CDATA[~r~Membre de gang 2 : ~w~Arrête ton cinéma. T’as refilé des caisses la semaine dernière. Maintenant ils fanfaronnent comme s’ils possédaient le quartier. C’est ta faute !]]></DIALOGUE>
+			<DIALOGUE EMOTION="en colère"><![CDATA[~r~Membre de gang 1 : ~w~On était des clients fidèles. Et maintenant tu fais affaire avec l’ennemi — devant nous en plus ? Un manque de respect total.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~r~Vendeur : ~w~Écoutez—les affaires sont les affaires. Je prends pas parti.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furieux"><![CDATA[~r~Membre de gang 2 : ~w~Mauvaise réponse, connard. Tu viens de choisir ton camp là.]]></DIALOGUE>
+			<DIALOGUE EMOTION="paniqué"><![CDATA[~r~Vendeur : ~w~Hé ! Non—faites pas de conneries !]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="apeuré"><![CDATA[~y~Informateur :~w~ Je veux pas mourir ici !]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="excité"><![CDATA[~y~Officier :~w~ Merci d’être venu monsieur — parlons de la façon dont on peut démanteler le trafic illégal d’armes à feu !]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="excité"><![CDATA[~y~Officier :~w~ Merci d’être venue madame — parlons de la façon dont on peut démanteler le trafic illégal d’armes à feu !]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Officier :~w~ Nous enquêtons sur de nombreuses armes illégales utilisées récemment, et nous pensons enfin les coincer — il ne nous manque que la preuve.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Officier :~w~ Notre enquête a ciblé une armurerie proche. Toute leur paperasse est en règle, mais des fusillades récentes remontent jusqu’ici.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Officier :~w~ Et la source de toutes ces armes ? Ce magasin. Nos équipes de police scientifique sont excellentes dans leur travail.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ Je suis l’informateur, et ensemble nous allons nous rendre au magasin. On est prêts depuis longtemps pour ce moment.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Officier :~w~ Je dois retourner en patrouille maintenant — conduis l’informateur au magasin, il t’expliquera tout en route.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Ça marche. Monte dans ma voiture, on lance l’opération !]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ D’accord, voilà comment ça va se passer. Je rentre, je demande un “pièce propre”. Rien de traçable.]]></DIALOGUE>
+			<DIALOGUE EMOTION="prudent"><![CDATA[~y~Informateur :~w~ Tu devrais rester en arrière — attends dans la voiture, moteur allumé, mais essaie de rester hors de vue.]]></DIALOGUE>
+			<DIALOGUE EMOTION="instructif"><![CDATA[~y~Informateur :~w~ Si tu peux entendre à travers la porte, tant mieux. Mais fais pas le malin. Ces types flippent vite.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sérieux"><![CDATA[~y~Informateur :~w~ Une fois la transaction faite, je sors comme si de rien n’était et je retourne dans ta voiture.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nerveux"><![CDATA[~y~Informateur :~w~ Espérons juste qu’ils flairent pas un piège. La dernière fois que quelqu’un a joué au plus malin là-dedans, il n’est pas ressorti vivant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~y~Informateur :~w~ Si tout se passe bien, on s’arrête au magasin, je descends, je fais le deal, je reviens dans la voiture — ensuite on discute des prochaines étapes. Ça marche ?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutre"><![CDATA[~y~Informateur :~w~ Cela dit, si ça tourne mal, qu’ils se doutent de quelque chose ou qu’on ait des invités surprises, j’aurai besoin que tu m’épaules.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calme"><![CDATA[~y~Informateur :~w~ J’ai déjà fait pire. Mais j’aimerais bien sortir de celle-là sans trous dans la peau. Ne foirons pas ça.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
