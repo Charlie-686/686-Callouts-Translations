@@ -5,11 +5,11 @@
 		<NOTIFICATION><![CDATA[On pense que le suspect est ~y~]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[à pied~w~.]]></NOTIFICATION>
 		<NOTIFICATION><![CDATA[dans un véhicule~w~.]]></NOTIFICATION>
-		<OTHER><![CDATA[Téléphone portable]]></OTHER>
-		<OTHER><![CDATA[Ordinateur portable]]></OTHER>
-		<OTHER><![CDATA[Portefeuille]]></OTHER>
-		<OTHER><![CDATA[Clé de maison]]></OTHER>
-		<OTHER><![CDATA[Appareil photo]]></OTHER>
+		<OTHER><![CDATA[téléphone portable]]></OTHER>
+		<OTHER><![CDATA[ordinateur portable]]></OTHER>
+		<OTHER><![CDATA[portefeuille]]></OTHER>
+		<OTHER><![CDATA[trousseau de clés]]></OTHER>
+		<OTHER><![CDATA[appareil photo]]></OTHER>
 	</GENERAL>
 	<OUTCOME0>
 	</OUTCOME0>
@@ -17,16 +17,16 @@
 		<NOTIFICATION><![CDATA[secoué(e)]]></NOTIFICATION>
 		<DIALOGUES>
 			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Qu'est-ce que vous me voulez ?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Vous : ~w~Nous avons été informés d'un vol et nous devons vous fouiller.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Nous avons été informés d'un vol et nous devons procéder à une fouille.]]></DIALOGUE>
 			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ N'importe quoi ! Vous n'avez aucune preuve et je ne répondrai à aucune de vos questions !]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Vous :~w~ Je suis ici pour faire respecter la loi. Notre traceur indique qu'un(e) {0} est ici et sur vous.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Je suis ici pour faire respecter la loi. Notre traceur indique qu'un {0} volé est ici et sur vous.]]></DIALOGUE>
 			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Mensonges ! La technologie se trompe tout le temps de nos jours de toute façon !]]></DIALOGUE>
 		</DIALOGUES>
 	</OUTCOME1>
 	<OUTCOME2>
 		<DIALOGUES>
 			<DIALOGUE EMOTION="defensive"><![CDATA[~r~Suspect :~w~ Qu'est-ce que vous me voulez ?]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Vous : ~w~Nous pensons que vous avez un(e) {0} sur vous, je vais devoir vous fouiller s'il vous plaît.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous : ~w~Nous pensons que vous avez un {0} volé sur vous, je vais devoir vous fouiller.]]></DIALOGUE>
 			<DIALOGUE EMOTION="resignedly"><![CDATA[~r~Suspect :~w~ Vous m'avez eu, je me rends.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Très bien, levez les mains, je vais vous placer en détention.]]></DIALOGUE>
 		</DIALOGUES>
@@ -37,10 +37,10 @@
 			<DIALOGUE PLAYER="M" EMOTION="scared"><![CDATA[~y~Victime :~w~ Monsieur l'agent, aidez-moi, on m'a volé !]]></DIALOGUE>
 			<DIALOGUE PLAYER="F" EMOTION="scared"><![CDATA[~y~Victime :~w~ Madame l'agent, aidez-moi, on m'a volé !]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Pouvez-vous me donner des informations sur le suspect ?]]></DIALOGUE>
-			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~Victime :~w~ Pas vraiment, mais mon/ma {0} a un traceur GPS, ça pourrait enfin servir.]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~Victime :~w~ Pas vraiment, mais mon {0} a un traceur GPS, ça pourrait aider.]]></DIALOGUE>
 			<DIALOGUE><![CDATA[~b~Vous :~w~ Parfait, je vais envoyer ça au central pour qu'ils me connectent au dispositif de suivi.]]></DIALOGUE>
-			<DIALOGUE EMOTION="serious"><![CDATA[~y~Victime : ~w~Oui, j'espère que vous pourrez le/la retrouver, c'est important.]]></DIALOGUE>
-			<DIALOGUE><![CDATA[~b~Vous :~w~ Bien sûr, nous allons faire le nécessaire. Je vais essayer de le/la localiser maintenant.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Victime : ~w~Oui, j'espère que vous pourrez retrouver mon {0}, c'est important pour moi.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Vous :~w~ Bien sûr, nous allons faire le nécessaire pour le localiser rapidement.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
 </CALLOUT>
