@@ -19,3 +19,5 @@ The following callouts are early access only (as of the 10th July 2025):
 - Sting Operation
 - Traffic Stop Backup
 - Property Checkup
+- SWAT Raid
+- Structure Fire
