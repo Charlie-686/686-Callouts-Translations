@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Indivíduo Armado]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~O Suspeito está andando!~w~~n~Siga o caminho no seu mapa.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[Angustiado]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Mão na cabeça!! Mantenha as mãos na cabeça, não aproxime-as da cintura.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ O que eu fiz?? eu não fiz nada de errado!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Apenas me obedeça!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ O que está acontecendo? o que você está fazendo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Mãos pra cima! mãos pra cima!.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ Não! AFASTE-SE, AGORA!!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Algeme o suspeito e negocie com ele para entregar informações.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fique aí para mim e mantenha suas mãos onde eu possa vê-las.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ O que está acontecendo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Eu sei que você está com uma arma.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ Oh não... oh... não...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ O que foi?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ Por favor, me desculpe! Eu não queria...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Está tudo bem, podemos conversar sobre isso depois. Apenas siga minhas ordens.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Indivíduo:~w~ Eu nunca mais vou carregar isso comigo, não quero isso na minha ficha...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Está tudo bem, não estamos aqui para te machucar. MÃO NA CABEÇA!!!.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

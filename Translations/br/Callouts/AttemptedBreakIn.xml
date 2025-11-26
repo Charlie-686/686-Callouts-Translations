@@ -1,0 +1,83 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Roubo a residência]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um dono de casa efetuou uma ligação informando que ~y~tentaram roubar sua residência~w~. O suspeito fugiu do local.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Pressione ~y~{0}~w~ para coletar evidências.]]></OTHER>
+		<OTHER><![CDATA[Sucesso, item coletado. ~g~{0}~w~.]]></OTHER>
+		<OTHER><![CDATA[an ID card]]></OTHER>
+		<OTHER><![CDATA[Cartão de crédito]]></OTHER>
+		<OTHER><![CDATA[Tesouras de costura]]></OTHER>
+		<OTHER><![CDATA[Colar de Ouro]]></OTHER>
+		<OTHER><![CDATA[Sapato]]></OTHER>
+		<OTHER><![CDATA[Pé de Cabra]]></OTHER>
+		<OTHER><![CDATA[Celular Moderno]]></OTHER>
+		<OTHER><![CDATA[~y~Procure~w~ evidências da susposta invasão, no perímetro da casa. Quando finalizar, ~y~volte até o dono da residência e devolva seus pertences~w~.]]></OTHER>
+		<OTHER><![CDATA[~r~Gazua]]></OTHER>
+		<OTHER><![CDATA[~r~Luvas]]></OTHER>
+		<OTHER><![CDATA[~y~Máscara]]></OTHER>
+		<OTHER><![CDATA[~y~Touca Ninja]]></OTHER>
+		<OTHER><![CDATA[~r~Canivete]]></OTHER>
+		<OTHER><![CDATA[~r~Alavanca]]></OTHER>
+		<OTHER><![CDATA[~y~Binóculos]]></OTHER>
+		<OTHER><![CDATA[~r~Vibrador]]></OTHER>
+		<NOTIFICATION><![CDATA[Use a ~y~foto~w~ do suspeito e, ~y~Procure-o pela área~w~ para prender o ~r~suspeito~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Essa é uma ~y~foto~w~ do ~r~suspeito~w~.~n~Pressione ~y~Y~w~ para ver novamente~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Não há ~r~nenhuma prova~w~ aqui.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Encontramos algumas informações do suspeito ~y~{0}~w~ associadas ao ~r~{1}~w~. Solicito que consulte imediatamente mais informações do suspeito.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspeito's name. -->
+		<NOTIFICATION><![CDATA[Checando via COPOM informações sobre o ~r~{0}~w~. Aguarde.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você coletou ~y~{0}~w~/~g~{1}~w~ itens evidênticos.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você coletou ~g~{0}~w~/~g~{1}~w~ itens evidênticos.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Quando você ~y~prender~w~ o ~r~suspeito~w~, tome as devidas providências.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[O ~r~suspeito~w~ está fugindo!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[O ~r~suspeito~w~ está ~y~rendido~w~. Prenda-o e investigue.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Ajude me, Policial! Ajude me!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Você:~w~ Estou aqui senhor! O que aconteceu? me conte!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Você:~w~ Calma! calma! estou aqui! o que aconteceu? me diga!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Alguém tentou arrombar minha casa! Imediatamente quando ouvi, corri e me tranquei aqui no quarto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Certo!! calma! você viu algo a mais além de ouvir eles?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Eu não, mas ouvi muita movimentação do lado de fora da casa até Vocês chegarem. Não sei o que eles estavam fazendo!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Certo! provavelmente eles ja fugiram, mas iremos averiguar o perímetro da residência para garantir que tudo está em ordem.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fizemos a revista no perímetro, infelizmente não encontramos nada e, aparentemente, nada foi roubado.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Graças a Deus, mas e agora, o que devemos fazer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Recomendo ir a uma delegacia prestar queixa, para deixar registrado a situação.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ É muito provável que não irão voltar mais aqui, mas é bom se previnir e fazer o registro de ocorrência, Iremos fazer rondas na região para ajudar.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Uma das nossas equipes visualizaram individuos em atitude suspeita próximo ao seu endereço, iremos até o local averiguar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Ahh! que ótimo! Obrigado(a) senhores.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Por Favor, Policial! Eu ouvi alguém aqui fora, me ajude!!!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~Você:~w~ Fique calmo, senhor(a)! Estamos aqui! O que você ouviu?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~Você:~w~ Não fique com medo! Estamos aqui! o que você ouviu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Eu ouvi eles quebrando a janela!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Certo! você notou alguma atividade suspeita antes disso acontecer?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Não, não vi nada! Por favor, tome as providências, me ajude! estou com medo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fique calmo(a)! Iremos fazer a varredura na sua residência.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Infelizmente não encontramos nada! Nenhuma janela está quebrada e nada está fora do padrão.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ O que? Como assim?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Nós iremos ficar na região, caso precise, ligue 190 novamente. Como dito, está tudo sob-controle.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ No momento, iremos ficar na região em rondas, caso precise, nos ligue.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Boa notícia, aparentemente o individuo deixou seus documentos pessoais cairem, iremos atrás.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Nossa, isso é muito bom! Desejo boa sorte e que encontrem o responsável e punam para que não faça isso novamente.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

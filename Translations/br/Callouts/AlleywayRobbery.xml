@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Roubo a transeunte]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[O ~y~Suspeito do roubo~w~ está correndo na região do QTH. {0}. Faça rondas e prenda-o..]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[O ~y~Suspeito do roubo~w~ está correndo na região do QTH. {0}. Faça rondas e prenda-o..]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Stolen Goods]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[O ~y~Suspeito do roubo~w~ está correndo na região do QTH. {0} and the victim is ~r~reportedly at gunpoint~w~. Faça rondas e prenda-o..]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[O ~y~Suspeito do roubo~w~ está correndo na região do QTH. {0} Duas ligações foram feitas, informando que viram ele. Faça rondas e prenda-o..]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para ~g~pegar~w~ os itens roubados.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Recuperou um item roubado ~y~{0}~w~ como ~g~evidência~w~.]]></NOTIFICATION>
+		<OTHER><![CDATA[Bolsa]]></OTHER>
+		<OTHER><![CDATA[Sacola de Compras]]></OTHER>
+		<OTHER><![CDATA[Pizza]]></OTHER>
+		<OTHER><![CDATA[Notebook]]></OTHER>
+		<OTHER><![CDATA[Documento]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

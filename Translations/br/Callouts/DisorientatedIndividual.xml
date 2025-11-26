@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Indivíduo Desorientado]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Operadores de Câmera~w~ levantaram ~y~possíveis suspeitas~w~ em um indivíduo, aborde-o.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[Forte odor de álcool]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito: ~w~Splaaaa, bleugggghhhhh]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você: ~w~Olá, está tudo bem com o você?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você: ~w~Olá! Será que podemos conversar? Precisa de ajuda?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito: ~w~Siiiiiiiim, mas não quero.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você: ~w~Por favor, converse comigo! Tem alguém com Você?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito: ~w~Hmmm...quero nãoooo, valeuuuu...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ BLALALALALA! hora de ir emboraa! valeu policial!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+   			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Olá, graças a Deus você está aqui!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~ Olá, o que aconteceu?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Me perdi, não sou daqui, sabe? Não sei como voltar para casa.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Poxa, há alguém que possa vir te buscar?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, tem sim! Você pode me emprestar um telefone?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~ Sim. Se eles não puderem vir, podemos leva-lo até uma delegacia, é mais seguro.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ O que está acontecendo?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Nadaa... só tive uma festa incrível.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Entendi, e você está apenas vagando por aí?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Siiim, eu amooo estar ao ar livre.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Posso saber seu nome, por favor?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ok... meu nome é Ben Dover.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Sem piadas, quero seu nome verdadeiro.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Deixe-me tentar lembrar... acho que é {0}.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+ 		   <DIALOGUE><![CDATA[~b~Você: ~w~Olá, está tudo bem?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, sim, está tudo certo.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Entendo, recebemos relatos de uma pessoa desorientada na área.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ok, e isso é crime?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Não, só queríamos confirmar se você está bem.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Estou perfeitamente bem, mas agradeceria se me deixasse em paz.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Se você insiste, tudo bem, tenha um bom dia.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

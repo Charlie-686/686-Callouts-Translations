@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Evacuação de Transeunte]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para avisar ao transeunte que lhe siga.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~p~Transeunte~w~ agora irá ~g~seguir você~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Quando possível, ~o~Evacue o Transeunte~w~ para a estação 0!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~g~Transeunte foi resgatado!~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~r~Transeunte está morto.~w~ ~y~Prenda os inimigos restantes~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Aproxime-se do ~p~Transeunte~w~ para avisar que ~g~te siga~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Um ~r~helicóptero não identificado~w~ está entrando no espaço áereo próximo a você.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURORINFORMATION><![CDATA[O segurança do transeunte detalhou que ele está ~r~em risco~w~. Ajude a ~y~neutralizar as ameaças~w~ e espere por outras instruções.]]></FURORINFORMATION>
+		<NOTIFICATION><![CDATA[~g~Protect O Transeunte!~w~ Dispatch will provide more instructions once O scene is under control.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURORINFORMATION><![CDATA[O grupo de segurança de do Transeunte foi ~r~eliminado~w~. Resgate O Transeunte, que foi ~y~feito refém~w~.]]></FURORINFORMATION>
+		<NOTIFICATION><![CDATA[Tente ~y~se aproximar do Transeunte~w~ sem ~o~ser visto pelos bandidos armados~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Você foi visto~w~. ~g~Proteja O Transeunte~w~, que agora será ~o~alvo dos bandidos~w~.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

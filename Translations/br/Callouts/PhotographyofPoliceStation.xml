@@ -1,0 +1,62 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Suspeito Fotográfando em um Local Proíbido]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Uma pessoa está ~y~tirando fotos da estação~w~, converse com ela para descobrir o motivo.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. O que está acontecendo aqui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Nada. Absolutamente nada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Abaixe a câmera, quero conversar com você—]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ E aí, o que te trouxe até aqui?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não estou fazendo nada ilegal, por favor me deixe em paz.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Só estou tentando conversar para entender o que está acontecendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ E eu só estou fazendo coisas perfeitamente legais.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Gostaria apenas de conversar com você.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não tente infringir meus direitos de fotografia em propriedade pública.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, posso perguntar por que está tirando fotos da estação?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ É para meu canal nas redes sociais, tudo bem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ É legal, sim, só achei um pouco estranho fazer isso por tanto tempo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Entendo. Já terminei, então vou seguir meu caminho.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Valeu, obrigado.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[O número de telefone foi recebido e as investigações iniciais foram iniciadas. Obrigado.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, o que está fazendo tirando fotos da delegacia?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Quer mesmo saber?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Sim, por favor. Pode falar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sei que parece meio idiota dizer isso, mas alguém chamado Jeff me mandou uma mensagem pedindo pra eu fazer isso.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ É... pensando bem, foi uma atitude meio suspeita.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Acho que estamos pensando a mesma coisa. Pode me passar o número dele?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Acho melhor você ir pra casa agora e refletir sobre com quem anda se envolvendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, entendi. Desculpa pelo transtorno.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, o que está fazendo tirando fotos da delegacia?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Olá, oficial! Sou um grande fã dos serviços de emergência e do trabalho que vocês fazem. Estava apenas tirando algumas fotos da delegacia, tudo bem?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi, então isso é tipo um hobby, certo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Exatamente! Queria ser policial, mas como estou do lado de fora da delegacia, dá pra ver que não deu certo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Interessante ouvir isso. Só quis verificar o que estava acontecendo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Só posso pedir desculpas por tomar seu tempo, mas já terminei as fotos. Ficaram bem boas, se me permite dizer.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Sem problema algum. Espero que tenha um ótimo restante de dia.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Pois bem, estou indo. Quem sabe a gente se cruza de novo algum dia.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

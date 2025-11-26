@@ -1,0 +1,61 @@
+<GENERAL>
+	/// Notificações relacionadas à Verificação de Atualizações.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~Plugin Carregado ~w~, Bom serviço ao senhor(a) e a Equipe!]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~Você está usando uma versão antiga do mod!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~Carregado, Atualize o 686 Callouts quando possível!]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~Versão Beta detectada.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[Obrigado pelos testes e feedback]]></BETAVERSION>
+		<FAILED><![CDATA[~r~Falha ao verificar atualizações!]]></FAILED>
+		<FAILED><![CDATA[~y~Carregado, mas não conseguimos verificar as atualizações.]]></FAILED>
+	</UPDATECHECKER>
+	
+	/// Notificações relacionadas à Verificação de Dependências.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts está faltando arquivos!]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[Pasta do 686 Callouts]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[Pasta de Áudio]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[Arquivos de Áudio]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[Pasta de Traduções]]></TRANSLATIONSFOLDER>
+	</DEPENDENCYCHECK>
+	
+	/// Notificações relacionadas às Estatísticas de Carreira.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[Informações]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[Chamadas]]></CALLS>
+		<FIGHTS><![CDATA[Brigas]]></FIGHTS>
+		<PURSUITS><![CDATA[Perseguições]]></PURSUITS>
+		<ARRESTS><![CDATA[Prisões]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[Falecimentos]]></SUSPECTDEATHS>
+	</STATISTICS>
+	
+	/// Todas as outras notificações.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~Análise comportamental~w~]]></BEHAVIOURALANALYSIS> // Exemplo: "Suspeito parece nervoso."
+		<BEHAVIOURALANALYSIS><![CDATA[O Suspeito parece~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[A Vítima parece~y~ {0}.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~Prevenção de Crashs]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~Caso haja um problema.~w~ Por favor, entre em contato com o suporte.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~Verificação de Distância]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[Desculpe, você estava muito perto para que o chamado iniciasse.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[Culpe o GTAV!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTAV excluiu um de nossos peds! Não havia nada que pudéssemos fazer além de evitar um crash, mas isso não deve acontecer com frequência.]]></INVALIDPED>
+		<DISPATCH><![CDATA[COPOM]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[Diálogo encerrado. Lide com a situação como achar melhor.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[Pressione ~y~{0}~w~ para começar a falar.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[Pressione ~y~{0}~w~ a qualquer momento para encerrar o chamado.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[Informação]]></INFORMATION>
+		<CODE4><![CDATA[~g~QTA.~w~ Viatura em QRV novamente.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[Atualização da Perseguição]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[Acredita-se que o suspeito é o ~y~{0}~w~.]]></PURSUITUPDATE> // Exemplo: "Central acredita que o suspeito é Bob Peterson."
+		<PURSUITUPDATE><![CDATA[Acredita-se que o suspeito é o ~y~{0}~w~ que tem ~y~{1}~w~ multa(s) registradas.]]></PURSUITUPDATE> // Exemplo: "Central acredita que o suspeito é Bob Peterson que tem 3 multa(s) no passado."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[Acredita que o suspeito é um ~y~masculino~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[Acredita que o suspeito é ~y~feminino~w~.]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[Acredita-se que o suspeito é ~y~{0}~w~ que foi parado ~y~{1}~w~ vez(es) no passado.]]></PURSUITUPDATE> // Exemplo: "Central acredita que o suspeito é Bob Peterson que foi parado 2 vez(es) no passado."
+		<PURSUITUPDATE><![CDATA[~y~Não temos detalhes~w~ sobre o suspeito.]]></PURSUITUPDATE> // Central não sabe nada sobre o suspeito.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[COPOM]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[Ligação 190]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[QRU: ~b~{0}~n~~w~QTH: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL>

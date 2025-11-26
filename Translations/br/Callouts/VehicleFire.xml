@@ -1,0 +1,61 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Veículo em Chamas]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para aceitar a ocorrência.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~y~Solicitante encerrou a chamada~w~. Adicionamos no seu ~g~GPS~w~ a localização. Desloque com Urgência até o QTH.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[Um ~r~Veículo roubado~w~ foi encontrado ~o~em chamas~w~. Desloque ao QTH com Urgência.]]></FURTHERINFORMATION>
+	
+			<NOTIFICATION><![CDATA[No local, tudo sob-controle. Pressione ~y~{0}~w~ para marcar em seu GPS o endereço do proprietário do veículo.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[Pergunte ao ~p~proprietário~w~ do ~y~{0}~w~ quem mora perto.]]></NOTIFICATION>
+			<NOTIFICATION><![CDATA[O fogo do veículo foi extinto. Requisitando o proprietário.]]></NOTIFICATION>
+
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, creio que já está ciente do ocorrido!.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Ah, droga. Não, o que aconteceu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Infelizmente, hoje cedo, recebemos via 190 uma ocorrência, junto ao 193, que um veículo estava em chamas, registrado em seu nome! Ele foi roubado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Sim... não acredito. Estou em choque. Então ele foi incendiado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Exatamente, tenho algumas informações: Você deverá ser bem claro(a) e fornecer todas as informações possíveis.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Muito obrigado por tudo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Bom lhe ouvir, precisando, pode contatar-nos via 190. Desejo uma boa sorte com os próximos tramites do veículo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, tudo bem? Trago algumas informações para você.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Ah meu Deus. É sobre meu veículo?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Mais cedo hoje, um veículo foi visto em chamas. Lamento informar que esse era o seu veículo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Isso é chocante. O que aconteceu com ele? ficou totalmente destruído?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Neste momento, sabemos que ele está parcialmnente destruído. Aqui estão alguns detalhes e medidas que você deve tomar agora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Vítima:~w~ Bem, obrigado. Meu seguro vai resolver.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Ok, certo. Espero que tenha compreendido, e caso precise, ligue 190.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Com licença? Olá, preciso falar com você.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~y~Vítima:~w~ Oi, o que está acontecendo?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ É sobre o seu veículo. Hoje mais cedo, atendemos a uma ocorrência envolvendo um carro em chamas. Rastreamos você como o proprietário registrado e queríamos te informar.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~y~Vítima:~w~ Sério? Tem certeza de que era meu veículo? Não acredito! Achei que ele tinha sido roubado, não queimado completamente.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Ainda não sabemos a causa, mas estamos investigando. De qualquer forma, aqui estão alguns documentos que você deve ler sobre os próximos passos. Aqui estão.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~y~Vítima:~w~ Obrigado. Tudo isso aconteceu tão rápido. Estou abalado(a). Eu perdi meu carro, Isso é muito angustiante.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Com certeza. Bom, se tiver mais dúvidas, não hesite em entrar em contato.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá. Como posso ajudar você?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informante:~w~ Escute, não tenho muito tempo, mas há algo que preciso te contar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Desculpe, quem é você?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informante:~w~ Não me faça perguntas. Um veículo vai ser incendiado, agora mesmo. Preciso que você vá até lá agora!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Onde? E por que está me contando isso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informante:~w~ Enviei a localização para o seu celular. Alguém que conheço cometeu um erro... está tentando se vingar da pessoa errada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Quem são essas pessoas que você continua mencionando? E por que estão incendiando o veículo de alguém?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informante:~w~ Erros... eles cometeram um erro.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Vamos com calma. Preciso de mais contexto.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Informante:~w~ Já falei demais... droga...]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

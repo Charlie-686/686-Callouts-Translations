@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Atividade Suspeita]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Dirija-se ao marcador em ~y~{0}~w~ e forneça uma ~b~presença policial~w~ na área designada.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Estacione a viatura e fique observando caso ocorra alguma ~o~atividade suspeita~w~.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[Uma ~r~bolsa suspeita~w~ foi encontrada!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Tente ~o~desativar~w~ a bomba localizando e trazendo a ~r~pessoa que soltou ela ai~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você ~r~localizou o suspeito~w~. Algeme-o e faça ele entregar o ~g~código de desativação da bomba.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Você ~g~recebeu o codigo de desativação~w~. Vá até a ~r~bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para ~r~desativar a bomba~w~ com o código fonercido pelo suspeito.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para ~r~defusar a bomba~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Digite o código fornecido, são números entre 1 á 9.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Digite o código fornecido.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Código errado. Erro de desativação~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Bomba defusada~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Digite o novo código: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Código inválido.~w~ Por favor, digite números entre ~y~1~w~ e ~y~9~w~.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[A bomba foi desativada sem nenhum ~g~incidente~w~. Voltando ao patrulhamento.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

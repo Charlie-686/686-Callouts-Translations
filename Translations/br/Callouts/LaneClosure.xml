@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Controle de Tráfego]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um ~y~Motorista de Guincho~w~ está solicitando o ~o~fechamento de uma faixa~w~ para poder atender um veículo quebrado na via.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~Feche a via e ~w~ fale com o ~o~Motorista do Guincho~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Mantenha a faixa interditada~w~ e direcione o tráfego para que o ~o~Guincho~w~ consiga reparar o veículo.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~g~veículo foi reparado~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O veículo será ~o~guinchado~w~ já que não foi reparado.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mecânico:~w~ Policial, Já resolvemos isso aqui.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Mecânico:~w~ Desculpe Policial, Não conseguimos consertar! Vou precisar de mais espaço atrás da minha caminhonete, para rebocar o veículo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, tudo bem? como posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Mecânico:~w~ Olá Policial. Eu preciso que você feche essa faixa para que eu consiga de forma segura, reparar o veículo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Sem problemas, vamos lá.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

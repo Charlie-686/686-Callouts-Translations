@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[O Suspeito está vestindo um ~y~]]></PREFIX> // Se necessário, você pode adicionar "TARGET = M/F" aqui.
+	<PREFIX><![CDATA[O Suspeito está usando ~y~]]></PREFIX> // Se necessário, você pode adicionar "TARGET = M/F" aqui.
+	<PREFIX><![CDATA[O Suspeito é um(a) ~y~]]></PREFIX> // Se necessário, você pode adicionar "TARGET = M/F" aqui.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Terno~w~.]]></DESCRIPTION> // Pedestre MASCULINO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Camiseta azul~w~ e é um corredor.]]></DESCRIPTION> // Pedestre MASCULINO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Camisa azul xadrez~w~.]]></DESCRIPTION> // Pedestre FEMININO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[cCasaco de couro~w~.]]></DESCRIPTION> // Pedestre FEMININO.
+	<DESCRIPTION PREFIX = "2"><![CDATA[Trabalhador~w~, vestindo uma ~y~camiseta branca~w~.]]></DESCRIPTION> // Pedestre MASCULINO.
+	<DESCRIPTION PREFIX = "1"><![CDATA[Suspensório~w~.]]></DESCRIPTION> // Pedestre FEMININO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Camisa azul~w~ com ~y~bermuda azul~w~. Suspeito de ser um trabalhador dos correios.]]></DESCRIPTION> // Pedestre MASCULINO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Camisa grande vermelha e boné~w~ com ~y~calças azul-marinho~w~.]]></DESCRIPTION> // Pedestre MASCULINO.
+	<DESCRIPTION PREFIX = "0"><![CDATA[Blazer azul claro e saia de jeans~w~ com uma ~y~camisa vermelha por baixo~w~.]]></DESCRIPTION> // Pedestre FEMININO. 
+</PEDDESCRIPTIONS>

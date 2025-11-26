@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Veículo estacionado em local proibido]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um veículo está parado em uma calçada, ~y~bloqueando a passagem de transeuntes~w~. Vá até o QTH e tente falar com o individuo.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Olá, tudo bem? Você sabe que não é permitido parar encima de calçadas, né?.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Eu não estou me movendo na calçada, apenas estou parado.]]></DIALOGUE>
+   			<DIALOGUE><![CDATA[~b~Você:~w~ Vou precisar que você saia deste local e procure uma vaga adequada.-]]></DIALOGUE>
+		</DIALOGUES>	
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Espere. Está acontecendo alguma coisa?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não, está tudo bem. O que estou fazendo de errado?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Aqui é uma calçada, destinada a pedestres, não veículos. Preciso que procure uma vaga adequada.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Estou esperando uma pessoa, ela já deve estar chegando em 2 minutos, no máximo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Estou ordenando-lhe que saia agora deste local, espero não precisar multa-lo e apreender seu veículo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ok, me desculpe! Irei procurar um local adequado.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Olá. Você está estacionado encima de uma calçada. Você Sabe que não pode, né?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sim, mas estou apenas esperando uma pessoa. Posso ficar?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Negativo. Não é permitido estacionar encima de calçadas.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ E onde posso estacionar? Não achei vagas.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Um estacionamento ou algo parecido, há vários por perto.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Entendi, vou procurar, perdão por ter parado aqui.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~Pacotes de maconha embalados]]></OTHER>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Olá, tudo bem? Por que você está estacionado aqui?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Olá, estou esperando um cliente para fazer uma entrega.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Entregando o quê?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah, umas compras que foram feitas pelo telefone, através de um cliente antigo, nosso.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você:~w~ Certo, mas estacionar encima de uma calçada, não é permitido pela lei. Procure outro local!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Eu sei, Policial. Mas vai ser rápido, é uma entrega valiosa. Assim que entregar, eu saio!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

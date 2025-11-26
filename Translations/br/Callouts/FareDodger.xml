@@ -1,0 +1,112 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Um Indivíduo furou a catraca do metrô]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~Funcionários da estação~w~ solicitaram sua ajuda; eles precisam que você aborde alguém que pode ter se~y~evadido do pagamento da passagem no metrô.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Fale com o ~y~suspeito de evasão da tarifa.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~Bilhete válido~w~]]></OTHER>
+		<OTHER><![CDATA[~r~Bilhete falso~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[Uma estação próxima me informou que a pessoa pulou as catracas lá. Impressionante, mas é uma infração criminosa.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Com licença, poderia esperar aí por um minuto?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Seja rápido, tenho um trem para pegar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Conversei com um agente da fiscalização e ele disse que você pulou as catracas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Meu Deus. Isso não é nada demais. Não tenho dinheiro comigo, dá pra relevar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ É infração usar o trem sem pagar a passagem. Vou te aplicar uma multa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Então manda logo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Aqui está. Agora você pode usar o trem, já que vai pagar a multa. Mas da próxima vez, pague como todo mundo.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Essa multa é cara, não acredito. Acho que devia ter comprado o bilhete mesmo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[Notei um bilhete que alguém estava usando; parecia estranho, tenho a impressão de que pode ser falso. É lamentável que isso esteja se tornando cada vez mais comum.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, poderia ficar aí para mim, por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, policial. Como posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fomos chamados pela equipe da estação, eles querem saber como você passou pelas catracas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Bem, eu tenho um bilhete, foi assim que entrei.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi. Posso dar uma olhada nele, por favor?]]></DIALOGUE>		
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah, claro. Só não vejo por que você precisa disso.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Aqui diz que o bilhete expirou há uma semana. Sabe me dizer por que isso aconteceu?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não acredito, sério? Não faço ideia de como isso aconteceu.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Não venha bancar de esperto comigo. Você usou um bilhete vencido de propósito. Vou te aplicar uma multa.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sinceramente, faça algo útil da sua vida. Me dá logo essa multa que eu tô indo embora.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Aqui está.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Muito obrigado por isso. Você acabou com o meu dia.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[Meu colega em outra estação informou pelo rádio que a pessoa pode não estar com um bilhete. Infelizmente, ele não estava acompanhando as câmeras no momento.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, poderia ficar aí para mim, por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, polical. Como posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fui solicitado a verificar se você está com um bilhete.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Sei lá, será que estou?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Isso não é brincadeira. Preciso de uma resposta honesta, por favor.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah, pelo amor de Deus! Vai atrás de criminoso, não de quem só quer pegar só um trem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Vou perguntar mais uma vez: você está com um bilhete?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Você não tem nada melhor pra fazer, né? Me deixa pegar esse trem maldito. Ele já vai chegar mesmo.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[Fale com o ~r~suspeito de vender bilhetes falsos.~w~]]></NOTIFICATION>
+		<OTHER><![CDATA[Dei uma olhada rápida em um bilhete que alguém estava usando, não parecia legítimo. Acho que é falso.]]></OTHER>
+		<OTHER><![CDATA[~r~Bilhetes falsos~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Com licença, preciso conversar com você.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, policial. Como posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fomos chamados pelos funcionários da estação. Eles querem saber como você passou pelas catracas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Bem, eu tenho um bilhete. Foi assim que entrei.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi. Posso dar uma olhada nele, por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, aqui está.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Esse bilhete é falso. Dá pra ver pelas marcas na lateral. Por que está usando isso?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Na entrada da estação, alguém estava vendendo. Custava pelo menos metade do valor de um bilhete normal.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi. Então você comprou dele por esse preço mais barato?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Comprei sim. Olha, aqui está minha identidade. Eu não sou criminoso(a), de verdade.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Obrigado. Vou ver se consigo localizar essa pessoa que você mencionou.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Espere um minuto. Precisamos conversar.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Mais um dia, mais um policial se metendo na minha vida. O que foi agora?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Temos suspeitas de que você está vendendo bilhetes falsos.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Vou te revistar, Fique aí onde está.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Minhas mãos estão levantadas!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[Recebemos pelo rádio que uma pessoa aparentemente entrou sem usar bilhete.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Olá, poderia ficar aí para mim, por favor?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Claro, policial. Como posso ajudar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Fomos chamados pela equipe da estação, eles querem saber como você passou pelas catracas.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Como todo mundo, com meu bilhete de trem.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Se importa se eu der uma olhada nele?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~Suspeito:~w~ Ah, claro. Só não vejo por que seria tão necessário, mas tudo bem, aqui está.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Parece que está tudo certo. Tenha uma boa viagem!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ Que bom vê-lo, policial. Obrigado por chegar tão rápido.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Sem problema algum, poderia me dar mais detalhes sobre a situação?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendi. Nada bom, para dizer o mínimo. Onde ele estaria agora?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ Nenhum trem passou ainda, então provavelmente ele ainda está na plataforma de embarque.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Obrigado pela ajuda, vou até lá.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ Desculpe chamar por algo tão trivial, agradeço a sua ajuda.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Sem problema algum, poderia me dar mais detalhes sobre a situação?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Certo, parece que temos um fura-catraca por aqui. Onde ele poderia estar?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~Encarregado da Estação:~w~ Deixe-me pensar. Deve estar na plataforma, é o único lugar possível, já que o trem ainda não passou.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Você:~w~ Entendido, vou verificar lá primeiro!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

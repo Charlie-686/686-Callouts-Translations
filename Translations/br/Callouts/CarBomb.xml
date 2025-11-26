@@ -1,0 +1,34 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Carro Bomba]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Pressione ~y~{0}~w~ para tentar ~y~desarmar a bomba.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O Veículo irá ~explodir a qualquer momento~w~.~n~Mantenha ~y~as pessoas longe do veículo~w~, ou ~y~finalize a ocorrência~w~, passe para outra equipe, o mais rápido possível.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Sucesso!.~w~~n~a bomba foi desarmada. Pressione END para finalizar a ocorrência.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Erro!.~w~~n~a bomba não foi desarmada. ~y~Evacue todo mundo da área~w~ imediatamente.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[A inteligência relatou uma ~r~bomba em um carro.~n~~w~Desloque ao QTH ~y~com urgência.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[O suspeito está ~y~fugindo~w~ em seu veículo e, está ~y~com uma bomba.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O veículo ~r~pode explodir a qualquer momento~w~.~n~Mantenha ~y~os civis fora do caminho do veículo~w~, ou ~y~finalize a ocorrência~w~, passe para outra equipe, o mais rápido possível.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~Detonador de Bomba]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[A inteligência relatou uma pessoa mentalmente instável com uma ~r~bomba em um carro.~n~~w~Responda à cena ~y~com urgência.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[~r~Detonador de Bomba~w~, ~y~Fiação]]></OTHER>
+		<DIALOGUES>
+		    <DIALOGUE><![CDATA[~r~Suspeito:~w~ Eu me rendo! Pode me prender, policial!]]></DIALOGUE>
+		    <DIALOGUE><![CDATA[~r~Suspeito:~w~ Policial... me desculpe por ter que terminar assim...]]></DIALOGUE>
+		</DIALOGUES>	
+	</OUTCOME1>
+	<OUTCOME2>
+   		<FURTHERINFORMATION><![CDATA[A inteligência relatou uma ~r~bomba em um carro.~n~~w~Desloque ao QTH ~y~com urgência.]]></FURTHERINFORMATION>
+   		<NOTIFICATION><![CDATA[A bomba que estava no carro, ~y~foi detonada.~n~~w~Vítimas relatadas: ~r~{0} pessoa(s).]]></NOTIFICATION>
+   		<OTHER><![CDATA[~y~Fiação~w~,~r~Explosivos]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[A inteligência relatou uma ~r~bomba abandonada em um carro.~w~~n~Desloque ao QTH ~y~com urgência e, ~y~desative a bomba.~w~]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[~y~Chaves do carro~w~, ~r~Bomba]]></OTHER>		
+	</OUTCOME3>
+</CALLOUT>
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Escolta de Preso]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[Um ~y~prisioneiro~w~ precisa ser ~y~escoltado~w~, vá atÉ ~y~{0}~w~. Os políciais estão aguardando sua chegada.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~Informações da Escolta:~w~~n~ Você irá transportar ~y~{0}~w~, que {1}.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[Delegacia de Polícia de Mission Row]]></OTHER>
+		<OTHER><![CDATA[Penitenciária de Bolingbroke]]></OTHER>
+		<OTHER><![CDATA[O mesmo Lidera um~r~ grupo criminoso organizado~w~ envolvendo policiais corruptos.]]></OTHER>
+		<OTHER><![CDATA[É um ~y~chefão de máfia~w~ notório, aguardando julgamento, com risco de ser alvo de uma facção rival.]]></OTHER>
+		<OTHER><![CDATA[É um ex-policial que virou um ~y~informante corrupto~w~, com conexões no mundo do crime.]]></OTHER>
+		<OTHER><![CDATA[É um ~y~barão das drogas~w~ ligado à maior operação de narcóticos do Brasil.]]></OTHER>
+		<OTHER><![CDATA[É um ~y~cybercriminoso~w~, atualmente cumprindo pena de prisão.]]></OTHER>
+		<OTHER><![CDATA[Controla ~y~negociações ilegais de armas~w~ e foi preso recentemente.]]></OTHER>
+		<OTHER><![CDATA[É um ~y~faccionado~w~. Há risco de que tentem resgatá-lo.]]></OTHER>
+		<OTHER><![CDATA[Criou uma ~y~facção de rua violenta~w~, enfrentando retaliação de uma facção rival.]]></OTHER>
+		<OTHER><![CDATA[Fez parte de uma ~y~rede notória de tráfico de drogas~w~, recentemente desmantelada pelas autoridades]]></OTHER>
+		<OTHER><![CDATA[Montou um ~y~esquema global de lavagem de dinheiro~w~]]></OTHER>
+		<NOTIFICATION><![CDATA[Quando estiver pronto, ~y~lidere o comboio~w~ e siga a ~r~rota planejada~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Recebemos visual de um ~y~veículo suspeito~w~ que está seguindo nossa escolta. Esteja em alerta.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Há uma ~r~barreira na estrada~w~ à frente! Proteja o comboio.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Um ~y~veículo suspeito~w~ está por perto. Verifique seu MAPA!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~y~prisioneiro~w~ foi ~r~morto~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Novo Objetivo:~w~~n~ Sobreviva, restaure a ordem e prenda os inimigos restantes!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~Nível de Perigo da Escolta:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~BAIXO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~MÉDIO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~ALTO]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O ~y~motorista~w~ do camburão ~r~morreu~w~! Você precisará ~y~dirigir o veículo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escolta ~r~falhou~w~. O ~y~prisioneiro~w~ foi ~r~morto~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Escolta ~g~bem-sucedida~w~. O ~y~prisioneiro~w~ foi ~g~mantido vivo~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[A escolta está ~b~presa~w~? Pressione ~y~{0}~w~ a qualquer momento para reiniciá-la.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

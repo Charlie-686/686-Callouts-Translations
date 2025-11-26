@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Ataque de Facções]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um ataque de facções está ocorrendo em ~y~{0}~w~. Contenha os ~r~indivíduos~w~ para evitar mais percas de vidas.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Um ~y~veículo suspeito~w~ está se aproximando da sua localização. Proteja a área!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Atenção: ~y~{0}~w~ indivíduo(s) suspeito(s) estão se dirigindo ao local dos ataques das facções.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

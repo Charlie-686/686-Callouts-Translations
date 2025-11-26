@@ -1,0 +1,48 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protesto em via Pública]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Um ~r~protesto em andamento está~w~ bloqueando uma via. Aguarde mais informações.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[O protesto agora escalou o nível, com ~r~violência.~n~~y~Desloque com urgência.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Fiscalize o protesto~w~ até que finalize. Certifique-se de que tudo irá ocorrer de forma passiva.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O protesto ocorreu ~g~passivamente~w~ e está finalizando.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[O protesto segue em andamento. Por favor, Procure o ~o~líder do protesto.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Os manifestantes estão ~g~deixando o local~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Curioso:~w~ Policial, isso é ridículo! Precisamos que o trânsito volte a fluir!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Curioso:~w~ Eles estão bloqueando a via! Remova-os! Isso é perigoso.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Curioso:~w~ Policial, eu já disse pra tirar eles do caminho!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Curioso:~w~ Manifestantes que bloqueiam a via podem morrer em possíveis atropelamentos!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~r~Suspeito: ~w~Policial, você está se juntando à causa?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Sobre o que é esse protesto?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito: ~w~Acreditamos que as mudanças climáticas estão destruindo nosso país — e o governo precisa toamr decisões, agora!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Sinto muito, vocês precisam desobstruir a via. Se estiver protestando bloqueando uma via, é necessário obter autorização antes.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Mas, por quê? Estamos protestando por uma boa causa!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Este protesto não foi autorizado. Você não pode simplesmente vir aqui e bloquear uma via.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Eu avisei os outros sobre isso... mas eles não ouviram. Vou dizer que precisamos ir embora.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Obrigado. e Por favor, reúna suas coisas para que o tráfego possa voltar ao normal.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Certo. Pessoal, o protesto acabou. Vamos embora, entrem nos carros!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+    		<DIALOGUE><![CDATA[~r~Suspeito: ~w~Olha só quem veio apoiar nosso protesto!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Por que estão protestando?]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito: ~w~Os preços dos alimentos estão altíssimos e estamos cansados disso! Vamos passar fome!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Este protesto não pode acontecer aqui, vocês estão colocando a segurança pública em risco.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Não estamos interessados em sair, policial. Essa é uma causa justa!]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~b~Você: ~w~Preciso que saiam, vocês estão no local incorreto para protestar. Deveriam ir a frente da sede do Governo.]]></DIALOGUE>
+    		<DIALOGUE><![CDATA[~r~Suspeito:~w~ Policial, não vamos sair! Vá incomodar outro, nos deixem em paz.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
