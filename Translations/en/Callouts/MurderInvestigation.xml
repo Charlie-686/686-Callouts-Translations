@@ -1,3 +1,4 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
 <CALLOUT>
 	<GENERAL>
 		<CALLOUTMESSAGE><![CDATA[Murder Investigation]]></CALLOUTMESSAGE>
@@ -102,4 +103,5 @@
 			<DIALOGUE EMOTION="sad"><![CDATA[~y	~Forensics Officer:~w~ I guess we'll cleanup the scene and I'll see you at the next murder investigation.]]></DIALOGUE>
 		</DIALOGUES>
 	</EXTRA>
+
 </CALLOUT>
