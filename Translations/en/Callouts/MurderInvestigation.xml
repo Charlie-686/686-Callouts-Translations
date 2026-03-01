@@ -84,7 +84,7 @@
 			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ Well this is a first! This watch left at the crime scene has some engravings on the back. I can make out a name.]]></DIALOGUE>
 			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ No mobile phone is uncrackable. There was a lot of information to go through but I have found who this phone is registered to.]]></DIALOGUE>
 		</DIALOGUES>
-		<DIALOGUES RADIO="true" AI="true">
+		<DIALOGUES RADIO="true" AI="true"> <!-- For Charlie: use radio as a toggle, not a set. -->
 			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Hi Dispatch, it's Timothy Ifield calling through my job phone. ]]></DIALOGUE>
 			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Hi Dispatch, it's Roz Huntley calling through my job phone. ]]></DIALOGUE>
 			<DIALOGUE EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ I have shared some forensics with you. I need you to send through the details to the investigating officer on scene with me.]]></DIALOGUE>
@@ -105,3 +105,4 @@
 	</EXTRA>
 
 </CALLOUT>
+
