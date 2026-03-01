@@ -1,0 +1,105 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Murder Investigation]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[A ~r~person has been murdered~w~. Head to the scene to ~b~recover evidence~w~ with your team.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~b~Search~w~ the area and press ~y~{0}~w~ to recover evidence.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You recovered evidence: ~n~~r~{0}~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[There was ~r~no evidence~w~ here.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~Finished searching?~w~ ~n~~y~Hold {0}~w~ to resume speaking to the ~b~Forensics Officer~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[This is the identified ~r~suspect~w~.~n~Press ~y~Y~w~ to see this notification again~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You collected ~y~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[You collected ~g~{0}~w~/~g~{1}~w~ items of evidence.]]></NOTIFICATION>
+		<!-- // If all evidence was collected, we'll make the number green! :) -->
+		
+		<OTHER><![CDATA[PISTOL]]></OTHER>
+		<OTHER><![CDATA[ID CARD]]></OTHER>
+		<OTHER><![CDATA[BOTTLE OF WATER]]></OTHER>
+		<OTHER><![CDATA[BALACLAVA]]></OTHER>
+		<OTHER><![CDATA[KNIFE]]></OTHER>
+		<OTHER><![CDATA[WATCH]]></OTHER>
+		<OTHER><![CDATA[MOBILE PHONE]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Visit the ~o~suspect address~w~ and attempt to apprehend the ~r~suspect~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Locate the ~r~suspect~w~ who's travelling ~y~on foot~w~ nearby.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Head to the ~r~emergency call~w~ and see if it is the ~y~same suspect~w~ as your murder case.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Catch up to the ~r~suspect vehicle~w~ that is hitting ~b~ALPR cameras~w~.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[Head to the ~b~subway~w~ and locate the ~r~suspect~w~ before they escape.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Speak to the ~b~Forensics Officer~w~ to begin the ~y~investigation~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~Forensics Officer:~w~ Officer. We’ve secured the immediate area. One confirmed deceased. No signs of medical intervention.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. What’s the initial assessment?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Forensics Officer:~w~ Visible trauma suggests a deliberate attack. We won’t speculate further until evidence supports it.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Scene contamination?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~Forensics Officer:~w~ Minimal so far. Camera tech is documenting the body. I want the wider area searched before anything shifts.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~You want a grid sweep?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~Forensics Officer:~w~ Correct. Start close to the body and expand outward. Anything out of place — weapons, fabric, personal items — bag it.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Bring items back as I find them?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Forensics Officer:~w~ Negative. Complete the sweep first. Once you’ve recovered everything you can find, bring it all back to me together. I’ll process it in one run from the van.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Understood. Anything else?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ No confirmation the suspect’s gone. Keep your head up while you search. Let the evidence tell us what happened.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Alright. I’ll conduct the full sweep and report back.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Glad you’re here. This one’s not pretty. One body, multiple injuries. Someone meant this.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Any idea how long they’ve been down?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~Forensics Officer:~w~ Too early to say. What matters is whatever was used is probably still out there — or close.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~You thinking the weapon’s nearby?]]></DIALOGUE>
+			<DIALOGUE EMOTION="determined"><![CDATA[~y~Forensics Officer:~w~ Most offenders don’t carry souvenirs unless they panic. Start near the body and work outward. Slow and careful.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~What am I looking for specifically?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Anything that doesn’t belong. Blade, blunt object, discarded clothing, dropped property. If it feels wrong, bag it — but finish the search before you come back.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~So complete the grid, then return everything at once?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~Forensics Officer:~w~ Exactly. Once you’ve recovered all potential evidence, bring it to me together. I’ll run a full field analysis from the van. If there’s usable DNA or trace, we move fast.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Copy that. I’ll secure the entire scene first.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~y~Forensics Officer:~w~ Good. Thorough beats fast. Let’s give this victim a voice.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~You: ~w~Beginning the full search now.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[Performing ~b~Forensic Analysis~w~: ~g~{0}%~w~~n~~r~{1}~w~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Forensics Officer:~w~ You've given me no evidence, so this murder investigation cannot continue.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~Forensics Officer:~w~ Why bother turning up if you aren't going to do a good job?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="excited"><![CDATA[~y~Forensics Officer:~w~ Well this is exciting. Let me take a look at this evidence and tell you what I find.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ I've been able to lift a serial number from the pistol. I can see who this firearm is registered to on the system.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ This ID card was very helpful. Good find. I can tell you exactly who it belongs to.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ You made this tricky for me, but I have swabbed the water bottle. You wouldn't believe it - I've got a DNA match.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ Looking at the fibre on the balaclava, I was able to run a match on some hair that was caught. Let's find out who this is.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ You should never use a knife, they're covered in fingerprints. I can tell you who held this.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ Well this is a first! This watch left at the crime scene has some engravings on the back. I can make out a name.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~Forensics Officer:~w~ No mobile phone is uncrackable. There was a lot of information to go through but I have found who this phone is registered to.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true" AI="true">
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Hi Dispatch, it's Timothy Ifield calling through my job phone. ]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ Hi Dispatch, it's Roz Huntley calling through my job phone. ]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Forensics Officer:~w~ I have shared some forensics with you. I need you to send through the details to the investigating officer on scene with me.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Dispatch:~w~ All received at the lab. Sending these through now.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ We've got an address related to this individual. You need to check it out.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ We've managed to intercept the location of this individual. Get there now.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ We've had an emergency call come in, someone reportedly at gunpoint nearby. Crap, this could be the same person - get there now!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ I have an ALPR hit on the vehicle about 30 seconds ago. You need to apprehend them.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ It looks like this individual has used a subway ticket recently, they're on the move.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Forensics Officer:~w~ I'm sorry officer, I couldn't link any of this evidence to an individual.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~Forensics Officer:~w~ Sometimes we can find evidence but the suspects have been smart: from wearing gloves to untraceable firearms.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y	~Forensics Officer:~w~ I guess we'll cleanup the scene and I'll see you at the next murder investigation.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>
