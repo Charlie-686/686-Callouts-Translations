@@ -13,7 +13,7 @@ If you are contributing to a new language, you will also need to create a new fo
 
 ## Noticed a callout that isn't in the public version of 686 Callouts?
 That probably doesn't require a translation - because it is part of the [Ko-Fi AI Voices Early Access](https://ko-fi.com/686).<br>
-The following callouts are early access only (as of the 10th July 2025):
+The following callouts are early access only (as of the 11th February 2026):
 - Domestic Disturbance
 - Missing Person
 - Sting Operation
@@ -21,3 +21,4 @@ The following callouts are early access only (as of the 10th July 2025):
 - Property Checkup
 - SWAT Raid
 - Structure Fire
+- Murder Investigation
